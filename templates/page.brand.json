@@ -1,0 +1,166 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "pxs_image_with_text_overlay_dUWd4e": {
+      "type": "pxs-image-with-text-overlay",
+      "settings": {
+        "section_height": "medium",
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-07-11_at_4.39.04_PM.png",
+        "title": "Brands We Trust",
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <\/p>",
+        "content_position": "center-center",
+        "color": "#ffffff",
+        "overlay_background": "#000000",
+        "overlay_opacity": 50,
+        "link": "",
+        "button_text": ""
+      }
+    },
+    "dynamic_collection_list_BMTFTh": {
+      "type": "dynamic-collection-list",
+      "blocks": {
+        "collection_qc63rh": {
+          "type": "collection",
+          "settings": {
+            "collection": "carson",
+            "title": ""
+          }
+        },
+        "collection_kpXUg7": {
+          "type": "collection",
+          "settings": {
+            "collection": "federal-signal",
+            "title": ""
+          }
+        },
+        "collection_QbmMgh": {
+          "type": "collection",
+          "settings": {
+            "collection": "feniex",
+            "title": ""
+          }
+        },
+        "collection_NW7mbt": {
+          "type": "collection",
+          "settings": {
+            "collection": "havis",
+            "title": ""
+          }
+        },
+        "collection_xKEpwX": {
+          "type": "collection",
+          "settings": {
+            "collection": "nova",
+            "title": ""
+          }
+        },
+        "collection_feGHQV": {
+          "type": "collection",
+          "settings": {
+            "collection": "prioritystart",
+            "title": ""
+          }
+        },
+        "collection_bMQNtr": {
+          "type": "collection",
+          "settings": {
+            "collection": "pro-gard",
+            "title": ""
+          }
+        },
+        "collection_WbHBVz": {
+          "type": "collection",
+          "settings": {
+            "collection": "setina",
+            "title": ""
+          }
+        },
+        "collection_4dNaBB": {
+          "type": "collection",
+          "settings": {
+            "collection": "soundoff-signal",
+            "title": ""
+          }
+        },
+        "collection_BywgV9": {
+          "type": "collection",
+          "settings": {
+            "collection": "speed-turtle",
+            "title": ""
+          }
+        },
+        "collection_w8BhLA": {
+          "type": "collection",
+          "settings": {
+            "collection": "star-svp",
+            "title": ""
+          }
+        },
+        "collection_txLFQM": {
+          "type": "collection",
+          "settings": {
+            "collection": "streamlight",
+            "title": ""
+          }
+        },
+        "collection_Uk3HXB": {
+          "type": "collection",
+          "settings": {
+            "collection": "strobes-n-more",
+            "title": ""
+          }
+        },
+        "collection_aixae4": {
+          "type": "collection",
+          "settings": {
+            "collection": "tomar",
+            "title": ""
+          }
+        },
+        "collection_LjMh7x": {
+          "type": "collection",
+          "settings": {
+            "collection": "whelen-products",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_qc63rh",
+        "collection_kpXUg7",
+        "collection_QbmMgh",
+        "collection_NW7mbt",
+        "collection_xKEpwX",
+        "collection_feGHQV",
+        "collection_bMQNtr",
+        "collection_WbHBVz",
+        "collection_4dNaBB",
+        "collection_BywgV9",
+        "collection_w8BhLA",
+        "collection_txLFQM",
+        "collection_Uk3HXB",
+        "collection_aixae4",
+        "collection_LjMh7x"
+      ],
+      "settings": {
+        "title": "",
+        "thumbnail_columns_desktop": 5,
+        "thumbnail_columns_mobile": 2,
+        "image-crop": "original",
+        "cta_label": "",
+        "cta_link": "",
+        "cta_button_style": "secondary"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "pxs_image_with_text_overlay_dUWd4e",
+    "dynamic_collection_list_BMTFTh"
+  ]
+}

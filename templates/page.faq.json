@@ -1,0 +1,275 @@
+{
+  "sections": {
+    "main": {
+      "type": "static-faq",
+      "settings": {
+      }
+    },
+    "dynamic-faq": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_1": {
+          "type": "category",
+          "settings": {
+            "heading": "Pre-Order",
+            "show_category_card": true
+          }
+        },
+        "question_1": {
+          "type": "question",
+          "settings": {
+            "question": "Does your website offer stock?",
+            "answer": "<p>Our website does not currently offer real-time stock availability. If you’d like to know if an item is in stock, please call 401-454-4487 or email sales@strobesnmore.com.  <\/p>",
+            "icon": "none"
+          }
+        },
+        "question_2": {
+          "type": "question",
+          "settings": {
+            "question": "What is the latest time I can place an order for expedited shipping?",
+            "answer": "<p>We can guarantee that all in stock items that have expedited shipping will ship if the order is placed by 1pm. We cannot guarantee it will ship if it is placed after that time. It is always best to contact us before placing an expedited order to ensure the item is in stock. You can email <strong>sales@strobesnmore.com <\/strong>or <strong>401-454-4487<\/strong><\/p>",
+            "icon": "none"
+          }
+        },
+        "category_2": {
+          "type": "category",
+          "settings": {
+            "heading": "Post-Order",
+            "show_category_card": true
+          }
+        },
+        "question_4": {
+          "type": "question",
+          "settings": {
+            "question": "How do I get a copy of my invoice?",
+            "answer": "<p>Email <strong>sales@strobesnmore.com <\/strong>and we will be able to send you a PDF copy of your invoice.<\/p>",
+            "icon": "none"
+          }
+        },
+        "question_5": {
+          "type": "question",
+          "settings": {
+            "question": "I placed an order, but why didn't I receive an email?",
+            "answer": "<p>Email <strong>sales@strobesnmore.com <\/strong>and we will be able to send you a PDF copy of your invoice.<\/p>",
+            "icon": "none"
+          }
+        },
+        "question_6": {
+          "type": "question",
+          "settings": {
+            "question": "When will my order ship?",
+            "answer": "<p>We try to ship all orders as fast as possible. Please allow 5-10 business days for all in stock items to ship. Special order\/made to order items could have a longer lead time. If you have any questions about lead times please email <strong>sales@strobesnmore.com<\/strong><\/p>",
+            "icon": "none"
+          }
+        },
+        "category_3": {
+          "type": "category",
+          "settings": {
+            "heading": "Installs",
+            "show_category_card": true
+          }
+        },
+        "question_7": {
+          "type": "question",
+          "settings": {
+            "question": "Where can I find install guides?",
+            "answer": "<p>Up to date install guides can be found on the associated product page. <\/p>",
+            "icon": "none"
+          }
+        },
+        "question_8": {
+          "type": "question",
+          "settings": {
+            "question": "How can I get a quote for an install?",
+            "answer": "<p>Please visit our installations page for details about pricing, scheduling, and other relevant info.<\/p>",
+            "icon": "none"
+          }
+        },
+        "question_9": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to provide answers for your most commonly asked questions.<\/p>",
+            "icon": "none"
+          }
+        },
+        "category_UtLejM": {
+          "type": "category",
+          "settings": {
+            "heading": "Returns\/Exchanges\/Warranties",
+            "show_category_card": true
+          }
+        },
+        "question_LxEW48": {
+          "type": "question",
+          "settings": {
+            "question": "I installed my lights and realized I ordered the wrong color can I return them? ",
+            "answer": "<p>No, any product that has been installed or used in any way will not be accepted for return. Any product not in its original packaging or with rips or tears also will not be accepted.<\/p>",
+            "icon": "none"
+          }
+        },
+        "question_zF8GjD": {
+          "type": "question",
+          "settings": {
+            "question": "Can I return or exchange my order? ",
+            "answer": "<p>Full refund if item is returned within first 14 days, after that there is a 20% restocking fee. We will not accept returns that are over 30 days. We have a 30 day return window. <strong>Special order\/made to order\/garage sale\/final sale items cannot be returned.<\/strong><\/p>",
+            "icon": "none"
+          }
+        },
+        "question_EdF3qD": {
+          "type": "question",
+          "settings": {
+            "question": "How do I return an item for a full refund? ",
+            "answer": "<p>We offer a full refund on new, unused, unopened, undamaged, resalable products in their original packaging as long as it arrives at our facility within 14 days of receipt. To make a return, simply email returns@strobesnmore.com and return form will be sent to you automatically. <a href=\"https:\/\/www.strobesnmore.com\/assets\/images\/RETURNEXCHANGEFORM.pdf\" target=\"_blank\">You may also directly start the process by downloading our Return\/Exchange Form<\/a>, filling it out and sending it back with your item. <strong>Any item that has been installed or used in any way cannot be returned. All packaging must be as received without rips or tears. Please pack product box within a separate box. No markings or return codes are to be written on the original product box. Any items not returned within 14 days of receipt will be charged a 20% restocking fee.<\/strong><\/p>",
+            "icon": "none"
+          }
+        },
+        "question_MaeP6w": {
+          "type": "question",
+          "settings": {
+            "question": "Can I send my item back for an exchange?",
+            "answer": "<p>Yes, to exchange merchandise without placing a new order, simply follow the instructions for a return and note the item required on the return\/exchange form. <strong>Any item that has been installed or used in any way cannot be returned. <\/strong>All packaging must be as received without tears. Please pack product box within a separate box. No markings or return codes are to be written on the original product box. <strong>All special orders, made to order, final sale, and garage sale items cannot be returned, cancelled, or refunded at any point.<\/strong><\/p>",
+            "icon": "none"
+          }
+        },
+        "question_hhHVFP": {
+          "type": "question",
+          "settings": {
+            "question": "How do I exchange an item for a different item?",
+            "answer": "<p>The fastest way to exchange an item is to place an order for the item you want, and send back the item you do not want for a full refund; this ensures the item you are interested in does not sell out and you are not kept waiting for one item to come back before your new item is shipped out.<\/p>",
+            "icon": "none"
+          }
+        },
+        "question_qrRRte": {
+          "type": "question",
+          "settings": {
+            "question": "Can I return a special order\/made to order\/final sale or garage sale item?",
+            "answer": "<p>All special orders, made to order, final sale, and garage sale items cannot be returned, cancelled, or refunded at any point.  <\/p>",
+            "icon": "none"
+          }
+        },
+        "question_UfHz6B": {
+          "type": "question",
+          "settings": {
+            "question": "Am I responsible for the cost of shipping my Return \/ Exchange back to Strobes N' More?",
+            "answer": "<p>Yes. You are responsible for return shipping and assume the risk of loss. We suggest that you use a carrier that provides a tracking number and retain that information for your records. We do not refund original shipping charges.<\/p>",
+            "icon": "none"
+          }
+        },
+        "question_nM6dPT": {
+          "type": "question",
+          "settings": {
+            "question": "How many days do I have to send an item back to Strobes N More?",
+            "answer": "<p>You have 14 days from the date of receipt to return the item to our location to get a full refund.<\/p>",
+            "icon": "none"
+          }
+        },
+        "question_QgFTrd": {
+          "type": "question",
+          "settings": {
+            "question": "What do I need to include when sending an item back to Strobes N' More?",
+            "answer": "<p>Please include the merchandise with original packaging along with all hard ware and installation guides in its original form. You will need to fill out and include the return\/exchange form as well.<\/p>",
+            "icon": "none"
+          }
+        },
+        "question_DLnK3z": {
+          "type": "question",
+          "settings": {
+            "question": "I need my exchange fast, what should I do?",
+            "answer": "<p>The fastest way to exchange an item is to place an order for the item you want and send back the item you do not want for a full refund; this ensures the item you are interested in does not sell out.<\/p>",
+            "icon": "none"
+          }
+        },
+        "question_TaRFrQ": {
+          "type": "question",
+          "settings": {
+            "question": "How long does it take to get credited?",
+            "answer": "<p>Your card will be credited within 2 business days.<\/p>",
+            "icon": "none"
+          }
+        },
+        "question_VcmftE": {
+          "type": "question",
+          "settings": {
+            "question": "What if I do not get my item to you within 14 days of receipt?",
+            "answer": "<p>0-14 days: Full refund<br\/>15-30 days: Refund + 20% restocking fee<br\/>30+ days: Items are non-refundable, non-returnable<\/p>",
+            "icon": "none"
+          }
+        },
+        "question_WHxzeQ": {
+          "type": "question",
+          "settings": {
+            "question": "How do I warranty an item?",
+            "answer": "<p>You will find warranty information for each manufacturer on <a href=\"https:\/\/www.strobesnmore.com\/warranty\">Warranty & Repairs<\/a>. If you have any questions about a warranty, please email <strong>sales@strobesnmore.com<\/strong>.<\/p>",
+            "icon": "none"
+          }
+        },
+        "category_LGihfk": {
+          "type": "category",
+          "settings": {
+            "heading": "Agencies & Dealers",
+            "show_category_card": true
+          }
+        },
+        "question_bXKD8W": {
+          "type": "question",
+          "settings": {
+            "question": "Am I eligible for 30 Day Terms?",
+            "answer": "<p>We offer 30 Day Terms to municipalities and federal agencies. Please email <strong>sales@strobesnmore.com <\/strong>for more information.<\/p>",
+            "icon": "none"
+          }
+        },
+        "question_dcCKxA": {
+          "type": "question",
+          "settings": {
+            "question": "Do you offer a Dealer Program?",
+            "answer": "<p>Yes! If you have any questions regarding the dealer program, please email <strong>dealersales@strobenmore.com <\/strong><\/p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_1",
+        "question_1",
+        "question_2",
+        "category_2",
+        "question_4",
+        "question_5",
+        "question_6",
+        "category_3",
+        "question_7",
+        "question_8",
+        "question_9",
+        "category_UtLejM",
+        "question_LxEW48",
+        "question_zF8GjD",
+        "question_EdF3qD",
+        "question_MaeP6w",
+        "question_hhHVFP",
+        "question_qrRRte",
+        "question_UfHz6B",
+        "question_nM6dPT",
+        "question_QgFTrd",
+        "question_DLnK3z",
+        "question_TaRFrQ",
+        "question_VcmftE",
+        "question_WHxzeQ",
+        "category_LGihfk",
+        "question_bXKD8W",
+        "question_dcCKxA"
+      ],
+      "settings": {
+        "section_width": "wide",
+        "heading": "",
+        "enable_category_cards": true,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic-faq"
+  ]
+}

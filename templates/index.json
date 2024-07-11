@@ -1,0 +1,434 @@
+{
+  "sections": {
+    "dynamic_promo_mosaic": {
+      "type": "dynamic-promo-mosaic",
+      "blocks": {
+        "promotion-1": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/ericsgeneric_red_tow_path.jpg",
+            "title": "Mosaic",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 30
+          }
+        },
+        "promotion-2": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/mdn-durango-1.jpg",
+            "title": "Mosaic",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 30
+          }
+        },
+        "promotion-3": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/a.jpg",
+            "title": "Mosaic",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 30
+          }
+        },
+        "promotion-4": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sentinel-close-up-banner-mobile-us.jpg",
+            "title": "Mosaic",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "promotion-1",
+        "promotion-2",
+        "promotion-3",
+        "promotion-4"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "text_alignment": "top-left",
+        "maintain_aspect_ratio": true,
+        "compress_blocks": false
+      }
+    },
+    "dynamic_collection_list": {
+      "type": "dynamic-collection-list",
+      "blocks": {
+        "collection-1": {
+          "type": "collection",
+          "settings": {
+            "collection": "led-lights",
+            "image": "shopify:\/\/shop_images\/Frame_1.jpg",
+            "title": ""
+          }
+        },
+        "collection-2": {
+          "type": "collection",
+          "settings": {
+            "collection": "sirens-speakers",
+            "image": "shopify:\/\/shop_images\/Frame_2.jpg",
+            "title": "Sirens & Speakers"
+          }
+        },
+        "collection-3": {
+          "type": "collection",
+          "settings": {
+            "collection": "lightbars",
+            "image": "shopify:\/\/shop_images\/Frame_3.jpg",
+            "title": "Lightbars"
+          }
+        },
+        "collection-4": {
+          "type": "collection",
+          "settings": {
+            "collection": "360-beacons",
+            "image": "shopify:\/\/shop_images\/Frame_4.jpg",
+            "title": "360 Beacons"
+          }
+        },
+        "collection-5": {
+          "type": "collection",
+          "settings": {
+            "collection": "switches-controllers-1",
+            "image": "shopify:\/\/shop_images\/Frame_5.jpg",
+            "title": "Switches & Controllers"
+          }
+        },
+        "collection-6": {
+          "type": "collection",
+          "settings": {
+            "collection": "flasher-modules-1",
+            "image": "shopify:\/\/shop_images\/Frame_6.jpg",
+            "title": "Flasher Modules"
+          }
+        },
+        "collection_hkEPqM": {
+          "type": "collection",
+          "settings": {
+            "collection": "vehicle-consoles",
+            "image": "shopify:\/\/shop_images\/Frame_7.jpg",
+            "title": "Vehicle Consoles"
+          }
+        },
+        "collection_VFfdKL": {
+          "type": "collection",
+          "settings": {
+            "collection": "cables-accessories-1",
+            "image": "shopify:\/\/shop_images\/Frame_8.jpg",
+            "title": "Cables & Accessories"
+          }
+        }
+      },
+      "block_order": [
+        "collection-1",
+        "collection-2",
+        "collection-3",
+        "collection-4",
+        "collection-5",
+        "collection-6",
+        "collection_hkEPqM",
+        "collection_VFfdKL"
+      ],
+      "settings": {
+        "title": "",
+        "thumbnail_columns_desktop": 4,
+        "thumbnail_columns_mobile": 3,
+        "image-crop": "original",
+        "cta_label": "",
+        "cta_link": "",
+        "cta_button_style": "primary"
+      }
+    },
+    "dynamic_featured_collection-2": {
+      "type": "dynamic-featured-collection",
+      "blocks": {
+        "title-card": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b.jpg",
+            "text_alignment": "center-center",
+            "pre_heading": "Featured",
+            "heading": "Collection",
+            "text_color": "#ffffff",
+            "show_on_mobile": true,
+            "horizontal_size": "3",
+            "vertical_size": "2",
+            "enable_full_width_on_mobile": false,
+            "cta_label": "See more",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "title-card"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "slideshow",
+        "mobile_layout": "slideshow",
+        "collection": "new-products",
+        "product_count": 7,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
+    },
+    "dynamic_countdown_timer_MdU634": {
+      "type": "dynamic-countdown-timer",
+      "settings": {
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/bg.jpg",
+        "countdown_year": "2024",
+        "countdown_month": "01",
+        "countdown_day": "01",
+        "countdown_hour": "12",
+        "countdown_minute": "30",
+        "countdown_timer_background": true,
+        "countdown_timer_complete": false,
+        "countdown_timer_message": "",
+        "product": "strobes-n-more-millennium-mini-led-lightbar",
+        "title": "Daily deal!",
+        "text": "<p>Limited time only. Amazing prices.<\/p>",
+        "button_link": "",
+        "button_label": "Shop Now",
+        "button_style": "primary",
+        "text_color": "#1d1d1d",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0,
+        "product_card_background_color": "#f7f7f7"
+      }
+    },
+    "dynamic_highlights_banner_UdyCk4": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_EtdzgT": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-delivery",
+            "title": "Fulfillment Capabilities",
+            "text": "",
+            "link": ""
+          }
+        },
+        "highlight_rKGiQH": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-store",
+            "title": "Product Variety",
+            "text": "",
+            "link": ""
+          }
+        },
+        "highlight_jkNCJn": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "Customer Support",
+            "text": "",
+            "link": ""
+          }
+        },
+        "highlight_ULPH3D": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-credit-card",
+            "title": "Secure Payment",
+            "text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_EtdzgT",
+        "highlight_rKGiQH",
+        "highlight_jkNCJn",
+        "highlight_ULPH3D"
+      ],
+      "settings": {
+        "section_spacing": true,
+        "section_width": "full-width",
+        "icon_layout": "center",
+        "color": "#ffffff",
+        "icon_color": "#ffffff",
+        "background_color": "#1b175d",
+        "mobile_layout": "slider"
+      }
+    },
+    "dynamic_blog_posts_WbF3Tb": {
+      "type": "dynamic-blog-posts",
+      "settings": {
+        "title": "Blog posts",
+        "blog": "",
+        "show_date": true,
+        "show_author": true,
+        "show_excerpt": true
+      }
+    },
+    "dynamic_logo_list_K49fPx": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "logo_f3ryAt": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/carson-logo-small.webp",
+            "link": ""
+          }
+        },
+        "logo_hEREwt": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/fedsig-logo-small.jpg",
+            "link": ""
+          }
+        },
+        "logo_TCE3h4": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Feniex_crop.png",
+            "link": ""
+          }
+        },
+        "logo_UHFgKe": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/havis-logo-small.jpg",
+            "link": ""
+          }
+        },
+        "logo_QB8N7y": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/nova-logo-smallb.jpg",
+            "link": ""
+          }
+        },
+        "logo_j3KerA": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Prioritystart-copy.jpg",
+            "link": ""
+          }
+        },
+        "logo_HYrNkh": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/pro-gard-logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_eEy8GY": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Setina-Logo_crop.jpg",
+            "link": ""
+          }
+        },
+        "logo_jcMazA": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/sos-logo-small.jpg",
+            "link": ""
+          }
+        },
+        "logo_QdjCEq": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Spped-turtleCrop.jpg",
+            "link": ""
+          }
+        },
+        "logo_qJdnPp": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Star-svp-copy.jpg",
+            "link": ""
+          }
+        },
+        "logo_8at8Rx": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Streamlight-Logo-Crop.jpg",
+            "link": ""
+          }
+        },
+        "logo_cYQNqV": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/snm-logo-stacked-PRINT.jpg",
+            "link": ""
+          }
+        },
+        "logo_diyiTp": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Tomar-Electronics_Logo_New.jpg",
+            "link": ""
+          }
+        },
+        "logo_WyBBxK": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Whelen-logo.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_f3ryAt",
+        "logo_hEREwt",
+        "logo_TCE3h4",
+        "logo_UHFgKe",
+        "logo_QB8N7y",
+        "logo_j3KerA",
+        "logo_HYrNkh",
+        "logo_eEy8GY",
+        "logo_jcMazA",
+        "logo_QdjCEq",
+        "logo_qJdnPp",
+        "logo_8at8Rx",
+        "logo_cYQNqV",
+        "logo_diyiTp",
+        "logo_WyBBxK"
+      ],
+      "settings": {
+        "title": "Trusted Brands"
+      }
+    }
+  },
+  "order": [
+    "dynamic_promo_mosaic",
+    "dynamic_collection_list",
+    "dynamic_featured_collection-2",
+    "dynamic_countdown_timer_MdU634",
+    "dynamic_highlights_banner_UdyCk4",
+    "dynamic_blog_posts_WbF3Tb",
+    "dynamic_logo_list_K49fPx"
+  ]
+}

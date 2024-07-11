@@ -1,0 +1,79 @@
+{
+  "sections": {
+    "main": {
+      "type": "page-contact",
+      "settings": {
+      }
+    },
+    "dynamic_highlights_banner_raywBj": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_dFq6mg": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-envelope",
+            "title": "Email",
+            "text": "<p><span style=\"text-decoration:underline\">Sales@StrobesNMore.com<\/span><\/p>",
+            "link": ""
+          }
+        },
+        "highlight_bdAbEX": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-cell-phone",
+            "title": "Give Us A Call",
+            "text": "<p>401-454-4487<\/p>",
+            "link": ""
+          }
+        },
+        "highlight_mTgdGK": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-information",
+            "title": "Fax",
+            "text": "<p>401-596-6596<\/p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_dFq6mg",
+        "highlight_bdAbEX",
+        "highlight_mTgdGK"
+      ],
+      "settings": {
+        "section_spacing": true,
+        "section_width": "full-width",
+        "icon_layout": "center",
+        "color": "#4d4d4d",
+        "icon_color": "#4d4d4d",
+        "background_color": "#f8f8f8",
+        "mobile_layout": "slider"
+      }
+    },
+    "pxs_map_88m877": {
+      "type": "pxs-map",
+      "settings": {
+        "section_height": "small",
+        "title": "Location",
+        "content": "<p>81 Tom Harvey Road<br\/>Westerly, RI 02891 USA<\/p>",
+        "text_alignment": "center",
+        "layout": "overlay-center-center",
+        "layout_mobile": "above",
+        "address": "1221 Broad St, Victoria, BC",
+        "api_key": "",
+        "enable_custom_colors": false,
+        "foreground_color": "#292929",
+        "background_color": "#ffffff",
+        "zoom": 2,
+        "overlay_color": "#000000",
+        "opacity": 10
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_highlights_banner_raywBj",
+    "pxs_map_88m877"
+  ]
+}

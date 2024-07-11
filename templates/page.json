@@ -1,0 +1,476 @@
+{
+  "sections": {
+    "pxs_image_with_text_overlay_LQRWFX": {
+      "type": "pxs-image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "section_height": "medium",
+        "image": "shopify:\/\/shop_images\/c.jpg",
+        "title": "Who We Are",
+        "text": "<p>Strobes N' More distributes, installs, and services mission-critical products for law enforcement, fire, EMS, and other emergency vehicle aftermarket suppliers. Founded in the early 1990s and headquartered in Rhode Island, we are one of the oldest eCommerce-based emergency vehicle lighting solutions providers in the industry.<\/p>",
+        "content_position": "center-center",
+        "color": "#ffffff",
+        "overlay_background": "#000000",
+        "overlay_opacity": 50,
+        "link": "shopify:\/\/collections",
+        "button_text": "Shop Now"
+      }
+    },
+    "dynamic_image_with_text_KqcxKf": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/sentinel-close-up-banner-mobile-us.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "About Us",
+        "subheading": "<p>Strobes N' More distributes, installs and services mission-critical products on behalf of the industry’s leading manufacturers to a variety of government and commercial customers.  These include, but are not limited to, law enforcement, fire, EMS, and other emergency vehicle aftermarket suppliers. <\/p><p>The Company, founded in the early 1990s and headquartered in Rhode Island, is one of the oldest eCommerce-based emergency vehicle lighting solutions providers in the industry.  Prior to the advent of the internet, end-users of emergency vehicle lights had limited options when it came to purchasing their equipment.  Today, Strobes N' More stocks product on behalf of virtually every leading manufacturer in the emergency vehicle lighting industry, and also provides installation, repair & service work at its Westerly, RI facility.  We also design and engineer products under the Strobes N' More brand, which serves as a lower-cost option for customers that are more budget-minded.  We pride ourselves on product knowledge, exceptional customer service & satisfaction and industry-leading fulfillment capabilities.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_image_with_text_WAE7cx": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/ericsgeneric_red_tow_path.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Our Services",
+        "subheading": "<p><strong>Product Distribution:<\/strong> We stock products from virtually every leading manufacturer in the emergency vehicle lighting industry.<br\/><br\/><strong>Installation & Repair:<\/strong> Our Westerly, RI facility offers installation, repair, and service work.<br\/><br\/><\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_faq_ghB9TF": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "question_fGVU3y": {
+          "type": "question",
+          "settings": {
+            "question": "Product Distribution",
+            "answer": "<p>We stock products from virtually every leading manufacturer in the emergency vehicle lighting industry.<\/p>",
+            "icon": "icon-delivery"
+          }
+        },
+        "question_mhyjNn": {
+          "type": "question",
+          "settings": {
+            "question": "Installation & Repair",
+            "answer": "<p>Our Westerly, RI facility offers installation, repair, and service work.<\/p>",
+            "icon": "icon-tape-measure"
+          }
+        },
+        "question_TNCgTF": {
+          "type": "question",
+          "settings": {
+            "question": "Custom Solutions",
+            "answer": "<p>We design and engineer products under the Strobes N' More brand, providing budget-friendly options without compromising quality.<\/p>",
+            "icon": "icon-rating-star"
+          }
+        }
+      },
+      "block_order": [
+        "question_fGVU3y",
+        "question_mhyjNn",
+        "question_TNCgTF"
+      ],
+      "disabled": true,
+      "settings": {
+        "section_width": "wide",
+        "heading": "Our Services",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
+    "dynamic_image_with_text_Ata8NR": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/b.jpg",
+        "desktop_height": "400px",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Our History",
+        "subheading": "<p>Founded by Louis Misto, a volunteer paramedic and former Head of the Misquamicut Fire Department, Strobes N’ More was born from firsthand experience with the challenges faced by first responders in procuring emergency vehicle lighting. Louis led the company until late 2023, when ownership transferred to Cole Carrera and Jack Eldridge. Our mission remains unchanged: to provide industry-leading emergency vehicle products and services to our nation’s first responders.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "dynamic_highlights_banner_RJeHjd": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_ntH8DT": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-cell-phone",
+            "title": "Give Us A Call",
+            "text": "<p>401-4-LIGHTS<\/p>",
+            "link": ""
+          }
+        },
+        "highlight_9Yec4T": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "Chat With Us",
+            "text": "<p>Using the icon in the bottom right<\/p>",
+            "link": ""
+          }
+        },
+        "highlight_W8WRcL": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-envelope",
+            "title": "Email Us",
+            "text": "<p>sales@strobesnmore.com<\/p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_ntH8DT",
+        "highlight_9Yec4T",
+        "highlight_W8WRcL"
+      ],
+      "settings": {
+        "section_spacing": true,
+        "section_width": "full-width",
+        "icon_layout": "center",
+        "color": "#1d1d1d",
+        "icon_color": "#07145e",
+        "background_color": "#ffffff",
+        "mobile_layout": "slider"
+      }
+    },
+    "dynamic_promo_grid_xYYwnc": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion_X4Eaqk": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Bill.jpg",
+            "title": "Bill",
+            "text": "In-house Bookkeeper",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_PgMDcH": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cole_BW.jpg",
+            "title": "Cole",
+            "text": "Co-CEO",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_DmW8VA": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Chris_Bernier_BW.jpg",
+            "title": "Chris",
+            "text": "Inbound Sales &\nCustomer Support Specialist",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_ERX7tP": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Craig.jpg",
+            "title": "Craig",
+            "text": "Warehouse Manager",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_YfY4CE": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dasan_BW.jpg",
+            "title": "Dasan",
+            "text": "Warehouse Specialist",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_g8bdkn": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Dave.jpg",
+            "title": "Dave",
+            "text": "Installs Service Advisor",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_kcJpLy": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Devin.jpg",
+            "title": "Devin",
+            "text": "Inbound Sales & Customer Support Specialist",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_hM8cK3": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Jack_BW.jpg",
+            "title": "Jack",
+            "text": "Co-CEO",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_kEx8g3": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Jackie_BW.jpg",
+            "title": "Jackie",
+            "text": "Warehouse Specialist",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_mCfnHj": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/John_BW.jpg",
+            "title": "John",
+            "text": "Warehouse Specialist",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_cr9VJN": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kevin.jpg",
+            "title": "Kevin",
+            "text": "Install & Upfitting",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_xxUaKa": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kyle_BW.jpg",
+            "title": "Kyle",
+            "text": "Install & Upfitting Manager",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_7XmU94": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Devin.jpg",
+            "title": "Leah",
+            "text": "Inbound Sales & Customer Support Specialist",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_wFDQje": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Mary_Beth_BW.jpg",
+            "title": "Mary Beth",
+            "text": "Inbound Sales & Customer Support Specialist",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_hHLgxm": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/MJ1.jpg",
+            "title": "Matt J.",
+            "text": "Webmaster & Technology Manager",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_t4C9tP": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Matt_BW.jpg",
+            "title": "Matt R.",
+            "text": "Inbound Sales & Technical Support",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_UVxXdH": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Steve_BW.jpg",
+            "title": "Steve",
+            "text": "Install & Uplifting",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_FHTxzD": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Steve_Post_BW.jpg",
+            "title": "Steve",
+            "text": "Purchasing Manager",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion_X4Eaqk",
+        "promotion_PgMDcH",
+        "promotion_DmW8VA",
+        "promotion_ERX7tP",
+        "promotion_YfY4CE",
+        "promotion_g8bdkn",
+        "promotion_kcJpLy",
+        "promotion_hM8cK3",
+        "promotion_kEx8g3",
+        "promotion_mCfnHj",
+        "promotion_cr9VJN",
+        "promotion_xxUaKa",
+        "promotion_7XmU94",
+        "promotion_wFDQje",
+        "promotion_hHLgxm",
+        "promotion_t4C9tP",
+        "promotion_UVxXdH",
+        "promotion_FHTxzD"
+      ],
+      "settings": {
+        "title": "",
+        "text_outside": true,
+        "text_centered": true,
+        "section_height": "natural",
+        "section_columns": 4,
+        "text_alignment": "center-center"
+      }
+    }
+  },
+  "order": [
+    "pxs_image_with_text_overlay_LQRWFX",
+    "dynamic_image_with_text_KqcxKf",
+    "dynamic_image_with_text_WAE7cx",
+    "dynamic_faq_ghB9TF",
+    "dynamic_image_with_text_Ata8NR",
+    "main",
+    "dynamic_highlights_banner_RJeHjd",
+    "dynamic_promo_grid_xYYwnc"
+  ]
+}

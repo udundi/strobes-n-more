@@ -1,0 +1,86 @@
+{%- capture block_class -%}
+  site-footer-block-item
+  site-footer-block-{{ block.type | replace: '_', '-' }}
+  {% if block.type == 'menu' %}has-accordion{% endif %}
+{%- endcapture -%}
+
+{% assign logo_height = block.settings.logo_height | default: 100 %}
+{% assign logo_width = block.settings.logo_width | default: 200 %}
+{% assign logo_size = logo_width | prepend: 'x' %}
+
+{% style %}
+  .site-logo {
+    max-width: {{ logo_width }}px;
+  }
+
+  .site-logo-image {
+    max-height: {{ logo_height }}px;
+  }
+{% endstyle %}
+
+<div class="{{ block_class | strip_newlines }}" {{ block.shopify_attributes }}>
+
+  {% if block.type == 'menu' %}
+      <h2 class="site-footer-block-title" data-accordion-trigger>
+        {{ linklists[block.settings.menu].title | escape }}
+
+        <span class="site-footer-block-icon accordion--icon">
+          {% render 'icon-chevron-down' %}
+        </span>
+      </h2>
+
+      <div class="site-footer-block-content">
+        {%
+          render 'navlist',
+          menu_list: linklists[block.settings.menu].links,
+          depth: 1,
+          max_depth: 1,
+          aria_expanded: false,
+          accordion_level: 1,
+        %}
+      </div>
+  {% elsif block.type == 'rich_text' or block.type == 'newsletter' %}
+    
+    {% if block.settings.logo_image != blank %}
+      {% assign logo_alt = section.settings.logo.alt %}
+        {% if logo_alt == '' %}
+          {% assign logo_alt = shop.name | strip %}
+        {% endif %}
+
+      {%
+        render 'rimg',
+        img: block.settings.logo_image,
+        class: 'site-logo-image',
+        alt: logo_alt,
+        size: logo_size,
+        focal_point: section.settings.logo.presentation.focal_point,
+      %}
+    {% endif %}
+    
+    {% if block.settings.title != blank %}
+      <h2 class="site-footer-block-title">
+        {{ block.settings.title | escape }}
+      </h2>
+    {% endif %}
+
+    {% if block.settings.text != blank %}
+      <div class="site-footer-block-content rte">
+        {{ block.settings.text }}
+      </div>
+    {% endif %}
+
+    {% if block.type == 'newsletter' %}
+      {% assign form_id = 'footer_newsletter_' | append: block.id %}
+      {%
+        render 'newsletter',
+        form_id: form_id,
+        input_id: 'footer_newsletter_email'
+      %}
+    {% endif %}
+  {% elsif block.type == 'social_accounts' %}
+    {%
+      render 'social-list',
+      context: 'footer',
+    %}
+  {% endif %}
+</div>

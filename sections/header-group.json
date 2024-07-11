@@ -1,0 +1,62 @@
+{
+  "type": "header",
+  "name": "Header",
+  "sections": {
+    "announcement-bar": {
+      "type": "static-announcement",
+      "settings": {
+        "show_announcement": true,
+        "homepage_announcement": false,
+        "announcement_text": "HOURS: Mon-Fri (8am-5pm EST) 1-401-454-4487",
+        "announcement_text_mobile": "",
+        "announcement_link": "",
+        "announcement_color": "#1b175d",
+        "announcement_background": "#e6e6e6"
+      }
+    },
+    "utility-bar": {
+      "type": "static-utility-bar",
+      "settings": {
+        "use_full_width": false,
+        "background_color": "#1b175d",
+        "link_color": "#ffffff",
+        "link_hover_color": "#ffffff",
+        "border_color": "rgba(0,0,0,0)",
+        "menu": "",
+        "show_menu_mobile": true,
+        "mobile_layout": "below",
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "show_social_icons": true
+      }
+    },
+    "header": {
+      "type": "static-header",
+      "settings": {
+        "sticky_header": true,
+        "full_width_header": true,
+        "logo": "shopify:\/\/shop_images\/homepage-logo_450.webp",
+        "logo_height": 40,
+        "logo_width": 150,
+        "filter_search_by": "disabled",
+        "enable_live_search": true,
+        "show_mobile_search_bar": false,
+        "enable_live_search_images": true,
+        "quick_links": "main-menu",
+        "menu": "main-menu",
+        "secondary_menu": "",
+        "small_promo_heading": "",
+        "small_promo_text": "",
+        "small_promo_text_mobile": "",
+        "small_promo_link": "",
+        "small_promo_icon": "none",
+        "cart_icon": "icon-cart"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "utility-bar",
+    "header"
+  ]
+}

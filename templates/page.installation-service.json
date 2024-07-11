@@ -1,0 +1,194 @@
+{
+  "sections": {
+    "pxs_image_with_text_overlay_LQRWFX": {
+      "type": "pxs-image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "section_height": "small",
+        "image": "shopify:\/\/shop_images\/bg.jpg",
+        "title": "Installation & Services",
+        "text": "<p>Our team of expert designers, quoters, and technicians has decades of experience in emergency vehicle upfitting. We specialize in installing products like lights, push bumpers, and vehicle consoles for agencies in Rhode Island and Connecticut.<\/p>",
+        "content_position": "center-center",
+        "color": "#1d1d1d",
+        "overlay_background": "#000000",
+        "overlay_opacity": 0,
+        "link": "shopify:\/\/pages\/contact",
+        "button_text": "Contact Us"
+      }
+    },
+    "dynamic_image_with_text_Dq9LtW": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/erik-mclean-3uHlGFnzPDU-unsplash_e2a19a16-6193-46b1-8710-a94f6db9fba4.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Installation & Services",
+        "subheading": "<p>Our team of expert designers, quoters, and technicians has decades of experience in emergency vehicle upfitting. We specialize in installing products like lights, push bumpers, and vehicle consoles for agencies in Rhode Island and Connecticut.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Contact Us",
+        "button_link": "shopify:\/\/pages\/contact"
+      }
+    },
+    "dynamic_image_with_text_Ata8NR": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/b.jpg",
+        "desktop_height": "400px",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Reliable and Expert Upfitting Services",
+        "subheading": "<p>We pride ourselves on delivering reliable and high-quality upfitting, ensuring your vehicle performs flawlessly. Our technicians use a mix of traditional wiring techniques and creative solutions, and our customer reviews reflect our commitment to excellence. We also provide routine maintenance and repairs to keep your fleet ready for action.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_highlights_banner_RJeHjd": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_ntH8DT": {
+          "type": "highlight",
+          "settings": {
+            "icon": "none",
+            "title": "Professional Staff",
+            "text": "<p>Our Team has decades of experience quoting, configuring and installing the most sophisticated emergency vehicle equipment on the market.<\/p>",
+            "link": ""
+          }
+        },
+        "highlight_9Yec4T": {
+          "type": "highlight",
+          "settings": {
+            "icon": "none",
+            "title": "Follow-Up Support",
+            "text": "<p>When required, our follow-up support is second to none.  We're there to help you every step of the way so that your vehicle can get back into commission.<\/p>",
+            "link": ""
+          }
+        },
+        "highlight_W8WRcL": {
+          "type": "highlight",
+          "settings": {
+            "icon": "none",
+            "title": "Unmatched Quality",
+            "text": "<p>Strobes N' More partners with the leading OEMs, and we stand ready to keep first responder fleets up-to-date with the latest emergency vehicle solutions.<\/p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_ntH8DT",
+        "highlight_9Yec4T",
+        "highlight_W8WRcL"
+      ],
+      "settings": {
+        "section_spacing": true,
+        "section_width": "content-width",
+        "icon_layout": "center",
+        "color": "#ffffff",
+        "icon_color": "#07145e",
+        "background_color": "#20215a",
+        "mobile_layout": "slider"
+      }
+    },
+    "dynamic_faq_ghB9TF": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "question_fGVU3y": {
+          "type": "question",
+          "settings": {
+            "question": "Services & Rates",
+            "answer": "<p>Labor rates are $125 per hour, plus an additional 7.5% shop supply fee which covers all cables, fuses and connectors.  Other items may cost extra.  Generally, we will only install products from brands we know well & choose to support.<\/p>",
+            "icon": "icon-discount"
+          }
+        },
+        "question_mhyjNn": {
+          "type": "question",
+          "settings": {
+            "question": "Hours & Availability",
+            "answer": "<p>Our Installation & Service Garage is open from 8am - 4pm, Monday - Friday to cover any and all emergency vehicle upfitting needs.<\/p>",
+            "icon": "icon-chat"
+          }
+        },
+        "question_TNCgTF": {
+          "type": "question",
+          "settings": {
+            "question": "Schedule an Appointment",
+            "answer": "<p>Please contact Dave, our primary Installs Service Advisor, for more information or to schedule an appointment.  Dave handles quoting, scheduling and other install logistics.  For the quickest turnaround, email Dave with photos of the vehicles you would like upfit and include any relevant information on the build you're looking for.<br\/><br\/><strong>Email: <\/strong><span style=\"text-decoration:underline\">installquotes@strobesnmore.com<br\/><\/span><strong>Phone:<\/strong> 401-454-4487 x 102<\/p>",
+            "icon": "icon-delivery-door"
+          }
+        }
+      },
+      "block_order": [
+        "question_fGVU3y",
+        "question_mhyjNn",
+        "question_TNCgTF"
+      ],
+      "settings": {
+        "section_width": "wide",
+        "heading": "More Information",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
+    "dynamic_testimonials_Jr67FV": {
+      "type": "dynamic-testimonials",
+      "blocks": {
+        "testimonial_PYEaWH": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "5",
+            "text": "<p>\"Thank you for an excellent job installing strobes on my F250. Your team of installers were super cool and very helpful with selecting the right lights for my application. You’ll have my business forever.\"<\/p>",
+            "author": "<p>Doug<\/p>"
+          }
+        },
+        "testimonial_hQ7ywm": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "5",
+            "text": "<p>\"Fantastic company to work with. I had a rough idea of what I wanted to purchase, and they actually provided recommendations to better help my needs than what I walked in with. Very professional and friendly staff, and the Installation staff is top notch. They even finished my truck in less time than quoted.\"<\/p>",
+            "author": "<p>Will<\/p>"
+          }
+        },
+        "testimonial_bpThGE": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "5",
+            "text": "<p>\"Excellent and attentive company, great customer service and products backed by phenomenal warranty. Their lightheads are excellent and highly recommended. Strobes n More is my \"go to\" company for emergency lighting.\"<\/p>",
+            "author": "<p>Joseph<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_PYEaWH",
+        "testimonial_hQ7ywm",
+        "testimonial_bpThGE"
+      ],
+      "settings": {
+        "title": "Testimonials",
+        "image_crop": "original",
+        "text_size": "small"
+      }
+    },
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+      }
+    }
+  },
+  "order": [
+    "pxs_image_with_text_overlay_LQRWFX",
+    "dynamic_image_with_text_Dq9LtW",
+    "dynamic_image_with_text_Ata8NR",
+    "dynamic_highlights_banner_RJeHjd",
+    "dynamic_faq_ghB9TF",
+    "dynamic_testimonials_Jr67FV",
+    "main"
+  ]
+}

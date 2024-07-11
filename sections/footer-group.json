@@ -1,0 +1,56 @@
+{
+  "type": "footer",
+  "name": "Footer",
+  "sections": {
+    "footer": {
+      "type": "static-footer",
+      "blocks": {
+        "newsletter": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Join our newsletter!",
+            "text": "",
+            "logo_image": "shopify:\/\/shop_images\/logo_transparent_2x_b2d8a56f-650d-4905-a739-6c5c0e290f19.png",
+            "logo_height": 40,
+            "logo_width": 150
+          }
+        },
+        "rich_text_7ArtDa": {
+          "type": "rich_text",
+          "settings": {
+            "title": "Find Us",
+            "text": "<p>81 Tom Harvey Road<br\/>Westerly, RI 02891 USA<\/p><p>Hours: Mon - Fri, 8am - 5pm EST<\/p><p>Phone:<strong> <\/strong><a href=\"tel:4014544487\"><strong>1-401-454-4487<\/strong><\/a><\/p><p>Email: <a href=\"mailto:Sales@StrobesNMore.com\"><strong>Sales@StrobesNMore.com<\/strong><\/a><\/p>"
+          }
+        },
+        "menu_2": {
+          "type": "menu",
+          "settings": {
+            "menu": "footer-customer-service"
+          }
+        },
+        "menu": {
+          "type": "menu",
+          "settings": {
+            "menu": "main-menu"
+          }
+        }
+      },
+      "block_order": [
+        "newsletter",
+        "rich_text_7ArtDa",
+        "menu_2",
+        "menu"
+      ],
+      "settings": {
+        "show_follow_on_shop": true,
+        "payment_icons": true,
+        "show_locale_selector": true,
+        "show_currency_selector": true,
+        "additional_menu": "footer-information"
+      }
+    }
+  },
+  "order": [
+    "footer"
+  ]
+}
