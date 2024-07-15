@@ -26,6 +26,10 @@
 {% assign logo_size = logo_width | prepend: 'x' %}
 
 {% style %}
+  .site-header-mobile-search-button--button svg, .site-header-menu-toggle svg {
+    stroke: #1B175D;
+  }
+
   .site-logo {
     max-width: {{ logo_width }}px;
   }
@@ -33,6 +37,165 @@
   .site-logo-image {
     max-height: {{ logo_height }}px;
   }
+
+  .ud-subcat-bar {
+    background-color: #1B175D;
+    color: white;
+  }
+
+  .ud-account-icon {
+    text-decoration: none;
+    display: inline-block;
+    height: 55px;
+    padding: 10px;
+    color: {{ settings.color_header_text }};
+  }
+  .ud-account-icon div {
+    display: block;
+  }
+
+  .ud-cont-user {
+    right: 50px;
+    display: flex;
+  }
+  
+  .ud-cont-contact {
+    display: none;
+  }
+ 
+  .ud-cont-cart {
+    display: none;
+  }
+
+  .ud-icon-desc {
+    display: none !important;
+  }
+
+  .ud-button-cont {
+    top: 10px;
+    
+    align-items: center;
+    width: 50px;
+  }
+
+  .site-header-right {
+    justify-content: center !important;
+    align-items: center  !important;
+  }
+
+  @media screen and (max-width: 1023px) and (min-width: 680px) {
+    .ud-cont-contact {
+      display: none;
+    }
+    .ud-cont-cart {
+      display: none;
+    }
+
+    .site-header-cart {
+      top: 10px !important;
+    }
+
+  .ud-button-cont {
+    transform: none;
+    position: relative;
+    right: 0;
+    flex: 0 0 auto;
+  }
+
+}
+@media screen and (min-width: 1024px) {
+  .site-header-cart {
+    display: none !important;
+  }
+
+  .ud-cont-cart {
+    display: flex;
+    right: 20px
+  }
+
+  .ud-cont-contact {
+    display: flex;
+    right: 120px
+  }
+  
+  .ud-cont-user {
+    display: flex;
+    right: 70px;
+  }
+
+  .site-header-right {
+    justify-content: center !important;
+    align-items: center  !important;
+  }
+  
+  .ud-icon-desc {
+    font-family: Nunito Sans;
+    font-size: 10px;
+    font-weight: 700;
+    line-height: 13.64px;
+    letter-spacing: -0.02em;
+    text-align: center;
+    color: #1B175D;
+    display: flex !important;
+    justify-content: center;
+    flex-direction: row;
+    text-wrap: nowrap;
+    width: 100%;
+  }
+  
+  .ud-button-cont {
+  top: 50%;
+  }
+}
+.ud-button-cont svg {
+  transition: margin 150ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ud-nav-bar {
+  background-color: #1B175D !important;
+}
+
+.ud-nav-bar summary, .ud-nav-bar a {
+  color: #fff !important;
+}
+
+  /* .ud-account-icon {
+    justify-self: center;
+    align-self: center;
+    padding: 7px
+    
+    width: 100%;
+  max-width: 1.3125rem;
+  height: 100%;
+  max-height: 1.5rem;
+  color: currentColor;
+  } */
+
+  /* @media screen and (min-width: 1024px) {
+  .ud-account-icon {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    bottom: auto;
+    width: 46px;
+    z-index: 125;
+    display: inline-block;
+    border: 0;
+  }
+}
+
+@media screen and (max-width: 680px) {
+  .ud-account-icon {
+    position: absolute;
+    top: 10px;
+    right: 0px;
+    bottom: auto;
+    width: 46px;
+    z-index: 125;
+    display: inline-block;
+    border: 0;
+  }
+} */
 {% endstyle %}
 
 <header
@@ -136,7 +299,6 @@
         quick_links: linklists[section.settings.quick_links],
         enable_images: section.settings.enable_live_search_images,
       %}
-      Test
 
       {% if section.settings.small_promo_text != blank or section.settings.small_promo_heading != blank %}
         {% if section.settings.small_promo_link != blank %}
@@ -198,10 +360,46 @@
     </div>
 
     <div class="site-header-right">
-      <a class="ud-account-icon" href="{{ routes.account_url }}">
-        {% render 'icon-user' %}
-      </a>
       {% render 'site-header-actions' %}
+      <div class="ud-button-cont ud-cont-contact">
+        <a class="ud-account-icon" href="{{ routes.account_url }}">
+          <div class="ud-icon-span">
+            {% render 'icon-contact' %}
+          </div>
+          <div class="ud-icon-desc">
+            <span>
+              Contact
+            </span>
+          </div>
+        </a>
+      </div>
+      <div class="ud-button-cont ud-cont-user">
+        <a class="ud-account-icon" href="{{ routes.account_url }}">
+          <div class="ud-icon-span">
+            {% render 'icon-user' %}
+          </div>
+          <div class="ud-icon-desc">
+            <span>
+              Login
+            </span>
+          </div>
+        </a>
+      </div>
+      <div class="ud-button-cont ud-cont-cart">
+        <a class="ud-account-icon" href="{{ routes.account_url }}">
+          <div class="ud-icon-span">
+            {% render 'icon-ud-cart' %}
+          </div>
+          <div class="ud-icon-desc">
+            <span>
+              Items:
+            </span>
+            <span>
+              {{ cart.item_count }}
+            </span>
+          </div>
+        </a>
+      </div>
       <div class="site-header-cart">
         <a class="site-header-cart--button" href="{{ routes.cart_url }}">
           <span
@@ -209,11 +407,7 @@
             data-header-cart-count="{% if cart.item_count > 0 %}{{ cart.item_count }}{% endif %}">
           </span>
           <span class="site-header-cart-icon site-header-cart-icon--svg">
-            {% if section.settings.cart_icon == 'icon-bag' %}
-              {% render 'icon-library', id: 'icon-bag' %}
-            {% else %}
-              {% render 'icon-library', id: 'icon-cart' %}
-             {% endif %}
+            {% render 'icon-ud-cart' %}
           </span>
           <span class="visually-hidden">{{ 'general.accessibility.cart' | t }}</span>
         </a>
@@ -235,7 +429,7 @@
     id="site-header-nav"
   >
     <nav
-      class="site-navigation"
+      class="site-navigation ud-nav-bar"
       aria-label="{{ 'general.accessibility.nav_main' | t }}"
     >
       {%

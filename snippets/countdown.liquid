@@ -37,6 +37,38 @@
   assign datetime = datetime | append: timezone
 %}
 
+{%  style  %} 
+.ud-spacer {
+  padding: 20px;
+  border: 1px solid white;
+  background-color: #1B175D;
+  
+}
+
+.ud-countdown {
+  background-color: white;
+  color: white;
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  gap: 1px;
+}
+
+.ud-countdown.countdown__item {
+  border: 1px solid white !important;
+}
+
+.ud-countdown:nth-child(2),
+.ud-countdown:nth-child(3),
+.ud-countdown:nth-child(4) {
+  border: 1px solid white !important;
+}
+
+.ud-divider-maker {
+  background-color: #1B175D;
+  }
+
+{% endstyle %}
+
 <div
   class="
     countdown
@@ -49,55 +81,63 @@
   "
   data-countdown
 >
-  <div class="countdown__items">
-    <time
-      class="
+  <div class="ud-spacer">
+    <div class="ud-countdown">
+        <time
+        class="
         countdown__item
         countdown__item--datetime
-      "
-      datetime="{{ datetime }}"
-      data-time
-    >
-    </time>
-
-    <div
-      class="
+        "
+        datetime="{{ datetime }}"
+        data-time
+        >
+        </time>
+      <div class="ud-divider-maker">
+        <div
+        class="
         countdown__item
         countdown__item--days
-      "
-    >
-      <h2 class="countdown__item-heading" data-days></h2>
-      <span class="countdown__item-text">{{ 'sections.countdown-timer.days' | t }}</span>
-    </div>
-
-    <div
-      class="
-        countdown__item
-        countdown__item--hours
-      "
-    >
-      <h2 class="countdown__item-heading" data-hours></h2>
-      <span class="countdown__item-text">{{ 'sections.countdown-timer.hours' | t }}</span>
-    </div>
-
-    <div
-      class="
-        countdown__item
-        countdown__item--minutes
-      "
-    >
-      <h2 class="countdown__item-heading" data-minutes></h2>
-      <span class="countdown__item-text">{{ 'sections.countdown-timer.minutes' | t }}</span>
-    </div>
-
-    <div
-      class="
-        countdown__item
-        countdown__item--seconds
-      "
-    >
-      <h2 class="countdown__item-heading" data-seconds></h2>
-      <span class="countdown__item-text">{{ 'sections.countdown-timer.seconds' | t }}</span>
+        "
+        >
+          <h2 class="countdown__item-heading" data-days></h2>
+          <span class="countdown__item-text">
+            {{ 'sections.countdown-timer.days' | t }}
+          </span>
+        </div>
+      </div>  
+      <div class="ud-divider-maker">
+        <div
+          class="
+            countdown__item
+            countdown__item--hours
+          "
+        >
+          <h2 class="countdown__item-heading" data-hours></h2>
+          <span class="countdown__item-text">{{ 'sections.countdown-timer.hours' | t }}</span>
+        </div>
+      </div>  
+      <div class="ud-divider-maker">
+        <div
+          class="
+            countdown__item
+            countdown__item--minutes
+          "
+        >
+          <h2 class="countdown__item-heading" data-minutes></h2>
+          <span class="countdown__item-text">{{ 'sections.countdown-timer.minutes' | t }}</span>
+        </div>
+      </div>  
+      <div class="ud-divider-maker">
+        <div
+          class="
+            countdown__item
+            countdown__item--seconds
+          "
+        >
+          <h2 class="countdown__item-heading" data-seconds></h2>
+          <span class="countdown__item-text">{{ 'sections.countdown-timer.seconds' | t }}</span>
+        </div>
+      </div>
     </div>
   </div>
 

@@ -16,6 +16,7 @@
     },
     "utility-bar": {
       "type": "static-utility-bar",
+      "disabled": true,
       "settings": {
         "use_full_width": false,
         "background_color": "#1b175d",
@@ -35,9 +36,9 @@
       "settings": {
         "sticky_header": true,
         "full_width_header": true,
-        "logo": "shopify:\/\/shop_images\/homepage-logo_450.webp",
-        "logo_height": 40,
-        "logo_width": 150,
+        "logo": "shopify:\/\/shop_images\/logo_transparent2x.png",
+        "logo_height": 100,
+        "logo_width": 250,
         "filter_search_by": "disabled",
         "enable_live_search": true,
         "show_mobile_search_bar": false,

@@ -152,6 +152,76 @@
     --image-aspect-ratio: {{ image.aspect_ratio | default: 'auto' }};
     --product-card-background-color: {{ product_card_background_color }};
   }
+
+  .ud-overlay {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+    height: 100%;
+    min-height: inherit;
+    padding: var(--overlay-padding);
+    background-color: #1B175D;
+  }
+
+  .ud-title {
+    font-family: Montserrat;
+    font-size: 40px;
+    font-weight: 800;
+    line-height: 48.76px;
+    text-align: center;
+    color: white;
+  }
+
+  .ud-button-container {
+    display: flex;
+    background-color: white;
+    width: 100%;
+  }
+  
+  .ud-button-container .ud-button {
+    font-family: Nunito Sans;
+    width: 100%;
+    padding: 8px;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 24.55px;
+    text-align: center;
+    text-decoration: none;
+    color: #1B175D;
+  }
+
+  .ud-relative {
+  position: relative;
+  overflow: hidden;
+}
+
+.ud-onsale {
+  top: 6%;
+  left: 6%;
+  padding: 70px 100px 3px;
+  border-bottom: 2px solid #1B175D;
+  transform: translate(-50%, -50%) rotate(-45deg);
+  z-index: 900;
+  position: absolute;
+  background-color: #EBD410;
+
+  font-family: Nunito Sans;
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+  color: #1B175D;
+
+  text-wrap: nowrap;
+}
+@media only screen and (max-width: 768px) {
+  .ud-onsale {
+    top: 4%;
+    left: 4%;
+  }
+}
+
 {% endstyle %}
 
 <section
@@ -169,32 +239,14 @@
     <div class="countdown-timer__wrapper">
   {%- endif -%}
     <div class="countdown-timer__content">
-      <div class="countdown-timer__overlay">
+      <div class="ud-overlay">
         <div class="countdown-timer__caption">
-          {% if heading != blank or text != blank %}
+          {% if heading != blank %}
             <div class="countdown-timer__caption-header">
               {% if heading != blank %}
-                <h3 class="countdown-timer__caption-heading">
+                <h3 class="ud-title">
                   {{ heading | escape }}
                 </h3>
-              {% endif %}
-
-              {% if text != blank %}
-                <div class="countdown-timer__caption-text">
-                  {{ text }}
-                </div>
-              {% endif %}
-
-              {% if button_label != blank %}
-                <a
-                  class="
-                    countdown-timer__caption-button
-                    countdown-timer__caption-button--{{ button_style }}
-                  "
-                  href="{{ button_link }}"
-                >
-                  {{ button_label | escape }}
-                </a>
               {% endif %}
             </div>
           {% endif %}
@@ -210,8 +262,19 @@
             countdown_timer_complete: countdown_timer_complete,
             countdown_timer_message: countdown_timer_message,
           %}
-
           {% if button_label != blank %}
+            <div class="ud-button-container">
+              <a
+              href="{{ button_link }}"
+                class="
+                  ud-button
+                "
+              >
+                {{ button_label | escape }} 
+              </a>
+            </div>
+          {% endif %}
+          {% comment %} {% if button_label != blank %}
             <div class="countdown-timer__caption-footer">
               <a
                 class="
@@ -220,10 +283,11 @@
                 "
                 href="{{ button_link }}"
               >
-                {{ button_label | escape }}
+                {{ button_label | escape }} Label 
               </a>
             </div>
-          {% endif %}
+          {% endif %} {% endcomment %}
+
         </div>
       </div>
 
@@ -243,7 +307,10 @@
     </div>
 
     {% if product != blank %}
-      <div class="countdown-timer__product-card">
+      <div class="countdown-timer__product-card ud-relative">
+          {%  assign ud_percent_price = product.price | times: 100 | divided_by: product.compare_at_price %}
+          {% assign ud_percent_off = 100 |  minus: ud_percent_price %}
+          <div class="ud-onsale">{{ ud_percent_off }}% OFF</div>
         {%
           render 'countdown-product-card',
           product: product,
@@ -874,12 +941,6 @@
       "id": "title",
       "label": "t:sections.countdown_timer.title.label",
       "default": "Countdown timer"
-    },
-    {
-      "type": "richtext",
-      "id": "text",
-      "label": "t:sections.countdown_timer.text.label",
-      "default": "<p>Use this section to promote limited time offers and boost conversion.</p>"
     },
     {
       "type": "url",

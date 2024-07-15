@@ -86,6 +86,7 @@
   {% assign product_link = '#' %}
 {% endif %}
 
+
 {% assign on_sale = false %}
 {% for variant in product.variants %}
   {% if variant.compare_at_price > variant.price %}
@@ -256,7 +257,8 @@
     data-recently-viewed-card
   {% endif %}
 >
-  <div class="productitem" data-product-item-content>
+<div class="productitem" data-product-item-content>
+    
     {% comment %}Inject template-allows-compare begin{% endcomment %}
     {% assign template_allows_compare = settings.enable_product_compare %}
     {% if template.name == 'cart' %}

@@ -3830,7 +3830,7 @@ body .mdc-ripple-surface:hover:before {
 }
 @media screen and (min-width: 1024px) {
   .site-header-main .live-search {
-    margin-right: 3.5rem;
+    margin-right: 8rem;
   }
 }
 
@@ -3953,7 +3953,8 @@ body .mdc-ripple-surface:hover:before {
 
 .site-header-menu-toggle,
 .site-header-mobile-search-button,
-.site-header-cart {
+.site-header-cart,
+.ud-button-cont {
   position: absolute;
   top: 10px;
   bottom: auto;
@@ -3967,13 +3968,15 @@ body .mdc-ripple-surface:hover:before {
 @media screen and (min-width: 1024px) {
   .site-header-menu-toggle,
   .site-header-mobile-search-button,
-  .site-header-cart {
+  .site-header-cart,
+  .ud-button-cont {
     top: 50%;
     bottom: 66px;
     margin-top: -18px;
   }
   .site-header-sticky--scrolled .site-header-menu-toggle,
   .site-header-sticky--scrolled .site-header-mobile-search-button,
+  .site-header-sticky--scrolled .ud-button-cont,
   .site-header-sticky--scrolled .site-header-cart {
     margin-top: -23px;
   }
@@ -4291,6 +4294,7 @@ body .mdc-ripple-surface:hover:before {
 .small-promo-content--mobile {
   margin-left: {{ space_xx_small | divided_by: 16.0 | append: 'rem' }};
 }
+
 @media screen and (min-width: 1024px) {
   .small-promo-content--mobile {
     display: none;
@@ -4323,41 +4327,6 @@ body .mdc-ripple-surface:hover:before {
   display: flex;
   flex-direction: row;
   align-items: start;
-}
-
-
-  .ud-account-icon {
-    justify-self: center;
-    align-self: center;
-    cursor: pointer;
-    height: 46px;
-    padding: 7px
-  }
-
-@media screen and (min-width: 1024px) {
-  .ud-account-icon {
-    position: absolute;
-    top: 10px;
-    right: 60px;
-    bottom: auto;
-    width: 46px;
-    z-index: 125;
-    display: inline-block;
-    border: 0;
-  }
-}
-
-@media screen and (max-width: 680px) {
-  .ud-account-icon {
-    position: absolute;
-    top: 10px;
-    right: 40px;
-    bottom: auto;
-    width: 46px;
-    z-index: 125;
-    display: inline-block;
-    border: 0;
-  }
 }
 
 .site-header-actions__account-link {
@@ -23303,12 +23272,14 @@ body:not(.user-is-tabbing) .surface-pick-up-embed__modal-btn:focus {
   line-height: 1.4rem;
 }
 .site-header-actions .site-header-cart-icon,
+.site-header-actions .ud-icon-span,
 .site-header-actions .site-header-actions__account-link,
 .site-header-actions .site-header_account-link-anchor {
   display: flex;
   align-content: center;
 }
 .site-header-actions .site-header-cart-icon svg,
+.site-header-actions .ud-icon-span svg,
 .site-header-actions .site-header-actions__account-link svg,
 .site-header-actions .site-header_account-link-anchor svg {
   width: 100%;
