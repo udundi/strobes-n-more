@@ -147,6 +147,9 @@
         "collection_aixae4",
         "collection_LjMh7x"
       ],
+      "custom_css": [
+        "span {display: none;}"
+      ],
       "settings": {
         "title": "",
         "thumbnail_columns_desktop": 5,

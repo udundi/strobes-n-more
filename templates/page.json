@@ -159,6 +159,20 @@
         "mobile_layout": "slider"
       }
     },
+    "dynamic_rich_text_fYUcBa": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "div {background-color: #1b175d;}",
+        "h2 {color: #fff; padding: 12px;}"
+      ],
+      "settings": {
+        "width": "full-width",
+        "title": "Meet the Team",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "center"
+      }
+    },
     "dynamic_promo_grid_xYYwnc": {
       "type": "dynamic-promo-grid",
       "blocks": {
@@ -453,6 +467,9 @@
         "promotion_UVxXdH",
         "promotion_FHTxzD"
       ],
+      "custom_css": [
+        "a {text-decoration: none; color: #1b175d;}"
+      ],
       "settings": {
         "title": "",
         "text_outside": true,
@@ -471,6 +488,7 @@
     "dynamic_image_with_text_Ata8NR",
     "main",
     "dynamic_highlights_banner_RJeHjd",
+    "dynamic_rich_text_fYUcBa",
     "dynamic_promo_grid_xYYwnc"
   ]
 }
