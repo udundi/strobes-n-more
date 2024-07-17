@@ -13,6 +13,29 @@
   endunless
 %}
 
+{%  style  %} 
+  .ud-button-primary {
+    background-color: #fff;
+    color: #1B175D;
+    padding: 12px 14px;
+    font-size: var(--font-size-button-large);
+    cursor: pointer;
+    border-radius: 8px; 
+    border: none;
+    font-family: {{ fonts_type_button_family }};
+    font-style: {{ fonts_type_button_style }};
+    text-decoration: none;
+    text-transform: Capitalize;
+    outline: none;
+  }
+
+  .ud-button-primary:hover {
+    background-color: #ffffff !important;
+    opacity: 80% !important; 
+    outline: none;
+  }
+{% endstyle %}
+  
 <div class="newsletter">
   {% form 'customer', id: form_id %}
     {% if form.posted_successfully? %}
@@ -49,7 +72,7 @@
 
         <div class="form-field newsletter-submit">
           <button
-            class="button-primary"
+            class="ud-button-primary"
             name="subscribe"
             type="submit"
           >

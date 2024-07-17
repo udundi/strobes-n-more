@@ -34,9 +34,25 @@
   endif
 %}
 
+{%  style  %} 
+  .ud-footer {
+    background-color:#1B175D;
+    color: #fff;
+  }
+
+  .ud-white {
+    color: #fff !important;
+  }
+
+  .navmenu-item {
+    border-color: #fff !important;
+  }
+  
+{% endstyle %}
+
 {% capture footer_right_column %}
   {%- if show_payment_icons or country_selector or locale_selector -%}
-    <div class="site-footer-right {{ additional_class }}">
+    <div class="site-footer-right {{ additional_class }} ">
       {%- if country_selector or locale_selector -%}
         {% comment %}Inject @pixelunion/shopify-cross-border/cross-border begin{% endcomment %}
         <div class="shopify-cross-border">
@@ -195,7 +211,7 @@
 {% endcapture %}
 
 <footer role="contentinfo" aria-label="Footer">
-  <section class="site-footer-wrapper">
+  <section class="site-footer-wrapper ud-footer">
     {% if section.blocks.size %}
       <div class="site-footer-item">
         <div class="site-footer-blocks column-count-{{ section.blocks.size }}">
@@ -232,12 +248,12 @@
             </nav>
           {%- endif -%}
 
-          <p class="site-footer-credits">
+          <p class="site-footer-credits ud-white">
             {%- assign year = 'now' | date: '%Y' -%}
             {{ 'footer.general.copyright_html' | t: year: year, shop_name: shop.name }}
           </p>
 
-          <p class="site-footer-credits">
+          <p class="site-footer-credits ud-white">
             {{ powered_by_link }}
           </p>
         </div>

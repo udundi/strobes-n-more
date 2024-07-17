@@ -16,6 +16,25 @@
   .site-logo-image {
     max-height: {{ logo_height }}px;
   }
+
+  .ud-no-title h2 {
+    display: none;
+  }
+  
+  .ud-no-title {
+    padding-top: 20px;
+  }
+
+  .ud-no-title * {
+    fill: white !important;
+    color: white;
+  }
+
+  .ud-logo-box {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 8px;
+  }
 {% endstyle %}
 
 <div class="{{ block_class | strip_newlines }}" {{ block.shopify_attributes }}>
@@ -46,15 +65,16 @@
         {% if logo_alt == '' %}
           {% assign logo_alt = shop.name | strip %}
         {% endif %}
-
-      {%
-        render 'rimg',
-        img: block.settings.logo_image,
-        class: 'site-logo-image',
-        alt: logo_alt,
-        size: logo_size,
-        focal_point: section.settings.logo.presentation.focal_point,
-      %}
+        <div class="ud-logo-box">
+          {%
+            render 'rimg',
+            img: block.settings.logo_image,
+            class: 'site-logo-image',
+            alt: logo_alt,
+            size: logo_size,
+            focal_point: section.settings.logo.presentation.focal_point,
+          %}
+        </div>
     {% endif %}
     
     {% if block.settings.title != blank %}
@@ -62,13 +82,23 @@
         {{ block.settings.title | escape }}
       </h2>
     {% endif %}
+    
 
     {% if block.settings.text != blank %}
       <div class="site-footer-block-content rte">
         {{ block.settings.text }}
-      </div>
-    {% endif %}
-
+        </div>
+      {% endif %}
+      
+      {% if block.type == 'rich_text' %}
+        <div class="ud-no-title">
+          {%
+            render 'social-list',
+            context: 'footer',
+            %}
+            </div>
+          {% endif %}
+            
     {% if block.type == 'newsletter' %}
       {% assign form_id = 'footer_newsletter_' | append: block.id %}
       {%
