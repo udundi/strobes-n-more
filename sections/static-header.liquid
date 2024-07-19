@@ -39,8 +39,12 @@
   }
 
   .ud-subcat-bar {
-    background-color: #1B175D;
-    color: white;
+    /* background-color: #1B175D; */
+    /* color: white; */
+  }
+
+  .navmenu-depth-2 li {
+    color: #1B175D !important;
   }
 
   .ud-account-icon {
@@ -48,7 +52,7 @@
     display: inline-block;
     height: 55px;
     padding: 10px;
-    color: {{ settings.color_header_text }};
+    /* color: {{ settings.color_header_text }}; */
   }
   .ud-account-icon div {
     display: block;
@@ -153,10 +157,12 @@
 
 .ud-nav-bar {
   background-color: #1B175D !important;
+  outline-color: rgba(255, 255, 255, 0.7) !important;
 }
 
-.ud-nav-bar summary, .ud-nav-bar a {
+.navmenu-link-depth-1 {
   color: #fff !important;
+  outline-color: rgba(255, 255, 255, 0.7) !important;
 }
 
   /* .ud-account-icon {
@@ -362,7 +368,7 @@
     <div class="site-header-right">
       {% render 'site-header-actions' %}
       <div class="ud-button-cont ud-cont-contact">
-        <a class="ud-account-icon" href="{{ routes.account_url }}">
+        <a class="ud-account-icon" href="{{ pages['contact'].url }}">
           <div class="ud-icon-span">
             {% render 'icon-contact' %}
           </div>
@@ -386,7 +392,7 @@
         </a>
       </div>
       <div class="ud-button-cont ud-cont-cart">
-        <a class="ud-account-icon" href="{{ routes.account_url }}">
+        <a class="ud-account-icon" href="{{ routes.cart_url }}">
           <div class="ud-icon-span">
             {% render 'icon-ud-cart' %}
           </div>

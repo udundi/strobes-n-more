@@ -468,7 +468,21 @@
                   {% endif %}
                 </details>
               {% endif %}
-
+            {% when 'desc-tab' %}
+              {% if product.description != blank %}
+              <details class="collapsible-tab">
+                <summary class="collapsible-tab__heading">
+                  <span>Description</span>
+                  {% render 'icon-chevron-down-small' %}
+                </summary>
+                <div class="collapsible-tab__text">
+                  <p>
+                    {{ product.description }}
+                  </p>
+                </div>
+              </details>
+              {% endif %}
+                      
             {% when '@app' %}
               <div class="product-app">
                 {% render block %}

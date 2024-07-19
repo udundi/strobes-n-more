@@ -15,9 +15,15 @@
         },
         "collapsible_tab_PDXiXe": {
           "type": "collapsible-tab",
+          "disabled": true,
           "settings": {
             "collapsible_tab_heading": "Collapsible tab",
             "collapsible_tab_text": "<p>Use this text to share information about your product.<\/p>"
+          }
+        },
+        "desc_tab_QhEzwa": {
+          "type": "desc-tab",
+          "settings": {
           }
         },
         "rating": {
@@ -40,6 +46,7 @@
         },
         "description": {
           "type": "description",
+          "disabled": true,
           "settings": {
           }
         },
@@ -60,6 +67,7 @@
         "title",
         "vendor",
         "collapsible_tab_PDXiXe",
+        "desc_tab_QhEzwa",
         "rating",
         "price",
         "complementary_products_UQ4miN",

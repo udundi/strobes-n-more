@@ -2,13 +2,184 @@
   "sections": {
     "main": {
       "type": "static-list-collections",
+      "disabled": true,
       "settings": {
         "thumbnail_columns_desktop": 4,
-        "thumbnail_columns_mobile": 3
+        "thumbnail_columns_mobile": 3,
+        "image-crop": "original"
+      }
+    },
+    "pxs_image_with_text_overlay_mcH4PC": {
+      "type": "pxs-image-with-text-overlay",
+      "settings": {
+        "section_height": "medium",
+        "image": "shopify:\/\/shop_images\/Screenshot_2024-07-11_at_4.39.04_PM.png",
+        "title": "Shop By Category",
+        "text": "",
+        "content_position": "center-center",
+        "color": "#ffffff",
+        "overlay_background": "#000000",
+        "overlay_opacity": 50,
+        "link": "",
+        "button_text": ""
+      }
+    },
+    "dynamic_collection_list_9qkArp": {
+      "type": "dynamic-collection-list",
+      "blocks": {
+        "collection_VaRhnb": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-products",
+            "title": ""
+          }
+        },
+        "collection_x74m8b": {
+          "type": "collection",
+          "settings": {
+            "collection": "led-lights",
+            "title": ""
+          }
+        },
+        "collection_HB66EA": {
+          "type": "collection",
+          "settings": {
+            "collection": "sirens-speakers",
+            "title": ""
+          }
+        },
+        "collection_U4kDQH": {
+          "type": "collection",
+          "settings": {
+            "collection": "lightbars",
+            "title": ""
+          }
+        },
+        "collection_MrX4x4": {
+          "type": "collection",
+          "settings": {
+            "collection": "360-beacons",
+            "title": ""
+          }
+        },
+        "collection_BYgcEU": {
+          "type": "collection",
+          "settings": {
+            "collection": "vehicle-consoles",
+            "title": ""
+          }
+        },
+        "collection_MWt4Ar": {
+          "type": "collection",
+          "settings": {
+            "collection": "switches-controllers-1",
+            "title": ""
+          }
+        },
+        "collection_CzRHjy": {
+          "type": "collection",
+          "settings": {
+            "collection": "cables-accessories-1",
+            "title": ""
+          }
+        },
+        "collection_cGpAgw": {
+          "type": "collection",
+          "settings": {
+            "collection": "flasher-modules-1",
+            "title": ""
+          }
+        },
+        "collection_AMpb93": {
+          "type": "collection",
+          "settings": {
+            "collection": "flashlights-1",
+            "title": ""
+          }
+        },
+        "collection_9VWthK": {
+          "type": "collection",
+          "settings": {
+            "collection": "motorcycle-equipment-1",
+            "title": ""
+          }
+        },
+        "collection_mKRcJ7": {
+          "type": "collection",
+          "settings": {
+            "collection": "bumpers-partitions",
+            "title": ""
+          }
+        },
+        "collection_P3Jy6z": {
+          "type": "collection",
+          "settings": {
+            "collection": "strobe-equipment-1",
+            "title": ""
+          }
+        },
+        "collection_NUWkck": {
+          "type": "collection",
+          "settings": {
+            "collection": "feniex-quad",
+            "title": ""
+          }
+        },
+        "collection_AFENJq": {
+          "type": "collection",
+          "settings": {
+            "collection": "replacement-bulbs-lenses",
+            "title": ""
+          }
+        },
+        "collection_KWj7Br": {
+          "type": "collection",
+          "settings": {
+            "collection": "garage-sale-1",
+            "title": ""
+          }
+        },
+        "collection_qmie6M": {
+          "type": "collection",
+          "settings": {
+            "collection": "open-box-sale",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_VaRhnb",
+        "collection_x74m8b",
+        "collection_HB66EA",
+        "collection_U4kDQH",
+        "collection_MrX4x4",
+        "collection_BYgcEU",
+        "collection_MWt4Ar",
+        "collection_CzRHjy",
+        "collection_cGpAgw",
+        "collection_AMpb93",
+        "collection_9VWthK",
+        "collection_mKRcJ7",
+        "collection_P3Jy6z",
+        "collection_NUWkck",
+        "collection_AFENJq",
+        "collection_KWj7Br",
+        "collection_qmie6M"
+      ],
+      "settings": {
+        "title": "",
+        "thumbnail_columns_desktop": 5,
+        "thumbnail_columns_mobile": 2,
+        "image-crop": "original",
+        "cta_label": "",
+        "cta_link": "",
+        "cta_button_style": "primary"
       }
     }
   },
   "order": [
-    "main"
+    "main",
+    "pxs_image_with_text_overlay_mcH4PC",
+    "dynamic_collection_list_9qkArp"
   ]
 }
