@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "header",
   "name": "Header",
@@ -43,7 +52,7 @@
         "enable_live_search": true,
         "show_mobile_search_bar": false,
         "enable_live_search_images": true,
-        "quick_links": "main-menu",
+        "quick_links": "",
         "menu": "main-menu",
         "secondary_menu": "",
         "small_promo_heading": "",
