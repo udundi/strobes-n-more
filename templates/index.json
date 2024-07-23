@@ -133,7 +133,7 @@
         "collection-6": {
           "type": "collection",
           "settings": {
-            "collection": "flasher-modules-1",
+            "collection": "flasher-modules",
             "image": "shopify:\/\/shop_images\/Frame_6.jpg",
             "title": "Flasher Modules"
           }
