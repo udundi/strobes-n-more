@@ -102,7 +102,7 @@
         "collection_AMpb93": {
           "type": "collection",
           "settings": {
-            "collection": "flashlights-1",
+            "collection": "flashlights",
             "title": ""
           }
         },
@@ -144,7 +144,7 @@
         "collection_KWj7Br": {
           "type": "collection",
           "settings": {
-            "collection": "garage-sale-1",
+            "collection": "garage-sale",
             "title": ""
           }
         },
