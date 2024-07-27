@@ -22,7 +22,7 @@
           "settings": {
             "icon": "icon-cell-phone",
             "title": "Give Us A Call",
-            "text": "<p>401-454-4487<\/p>",
+            "text": "<p><a href=\"tel:401-454-4487\" title=\"tel:401-454-4487\">(401)-454-4487<\/a><\/p>",
             "link": ""
           }
         },

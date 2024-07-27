@@ -77,6 +77,10 @@
   endcapture
 -%}
 
+<script type="application/ld+json">
+{{ section | structured_data }}
+</script>
+
 <script
   type="application/json"
   data-section-type="{{ section_type | strip }}"

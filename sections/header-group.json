@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "type": "header",
   "name": "Header",
@@ -16,8 +7,6 @@
       "settings": {
         "show_announcement": true,
         "homepage_announcement": false,
-        "announcement_text": "HOURS: Mon-Fri (8am-5pm EST) 1-401-454-4487",
-        "announcement_text_mobile": "",
         "announcement_link": "",
         "announcement_color": "#1b175d",
         "announcement_background": "#e6e6e6"
@@ -52,7 +41,7 @@
         "enable_live_search": true,
         "show_mobile_search_bar": false,
         "enable_live_search_images": true,
-        "quick_links": "",
+        "quick_links": "main-menu",
         "menu": "main-menu",
         "secondary_menu": "",
         "small_promo_heading": "",
