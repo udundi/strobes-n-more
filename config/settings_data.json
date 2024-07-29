@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "current": {
     "color_background": "#ffffff",
@@ -104,20 +113,6 @@
         "type": "shopify:\/\/apps\/gorgias-live-chat-helpdesk\/blocks\/gorgias\/a66db725-7b96-4e3f-916e-6c8e6f87aaaa",
         "disabled": false,
         "settings": {
-        }
-      },
-      "8882555360308167327": {
-        "type": "shopify:\/\/apps\/schema-breadcrumbs-by-bogdan\/blocks\/schema-block\/b5b4b35d-8c76-40f1-b83c-b869ed5c50ef",
-        "disabled": false,
-        "settings": {
-          "shipping_rate": 0,
-          "country_code": "",
-          "handling_min": 1,
-          "handling_max": 3,
-          "transit_min": 1,
-          "transit_max": 3,
-          "return_option": "ReturnInStore",
-          "return_days": 30
         }
       }
     }

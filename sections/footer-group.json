@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "type": "footer",
   "name": "Footer",
@@ -28,10 +37,10 @@
             "menu": "footer-customer-service"
           }
         },
-        "menu": {
+        "menu_EEYgjU": {
           "type": "menu",
           "settings": {
-            "menu": "main-menu"
+            "menu": "categories"
           }
         }
       },
@@ -39,7 +48,7 @@
         "newsletter",
         "rich_text_7ArtDa",
         "menu_2",
-        "menu"
+        "menu_EEYgjU"
       ],
       "settings": {
         "show_follow_on_shop": true,
