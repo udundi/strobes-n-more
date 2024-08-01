@@ -1,0 +1,89 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "dynamic_promo_grid_xXdNXq": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion_WqRYKA": {
+          "type": "promotion",
+          "settings": {
+            "title": "Grid",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_H6DPeM": {
+          "type": "promotion",
+          "settings": {
+            "title": "New Name",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_zBxfNX": {
+          "type": "promotion",
+          "settings": {
+            "title": "Grid",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_Hm9iBw": {
+          "type": "promotion",
+          "settings": {
+            "title": "Grid",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion_WqRYKA",
+        "promotion_H6DPeM",
+        "promotion_zBxfNX",
+        "promotion_Hm9iBw"
+      ],
+      "settings": {
+        "title": "New Name",
+        "text_outside": true,
+        "text_centered": false,
+        "section_height": "small",
+        "section_columns": 2,
+        "text_alignment": "top-left"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_promo_grid_xXdNXq"
+  ]
+}

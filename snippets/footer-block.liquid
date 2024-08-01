@@ -30,6 +30,14 @@
     color: white;
   }
 
+  .ud-text summary, .ud-text a {
+    color: white !important;
+  }
+
+  .ud-text summary {
+    padding-left: 24px;
+  }
+
   .ud-logo-box {
     padding: 10px;
     background-color: #fff;
@@ -48,12 +56,13 @@
         </span>
       </h2>
 
-      <div class="site-footer-block-content">
+      <div class="site-footer-block-content ud-text">
         {%
           render 'navlist',
           menu_list: linklists[block.settings.menu].links,
           depth: 1,
-          max_depth: 1,
+          max_depth: 3,
+          show_arrows: false,
           aria_expanded: false,
           accordion_level: 1,
         %}
