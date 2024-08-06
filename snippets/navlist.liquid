@@ -150,18 +150,18 @@
         {% if is_mobile != true %}
           <details data-navmenu-details>
           <summary
-            data-href="{{ menu_item.url }}"
-        {% else %}
-          <a
-            href="{{ menu_item.url }}"
-        {% endif %}
-          class="navmenu-link navmenu-link-parent {% if menu_item.active %}navmenu-link-active{% endif %}"
           {% if aria_expanded %}
             aria-expanded="true"
           {% else %}
             aria-haspopup="true"
             aria-expanded="false"
           {% endif %}
+          >
+        {% endif %}
+          <a
+            href="{{ menu_item.url }}"
+            class="navmenu-link navmenu-link-parent {% if menu_item.active %}navmenu-link-active{% endif %}"
+          
         >
           {{ menu_item_image_markup }}
           {{ menu_item.title }}
@@ -177,11 +177,11 @@
               {% render 'icon-chevron-down-small' %}
             </span>
           {% endif %}
+          </a>
         {% if is_mobile != true %}
           </summary>
-        {% else %}
-          </a>
         {% endif %}
+        
 
         {% if show_arrows and is_mobile == true %}
           {%
