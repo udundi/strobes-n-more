@@ -15,39 +15,39 @@
         "promotion-1": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/ericsgeneric_red_tow_path.jpg",
-            "title": "Mosaic",
-            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "image": "shopify:\/\/shop_images\/Strobes_N_More_Installation_Service.jpg",
+            "title": "Emergency Vehicle Lighting",
+            "text": "Give us a call us at 1-401-4-LIGHTS. We are happy to assist with all of your emergency vehicle equipment needs.",
             "color": "#ffffff",
             "block_link": "",
             "button_text": "",
             "button_style": "primary",
             "show_overlay": true,
             "background": "#1d1d1d",
-            "opacity": 30
+            "opacity": 17
           }
         },
         "promotion-2": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/mdn-durango-1.jpg",
-            "title": "Mosaic",
-            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "image": "shopify:\/\/shop_images\/Strobes_N_More_Emergency_Vehicle_Lighting.jpg",
+            "title": "Fleet Upfitting",
+            "text": "Strobes N' More distributes, installs and services mission-critical products on behalf of the industry’s leading manufacturers.",
             "color": "#ffffff",
             "block_link": "",
             "button_text": "",
             "button_style": "primary",
             "show_overlay": true,
             "background": "#000000",
-            "opacity": 30
+            "opacity": 68
           }
         },
         "promotion-3": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/a.jpg",
-            "title": "Mosaic",
-            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "image": "shopify:\/\/shop_images\/Strobes_N_More_Emergency_Vehicle_Lighting_In_Stock.jpg",
+            "title": "Ready To Ship",
+            "text": "We stock a wide range of emergency vehicle lighting products and accessories from industry leading manufacturers.",
             "color": "#ffffff",
             "block_link": "",
             "button_text": "",
@@ -60,16 +60,16 @@
         "promotion-4": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/sentinel-close-up-banner-mobile-us.jpg",
-            "title": "Mosaic",
-            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "image": "shopify:\/\/shop_images\/Strobes_N_More_Installs_Upfitting.jpg",
+            "title": "World Class Installs",
+            "text": "The Installation & Service Team at Strobes N' More is led by industry-leading Designers, quoters & technicians, that have been working in the upfitting space  for decades.",
             "color": "#ffffff",
             "block_link": "",
             "button_text": "",
             "button_style": "secondary",
             "show_overlay": true,
             "background": "#1d1d1d",
-            "opacity": 30
+            "opacity": 40
           }
         }
       },
