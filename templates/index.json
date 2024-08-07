@@ -223,7 +223,7 @@
         "countdown_timer_complete": false,
         "countdown_timer_message": "",
         "product": "whelen-pioneer-slimline-dual-panel-flood-spotlight",
-        "title": "Daily deal! Limited time only!",
+        "title": "STROBES DAILY DEAL",
         "button_link": "",
         "button_label": "Shop Now",
         "button_style": "secondary",
@@ -292,7 +292,7 @@
     "dynamic_blog_posts_WbF3Tb": {
       "type": "dynamic-blog-posts",
       "settings": {
-        "title": "Blog posts",
+        "title": "Solutions for Every Emergency",
         "blog": "",
         "show_date": true,
         "show_author": true,
