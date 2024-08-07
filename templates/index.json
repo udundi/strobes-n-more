@@ -406,6 +406,13 @@
             "image": "shopify:\/\/shop_images\/Whelen-logo.jpg",
             "link": ""
           }
+        },
+        "logo_Htneax": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Diode-Dynamics-logo.jpg",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -423,7 +430,8 @@
         "logo_8at8Rx",
         "logo_cYQNqV",
         "logo_diyiTp",
-        "logo_WyBBxK"
+        "logo_WyBBxK",
+        "logo_Htneax"
       ],
       "settings": {
         "title": "Trusted Brands"
