@@ -1,12 +1,3 @@
-/*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
 {
   "sections": {
     "dynamic_promo_mosaic": {
@@ -15,39 +6,39 @@
         "promotion-1": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Strobes_N_More_Installation_Service.jpg",
-            "title": "Emergency Vehicle Lighting",
-            "text": "Give us a call us at 1-401-4-LIGHTS. We are happy to assist with all of your emergency vehicle equipment needs.",
+            "image": "shopify:\/\/shop_images\/ericsgeneric_red_tow_path.jpg",
+            "title": "Mosaic",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
             "color": "#ffffff",
             "block_link": "",
             "button_text": "",
             "button_style": "primary",
             "show_overlay": true,
             "background": "#1d1d1d",
-            "opacity": 17
+            "opacity": 30
           }
         },
         "promotion-2": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Strobes_N_More_Emergency_Vehicle_Lighting.jpg",
-            "title": "Fleet Upfitting",
-            "text": "Strobes N' More distributes, installs and services mission-critical products on behalf of the industry’s leading manufacturers.",
+            "image": "shopify:\/\/shop_images\/mdn-durango-1.jpg",
+            "title": "Mosaic",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
             "color": "#ffffff",
             "block_link": "",
             "button_text": "",
             "button_style": "primary",
             "show_overlay": true,
             "background": "#000000",
-            "opacity": 68
+            "opacity": 30
           }
         },
         "promotion-3": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Strobes_N_More_Emergency_Vehicle_Lighting_In_Stock.jpg",
-            "title": "Ready To Ship",
-            "text": "We stock a wide range of emergency vehicle lighting products and accessories from industry leading manufacturers.",
+            "image": "shopify:\/\/shop_images\/a.jpg",
+            "title": "Mosaic",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
             "color": "#ffffff",
             "block_link": "",
             "button_text": "",
@@ -60,16 +51,16 @@
         "promotion-4": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Strobes_N_More_Installs_Upfitting.jpg",
-            "title": "World Class Installs",
-            "text": "The Installation & Service Team at Strobes N' More is led by industry-leading Designers, quoters & technicians, that have been working in the upfitting space  for decades.",
+            "image": "shopify:\/\/shop_images\/sentinel-close-up-banner-mobile-us.jpg",
+            "title": "Mosaic",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
             "color": "#ffffff",
             "block_link": "",
             "button_text": "",
             "button_style": "secondary",
             "show_overlay": true,
             "background": "#1d1d1d",
-            "opacity": 40
+            "opacity": 30
           }
         }
       },
@@ -223,7 +214,7 @@
         "countdown_timer_complete": false,
         "countdown_timer_message": "",
         "product": "whelen-pioneer-slimline-dual-panel-flood-spotlight",
-        "title": "STROBES DAILY DEAL",
+        "title": "Daily deal! Limited time only!",
         "button_link": "",
         "button_label": "Shop Now",
         "button_style": "secondary",
@@ -292,7 +283,7 @@
     "dynamic_blog_posts_WbF3Tb": {
       "type": "dynamic-blog-posts",
       "settings": {
-        "title": "Solutions for Every Emergency",
+        "title": "Blog posts",
         "blog": "",
         "show_date": true,
         "show_author": true,
@@ -406,13 +397,6 @@
             "image": "shopify:\/\/shop_images\/Whelen-logo.jpg",
             "link": ""
           }
-        },
-        "logo_Htneax": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Diode-Dynamics-logo.jpg",
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -430,8 +414,7 @@
         "logo_8at8Rx",
         "logo_cYQNqV",
         "logo_diyiTp",
-        "logo_WyBBxK",
-        "logo_Htneax"
+        "logo_WyBBxK"
       ],
       "settings": {
         "title": "Trusted Brands"

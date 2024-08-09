@@ -35723,8 +35723,8 @@ class StickyHeader {
     this.transitioning = false;
     this.lastToggle = Date.now() - 1000;
     this.stickyClass = 'site-header-sticky';
-    this.scrolledClass = 'site-header-sticky--scrolled';
-    this.navOpenClass = 'site-header-nav--open';
+    // this.scrolledClass = 'site-header-sticky--scrolled';
+    // this.navOpenClass = 'site-header-nav--open';
     this.events = new dist_EventHandler/* default */.Z();
     this._toggleStickyHeader = this._toggleStickyHeader.bind(this);
     this._toggleMenu = this._toggleMenu.bind(this);

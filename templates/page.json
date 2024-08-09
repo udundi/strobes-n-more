@@ -468,7 +468,7 @@
         "promotion_FHTxzD"
       ],
       "custom_css": [
-        "a {text-decoration: none; color: #1b175d;}"
+        "a {text-decoration: none; color: #000;}"
       ],
       "settings": {
         "title": "",

@@ -26,6 +26,13 @@
 
 {% assign product_form_class = 'option-style-' | append: settings.product_option_style %}
 
+{% style  %} 
+  .ud-bold option, .ud-bold {
+    font-weight: 700 !important;
+    
+  }
+{% endstyle %}
+
 {% form 'product', product, class: product_form_class, data-product-form: '' %}
   {% comment %}
     Display variant options for a product
@@ -144,17 +151,19 @@
         <style>
           .variant-selection__variants {
             display: block !important;
+            font-weight: bold !important;
           }
         </style>
       </noscript>
       <select
-        class="variant-selection__variants"
+        class="variant-selection__variants ud-bold"
         name="id"
         style="display: none"
         data-variants
       >
         <option
           value="not-selected"
+          style="font-weight: 800;"
           disabled
           {% if selected_variant == blank %}selected{% endif %}
         >
@@ -162,6 +171,8 @@
         </option>
         {% for variant in product.variants %}
           <option
+            class="ud-bold"
+            style="font-weight: 800;"
             {% if selected_variant and selected_variant.id == variant.id %}selected{% endif %}
             value="{{ variant.id }}"
             {% unless variant.available %}disabled{% endunless %}

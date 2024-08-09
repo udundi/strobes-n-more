@@ -25,7 +25,7 @@
     <div class="options-selection__input-select-wrapper">
       <select
         id="{{ id }}-{{ section.id }}"
-        class="options-selection__input-select"
+        class="options-selection__input-select ud-bold"
         data-variant-option
         data-variant-option-index="{{ option_index }}"
         data-variant-option-chosen-value="{% if selected_variant %}{{ option.selected_value }}{% else %}false{% endif %}"
@@ -33,6 +33,7 @@
         {% unless selected_variant %}
           <option
             value="not-selected"
+            style="font-weight: 700;"
             disabled
             selected
             data-variant-option-value-wrapper
@@ -45,6 +46,7 @@
         {% for value in option.values %}
           <option
             value="{{ value | escape }}"
+            style="font-weight: 700;"
             {% if selected_variant and option.selected_value == value %}selected{% endif %}
             data-variant-option-value-wrapper
             data-variant-option-value
