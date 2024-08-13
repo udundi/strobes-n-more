@@ -9,6 +9,21 @@
 */
 {
   "sections": {
+    "dynamic_image_with_text_eGnAbt": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "Image with text",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Image with text",
+        "subheading": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
     "main": {
       "type": "static-collection",
       "blocks": {
@@ -52,6 +67,7 @@
     }
   },
   "order": [
+    "dynamic_image_with_text_eGnAbt",
     "main",
     "static-recently-viewed"
   ]
