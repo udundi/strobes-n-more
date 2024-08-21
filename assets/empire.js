@@ -35778,8 +35778,8 @@ class StickyHeader {
 
     this.menu.addEventListener('transitionend', this.navTransitionOutEvent);
     this.transitioning = true;
-    this.menu.setAttribute('style', `margin-top: -${this.menu.getBoundingClientRect().height}px;`);
-    this.postMessage('nav:close-all');
+    // this.menu.setAttribute('style', `margin-top: -${this.menu.getBoundingClientRect().height}px;`);
+    // this.postMessage('nav:close-all');
   }
 
   openNavigation() {
