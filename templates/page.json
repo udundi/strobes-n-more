@@ -29,7 +29,7 @@
       "type": "dynamic-image-with-text",
       "settings": {
         "section_heading": "",
-        "image": "shopify:\/\/shop_images\/Truck.jpg",
+        "image": "shopify:\/\/shop_images\/SNM.jpg",
         "desktop_height": "natural",
         "mobile_height": "500px",
         "desktop_image_alignment": "left",
@@ -104,7 +104,7 @@
       "type": "dynamic-image-with-text",
       "settings": {
         "section_heading": "",
-        "image": "shopify:\/\/shop_images\/SNM.jpg",
+        "image": "shopify:\/\/shop_images\/Truck.jpg",
         "desktop_height": "400px",
         "mobile_height": "natural",
         "desktop_image_alignment": "left",
