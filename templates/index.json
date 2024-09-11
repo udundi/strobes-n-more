@@ -276,7 +276,7 @@
     "dynamic_blog_posts_WbF3Tb": {
       "type": "dynamic-blog-posts",
       "settings": {
-        "title": "Blog posts",
+        "title": "",
         "blog": "",
         "show_date": true,
         "show_author": true,
