@@ -30,7 +30,7 @@
       "settings": {
         "section_heading": "",
         "image": "shopify:\/\/shop_images\/MLJ7021.jpg",
-        "desktop_height": "natural",
+        "desktop_height": "500px",
         "mobile_height": "500px",
         "desktop_image_alignment": "left",
         "mobile_image_alignment": "bottom",
