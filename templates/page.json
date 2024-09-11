@@ -29,29 +29,13 @@
       "type": "dynamic-image-with-text",
       "settings": {
         "section_heading": "",
-        "image": "shopify:\/\/shop_images\/SNM.jpg",
-        "desktop_height": "natural",
-        "mobile_height": "natural",
+        "image": "shopify:\/\/shop_images\/Truck.jpg",
+        "desktop_height": "700px",
+        "mobile_height": "500px",
         "desktop_image_alignment": "left",
         "mobile_image_alignment": "top",
         "heading": "About Us",
-        "subheading": "<p>Strobes N' More distributes, installs and services mission-critical products on behalf of the industry’s leading manufacturers to a variety of government and commercial customers.  These include, but are not limited to, law enforcement, fire, EMS, and other emergency vehicle aftermarket suppliers. <\/p>",
-        "text_alignment": "left",
-        "button_label": "Button",
-        "button_link": ""
-      }
-    },
-    "dynamic_image_with_text_WAE7cx": {
-      "type": "dynamic-image-with-text",
-      "settings": {
-        "section_heading": "",
-        "image": "shopify:\/\/shop_images\/b.jpg",
-        "desktop_height": "500px",
-        "mobile_height": "natural",
-        "desktop_image_alignment": "right",
-        "mobile_image_alignment": "top",
-        "heading": "",
-        "subheading": "<p>The Company, founded in the early 1990s and headquartered in Rhode Island, is one of the oldest eCommerce-based emergency vehicle lighting solutions providers in the industry.  Prior to the advent of the internet, end-users of emergency vehicle lights had limited options when it came to purchasing their equipment.  Today, Strobes N' More stocks product on behalf of virtually every leading manufacturer in the emergency vehicle lighting industry, and also provides installation, repair & service work at its Westerly, RI facility.  We also design and engineer products under the Strobes N' More brand, which serves as a lower-cost option for customers that are more budget-minded.  We pride ourselves on product knowledge, exceptional customer service & satisfaction and industry-leading fulfillment capabilities.<\/p>",
+        "subheading": "<p>Strobes N' More distributes, installs and services mission-critical products on behalf of the industry’s leading manufacturers to a variety of government and commercial customers.  These include, but are not limited to, law enforcement, fire, EMS, and other emergency vehicle aftermarket suppliers. <\/p><p>The Company, founded in the early 1990s and headquartered in Rhode Island, is one of the oldest eCommerce-based emergency vehicle lighting solutions providers in the industry.  Prior to the advent of the internet, end-users of emergency vehicle lights had limited options when it came to purchasing their equipment.  Today, Strobes N' More stocks product on behalf of virtually every leading manufacturer in the emergency vehicle lighting industry, and also provides installation, repair & service work at its Westerly, RI facility.  We also design and engineer products under the Strobes N' More brand, which serves as a lower-cost option for customers that are more budget-minded.  We pride ourselves on product knowledge, exceptional customer service & satisfaction and industry-leading fulfillment capabilities.<\/p>",
         "text_alignment": "left",
         "button_label": "Button",
         "button_link": ""
@@ -64,7 +48,7 @@
         "image": "shopify:\/\/shop_images\/MLJ7028.jpg",
         "desktop_height": "natural",
         "mobile_height": "natural",
-        "desktop_image_alignment": "left",
+        "desktop_image_alignment": "right",
         "mobile_image_alignment": "top",
         "heading": "Our Services",
         "subheading": "<p><strong>Product Distribution:<\/strong> We stock products from virtually every leading manufacturer in the emergency vehicle lighting industry.<br\/><br\/><strong>Installation & Repair:<\/strong> Our Westerly, RI facility offers installation, repair, and service work.<br\/><br\/><\/p>",
@@ -120,10 +104,10 @@
       "type": "dynamic-image-with-text",
       "settings": {
         "section_heading": "",
-        "image": "shopify:\/\/shop_images\/Duo.jpg",
+        "image": "shopify:\/\/shop_images\/SNM.jpg",
         "desktop_height": "400px",
         "mobile_height": "natural",
-        "desktop_image_alignment": "right",
+        "desktop_image_alignment": "left",
         "mobile_image_alignment": "top",
         "heading": "Our History",
         "subheading": "<p>Founded by Louis Misto, a volunteer paramedic and former Head of the Misquamicut Fire Department, Strobes N’ More was born from firsthand experience with the challenges faced by first responders in procuring emergency vehicle lighting. Louis led the company until late 2023, when ownership transferred to Cole Carrera and Jack Eldridge. Our mission remains unchanged: to provide industry-leading emergency vehicle products and services to our nation’s first responders.<\/p>",
@@ -508,7 +492,6 @@
   "order": [
     "pxs_image_with_text_overlay_LQRWFX",
     "dynamic_image_with_text_KqcxKf",
-    "dynamic_image_with_text_WAE7cx",
     "dynamic_image_with_text_NWeqaA",
     "dynamic_faq_ghB9TF",
     "dynamic_image_with_text_Ata8NR",
