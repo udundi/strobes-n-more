@@ -30,7 +30,7 @@
       "settings": {
         "section_heading": "",
         "image": "shopify:\/\/shop_images\/Truck.jpg",
-        "desktop_height": "700px",
+        "desktop_height": "natural",
         "mobile_height": "500px",
         "desktop_image_alignment": "left",
         "mobile_image_alignment": "top",
