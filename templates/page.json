@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "pxs_image_with_text_overlay_LQRWFX": {
@@ -20,13 +29,13 @@
       "type": "dynamic-image-with-text",
       "settings": {
         "section_heading": "",
-        "image": "shopify:\/\/shop_images\/sentinel-close-up-banner-mobile-us.jpg",
+        "image": "shopify:\/\/shop_images\/SNM.jpg",
         "desktop_height": "natural",
         "mobile_height": "natural",
         "desktop_image_alignment": "left",
         "mobile_image_alignment": "top",
         "heading": "About Us",
-        "subheading": "<p>Strobes N' More distributes, installs and services mission-critical products on behalf of the industry’s leading manufacturers to a variety of government and commercial customers.  These include, but are not limited to, law enforcement, fire, EMS, and other emergency vehicle aftermarket suppliers. <\/p><p>The Company, founded in the early 1990s and headquartered in Rhode Island, is one of the oldest eCommerce-based emergency vehicle lighting solutions providers in the industry.  Prior to the advent of the internet, end-users of emergency vehicle lights had limited options when it came to purchasing their equipment.  Today, Strobes N' More stocks product on behalf of virtually every leading manufacturer in the emergency vehicle lighting industry, and also provides installation, repair & service work at its Westerly, RI facility.  We also design and engineer products under the Strobes N' More brand, which serves as a lower-cost option for customers that are more budget-minded.  We pride ourselves on product knowledge, exceptional customer service & satisfaction and industry-leading fulfillment capabilities.<\/p>",
+        "subheading": "<p>Strobes N' More distributes, installs and services mission-critical products on behalf of the industry’s leading manufacturers to a variety of government and commercial customers.  These include, but are not limited to, law enforcement, fire, EMS, and other emergency vehicle aftermarket suppliers. <\/p>",
         "text_alignment": "left",
         "button_label": "Button",
         "button_link": ""
@@ -36,10 +45,26 @@
       "type": "dynamic-image-with-text",
       "settings": {
         "section_heading": "",
-        "image": "shopify:\/\/shop_images\/ericsgeneric_red_tow_path.jpg",
-        "desktop_height": "natural",
+        "image": "shopify:\/\/shop_images\/b.jpg",
+        "desktop_height": "500px",
         "mobile_height": "natural",
         "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "",
+        "subheading": "<p>The Company, founded in the early 1990s and headquartered in Rhode Island, is one of the oldest eCommerce-based emergency vehicle lighting solutions providers in the industry.  Prior to the advent of the internet, end-users of emergency vehicle lights had limited options when it came to purchasing their equipment.  Today, Strobes N' More stocks product on behalf of virtually every leading manufacturer in the emergency vehicle lighting industry, and also provides installation, repair & service work at its Westerly, RI facility.  We also design and engineer products under the Strobes N' More brand, which serves as a lower-cost option for customers that are more budget-minded.  We pride ourselves on product knowledge, exceptional customer service & satisfaction and industry-leading fulfillment capabilities.<\/p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_image_with_text_NWeqaA": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify:\/\/shop_images\/MLJ7028.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
         "mobile_image_alignment": "top",
         "heading": "Our Services",
         "subheading": "<p><strong>Product Distribution:<\/strong> We stock products from virtually every leading manufacturer in the emergency vehicle lighting industry.<br\/><br\/><strong>Installation & Repair:<\/strong> Our Westerly, RI facility offers installation, repair, and service work.<br\/><br\/><\/p>",
@@ -95,10 +120,10 @@
       "type": "dynamic-image-with-text",
       "settings": {
         "section_heading": "",
-        "image": "shopify:\/\/shop_images\/b.jpg",
+        "image": "shopify:\/\/shop_images\/Duo.jpg",
         "desktop_height": "400px",
         "mobile_height": "natural",
-        "desktop_image_alignment": "left",
+        "desktop_image_alignment": "right",
         "mobile_image_alignment": "top",
         "heading": "Our History",
         "subheading": "<p>Founded by Louis Misto, a volunteer paramedic and former Head of the Misquamicut Fire Department, Strobes N’ More was born from firsthand experience with the challenges faced by first responders in procuring emergency vehicle lighting. Louis led the company until late 2023, when ownership transferred to Cole Carrera and Jack Eldridge. Our mission remains unchanged: to provide industry-leading emergency vehicle products and services to our nation’s first responders.<\/p>",
@@ -206,21 +231,6 @@
             "opacity": 50
           }
         },
-        "promotion_DmW8VA": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Chris_Bernier_BW.jpg",
-            "title": "Chris",
-            "text": "Inbound Sales &\nCustomer Support Specialist",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
         "promotion_ERX7tP": {
           "type": "promotion",
           "settings": {
@@ -296,21 +306,6 @@
             "opacity": 50
           }
         },
-        "promotion_kEx8g3": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Jackie_BW.jpg",
-            "title": "Jackie",
-            "text": "Warehouse Specialist",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
         "promotion_mCfnHj": {
           "type": "promotion",
           "settings": {
@@ -376,7 +371,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/Mary_Beth_BW.jpg",
             "title": "Mary Beth",
-            "text": "Inbound Sales & Customer Support Specialist",
+            "text": "Inbound Sales & Customer Support Manager",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -391,7 +386,7 @@
           "settings": {
             "image": "shopify:\/\/shop_images\/MJ1.jpg",
             "title": "Matt J.",
-            "text": "Webmaster & Technology Manager",
+            "text": "Web & Technology Manager",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -417,6 +412,36 @@
           }
         },
         "promotion_UVxXdH": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Piero.jpg",
+            "title": "Piero",
+            "text": "Inbound Sales & Customer Support Specialist",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_C98UPE": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Devin.jpg",
+            "title": "Scott",
+            "text": "Install & Uplifting",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_7UKBgC": {
           "type": "promotion",
           "settings": {
             "image": "shopify:\/\/shop_images\/Steve_BW.jpg",
@@ -450,13 +475,11 @@
       "block_order": [
         "promotion_X4Eaqk",
         "promotion_PgMDcH",
-        "promotion_DmW8VA",
         "promotion_ERX7tP",
         "promotion_YfY4CE",
         "promotion_g8bdkn",
         "promotion_kcJpLy",
         "promotion_hM8cK3",
-        "promotion_kEx8g3",
         "promotion_mCfnHj",
         "promotion_cr9VJN",
         "promotion_xxUaKa",
@@ -465,6 +488,8 @@
         "promotion_hHLgxm",
         "promotion_t4C9tP",
         "promotion_UVxXdH",
+        "promotion_C98UPE",
+        "promotion_7UKBgC",
         "promotion_FHTxzD"
       ],
       "custom_css": [
@@ -484,6 +509,7 @@
     "pxs_image_with_text_overlay_LQRWFX",
     "dynamic_image_with_text_KqcxKf",
     "dynamic_image_with_text_WAE7cx",
+    "dynamic_image_with_text_NWeqaA",
     "dynamic_faq_ghB9TF",
     "dynamic_image_with_text_Ata8NR",
     "main",
