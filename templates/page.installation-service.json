@@ -145,6 +145,57 @@
         "icon_color": "rgba(0,0,0,0)"
       }
     },
+    "1726077420ab79926f": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_JFxUdb": {
+          "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": ""
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_JFxUdb"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "172607742534842d7a": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_xeBtp4": {
+          "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": ""
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_xeBtp4"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "1726078060cc7793b9": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_a4Ahka": {
+          "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"NTYwNzI=\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_a4Ahka"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
     "dynamic_testimonials_Jr67FV": {
       "type": "dynamic-testimonials",
       "blocks": {
@@ -197,6 +248,9 @@
     "dynamic_image_with_text_Ata8NR",
     "dynamic_highlights_banner_RJeHjd",
     "dynamic_faq_ghB9TF",
+    "1726077420ab79926f",
+    "172607742534842d7a",
+    "1726078060cc7793b9",
     "dynamic_testimonials_Jr67FV",
     "main"
   ]
