@@ -46,7 +46,7 @@
       "settings": {
         "section_heading": "",
         "image": "shopify:\/\/shop_images\/Install_Upfitting.jpg",
-        "desktop_height": "400px",
+        "desktop_height": "natural",
         "mobile_height": "natural",
         "desktop_image_alignment": "right",
         "mobile_image_alignment": "top",
