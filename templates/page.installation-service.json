@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "pxs_image_with_text_overlay_LQRWFX": {
@@ -20,7 +29,7 @@
       "type": "dynamic-image-with-text",
       "settings": {
         "section_heading": "",
-        "image": "shopify:\/\/shop_images\/erik-mclean-3uHlGFnzPDU-unsplash_e2a19a16-6193-46b1-8710-a94f6db9fba4.jpg",
+        "image": "shopify:\/\/shop_images\/SNM.jpg",
         "desktop_height": "natural",
         "mobile_height": "natural",
         "desktop_image_alignment": "left",
