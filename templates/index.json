@@ -1,3 +1,12 @@
+/*
+* ------------------------------------------------------------
+* IMPORTANT: The contents of this file are auto-generated.
+*
+* This file may be updated by the Shopify admin theme editor
+* or related systems. Please exercise caution as any changes
+* made to this file may be overwritten.
+* ------------------------------------------------------------
+*/
 {
   "sections": {
     "dynamic_promo_mosaic": {
@@ -18,22 +27,7 @@
             "opacity": 30
           }
         },
-        "promotion-2": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/mdn-durango-1.jpg",
-            "title": "Mosaic",
-            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
-            "color": "#ffffff",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": true,
-            "background": "#000000",
-            "opacity": 30
-          }
-        },
-        "promotion-3": {
+        "promotion_kePLct": {
           "type": "promotion",
           "settings": {
             "image": "shopify:\/\/shop_images\/a.jpg",
@@ -66,8 +60,7 @@
       },
       "block_order": [
         "promotion-1",
-        "promotion-2",
-        "promotion-3",
+        "promotion_kePLct",
         "promotion-4"
       ],
       "settings": {
