@@ -179,23 +179,6 @@
         "include_padding": true
       }
     },
-    "1726078060cc7793b9": {
-      "type": "apps",
-      "blocks": {
-        "powerful_form_builder_app_block_a4Ahka": {
-          "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
-          "settings": {
-            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"NTYwNzI=\"><\/div>"
-          }
-        }
-      },
-      "block_order": [
-        "powerful_form_builder_app_block_a4Ahka"
-      ],
-      "settings": {
-        "include_padding": true
-      }
-    },
     "dynamic_testimonials_Jr67FV": {
       "type": "dynamic-testimonials",
       "blocks": {
@@ -235,6 +218,23 @@
         "text_size": "small"
       }
     },
+    "1726078060cc7793b9": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_a4Ahka": {
+          "type": "shopify:\/\/apps\/powerful-form-builder\/blocks\/app-block\/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"NTYwNzI=\"><\/div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_a4Ahka"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
     "main": {
       "type": "page",
       "disabled": true,
@@ -250,8 +250,8 @@
     "dynamic_faq_ghB9TF",
     "1726077420ab79926f",
     "172607742534842d7a",
-    "1726078060cc7793b9",
     "dynamic_testimonials_Jr67FV",
+    "1726078060cc7793b9",
     "main"
   ]
 }
