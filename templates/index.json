@@ -71,6 +71,40 @@
         "compress_blocks": false
       }
     },
+    "dynamic_featured_collection-2": {
+      "type": "dynamic-featured-collection",
+      "blocks": {
+        "title-card": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/b.jpg",
+            "text_alignment": "center-center",
+            "pre_heading": "Featured Products",
+            "heading": "Matt's Picks",
+            "text_color": "#ffffff",
+            "show_on_mobile": true,
+            "horizontal_size": "3",
+            "vertical_size": "2",
+            "enable_full_width_on_mobile": false,
+            "cta_label": "See more",
+            "overlay_color": "#000000",
+            "overlay_opacity": 30
+          }
+        }
+      },
+      "block_order": [
+        "title-card"
+      ],
+      "settings": {
+        "title": "",
+        "layout": "slideshow",
+        "mobile_layout": "slideshow",
+        "collection": "new-products",
+        "product_count": 7,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
+    },
     "dynamic_collection_list": {
       "type": "dynamic-collection-list",
       "blocks": {
@@ -159,42 +193,11 @@
         "cta_button_style": "primary"
       }
     },
-    "dynamic_featured_collection-2": {
-      "type": "dynamic-featured-collection",
-      "blocks": {
-        "title-card": {
-          "type": "title_card",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/b.jpg",
-            "text_alignment": "center-center",
-            "pre_heading": "Featured Products",
-            "heading": "Matt's Picks",
-            "text_color": "#ffffff",
-            "show_on_mobile": true,
-            "horizontal_size": "3",
-            "vertical_size": "2",
-            "enable_full_width_on_mobile": false,
-            "cta_label": "See more",
-            "overlay_color": "#000000",
-            "overlay_opacity": 30
-          }
-        }
-      },
-      "block_order": [
-        "title-card"
-      ],
-      "settings": {
-        "title": "",
-        "layout": "slideshow",
-        "mobile_layout": "slideshow",
-        "collection": "new-products",
-        "product_count": 7,
-        "cta_label": "",
-        "cta_button_style": "primary"
-      }
-    },
     "dynamic_countdown_timer_MdU634": {
       "type": "dynamic-countdown-timer",
+      "custom_css": [
+
+      ],
       "settings": {
         "section_height": "small",
         "image": "shopify:\/\/shop_images\/bg.jpg",
@@ -416,8 +419,8 @@
   },
   "order": [
     "dynamic_promo_mosaic",
-    "dynamic_collection_list",
     "dynamic_featured_collection-2",
+    "dynamic_collection_list",
     "dynamic_countdown_timer_MdU634",
     "dynamic_highlights_banner_UdyCk4",
     "dynamic_blog_posts_WbF3Tb",
