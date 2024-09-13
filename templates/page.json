@@ -25,33 +25,17 @@
         "button_text": "Shop Now"
       }
     },
-    "dynamic_image_with_text_KqcxKf": {
-      "type": "dynamic-image-with-text",
-      "settings": {
-        "section_heading": "",
-        "image": "shopify:\/\/shop_images\/MLJ7049.jpg",
-        "desktop_height": "500px",
-        "mobile_height": "500px",
-        "desktop_image_alignment": "left",
-        "mobile_image_alignment": "bottom",
-        "heading": "About Us",
-        "subheading": "<p>Strobes N' More distributes, installs and services mission-critical products on behalf of the industry’s leading manufacturers to a variety of government and commercial customers.  These include, but are not limited to, law enforcement, fire, EMS, and other emergency vehicle aftermarket suppliers. <\/p><p>The Company, founded in the early 1990s and headquartered in Rhode Island, is one of the oldest eCommerce-based emergency vehicle lighting solutions providers in the industry.  Prior to the advent of the internet, end-users of emergency vehicle lights had limited options when it came to purchasing their equipment.  Today, Strobes N' More stocks product on behalf of virtually every leading manufacturer in the emergency vehicle lighting industry, and also provides installation, repair & service work at its Westerly, RI facility.  We also design and engineer products under the Strobes N' More brand, which serves as a lower-cost option for customers that are more budget-minded.  We pride ourselves on product knowledge, exceptional customer service & satisfaction and industry-leading fulfillment capabilities.<\/p>",
-        "text_alignment": "left",
-        "button_label": "Button",
-        "button_link": ""
-      }
-    },
     "dynamic_image_with_text_NWeqaA": {
       "type": "dynamic-image-with-text",
       "settings": {
         "section_heading": "",
-        "image": "shopify:\/\/shop_images\/Truck.jpg",
+        "image": "shopify:\/\/shop_images\/SNM1.jpg",
         "desktop_height": "400px",
         "mobile_height": "natural",
         "desktop_image_alignment": "right",
         "mobile_image_alignment": "bottom",
-        "heading": "Our Services",
-        "subheading": "<p><strong>Product Distribution:<\/strong> We stock products from virtually every leading manufacturer in the emergency vehicle lighting industry.<br\/><br\/><strong>Installation & Repair:<\/strong> Our Westerly, RI facility offers installation, repair, and service work.<br\/><br\/><strong>Want to speak directly with our in-house customer support team? <\/strong>Give us a call us at<strong>401-4-LIGHTS<\/strong>, use our chat function on the bottom right of your screen or email us at <strong>sales@strobesnmore.com<\/strong>.  We are happy to assist with all of your emergency vehicle equipment needs.<\/p>",
+        "heading": "Representative Customers",
+        "subheading": "<p>At Strobes N' More, we are committed to providing high-quality products and exceptional service. Our customers reflect that standard, representing a wide range of industries—from emergency services and public safety to construction and utilities. The reliability and performance of our lighting solutions help them excel in their work.<\/p><p>This page is dedicated to showcasing the outstanding organizations and agencies who trust Strobes N' More to keep them visible, safe, and efficient. Each featured customer represents excellence in their field, and we are honored to support their efforts with products they can depend on.<\/p>",
         "text_alignment": "left",
         "button_label": "Button",
         "button_link": ""
@@ -98,22 +82,6 @@
         "category_card_image_crop": "original",
         "category_heading_size": "medium",
         "icon_color": "rgba(0,0,0,0)"
-      }
-    },
-    "dynamic_image_with_text_Ata8NR": {
-      "type": "dynamic-image-with-text",
-      "settings": {
-        "section_heading": "",
-        "image": "shopify:\/\/shop_images\/Installs_8.jpg",
-        "desktop_height": "400px",
-        "mobile_height": "natural",
-        "desktop_image_alignment": "left",
-        "mobile_image_alignment": "bottom",
-        "heading": "Our History",
-        "subheading": "<p>Strobes N’ More was founded by Louis Misto, a long-time volunteer paramedic who also served as Head of the Misquamicut Fire Department from approximately 2000 - 2015.  During this time, Louis witnessed & experienced first-hand the emergency vehicle lighting procurement issues (e.g, lack of product options, fulfillment issues, no customer support or back-end service, etc.) faced by first responders.  From there, he saw an opportunity for a customer service-oriented vendor with strong manufacturer relationships to break into the market and plant a flag within the distribution segment of the industry.  Louis owned & operated the business until late 2023, when he transferred ownership & management of Strobes N’ More to Cole Carrera & Jack Eldridge.  Despite this ownership change, our mission remains the same: to provide industry-leading emergency vehicle products & services to our nation’s first responders. <\/p>",
-        "text_alignment": "left",
-        "button_label": "Button",
-        "button_link": ""
       }
     },
     "main": {
@@ -176,7 +144,7 @@
       ],
       "settings": {
         "width": "full-width",
-        "title": "Meet the Team",
+        "title": "Featured Clients",
         "text": "",
         "heading_size": "medium",
         "text_alignment": "center"
@@ -188,9 +156,9 @@
         "promotion_X4Eaqk": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Bill.jpg",
-            "title": "Bill",
-            "text": "In-house Bookkeeper",
+            "image": "shopify:\/\/shop_images\/AAA.jpg",
+            "title": "AAA",
+            "text": "",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -203,9 +171,9 @@
         "promotion_PgMDcH": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Cole_BW.jpg",
-            "title": "Cole",
-            "text": "Co-CEO",
+            "image": "shopify:\/\/shop_images\/Auto_Zone.jpg",
+            "title": "AutoZone",
+            "text": "",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -218,9 +186,9 @@
         "promotion_ERX7tP": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Craig.jpg",
-            "title": "Craig",
-            "text": "Warehouse Manager",
+            "image": "shopify:\/\/shop_images\/BrightView.jpg",
+            "title": "BrightView",
+            "text": "",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -233,9 +201,9 @@
         "promotion_YfY4CE": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Dasan_BW.jpg",
-            "title": "Dasan",
-            "text": "Warehouse Specialist",
+            "image": "shopify:\/\/shop_images\/CAT.jpg",
+            "title": "Caterpillar",
+            "text": "",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -248,9 +216,9 @@
         "promotion_g8bdkn": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Dave.jpg",
-            "title": "Dave",
-            "text": "Installs Service Advisor",
+            "image": "shopify:\/\/shop_images\/comcast.jpg",
+            "title": "Comcast",
+            "text": "",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -263,9 +231,9 @@
         "promotion_kcJpLy": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Devin.jpg",
-            "title": "Devin",
-            "text": "Inbound Sales & Customer Support Specialist",
+            "image": "shopify:\/\/shop_images\/Cox_Automotive.jpg",
+            "title": "Cox Automotive",
+            "text": "",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -278,9 +246,9 @@
         "promotion_hM8cK3": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Jack_BW.jpg",
-            "title": "Jack",
-            "text": "Co-CEO",
+            "image": "shopify:\/\/shop_images\/Duke_Energy.jpg",
+            "title": "Duke Energy",
+            "text": "",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -293,9 +261,9 @@
         "promotion_mCfnHj": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/John_BW.jpg",
-            "title": "John",
-            "text": "Warehouse Specialist",
+            "image": "shopify:\/\/shop_images\/General_Dynamics.jpg",
+            "title": "General Dynamics",
+            "text": "",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -308,9 +276,9 @@
         "promotion_cr9VJN": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Kevin.jpg",
-            "title": "Kevin",
-            "text": "Install & Upfitting",
+            "image": "shopify:\/\/shop_images\/Kinder_Morgan.jpg",
+            "title": "Kinder Morgan",
+            "text": "",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -323,9 +291,9 @@
         "promotion_xxUaKa": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Kyle_BW.jpg",
-            "title": "Kyle",
-            "text": "Install & Upfitting Manager",
+            "image": "shopify:\/\/shop_images\/Lockheed_Martin.jpg",
+            "title": "Lockheed Martin",
+            "text": "",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -338,9 +306,9 @@
         "promotion_7XmU94": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Devin.jpg",
-            "title": "Leah",
-            "text": "Inbound Sales & Customer Support Specialist",
+            "image": "shopify:\/\/shop_images\/NAPA.jpg",
+            "title": "NAPA",
+            "text": "",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -353,9 +321,9 @@
         "promotion_wFDQje": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Mary_Beth_BW.jpg",
-            "title": "Mary Beth",
-            "text": "Inbound Sales & Customer Support Manager",
+            "image": "shopify:\/\/shop_images\/Norfolk_Southern.jpg",
+            "title": "Norfolk Southern",
+            "text": "",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -368,9 +336,9 @@
         "promotion_hHLgxm": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/MJ1.jpg",
-            "title": "Matt J.",
-            "text": "Web & Technology Manager",
+            "image": "shopify:\/\/shop_images\/Northrop_Grumman.jpg",
+            "title": "Northrop Grumman",
+            "text": "",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -383,9 +351,9 @@
         "promotion_t4C9tP": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Matt_BW.jpg",
-            "title": "Matt R.",
-            "text": "Inbound Sales & Technical Support",
+            "image": "shopify:\/\/shop_images\/Republic_Services.jpg",
+            "title": "Republic Services",
+            "text": "",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -398,9 +366,9 @@
         "promotion_UVxXdH": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Piero.jpg",
-            "title": "Piero",
-            "text": "Inbound Sales & Customer Support Specialist",
+            "image": "shopify:\/\/shop_images\/Southern_Company.jpg",
+            "title": "Southern Company",
+            "text": "",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -413,9 +381,9 @@
         "promotion_C98UPE": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Devin.jpg",
-            "title": "Scott",
-            "text": "Install & Uplifting",
+            "image": "shopify:\/\/shop_images\/Union_Pacific.jpg",
+            "title": "Union Pacifit",
+            "text": "",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -428,9 +396,9 @@
         "promotion_7UKBgC": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Steve_BW.jpg",
-            "title": "Steve",
-            "text": "Install & Uplifting",
+            "image": "shopify:\/\/shop_images\/United_Airlines.jpg",
+            "title": "United Airlines",
+            "text": "",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -443,9 +411,39 @@
         "promotion_FHTxzD": {
           "type": "promotion",
           "settings": {
-            "image": "shopify:\/\/shop_images\/Steve_Post_BW.jpg",
-            "title": "Steve",
-            "text": "Purchasing Manager",
+            "image": "shopify:\/\/shop_images\/United_Rentals.jpg",
+            "title": "United Rentals",
+            "text": "",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_tNeh6h": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Verizon.jpg",
+            "title": "Verizon",
+            "text": "",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_YRjzjh": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vulcan_Materials_Company.jpg",
+            "title": "Vulcan Materials Company",
+            "text": "",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -474,7 +472,9 @@
         "promotion_UVxXdH",
         "promotion_C98UPE",
         "promotion_7UKBgC",
-        "promotion_FHTxzD"
+        "promotion_FHTxzD",
+        "promotion_tNeh6h",
+        "promotion_YRjzjh"
       ],
       "custom_css": [
         "a {text-decoration: none; color: #000;}"
@@ -491,10 +491,8 @@
   },
   "order": [
     "pxs_image_with_text_overlay_LQRWFX",
-    "dynamic_image_with_text_KqcxKf",
     "dynamic_image_with_text_NWeqaA",
     "dynamic_faq_ghB9TF",
-    "dynamic_image_with_text_Ata8NR",
     "main",
     "dynamic_highlights_banner_RJeHjd",
     "dynamic_rich_text_fYUcBa",
