@@ -150,342 +150,214 @@
         "text_alignment": "center"
       }
     },
-    "dynamic_promo_grid_xYYwnc": {
-      "type": "dynamic-promo-grid",
+    "dynamic_logo_list_y6CFQM": {
+      "type": "dynamic-logo-list",
       "blocks": {
-        "promotion_X4Eaqk": {
-          "type": "promotion",
+        "logo_negKB8": {
+          "type": "logo",
           "settings": {
             "image": "shopify:\/\/shop_images\/AAA.jpg",
-            "title": "AAA",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 49
+            "link": ""
           }
         },
-        "promotion_PgMDcH": {
-          "type": "promotion",
+        "logo_Pfc7Xf": {
+          "type": "logo",
           "settings": {
             "image": "shopify:\/\/shop_images\/Auto_Zone.jpg",
-            "title": "AutoZone",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
+            "link": ""
           }
         },
-        "promotion_ERX7tP": {
-          "type": "promotion",
+        "logo_XxdgLd": {
+          "type": "logo",
           "settings": {
             "image": "shopify:\/\/shop_images\/BrightView.jpg",
-            "title": "BrightView",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
+            "link": ""
           }
         },
-        "promotion_YfY4CE": {
-          "type": "promotion",
+        "logo_TGNdjX": {
+          "type": "logo",
           "settings": {
             "image": "shopify:\/\/shop_images\/CAT.jpg",
-            "title": "Caterpillar",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_g8bdkn": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/comcast.jpg",
-            "title": "Comcast",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_kcJpLy": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Cox_Automotive.jpg",
-            "title": "Cox Automotive",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_hM8cK3": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Duke_Energy.jpg",
-            "title": "Duke Energy",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_mCfnHj": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/General_Dynamics.jpg",
-            "title": "General Dynamics",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_cr9VJN": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Kinder_Morgan.jpg",
-            "title": "Kinder Morgan",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_xxUaKa": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Lockheed_Martin.jpg",
-            "title": "Lockheed Martin",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_7XmU94": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/NAPA.jpg",
-            "title": "NAPA",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_wFDQje": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Norfolk_Southern.jpg",
-            "title": "Norfolk Southern",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_hHLgxm": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Northrop_Grumman.jpg",
-            "title": "Northrop Grumman",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_t4C9tP": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Republic_Services.jpg",
-            "title": "Republic Services",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_UVxXdH": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Southern_Company.jpg",
-            "title": "Southern Company",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_C98UPE": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Union_Pacific.jpg",
-            "title": "Union Pacifit",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_7UKBgC": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/United_Airlines.jpg",
-            "title": "United Airlines",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_FHTxzD": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/United_Rentals.jpg",
-            "title": "United Rentals",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_tNeh6h": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Verizon.jpg",
-            "title": "Verizon",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_YRjzjh": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/Vulcan_Materials_Company.jpg",
-            "title": "Vulcan Materials Company",
-            "text": "",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
+            "link": ""
           }
         }
       },
       "block_order": [
-        "promotion_X4Eaqk",
-        "promotion_PgMDcH",
-        "promotion_ERX7tP",
-        "promotion_YfY4CE",
-        "promotion_g8bdkn",
-        "promotion_kcJpLy",
-        "promotion_hM8cK3",
-        "promotion_mCfnHj",
-        "promotion_cr9VJN",
-        "promotion_xxUaKa",
-        "promotion_7XmU94",
-        "promotion_wFDQje",
-        "promotion_hHLgxm",
-        "promotion_t4C9tP",
-        "promotion_UVxXdH",
-        "promotion_C98UPE",
-        "promotion_7UKBgC",
-        "promotion_FHTxzD",
-        "promotion_tNeh6h",
-        "promotion_YRjzjh"
-      ],
-      "custom_css": [
-        "a {text-decoration: none; color: #000;}"
+        "logo_negKB8",
+        "logo_Pfc7Xf",
+        "logo_XxdgLd",
+        "logo_TGNdjX"
       ],
       "settings": {
-        "title": "",
-        "text_outside": true,
-        "text_centered": true,
-        "section_height": "natural",
-        "section_columns": 4,
-        "text_alignment": "center-center"
+        "title": ""
+      }
+    },
+    "dynamic_logo_list_yjmxHR": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "logo_NqFwgC": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/comcast.jpg",
+            "link": ""
+          }
+        },
+        "logo_EiQPTN": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Cox_Automotive.jpg",
+            "link": ""
+          }
+        },
+        "logo_LDMhW3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Duke_Energy.jpg",
+            "link": ""
+          }
+        },
+        "logo_9dcBDg": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/General_Dynamics.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_NqFwgC",
+        "logo_EiQPTN",
+        "logo_LDMhW3",
+        "logo_9dcBDg"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "dynamic_logo_list_bzWKkR": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "logo_wpFE6C": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Kinder_Morgan.jpg",
+            "link": ""
+          }
+        },
+        "logo_PYPnJJ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Lockheed_Martin.jpg",
+            "link": ""
+          }
+        },
+        "logo_am74Mn": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/NAPA.jpg",
+            "link": ""
+          }
+        },
+        "logo_aeRFMd": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Norfolk_Southern.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_wpFE6C",
+        "logo_PYPnJJ",
+        "logo_am74Mn",
+        "logo_aeRFMd"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "dynamic_logo_list_VpwpDQ": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "logo_ERek4n": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Northrop_Grumman.jpg",
+            "link": ""
+          }
+        },
+        "logo_jm34hK": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Republic_Services.jpg",
+            "link": ""
+          }
+        },
+        "logo_CDDaJ3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Southern_Company.jpg",
+            "link": ""
+          }
+        },
+        "logo_AFcmdT": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Union_Pacific.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_ERek4n",
+        "logo_jm34hK",
+        "logo_CDDaJ3",
+        "logo_AFcmdT"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "dynamic_logo_list_q3xKqY": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "logo_Xx4wJw": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/United_Airlines.jpg",
+            "link": ""
+          }
+        },
+        "logo_Ch7CFh": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/United_Rentals.jpg",
+            "link": ""
+          }
+        },
+        "logo_6FtejH": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Verizon.jpg",
+            "link": ""
+          }
+        },
+        "logo_Q8V9Jc": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/Vulcan_Materials_Company.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_Xx4wJw",
+        "logo_Ch7CFh",
+        "logo_6FtejH",
+        "logo_Q8V9Jc"
+      ],
+      "settings": {
+        "title": ""
       }
     }
   },
@@ -496,6 +368,10 @@
     "main",
     "dynamic_highlights_banner_RJeHjd",
     "dynamic_rich_text_fYUcBa",
-    "dynamic_promo_grid_xYYwnc"
+    "dynamic_logo_list_y6CFQM",
+    "dynamic_logo_list_yjmxHR",
+    "dynamic_logo_list_bzWKkR",
+    "dynamic_logo_list_VpwpDQ",
+    "dynamic_logo_list_q3xKqY"
   ]
 }
