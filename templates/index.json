@@ -227,7 +227,7 @@
           "type": "highlight",
           "settings": {
             "icon": "icon-delivery",
-            "title": "Fulfillment Capabilities",
+            "title": "Rapid Order Fulfillment",
             "text": "",
             "link": ""
           }
@@ -236,7 +236,7 @@
           "type": "highlight",
           "settings": {
             "icon": "icon-store",
-            "title": "Product Variety",
+            "title": "Wide Product Variety",
             "text": "",
             "link": ""
           }
@@ -245,7 +245,7 @@
           "type": "highlight",
           "settings": {
             "icon": "icon-chat-alternate",
-            "title": "Customer Support",
+            "title": "Attentive Customer Support",
             "text": "",
             "link": ""
           }
@@ -254,7 +254,7 @@
           "type": "highlight",
           "settings": {
             "icon": "icon-credit-card",
-            "title": "Secure Payment",
+            "title": "100% Secure Payment",
             "text": "",
             "link": ""
           }
