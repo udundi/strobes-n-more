@@ -85,7 +85,7 @@
         "share"
       ],
       "custom_css": [
-        "@media only screen and (min-width: 768px) {.product-details {position: -webkit-sticky; position: sticky; top: 20px; /* Adjust the value to control the sticky start position */ }}"
+
       ],
       "settings": {
         "gallery_aspect_ratio": "natural",
