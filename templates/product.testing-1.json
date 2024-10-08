@@ -85,7 +85,7 @@
         "share"
       ],
       "custom_css": [
-
+        ".product-gallery--image {position: sticky; top: 20px;}"
       ],
       "settings": {
         "gallery_aspect_ratio": "natural",
