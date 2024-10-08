@@ -84,6 +84,10 @@
         "form",
         "share"
       ],
+      "custom_css": [
+        "/* Sticky Product Image */.product-gallery {position: -webkit-sticky; /* For Safari */ position: sticky; top: 20px; /* Distance from the top of the viewport */}",
+        "/* Container for stopping sticky behavior */.product-information {position: relative;}"
+      ],
       "settings": {
         "gallery_aspect_ratio": "natural",
         "gallery_image_crop": false,
