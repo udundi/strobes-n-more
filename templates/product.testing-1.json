@@ -171,7 +171,7 @@
           "type": "testimonial",
           "settings": {
             "star_rating": "0",
-            "text": "<h3>Specifications</h3><p>Voltage: 10-30 VDC<br/><br/>Current: 0.33 (average)<br/><br/>Certiﬁcations: SAE Class 1</p><h3><br/>Dimensions:</h3><p>14\"x6\"x4\" (inches)</p><p></p>",
+            "text": "<h3>Specifications</h3><p>Voltage: 10-30 VDC<br/>Current: 0.33 (average)<br/>Certiﬁcations: SAE Class 1</p><h3><br/>Dimensions</h3><p>14\"x6\"x4\" (inches)</p><p></p>",
             "author": ""
           }
         }
