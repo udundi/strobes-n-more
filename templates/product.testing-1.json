@@ -94,6 +94,20 @@
         "gallery_click_to_zoom": "always"
       }
     },
+    "dynamic_video_WkhYfq": {
+      "type": "dynamic-video",
+      "settings": {
+        "title": "Video",
+        "url": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "show_caption": false,
+        "caption": "<p>A short description of the video.</p>",
+        "autoplay": false,
+        "aspect_ratio": "16-9",
+        "show_overlay": false,
+        "background": "#000000",
+        "opacity": 50
+      }
+    },
     "dynamic_highlights_banner_DTRagm": {
       "type": "dynamic-highlights-banner",
       "blocks": {
@@ -156,6 +170,7 @@
   },
   "order": [
     "main",
+    "dynamic_video_WkhYfq",
     "dynamic_highlights_banner_DTRagm",
     "recommendations",
     "recently-viewed"
