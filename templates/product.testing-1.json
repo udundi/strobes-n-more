@@ -85,11 +85,11 @@
         "share"
       ],
       "custom_css": [
-        ".product-gallery--image {position: sticky; top: 20px;}"
+
       ],
       "settings": {
         "gallery_aspect_ratio": "natural",
-        "gallery_image_crop": false,
+        "gallery_image_crop": true,
         "gallery_thumbnail_position": "below",
         "gallery_video_autoplay": true,
         "gallery_video_looping": true,
@@ -155,12 +155,47 @@
       "settings": {
         "enable_recently_viewed_products": true
       }
+    },
+    "dynamic_testimonials_tHBDpa": {
+      "type": "dynamic-testimonials",
+      "blocks": {
+        "testimonial_taT9Qq": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "0",
+            "text": "<h3>Features</h3><p>• Hard-coated lenses resist environmental damage from sand, salt, sun, and road chemicals<br/>• Conformal coated electronics for moisture, vibration, and corrosion resistance<br/>• Patented E Block™ technology prevents air and moisture from entering the lighthead<br/>• Each lighthead contains 36 Linear Super-LED® diodes<br/>• Steady Lock™ enabled lightheads can be set to steady automatically when used with a CenCom Core® control system<br/>• 73 Flash Patterns Including Steady-Burn</p>",
+            "author": ""
+          }
+        },
+        "testimonial_qmpx37": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": "0",
+            "text": "<h3>Specifications</h3><p>Voltage: 10-30 VDC<br/><br/>Current: 0.33 (average)<br/><br/>Certiﬁcations: SAE Class 1</p><h3><br/>Dimensions:</h3><p>14\"x6\"x4\" (inches)</p><p></p>",
+            "author": ""
+          }
+        }
+      },
+      "block_order": [
+        "testimonial_taT9Qq",
+        "testimonial_qmpx37"
+      ],
+      "custom_css": [
+        "p {text-align: left;}",
+        "h3 {text-align: left;}"
+      ],
+      "settings": {
+        "title": "",
+        "image_crop": "circle",
+        "text_size": "medium"
+      }
     }
   },
   "order": [
     "main",
     "dynamic_highlights_banner_DTRagm",
     "recommendations",
-    "recently-viewed"
+    "recently-viewed",
+    "dynamic_testimonials_tHBDpa"
   ]
 }
