@@ -292,7 +292,7 @@
         "highlight_xhadb7": {
           "type": "highlight",
           "settings": {
-            "icon": "icon-chat-alternate",
+            "icon": "icon-chat",
             "title": "Send A Message",
             "text": "<p>Sales@StrobesNMore.com </p>",
             "link": ""
