@@ -269,7 +269,7 @@
       "type": "static-product-recommendations",
       "settings": {
         "show_product_recommendations": true,
-        "product_recommendations_heading": "Related Items"
+        "product_recommendations_heading": "You may also like"
       }
     },
     "dynamic_highlights_banner_DTRagm": {
@@ -323,6 +323,62 @@
       "settings": {
         "enable_recently_viewed_products": true
       }
+    },
+    "dynamic_highlights_banner_Tma8cX": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_88E3ij": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-delivery",
+            "title": "Free Shipping",
+            "text": "<p>When you spend $100+</p>",
+            "link": ""
+          }
+        },
+        "highlight_F4napY": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-cell-phone",
+            "title": "Satisfaction Guaranteed",
+            "text": "<p>We pride ourselves on customer service.</p>",
+            "link": ""
+          }
+        },
+        "highlight_dhtkkj": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "100% Secure Payments",
+            "text": "<p>PCI Level 1 Compliance</p>",
+            "link": ""
+          }
+        },
+        "highlight_dCif6d": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-pin",
+            "title": "Locations",
+            "text": "<p>Find a store near you</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_88E3ij",
+        "highlight_F4napY",
+        "highlight_dhtkkj",
+        "highlight_dCif6d"
+      ],
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#4d4d4d",
+        "icon_color": "#4d4d4d",
+        "background_color": "#f8f8f8",
+        "mobile_layout": "slider"
+      }
     }
   },
   "order": [
@@ -332,6 +388,7 @@
     "dynamic_highlights_banner_cKrFJt",
     "recommendations",
     "dynamic_highlights_banner_DTRagm",
-    "recently-viewed"
+    "recently-viewed",
+    "dynamic_highlights_banner_Tma8cX"
   ]
 }
