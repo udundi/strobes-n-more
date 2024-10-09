@@ -258,7 +258,7 @@
       "settings": {
         "section_spacing": false,
         "section_width": "full-width",
-        "icon_layout": "left",
+        "icon_layout": "center",
         "color": "#4d4d4d",
         "icon_color": "#4d4d4d",
         "background_color": "#ffffff",
