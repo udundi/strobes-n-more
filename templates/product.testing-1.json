@@ -155,12 +155,115 @@
       "settings": {
         "enable_recently_viewed_products": true
       }
+    },
+    "dynamic_faq_7TRfjC": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_wBjeLt": {
+          "type": "category",
+          "settings": {
+            "heading": "Shipping",
+            "show_category_card": true
+          }
+        },
+        "question_WJzmkL": {
+          "type": "question",
+          "settings": {
+            "question": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>",
+            "icon": "none"
+          }
+        },
+        "question_gL8wGK": {
+          "type": "question",
+          "settings": {
+            "question": "How long will it take to get my order?",
+            "answer": "<p>The shipping time may vary depending on your location and the selected shipping method. During the checkout process, you will be provided with estimated delivery times based on your destination.</p>",
+            "icon": "none"
+          }
+        },
+        "question_tRmRy9": {
+          "type": "question",
+          "settings": {
+            "question": "How can I track my order?",
+            "answer": "<p>Once your order is shipped, you will receive a confirmation email with tracking information. You can use this information to track the status and estimated delivery time of your order.</p>",
+            "icon": "none"
+          }
+        },
+        "category_mt6LVB": {
+          "type": "category",
+          "settings": {
+            "heading": "Orders",
+            "show_category_card": true
+          }
+        },
+        "question_H6Ntfq": {
+          "type": "question",
+          "settings": {
+            "question": "Can I get my product personalized?",
+            "answer": "<p>It depends on the manufacturer and the product. All options are outlined on the product page, so look out for customization options there.</p>",
+            "icon": "none"
+          }
+        },
+        "question_FtVY4r": {
+          "type": "question",
+          "settings": {
+            "question": "Is there a minimum order quantity for wholesale purchases?",
+            "answer": "<p>While we cater to both individual and wholesale customers, specific products may have minimum order quantities for wholesale purchases. Check the product details or contact our team for wholesale order requirements.</p>",
+            "icon": "none"
+          }
+        },
+        "question_LNP8KQ": {
+          "type": "question",
+          "settings": {
+            "question": "Can I modify my order after it has been placed?",
+            "answer": "<p>Once an order is placed, modifications may be limited. Please contact our customer support team as soon as possible if you need to make changes to your order, and we will do our best to accommodate your request.</p>",
+            "icon": "none"
+          }
+        },
+        "category_wDkJFM": {
+          "type": "category",
+          "settings": {
+            "heading": "Product",
+            "show_category_card": true
+          }
+        },
+        "question_hncjUr": {
+          "type": "question",
+          "settings": {
+            "question": "Do you offer technical support for your products?",
+            "answer": "<p>Absolutely! If you have any technical questions or need assistance with the installation and operation of our products, our knowledgeable technical support team is ready to help. Contact us for technical support.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_wBjeLt",
+        "question_WJzmkL",
+        "question_gL8wGK",
+        "question_tRmRy9",
+        "category_mt6LVB",
+        "question_H6Ntfq",
+        "question_FtVY4r",
+        "question_LNP8KQ",
+        "category_wDkJFM",
+        "question_hncjUr"
+      ],
+      "settings": {
+        "section_width": "regular",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": true,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "main",
     "dynamic_highlights_banner_DTRagm",
     "recommendations",
-    "recently-viewed"
+    "recently-viewed",
+    "dynamic_faq_7TRfjC"
   ]
 }
