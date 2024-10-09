@@ -257,6 +257,72 @@
         "category_heading_size": "medium",
         "icon_color": "rgba(0,0,0,0)"
       }
+    },
+    "dynamic_rich_text_dq8igr": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "width": "regular",
+        "title": "Any questions?",
+        "text": "<p>If we still haven't answered your question, you can contact us below and we will get back to you as soon as possible.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_highlights_banner_cKrFJt": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_cQat9C": {
+          "type": "highlight",
+          "settings": {
+            "icon": "none",
+            "title": "",
+            "text": "",
+            "link": ""
+          }
+        },
+        "highlight_D7T3Dk": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-cell-phone",
+            "title": "Give Us A Call",
+            "text": "<p>1-401-454-4487</p>",
+            "link": ""
+          }
+        },
+        "highlight_xhadb7": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "Send A Message",
+            "text": "<p>Sales@StrobesNMore.com </p>",
+            "link": ""
+          }
+        },
+        "highlight_qiLwFi": {
+          "type": "highlight",
+          "settings": {
+            "icon": "none",
+            "title": "",
+            "text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_cQat9C",
+        "highlight_D7T3Dk",
+        "highlight_xhadb7",
+        "highlight_qiLwFi"
+      ],
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#4d4d4d",
+        "icon_color": "#4d4d4d",
+        "background_color": "#f8f8f8",
+        "mobile_layout": "slider"
+      }
     }
   },
   "order": [
@@ -264,6 +330,8 @@
     "dynamic_highlights_banner_DTRagm",
     "recommendations",
     "recently-viewed",
-    "dynamic_faq_7TRfjC"
+    "dynamic_faq_7TRfjC",
+    "dynamic_rich_text_dq8igr",
+    "dynamic_highlights_banner_cKrFJt"
   ]
 }
