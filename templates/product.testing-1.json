@@ -320,7 +320,7 @@
         "icon_layout": "left",
         "color": "#4d4d4d",
         "icon_color": "#4d4d4d",
-        "background_color": "#f8f8f8",
+        "background_color": "#ffffff",
         "mobile_layout": "slider"
       }
     }
