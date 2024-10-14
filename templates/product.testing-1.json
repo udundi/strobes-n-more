@@ -81,8 +81,19 @@
             "tab_text_1": "<p>Use this text to share information about your product.</p>",
             "tab_heading_2": "Tab 2",
             "tab_text_2": "<p>Use this text to share information about your product.</p>",
-            "tab_heading_3": "Tab 3",
-            "tab_text_3": "<p>Use this text to share information about your product.</p>"
+            "tab_heading_3": "",
+            "tab_text_3": ""
+          }
+        },
+        "key_details_nRegk3": {
+          "type": "key_details",
+          "settings": {
+            "icon": "icon-delivery-package",
+            "title": "Delivery time",
+            "text": "<p>Use this text to share information about your product and policies with your customers.</p>",
+            "text_color": "#1D1D1D",
+            "icon_color": "#1D1D1D",
+            "background_color": "#f5f3ed"
           }
         }
       },
@@ -97,7 +108,8 @@
         "complementary_products_UQ4miN",
         "description",
         "share",
-        "tabs_QdCHNA"
+        "tabs_QdCHNA",
+        "key_details_nRegk3"
       ],
       "custom_css": [
 
@@ -108,7 +120,7 @@
         "gallery_thumbnail_position": "below",
         "gallery_video_autoplay": true,
         "gallery_video_looping": true,
-        "gallery_hover_zoom": "disabled",
+        "gallery_hover_zoom": "separate",
         "gallery_click_to_zoom": "always"
       }
     },
