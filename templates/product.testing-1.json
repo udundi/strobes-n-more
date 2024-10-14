@@ -67,6 +67,17 @@
           "settings": {
           }
         },
+        "key_details_nRegk3": {
+          "type": "key_details",
+          "settings": {
+            "icon": "icon-delivery-package",
+            "title": "Delivery time",
+            "text": "<p>Use this text to share information about your product and policies with your customers.</p>",
+            "text_color": "#1D1D1D",
+            "icon_color": "#1D1D1D",
+            "background_color": "#f5f3ed"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -77,23 +88,20 @@
           "settings": {
             "show_product_description": true,
             "show_tabs_below_product_gallery": true,
-            "tab_heading_1": "Tab 1",
+            "tab_heading_1": "",
             "tab_text_1": "<p>Use this text to share information about your product.</p>",
-            "tab_heading_2": "Tab 2",
+            "tab_heading_2": "FAQ",
             "tab_text_2": "<p>Use this text to share information about your product.</p>",
             "tab_heading_3": "",
             "tab_text_3": ""
           }
         },
-        "key_details_nRegk3": {
-          "type": "key_details",
+        "request_quote_QEmRxe": {
+          "type": "request_quote",
           "settings": {
-            "icon": "icon-delivery-package",
-            "title": "Delivery time",
-            "text": "<p>Use this text to share information about your product and policies with your customers.</p>",
-            "text_color": "#1D1D1D",
-            "icon_color": "#1D1D1D",
-            "background_color": "#f5f3ed"
+            "title": "Request a quote",
+            "show_quantity": true,
+            "show_message": false
           }
         }
       },
@@ -107,9 +115,10 @@
         "price",
         "complementary_products_UQ4miN",
         "description",
+        "key_details_nRegk3",
         "share",
         "tabs_QdCHNA",
-        "key_details_nRegk3"
+        "request_quote_QEmRxe"
       ],
       "custom_css": [
 
@@ -406,6 +415,40 @@
         "background_color": "#f8f8f8",
         "mobile_layout": "slider"
       }
+    },
+    "dynamic_featured_collection_NyPcHq": {
+      "type": "dynamic-featured-collection",
+      "blocks": {
+        "title_card_p7WVUA": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify://shop_images/MLJ7021.jpg",
+            "text_alignment": "center-center",
+            "pre_heading": "Featured",
+            "heading": "Collection",
+            "text_color": "#FFFFFF",
+            "show_on_mobile": true,
+            "horizontal_size": "1",
+            "vertical_size": "2",
+            "enable_full_width_on_mobile": false,
+            "cta_label": "See more",
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "title_card_p7WVUA"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "layout": "slideshow",
+        "mobile_layout": "grid",
+        "collection": "amber-lights",
+        "product_count": 16,
+        "cta_label": "Shop collection",
+        "cta_button_style": "primary"
+      }
     }
   },
   "order": [
@@ -416,6 +459,7 @@
     "recommendations",
     "dynamic_highlights_banner_DTRagm",
     "recently-viewed",
-    "dynamic_highlights_banner_Tma8cX"
+    "dynamic_highlights_banner_Tma8cX",
+    "dynamic_featured_collection_NyPcHq"
   ]
 }
