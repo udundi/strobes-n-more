@@ -107,6 +107,20 @@
         "gallery_click_to_zoom": "always"
       }
     },
+    "dynamic_custom_liquid_8Rnbhw": {
+      "type": "dynamic-custom-liquid",
+      "custom_css": [
+        "/* Two-column layout */.custom-two-column-container {display: flex; justify-content: space-between; align-items: center; max-width: 100%; margin: 20px auto; gap: 20px; /* Optional: space between the two columns */}",
+        "/* Video container */.custom-video-container {width: 50%;}",
+        ".custom-video-container video {width: 100%; height: auto; border-radius: 8px;}",
+        "/* Text container */.custom-text-container {width: 50%; padding: 0 20px;}",
+        ".custom-text-container h2 {font-size: 24px; margin-bottom: 10px;}",
+        ".custom-text-container p {font-size: 16px; line-height: 1.5;}"
+      ],
+      "settings": {
+        "custom_liquid": "{% assign video_url = \"https://cdn.shopify.com/videos/c/o/v/0afe6d4971fa4ff2819d909102cdf25b.mp4\" %}\n\n<div class=\"custom-two-column-container\">\n  <div class=\"custom-video-container\">\n    <video controls>\n      <source src=\"{{ video_url }}\" type=\"video/mp4\">\n      Your browser does not support the video tag.\n    </video>\n  </div>\n  \n  <div class=\"custom-text-container\">\n    <h2>Your Heading Here</h2>\n    <p>Your description text goes here. Add more details about the content, product, or anything you want to convey to the visitors.</p>\n  </div>\n</div>"
+      }
+    },
     "dynamic_faq_7TRfjC": {
       "type": "dynamic-faq",
       "blocks": {
@@ -427,6 +441,7 @@
   },
   "order": [
     "main",
+    "dynamic_custom_liquid_8Rnbhw",
     "dynamic_faq_7TRfjC",
     "dynamic_rich_text_dq8igr",
     "dynamic_highlights_banner_cKrFJt",
