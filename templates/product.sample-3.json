@@ -44,6 +44,12 @@
             "tab_heading_3": "",
             "tab_text_3": ""
           }
+        },
+        "custom_liquid_R8rifR": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": ""
+          }
         }
       },
       "block_order": [
@@ -51,7 +57,8 @@
         "vendor",
         "rating",
         "price",
-        "tabs_AKAbBz"
+        "tabs_AKAbBz",
+        "custom_liquid_R8rifR"
       ],
       "settings": {
         "social_share": true,
