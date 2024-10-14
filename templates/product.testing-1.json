@@ -17,6 +17,19 @@
           "settings": {
           }
         },
+        "tabs_QdCHNA": {
+          "type": "tabs",
+          "settings": {
+            "show_product_description": true,
+            "show_tabs_below_product_gallery": true,
+            "tab_heading_1": "{{ product.metafields.custom.testing_tab_1.value }}",
+            "tab_text_1": "<p>{{ product.metafields.custom.testing_tab_1_description | metafield_tag }}</p>",
+            "tab_heading_2": "{{ product.metafields.custom.testing_tab_2.value }}",
+            "tab_text_2": "<p>{{ product.metafields.custom.testing_tab_2_description | metafield_tag }}</p>",
+            "tab_heading_3": "",
+            "tab_text_3": ""
+          }
+        },
         "vendor": {
           "type": "vendor",
           "settings": {
@@ -55,17 +68,6 @@
             "products_per_slide": 2
           }
         },
-        "key_details_nRegk3": {
-          "type": "key_details",
-          "settings": {
-            "icon": "icon-delivery-package",
-            "title": "Delivery time",
-            "text": "<p>Use this text to share information about your product and policies with your customers.</p>",
-            "text_color": "#1d1d1d",
-            "icon_color": "#1d1d1d",
-            "background_color": "#f5f3ed"
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -78,33 +80,19 @@
             "show_quantity": true,
             "show_message": false
           }
-        },
-        "tabs_QdCHNA": {
-          "type": "tabs",
-          "settings": {
-            "show_product_description": true,
-            "show_tabs_below_product_gallery": true,
-            "tab_heading_1": "{{ product.metafields.custom.testing_tab_1.value }}",
-            "tab_text_1": "<p>{{ product.metafields.custom.testing_tab_1_description | metafield_tag }}</p>",
-            "tab_heading_2": "{{ product.metafields.custom.testing_tab_2.value }}",
-            "tab_text_2": "<p>{{ product.metafields.custom.testing_tab_2_description | metafield_tag }}</p>",
-            "tab_heading_3": "",
-            "tab_text_3": ""
-          }
         }
       },
       "block_order": [
         "title",
+        "tabs_QdCHNA",
         "vendor",
         "form",
         "collapsible_tab_PDXiXe",
         "rating",
         "price",
         "complementary_products_UQ4miN",
-        "key_details_nRegk3",
         "share",
-        "request_quote_QEmRxe",
-        "tabs_QdCHNA"
+        "request_quote_QEmRxe"
       ],
       "custom_css": [
 
