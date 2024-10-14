@@ -215,6 +215,7 @@
       "blocks": {
         "highlight_4KdgWF": {
           "type": "highlight",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "title": "",
@@ -242,6 +243,7 @@
         },
         "highlight_iaD4HJ": {
           "type": "highlight",
+          "disabled": true,
           "settings": {
             "icon": "none",
             "title": "",
@@ -263,7 +265,7 @@
         "color": "#4d4d4d",
         "icon_color": "#4d4d4d",
         "background_color": "#ffffff",
-        "mobile_layout": "slider"
+        "mobile_layout": "grid"
       }
     },
     "recommendations": {
