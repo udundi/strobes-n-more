@@ -37,12 +37,6 @@
             "collapsible_tab_text": "<p>Use this text to share information about your product.</p>"
           }
         },
-        "desc_tab_QhEzwa": {
-          "type": "desc-tab",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "rating": {
           "type": "rating",
           "settings": {
@@ -61,12 +55,6 @@
             "products_per_slide": 2
           }
         },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "key_details_nRegk3": {
           "type": "key_details",
           "settings": {
@@ -83,6 +71,14 @@
           "settings": {
           }
         },
+        "request_quote_QEmRxe": {
+          "type": "request_quote",
+          "settings": {
+            "title": "Request a quote",
+            "show_quantity": true,
+            "show_message": false
+          }
+        },
         "tabs_QdCHNA": {
           "type": "tabs",
           "settings": {
@@ -90,18 +86,10 @@
             "show_tabs_below_product_gallery": true,
             "tab_heading_1": "",
             "tab_text_1": "<p>Use this text to share information about your product.</p>",
-            "tab_heading_2": "FAQ",
-            "tab_text_2": "<p>Use this text to share information about your product.</p>",
+            "tab_heading_2": "",
+            "tab_text_2": "",
             "tab_heading_3": "",
             "tab_text_3": ""
-          }
-        },
-        "request_quote_QEmRxe": {
-          "type": "request_quote",
-          "settings": {
-            "title": "Request a quote",
-            "show_quantity": true,
-            "show_message": false
           }
         }
       },
@@ -110,15 +98,13 @@
         "vendor",
         "form",
         "collapsible_tab_PDXiXe",
-        "desc_tab_QhEzwa",
         "rating",
         "price",
         "complementary_products_UQ4miN",
-        "description",
         "key_details_nRegk3",
         "share",
-        "tabs_QdCHNA",
-        "request_quote_QEmRxe"
+        "request_quote_QEmRxe",
+        "tabs_QdCHNA"
       ],
       "custom_css": [
 
