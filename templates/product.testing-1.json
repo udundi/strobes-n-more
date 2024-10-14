@@ -84,8 +84,8 @@
           "settings": {
             "show_product_description": true,
             "show_tabs_below_product_gallery": true,
-            "tab_heading_1": "",
-            "tab_text_1": "<p>Use this text to share information about your product.</p>",
+            "tab_heading_1": "{{ product.metafields.custom.testing_tab_1.value }}",
+            "tab_text_1": "<p>{{ product.metafields.custom.testing_tab_1_description | metafield_tag }}</p>",
             "tab_heading_2": "",
             "tab_text_2": "",
             "tab_heading_3": "",
