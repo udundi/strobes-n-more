@@ -387,10 +387,10 @@
         "title_card_p7WVUA": {
           "type": "title_card",
           "settings": {
-            "image": "shopify://shop_images/MLJ7021.jpg",
+            "image": "shopify://shop_images/MLJ7028.jpg",
             "text_alignment": "center-center",
             "pre_heading": "Featured",
-            "heading": "Collection",
+            "heading": "Best Sellers",
             "text_color": "#ffffff",
             "show_on_mobile": true,
             "horizontal_size": "2",
@@ -398,7 +398,7 @@
             "enable_full_width_on_mobile": false,
             "cta_label": "See more",
             "overlay_color": "#000000",
-            "overlay_opacity": 50
+            "overlay_opacity": 30
           }
         }
       },
@@ -406,7 +406,7 @@
         "title_card_p7WVUA"
       ],
       "settings": {
-        "title": "Featured collection",
+        "title": "",
         "layout": "grid",
         "mobile_layout": "grid",
         "collection": "amber-lights",
