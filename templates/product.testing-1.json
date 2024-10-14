@@ -428,7 +428,7 @@
             "heading": "Collection",
             "text_color": "#FFFFFF",
             "show_on_mobile": true,
-            "horizontal_size": "3",
+            "horizontal_size": "2",
             "vertical_size": "2",
             "enable_full_width_on_mobile": false,
             "cta_label": "See more",
@@ -442,11 +442,11 @@
       ],
       "settings": {
         "title": "Featured collection",
-        "layout": "slideshow",
+        "layout": "grid",
         "mobile_layout": "grid",
         "collection": "amber-lights",
-        "product_count": 16,
-        "cta_label": "Shop collection",
+        "product_count": 6,
+        "cta_label": "",
         "cta_button_style": "primary"
       }
     }
