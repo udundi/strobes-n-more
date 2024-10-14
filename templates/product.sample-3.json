@@ -36,7 +36,7 @@
           "type": "tabs",
           "settings": {
             "show_product_description": true,
-            "show_tabs_below_product_gallery": false,
+            "show_tabs_below_product_gallery": true,
             "tab_heading_1": "{{ product.metafields.custom.testing_tab_1.value }}",
             "tab_text_1": "<p>{{ product.metafields.custom.testing_tab_1_description | metafield_tag }}</p>",
             "tab_heading_2": "{{ product.metafields.custom.testing_tab_2.value }}",
@@ -48,7 +48,7 @@
         "custom_liquid_R8rifR": {
           "type": "custom-liquid",
           "settings": {
-            "custom_liquid": ""
+            "custom_liquid": "{% assign video_url = \"https://cdn.shopify.com/videos/c/o/v/0afe6d4971fa4ff2819d909102cdf25b.mp4\" %}\n\n<div class=\"custom-video-container\">\n  <video controls>\n    <source src=\"{{ video_url }}\" type=\"video/mp4\">\n    Your browser does not support the video tag.\n  </video>\n</div>"
           }
         }
       },
@@ -59,6 +59,10 @@
         "price",
         "tabs_AKAbBz",
         "custom_liquid_R8rifR"
+      ],
+      "custom_css": [
+        ".custom-video-container {max-width: 100%; margin: 20px auto;}",
+        ".custom-video-container video {width: 100%; height: auto; border-radius: 8px; /* Optional: Add rounded corners */}"
       ],
       "settings": {
         "social_share": true,
