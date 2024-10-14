@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -22,6 +22,13 @@
           "settings": {
           }
         },
+        "form": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": true,
+            "show_gift_card_recipient_form": false
+          }
+        },
         "collapsible_tab_PDXiXe": {
           "type": "collapsible-tab",
           "disabled": true,
@@ -32,6 +39,7 @@
         },
         "desc_tab_QhEzwa": {
           "type": "desc-tab",
+          "disabled": true,
           "settings": {
           }
         },
@@ -59,30 +67,37 @@
           "settings": {
           }
         },
-        "form": {
-          "type": "form",
-          "settings": {
-            "enable_local_pickup": true,
-            "show_gift_card_recipient_form": false
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
+          }
+        },
+        "tabs_QdCHNA": {
+          "type": "tabs",
+          "settings": {
+            "show_product_description": true,
+            "show_tabs_below_product_gallery": true,
+            "tab_heading_1": "Tab 1",
+            "tab_text_1": "<p>Use this text to share information about your product.</p>",
+            "tab_heading_2": "Tab 2",
+            "tab_text_2": "<p>Use this text to share information about your product.</p>",
+            "tab_heading_3": "Tab 3",
+            "tab_text_3": "<p>Use this text to share information about your product.</p>"
           }
         }
       },
       "block_order": [
         "title",
         "vendor",
+        "form",
         "collapsible_tab_PDXiXe",
         "desc_tab_QhEzwa",
         "rating",
         "price",
         "complementary_products_UQ4miN",
         "description",
-        "form",
-        "share"
+        "share",
+        "tabs_QdCHNA"
       ],
       "custom_css": [
 
