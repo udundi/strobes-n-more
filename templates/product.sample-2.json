@@ -213,16 +213,6 @@
     "dynamic_highlights_banner_cKrFJt": {
       "type": "dynamic-highlights-banner",
       "blocks": {
-        "highlight_4KdgWF": {
-          "type": "highlight",
-          "disabled": true,
-          "settings": {
-            "icon": "none",
-            "title": "",
-            "text": "",
-            "link": ""
-          }
-        },
         "highlight_D7T3Dk": {
           "type": "highlight",
           "settings": {
@@ -232,18 +222,26 @@
             "link": ""
           }
         },
+        "highlight_4KdgWF": {
+          "type": "highlight",
+          "settings": {
+            "icon": "none",
+            "title": "",
+            "text": "",
+            "link": ""
+          }
+        },
         "highlight_xhadb7": {
           "type": "highlight",
           "settings": {
             "icon": "icon-chat",
-            "title": "Send A Message",
+            "title": "Message Us",
             "text": "<p>Sales@StrobesNMore.com </p>",
             "link": ""
           }
         },
         "highlight_iaD4HJ": {
           "type": "highlight",
-          "disabled": true,
           "settings": {
             "icon": "none",
             "title": "",
@@ -253,8 +251,8 @@
         }
       },
       "block_order": [
-        "highlight_4KdgWF",
         "highlight_D7T3Dk",
+        "highlight_4KdgWF",
         "highlight_xhadb7",
         "highlight_iaD4HJ"
       ],
@@ -265,7 +263,7 @@
         "color": "#4d4d4d",
         "icon_color": "#4d4d4d",
         "background_color": "#ffffff",
-        "mobile_layout": "grid"
+        "mobile_layout": "slider"
       }
     },
     "recommendations": {
