@@ -75,6 +75,7 @@
         },
         "custom_liquid_QWf38d": {
           "type": "custom-liquid",
+          "disabled": true,
           "settings": {
             "custom_liquid": "{% assign video_url = \"https://cdn.shopify.com/videos/c/o/v/0afe6d4971fa4ff2819d909102cdf25b.mp4\" %}\n\n<div class=\"custom-video-container\">\n  <video controls>\n    <source src=\"{{ video_url }}\" type=\"video/mp4\">\n    Your browser does not support the video tag.\n  </video>\n</div>"
           }
