@@ -428,7 +428,7 @@
             "heading": "Collection",
             "text_color": "#FFFFFF",
             "show_on_mobile": true,
-            "horizontal_size": "1",
+            "horizontal_size": "3",
             "vertical_size": "2",
             "enable_full_width_on_mobile": false,
             "cta_label": "See more",
