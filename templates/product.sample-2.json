@@ -1,0 +1,430 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {
+          }
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": true,
+            "show_gift_card_recipient_form": false
+          }
+        },
+        "collapsible_tab_PDXiXe": {
+          "type": "collapsible-tab",
+          "disabled": true,
+          "settings": {
+            "collapsible_tab_heading": "Collapsible tab",
+            "collapsible_tab_text": "<p>Use this text to share information about your product.</p>"
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {
+          }
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "tabs_QdCHNA": {
+          "type": "tabs",
+          "settings": {
+            "show_product_description": true,
+            "show_tabs_below_product_gallery": false,
+            "tab_heading_1": "{{ product.metafields.custom.testing_tab_1.value }}",
+            "tab_text_1": "<p>{{ product.metafields.custom.testing_tab_1_description | metafield_tag }}</p>",
+            "tab_heading_2": "{{ product.metafields.custom.testing_tab_2.value }}",
+            "tab_text_2": "<p>{{ product.metafields.custom.testing_tab_2_description | metafield_tag }}</p>",
+            "tab_heading_3": "",
+            "tab_text_3": ""
+          }
+        },
+        "complementary_products_UQ4miN": {
+          "type": "complementary_products",
+          "settings": {
+            "heading": "Accessories",
+            "product_recommendation_limit": 10,
+            "products_per_slide": 2
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor",
+        "form",
+        "collapsible_tab_PDXiXe",
+        "rating",
+        "price",
+        "tabs_QdCHNA",
+        "complementary_products_UQ4miN",
+        "share"
+      ],
+      "custom_css": [
+
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": true,
+        "gallery_thumbnail_position": "below",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "separate",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "dynamic_faq_7TRfjC": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_wBjeLt": {
+          "type": "category",
+          "settings": {
+            "heading": "Shipping",
+            "show_category_card": true
+          }
+        },
+        "question_WJzmkL": {
+          "type": "question",
+          "settings": {
+            "question": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>",
+            "icon": "none"
+          }
+        },
+        "question_gL8wGK": {
+          "type": "question",
+          "settings": {
+            "question": "How long will it take to get my order?",
+            "answer": "<p>The shipping time may vary depending on your location and the selected shipping method. During the checkout process, you will be provided with estimated delivery times based on your destination.</p>",
+            "icon": "none"
+          }
+        },
+        "question_tRmRy9": {
+          "type": "question",
+          "settings": {
+            "question": "How can I track my order?",
+            "answer": "<p>Once your order is shipped, you will receive a confirmation email with tracking information. You can use this information to track the status and estimated delivery time of your order.</p>",
+            "icon": "none"
+          }
+        },
+        "category_mt6LVB": {
+          "type": "category",
+          "settings": {
+            "heading": "Orders",
+            "show_category_card": true
+          }
+        },
+        "question_H6Ntfq": {
+          "type": "question",
+          "settings": {
+            "question": "Can I get my product personalized?",
+            "answer": "<p>It depends on the manufacturer and the product. All options are outlined on the product page, so look out for customization options there.</p>",
+            "icon": "none"
+          }
+        },
+        "question_FtVY4r": {
+          "type": "question",
+          "settings": {
+            "question": "Is there a minimum order quantity for wholesale purchases?",
+            "answer": "<p>While we cater to both individual and wholesale customers, specific products may have minimum order quantities for wholesale purchases. Check the product details or contact our team for wholesale order requirements.</p>",
+            "icon": "none"
+          }
+        },
+        "question_LNP8KQ": {
+          "type": "question",
+          "settings": {
+            "question": "Can I modify my order after it has been placed?",
+            "answer": "<p>Once an order is placed, modifications may be limited. Please contact our customer support team as soon as possible if you need to make changes to your order, and we will do our best to accommodate your request.</p>",
+            "icon": "none"
+          }
+        },
+        "category_wDkJFM": {
+          "type": "category",
+          "settings": {
+            "heading": "Product",
+            "show_category_card": true
+          }
+        },
+        "question_hncjUr": {
+          "type": "question",
+          "settings": {
+            "question": "Do you offer technical support for your products?",
+            "answer": "<p>Absolutely! If you have any technical questions or need assistance with the installation and operation of our products, our knowledgeable technical support team is ready to help. Contact us for technical support.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_wBjeLt",
+        "question_WJzmkL",
+        "question_gL8wGK",
+        "question_tRmRy9",
+        "category_mt6LVB",
+        "question_H6Ntfq",
+        "question_FtVY4r",
+        "question_LNP8KQ",
+        "category_wDkJFM",
+        "question_hncjUr"
+      ],
+      "settings": {
+        "section_width": "wide",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
+    "dynamic_rich_text_dq8igr": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "width": "regular",
+        "title": "Any questions?",
+        "text": "<p>If we still haven't answered your question, you can contact us below and we will get back to you as soon as possible.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_highlights_banner_cKrFJt": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_4KdgWF": {
+          "type": "highlight",
+          "settings": {
+            "icon": "none",
+            "title": "",
+            "text": "",
+            "link": ""
+          }
+        },
+        "highlight_D7T3Dk": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-cell-phone",
+            "title": "Give Us A Call",
+            "text": "<p>1-401-454-4487</p>",
+            "link": ""
+          }
+        },
+        "highlight_xhadb7": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat",
+            "title": "Send A Message",
+            "text": "<p>Sales@StrobesNMore.com </p>",
+            "link": ""
+          }
+        },
+        "highlight_iaD4HJ": {
+          "type": "highlight",
+          "settings": {
+            "icon": "none",
+            "title": "",
+            "text": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_4KdgWF",
+        "highlight_D7T3Dk",
+        "highlight_xhadb7",
+        "highlight_iaD4HJ"
+      ],
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "center",
+        "color": "#4d4d4d",
+        "icon_color": "#4d4d4d",
+        "background_color": "#ffffff",
+        "mobile_layout": "slider"
+      }
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You may also like"
+      }
+    },
+    "dynamic_highlights_banner_DTRagm": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_Q339zW": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-information",
+            "title": "Warranty Info",
+            "text": "<p>Easy to follow instructions provided by each manufacturer</p>",
+            "link": "shopify://pages/warranty-and-repairs"
+          }
+        },
+        "highlight_88jjUt": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-thumbs-up",
+            "title": "Helpful Videos",
+            "text": "<p>Installation & troubleshooting tips from our team</p>",
+            "link": "shopify://blogs/instructional-videos"
+          }
+        },
+        "highlight_pUnkHf": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-tape-measure",
+            "title": "Installation Services",
+            "text": "<p>Expert service with unmatched reliability and performance</p>",
+            "link": "shopify://pages/installation-service"
+          }
+        }
+      },
+      "block_order": [
+        "highlight_Q339zW",
+        "highlight_88jjUt",
+        "highlight_pUnkHf"
+      ],
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "center",
+        "color": "#20215a",
+        "icon_color": "#07145e",
+        "background_color": "#f8f8f8",
+        "mobile_layout": "slider"
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "dynamic_highlights_banner_Tma8cX": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_88E3ij": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-delivery",
+            "title": "Free Shipping",
+            "text": "<p>When you spend $100+</p>",
+            "link": ""
+          }
+        },
+        "highlight_F4napY": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-cell-phone",
+            "title": "Satisfaction Guaranteed",
+            "text": "<p>We pride ourselves on customer service.</p>",
+            "link": ""
+          }
+        },
+        "highlight_dhtkkj": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "100% Secure Payments",
+            "text": "<p>PCI Level 1 Compliance</p>",
+            "link": ""
+          }
+        },
+        "highlight_dCif6d": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-pin",
+            "title": "Locations",
+            "text": "<p>Find a store near you</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_88E3ij",
+        "highlight_F4napY",
+        "highlight_dhtkkj",
+        "highlight_dCif6d"
+      ],
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#4d4d4d",
+        "icon_color": "#4d4d4d",
+        "background_color": "#f8f8f8",
+        "mobile_layout": "slider"
+      }
+    },
+    "dynamic_featured_collection_NyPcHq": {
+      "type": "dynamic-featured-collection",
+      "blocks": {
+        "title_card_p7WVUA": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify://shop_images/MLJ7021.jpg",
+            "text_alignment": "center-center",
+            "pre_heading": "Featured",
+            "heading": "Collection",
+            "text_color": "#ffffff",
+            "show_on_mobile": true,
+            "horizontal_size": "2",
+            "vertical_size": "2",
+            "enable_full_width_on_mobile": false,
+            "cta_label": "See more",
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "title_card_p7WVUA"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "layout": "grid",
+        "mobile_layout": "grid",
+        "collection": "amber-lights",
+        "product_count": 6,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_faq_7TRfjC",
+    "dynamic_rich_text_dq8igr",
+    "dynamic_highlights_banner_cKrFJt",
+    "recommendations",
+    "dynamic_highlights_banner_DTRagm",
+    "recently-viewed",
+    "dynamic_highlights_banner_Tma8cX",
+    "dynamic_featured_collection_NyPcHq"
+  ]
+}
