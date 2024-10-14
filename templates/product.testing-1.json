@@ -17,19 +17,6 @@
           "settings": {
           }
         },
-        "tabs_QdCHNA": {
-          "type": "tabs",
-          "settings": {
-            "show_product_description": true,
-            "show_tabs_below_product_gallery": true,
-            "tab_heading_1": "{{ product.metafields.custom.testing_tab_1.value }}",
-            "tab_text_1": "<p>{{ product.metafields.custom.testing_tab_1_description | metafield_tag }}</p>",
-            "tab_heading_2": "{{ product.metafields.custom.testing_tab_2.value }}",
-            "tab_text_2": "<p>{{ product.metafields.custom.testing_tab_2_description | metafield_tag }}</p>",
-            "tab_heading_3": "",
-            "tab_text_3": ""
-          }
-        },
         "vendor": {
           "type": "vendor",
           "settings": {
@@ -60,6 +47,19 @@
           "settings": {
           }
         },
+        "tabs_QdCHNA": {
+          "type": "tabs",
+          "settings": {
+            "show_product_description": true,
+            "show_tabs_below_product_gallery": false,
+            "tab_heading_1": "{{ product.metafields.custom.testing_tab_1.value }}",
+            "tab_text_1": "<p>{{ product.metafields.custom.testing_tab_1_description | metafield_tag }}</p>",
+            "tab_heading_2": "{{ product.metafields.custom.testing_tab_2.value }}",
+            "tab_text_2": "<p>{{ product.metafields.custom.testing_tab_2_description | metafield_tag }}</p>",
+            "tab_heading_3": "",
+            "tab_text_3": ""
+          }
+        },
         "complementary_products_UQ4miN": {
           "type": "complementary_products",
           "settings": {
@@ -72,27 +72,18 @@
           "type": "share",
           "settings": {
           }
-        },
-        "request_quote_QEmRxe": {
-          "type": "request_quote",
-          "settings": {
-            "title": "Request a quote",
-            "show_quantity": true,
-            "show_message": false
-          }
         }
       },
       "block_order": [
         "title",
-        "tabs_QdCHNA",
         "vendor",
         "form",
         "collapsible_tab_PDXiXe",
         "rating",
         "price",
+        "tabs_QdCHNA",
         "complementary_products_UQ4miN",
-        "share",
-        "request_quote_QEmRxe"
+        "share"
       ],
       "custom_css": [
 
