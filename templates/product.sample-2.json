@@ -312,6 +312,40 @@
         "background_color": "#ffffff",
         "mobile_layout": "grid"
       }
+    },
+    "dynamic_featured_collection_UAi8a6": {
+      "type": "dynamic-featured-collection",
+      "blocks": {
+        "title_card_wwCznB": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify://shop_images/MLJ7028.jpg",
+            "text_alignment": "center-center",
+            "pre_heading": "Featured",
+            "heading": "Garage Sale",
+            "text_color": "#FFFFFF",
+            "show_on_mobile": true,
+            "horizontal_size": "2",
+            "vertical_size": "2",
+            "enable_full_width_on_mobile": false,
+            "cta_label": "See more",
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "title_card_wwCznB"
+      ],
+      "settings": {
+        "title": "Featured collection",
+        "layout": "grid",
+        "mobile_layout": "slideshow",
+        "collection": "new-products",
+        "product_count": 6,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
     }
   },
   "order": [
@@ -322,6 +356,7 @@
     "recommendations",
     "dynamic_rich_text_abeF46",
     "recently-viewed",
-    "dynamic_highlights_banner_Tma8cX"
+    "dynamic_highlights_banner_Tma8cX",
+    "dynamic_featured_collection_UAi8a6"
   ]
 }
