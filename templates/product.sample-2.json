@@ -129,6 +129,10 @@
     },
     "dynamic_video_zeenGE": {
       "type": "dynamic-video",
+      "custom_css": [
+        "/* Show the video container only on mobile screens */@media (max-width: 767px) {.video {display: block; /* Make it visible on mobile */ }}",
+        "/* Hide the video container on tablets, laptops, and desktops */@media (min-width: 768px) {.video {display: none; /* Hide on larger screens */ }}"
+      ],
       "settings": {
         "title": "",
         "url": "https://youtu.be/4iyoSWCW5zM?si=p7TbVIg1Q78oh7tT",
