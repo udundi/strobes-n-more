@@ -337,10 +337,9 @@
       "block_order": [
         "title_card_wwCznB"
       ],
-      "disabled": true,
       "settings": {
         "title": "Featured collection",
-        "layout": "grid",
+        "layout": "slideshow",
         "mobile_layout": "slideshow",
         "collection": "new-products",
         "product_count": 6,
