@@ -323,7 +323,7 @@
             "text_alignment": "center-center",
             "pre_heading": "Featured",
             "heading": "New Products",
-            "text_color": "#FFFFFF",
+            "text_color": "#ffffff",
             "show_on_mobile": true,
             "horizontal_size": "2",
             "vertical_size": "2",
@@ -337,6 +337,7 @@
       "block_order": [
         "title_card_wwCznB"
       ],
+      "disabled": true,
       "settings": {
         "title": "Featured collection",
         "layout": "grid",
