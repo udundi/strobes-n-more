@@ -285,8 +285,21 @@
         "mobile_layout": "slider"
       }
     },
+    "dynamic_rich_text_abeF46": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "width": "regular",
+        "title": "Will use testimonial app here",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "center"
+      }
+    },
     "recently-viewed": {
       "type": "static-recently-viewed",
+      "custom_css": [
+
+      ],
       "settings": {
         "enable_recently_viewed_products": true
       }
@@ -355,6 +368,7 @@
     "dynamic_faq_7TRfjC",
     "recommendations",
     "dynamic_highlights_banner_DTRagm",
+    "dynamic_rich_text_abeF46",
     "recently-viewed",
     "dynamic_highlights_banner_Tma8cX"
   ]
