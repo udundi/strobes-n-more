@@ -127,24 +127,6 @@
         "custom_liquid": "{% assign video_url = \"https://cdn.shopify.com/videos/c/o/v/0afe6d4971fa4ff2819d909102cdf25b.mp4\" %}\n\n<div class=\"mobile-video-container\">\n  <video controls playsinline>\n    <source src=\"{{ video_url }}\" type=\"video/mp4\">\n    Your browser does not support the video tag.\n  </video>\n</div>"
       }
     },
-    "dynamic_video_zeenGE": {
-      "type": "dynamic-video",
-      "custom_css": [
-        "/* Show the video container only on mobile screens */@media (max-width: 767px) {.video {display: block; /* Make it visible on mobile */ }}",
-        "/* Hide the video container on tablets, laptops, and desktops */@media (min-width: 768px) {.video {display: none; /* Hide on larger screens */ }}"
-      ],
-      "settings": {
-        "title": "",
-        "url": "https://youtu.be/4iyoSWCW5zM?si=p7TbVIg1Q78oh7tT",
-        "show_caption": false,
-        "caption": "<p>A short description of the video.</p>",
-        "autoplay": false,
-        "aspect_ratio": "16-9",
-        "show_overlay": false,
-        "background": "#000000",
-        "opacity": 50
-      }
-    },
     "dynamic_faq_7TRfjC": {
       "type": "dynamic-faq",
       "blocks": {
@@ -467,7 +449,6 @@
     "main",
     "dynamic_custom_liquid_LXMWa9",
     "dynamic_custom_liquid_JETQHx",
-    "dynamic_video_zeenGE",
     "dynamic_faq_7TRfjC",
     "dynamic_rich_text_dq8igr",
     "dynamic_highlights_banner_cKrFJt",
