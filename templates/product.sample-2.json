@@ -357,7 +357,7 @@
         "color": "#4d4d4d",
         "icon_color": "#4d4d4d",
         "background_color": "#ffffff",
-        "mobile_layout": "slider"
+        "mobile_layout": "grid"
       }
     }
   },
