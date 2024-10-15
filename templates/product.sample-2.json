@@ -380,6 +380,65 @@
         "cta_label": "",
         "cta_button_style": "primary"
       }
+    },
+    "dynamic_promo_mosaic_W9Htqr": {
+      "type": "dynamic-promo-mosaic",
+      "blocks": {
+        "promotion_NTAEnb": {
+          "type": "promotion",
+          "settings": {
+            "title": "Mosaic",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_9XqYdY": {
+          "type": "promotion",
+          "settings": {
+            "title": "Mosaic",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_dmhWEE": {
+          "type": "promotion",
+          "settings": {
+            "title": "Mosaic",
+            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion_NTAEnb",
+        "promotion_9XqYdY",
+        "promotion_dmhWEE"
+      ],
+      "settings": {
+        "title": "Mosaic",
+        "section_height": "small",
+        "text_alignment": "top-left",
+        "maintain_aspect_ratio": false,
+        "compress_blocks": true
+      }
     }
   },
   "order": [
@@ -391,6 +450,7 @@
     "dynamic_highlights_banner_DTRagm",
     "recently-viewed",
     "dynamic_highlights_banner_Tma8cX",
-    "dynamic_featured_collection_NyPcHq"
+    "dynamic_featured_collection_NyPcHq",
+    "dynamic_promo_mosaic_W9Htqr"
   ]
 }
