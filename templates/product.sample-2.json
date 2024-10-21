@@ -186,13 +186,6 @@
             "icon": "none"
           }
         },
-        "category_wDkJFM": {
-          "type": "category",
-          "settings": {
-            "heading": "Product",
-            "show_category_card": true
-          }
-        },
         "question_hncjUr": {
           "type": "question",
           "settings": {
@@ -211,7 +204,6 @@
         "question_H6Ntfq",
         "question_FtVY4r",
         "question_LNP8KQ",
-        "category_wDkJFM",
         "question_hncjUr"
       ],
       "settings": {

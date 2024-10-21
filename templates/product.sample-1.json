@@ -22,19 +22,6 @@
           "settings": {
           }
         },
-        "tabs_QdCHNA": {
-          "type": "tabs",
-          "settings": {
-            "show_product_description": true,
-            "show_tabs_below_product_gallery": false,
-            "tab_heading_1": "{{ product.metafields.custom.testing_tab_1.value }}",
-            "tab_text_1": "<p>{{ product.metafields.custom.testing_tab_1_description | metafield_tag }}</p>",
-            "tab_heading_2": "{{ product.metafields.custom.testing_tab_2.value }}",
-            "tab_text_2": "<p>{{ product.metafields.custom.testing_tab_2_description | metafield_tag }}</p>",
-            "tab_heading_3": "",
-            "tab_text_3": ""
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -68,6 +55,19 @@
             "products_per_slide": 2
           }
         },
+        "tabs_QdCHNA": {
+          "type": "tabs",
+          "settings": {
+            "show_product_description": true,
+            "show_tabs_below_product_gallery": false,
+            "tab_heading_1": "{{ product.metafields.custom.testing_tab_1.value }}",
+            "tab_text_1": "<p>{{ product.metafields.custom.testing_tab_1_description | metafield_tag }}</p>",
+            "tab_heading_2": "{{ product.metafields.custom.testing_tab_2.value }}",
+            "tab_text_2": "<p>{{ product.metafields.custom.testing_tab_2_description | metafield_tag }}</p>",
+            "tab_heading_3": "",
+            "tab_text_3": ""
+          }
+        },
         "share": {
           "type": "share",
           "settings": {
@@ -84,18 +84,19 @@
       "block_order": [
         "title",
         "vendor",
-        "tabs_QdCHNA",
         "price",
         "form",
         "collapsible_tab_PDXiXe",
         "rating",
         "complementary_products_UQ4miN",
+        "tabs_QdCHNA",
         "share",
         "custom_liquid_MEHHJr"
       ],
       "custom_css": [
         ".custom-video-container {max-width: 100%; margin: 20px auto;}",
-        ".custom-video-container video {width: 100%; height: auto; border-radius: 8px; /* Optional: Add rounded corners */}"
+        ".custom-video-container video {width: 100%; height: auto; border-radius: 8px; /* Optional: Add rounded corners */}",
+        ".shopify-payment-button button {text-transform: uppercase;}"
       ],
       "settings": {
         "gallery_aspect_ratio": "natural",
