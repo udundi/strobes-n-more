@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "current": {
     "color_background": "#ffffff",
@@ -50,7 +50,7 @@
     "product_sales_badge": false,
     "product_sales_badge_style": "money",
     "inventory_display": "hidden",
-    "product_option_style": "select",
+    "product_option_style": "radio",
     "swatches_enable": true,
     "swatches_product_card_size": 32,
     "swatches_product_page_size": 64,
@@ -66,12 +66,12 @@
     "product_grid_image_style": "small",
     "product_grid_image_crop": true,
     "product_grid_enable_quickshop": true,
-    "social_facebook": "https:\/\/www.facebook.com\/Strobesnmore\/",
-    "social_instagram": "https:\/\/www.instagram.com\/strobesnmore\/",
-    "social_youtube": "https:\/\/youtube.com\/user\/StrobesnmoreUSA",
-    "favicon": "shopify:\/\/shop_images\/favicon-5.png",
+    "social_facebook": "https://www.facebook.com/Strobesnmore/",
+    "social_instagram": "https://www.instagram.com/strobesnmore/",
+    "social_youtube": "https://youtube.com/user/StrobesnmoreUSA",
+    "favicon": "shopify://shop_images/favicon-5.png",
     "enable_checkout_lock_icon": false,
-    "continue_shopping_url": "shopify:\/\/collections\/all",
+    "continue_shopping_url": "shopify://collections/all",
     "continue_url_cart": true,
     "continue_url_404": true,
     "product_show_sku": false,
@@ -105,19 +105,19 @@
     ],
     "blocks": {
       "17428600031447253342": {
-        "type": "shopify:\/\/apps\/attentive\/blocks\/attn-tag\/8df62c72-8fe4-407e-a5b3-72132be30a0d",
+        "type": "shopify://apps/attentive/blocks/attn-tag/8df62c72-8fe4-407e-a5b3-72132be30a0d",
         "disabled": false,
         "settings": {
         }
       },
       "10864971697205422121": {
-        "type": "shopify:\/\/apps\/gorgias-live-chat-helpdesk\/blocks\/gorgias\/a66db725-7b96-4e3f-916e-6c8e6f87aaaa",
+        "type": "shopify://apps/gorgias-live-chat-helpdesk/blocks/gorgias/a66db725-7b96-4e3f-916e-6c8e6f87aaaa",
         "disabled": false,
         "settings": {
         }
       },
       "3720565183479497137": {
-        "type": "shopify:\/\/apps\/globo-product-option\/blocks\/app-embed-block\/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
+        "type": "shopify://apps/globo-product-option/blocks/app-embed-block/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
         "disabled": false,
         "settings": {
         }
@@ -189,7 +189,7 @@
       "social_youtube": "",
       "social_linkedin": "",
       "enable_checkout_lock_icon": false,
-      "continue_shopping_url": "shopify:\/\/collections\/all",
+      "continue_shopping_url": "shopify://collections/all",
       "continue_url_cart": true,
       "continue_url_404": true,
       "product_enable_recently_viewed_products": true,
@@ -273,7 +273,7 @@
       "swatches_product_page_size": 64,
       "swatches_option_style": "color_swatch",
       "enable_checkout_lock_icon": false,
-      "continue_shopping_url": "shopify:\/\/collections\/all",
+      "continue_shopping_url": "shopify://collections/all",
       "continue_url_cart": true,
       "continue_url_404": true,
       "product_enable_recently_viewed_products": true,
@@ -445,7 +445,7 @@
       "swatches_option_style": "color_swatch",
       "swatches_custom_colors": "",
       "enable_checkout_lock_icon": false,
-      "continue_shopping_url": "shopify:\/\/collections\/all",
+      "continue_shopping_url": "shopify://collections/all",
       "continue_url_cart": true,
       "continue_url_404": true,
       "product_enable_recently_viewed_products": true,
