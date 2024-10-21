@@ -60,12 +60,6 @@
             "products_per_slide": 2
           }
         },
-        "description": {
-          "type": "description",
-          "disabled": true,
-          "settings": {
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -81,7 +75,6 @@
         "desc_tab_QhEzwa",
         "rating",
         "complementary_products_UQ4miN",
-        "description",
         "share"
       ],
       "settings": {
