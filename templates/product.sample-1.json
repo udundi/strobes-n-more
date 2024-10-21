@@ -111,9 +111,9 @@
       "type": "dynamic-custom-liquid",
       "custom_css": [
         "/* Two-column layout */.custom-two-column-container {display: flex; justify-content: space-between; align-items: center; max-width: 100%; margin: 20px auto; gap: 20px; /* Optional: space between the two columns */}",
-        "/* Video container */.custom-video-container {width: 50%;}",
+        " /* Video container */.custom-video-container {width: 50%;}",
         ".custom-video-container video {width: 100%; height: auto; border-radius: 8px;}",
-        "/* Text container */.custom-text-container {width: 50%; padding: 0 20px;}",
+        " /* Text container */.custom-text-container {width: 50%; padding: 0 20px;}",
         ".custom-text-container h2 {font-size: 24px; margin-bottom: 10px;}",
         ".custom-text-container p {font-size: 16px; line-height: 1.5;}"
       ],
@@ -221,72 +221,6 @@
         "category_card_image_crop": "original",
         "category_heading_size": "medium",
         "icon_color": "rgba(0,0,0,0)"
-      }
-    },
-    "dynamic_rich_text_dq8igr": {
-      "type": "dynamic-rich-text",
-      "settings": {
-        "width": "regular",
-        "title": "Any questions?",
-        "text": "<p>If we still haven't answered your question, you can contact us below and we will get back to you as soon as possible.</p>",
-        "heading_size": "medium",
-        "text_alignment": "left"
-      }
-    },
-    "dynamic_highlights_banner_cKrFJt": {
-      "type": "dynamic-highlights-banner",
-      "blocks": {
-        "highlight_4KdgWF": {
-          "type": "highlight",
-          "settings": {
-            "icon": "none",
-            "title": "",
-            "text": "",
-            "link": ""
-          }
-        },
-        "highlight_D7T3Dk": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-cell-phone",
-            "title": "Give Us A Call",
-            "text": "<p>1-401-454-4487</p>",
-            "link": ""
-          }
-        },
-        "highlight_xhadb7": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-chat",
-            "title": "Send A Message",
-            "text": "<p>Sales@StrobesNMore.com </p>",
-            "link": ""
-          }
-        },
-        "highlight_iaD4HJ": {
-          "type": "highlight",
-          "settings": {
-            "icon": "none",
-            "title": "",
-            "text": "",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "highlight_4KdgWF",
-        "highlight_D7T3Dk",
-        "highlight_xhadb7",
-        "highlight_iaD4HJ"
-      ],
-      "settings": {
-        "section_spacing": false,
-        "section_width": "full-width",
-        "icon_layout": "center",
-        "color": "#4d4d4d",
-        "icon_color": "#4d4d4d",
-        "background_color": "#ffffff",
-        "mobile_layout": "slider"
       }
     },
     "recommendations": {
@@ -443,8 +377,6 @@
     "main",
     "dynamic_custom_liquid_8Rnbhw",
     "dynamic_faq_7TRfjC",
-    "dynamic_rich_text_dq8igr",
-    "dynamic_highlights_banner_cKrFJt",
     "recommendations",
     "dynamic_highlights_banner_DTRagm",
     "recently-viewed",
