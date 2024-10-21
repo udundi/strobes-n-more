@@ -22,6 +22,18 @@
           "settings": {
           }
         },
+        "price": {
+          "type": "price",
+          "settings": {
+          }
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": true,
+            "show_gift_card_recipient_form": false
+          }
+        },
         "collapsible_tab_PDXiXe": {
           "type": "collapsible-tab",
           "disabled": true,
@@ -40,11 +52,6 @@
           "settings": {
           }
         },
-        "price": {
-          "type": "price",
-          "settings": {
-          }
-        },
         "complementary_products_UQ4miN": {
           "type": "complementary_products",
           "settings": {
@@ -59,13 +66,6 @@
           "settings": {
           }
         },
-        "form": {
-          "type": "form",
-          "settings": {
-            "enable_local_pickup": true,
-            "show_gift_card_recipient_form": false
-          }
-        },
         "share": {
           "type": "share",
           "settings": {
@@ -75,13 +75,13 @@
       "block_order": [
         "title",
         "vendor",
+        "price",
+        "form",
         "collapsible_tab_PDXiXe",
         "desc_tab_QhEzwa",
         "rating",
-        "price",
         "complementary_products_UQ4miN",
         "description",
-        "form",
         "share"
       ],
       "settings": {
