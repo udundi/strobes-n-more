@@ -337,40 +337,6 @@
         "background_color": "#f8f8f8",
         "mobile_layout": "slider"
       }
-    },
-    "dynamic_featured_collection_NyPcHq": {
-      "type": "dynamic-featured-collection",
-      "blocks": {
-        "title_card_p7WVUA": {
-          "type": "title_card",
-          "settings": {
-            "image": "shopify://shop_images/MLJ7021.jpg",
-            "text_alignment": "center-center",
-            "pre_heading": "Featured",
-            "heading": "Collection",
-            "text_color": "#ffffff",
-            "show_on_mobile": true,
-            "horizontal_size": "2",
-            "vertical_size": "2",
-            "enable_full_width_on_mobile": false,
-            "cta_label": "See more",
-            "overlay_color": "#000000",
-            "overlay_opacity": 50
-          }
-        }
-      },
-      "block_order": [
-        "title_card_p7WVUA"
-      ],
-      "settings": {
-        "title": "Featured collection",
-        "layout": "grid",
-        "mobile_layout": "grid",
-        "collection": "amber-lights",
-        "product_count": 6,
-        "cta_label": "",
-        "cta_button_style": "primary"
-      }
     }
   },
   "order": [
@@ -380,7 +346,6 @@
     "recommendations",
     "dynamic_highlights_banner_DTRagm",
     "recently-viewed",
-    "dynamic_highlights_banner_Tma8cX",
-    "dynamic_featured_collection_NyPcHq"
+    "dynamic_highlights_banner_Tma8cX"
   ]
 }
