@@ -34,6 +34,11 @@
             "show_gift_card_recipient_form": false
           }
         },
+        "share": {
+          "type": "share",
+          "settings": {
+          }
+        },
         "collapsible_tab_PDXiXe": {
           "type": "collapsible-tab",
           "disabled": true,
@@ -59,11 +64,6 @@
             "product_recommendation_limit": 10,
             "products_per_slide": 2
           }
-        },
-        "share": {
-          "type": "share",
-          "settings": {
-          }
         }
       },
       "block_order": [
@@ -71,11 +71,11 @@
         "vendor",
         "price",
         "form",
+        "share",
         "collapsible_tab_PDXiXe",
         "desc_tab_QhEzwa",
         "rating",
-        "complementary_products_UQ4miN",
-        "share"
+        "complementary_products_UQ4miN"
       ],
       "settings": {
         "gallery_aspect_ratio": "natural",
