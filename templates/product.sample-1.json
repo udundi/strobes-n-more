@@ -30,16 +30,8 @@
         "form": {
           "type": "form",
           "settings": {
-            "enable_local_pickup": true,
+            "enable_local_pickup": false,
             "show_gift_card_recipient_form": false
-          }
-        },
-        "collapsible_tab_PDXiXe": {
-          "type": "collapsible-tab",
-          "disabled": true,
-          "settings": {
-            "collapsible_tab_heading": "Collapsible tab",
-            "collapsible_tab_text": "<p>Use this text to share information about your product.</p>"
           }
         },
         "rating": {
@@ -86,7 +78,6 @@
         "vendor",
         "price",
         "form",
-        "collapsible_tab_PDXiXe",
         "rating",
         "complementary_products_UQ4miN",
         "tabs_QdCHNA",
