@@ -9,6 +9,7 @@
  */
 {
   "current": {
+    "minify_scripts": false,
     "color_background": "#ffffff",
     "color_headings": "#1d1d1d",
     "color_text": "#21225b",
