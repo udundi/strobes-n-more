@@ -88,7 +88,7 @@
         ".custom-video-container {max-width: 100%; margin: 20px auto;}",
         ".custom-video-container video {width: 100%; height: auto; border-radius: 8px; /* Optional: Add rounded corners */}",
         ".shopify-payment-button button {text-transform: uppercase;}",
-        ".trustpilot-widget-trustbox-0-wrapper {display: none !important;}"
+        ".hidden {display: none !important;}"
       ],
       "settings": {
         "gallery_aspect_ratio": "natural",
