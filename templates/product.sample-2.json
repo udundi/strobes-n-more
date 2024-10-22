@@ -314,6 +314,7 @@
       "block_order": [
         "title_card_wwCznB"
       ],
+      "disabled": true,
       "settings": {
         "title": "Featured collection",
         "layout": "slideshow",
