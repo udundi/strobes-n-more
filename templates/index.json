@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "dynamic_promo_mosaic": {
@@ -195,33 +195,6 @@
         "cta_label": "",
         "cta_link": "",
         "cta_button_style": "primary"
-      }
-    },
-    "dynamic_countdown_timer_MdU634": {
-      "type": "dynamic-countdown-timer",
-      "custom_css": [
-
-      ],
-      "settings": {
-        "section_height": "small",
-        "image": "shopify://shop_images/bg.jpg",
-        "countdown_year": "2024",
-        "countdown_month": "01",
-        "countdown_day": "01",
-        "countdown_hour": "12",
-        "countdown_minute": "30",
-        "countdown_timer_background": true,
-        "countdown_timer_complete": false,
-        "countdown_timer_message": "",
-        "product": "whelen-pioneer-slimline-dual-panel-flood-spotlight",
-        "title": "Daily deal! Limited time only!",
-        "button_link": "",
-        "button_label": "Shop Now",
-        "button_style": "secondary",
-        "text_color": "#1d1d1d",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "product_card_background_color": "#f7f7f7"
       }
     },
     "dynamic_highlights_banner_UdyCk4": {
@@ -429,7 +402,6 @@
     "dynamic_promo_mosaic",
     "dynamic_featured_collection-2",
     "dynamic_collection_list",
-    "dynamic_countdown_timer_MdU634",
     "dynamic_highlights_banner_UdyCk4",
     "dynamic_blog_posts_WbF3Tb",
     "dynamic_logo_list_K49fPx"

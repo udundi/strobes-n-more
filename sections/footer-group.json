@@ -51,9 +51,9 @@
         "menu_qgnepf"
       ],
       "custom_css": [
-        ".site-footer-item--information {background-color: #e6e6e6; margin-inline: 0; max-width: unset; align-items: center; gap: 0; padding-block: 1.125rem; text-align: center;}",
+        ".site-footer-item--information {background-color: #3d3d3d; margin-inline: 0; max-width: unset; align-items: center; gap: 0; padding-block: 1.125rem; text-align: center;}",
         ".site-footer-wrapper {padding-bottom: 0;}",
-        ".site-footer__row--second p {color: #21225b !important;}"
+        ".site-footer__row--second p {color: white !important;}"
       ],
       "settings": {
         "show_follow_on_shop": true,
