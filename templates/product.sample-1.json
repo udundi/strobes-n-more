@@ -101,7 +101,7 @@
         ".custom-video-container video {width: 100%; height: auto; border-radius: 8px; /* Optional: Add rounded corners */}",
         ".shopify-payment-button button {text-transform: uppercase;}",
         "div[id*=\"trustpilot-widget-trustbox-0-wrapper\"] {display: none;}",
-        "@media (min-width: 1024px) {.product-gallery {position: sticky; top: 0; /* Adjust as needed */ align-self: flex-start; /* Make sure it aligns properly */ z-index: 10; /* Ensures it stays above other elements */ }}"
+        "@media (min-width: 1024px) {.product-gallery {position: sticky; top: 120px; /* Adjust as needed */ align-self: flex-start; /* Make sure it aligns properly */ z-index: 10; /* Ensures it stays above other elements */ }}"
       ],
       "settings": {
         "gallery_aspect_ratio": "natural",
