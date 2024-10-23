@@ -22,6 +22,16 @@
           "settings": {
           }
         },
+        "description_GQ6tK8": {
+          "type": "description",
+          "settings": {
+          }
+        },
+        "desc_tab_e9QiR4": {
+          "type": "desc-tab",
+          "settings": {
+          }
+        },
         "price": {
           "type": "price",
           "settings": {
@@ -76,6 +86,8 @@
       "block_order": [
         "title",
         "vendor",
+        "description_GQ6tK8",
+        "desc_tab_e9QiR4",
         "price",
         "form",
         "rating",
