@@ -88,7 +88,8 @@
         ".custom-video-container {max-width: 100%; margin: 20px auto;}",
         ".custom-video-container video {width: 100%; height: auto; border-radius: 8px; /* Optional: Add rounded corners */}",
         ".shopify-payment-button button {text-transform: uppercase;}",
-        "div[id*=\"trustpilot-widget-trustbox-0-wrapper\"] {display: none;}"
+        "div[id*=\"trustpilot-widget-trustbox-0-wrapper\"] {display: none;}",
+        ".product-gallery {position: sticky; top: 0; /* Adjust as needed */ align-self: flex-start; /* Make sure it aligns properly */ z-index: 10; /* Ensures it stays above other elements */}"
       ],
       "settings": {
         "gallery_aspect_ratio": "natural",
