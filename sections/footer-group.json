@@ -19,7 +19,7 @@
           "settings": {
             "title": "Join our newsletter!",
             "text": "",
-            "logo_image": "shopify:\/\/shop_images\/Blue_White_Logo.jpg",
+            "logo_image": "shopify://shop_images/Blue_White_Logo.jpg",
             "logo_height": 40,
             "logo_width": 150
           }
@@ -28,7 +28,7 @@
           "type": "rich_text",
           "settings": {
             "title": "Find Us",
-            "text": "<p>81 Tom Harvey Road<br\/>Westerly, RI 02891 USA<\/p><p>Hours: Mon - Fri, 8am - 5pm EST<\/p><p>Phone:<strong> <\/strong><a href=\"tel:4014544487\"><strong>1-401-454-4487<\/strong><\/a><\/p><p>Email: <a href=\"mailto:Sales@StrobesNMore.com\"><strong>Sales@StrobesNMore.com<\/strong><\/a><\/p>"
+            "text": "<p>81 Tom Harvey Road<br/>Westerly, RI 02891 USA</p><p>Hours: Mon - Fri, 8am - 5pm EST</p><p>Phone:<strong> </strong><a href=\"tel:4014544487\"><strong>401-454-4487</strong></a></p><p>Email: <a href=\"mailto:Sales@StrobesNMore.com\"><strong>Sales@StrobesNMore.com</strong></a></p>"
           }
         },
         "menu_2": {
@@ -37,10 +37,10 @@
             "menu": "footer-customer-service"
           }
         },
-        "menu_EEYgjU": {
+        "menu_qgnepf": {
           "type": "menu",
           "settings": {
-            "menu": "categories"
+            "menu": "footer-information"
           }
         }
       },
@@ -48,14 +48,19 @@
         "newsletter",
         "rich_text_7ArtDa",
         "menu_2",
-        "menu_EEYgjU"
+        "menu_qgnepf"
+      ],
+      "custom_css": [
+        ".site-footer-item--information {background-color: #3d3d3d; margin-inline: 0; max-width: unset; align-items: center; gap: 0; padding-block: 1.125rem; text-align: center;}",
+        ".site-footer-wrapper {padding-bottom: 0;}",
+        ".site-footer__row--second p {color: white !important;}"
       ],
       "settings": {
         "show_follow_on_shop": true,
         "payment_icons": true,
         "show_locale_selector": true,
         "show_currency_selector": true,
-        "additional_menu": "footer-information"
+        "additional_menu": ""
       }
     }
   },
