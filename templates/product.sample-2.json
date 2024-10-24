@@ -64,13 +64,6 @@
           "type": "share",
           "settings": {
           }
-        },
-        "custom_liquid_QWf38d": {
-          "type": "custom-liquid",
-          "disabled": true,
-          "settings": {
-            "custom_liquid": "{% assign video_url = \"https://cdn.shopify.com/videos/c/o/v/0afe6d4971fa4ff2819d909102cdf25b.mp4\" %}\n\n<div class=\"custom-video-container\">\n  <video controls>\n    <source src=\"{{ video_url }}\" type=\"video/mp4\">\n    Your browser does not support the video tag.\n  </video>\n</div>"
-          }
         }
       },
       "block_order": [
@@ -81,12 +74,9 @@
         "rating",
         "tabs_QdCHNA",
         "complementary_products_UQ4miN",
-        "share",
-        "custom_liquid_QWf38d"
+        "share"
       ],
       "custom_css": [
-        ".custom-video-container {max-width: 100%; margin: 20px auto;}",
-        ".custom-video-container video {width: 100%; height: auto; border-radius: 8px; /* Optional: Add rounded corners */}",
         ".shopify-payment-button button {text-transform: uppercase;}",
         "div[id*=\"trustpilot-widget-trustbox-0-wrapper\"] {display: none;}"
       ],
@@ -98,28 +88,6 @@
         "gallery_video_looping": true,
         "gallery_hover_zoom": "separate",
         "gallery_click_to_zoom": "always"
-      }
-    },
-    "dynamic_custom_liquid_LXMWa9": {
-      "type": "dynamic-custom-liquid",
-      "disabled": true,
-      "custom_css": [
-        "@media (min-width: 992px) {.custom-two-column-container {display: flex; justify-content: space-between; align-items: center; max-width: 100%; margin: 20px auto; gap: 20px; } .custom-video-container {width: 50%; } .custom-video-container video {width: 100%; height: auto; border-radius: 8px; } .custom-text-container {width: 50%; padding: 0 20px; } .custom-text-container h2 {font-size: 24px; margin-bottom: 10px; } .custom-text-container p {font-size: 16px; line-height: 1.5; }}",
-        "@media (max-width: 991px) {.custom-two-column-container {display: none; }}"
-      ],
-      "settings": {
-        "custom_liquid": "{% assign video_url = \"https://cdn.shopify.com/videos/c/o/v/0afe6d4971fa4ff2819d909102cdf25b.mp4\" %} \n\n<div class=\"custom-two-column-container\"> \n  <div class=\"custom-video-container\"> \n    <video controls> \n      <source src=\"{{ video_url }}\" type=\"video/mp4\"> \n      Your browser does not support the video tag. \n    </video> \n  </div> \n\n  <div class=\"custom-text-container\"> \n    <h2>Tutorial Video</h2> \n    <p>Your description text goes here. Add more details about the content, product, or anything you want to convey to the visitors.</p> \n  </div> \n</div>"
-      }
-    },
-    "dynamic_custom_liquid_JETQHx": {
-      "type": "dynamic-custom-liquid",
-      "disabled": true,
-      "custom_css": [
-        "@media (max-width: 767px) {.mobile-video-container {display: block; max-width: 100%; margin: 0 auto; /* Center the video container */ padding: 0 5px; /* Add padding to avoid edges */ box-sizing: border-box; } .mobile-video-container video {width: 100%; max-height: 250px; /* Set the maximum height to control the size */ height: auto; /* Maintain aspect ratio */ border-radius: 8px; /* Optional: Add rounded corners */ object-fit: cover; /* Ensures the video scales properly */ }}",
-        "@media (min-width: 768px) {.mobile-video-container {display: none; }}"
-      ],
-      "settings": {
-        "custom_liquid": "{% assign video_url = \"https://cdn.shopify.com/videos/c/o/v/0afe6d4971fa4ff2819d909102cdf25b.mp4\" %}\n\n<div class=\"mobile-video-container\">\n  <video controls playsinline>\n    <source src=\"{{ video_url }}\" type=\"video/mp4\">\n    Your browser does not support the video tag.\n  </video>\n</div>"
       }
     },
     "dynamic_faq_7TRfjC": {
@@ -332,8 +300,6 @@
   },
   "order": [
     "main",
-    "dynamic_custom_liquid_LXMWa9",
-    "dynamic_custom_liquid_JETQHx",
     "dynamic_faq_7TRfjC",
     "recommendations",
     "dynamic_rich_text_abeF46",
