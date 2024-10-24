@@ -22,16 +22,6 @@
           "settings": {
           }
         },
-        "description_GQ6tK8": {
-          "type": "description",
-          "settings": {
-          }
-        },
-        "desc_tab_e9QiR4": {
-          "type": "desc-tab",
-          "settings": {
-          }
-        },
         "price": {
           "type": "price",
           "settings": {
@@ -79,8 +69,6 @@
       "block_order": [
         "title",
         "vendor",
-        "description_GQ6tK8",
-        "desc_tab_e9QiR4",
         "price",
         "form",
         "rating",
@@ -91,7 +79,7 @@
       "custom_css": [
         ".shopify-payment-button button {text-transform: uppercase;}",
         "div[id*=\"trustpilot-widget-trustbox-0-wrapper\"] {display: none;}",
-        "@media (min-width: 1024px) {.product-gallery {position: sticky; top: 120px; /* Adjust as needed */ align-self: flex-start; /* Make sure it aligns properly */ z-index: 10; /* Ensures it stays above other elements */ }}"
+        "@media (min-width: 1024px) {.product-gallery {position: sticky; top: 140px; /* Adjust as needed */ align-self: flex-start; /* Make sure it aligns properly */ z-index: 10; /* Ensures it stays above other elements */ }}"
       ],
       "settings": {
         "gallery_aspect_ratio": "natural",
