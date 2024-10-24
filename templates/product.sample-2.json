@@ -259,7 +259,7 @@
         "color": "#21225b",
         "icon_color": "#21225b",
         "background_color": "#ffffff",
-        "mobile_layout": "grid"
+        "mobile_layout": "slider"
       }
     },
     "dynamic_featured_collection_UAi8a6": {
