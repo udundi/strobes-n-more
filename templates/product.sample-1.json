@@ -56,8 +56,8 @@
             "tab_text_1": "<p>{{ product.metafields.custom.testing_tab_1_description | metafield_tag }}</p>",
             "tab_heading_2": "{{ product.metafields.custom.testing_tab_2.value }}",
             "tab_text_2": "<p>{{ product.metafields.custom.testing_tab_2_description | metafield_tag }}</p>",
-            "tab_heading_3": "",
-            "tab_text_3": ""
+            "tab_heading_3": "{{ product.metafields.custom.testing_tab_3.value }}",
+            "tab_text_3": "<p>{{ product.metafields.custom.testing_tab_3_description | metafield_tag }}</p>"
           }
         },
         "share": {
