@@ -27,6 +27,7 @@
     },
     "dynamic_image_with_text_NWeqaA": {
       "type": "dynamic-image-with-text",
+      "disabled": true,
       "settings": {
         "section_heading": "",
         "image": "shopify://shop_images/SNM1.jpg",
@@ -126,6 +127,7 @@
         "highlight_9Yec4T",
         "highlight_W8WRcL"
       ],
+      "disabled": true,
       "settings": {
         "section_spacing": true,
         "section_width": "full-width",
@@ -144,7 +146,7 @@
       ],
       "settings": {
         "width": "full-width",
-        "title": "Featured Clients",
+        "title": "Representative Customers",
         "text": "",
         "heading_size": "medium",
         "text_alignment": "center"
@@ -212,7 +214,7 @@
         "logo_LDMhW3": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Duke_Energy.jpg",
+            "image": "shopify://shop_images/department-of-justice-united-state-marshal-logo-4A9EE83B3C-seeklogo.com.png",
             "link": ""
           }
         },
