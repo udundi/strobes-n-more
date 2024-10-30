@@ -259,6 +259,27 @@
             "image": "shopify://shop_images/NAPA_logo.png",
             "link": ""
           }
+        },
+        "logo_JKjJEh": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Norfolk_Southern_NS_Logo.png",
+            "link": ""
+          }
+        },
+        "logo_bwTqzG": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Northrop_Grumman_Logo.png",
+            "link": ""
+          }
+        },
+        "logo_VtpmGa": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/O_Reilly_Auto_Parts_Logo.png",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -276,7 +297,10 @@
         "logo_YGyikz",
         "logo_m4xtWC",
         "logo_fpCmpF",
-        "logo_TbftAh"
+        "logo_TbftAh",
+        "logo_JKjJEh",
+        "logo_bwTqzG",
+        "logo_VtpmGa"
       ],
       "settings": {
         "title": ""
