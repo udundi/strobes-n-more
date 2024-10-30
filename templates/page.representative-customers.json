@@ -413,6 +413,27 @@
             "image": "shopify://shop_images/United_States_Department_of_Homeland_Security_Logo.png",
             "link": ""
           }
+        },
+        "logo_LtmaPm": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/United_States_Fish_and_Wildlife_Service_Logo.png",
+            "link": ""
+          }
+        },
+        "logo_AjMxB9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/US_Marine_Logo.png",
+            "link": ""
+          }
+        },
+        "logo_ajiHfj": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/US_Army_National_Guard_Logo.png",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -430,7 +451,44 @@
         "logo_CKxwVP",
         "logo_8bq49U",
         "logo_BRqaaC",
-        "logo_9L68PC"
+        "logo_9L68PC",
+        "logo_LtmaPm",
+        "logo_AjMxB9",
+        "logo_ajiHfj"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "dynamic_logo_list_cBHnE8": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "logo_yxRF9y": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/United_States_Navy_Logo.png",
+            "link": ""
+          }
+        },
+        "logo_PBQ8nE": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/University_of_Rhode_Island_Logo.png",
+            "link": ""
+          }
+        },
+        "logo_rdkPCG": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Vulcan_Materials_Company_Logo.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_yxRF9y",
+        "logo_PBQ8nE",
+        "logo_rdkPCG"
       ],
       "settings": {
         "title": ""
@@ -445,6 +503,7 @@
     "dynamic_highlights_banner_RJeHjd",
     "dynamic_rich_text_fYUcBa",
     "dynamic_logo_list_y6CFQM",
-    "dynamic_logo_list_MLBrj6"
+    "dynamic_logo_list_MLBrj6",
+    "dynamic_logo_list_cBHnE8"
   ]
 }
