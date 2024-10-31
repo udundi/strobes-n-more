@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin language editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "404": {
     "general": {
@@ -10,20 +19,20 @@
     "variants": {
       "choose_variant": "Choose a variant",
       "choose_option": "Choose a {{ option }}",
-      "chosen_option_html": "{{ option }}: <span>{{ value }}<\/span>",
+      "chosen_option_html": "{{ option }}: <span>{{ value }}</span>",
       "unavailable": "Unavailable"
     },
     "general": {
       "select_variant": "Please select a variant",
       "by_vendor": "by {{ vendor }}",
       "by_vendor_html": "by {{ vendor_link }}",
-      "sku_html": "<strong>SKU<\/strong> <span data-product-sku>{{ sku }}<\/span>",
+      "sku_html": "<strong>SKU</strong> <span data-product-sku>{{ sku }}</span>",
       "customer_reviews_title": "Customer Reviews",
       "zoom": "Click to expand",
       "zoomTap": "Tap or pinch to zoom",
       "zoomTapMobile": "Tap to zoom",
       "discounts": "Discounts",
-      "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} \/ {{ unit_measure }}"
+      "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} / {{ unit_measure }}"
     },
     "onboarding": {
       "tab_title": "Description",
@@ -81,8 +90,8 @@
       "out_of_stock": "Out of stock",
       "view_store_info": "View store information",
       "check_other_stores": "Check availability at other stores",
-      "available_for_pick_up_at_html": "Pickup available at <b>{{ location_name }}<\/b>",
-      "unavailable_for_pick_up_at_html": "Pickup currently unavailable at <b>{{ location_name }}<\/b>",
+      "available_for_pick_up_at_html": "Pickup available at <b>{{ location_name }}</b>",
+      "unavailable_for_pick_up_at_html": "Pickup currently unavailable at <b>{{ location_name }}</b>",
       "available_for_pick_up_at_time_html": "Pickup available, {{ pick_up_time }}",
       "unavailable_for_pick_up_at_time_html": "Pickup currently unavailable",
       "kilometers": "km",
@@ -103,15 +112,15 @@
     "price": {
       "original": "Original price",
       "current": "Current price",
-      "range_html": "<span class=\"price--label\">from<\/span> {{ price }}",
-      "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} \/ {{ unit_measure }}",
+      "range_html": "<span class=\"price--label\">from</span> {{ price }}",
+      "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} / {{ unit_measure }}",
       "tax_line_html": " "
     },
     "badge": {
-      "sale_percentage_range_html": "Save up to <span data-price-percent-saved>{{ savings }}<\/span>%",
-      "sale_percentage_single_html": "Save <span data-price-percent-saved>{{ savings }}<\/span>%",
-      "sale_money_range_html": "Save up to <span class=\"money\" data-price-money-saved>{{ savings }}<\/span>",
-      "sale_money_single_html": "Save <span class=\"money\" data-price-money-saved>{{ savings }}<\/span>",
+      "sale_percentage_range_html": "Save up to <span data-price-percent-saved>{{ savings }}</span>%",
+      "sale_percentage_single_html": "Save <span data-price-percent-saved>{{ savings }}</span>%",
+      "sale_money_range_html": "Save up to <span class=\"money\" data-price-money-saved>{{ savings }}</span>",
+      "sale_money_single_html": "Save <span class=\"money\" data-price-money-saved>{{ savings }}</span>",
       "sold_out": "Sold out",
       "sale": "Sale",
       "pre_order": "Pre-order"
@@ -234,7 +243,14 @@
       "from": "from",
       "now": "now",
       "view_details": "View product",
-      "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} \/ {{ unit_measure }}"
+      "price_per_unit_html": "{{ total_quantity }} | {{ unit_price }} / {{ unit_measure }}"
+    },
+    "pxs-newsletter": {
+      "form": {
+        "placeholder": "Email address",
+        "submit": "Subscribe",
+        "success": "Thanks for subscribing!"
+      }
     }
   },
   "recipient": {
@@ -323,9 +339,9 @@
       "enter_order_note": "Enter a gift note or special delivery instructions below:",
       "special_instructions": "Special instructions",
       "tax_and_shipping": "Taxes and shipping calculated at checkout",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping</a> calculated at checkout",
       "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
-      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
+      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
       "cart_empty": "Your cart is empty"
     },
     "shipping": {
@@ -333,7 +349,7 @@
       "hide_shipping_calculator": "Hide shipping calculator",
       "country": "Country",
       "province": "Province",
-      "zip": "Zip \/ Postal Code",
+      "zip": "Zip / Postal Code",
       "calculating": "Calculating",
       "multiple_rates": "We found {{ number_of_rates }} shipping rates available for {{ address }}, starting at {{ rate }}.",
       "one_rate": "We found one shipping rate available for {{ address }}.",
@@ -344,9 +360,9 @@
       "error_general": "Sorry, we're not able to calculate your shipping at this time."
     },
     "free_shipping_bar": {
-      "free_shipping_ineligible_html": "<strong>{{ amount }}<\/strong> away from free shipping!",
-      "free_shipping_eligible_html": "You are eligible for <strong>free shipping<\/strong>!",
-      "free_shipping_empty_html": "Free shipping on orders over <strong>{{ amount }}<\/strong>!"
+      "free_shipping_ineligible_html": "<strong>{{ amount }}</strong> away from free shipping!",
+      "free_shipping_eligible_html": "You are eligible for <strong>free shipping</strong>!",
+      "free_shipping_empty_html": "Free shipping on orders over <strong>{{ amount }}</strong>!"
     }
   },
   "contact": {
@@ -373,10 +389,10 @@
       "password": "Password",
       "repeat_password": "Repeat password",
       "phone": "Phone",
-      "province": "State\/Province",
+      "province": "State/Province",
       "set_default": "Set default",
       "submit": "Submit",
-      "zip": "Zip\/Postal Code"
+      "zip": "Zip/Postal Code"
     },
     "account": {
       "title": "My Account",
@@ -628,6 +644,11 @@
     },
     "page": {
       "title": "Page title"
+    }
+  },
+  "shopify": {
+    "links": {
+      "powered_by_shopify": " "
     }
   }
 }
