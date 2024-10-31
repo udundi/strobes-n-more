@@ -384,6 +384,13 @@
             "image": "shopify://shop_images/Whelen-logo.jpg",
             "link": ""
           }
+        },
+        "logo_P9dNyQ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Diode_Dynamics_Logo.png",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -401,7 +408,8 @@
         "logo_8at8Rx",
         "logo_cYQNqV",
         "logo_diyiTp",
-        "logo_WyBBxK"
+        "logo_WyBBxK",
+        "logo_P9dNyQ"
       ],
       "custom_css": [
         "{padding-bottom: 4.25rem;}"
