@@ -263,6 +263,20 @@
         "show_excerpt": true
       }
     },
+    "dynamic_rich_text_tEzKJa": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "{background-color: #22125b;}",
+        "h2 {color: #fff; padding: 12px;}"
+      ],
+      "settings": {
+        "width": "full-width",
+        "title": "Trusted Brands",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "center"
+      }
+    },
     "dynamic_logo_list_K49fPx": {
       "type": "dynamic-logo-list",
       "blocks": {
@@ -404,6 +418,7 @@
     "dynamic_collection_list",
     "dynamic_highlights_banner_UdyCk4",
     "dynamic_blog_posts_WbF3Tb",
+    "dynamic_rich_text_tEzKJa",
     "dynamic_logo_list_K49fPx"
   ]
 }
