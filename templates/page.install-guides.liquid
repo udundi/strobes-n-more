@@ -1,5 +1,9 @@
-{% paginate shop.metaobjects.install_guide.values by 250 %}
-  {% for file_object in shop.metaobjects.install_guide.values %}
-    <a href="{{ file_object.file.value.url  }}">{{ file_object.t_itle }}</a>
-  {% endfor %}
-{% endpaginate %}
+<ol>
+  {% paginate shop.metaobjects.install_guide.values by 250 %}
+    {% for file_object in shop.metaobjects.install_guide.values %}
+      <li>
+        <a href="{{ file_object.file.value.url  }}">{{ file_object.t_itle }}</a>
+      </li>
+    {% endfor %}
+  {% endpaginate %}
+</ol>
