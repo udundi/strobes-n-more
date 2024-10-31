@@ -138,6 +138,22 @@
         "mobile_layout": "slider"
       }
     },
+    "dynamic_image_with_text_EKrYQe": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify://shop_images/feniex-fusion-100-lightstick-application_6da91bc5-cb81-455d-9c9c-87044156287d.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Sample Heading",
+        "subheading": "<p>Sample text, Our customers are industry leaders with established reputations and longstanding relationships built on trust and excellence. They have proven track records in their fields, consistently setting standards in quality, reliability, and innovation. We take pride in serving organizations that are not only influential in their industries but also dedicated to upholding values of integrity and commitment.</p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
     "dynamic_rich_text_fYUcBa": {
       "type": "dynamic-rich-text",
       "custom_css": [
@@ -501,6 +517,7 @@
     "dynamic_faq_ghB9TF",
     "main",
     "dynamic_highlights_banner_RJeHjd",
+    "dynamic_image_with_text_EKrYQe",
     "dynamic_rich_text_fYUcBa",
     "dynamic_logo_list_y6CFQM",
     "dynamic_logo_list_MLBrj6",
