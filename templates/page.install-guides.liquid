@@ -6,7 +6,7 @@
 </style>
 
 <ul class="install-guide-list">
-  {% assign sorted = shop.metaobjects.install_guide | sort %}
+  {% assign sorted = shop.metaobjects.install_guide.values | sort %}
   {% paginate sorted by 50 %}
     {% for file_object in shop.metaobjects.install_guide.values %}
       <li>
