@@ -1,4 +1,11 @@
-<ul>
+<style>
+  .install-guide-list {
+    list-style: none;
+    line-height: 1.75;
+  }
+</style>
+
+<ul class="install-guide-list">
   {% paginate shop.metaobjects.install_guide.values by 250 %}
     {% for file_object in shop.metaobjects.install_guide.values %}
       <li>
