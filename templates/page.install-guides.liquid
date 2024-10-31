@@ -6,7 +6,7 @@
 </style>
 
 <ul class="install-guide-list">
-  {% paginate shop.metaobjects.install_guide.values | sort: "t_itle" by 50 %}
+  {% paginate shop.metaobjects.install_guide.values by 50 | sort: "t_itle" %}
     {% for file_object in shop.metaobjects.install_guide.values %}
       <li>
         <a href="{{ file_object.file.value.url  }}">{{ file_object.t_itle }}</a>
