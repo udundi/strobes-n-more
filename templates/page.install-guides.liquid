@@ -12,46 +12,10 @@
         <a href="{{ file_object.file.value.url  }}">{{ file_object.t_itle }}</a>
       </li>
     {% endfor %}
+    {%
+      render 'pagination', paginate: paginate,
+      grid_list: true
+    %}
   {% endpaginate %}
 </ul>
 
-<nav class="pagination--container" aria-label="Pagination">
-    <ul class="pagination--inner">
-
-      
-
-      
-        
-          
-            <li class="pagination--active" aria-label="Page 1" aria-current="true">
-              <span class="pagination--item">
-                1
-              </span>
-            </li>
-          
-        
-      
-        
-          <li>
-            <a class="pagination--item" href="/collections/led-lights?page=2&amp;grid_list=grid-view" aria-label="Go to page 2">
-              2
-            </a>
-          </li>
-        
-      
-      
-        <li class="pagination--next">
-          <a class="pagination--item" href="/collections/led-lights?page=2&amp;grid_list=grid-view" aria-label="Go to next page">
-            Next
-            <span class="pagination--chevron-right" aria-hidden="true">
-              <svg aria-hidden="true" focusable="false" role="presentation" width="8" height="6" viewBox="0 0 8 6" fill="none" xmlns="http://www.w3.org/2000/svg" class="icon-chevron-down">
-<path class="icon-chevron-down-left" d="M4 4.5L7 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"></path>
-<path class="icon-chevron-down-right" d="M4 4.5L1 1.5" stroke="currentColor" stroke-width="1.25" stroke-linecap="square"></path>
-</svg>
-
-            </span>
-          </a>
-        </li>
-      
-    </ul>
-  </nav>
