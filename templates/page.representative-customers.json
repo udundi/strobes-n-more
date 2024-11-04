@@ -154,172 +154,327 @@
         "button_link": ""
       }
     },
+    "dynamic_highlights_banner_DTTpx9": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_wxJLbd": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-delivery",
+            "title": "Free Shipping",
+            "text": "<p>When you spend $100+</p>",
+            "link": ""
+          }
+        },
+        "highlight_Vy3b9X": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-cell-phone",
+            "title": "Give Us A Call",
+            "text": "<p>+1 (201) 555-5555</p>",
+            "link": ""
+          }
+        },
+        "highlight_Debb7m": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "Chat With Us",
+            "text": "<p>We offer 24-hour chat support</p>",
+            "link": ""
+          }
+        },
+        "highlight_KYmgbU": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-award-trophy",
+            "title": "Sample",
+            "text": "<p>Find a store near you</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_wxJLbd",
+        "highlight_Vy3b9X",
+        "highlight_Debb7m",
+        "highlight_KYmgbU"
+      ],
+      "custom_css": [
+        "p {color: black;}"
+      ],
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "center",
+        "color": "#21225b",
+        "icon_color": "#21225b",
+        "background_color": "#f8f8f8",
+        "mobile_layout": "grid"
+      }
+    },
     "dynamic_rich_text_fYUcBa": {
       "type": "dynamic-rich-text",
       "custom_css": [
-        "div {background-color: #1b175d;}",
+        "{background-color: #1b175d;}",
         "h2 {color: #fff; padding: 12px;}"
       ],
       "settings": {
         "width": "full-width",
-        "title": "Representative Customers",
+        "title": "Representative Corporate Customers",
         "text": "",
         "heading_size": "medium",
         "text_alignment": "center"
       }
     },
-    "dynamic_logo_list_y6CFQM": {
+    "dynamic_image_with_text_kakMMk": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify://shop_images/feniex-fusion-800-lightstick-application_830ebf05-2cbe-4281-9684-6fe951b25480.jpg",
+        "desktop_height": "500px",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Corporate Sample Heading",
+        "subheading": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_logo_list_jgRQAP": {
       "type": "dynamic-logo-list",
       "blocks": {
-        "logo_negKB8": {
+        "logo_Y4qQd9": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/AAA.jpg",
             "link": ""
           }
         },
-        "logo_Pfc7Xf": {
+        "logo_dAaiFj": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Auto_Zone.jpg",
             "link": ""
           }
         },
-        "logo_XxdgLd": {
+        "logo_WRfYm4": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/BrightView.jpg",
             "link": ""
           }
         },
-        "logo_TGNdjX": {
+        "logo_WipejK": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Blue_line_logo.png",
             "link": ""
           }
         },
-        "logo_qGqcTV": {
+        "logo_fVbejm": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/CAT.jpg",
             "link": ""
           }
         },
-        "logo_PVMnK4": {
+        "logo_ztkVXz": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/comcast.jpg",
             "link": ""
           }
         },
-        "logo_nAhzGF": {
+        "logo_Rqw6yp": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Cox_Automotive.jpg",
             "link": ""
           }
         },
-        "logo_RWdJ7H": {
+        "logo_TPPWXC": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/department-of-justice-united-state-marshal-logo-4A9EE83B3C-seeklogo.com.png",
+            "image": "shopify://shop_images/Duke_Energy.jpg",
             "link": ""
           }
         },
-        "logo_LtdU3B": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Depatment_of_justice.png",
-            "link": ""
-          }
-        },
-        "logo_wQNeMW": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/United_States_Department_of_Transportation_seal.png",
-            "link": ""
-          }
-        },
-        "logo_HPF44i": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Duke_Energy_logo.png",
-            "link": ""
-          }
-        },
-        "logo_YGyikz": {
+        "logo_iR4de7": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Emergency_Lighting_Logo.png",
             "link": ""
           }
         },
-        "logo_m4xtWC": {
+        "logo_mHmUJN": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/General_Dynamics_Electric_Boat_logo.png",
+            "image": "shopify://shop_images/General_Dynamics.jpg",
             "link": ""
           }
         },
-        "logo_fpCmpF": {
+        "logo_wChykT": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Lockheed_Martin_logo.png",
+            "image": "shopify://shop_images/Lockheed_Martin.jpg",
             "link": ""
           }
         },
-        "logo_TbftAh": {
+        "logo_QPGfCi": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/NAPA_logo.png",
             "link": ""
           }
         },
-        "logo_JKjJEh": {
+        "logo_QLPb7Q": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Norfolk_Southern_NS_Logo.png",
             "link": ""
           }
         },
-        "logo_bwTqzG": {
+        "logo_XK6ixz": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Northrop_Grumman_Logo.png",
+            "image": "shopify://shop_images/Northrop_Grumman.jpg",
             "link": ""
           }
         },
-        "logo_VtpmGa": {
+        "logo_qN3Bkk": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/O_Reilly_Auto_Parts_Logo.png",
             "link": ""
           }
+        },
+        "logo_dxdFfn": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Republic_Services.jpg",
+            "link": ""
+          }
+        },
+        "logo_3gQt4x": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/RIDEM_Logo.png",
+            "link": ""
+          }
+        },
+        "logo_7ef9RY": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Rhode_Island_Department_of_Transportation_RIDOT_Logo.png",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "logo_negKB8",
-        "logo_Pfc7Xf",
-        "logo_XxdgLd",
-        "logo_TGNdjX",
-        "logo_qGqcTV",
-        "logo_PVMnK4",
-        "logo_nAhzGF",
-        "logo_RWdJ7H",
-        "logo_LtdU3B",
-        "logo_wQNeMW",
-        "logo_HPF44i",
-        "logo_YGyikz",
-        "logo_m4xtWC",
-        "logo_fpCmpF",
-        "logo_TbftAh",
-        "logo_JKjJEh",
-        "logo_bwTqzG",
-        "logo_VtpmGa"
+        "logo_Y4qQd9",
+        "logo_dAaiFj",
+        "logo_WRfYm4",
+        "logo_WipejK",
+        "logo_fVbejm",
+        "logo_ztkVXz",
+        "logo_Rqw6yp",
+        "logo_TPPWXC",
+        "logo_iR4de7",
+        "logo_mHmUJN",
+        "logo_wChykT",
+        "logo_QPGfCi",
+        "logo_QLPb7Q",
+        "logo_XK6ixz",
+        "logo_qN3Bkk",
+        "logo_dxdFfn",
+        "logo_3gQt4x",
+        "logo_7ef9RY"
       ],
       "settings": {
         "title": ""
+      }
+    },
+    "dynamic_logo_list_pFeD8k": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "logo_XW7HL9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Union_Pacific_Railroad_Logo.png",
+            "link": ""
+          }
+        },
+        "logo_EX3d9U": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/United_Airline_Logo.png",
+            "link": ""
+          }
+        },
+        "logo_8gP9KJ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/United_Road_Towing_Logo.png",
+            "link": ""
+          }
+        },
+        "logo_ni9AAG": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/University_of_Rhode_Island_Logo.png",
+            "link": ""
+          }
+        },
+        "logo_7Wcz7d": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Vulcan_Materials_Company_Logo.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_XW7HL9",
+        "logo_EX3d9U",
+        "logo_8gP9KJ",
+        "logo_ni9AAG",
+        "logo_7Wcz7d"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "dynamic_rich_text_JmUmRm": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "{background-color: #1b175d;}",
+        "h2 {color: #fff; padding: 12px;}"
+      ],
+      "settings": {
+        "width": "full-width",
+        "title": "Representative Agency Customers",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_image_with_text_CxPCtx": {
+      "type": "dynamic-image-with-text",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify://shop_images/feniex-fusion-1x-single-dash-led-application_5a957f46-be4c-4c13-baf0-29b0d6cefb25.jpg",
+        "desktop_height": "500px",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Agency Sample Heading",
+        "subheading": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
       }
     },
     "dynamic_logo_list_MLBrj6": {
@@ -328,42 +483,21 @@
         "logo_WbYD6K": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Republic_Services_logo.png",
+            "image": "shopify://shop_images/department-of-justice-united-state-marshal-logo-4A9EE83B3C-seeklogo.com.png",
             "link": ""
           }
         },
         "logo_ChkKg6": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/RIDEM_Logo.png",
+            "image": "shopify://shop_images/Depatment_of_justice.png",
             "link": ""
           }
         },
         "logo_xWRVYC": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Rhode_Island_Department_of_Transportation_RIDOT_Logo.png",
-            "link": ""
-          }
-        },
-        "logo_EQ4Cnh": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Union_Pacific_Railroad_Logo.png",
-            "link": ""
-          }
-        },
-        "logo_XdgxTm": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/United_Airline_Logo.png",
-            "link": ""
-          }
-        },
-        "logo_dkyAgh": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/United_Road_Towing_Logo.png",
+            "image": "shopify://shop_images/United_States_Department_of_Transportation_seal.png",
             "link": ""
           }
         },
@@ -409,27 +543,6 @@
             "link": ""
           }
         },
-        "logo_8bq49U": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/US_Coast_Guard_Logo.png",
-            "link": ""
-          }
-        },
-        "logo_BRqaaC": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/USDA_Logo.png",
-            "link": ""
-          }
-        },
-        "logo_9L68PC": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/United_States_Department_of_Homeland_Security_Logo.png",
-            "link": ""
-          }
-        },
         "logo_LtmaPm": {
           "type": "logo",
           "settings": {
@@ -450,61 +563,29 @@
             "image": "shopify://shop_images/US_Army_National_Guard_Logo.png",
             "link": ""
           }
+        },
+        "logo_pqRniD": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/United_States_Navy_Logo.png",
+            "link": ""
+          }
         }
       },
       "block_order": [
         "logo_WbYD6K",
         "logo_ChkKg6",
         "logo_xWRVYC",
-        "logo_EQ4Cnh",
-        "logo_XdgxTm",
-        "logo_dkyAgh",
         "logo_BMY9ED",
         "logo_nWPGJr",
         "logo_7Fp7zk",
         "logo_Ey6rVx",
         "logo_exYqek",
         "logo_CKxwVP",
-        "logo_8bq49U",
-        "logo_BRqaaC",
-        "logo_9L68PC",
         "logo_LtmaPm",
         "logo_AjMxB9",
-        "logo_ajiHfj"
-      ],
-      "settings": {
-        "title": ""
-      }
-    },
-    "dynamic_logo_list_cBHnE8": {
-      "type": "dynamic-logo-list",
-      "blocks": {
-        "logo_yxRF9y": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/United_States_Navy_Logo.png",
-            "link": ""
-          }
-        },
-        "logo_PBQ8nE": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/University_of_Rhode_Island_Logo.png",
-            "link": ""
-          }
-        },
-        "logo_rdkPCG": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Vulcan_Materials_Company_Logo.jpg",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_yxRF9y",
-        "logo_PBQ8nE",
-        "logo_rdkPCG"
+        "logo_ajiHfj",
+        "logo_pqRniD"
       ],
       "settings": {
         "title": ""
@@ -518,9 +599,13 @@
     "main",
     "dynamic_highlights_banner_RJeHjd",
     "dynamic_image_with_text_EKrYQe",
+    "dynamic_highlights_banner_DTTpx9",
     "dynamic_rich_text_fYUcBa",
-    "dynamic_logo_list_y6CFQM",
-    "dynamic_logo_list_MLBrj6",
-    "dynamic_logo_list_cBHnE8"
+    "dynamic_image_with_text_kakMMk",
+    "dynamic_logo_list_jgRQAP",
+    "dynamic_logo_list_pFeD8k",
+    "dynamic_rich_text_JmUmRm",
+    "dynamic_image_with_text_CxPCtx",
+    "dynamic_logo_list_MLBrj6"
   ]
 }
