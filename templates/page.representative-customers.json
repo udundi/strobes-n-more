@@ -183,22 +183,12 @@
             "text": "<p>We offer 24-hour chat support</p>",
             "link": ""
           }
-        },
-        "highlight_KYmgbU": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-award-trophy",
-            "title": "Sample",
-            "text": "<p>Find a store near you</p>",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "highlight_wxJLbd",
         "highlight_Vy3b9X",
-        "highlight_Debb7m",
-        "highlight_KYmgbU"
+        "highlight_Debb7m"
       ],
       "custom_css": [
         "p {color: black;}"
