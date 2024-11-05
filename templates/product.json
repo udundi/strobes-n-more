@@ -197,11 +197,24 @@
       "type": "static-product-recommendations",
       "settings": {
         "show_product_recommendations": true,
-        "product_recommendations_heading": "Related Items"
+        "product_recommendations_heading": "You May Also Like"
+      }
+    },
+    "dynamic_rich_text_nH4Ctq": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "width": "wide",
+        "title": "Will Use Testimonials app here",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "center"
       }
     },
     "recently-viewed": {
       "type": "static-recently-viewed",
+      "custom_css": [
+
+      ],
       "settings": {
         "enable_recently_viewed_products": true
       }
@@ -260,6 +273,7 @@
     "main",
     "dynamic_faq_DL8gWe",
     "recommendations",
+    "dynamic_rich_text_nH4Ctq",
     "recently-viewed",
     "dynamic_highlights_banner_DTRagm"
   ]
