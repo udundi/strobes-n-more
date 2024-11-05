@@ -241,6 +241,9 @@
         "logo_4HC8Bn",
         "logo_hGPdTA"
       ],
+      "custom_css": [
+        "div {margin-top: 30px;}"
+      ],
       "settings": {
         "title": ""
       }
