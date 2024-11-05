@@ -111,14 +111,112 @@
         "logo_XxdgLd": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/BrightView.jpg",
+            "image": "shopify://shop_images/Atomic_LED_Logo.png",
             "link": ""
           }
         },
         "logo_TGNdjX": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/CAT.jpg",
+            "image": "shopify://shop_images/Blue_sea_logo.png",
+            "link": ""
+          }
+        },
+        "logo_FXNmwM": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/BPI_Logo.png",
+            "link": ""
+          }
+        },
+        "logo_fD8QJL": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Brooking_industry_logo.png",
+            "link": ""
+          }
+        },
+        "logo_FhTqX3": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Carson_sirens_logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_twR7Ka": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Clarience_technologies_logo.png",
+            "link": ""
+          }
+        },
+        "logo_TWMjMT": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Dell_logo.png",
+            "link": ""
+          }
+        },
+        "logo_KRAEX9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/images.png",
+            "link": ""
+          }
+        },
+        "logo_i8bjNn": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/ECCO_logo.png",
+            "link": ""
+          }
+        },
+        "logo_ypQDhi": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Fedral_signals_logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_NREGT6": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Feniex_logo.png",
+            "link": ""
+          }
+        },
+        "logo_4LkNCQ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Havis_logo.png",
+            "link": ""
+          }
+        },
+        "logo_tz7wDg": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/HP_logo.png",
+            "link": ""
+          }
+        },
+        "logo_myMkgX": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Kenwood_logo.png",
+            "link": ""
+          }
+        },
+        "logo_4HC8Bn": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Kussmaul_electronics_logo.png",
+            "link": ""
+          }
+        },
+        "logo_hGPdTA": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/L3_Harris_logo.png",
             "link": ""
           }
         }
@@ -127,7 +225,21 @@
         "logo_negKB8",
         "logo_Pfc7Xf",
         "logo_XxdgLd",
-        "logo_TGNdjX"
+        "logo_TGNdjX",
+        "logo_FXNmwM",
+        "logo_fD8QJL",
+        "logo_FhTqX3",
+        "logo_twR7Ka",
+        "logo_TWMjMT",
+        "logo_KRAEX9",
+        "logo_i8bjNn",
+        "logo_ypQDhi",
+        "logo_NREGT6",
+        "logo_4LkNCQ",
+        "logo_tz7wDg",
+        "logo_myMkgX",
+        "logo_4HC8Bn",
+        "logo_hGPdTA"
       ],
       "settings": {
         "title": ""
