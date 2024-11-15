@@ -1,16 +1,24 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "page",
-      "settings": {
-      }
+      "settings": {}
     },
     "dynamic_rich_text_BUECXa": {
       "type": "dynamic-rich-text",
       "settings": {
-        "width": "regular",
+        "width": "wide",
         "title": "RETURN POLICY:",
-        "text": "<p>While we try and provide as much product information, pictures and videos as possible, we understand that sometimes an item just may not suit you. That's why we now give a full refund if we receive the unused item within the first 14 days of receipt. To make a return simply fill out our <a href=\"https:\/\/www.strobesnmore.com\/assets\/images\/RETURNEXCHANGEFORM%20-%20Copy.pdf?rdm=B482CF720C86\"><strong>Return\/Exchange Form<\/strong><\/a>, follow the instructions and send it back with the item. <strong>Shipping is not refundable.<\/strong> Any product that has been installed or used in any way will not be accepted for return. <strong>All <\/strong><em><strong>*Made-to-Order<\/strong><\/em><strong> or <\/strong><em><strong>*Special Order<\/strong><\/em><strong> marked items are not returnable\/exchangeable. These items will take longer to receive. All Garage Sale items, lightbars, consoles, Dominator's, push bumpers, partitions, replacement lenses, vehicle specific parts, and other made-to-order items may not be returned for any reason.<\/strong> Any refused delivery will be charged a 20% restocking fee. <strong>Condensation <\/strong>within a lightbar is a normal and natural occurrence due to the temperature and dew point fluctuations within its enclosure. Any atmospherically vented body will undergo normal condensation cycles and with the case of a lightbar, moisture is visible on the outer lenses. The product has been designed with this phenomenon in mind and therefore all internal components have been selected or coated so that this condensation has no impact on the functionality or longevity of the lightbar. <a href=\"https:\/\/www.strobesnmore.com\/assets\/images\/pdf\/returnexchangeform-shipping.pdf\" target=\"_blank\"><strong>Still have questions?<\/strong><\/a><\/p>",
+        "text": "<p>While we try and provide as much product information, pictures and videos as possible, we understand that sometimes an item just may not suit you. That's why we now give a full refund if we receive the unused item within the first 14 days of receipt. To make a return simply fill out our <a href=\"https://www.strobesnmore.com/assets/images/RETURNEXCHANGEFORM%20-%20Copy.pdf?rdm=B482CF720C86\"><strong>Return/Exchange Form</strong></a>, follow the instructions and send it back with the item. <strong>Shipping is not refundable.</strong> Any product that has been installed or used in any way will not be accepted for return. <strong>All </strong><em><strong>*Made-to-Order</strong></em><strong> or </strong><em><strong>*Special Order</strong></em><strong> marked items are not returnable/exchangeable. These items will take longer to receive. All Garage Sale items, lightbars, consoles, Dominator's, push bumpers, partitions, replacement lenses, vehicle specific parts, and other made-to-order items may not be returned for any reason.</strong> Any refused delivery will be charged a 20% restocking fee. <strong>Condensation </strong>within a lightbar is a normal and natural occurrence due to the temperature and dew point fluctuations within its enclosure. Any atmospherically vented body will undergo normal condensation cycles and with the case of a lightbar, moisture is visible on the outer lenses. The product has been designed with this phenomenon in mind and therefore all internal components have been selected or coated so that this condensation has no impact on the functionality or longevity of the lightbar. <a href=\"https://www.strobesnmore.com/assets/images/pdf/returnexchangeform-shipping.pdf\" target=\"_blank\"><strong>Still have questions?</strong></a></p>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
@@ -18,9 +26,9 @@
     "dynamic_rich_text_4YYkQ9": {
       "type": "dynamic-rich-text",
       "settings": {
-        "width": "regular",
-        "title": "SPECIAL ORDER \/ MADE TO ORDER:",
-        "text": "<p>If you are in a rush or need an item within a certain time frame, please call us <span style=\"text-decoration:underline\"><strong>BEFORE<\/strong><\/span> placing the order and we will do our best to give you as accurate a lead time as possible. We would rather take the time beforehand than have you upset later on that the special order \/ made to order item is taking longer than you expected.<\/p>",
+        "width": "wide",
+        "title": "SPECIAL ORDER / MADE TO ORDER:",
+        "text": "<p>If you are in a rush or need an item within a certain time frame, please call us <span style=\"text-decoration:underline\"><strong>BEFORE</strong></span> placing the order and we will do our best to give you as accurate a lead time as possible. We would rather take the time beforehand than have you upset later on that the special order / made to order item is taking longer than you expected.</p>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
@@ -28,9 +36,9 @@
     "dynamic_rich_text_gwJbBQ": {
       "type": "dynamic-rich-text",
       "settings": {
-        "width": "regular",
+        "width": "wide",
         "title": "EXCHANGES:",
-        "text": "<p>Exchanges are made easy here at Strobes N' More. Just purchase the new item you want and send back the exchange item for a full refund in accordance with the Return Policy above. All <em>*Made-to-Order<\/em> or <em>*Special Order<\/em> marked items cannot be exchanged. <a href=\"https:\/\/www.strobesnmore.com\/assets\/images\/pdf\/returnexchangeform-shipping.pdf\" target=\"_blank\"><strong>Still have questions?<\/strong><\/a><\/p>",
+        "text": "<p>Exchanges are made easy here at Strobes N' More. Just purchase the new item you want and send back the exchange item for a full refund in accordance with the Return Policy above. All <em>*Made-to-Order</em> or <em>*Special Order</em> marked items cannot be exchanged. <a href=\"https://www.strobesnmore.com/assets/images/pdf/returnexchangeform-shipping.pdf\" target=\"_blank\"><strong>Still have questions?</strong></a></p>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
@@ -38,9 +46,9 @@
     "dynamic_rich_text_RCRrQy": {
       "type": "dynamic-rich-text",
       "settings": {
-        "width": "regular",
+        "width": "wide",
         "title": "ORDER CANCELLATIONS:",
-        "text": "<p>We understand that from time to time an order may need to be cancelled. Please contact us during normal business hours and we will be happy to process the request. Once received, we will process your request and respond within 24 hours with a cancellation confirmation email at which time a refund will be issued. Your order is not considered canceled until you receive the cancellation confirmation email. <strong>Please note that certain items cannot be cancelled for any reason. <\/strong>All <em>*Made-to-Order<\/em> or <em>*Special Order<\/em> marked items cannot be cancelled, returned or exchanged and these items will take longer to receive. All lightbars, consoles, Dominator's, push bumpers, partitions, vehicle specific items and other made-to-order items may not be cancelled. Once your order is placed or confirmed these items are immediately forwarded to production at the manufacturer, we do not have the ability to cancel them.<\/p>",
+        "text": "<p>We understand that from time to time an order may need to be cancelled. Please contact us during normal business hours and we will be happy to process the request. Once received, we will process your request and respond within 24 hours with a cancellation confirmation email at which time a refund will be issued. Your order is not considered canceled until you receive the cancellation confirmation email. <strong>Please note that certain items cannot be cancelled for any reason. </strong>All <em>*Made-to-Order</em> or <em>*Special Order</em> marked items cannot be cancelled, returned or exchanged and these items will take longer to receive. All lightbars, consoles, Dominator's, push bumpers, partitions, vehicle specific items and other made-to-order items may not be cancelled. Once your order is placed or confirmed these items are immediately forwarded to production at the manufacturer, we do not have the ability to cancel them.</p>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
@@ -48,9 +56,9 @@
     "dynamic_rich_text_fMrYFr": {
       "type": "dynamic-rich-text",
       "settings": {
-        "width": "regular",
+        "width": "wide",
         "title": "PRICING:",
-        "text": "<p>While we try to keep our costs down and our prices competitive, please note prices are subject to change without notice.<\/p>",
+        "text": "<p>While we try to keep our costs down and our prices competitive, please note prices are subject to change without notice.</p>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
@@ -58,9 +66,9 @@
     "dynamic_rich_text_U6qD6y": {
       "type": "dynamic-rich-text",
       "settings": {
-        "width": "regular",
+        "width": "wide",
         "title": "SHIPPING & HANDLING:",
-        "text": "<p><em><strong>Due to Fraud we will automatically require a signature on orders over $500.00.<\/strong><\/em><em>  <\/em>Most orders are shipped the same day but please allow 5-10 business days for you to receive your order. If you selected \"Best Way\" in your shipping options, your package will be shipped either UPS Ground or SurePost. If an item is needed immediately, please contact us <strong>BEFORE<\/strong> placing your order to find out if the item is available for express shipping. Lightbars unless noted, Consoles, and other items marked <em>\"Special Order\"<\/em> or <em>\"Made to Order\"<\/em> will take longer to ship. If you need an item immediately, please contact us <strong>BEFORE<\/strong> placing the order as <em>\"Special Order\"<\/em> and <em>\"Made to Order\"<\/em> items may not be canceled, modified, or returned for any reason. <strong>If a valid email is provided, tracking information will be automatically sent the day the order ships.<\/strong><\/p><p>We will generally ship to alternate shipping address such as a place of employment, Government, or Municipal building. We will NOT ship to a third party, or another state and we reserve the right to request a signature upon delivery on any package. Should you have any questions regarding our Shipping Policy contact us before finalizing your order.<br\/><br\/>We cannot ship Whelen products internationally. Domestic sales only. <\/p><p><strong>PLEASE NOTE: For any orders that are returned to us as undeliverable, a 20% restocking fee will be applied. We encourage our customers to double-check their shipping addresses and be available for delivery to avoid this charge. Your understanding and cooperation are greatly appreciated.<\/strong><\/p><p><strong>When using Paypal, we will only ship to the confirmed PayPal address. <\/strong>If you have moved or need your order shipped elsewhere, it is your responsibility to update your PayPal account. Per PayPal's policies, we will require a signature when the order is over $500.00.<\/p><p><strong>When using Klarna we unable to make any changes to the shipping address. <\/strong>We are only allowed to ship to the address that comes thru with the order.<\/p><p>Orders that cannot be shipped via UPS, i.e., P.O. Boxes, APOs, etc. will be shipped via the USPS. International orders shipped outside the USA may be subject to fees related to duties, customs, import taxes, etc. If you need or require any special shipping arrangements, you MUST contact us prior to placing your order as additional fees may apply. These fees are the responsibility of the customer. International Orders may be subject to your countries Duties, Customs, and Import Taxes. These are the responsibly of the customer. We do not pay for any of these International Fees.<\/p><p><em>Approximate UPS Ground Shipping Times - Outbound View (please add an extra day if shipping \"Best Way\")<\/em><\/p>",
+        "text": "<p><em><strong>Due to Fraud we will automatically require a signature on orders over $500.00.</strong></em><em>  </em>Most orders are shipped the same day but please allow 5-10 business days for you to receive your order. If you selected \"Best Way\" in your shipping options, your package will be shipped either UPS Ground or SurePost. If an item is needed immediately, please contact us <strong>BEFORE</strong> placing your order to find out if the item is available for express shipping. Lightbars unless noted, Consoles, and other items marked <em>\"Special Order\"</em> or <em>\"Made to Order\"</em> will take longer to ship. If you need an item immediately, please contact us <strong>BEFORE</strong> placing the order as <em>\"Special Order\"</em> and <em>\"Made to Order\"</em> items may not be canceled, modified, or returned for any reason. <strong>If a valid email is provided, tracking information will be automatically sent the day the order ships.</strong></p><p>We will generally ship to alternate shipping address such as a place of employment, Government, or Municipal building. We will NOT ship to a third party, or another state and we reserve the right to request a signature upon delivery on any package. Should you have any questions regarding our Shipping Policy contact us before finalizing your order.<br/><br/>We cannot ship Whelen products internationally. Domestic sales only. </p><p><strong>PLEASE NOTE: For any orders that are returned to us as undeliverable, a 20% restocking fee will be applied. We encourage our customers to double-check their shipping addresses and be available for delivery to avoid this charge. Your understanding and cooperation are greatly appreciated.</strong></p><p><strong>When using Paypal, we will only ship to the confirmed PayPal address. </strong>If you have moved or need your order shipped elsewhere, it is your responsibility to update your PayPal account. Per PayPal's policies, we will require a signature when the order is over $500.00.</p><p><strong>When using Klarna we unable to make any changes to the shipping address. </strong>We are only allowed to ship to the address that comes thru with the order.</p><p>Orders that cannot be shipped via UPS, i.e., P.O. Boxes, APOs, etc. will be shipped via the USPS. International orders shipped outside the USA may be subject to fees related to duties, customs, import taxes, etc. If you need or require any special shipping arrangements, you MUST contact us prior to placing your order as additional fees may apply. These fees are the responsibility of the customer. International Orders may be subject to your countries Duties, Customs, and Import Taxes. These are the responsibly of the customer. We do not pay for any of these International Fees.</p><p><em>Approximate UPS Ground Shipping Times - Outbound View (please add an extra day if shipping \"Best Way\")</em></p>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
@@ -69,7 +77,7 @@
       "type": "pxs-image-with-text-overlay",
       "settings": {
         "section_height": "original",
-        "image": "shopify:\/\/shop_images\/Transit_Times_Map2_d1d6cec2-7994-46e2-865b-f2b9116ec902.jpg",
+        "image": "shopify://shop_images/Transit_Times_Map2_d1d6cec2-7994-46e2-865b-f2b9116ec902.jpg",
         "title": "",
         "text": "",
         "content_position": "center-center",
@@ -83,9 +91,9 @@
     "dynamic_rich_text_9FKUxA": {
       "type": "dynamic-rich-text",
       "settings": {
-        "width": "regular",
+        "width": "wide",
         "title": "GOVERNMENT AND MUNICIPAL PURCHASES:",
-        "text": "<p>We gladly offer 30-day billing to Government and Municipal Agencies. All orders must be faxed on Department letterhead or Purchase Order and signed. All Purchase requests should include both billing and shipping addresses, contact name, phone number and title. We charge a late fee of 30.00 per month for all orders over 60 days until account is paid in full.<\/p>",
+        "text": "<p>We gladly offer 30-day billing to Government and Municipal Agencies. All orders must be faxed on Department letterhead or Purchase Order and signed. All Purchase requests should include both billing and shipping addresses, contact name, phone number and title. We charge a late fee of 30.00 per month for all orders over 60 days until account is paid in full.</p>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
@@ -93,9 +101,9 @@
     "dynamic_rich_text_z7wrwL": {
       "type": "dynamic-rich-text",
       "settings": {
-        "width": "regular",
+        "width": "wide",
         "title": "WARRANTIES:",
-        "text": "<p>Please refer to our <a href=\"\/pages\/warranty-and-repairs\" target=\"_blank\" title=\"Warranty and Repairs\"><strong>Warranty Section<\/strong><\/a> for all warranty and\/or repair questions.<\/p>",
+        "text": "<p>Please refer to our <a href=\"/pages/warranty-and-repairs\" target=\"_blank\" title=\"Warranty and Repairs\"><strong>Warranty Section</strong></a> for all warranty and/or repair questions.</p>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
@@ -103,9 +111,9 @@
     "dynamic_rich_text_hfEUrM": {
       "type": "dynamic-rich-text",
       "settings": {
-        "width": "regular",
+        "width": "wide",
         "title": "CONTACT INFORMATION:",
-        "text": "<p>We hope you have found everything you were looking for and then some. If you have comments or questions, we can be reached at the phone number or email address below.<br\/><br\/>Strobes N' More<br\/>81 Tom Harvey Road<br\/>Westerly, RI 02891<\/p><p>Cole Carrera & Jack Eldridge<br\/>co-Owners<br\/><br\/>1-866-STROBEGUY or 401-454-4487<br\/><a href=\"mailto:Louis@strobesnmore.com\"><strong>Sales@StrobesNMore.com<\/strong><\/a><\/p>",
+        "text": "<p>We hope you have found everything you were looking for and then some. If you have comments or questions, we can be reached at the phone number or email address below.<br/><br/>Strobes N' More<br/>81 Tom Harvey Road<br/>Westerly, RI 02891</p><p>Cole Carrera & Jack Eldridge<br/>co-Owners<br/><br/>1-866-STROBEGUY or 401-454-4487<br/><a href=\"mailto:Louis@strobesnmore.com\"><strong>Sales@StrobesNMore.com</strong></a></p>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
