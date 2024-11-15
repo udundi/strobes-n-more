@@ -205,7 +205,7 @@
     "dynamic_rich_text_fYUcBa": {
       "type": "dynamic-rich-text",
       "custom_css": [
-        "{background-color: #1b175d;}",
+        "{background-color: #21225b;}",
         "h2 {color: #fff; padding: 12px;}"
       ],
       "settings": {
@@ -439,7 +439,7 @@
     "dynamic_rich_text_JmUmRm": {
       "type": "dynamic-rich-text",
       "custom_css": [
-        "{background-color: #1b175d;}",
+        "{background-color: #21225b;}",
         "h2 {color: #fff; padding: 12px;}"
       ],
       "settings": {
