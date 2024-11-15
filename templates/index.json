@@ -184,7 +184,7 @@
         "collection_VFfdKL"
       ],
       "custom_css": [
-        "{background-color: #1b175d; padding-top: 10px; margin-top: 25px; padding-bottom: 10px;}",
+        "{background-color: #21225b; padding-top: 10px; margin-top: 60px; padding-bottom: 10px;}",
         "span {color: white;}"
       ],
       "settings": {
@@ -243,13 +243,14 @@
         "highlight_jkNCJn",
         "highlight_ULPH3D"
       ],
+      "custom_css": [],
       "settings": {
         "section_spacing": true,
         "section_width": "full-width",
         "icon_layout": "center",
         "color": "#ffffff",
         "icon_color": "#ffffff",
-        "background_color": "#1b175d",
+        "background_color": "#21225b",
         "mobile_layout": "slider"
       }
     },
@@ -284,6 +285,13 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/carson-logo-small.webp",
+            "link": ""
+          }
+        },
+        "logo_P9dNyQ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/images.png",
             "link": ""
           }
         },
@@ -384,17 +392,11 @@
             "image": "shopify://shop_images/Whelen-logo.jpg",
             "link": ""
           }
-        },
-        "logo_P9dNyQ": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/images.png",
-            "link": ""
-          }
         }
       },
       "block_order": [
         "logo_f3ryAt",
+        "logo_P9dNyQ",
         "logo_hEREwt",
         "logo_TCE3h4",
         "logo_UHFgKe",
@@ -408,8 +410,7 @@
         "logo_8at8Rx",
         "logo_cYQNqV",
         "logo_diyiTp",
-        "logo_WyBBxK",
-        "logo_P9dNyQ"
+        "logo_WyBBxK"
       ],
       "custom_css": [],
       "settings": {
