@@ -23,7 +23,7 @@
         "mobile_height": "natural",
         "desktop_image_alignment": "right",
         "mobile_image_alignment": "top",
-        "heading": "",
+        "heading": "Vendors",
         "subheading": "<p>At Strobes N' More, our success is built on strong partnerships with industry-leading vendors who share our commitment to quality, innovation, and reliability. We carefully select each vendor to ensure that the products we offer meet the demanding needs of our customers, from first responders and government agencies to businesses and individuals. By working closely with trusted manufacturers, we’re able to provide cutting-edge lighting and equipment solutions that perform in the toughest conditions. These partnerships are the backbone of our mission to deliver exceptional value and service to our customers, every time.</p>",
         "text_alignment": "left",
         "button_label": "Button",
@@ -36,9 +36,9 @@
         "highlight_ntH8DT": {
           "type": "highlight",
           "settings": {
-            "icon": "icon-delivery",
-            "title": "Free Shipping",
-            "text": "<p>When you spend $100+</p>",
+            "icon": "icon-cell-phone",
+            "title": "Give Us A Call",
+            "text": "<p>401-454-4487</p>",
             "link": ""
           }
         },
@@ -66,12 +66,15 @@
         "highlight_9Yec4T",
         "highlight_W8WRcL"
       ],
+      "custom_css": [
+        "p {color: black;}"
+      ],
       "settings": {
         "section_spacing": true,
         "section_width": "full-width",
         "icon_layout": "center",
-        "color": "#1d1d1d",
-        "icon_color": "#07145e",
+        "color": "#21225b",
+        "icon_color": "#21225b",
         "background_color": "#ffffff",
         "mobile_layout": "slider"
       }
