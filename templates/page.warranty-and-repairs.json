@@ -1,16 +1,24 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "page",
-      "settings": {
-      }
+      "settings": {}
     },
     "dynamic_rich_text_EdJzNL": {
       "type": "dynamic-rich-text",
       "settings": {
         "width": "wide",
         "title": "",
-        "text": "<p>All warranties are held by their perspective manufacturers. Below you will find easy to follow instructions provided by each manufacturer to obtain warranty\/repair service. Please follow each manufacturer's guidelines to obtain service.<em><br\/><\/em><\/p><p><em><strong>Do not send product back to Strobes N' More unless directed to do so within the manufacturer info below. This will only delay your repair\/warranty and cost you shipping fees.<\/strong><\/em><\/p>",
+        "text": "<p>All warranties are held by their perspective manufacturers. Below you will find easy to follow instructions provided by each manufacturer to obtain warranty/repair service. Please follow each manufacturer's guidelines to obtain service.<em><br/></em></p><p><em><strong>Do not send product back to Strobes N' More unless directed to do so within the manufacturer info below. This will only delay your repair/warranty and cost you shipping fees.</strong></em></p>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
@@ -18,91 +26,11 @@
     "dynamic_faq_j7bfPz": {
       "type": "dynamic-faq",
       "blocks": {
-        "question_jd46wj": {
-          "type": "question",
-          "settings": {
-            "question": "Strobes N' More",
-            "answer": "<p>Ship to:<br\/>Strobes N' More<br\/>Attn: Repairs<br\/>81 Tom Harvey Rd.<br\/>Westerly, RI 02891<br\/><\/p><p>Any item shipped to us must include a copy of the <a href=\"https:\/\/www.strobesnmore.com\/assets\/images\/warrantyform.pdf\" target=\"_blank\"><span style=\"text-decoration:underline\">Warranty\/Repair Form<\/span><\/a>, a copy of your original invoice, and the word <strong>REPAIRS <\/strong>clearly written on the outside of the package. <strong>Please pack product box within a separate box. No markings or return codes are to be written on the original product box.<\/strong> All items must be packaged appropriately to protect against damage during shipping. The customer is responsible for shipping the item to Strobes N’ More - we will cover the cost of return shipping. International customers are responsible for all shipping charges. Please note that Strobes N' More Inc. warranties all of its products for a period of 2-5 years from the date of purchase. Any item that is modified, mistreated or installed improperly will have its warranty void. View our <a href=\"https:\/\/www.strobesnmore.com\/assets\/images\/warrantycard.pdf\" target=\"_blank\"><span style=\"text-decoration:underline\">Warranty Card<\/span><\/a> for more info. We warranty all Strobes N' More Inc. products against defects and workmanship. If the warrantied product has been discontinued, we will replace it with a similar product of equal or greater value <span style=\"text-decoration:underline\">or<\/span> give you a pro-rated refund of the lesser unused months.<br\/><\/p><p>Please include:<br\/><\/p><ol><li>A copy of the sales receipt if qualified for warranty coverage<\/li><li>A short description of the problem<\/li><li>Your name, return address (should it be different than what's on your invoice) and daytime phone number<\/li><\/ol>",
-            "icon": "none"
-          }
-        },
-        "question_V73gq4": {
-          "type": "question",
-          "settings": {
-            "question": "Whelen Engineering",
-            "answer": "<p>Ship to:<br\/>Whelen Factory Repair<br\/>Building B<br\/>51 Winthrop Road<br\/>Chester, CT 06412-0684<\/p><p>Please include<\/p><ol><li>A copy of the sales receipt if qualified for warranty coverage<\/li><li>A short description of the problem<\/li><li>Your name, return address (should it be different than what's on your invoice) and daytime phone number.<\/li><\/ol><p>Please note that Whelen warranties their products from manufactured date, not from date of purchase. For complete warranty and repair information, refer to your <a href=\"http:\/\/www.whelen.com\/wp-content\/uploads\/2020\/08\/Automotive_Warranty.pdf\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>Whelen User Direct Warranty<\/strong><\/span><\/a> statement or contact Whelen Engineering.<\/p>",
-            "icon": "none"
-          }
-        },
-        "question_gYxW9x": {
-          "type": "question",
-          "settings": {
-            "question": "Feniex",
-            "answer": "<p>To send in a product for service or repair, please complete the <a href=\"https:\/\/share.hsforms.com\/1ihOZPi4LQKKPqL-IM_wV-w44h0b?__hstc=48868153.6c3c39bf358276c5728eb735fabdbbb6.1618242250313.1618242250313.1618242250313.1&__hssc=48868153.1.1618242250313&__hsfp=1852509742\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>Request for Warranty or Repairs form<\/strong><\/span><\/a><strong> <\/strong>or contact a support representative.<\/p><p>Hours: 9am to 6pm CT, Monday to Friday<br\/>Telephone: 1-800-615-8350<br\/>Fax Number: 1-512-593-7142<br\/>Email: <a href=\"mailto:support@feniex.com\" target=\"_blank\" title=\"Email Feniex\"><span style=\"text-decoration:underline\"><strong>support@feniex.com<\/strong><\/span><\/a><br\/><\/p><p>Feniex Industries, Inc.<br\/>6320 E Stassney Bldg 1<br\/>Austin, TX 78744<br\/><\/p><p><\/p>",
-            "icon": "none"
-          }
-        },
-        "question_6GdLQ3": {
-          "type": "question",
-          "settings": {
-            "question": "Federal Signal",
-            "answer": "<p>To obtain warranty service or repair work please call 800-548-7229 to obtain an RMA return code. Once you receive a faxed confirmation of your RMA, ship your repair UPS Red, and we will return it UPS Red. Request a rush. The following will cause a delay in processing your return: no RMA, RMA form is incomplete, the repair was sent to the factory instead of the instructed location.<\/p><p>View the full <a href=\"https:\/\/www.fedsig.com\/SSG-Warranty\"><span style=\"text-decoration:underline\"><strong>Federal Signal Warranty Policy »<\/strong><\/span><\/a><\/p>",
-            "icon": "none"
-          }
-        },
-        "question_f7taeA": {
-          "type": "question",
-          "settings": {
-            "question": "Speed Turtle Engineering",
-            "answer": "<p>To obtain Tech Support, Warranty, or Repairs can be accomplished by visiting the Speed Turtle Support page located <a href=\"https:\/\/speedturtleengineering.com\/support\"><strong>HERE.<\/strong><\/a><strong> <\/strong> The Full Speed Turtle Warranty can be found <a href=\"https:\/\/static1.squarespace.com\/static\/51fac8cfe4b0339e6c6987e1\/t\/52b0be84e4b0871946c13ff6\/1387314820443\/STE_W01.pdf\"><strong>HERE.<\/strong><\/a>   Warranty \/ Repair work will require you to fill out a RMA form located <a href=\"https:\/\/static1.squarespace.com\/static\/51fac8cfe4b0339e6c6987e1\/t\/545abc02e4b042d9849e203f\/1415232514372\/STE_RMA1.pdf\"><strong>HERE<\/strong><\/a> and ship the product directly to Speed Turtle at the address provided. To contact Speed Turtle for Tech Questions or Support you can email <a href=\"mailto:support@speedturtleengineering.com\"><strong>Support@SpeedTurtleEngineering.com<\/strong><\/a><\/p>",
-            "icon": "none"
-          }
-        },
         "question_EPaHXD": {
           "type": "question",
           "settings": {
             "question": "Able 2",
-            "answer": "<p>Ship to:<br\/>Able 2 Products Company<br\/>804 East Highway 248<br\/>Cassville, MO 65625<\/p><p>Please include<\/p><ol><li><a><strong>A copy of the sales receipt if qualified for warranty coverage<\/strong><\/a><\/li><li><a><strong>A short description of the problem<\/strong><\/a><\/li><li><a><strong>Your name, return address (should it be different than what's on your invoice) and daytime phone number<\/strong><\/a><\/li><\/ol><p>For complete warranty and repair information please view the <a href=\"http:\/\/able2products.com\/update\/warranty_v1.htm\"><span style=\"text-decoration:underline\"><strong>Able 2 Warranty Information<\/strong><\/span><\/a><strong>.<\/strong><\/p>",
-            "icon": "none"
-          }
-        },
-        "question_6BMhJr": {
-          "type": "question",
-          "settings": {
-            "question": "Carson Sirens",
-            "answer": "<p>Ship to:<br\/>Carson Manufacturing Company, Inc<br\/>5451 North Rural Street<br\/>Indianapolis, IN 46220-0464<br\/>Tel: (317) 257-3191 Toll-Free: (888) 577-6877 Fax: (317) 254-2667<\/p><p>Please include<\/p><ol><li>A copy of the sales receipt if qualified for warranty coverage<\/li><li>A short description of the problem<\/li><li>Your name, return address (should it be different than what's on your invoice) and daytime phone number<\/li><\/ol>",
-            "icon": "none"
-          }
-        },
-        "question_XHkYmV": {
-          "type": "question",
-          "settings": {
-            "question": "SoundOff Signal",
-            "answer": "<p>To obtain warranty service or repair work please call 800-338-7337 to obtain an RMA return code.<\/p><p>Ship to:<br\/>Attn: Technical Services Department<br\/>RMA # (write your number here)<br\/>SoundOff Signal<br\/>3900 Central Parkway<br\/>Hudsonville, MI 49426<\/p><p>You will need<\/p><ol><li>An RMA (return merchandise authorization) Number<\/li><li>A completed <a href=\"https:\/\/soundoffsignal.com\/support-page\/returns\/\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>SoundOff Signal RMA Request Form<\/strong><\/span><\/a><br\/><\/li><li>A copy of your dated proof of purchase before you can return any product.<br\/><\/li><\/ol><p>Each RMA Number is good for one shipment (multiple items accepted) and will expire 10 days after the date it was issued. The new RMA form can be filled in electronically and you can now save a copy of the digital file for your records. After you receive your RMA Number, fill out the RMA Form and enclose a copy of your dated proof of purchase and return it with your product(s)<\/p><p>View the full <a href=\"https:\/\/soundoffsignal.com\/MASTER\/warranty\/No%20Hassle%20Warranty\/Limited_Warranty_Statement.pdf\"><span style=\"text-decoration:underline\"><strong>SoundOff Signal Warranty Policy »<\/strong><\/span><\/a><\/p>",
-            "icon": "none"
-          }
-        },
-        "question_URTwKP": {
-          "type": "question",
-          "settings": {
-            "question": "Nova Electronics",
-            "answer": "<p><em><strong>Note <\/strong><\/em><em>Nova products should now be shipped to the Strobes N' More warehouse.<\/em><\/p><p>Ship to:<br\/>Strobes N' More<br\/>Attn: Repairs<br\/>81 Tom Harvey Rd.<br\/>Westerly, RI 02891<br\/><\/p><p>Any item shipped to us must include a copy of the <a href=\"https:\/\/www.strobesnmore.com\/assets\/images\/PDF\/warrantyform.pdf\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>Repair Form<\/strong><\/span><\/a>, a copy of your original invoice, and the word <strong>REPAIRS <\/strong>clearly written on the outside of the package. <strong>Please pack product box within a separate box. No markings or return codes are to be written on the original product box.<\/strong> All items must be packaged appropriately to protect against damage during shipping. Please note that Strobes N' More Inc. warranties all of its products for a period of 2-5 years from the date of purchase. Any item that is modified, mistreated or installed improperly will have its warranty void. View our <a href=\"https:\/\/www.strobesnmore.com\/assets\/images\/PDF\/warrantycard.pdf\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>Warranty Card<\/strong><\/span><\/a>. We warranty all Strobes N' More Inc. products against defects and workmanship.<br\/><\/p><p>Please include:<br\/><\/p><ol><li>A copy of the sales receipt if qualified for warranty coverage<\/li><li>A short description of the problem<\/li><li>Your name, return address (should it be different than what's on your invoice) and daytime phone number<\/li><\/ol>",
-            "icon": "none"
-          }
-        },
-        "question_pfWJXt": {
-          "type": "question",
-          "settings": {
-            "question": "Tomar Electronics",
-            "answer": "<p>To obtain repair or warranty service please fill out the <a href=\"http:\/\/www.tomar.com\/support\/rma.htm\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>Tomar RMA Request Form<\/strong><\/span><\/a>. You may also view <a href=\"http:\/\/www.tomar.com\/support\/warranty.htm\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>Tomar's full warranty<\/strong><\/span><\/a>.<\/p>",
-            "icon": "none"
-          }
-        },
-        "question_PHxtFe": {
-          "type": "question",
-          "settings": {
-            "question": "Axixtech \/ Brooking Industries",
-            "answer": "<p>To obtain warranty service or repair work please call 888-439-1925 to obtain and RMA return code.<\/p><p>Once obtained ship to:<br\/>Brooking Industries, Inc.<br\/>10132 NW 53rd Avenue<br\/>Sunrise, FL 33351<br\/>Phone: (888) 439-1925 or (954) 572-0510<br\/>Fax: (877) 363-7301 or (954) 572-4768<\/p>",
+            "answer": "<p>Ship to:<br/>Able 2 Products Company<br/>804 East Highway 248<br/>Cassville, MO 65625</p><p>Please include</p><ol><li><a><strong>A copy of the sales receipt if qualified for warranty coverage</strong></a></li><li><a><strong>A short description of the problem</strong></a></li><li><a><strong>Your name, return address (should it be different than what's on your invoice) and daytime phone number</strong></a></li></ol><p>For complete warranty and repair information please view the <a href=\"http://able2products.com/update/warranty_v1.htm\"><span style=\"text-decoration:underline\"><strong>Able 2 Warranty Information</strong></span></a><strong>.</strong></p>",
             "icon": "none"
           }
         },
@@ -110,7 +38,63 @@
           "type": "question",
           "settings": {
             "question": "Atomic LED",
-            "answer": "<p>Call (888) 305-1112 to get an RMA# or obtain technical support.<\/p><p>Ship to:<br\/>Atomic LED, Inc.<br\/>49 Cedar Swamp Rd #12<br\/>Smithfield, RI 02917<br\/><br\/>Telephone: 1-888-305-1112<br\/>Email: <a href=\"mailto:info@atomicled.com\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>info@atomicled.com<\/strong><\/span><\/a><\/p>",
+            "answer": "<p>Call (888) 305-1112 to get an RMA# or obtain technical support.</p><p>Ship to:<br/>Atomic LED, Inc.<br/>49 Cedar Swamp Rd #12<br/>Smithfield, RI 02917<br/><br/>Telephone: 1-888-305-1112<br/>Email: <a href=\"mailto:info@atomicled.com\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>info@atomicled.com</strong></span></a></p>",
+            "icon": "none"
+          }
+        },
+        "question_PHxtFe": {
+          "type": "question",
+          "settings": {
+            "question": "Axixtech / Brooking Industries",
+            "answer": "<p>To obtain warranty service or repair work please call 888-439-1925 to obtain and RMA return code.</p><p>Once obtained ship to:<br/>Brooking Industries, Inc.<br/>10132 NW 53rd Avenue<br/>Sunrise, FL 33351<br/>Phone: (888) 439-1925 or (954) 572-0510<br/>Fax: (877) 363-7301 or (954) 572-4768</p>",
+            "icon": "none"
+          }
+        },
+        "question_6BMhJr": {
+          "type": "question",
+          "settings": {
+            "question": "Carson Sirens",
+            "answer": "<p>Ship to:<br/>Carson Manufacturing Company, Inc<br/>5451 North Rural Street<br/>Indianapolis, IN 46220-0464<br/>Tel: (317) 257-3191 Toll-Free: (888) 577-6877 Fax: (317) 254-2667</p><p>Please include</p><ol><li>A copy of the sales receipt if qualified for warranty coverage</li><li>A short description of the problem</li><li>Your name, return address (should it be different than what's on your invoice) and daytime phone number</li></ol>",
+            "icon": "none"
+          }
+        },
+        "question_6GdLQ3": {
+          "type": "question",
+          "settings": {
+            "question": "Federal Signal",
+            "answer": "<p>To obtain warranty service or repair work please call 800-548-7229 to obtain an RMA return code. Once you receive a faxed confirmation of your RMA, ship your repair UPS Red, and we will return it UPS Red. Request a rush. The following will cause a delay in processing your return: no RMA, RMA form is incomplete, the repair was sent to the factory instead of the instructed location.</p><p>View the full <a href=\"https://www.fedsig.com/SSG-Warranty\"><span style=\"text-decoration:underline\"><strong>Federal Signal Warranty Policy »</strong></span></a></p>",
+            "icon": "none"
+          }
+        },
+        "question_gYxW9x": {
+          "type": "question",
+          "settings": {
+            "question": "Feniex",
+            "answer": "<p>To send in a product for service or repair, please complete the <a href=\"https://share.hsforms.com/1ihOZPi4LQKKPqL-IM_wV-w44h0b?__hstc=48868153.6c3c39bf358276c5728eb735fabdbbb6.1618242250313.1618242250313.1618242250313.1&__hssc=48868153.1.1618242250313&__hsfp=1852509742\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>Request for Warranty or Repairs form</strong></span></a><strong> </strong>or contact a support representative.</p><p>Hours: 9am to 6pm CT, Monday to Friday<br/>Telephone: 1-800-615-8350<br/>Fax Number: 1-512-593-7142<br/>Email: <a href=\"mailto:support@feniex.com\" target=\"_blank\" title=\"Email Feniex\"><span style=\"text-decoration:underline\"><strong>support@feniex.com</strong></span></a><br/></p><p>Feniex Industries, Inc.<br/>6320 E Stassney Bldg 1<br/>Austin, TX 78744<br/></p><p></p>",
+            "icon": "none"
+          }
+        },
+        "question_URTwKP": {
+          "type": "question",
+          "settings": {
+            "question": "Nova Electronics",
+            "answer": "<p><em><strong>Note </strong></em><em>Nova products should now be shipped to the Strobes N' More warehouse.</em></p><p>Ship to:<br/>Strobes N' More<br/>Attn: Repairs<br/>81 Tom Harvey Rd.<br/>Westerly, RI 02891<br/></p><p>Any item shipped to us must include a copy of the <a href=\"https://www.strobesnmore.com/assets/images/PDF/warrantyform.pdf\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>Repair Form</strong></span></a>, a copy of your original invoice, and the word <strong>REPAIRS </strong>clearly written on the outside of the package. <strong>Please pack product box within a separate box. No markings or return codes are to be written on the original product box.</strong> All items must be packaged appropriately to protect against damage during shipping. Please note that Strobes N' More Inc. warranties all of its products for a period of 2-5 years from the date of purchase. Any item that is modified, mistreated or installed improperly will have its warranty void. View our <a href=\"https://www.strobesnmore.com/assets/images/PDF/warrantycard.pdf\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>Warranty Card</strong></span></a>. We warranty all Strobes N' More Inc. products against defects and workmanship.<br/></p><p>Please include:<br/></p><ol><li>A copy of the sales receipt if qualified for warranty coverage</li><li>A short description of the problem</li><li>Your name, return address (should it be different than what's on your invoice) and daytime phone number</li></ol>",
+            "icon": "none"
+          }
+        },
+        "question_XHkYmV": {
+          "type": "question",
+          "settings": {
+            "question": "SoundOff Signal",
+            "answer": "<p>To obtain warranty service or repair work please call 800-338-7337 to obtain an RMA return code.</p><p>Ship to:<br/>Attn: Technical Services Department<br/>RMA # (write your number here)<br/>SoundOff Signal<br/>3900 Central Parkway<br/>Hudsonville, MI 49426</p><p>You will need</p><ol><li>An RMA (return merchandise authorization) Number</li><li>A completed <a href=\"https://soundoffsignal.com/support-page/returns/\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>SoundOff Signal RMA Request Form</strong></span></a><br/></li><li>A copy of your dated proof of purchase before you can return any product.<br/></li></ol><p>Each RMA Number is good for one shipment (multiple items accepted) and will expire 10 days after the date it was issued. The new RMA form can be filled in electronically and you can now save a copy of the digital file for your records. After you receive your RMA Number, fill out the RMA Form and enclose a copy of your dated proof of purchase and return it with your product(s)</p><p>View the full <a href=\"https://soundoffsignal.com/MASTER/warranty/No%20Hassle%20Warranty/Limited_Warranty_Statement.pdf\"><span style=\"text-decoration:underline\"><strong>SoundOff Signal Warranty Policy »</strong></span></a></p>",
+            "icon": "none"
+          }
+        },
+        "question_f7taeA": {
+          "type": "question",
+          "settings": {
+            "question": "Speed Turtle Engineering",
+            "answer": "<p>To obtain Tech Support, Warranty, or Repairs can be accomplished by visiting the Speed Turtle Support page located <a href=\"https://speedturtleengineering.com/support\"><strong>HERE.</strong></a><strong> </strong> The Full Speed Turtle Warranty can be found <a href=\"https://static1.squarespace.com/static/51fac8cfe4b0339e6c6987e1/t/52b0be84e4b0871946c13ff6/1387314820443/STE_W01.pdf\"><strong>HERE.</strong></a>   Warranty / Repair work will require you to fill out a RMA form located <a href=\"https://static1.squarespace.com/static/51fac8cfe4b0339e6c6987e1/t/545abc02e4b042d9849e203f/1415232514372/STE_RMA1.pdf\"><strong>HERE</strong></a> and ship the product directly to Speed Turtle at the address provided. To contact Speed Turtle for Tech Questions or Support you can email <a href=\"mailto:support@speedturtleengineering.com\"><strong>Support@SpeedTurtleEngineering.com</strong></a></p>",
             "icon": "none"
           }
         },
@@ -118,25 +102,49 @@
           "type": "question",
           "settings": {
             "question": "Star SVP",
-            "answer": "<p><a href=\"http:\/\/www.star1889.com\/support\/star-headlight-tech-support\" target=\"_blank\"><span style=\"text-decoration:underline\">Request for Warranty or Repairs »<\/span><\/a><\/p>",
+            "answer": "<p><a href=\"http://www.star1889.com/support/star-headlight-tech-support\" target=\"_blank\"><span style=\"text-decoration:underline\">Request for Warranty or Repairs »</span></a></p>",
+            "icon": "none"
+          }
+        },
+        "question_jd46wj": {
+          "type": "question",
+          "settings": {
+            "question": "Strobes N' More",
+            "answer": "<p>Ship to:<br/>Strobes N' More<br/>Attn: Repairs<br/>81 Tom Harvey Rd.<br/>Westerly, RI 02891<br/></p><p>Any item shipped to us must include a copy of the <a href=\"https://www.strobesnmore.com/assets/images/warrantyform.pdf\" target=\"_blank\"><span style=\"text-decoration:underline\">Warranty/Repair Form</span></a>, a copy of your original invoice, and the word <strong>REPAIRS </strong>clearly written on the outside of the package. <strong>Please pack product box within a separate box. No markings or return codes are to be written on the original product box.</strong> All items must be packaged appropriately to protect against damage during shipping. The customer is responsible for shipping the item to Strobes N’ More - we will cover the cost of return shipping. International customers are responsible for all shipping charges. Please note that Strobes N' More Inc. warranties all of its products for a period of 2-5 years from the date of purchase. Any item that is modified, mistreated or installed improperly will have its warranty void. View our <a href=\"https://www.strobesnmore.com/assets/images/warrantycard.pdf\" target=\"_blank\"><span style=\"text-decoration:underline\">Warranty Card</span></a> for more info. We warranty all Strobes N' More Inc. products against defects and workmanship. If the warrantied product has been discontinued, we will replace it with a similar product of equal or greater value <span style=\"text-decoration:underline\">or</span> give you a pro-rated refund of the lesser unused months.<br/></p><p>Please include:<br/></p><ol><li>A copy of the sales receipt if qualified for warranty coverage</li><li>A short description of the problem</li><li>Your name, return address (should it be different than what's on your invoice) and daytime phone number</li></ol>",
+            "icon": "none"
+          }
+        },
+        "question_pfWJXt": {
+          "type": "question",
+          "settings": {
+            "question": "Tomar Electronics",
+            "answer": "<p>To obtain repair or warranty service please fill out the <a href=\"http://www.tomar.com/support/rma.htm\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>Tomar RMA Request Form</strong></span></a>. You may also view <a href=\"http://www.tomar.com/support/warranty.htm\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>Tomar's full warranty</strong></span></a>.</p>",
+            "icon": "none"
+          }
+        },
+        "question_V73gq4": {
+          "type": "question",
+          "settings": {
+            "question": "Whelen Engineering",
+            "answer": "<p>Ship to:<br/>Whelen Factory Repair<br/>Building B<br/>51 Winthrop Road<br/>Chester, CT 06412-0684</p><p>Please include</p><ol><li>A copy of the sales receipt if qualified for warranty coverage</li><li>A short description of the problem</li><li>Your name, return address (should it be different than what's on your invoice) and daytime phone number.</li></ol><p>Please note that Whelen warranties their products from manufactured date, not from date of purchase. For complete warranty and repair information, refer to your <a href=\"http://www.whelen.com/wp-content/uploads/2020/08/Automotive_Warranty.pdf\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>Whelen User Direct Warranty</strong></span></a> statement or contact Whelen Engineering.</p>",
             "icon": "none"
           }
         }
       },
       "block_order": [
-        "question_jd46wj",
-        "question_V73gq4",
-        "question_gYxW9x",
-        "question_6GdLQ3",
-        "question_f7taeA",
         "question_EPaHXD",
-        "question_6BMhJr",
-        "question_XHkYmV",
-        "question_URTwKP",
-        "question_pfWJXt",
-        "question_PHxtFe",
         "question_zqGF9d",
-        "question_9kXt3x"
+        "question_PHxtFe",
+        "question_6BMhJr",
+        "question_6GdLQ3",
+        "question_gYxW9x",
+        "question_URTwKP",
+        "question_XHkYmV",
+        "question_f7taeA",
+        "question_9kXt3x",
+        "question_jd46wj",
+        "question_pfWJXt",
+        "question_V73gq4"
       ],
       "settings": {
         "section_width": "wide",
