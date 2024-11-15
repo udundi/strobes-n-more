@@ -88,8 +88,7 @@
     "main": {
       "type": "page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "dynamic_highlights_banner_RJeHjd": {
       "type": "dynamic-highlights-banner",
@@ -200,7 +199,7 @@
         "color": "#21225b",
         "icon_color": "#21225b",
         "background_color": "#f8f8f8",
-        "mobile_layout": "grid"
+        "mobile_layout": "slider"
       }
     },
     "dynamic_rich_text_fYUcBa": {
