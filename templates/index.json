@@ -251,7 +251,7 @@
         "color": "#ffffff",
         "icon_color": "#ffffff",
         "background_color": "#21225b",
-        "mobile_layout": "slider"
+        "mobile_layout": "grid"
       }
     },
     "dynamic_blog_posts_WbF3Tb": {
