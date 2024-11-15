@@ -16,8 +16,8 @@
           "type": "promotion",
           "settings": {
             "image": "shopify://shop_images/ericsgeneric_red_tow_path.jpg",
-            "title": "Mosaic",
-            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "title": "Welcome",
+            "text": "Strobes N' More distributes, installs and services mission-critical products on behalf of the industry’s leading manufacturers to a variety of government and commercial customers.",
             "color": "#ffffff",
             "block_link": "",
             "button_text": "",
@@ -31,8 +31,8 @@
           "type": "promotion",
           "settings": {
             "image": "shopify://shop_images/a.jpg",
-            "title": "Mosaic",
-            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "title": "Installs",
+            "text": "We not only ensure that your install builds - whether it is one DEM truck or ten state police vehicles - will look sharp, but most importantly perform exceptionally.",
             "color": "#ffffff",
             "block_link": "",
             "button_text": "",
@@ -46,8 +46,8 @@
           "type": "promotion",
           "settings": {
             "image": "shopify://shop_images/sentinel-close-up-banner-mobile-us.jpg",
-            "title": "Mosaic",
-            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
+            "title": "Fast Shipping",
+            "text": "Most products are in-stock and ready to ship. Please read product description or call to ensure availability.",
             "color": "#ffffff",
             "block_link": "",
             "button_text": "",
@@ -411,9 +411,7 @@
         "logo_WyBBxK",
         "logo_P9dNyQ"
       ],
-      "custom_css": [
-
-      ],
+      "custom_css": [],
       "settings": {
         "title": ""
       }
