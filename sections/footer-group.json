@@ -1,12 +1,12 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "type": "footer",
   "name": "Footer",
@@ -51,7 +51,7 @@
         "menu_qgnepf"
       ],
       "custom_css": [
-        ".site-footer-item--information {background-color: #3d3d3d; margin-inline: 0; max-width: unset; align-items: center; gap: 0; padding-block: 1.125rem; text-align: center;}",
+        ".site-footer-item--information {background-color: #21225B; margin-inline: 0; max-width: unset; align-items: center; gap: 0; padding-block: 1.125rem; text-align: center;}",
         ".site-footer-wrapper {padding-bottom: 0;}",
         ".site-footer__row--second p {color: white !important;}"
       ],
