@@ -1,9 +1,17 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "page-contact",
-      "settings": {
-      }
+      "settings": {}
     },
     "dynamic_highlights_banner_raywBj": {
       "type": "dynamic-highlights-banner",
@@ -13,7 +21,7 @@
           "settings": {
             "icon": "icon-envelope",
             "title": "Email",
-            "text": "<p><span style=\"text-decoration:underline\">Sales@StrobesNMore.com<\/span><\/p>",
+            "text": "<p><span style=\"text-decoration:underline\">Sales@StrobesNMore.com</span></p>",
             "link": ""
           }
         },
@@ -22,7 +30,7 @@
           "settings": {
             "icon": "icon-cell-phone",
             "title": "Give Us A Call",
-            "text": "<p><a href=\"tel:401-454-4487\" title=\"tel:401-454-4487\">(401)-454-4487<\/a><\/p>",
+            "text": "<p><a href=\"tel:401-454-4487\" title=\"tel:401-454-4487\">(401)-454-4487</a></p>",
             "link": ""
           }
         },
@@ -31,7 +39,7 @@
           "settings": {
             "icon": "icon-information",
             "title": "Fax",
-            "text": "<p>401-596-6596<\/p>",
+            "text": "<p>401-596-6596</p>",
             "link": ""
           }
         }
@@ -41,12 +49,15 @@
         "highlight_bdAbEX",
         "highlight_mTgdGK"
       ],
+      "custom_css": [
+        "p {color: black;}"
+      ],
       "settings": {
         "section_spacing": true,
         "section_width": "full-width",
         "icon_layout": "center",
-        "color": "#4d4d4d",
-        "icon_color": "#4d4d4d",
+        "color": "#21225b",
+        "icon_color": "#21225b",
         "background_color": "#f8f8f8",
         "mobile_layout": "slider"
       }
@@ -56,7 +67,7 @@
       "settings": {
         "section_height": "small",
         "title": "Location",
-        "content": "<p>81 Tom Harvey Road<br\/>Westerly, RI 02891 USA<\/p>",
+        "content": "<p>81 Tom Harvey Road<br/>Westerly, RI 02891 USA</p>",
         "text_alignment": "center",
         "layout": "overlay-center-center",
         "layout_mobile": "above",
