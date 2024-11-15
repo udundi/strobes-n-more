@@ -50,11 +50,7 @@
         "menu_2",
         "menu_qgnepf"
       ],
-      "custom_css": [
-        ".site-footer-item--information {background-color: #21225b; margin-inline: 0; max-width: unset; align-items: center; gap: 0; padding-block: 1.125rem; text-align: center;}",
-        ".site-footer-wrapper {padding-bottom: 0;}",
-        ".site-footer__row--second p {color: white !important;}"
-      ],
+      "custom_css": [],
       "settings": {
         "show_follow_on_shop": true,
         "payment_icons": true,
