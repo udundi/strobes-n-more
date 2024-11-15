@@ -194,7 +194,7 @@
       ],
       "settings": {
         "section_spacing": false,
-        "section_width": "full-width",
+        "section_width": "content-width",
         "icon_layout": "center",
         "color": "#21225b",
         "icon_color": "#21225b",
