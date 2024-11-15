@@ -199,7 +199,7 @@
         "color": "#21225b",
         "icon_color": "#21225b",
         "background_color": "#f8f8f8",
-        "mobile_layout": "slider"
+        "mobile_layout": "grid"
       }
     },
     "dynamic_rich_text_fYUcBa": {
