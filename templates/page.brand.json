@@ -1,18 +1,26 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
       "type": "page",
       "disabled": true,
-      "settings": {
-      }
+      "settings": {}
     },
     "pxs_image_with_text_overlay_dUWd4e": {
       "type": "pxs-image-with-text-overlay",
       "settings": {
         "section_height": "medium",
-        "image": "shopify:\/\/shop_images\/Screenshot_2024-07-11_at_4.39.04_PM.png",
+        "image": "shopify://shop_images/Screenshot_2024-07-11_at_4.39.04_PM.png",
         "title": "Brands We Trust",
-        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <\/p>",
+        "text": "<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. </p>",
         "content_position": "center-center",
         "color": "#ffffff",
         "overlay_background": "#000000",
@@ -28,6 +36,14 @@
           "type": "collection",
           "settings": {
             "collection": "carson",
+            "title": ""
+          }
+        },
+        "collection_zBiRhT": {
+          "type": "collection",
+          "settings": {
+            "collection": "diode-dynamics",
+            "image": "shopify://shop_images/Diode-Dynamics-logo.jpg",
             "title": ""
           }
         },
@@ -132,6 +148,7 @@
       },
       "block_order": [
         "collection_qc63rh",
+        "collection_zBiRhT",
         "collection_kpXUg7",
         "collection_QbmMgh",
         "collection_NW7mbt",
