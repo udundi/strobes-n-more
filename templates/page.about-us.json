@@ -31,7 +31,7 @@
         "section_heading": "",
         "image": "shopify://shop_images/MLJ7049.jpg",
         "desktop_height": "500px",
-        "mobile_height": "500px",
+        "mobile_height": "natural",
         "desktop_image_alignment": "left",
         "mobile_image_alignment": "bottom",
         "heading": "About Us",
