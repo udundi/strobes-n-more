@@ -64,10 +64,12 @@
     },
     "dynamic_html_MKexfd": {
       "type": "dynamic-html",
-      "custom_css": [],
+      "custom_css": [
+        "@media (max-width: 768px) {.map-frame1 {display: none; }}"
+      ],
       "settings": {
-        "title": "Custom HTML",
-        "custom_html": "<iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.406367836835!2d-71.81119842412367!3d41.343520271305515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e5e682a6b2a533%3A0x4a1af31674a18a72!2sStrobes%20N%20More!5e0!3m2!1sen!2s!4v1732035191145!5m2!1sen!2s\" width=\"600\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
+        "title": "Location",
+        "custom_html": "<iframe class=\"map-frame1\" src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2995.406367836835!2d-71.81119842412367!3d41.343520271305515!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e5e682a6b2a533%3A0x4a1af31674a18a72!2sStrobes%20N%20More!5e0!3m2!1sen!2s!4v1732035191145!5m2!1sen!2s\" width=\"1000\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>"
       }
     },
     "pxs_map_88m877": {
