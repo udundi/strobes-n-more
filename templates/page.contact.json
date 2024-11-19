@@ -70,7 +70,7 @@
       "settings": {
         "width": "regular",
         "title": "Location",
-        "text": "<p>81 Tom Harvey Road<br/>Westerly, RI 02891 USA</p>",
+        "text": "<p>81 Tom Harvey Road, Westerly, RI 02891 USA</p>",
         "heading_size": "medium",
         "text_alignment": "center"
       }
