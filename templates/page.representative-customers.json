@@ -454,8 +454,8 @@
       "type": "dynamic-image-with-text",
       "settings": {
         "section_heading": "",
-        "image": "shopify://shop_images/feniex-fusion-1x-single-dash-led-application_5a957f46-be4c-4c13-baf0-29b0d6cefb25.jpg",
-        "desktop_height": "500px",
+        "image": "shopify://shop_images/3Tahoes_1.jpg",
+        "desktop_height": "natural",
         "mobile_height": "natural",
         "desktop_image_alignment": "right",
         "mobile_image_alignment": "top",
