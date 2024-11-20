@@ -259,8 +259,8 @@
       "settings": {
         "title": "",
         "blog": "instructional-videos",
-        "show_date": true,
-        "show_author": true,
+        "show_date": false,
+        "show_author": false,
         "show_excerpt": true
       }
     },
