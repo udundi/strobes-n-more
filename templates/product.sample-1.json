@@ -172,7 +172,7 @@
         "question_hncjUr"
       ],
       "custom_css": [
-        "@media (min-width: 1200px) {.faq__items > div {width: 500px; }}",
+        "@media (min-width: 1200px) {.faq__items > div {max-width: 450px; }}",
         "@media (min-width: 768px) {.faq__items {display: flex; gap: 90px; justify-content: space-between; flex-direction: row; }}",
         ".faq__items > div {margin-bottom: 40px; flex: 1;}"
       ],
