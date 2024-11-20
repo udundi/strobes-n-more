@@ -25,7 +25,7 @@
         "show_rss_link": true,
         "show_date": false,
         "show_author": false,
-        "show_excerpt": true,
+        "show_excerpt": false,
         "featured_post": "",
         "posts_per_page_range": 9
       }
