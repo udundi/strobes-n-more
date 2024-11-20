@@ -45,7 +45,7 @@
       "type": "dynamic-image-with-text",
       "settings": {
         "section_heading": "",
-        "image": "shopify://shop_images/Install_Upfitting.jpg",
+        "image": "shopify://shop_images/image.jpg",
         "desktop_height": "natural",
         "mobile_height": "natural",
         "desktop_image_alignment": "right",
