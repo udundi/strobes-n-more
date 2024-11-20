@@ -18,13 +18,13 @@
       "type": "dynamic-image-with-text",
       "settings": {
         "section_heading": "",
-        "image": "shopify://shop_images/LastCall.jpg",
+        "image": "shopify://shop_images/image_3.png",
         "desktop_height": "natural",
         "mobile_height": "natural",
         "desktop_image_alignment": "right",
         "mobile_image_alignment": "top",
         "heading": "Vendors",
-        "subheading": "<p>At Strobes N' More, our success is rooted in strong, lasting partnerships with industry-leading vendors who share our unwavering commitment to quality, innovation, and reliability. We take pride in carefully selecting each vendor to ensure that the products we offer not only meet but exceed the demanding needs of our diverse customers, including first responders, government agencies, businesses, and individuals. These partnerships empower us to deliver cutting-edge lighting and equipment solutions designed to perform seamlessly in the toughest, most challenging conditions.</p><p>By collaborating closely with trusted manufacturers, we gain access to the latest advancements in technology and design, allowing us to provide our customers with solutions that are not just dependable but also at the forefront of innovation. From high-intensity emergency lighting to rugged tools built for the most demanding environments, our products are a reflection of the trust and expertise that define our vendor relationships.</p><p>These partnerships are the foundation of our mission: to deliver exceptional value, top-tier products, and unparalleled service to our customers every time they rely on Strobes N' More. Together with our vendors, we continue to set the standard for excellence in our industry.</p>",
+        "subheading": "<p>At Strobes N' More, our success is built on strong, lasting partnerships with industry-leading vendors who share our commitment to quality, innovation, and reliability. We carefully select each vendor to ensure the products we offer meet and exceed the demanding needs of our customers, including first responders, government agencies, businesses, and individuals. These trusted partnerships enable us to provide cutting-edge lighting and equipment solutions that perform flawlessly in the toughest conditions.</p><p>By working closely with top manufacturers, we stay at the forefront of technology and design, delivering products that are both dependable and innovative. These collaborations are the backbone of our mission to deliver exceptional value, industry-leading products, and unmatched service to our customers every time. Together with our vendors, we set the standard for excellence in our field.</p>",
         "text_alignment": "left",
         "button_label": "Button",
         "button_link": ""
