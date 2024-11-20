@@ -258,7 +258,7 @@
       "type": "dynamic-blog-posts",
       "settings": {
         "title": "",
-        "blog": "",
+        "blog": "instructional-videos",
         "show_date": true,
         "show_author": true,
         "show_excerpt": true
