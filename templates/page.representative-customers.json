@@ -141,7 +141,7 @@
       "type": "dynamic-image-with-text",
       "settings": {
         "section_heading": "",
-        "image": "shopify://shop_images/feniex-fusion-100-lightstick-application_6da91bc5-cb81-455d-9c9c-87044156287d.jpg",
+        "image": "shopify://shop_images/image.png",
         "desktop_height": "natural",
         "mobile_height": "natural",
         "desktop_image_alignment": "right",
@@ -220,8 +220,8 @@
       "type": "dynamic-image-with-text",
       "settings": {
         "section_heading": "",
-        "image": "shopify://shop_images/feniex-fusion-800-lightstick-application_830ebf05-2cbe-4281-9684-6fe951b25480.jpg",
-        "desktop_height": "500px",
+        "image": "shopify://shop_images/image_1.png",
+        "desktop_height": "natural",
         "mobile_height": "natural",
         "desktop_image_alignment": "left",
         "mobile_image_alignment": "top",
