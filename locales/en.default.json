@@ -298,7 +298,7 @@
   },
   "footer": {
     "general": {
-      "copyright_html": "Copyright &copy; {{ year }} | Strobes N' More | All Rights Reserved",
+      "copyright_html": "Copyright &copy; {{ year }} | Strobes N' More LLC | All Rights Reserved",
       "follow_us": "Follow us"
     }
   },
