@@ -16,7 +16,7 @@
           "type": "promotion",
           "settings": {
             "image": "shopify://shop_images/ericsgeneric_red_tow_path.jpg",
-            "title": "Welcome",
+            "title": "",
             "text": "Strobes N' More distributes, installs and services mission-critical products on behalf of the industry’s leading manufacturers to a variety of government and commercial customers.",
             "color": "#ffffff",
             "block_link": "",
