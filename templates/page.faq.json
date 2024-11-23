@@ -258,7 +258,7 @@
         "question_dcCKxA"
       ],
       "custom_css": [
-        "h3 {margin-top: 15px;}"
+        "h3 {margin-top: 20px;}"
       ],
       "settings": {
         "section_width": "wide",
