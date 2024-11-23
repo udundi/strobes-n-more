@@ -424,6 +424,13 @@
             "link": ""
           }
         },
+        "logo_tcpEiR": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Stonington_PD_logo.png",
+            "link": ""
+          }
+        },
         "logo_w8wYMt": {
           "type": "logo",
           "settings": {
@@ -521,6 +528,7 @@
         "logo_tPDj3w",
         "logo_iMTHCh",
         "logo_Dcrpnq",
+        "logo_tcpEiR",
         "logo_w8wYMt",
         "logo_WbYD6K",
         "logo_ChkKg6",
