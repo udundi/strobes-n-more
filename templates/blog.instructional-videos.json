@@ -49,7 +49,7 @@
     "main": {
       "type": "static-blog",
       "settings": {
-        "show_rss_link": true,
+        "show_rss_link": false,
         "show_date": false,
         "show_author": false,
         "show_excerpt": false,
