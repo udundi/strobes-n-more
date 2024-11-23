@@ -89,32 +89,12 @@
         "button_text": ""
       }
     },
-    "dynamic_rich_text_9FKUxA": {
-      "type": "dynamic-rich-text",
-      "settings": {
-        "width": "wide",
-        "title": "GOVERNMENT AND MUNICIPAL PURCHASES:",
-        "text": "<p>We gladly offer 30-day billing to Government and Municipal Agencies. All orders must be faxed on Department letterhead or Purchase Order and signed. All Purchase requests should include both billing and shipping addresses, contact name, phone number and title. We charge a late fee of 30.00 per month for all orders over 60 days until account is paid in full.</p>",
-        "heading_size": "medium",
-        "text_alignment": "left"
-      }
-    },
     "dynamic_rich_text_z7wrwL": {
       "type": "dynamic-rich-text",
       "settings": {
         "width": "wide",
         "title": "WARRANTIES:",
         "text": "<p>Please refer to our <a href=\"/pages/warranty-and-repairs\" target=\"_blank\" title=\"Warranty and Repairs\"><strong>Warranty Section</strong></a> for all warranty and/or repair questions.</p>",
-        "heading_size": "medium",
-        "text_alignment": "left"
-      }
-    },
-    "dynamic_rich_text_hfEUrM": {
-      "type": "dynamic-rich-text",
-      "settings": {
-        "width": "wide",
-        "title": "CONTACT INFORMATION:",
-        "text": "<p>We hope you have found everything you were looking for and then some. If you have comments or questions, we can be reached at the phone number or email address below.<br/><br/>Strobes N' More<br/>81 Tom Harvey Road<br/>Westerly, RI 02891</p><p>Cole Carrera & Jack Eldridge<br/>co-Owners<br/><br/>1-866-STROBEGUY or 401-454-4487<br/><a href=\"mailto:Louis@strobesnmore.com\"><strong>Sales@StrobesNMore.com</strong></a></p>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
@@ -129,8 +109,6 @@
     "dynamic_rich_text_fMrYFr",
     "dynamic_rich_text_U6qD6y",
     "pxs_image_with_text_overlay_mi3jVn",
-    "dynamic_rich_text_9FKUxA",
-    "dynamic_rich_text_z7wrwL",
-    "dynamic_rich_text_hfEUrM"
+    "dynamic_rich_text_z7wrwL"
   ]
 }
