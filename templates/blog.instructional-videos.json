@@ -54,7 +54,7 @@
         "show_author": false,
         "show_excerpt": false,
         "featured_post": "",
-        "posts_per_page_range": 9
+        "posts_per_page_range": 6
       }
     }
   },
