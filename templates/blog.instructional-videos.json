@@ -48,10 +48,7 @@
     },
     "main": {
       "type": "static-blog",
-      "custom_css": [
-        "h2 {text-align: center;}",
-        "a {text-align: center;}"
-      ],
+      "custom_css": [],
       "settings": {
         "show_rss_link": false,
         "show_date": false,
