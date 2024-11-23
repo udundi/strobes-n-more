@@ -23,7 +23,7 @@
         "mobile_height": "natural",
         "desktop_image_alignment": "right",
         "mobile_image_alignment": "top",
-        "heading": "Vendors",
+        "heading": "",
         "subheading": "<p>At Strobes N' More, our success is built on strong, lasting partnerships with industry-leading vendors who share our commitment to quality, innovation, and reliability. We carefully select each vendor to ensure the products we offer meet and exceed the demanding needs of our customers, including first responders, government agencies, businesses, and individuals. These trusted partnerships enable us to provide cutting-edge lighting and equipment solutions that perform flawlessly in the toughest conditions.</p><p>By working closely with top manufacturers, we stay at the forefront of technology and design, delivering products that are both dependable and innovative. These collaborations are the backbone of our mission to deliver exceptional value, industry-leading products, and unmatched service to our customers every time. Together with our vendors, we set the standard for excellence in our field.</p>",
         "text_alignment": "left",
         "button_label": "Button",
@@ -87,7 +87,7 @@
       ],
       "settings": {
         "width": "full-width",
-        "title": "Representative Vendors",
+        "title": "Trusted Brands",
         "text": "",
         "heading_size": "medium",
         "text_alignment": "center"
