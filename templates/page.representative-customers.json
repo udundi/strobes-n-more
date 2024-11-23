@@ -153,55 +153,6 @@
         "button_link": ""
       }
     },
-    "dynamic_highlights_banner_DTTpx9": {
-      "type": "dynamic-highlights-banner",
-      "blocks": {
-        "highlight_wxJLbd": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-delivery",
-            "title": "Free Shipping",
-            "text": "<p>When you spend $100+</p>",
-            "link": ""
-          }
-        },
-        "highlight_Vy3b9X": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-cell-phone",
-            "title": "Give Us A Call",
-            "text": "<p>401-454-4487</p>",
-            "link": ""
-          }
-        },
-        "highlight_Debb7m": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-chat-alternate",
-            "title": "Chat With Us",
-            "text": "<p>We offer 24-hour chat support</p>",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "highlight_wxJLbd",
-        "highlight_Vy3b9X",
-        "highlight_Debb7m"
-      ],
-      "custom_css": [
-        "p {color: black;}"
-      ],
-      "settings": {
-        "section_spacing": false,
-        "section_width": "full-width",
-        "icon_layout": "center",
-        "color": "#21225b",
-        "icon_color": "#21225b",
-        "background_color": "#f8f8f8",
-        "mobile_layout": "slider"
-      }
-    },
     "dynamic_rich_text_fYUcBa": {
       "type": "dynamic-rich-text",
       "custom_css": [
@@ -347,17 +298,17 @@
             "link": ""
           }
         },
-        "logo_3gQt4x": {
+        "logo_CFeC7c": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/RIDEM_Logo.png",
+            "image": "shopify://shop_images/Union_Pacific.jpg",
             "link": ""
           }
         },
-        "logo_7ef9RY": {
+        "logo_W7tFc8": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Rhode_Island_Department_of_Transportation_RIDOT_Logo.png",
+            "image": "shopify://shop_images/United_Airlines.jpg",
             "link": ""
           }
         }
@@ -379,8 +330,8 @@
         "logo_XK6ixz",
         "logo_qN3Bkk",
         "logo_dxdFfn",
-        "logo_3gQt4x",
-        "logo_7ef9RY"
+        "logo_CFeC7c",
+        "logo_W7tFc8"
       ],
       "settings": {
         "title": ""
@@ -389,31 +340,10 @@
     "dynamic_logo_list_pFeD8k": {
       "type": "dynamic-logo-list",
       "blocks": {
-        "logo_XW7HL9": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Union_Pacific_Railroad_Logo.png",
-            "link": ""
-          }
-        },
-        "logo_EX3d9U": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/United_Airline_Logo.png",
-            "link": ""
-          }
-        },
         "logo_8gP9KJ": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/United_Road_Towing_Logo.png",
-            "link": ""
-          }
-        },
-        "logo_ni9AAG": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/University_of_Rhode_Island_Logo.png",
             "link": ""
           }
         },
@@ -426,10 +356,7 @@
         }
       },
       "block_order": [
-        "logo_XW7HL9",
-        "logo_EX3d9U",
         "logo_8gP9KJ",
-        "logo_ni9AAG",
         "logo_7Wcz7d"
       ],
       "settings": {
@@ -469,6 +396,34 @@
     "dynamic_logo_list_MLBrj6": {
       "type": "dynamic-logo-list",
       "blocks": {
+        "logo_ajiHfj": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/US_Army_National_Guard_Logo.png",
+            "link": ""
+          }
+        },
+        "logo_iMTHCh": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/RIDEM_Logo.png",
+            "link": ""
+          }
+        },
+        "logo_Dcrpnq": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Rhode_Island_Department_of_Transportation_RIDOT_Logo.png",
+            "link": ""
+          }
+        },
+        "logo_w8wYMt": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/University_of_Rhode_Island_Logo.png",
+            "link": ""
+          }
+        },
         "logo_WbYD6K": {
           "type": "logo",
           "settings": {
@@ -546,13 +501,6 @@
             "link": ""
           }
         },
-        "logo_ajiHfj": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/US_Army_National_Guard_Logo.png",
-            "link": ""
-          }
-        },
         "logo_pqRniD": {
           "type": "logo",
           "settings": {
@@ -562,6 +510,10 @@
         }
       },
       "block_order": [
+        "logo_ajiHfj",
+        "logo_iMTHCh",
+        "logo_Dcrpnq",
+        "logo_w8wYMt",
         "logo_WbYD6K",
         "logo_ChkKg6",
         "logo_xWRVYC",
@@ -573,7 +525,6 @@
         "logo_CKxwVP",
         "logo_LtmaPm",
         "logo_AjMxB9",
-        "logo_ajiHfj",
         "logo_pqRniD"
       ],
       "settings": {
@@ -588,7 +539,6 @@
     "main",
     "dynamic_highlights_banner_RJeHjd",
     "dynamic_image_with_text_EKrYQe",
-    "dynamic_highlights_banner_DTTpx9",
     "dynamic_rich_text_fYUcBa",
     "dynamic_image_with_text_kakMMk",
     "dynamic_logo_list_jgRQAP",
