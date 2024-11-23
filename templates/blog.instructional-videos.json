@@ -57,22 +57,11 @@
         "featured_post": "",
         "posts_per_page_range": 9
       }
-    },
-    "dynamic_blog_posts_NdmwAn": {
-      "type": "dynamic-blog-posts",
-      "settings": {
-        "title": "Blog posts",
-        "blog": "instructional-videos",
-        "show_date": true,
-        "show_author": true,
-        "show_excerpt": true
-      }
     }
   },
   "order": [
     "dynamic_rich_text_4XU8zE",
     "dynamic_highlights_banner_x9h9yQ",
-    "main",
-    "dynamic_blog_posts_NdmwAn"
+    "main"
   ]
 }
