@@ -403,6 +403,13 @@
             "link": ""
           }
         },
+        "logo_tPDj3w": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/RI_State_Police_logo.jpg",
+            "link": ""
+          }
+        },
         "logo_iMTHCh": {
           "type": "logo",
           "settings": {
@@ -511,6 +518,7 @@
       },
       "block_order": [
         "logo_ajiHfj",
+        "logo_tPDj3w",
         "logo_iMTHCh",
         "logo_Dcrpnq",
         "logo_w8wYMt",
