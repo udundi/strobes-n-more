@@ -249,6 +249,160 @@
       "settings": {
         "title": ""
       }
+    },
+    "dynamic_logo_list_p7aXbG": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "logo_qfjJ3x": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Jack_Young_logo.png",
+            "link": ""
+          }
+        },
+        "logo_bpY9My": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Keystone_logo.png",
+            "link": ""
+          }
+        },
+        "logo_XKMr4i": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Kussmaul_electronics_logo.png",
+            "link": ""
+          }
+        },
+        "logo_8rTWwm": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Larson_logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_GJacPN": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Magnetic_Mic_logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_y7ben8": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Ming_Tsann_logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_m6jrjE": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/nova-logo-smallb.jpg",
+            "link": ""
+          }
+        },
+        "logo_8GbbKk": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/OPS_Public_Safety_1_logo.png",
+            "link": ""
+          }
+        },
+        "logo_VC3APK": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/performance_advantage_company_logo.png",
+            "link": ""
+          }
+        },
+        "logo_ThHR7c": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Patriot_Fleet_Group_logo.png",
+            "link": ""
+          }
+        },
+        "logo_7p8BDc": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Prioritystart-copy.jpg",
+            "link": ""
+          }
+        },
+        "logo_YDTM6p": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/pro-gard-logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_jTbi6K": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Rockland_logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_nyJjAJ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Sanmak_Lighting_logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_DwmTFe": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Setina-Logo_crop.jpg",
+            "link": ""
+          }
+        },
+        "logo_7WWNYT": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Speed_turtle_logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_GeGzeD": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/STALKER_RADAR_logo.png",
+            "link": ""
+          }
+        },
+        "logo_jzTfMQ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Star_signal_logo.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_qfjJ3x",
+        "logo_bpY9My",
+        "logo_XKMr4i",
+        "logo_8rTWwm",
+        "logo_GJacPN",
+        "logo_y7ben8",
+        "logo_m6jrjE",
+        "logo_8GbbKk",
+        "logo_VC3APK",
+        "logo_ThHR7c",
+        "logo_7p8BDc",
+        "logo_YDTM6p",
+        "logo_jTbi6K",
+        "logo_nyJjAJ",
+        "logo_DwmTFe",
+        "logo_7WWNYT",
+        "logo_GeGzeD",
+        "logo_jzTfMQ"
+      ],
+      "settings": {
+        "title": ""
+      }
     }
   },
   "order": [
@@ -256,6 +410,7 @@
     "dynamic_image_with_text_769W6P",
     "dynamic_highlights_banner_RJeHjd",
     "dynamic_rich_text_fYUcBa",
-    "dynamic_logo_list_y6CFQM"
+    "dynamic_logo_list_y6CFQM",
+    "dynamic_logo_list_p7aXbG"
   ]
 }
