@@ -96,6 +96,55 @@
     "dynamic_logo_list_y6CFQM": {
       "type": "dynamic-logo-list",
       "blocks": {
+        "logo_YRjkhY": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/1st_in_emergency_products_logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_FT7VW9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Sho-me_logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_KjHwHX": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/ATEC_logo.png",
+            "link": ""
+          }
+        },
+        "logo_VfiQWr": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Atomic_LED_Logo.png",
+            "link": ""
+          }
+        },
+        "logo_gMfCzy": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/BPI_Logo.png",
+            "link": ""
+          }
+        },
+        "logo_cAen7b": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Blue_sea_logo.png",
+            "link": ""
+          }
+        },
+        "logo_LVkDMf": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Brooking_industry_logo.png",
+            "link": ""
+          }
+        },
         "logo_FhTqX3": {
           "type": "logo",
           "settings": {
@@ -103,10 +152,31 @@
             "link": ""
           }
         },
+        "logo_i8QAgc": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Colonial_Municipal_Group_lgo.jpg",
+            "link": ""
+          }
+        },
         "logo_KRAEX9": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/images.png",
+            "link": ""
+          }
+        },
+        "logo_34pD6n": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Extendobed_logo.png",
+            "link": ""
+          }
+        },
+        "logo_qJPYBA": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Ez_Stak_Logo.png",
             "link": ""
           }
         },
@@ -124,6 +194,20 @@
             "link": ""
           }
         },
+        "logo_N878zb": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/GD_JG_logo.png",
+            "link": ""
+          }
+        },
+        "logo_HqCpY6": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Granda_logo.png",
+            "link": ""
+          }
+        },
         "logo_4LkNCQ": {
           "type": "logo",
           "settings": {
@@ -134,98 +218,30 @@
         "logo_93HWBy": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Nova_logo.jpg",
-            "link": ""
-          }
-        },
-        "logo_HqCpY6": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Priority_start_logo.jpg",
-            "link": ""
-          }
-        },
-        "logo_N878zb": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Pro-gard_logo.jpg",
-            "link": ""
-          }
-        },
-        "logo_qJPYBA": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Setina-Logo_crop.jpg",
-            "link": ""
-          }
-        },
-        "logo_34pD6n": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Sound_off_signal_logo.jpg",
-            "link": ""
-          }
-        },
-        "logo_i8QAgc": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Speed_turtle_logo.jpg",
-            "link": ""
-          }
-        },
-        "logo_LVkDMf": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Star_signal_logo.png",
-            "link": ""
-          }
-        },
-        "logo_cAen7b": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Streamlight_logo.png",
-            "link": ""
-          }
-        },
-        "logo_gMfCzy": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Strobes_N_More_logo.png",
-            "link": ""
-          }
-        },
-        "logo_VfiQWr": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Tomar-Electronics_Logo_New.jpg",
-            "link": ""
-          }
-        },
-        "logo_KjHwHX": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Whelen_logo.png",
+            "image": "shopify://shop_images/itegix_logo.jpg",
             "link": ""
           }
         }
       },
       "block_order": [
+        "logo_YRjkhY",
+        "logo_FT7VW9",
+        "logo_KjHwHX",
+        "logo_VfiQWr",
+        "logo_gMfCzy",
+        "logo_cAen7b",
+        "logo_LVkDMf",
         "logo_FhTqX3",
+        "logo_i8QAgc",
         "logo_KRAEX9",
+        "logo_34pD6n",
+        "logo_qJPYBA",
         "logo_ypQDhi",
         "logo_NREGT6",
-        "logo_4LkNCQ",
-        "logo_93HWBy",
-        "logo_HqCpY6",
         "logo_N878zb",
-        "logo_qJPYBA",
-        "logo_34pD6n",
-        "logo_i8QAgc",
-        "logo_LVkDMf",
-        "logo_cAen7b",
-        "logo_gMfCzy",
-        "logo_VfiQWr",
-        "logo_KjHwHX"
+        "logo_HqCpY6",
+        "logo_4LkNCQ",
+        "logo_93HWBy"
       ],
       "custom_css": [
         "div {margin-top: 30px;}"
