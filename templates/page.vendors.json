@@ -403,6 +403,136 @@
       "settings": {
         "title": ""
       }
+    },
+    "dynamic_logo_list_8dB8Xc": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "logo_xYR6h9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/STI-CO_INDUSTIRES_logo.png",
+            "link": ""
+          }
+        },
+        "logo_jnbH4R": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/STOP_STICK_logo.png",
+            "link": ""
+          }
+        },
+        "logo_dDL3Fr": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Streamlight_logo.png",
+            "link": ""
+          }
+        },
+        "logo_HpEgmj": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Tiger_tough_logo.png",
+            "link": ""
+          }
+        },
+        "logo_FCjwpn": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Tomar-Electronics_Logo_New.jpg",
+            "link": ""
+          }
+        },
+        "logo_d3txke": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Top_Warning_Light_TWL_logo_9c030856-e89b-43cf-850d-fbd9e0d9de34.png",
+            "link": ""
+          }
+        },
+        "logo_UaATdP": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/tremco-police-product-logo.png",
+            "link": ""
+          }
+        },
+        "logo_QqzXKR": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Troy_products_logo.png",
+            "link": ""
+          }
+        },
+        "logo_DqBJND": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/TruckLite_logo.png",
+            "link": ""
+          }
+        },
+        "logo_YGaDHt": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Truck_Vault_logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_Kf7M7t": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Tuffy_Security_Products_logo.png",
+            "link": ""
+          }
+        },
+        "logo_c3DVtU": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Warning_See_logo.png",
+            "link": ""
+          }
+        },
+        "logo_ia6HNg": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Westin_logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_YwGPN8": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Whelen_logo.png",
+            "link": ""
+          }
+        },
+        "logo_9KALRJ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Speed_turtle_logo.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_xYR6h9",
+        "logo_jnbH4R",
+        "logo_dDL3Fr",
+        "logo_HpEgmj",
+        "logo_FCjwpn",
+        "logo_d3txke",
+        "logo_UaATdP",
+        "logo_QqzXKR",
+        "logo_DqBJND",
+        "logo_YGaDHt",
+        "logo_Kf7M7t",
+        "logo_c3DVtU",
+        "logo_ia6HNg",
+        "logo_YwGPN8",
+        "logo_9KALRJ"
+      ],
+      "settings": {
+        "title": ""
+      }
     }
   },
   "order": [
@@ -411,6 +541,7 @@
     "dynamic_highlights_banner_RJeHjd",
     "dynamic_rich_text_fYUcBa",
     "dynamic_logo_list_y6CFQM",
-    "dynamic_logo_list_p7aXbG"
+    "dynamic_logo_list_p7aXbG",
+    "dynamic_logo_list_8dB8Xc"
   ]
 }
