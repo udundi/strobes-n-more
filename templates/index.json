@@ -15,7 +15,7 @@
         "promotion-1": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/Unmatched.jpg",
+            "image": "shopify://shop_images/GPD2.jpg",
             "title": "",
             "text": "Strobes N' More distributes, installs and services mission-critical products on behalf of the industry’s leading manufacturers to a variety of government and commercial customers.",
             "color": "#ffffff",
@@ -30,7 +30,7 @@
         "promotion_kePLct": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/WPD_Rear2.jpg",
+            "image": "shopify://shop_images/installs.jpg",
             "title": "Installs",
             "text": "We not only ensure that your install builds - whether it is one DEM truck or ten state police vehicles - will look sharp, but most importantly perform well.",
             "color": "#ffffff",
@@ -45,7 +45,7 @@
         "promotion-4": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/sentinel-close-up-banner-mobile-us.jpg",
+            "image": "shopify://shop_images/SNM_cb387f79-26c9-4483-9946-4839e90bd047.jpg",
             "title": "Dealer Program",
             "text": "The Strobes N’ More Dealer Program provides smaller upfitters & distributors w/ stronger discounts based on higher levels of spend",
             "color": "#ffffff",
