@@ -63,7 +63,9 @@
         "promotion_kePLct",
         "promotion-4"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "p {font-weight: bold;}"
+      ],
       "settings": {
         "title": "",
         "section_height": "small",
