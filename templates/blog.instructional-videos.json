@@ -53,7 +53,7 @@
         "show_rss_link": false,
         "show_date": true,
         "show_author": true,
-        "show_excerpt": false,
+        "show_excerpt": true,
         "featured_post": "",
         "posts_per_page_range": 9
       }
