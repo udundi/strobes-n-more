@@ -49,12 +49,12 @@
     "main": {
       "type": "static-blog",
       "custom_css": [
-        ".article--excerpt-wrapper {text-align: center;}",
-        ".article--excerpt-meta {display: flex; justify-content: center; gap: 10px; }",
-        ".article--excerpt-title {margin: 10px 0;}",
-        ".article--excerpt-title a {text-decoration: none; color: inherit; }",
-        ".article--excerpt-readmore {display: inline-block; margin-top: 10px; text-decoration: none;}",
-        ".article--excerpt-readmore--icon {display: inline-block; vertical-align: middle; }"
+        ".article--excerpt-wrapper {text-align: center !important;}",
+        ".article--excerpt-meta {display: flex !important; justify-content: center !important; gap: 10px !important;}",
+        ".article--excerpt-title {margin: 10px 0 !important;}",
+        ".article--excerpt-title a {text-decoration: none !important; color: inherit !important;}",
+        ".article--excerpt-readmore {display: inline-block !important; margin-top: 10px !important; text-decoration: none !important;}",
+        ".article--excerpt-readmore--icon {display: inline-block !important; vertical-align: middle !important;}"
       ],
       "settings": {
         "show_rss_link": false,
