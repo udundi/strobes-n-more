@@ -48,7 +48,14 @@
     },
     "main": {
       "type": "static-blog",
-      "custom_css": [],
+      "custom_css": [
+        ".article--excerpt-wrapper {text-align: center;}",
+        ".article--excerpt-meta {display: flex; justify-content: center; gap: 10px; }",
+        ".article--excerpt-title {margin: 10px 0;}",
+        ".article--excerpt-title a {text-decoration: none; color: inherit; }",
+        ".article--excerpt-readmore {display: inline-block; margin-top: 10px; text-decoration: none;}",
+        ".article--excerpt-readmore--icon {display: inline-block; vertical-align: middle; }"
+      ],
       "settings": {
         "show_rss_link": false,
         "show_date": true,
