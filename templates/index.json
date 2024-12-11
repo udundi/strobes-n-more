@@ -162,7 +162,7 @@
         "collection_hkEPqM": {
           "type": "collection",
           "settings": {
-            "collection": "vehicle-consoles",
+            "collection": "vehicle-specific-consoles",
             "image": "shopify://shop_images/Frame_7.jpg",
             "title": "Vehicle Consoles"
           }
