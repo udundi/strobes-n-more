@@ -27,6 +27,20 @@
         "text_alignment": "left"
       }
     },
+    "dynamic_rich_text_9xabxm": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "{background-color: #21225b;}",
+        "h4 {color: white; padding-top: 12px; padding-bottom: 12px;}"
+      ],
+      "settings": {
+        "width": "wide",
+        "title": "",
+        "text": "<h4>BUYING IN BULK REGULARLY? DON’T PAY FULL PRICE</h4>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
     "dynamic_rich_text_kxyqat": {
       "type": "dynamic-rich-text",
       "custom_css": [
@@ -122,6 +136,7 @@
   "order": [
     "main",
     "dynamic_rich_text_JDCPzK",
+    "dynamic_rich_text_9xabxm",
     "dynamic_rich_text_kxyqat",
     "dynamic_rich_text_xJUJ4j",
     "dynamic_logo_list_AD3Bpj",
