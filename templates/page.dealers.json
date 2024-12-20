@@ -144,7 +144,7 @@
         "a {color: white;}"
       ],
       "settings": {
-        "width": "wide",
+        "width": "full-width",
         "title": "",
         "text": "<h3>READY TO SAVE?</h3><h4>Contact <a href=\"mailto:dealersales@strobesnmore.com\" title=\"mailto:dealersales@strobesnmore.com\"><strong>dealersales@strobesnmore.com</strong></a> today to learn more.</h4>",
         "heading_size": "medium",
