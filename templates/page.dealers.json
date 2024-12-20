@@ -45,12 +45,11 @@
       "type": "dynamic-rich-text",
       "custom_css": [
         "{background-color: #21225b;}",
-        "h2 {color: #fff; padding: 12px;}",
-        "p {color: white;}"
+        "h3{color: white; padding-top: 12px; padding-bottom: 12px;}"
       ],
       "settings": {
-        "width": "full-width",
-        "title": "REPRESENTATIVE DISCOUNTS—SAVE BIG ON THE BRANDS YOU TRUST",
+        "width": "wide",
+        "title": "",
         "text": "<h3>REPRESENTATIVE DISCOUNTS—SAVE BIG ON THE BRANDS YOU TRUST</h3>",
         "heading_size": "medium",
         "text_alignment": "left"
