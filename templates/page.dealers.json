@@ -30,6 +30,7 @@
     "dynamic_rich_text_kxyqat": {
       "type": "dynamic-rich-text",
       "custom_css": [
+        "{margin-top: -35px;}",
         "h4 {color: #21225b;}"
       ],
       "settings": {
@@ -39,11 +40,91 @@
         "heading_size": "medium",
         "text_alignment": "left"
       }
+    },
+    "dynamic_rich_text_xJUJ4j": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "{background-color: #21225b;}",
+        "h2 {color: #fff; padding: 12px;}",
+        "p {color: white;}"
+      ],
+      "settings": {
+        "width": "wide",
+        "title": "REPRESENTATIVE DISCOUNTS—SAVE BIG ON THE BRANDS YOU TRUST",
+        "text": "<h3>REPRESENTATIVE DISCOUNTS—SAVE BIG ON THE BRANDS YOU TRUST</h3>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_logo_list_AD3Bpj": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "logo_nychJ6": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_7wtbWU": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_7wQYaD": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_EWLFqt": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_fLJeeP": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_ccDdYd": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_nychJ6",
+        "logo_7wtbWU",
+        "logo_7wQYaD",
+        "logo_EWLFqt",
+        "logo_fLJeeP",
+        "logo_ccDdYd"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "dynamic_rich_text_ymM69z": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "width": "wide",
+        "title": "BUYING IN BULK REGULARLY? DON’T PAY FULL PRICE",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
     }
   },
   "order": [
     "main",
     "dynamic_rich_text_JDCPzK",
-    "dynamic_rich_text_kxyqat"
+    "dynamic_rich_text_kxyqat",
+    "dynamic_rich_text_xJUJ4j",
+    "dynamic_logo_list_AD3Bpj",
+    "dynamic_rich_text_ymM69z"
   ]
 }
