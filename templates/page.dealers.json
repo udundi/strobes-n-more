@@ -104,6 +104,9 @@
         "logo_fLJeeP",
         "logo_ccDdYd"
       ],
+      "custom_css": [
+        "{padding-top: 30px;}"
+      ],
       "settings": {
         "title": ""
       }
