@@ -141,7 +141,7 @@
         ".rich-text {background-color: #e6252a; padding-top: 1px; padding-bottom: 12px;}",
         "h3 {color: white;}",
         "h4 {color: white;}",
-        "h {color: white;}"
+        "a {color: white;}"
       ],
       "settings": {
         "width": "wide",
