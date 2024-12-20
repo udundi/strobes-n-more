@@ -139,14 +139,14 @@
       "type": "dynamic-rich-text",
       "custom_css": [
         ".rich-text {background-color: #e6252a; padding-top: 1px; padding-bottom: 12px;}",
-        "h3 {color: white;}",
+        "h2 {color: white;}",
         "h4 {color: white;}",
         "a {color: white;}"
       ],
       "settings": {
         "width": "full-width",
-        "title": "",
-        "text": "<h3>READY TO SAVE?</h3><h4>Contact <a href=\"mailto:dealersales@strobesnmore.com\" title=\"mailto:dealersales@strobesnmore.com\"><strong>dealersales@strobesnmore.com</strong></a> today to learn more.</h4>",
+        "title": "READY TO SAVE?",
+        "text": "<h4>Contact <a href=\"mailto:dealersales@strobesnmore.com\" title=\"mailto:dealersales@strobesnmore.com\"><strong>dealersales@strobesnmore.com</strong></a> today to learn more.</h4>",
         "heading_size": "medium",
         "text_alignment": "center"
       }
