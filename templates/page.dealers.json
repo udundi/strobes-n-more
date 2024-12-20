@@ -138,7 +138,7 @@
     "dynamic_rich_text_VUgjBg": {
       "type": "dynamic-rich-text",
       "custom_css": [
-        ".rich-text {background-color: #e6252a; padding-top: 1px; padding-bottom: 12px;}",
+        ".rich-text {background-color: #e6252a; margin-top: -5px; padding-top: 1px; padding-bottom: 12px;}",
         "h2 {color: white;}",
         "h4 {color: white;}",
         "a {color: white;}"
