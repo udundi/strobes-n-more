@@ -68,6 +68,20 @@
       ],
       "settings": {
         "width": "wide",
+        "title": "",
+        "text": "<h2>REPRESENTATIVE DISCOUNTS<br/>SAVE BIG ON THE BRANDS YOU TRUST</h2>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_biAfq9": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "{background-color: #21225b;}",
+        "h2 {color: white; font-weight: bold; padding-top: 12px; padding-bottom: 12px;}"
+      ],
+      "settings": {
+        "width": "wide",
         "title": "SAVE BIG ON THE BRANDS YOU TRUST",
         "text": "",
         "heading_size": "medium",
@@ -179,6 +193,7 @@
     "dynamic_rich_text_JDCPzK",
     "dynamic_rich_text_kxyqat",
     "dynamic_rich_text_xJUJ4j",
+    "dynamic_rich_text_biAfq9",
     "dynamic_logo_list_AD3Bpj",
     "dynamic_rich_text_ymM69z",
     "dynamic_rich_text_TD69V9",
