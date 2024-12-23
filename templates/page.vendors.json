@@ -350,6 +350,34 @@
             "image": "shopify://shop_images/Star_signal_logo.png",
             "link": ""
           }
+        },
+        "logo_BFbCQP": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/STI-CO_INDUSTIRES_logo.png",
+            "link": ""
+          }
+        },
+        "logo_V4NWFF": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/STOP_STICK_logo.png",
+            "link": ""
+          }
+        },
+        "logo_w6WVUP": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Streamlight_logo.png",
+            "link": ""
+          }
+        },
+        "logo_xzDQbQ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Tiger_tough_logo.png",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -366,7 +394,11 @@
         "logo_DwmTFe",
         "logo_7WWNYT",
         "logo_GeGzeD",
-        "logo_jzTfMQ"
+        "logo_jzTfMQ",
+        "logo_BFbCQP",
+        "logo_V4NWFF",
+        "logo_w6WVUP",
+        "logo_xzDQbQ"
       ],
       "settings": {
         "title": ""
@@ -375,34 +407,6 @@
     "dynamic_logo_list_8dB8Xc": {
       "type": "dynamic-logo-list",
       "blocks": {
-        "logo_xYR6h9": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/STI-CO_INDUSTIRES_logo.png",
-            "link": ""
-          }
-        },
-        "logo_jnbH4R": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/STOP_STICK_logo.png",
-            "link": ""
-          }
-        },
-        "logo_dDL3Fr": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Streamlight_logo.png",
-            "link": ""
-          }
-        },
-        "logo_HpEgmj": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Tiger_tough_logo.png",
-            "link": ""
-          }
-        },
         "logo_FCjwpn": {
           "type": "logo",
           "settings": {
@@ -468,10 +472,6 @@
         }
       },
       "block_order": [
-        "logo_xYR6h9",
-        "logo_jnbH4R",
-        "logo_dDL3Fr",
-        "logo_HpEgmj",
         "logo_FCjwpn",
         "logo_UaATdP",
         "logo_QqzXKR",
