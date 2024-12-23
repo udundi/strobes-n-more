@@ -157,7 +157,7 @@
     "pxs_image_with_text_overlay_FAdP3N": {
       "type": "pxs-image-with-text-overlay",
       "settings": {
-        "section_height": "medium",
+        "section_height": "original",
         "image": "shopify://shop_images/image_1.jpg",
         "title": "",
         "text": "",
