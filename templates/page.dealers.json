@@ -189,7 +189,7 @@
             "button_two_style": "primary",
             "show_overlay": true,
             "overlay_color": "#000000",
-            "overlay_opacity": 50
+            "overlay_opacity": 1
           }
         }
       },
@@ -197,10 +197,10 @@
         "slide_xy9QPc"
       ],
       "settings": {
-        "enable_autoplay": true,
+        "enable_autoplay": false,
         "autoplay_duration": 8,
         "slideshow_width": "full",
-        "slideshow_height": "medium",
+        "slideshow_height": "original",
         "slideshow_height_mobile": "medium",
         "slideshow_text_below_image": true
       }
