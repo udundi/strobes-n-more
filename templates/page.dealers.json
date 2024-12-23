@@ -17,7 +17,7 @@
     "pxs_image_with_text_overlay_FAdP3N": {
       "type": "pxs-image-with-text-overlay",
       "custom_css": [
-        "{margin-top: -5px;}"
+        "{margin-top: -0.5px;}"
       ],
       "settings": {
         "section_height": "original",
