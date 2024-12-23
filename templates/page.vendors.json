@@ -124,6 +124,13 @@
             "link": ""
           }
         },
+        "logo_QY8hJx": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Black-Rac_logo.png",
+            "link": ""
+          }
+        },
         "logo_gMfCzy": {
           "type": "logo",
           "settings": {
@@ -152,6 +159,13 @@
             "link": ""
           }
         },
+        "logo_3WAbLq": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Code_3_logo.png",
+            "link": ""
+          }
+        },
         "logo_KRAEX9": {
           "type": "logo",
           "settings": {
@@ -160,6 +174,13 @@
           }
         },
         "logo_34pD6n": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/ECCO-logo.png",
+            "link": ""
+          }
+        },
+        "logo_hNxMzW": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Extendobed_logo.png",
@@ -187,17 +208,17 @@
             "link": ""
           }
         },
+        "logo_CDxRaq": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Gamber_Johnson_logo.jpg",
+            "link": ""
+          }
+        },
         "logo_4LkNCQ": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Havis_logo.png",
-            "link": ""
-          }
-        },
-        "logo_93HWBy": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/itegix_logo.jpg",
             "link": ""
           }
         }
@@ -207,17 +228,20 @@
         "logo_FT7VW9",
         "logo_KjHwHX",
         "logo_VfiQWr",
+        "logo_QY8hJx",
         "logo_gMfCzy",
         "logo_cAen7b",
         "logo_LVkDMf",
         "logo_FhTqX3",
+        "logo_3WAbLq",
         "logo_KRAEX9",
         "logo_34pD6n",
+        "logo_hNxMzW",
         "logo_qJPYBA",
         "logo_ypQDhi",
         "logo_NREGT6",
-        "logo_4LkNCQ",
-        "logo_93HWBy"
+        "logo_CDxRaq",
+        "logo_4LkNCQ"
       ],
       "custom_css": [
         "div {margin-top: 30px;}"
@@ -232,7 +256,7 @@
         "logo_bpY9My": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Keystone_logo.png",
+            "image": "shopify://shop_images/itegix_logo.jpg",
             "link": ""
           }
         },
