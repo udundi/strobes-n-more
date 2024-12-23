@@ -152,13 +152,6 @@
             "link": ""
           }
         },
-        "logo_i8QAgc": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Colonial_Municipal_Group_lgo.jpg",
-            "link": ""
-          }
-        },
         "logo_KRAEX9": {
           "type": "logo",
           "settings": {
@@ -194,20 +187,6 @@
             "link": ""
           }
         },
-        "logo_N878zb": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/GD_JG_logo.png",
-            "link": ""
-          }
-        },
-        "logo_HqCpY6": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Granda_logo.png",
-            "link": ""
-          }
-        },
         "logo_4LkNCQ": {
           "type": "logo",
           "settings": {
@@ -232,14 +211,11 @@
         "logo_cAen7b",
         "logo_LVkDMf",
         "logo_FhTqX3",
-        "logo_i8QAgc",
         "logo_KRAEX9",
         "logo_34pD6n",
         "logo_qJPYBA",
         "logo_ypQDhi",
         "logo_NREGT6",
-        "logo_N878zb",
-        "logo_HqCpY6",
         "logo_4LkNCQ",
         "logo_93HWBy"
       ],
@@ -253,13 +229,6 @@
     "dynamic_logo_list_p7aXbG": {
       "type": "dynamic-logo-list",
       "blocks": {
-        "logo_qfjJ3x": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Jack_Young_logo.png",
-            "link": ""
-          }
-        },
         "logo_bpY9My": {
           "type": "logo",
           "settings": {
@@ -288,13 +257,6 @@
             "link": ""
           }
         },
-        "logo_y7ben8": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Ming_Tsann_logo.jpg",
-            "link": ""
-          }
-        },
         "logo_m6jrjE": {
           "type": "logo",
           "settings": {
@@ -316,13 +278,6 @@
             "link": ""
           }
         },
-        "logo_ThHR7c": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Patriot_Fleet_Group_logo.png",
-            "link": ""
-          }
-        },
         "logo_7p8BDc": {
           "type": "logo",
           "settings": {
@@ -341,13 +296,6 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Rockland_logo.jpg",
-            "link": ""
-          }
-        },
-        "logo_nyJjAJ": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Sanmak_Lighting_logo.jpg",
             "link": ""
           }
         },
@@ -381,20 +329,16 @@
         }
       },
       "block_order": [
-        "logo_qfjJ3x",
         "logo_bpY9My",
         "logo_XKMr4i",
         "logo_8rTWwm",
         "logo_GJacPN",
-        "logo_y7ben8",
         "logo_m6jrjE",
         "logo_8GbbKk",
         "logo_VC3APK",
-        "logo_ThHR7c",
         "logo_7p8BDc",
         "logo_YDTM6p",
         "logo_jTbi6K",
-        "logo_nyJjAJ",
         "logo_DwmTFe",
         "logo_7WWNYT",
         "logo_GeGzeD",
@@ -442,13 +386,6 @@
             "link": ""
           }
         },
-        "logo_d3txke": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Top_Warning_Light_TWL_logo_9c030856-e89b-43cf-850d-fbd9e0d9de34.png",
-            "link": ""
-          }
-        },
         "logo_UaATdP": {
           "type": "logo",
           "settings": {
@@ -484,13 +421,6 @@
             "link": ""
           }
         },
-        "logo_c3DVtU": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Warning_See_logo.png",
-            "link": ""
-          }
-        },
         "logo_ia6HNg": {
           "type": "logo",
           "settings": {
@@ -519,13 +449,11 @@
         "logo_dDL3Fr",
         "logo_HpEgmj",
         "logo_FCjwpn",
-        "logo_d3txke",
         "logo_UaATdP",
         "logo_QqzXKR",
         "logo_DqBJND",
         "logo_YGaDHt",
         "logo_Kf7M7t",
-        "logo_c3DVtU",
         "logo_ia6HNg",
         "logo_YwGPN8",
         "logo_9KALRJ"
