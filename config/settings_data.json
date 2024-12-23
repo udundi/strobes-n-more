@@ -101,27 +101,27 @@
     "product_cart_redirect": false,
     "show_breadcrumbs": true,
     "quickshop_show_vendor": true,
-    "content_for_index": [
-
-    ],
+    "content_for_index": [],
     "blocks": {
       "17428600031447253342": {
         "type": "shopify://apps/attentive/blocks/attn-tag/8df62c72-8fe4-407e-a5b3-72132be30a0d",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "10864971697205422121": {
         "type": "shopify://apps/gorgias-live-chat-helpdesk/blocks/gorgias/a66db725-7b96-4e3f-916e-6c8e6f87aaaa",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
       },
       "3720565183479497137": {
         "type": "shopify://apps/globo-product-option/blocks/app-embed-block/fdc9fad5-1a0f-4bd4-9c8a-1af6a6eef6b8",
         "disabled": false,
-        "settings": {
-        }
+        "settings": {}
+      },
+      "6361996004949321110": {
+        "type": "shopify://apps/oneloyalty/blocks/widget/6119b281-36ce-42b5-93ab-6aaf5fb224ce",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
