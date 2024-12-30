@@ -154,6 +154,9 @@
         "question_Dhc4X3",
         "question_mcXpJm"
       ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
       "settings": {
         "section_width": "wide",
         "heading": "",
