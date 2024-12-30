@@ -29,7 +29,7 @@
         "category_Q33cAe": {
           "type": "category",
           "settings": {
-            "heading": "Companies",
+            "heading": "Manufacturers",
             "show_category_card": true
           }
         },
@@ -162,44 +162,11 @@
         "category_heading_size": "medium",
         "icon_color": "rgba(0,0,0,0)"
       }
-    },
-    "dynamic_rich_text_McGVhU": {
-      "type": "dynamic-rich-text",
-      "settings": {
-        "width": "wide",
-        "title": "Able 2",
-        "text": "<p>Ship to:<br/>Able 2 Products Company<br/>804 East Highway 248<br/>Cassville, MO 65625</p><p>Please include</p><ol><li><a><strong>A copy of the sales receipt if qualified for warranty coverage</strong></a></li><li><a><strong>A short description of the problem</strong></a></li><li><a><strong>Your name, return address (should it be different than what's on your invoice) and daytime phone number</strong></a></li></ol><p>For complete warranty and repair information please view the <a href=\"http://able2products.com/update/warranty_v1.htm\"><span style=\"text-decoration:underline\"><strong>Able 2 Warranty Information</strong></span></a><strong>.</strong></p>",
-        "heading_size": "medium",
-        "text_alignment": "left"
-      }
-    },
-    "dynamic_rich_text_BfMJPz": {
-      "type": "dynamic-rich-text",
-      "settings": {
-        "width": "wide",
-        "title": "Atomic LED",
-        "text": "<p>Call (888) 305-1112 to get an RMA# or obtain technical support.</p><p>Ship to:<br/>Atomic LED, Inc.<br/>49 Cedar Swamp Rd #12<br/>Smithfield, RI 02917<br/><br/>Telephone: 1-888-305-1112<br/>Email: <a href=\"mailto:info@atomicled.com\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>info@atomicled.com</strong></span></a></p>",
-        "heading_size": "medium",
-        "text_alignment": "left"
-      }
-    },
-    "dynamic_rich_text_dfTf6P": {
-      "type": "dynamic-rich-text",
-      "settings": {
-        "width": "wide",
-        "title": "Axixtech / Brooking Industries",
-        "text": "<p>To obtain warranty service or repair work please call 888-439-1925 to obtain and RMA return code.</p><p>Once obtained ship to:<br/>Brooking Industries, Inc.<br/>10132 NW 53rd Avenue<br/>Sunrise, FL 33351<br/>Phone: (888) 439-1925 or (954) 572-0510<br/>Fax: (877) 363-7301 or (954) 572-4768</p>",
-        "heading_size": "medium",
-        "text_alignment": "left"
-      }
     }
   },
   "order": [
     "main",
     "dynamic_rich_text_EdJzNL",
-    "dynamic_faq_UHDxJj",
-    "dynamic_rich_text_McGVhU",
-    "dynamic_rich_text_BfMJPz",
-    "dynamic_rich_text_dfTf6P"
+    "dynamic_faq_UHDxJj"
   ]
 }
