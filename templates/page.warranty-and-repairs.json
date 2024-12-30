@@ -23,10 +23,17 @@
         "text_alignment": "left"
       }
     },
-    "dynamic_faq_j7bfPz": {
+    "dynamic_faq_UHDxJj": {
       "type": "dynamic-faq",
       "blocks": {
-        "question_EPaHXD": {
+        "category_Q33cAe": {
+          "type": "category",
+          "settings": {
+            "heading": "Companies",
+            "show_category_card": true
+          }
+        },
+        "question_EmdtHM": {
           "type": "question",
           "settings": {
             "question": "Able 2",
@@ -34,7 +41,7 @@
             "icon": "none"
           }
         },
-        "question_zqGF9d": {
+        "question_gqejtc": {
           "type": "question",
           "settings": {
             "question": "Atomic LED",
@@ -42,7 +49,7 @@
             "icon": "none"
           }
         },
-        "question_PHxtFe": {
+        "question_WUkEDW": {
           "type": "question",
           "settings": {
             "question": "Axixtech / Brooking Industries",
@@ -50,7 +57,7 @@
             "icon": "none"
           }
         },
-        "question_6BMhJr": {
+        "question_7LzE8Q": {
           "type": "question",
           "settings": {
             "question": "Carson Sirens",
@@ -58,7 +65,7 @@
             "icon": "none"
           }
         },
-        "question_6GdLQ3": {
+        "question_RFXVDp": {
           "type": "question",
           "settings": {
             "question": "Federal Signal",
@@ -66,7 +73,7 @@
             "icon": "none"
           }
         },
-        "question_gYxW9x": {
+        "question_qCjTmg": {
           "type": "question",
           "settings": {
             "question": "Feniex",
@@ -74,7 +81,7 @@
             "icon": "none"
           }
         },
-        "question_URTwKP": {
+        "question_wFVRYm": {
           "type": "question",
           "settings": {
             "question": "Nova Electronics",
@@ -82,7 +89,7 @@
             "icon": "none"
           }
         },
-        "question_XHkYmV": {
+        "question_wkQ3Jc": {
           "type": "question",
           "settings": {
             "question": "SoundOff Signal",
@@ -90,7 +97,7 @@
             "icon": "none"
           }
         },
-        "question_f7taeA": {
+        "question_Eb6qAT": {
           "type": "question",
           "settings": {
             "question": "Speed Turtle Engineering",
@@ -98,7 +105,7 @@
             "icon": "none"
           }
         },
-        "question_9kXt3x": {
+        "question_yF6LcQ": {
           "type": "question",
           "settings": {
             "question": "Star SVP",
@@ -106,7 +113,7 @@
             "icon": "none"
           }
         },
-        "question_jd46wj": {
+        "question_hmJyh8": {
           "type": "question",
           "settings": {
             "question": "Strobes N' More",
@@ -114,7 +121,7 @@
             "icon": "none"
           }
         },
-        "question_pfWJXt": {
+        "question_Dhc4X3": {
           "type": "question",
           "settings": {
             "question": "Tomar Electronics",
@@ -122,7 +129,7 @@
             "icon": "none"
           }
         },
-        "question_V73gq4": {
+        "question_mcXpJm": {
           "type": "question",
           "settings": {
             "question": "Whelen Engineering",
@@ -132,33 +139,67 @@
         }
       },
       "block_order": [
-        "question_EPaHXD",
-        "question_zqGF9d",
-        "question_PHxtFe",
-        "question_6BMhJr",
-        "question_6GdLQ3",
-        "question_gYxW9x",
-        "question_URTwKP",
-        "question_XHkYmV",
-        "question_f7taeA",
-        "question_9kXt3x",
-        "question_jd46wj",
-        "question_pfWJXt",
-        "question_V73gq4"
+        "category_Q33cAe",
+        "question_EmdtHM",
+        "question_gqejtc",
+        "question_WUkEDW",
+        "question_7LzE8Q",
+        "question_RFXVDp",
+        "question_qCjTmg",
+        "question_wFVRYm",
+        "question_wkQ3Jc",
+        "question_Eb6qAT",
+        "question_yF6LcQ",
+        "question_hmJyh8",
+        "question_Dhc4X3",
+        "question_mcXpJm"
       ],
       "settings": {
         "section_width": "wide",
         "heading": "",
-        "enable_category_cards": true,
+        "enable_category_cards": false,
         "category_card_image_crop": "original",
         "category_heading_size": "medium",
         "icon_color": "rgba(0,0,0,0)"
+      }
+    },
+    "dynamic_rich_text_McGVhU": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "width": "wide",
+        "title": "Able 2",
+        "text": "<p>Ship to:<br/>Able 2 Products Company<br/>804 East Highway 248<br/>Cassville, MO 65625</p><p>Please include</p><ol><li><a><strong>A copy of the sales receipt if qualified for warranty coverage</strong></a></li><li><a><strong>A short description of the problem</strong></a></li><li><a><strong>Your name, return address (should it be different than what's on your invoice) and daytime phone number</strong></a></li></ol><p>For complete warranty and repair information please view the <a href=\"http://able2products.com/update/warranty_v1.htm\"><span style=\"text-decoration:underline\"><strong>Able 2 Warranty Information</strong></span></a><strong>.</strong></p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_BfMJPz": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "width": "wide",
+        "title": "Atomic LED",
+        "text": "<p>Call (888) 305-1112 to get an RMA# or obtain technical support.</p><p>Ship to:<br/>Atomic LED, Inc.<br/>49 Cedar Swamp Rd #12<br/>Smithfield, RI 02917<br/><br/>Telephone: 1-888-305-1112<br/>Email: <a href=\"mailto:info@atomicled.com\" target=\"_blank\"><span style=\"text-decoration:underline\"><strong>info@atomicled.com</strong></span></a></p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_dfTf6P": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "width": "wide",
+        "title": "Axixtech / Brooking Industries",
+        "text": "<p>To obtain warranty service or repair work please call 888-439-1925 to obtain and RMA return code.</p><p>Once obtained ship to:<br/>Brooking Industries, Inc.<br/>10132 NW 53rd Avenue<br/>Sunrise, FL 33351<br/>Phone: (888) 439-1925 or (954) 572-0510<br/>Fax: (877) 363-7301 or (954) 572-4768</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
       }
     }
   },
   "order": [
     "main",
     "dynamic_rich_text_EdJzNL",
-    "dynamic_faq_j7bfPz"
+    "dynamic_faq_UHDxJj",
+    "dynamic_rich_text_McGVhU",
+    "dynamic_rich_text_BfMJPz",
+    "dynamic_rich_text_dfTf6P"
   ]
 }
