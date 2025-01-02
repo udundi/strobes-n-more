@@ -201,6 +201,13 @@
         "cta_button_style": "primary"
       }
     },
+    "dynamic_html_wYWqef": {
+      "type": "dynamic-html",
+      "settings": {
+        "title": "",
+        "custom_html": ""
+      }
+    },
     "dynamic_highlights_banner_UdyCk4": {
       "type": "dynamic-highlights-banner",
       "blocks": {
@@ -442,6 +449,7 @@
     "dynamic_promo_mosaic",
     "dynamic_featured_collection-2",
     "dynamic_collection_list",
+    "dynamic_html_wYWqef",
     "dynamic_highlights_banner_UdyCk4",
     "dynamic_blog_posts_WbF3Tb",
     "dynamic_rich_text_tEzKJa",

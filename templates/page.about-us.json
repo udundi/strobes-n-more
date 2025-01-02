@@ -307,21 +307,6 @@
             "opacity": 50
           }
         },
-        "promotion_cr9VJN": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/Kevin.jpg",
-            "title": "Kevin",
-            "text": "Install & Upfitting",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
         "promotion_xxUaKa": {
           "type": "promotion",
           "settings": {
@@ -467,7 +452,6 @@
         "promotion_kcJpLy",
         "promotion_hM8cK3",
         "promotion_mCfnHj",
-        "promotion_cr9VJN",
         "promotion_xxUaKa",
         "promotion_7XmU94",
         "promotion_wFDQje",
