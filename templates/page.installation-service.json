@@ -106,6 +106,13 @@
     "dynamic_faq_ghB9TF": {
       "type": "dynamic-faq",
       "blocks": {
+        "category_pk9bez": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
         "question_fGVU3y": {
           "type": "question",
           "settings": {
@@ -132,9 +139,13 @@
         }
       },
       "block_order": [
+        "category_pk9bez",
         "question_fGVU3y",
         "question_mhyjNn",
         "question_TNCgTF"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
       ],
       "settings": {
         "section_width": "wide",
