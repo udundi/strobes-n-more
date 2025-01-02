@@ -35,7 +35,7 @@
         "desktop_image_alignment": "left",
         "mobile_image_alignment": "bottom",
         "heading": "About Us",
-        "subheading": "<p>Strobes N' More, founded ~30 years ago and headquartered in Westerly, distributes, installs and services emergency vehicle equipment on behalf of the industry’s leading manufacturers to government and commercial customers.  These include, but are not limited to, law enforcement, fire, EMS, utility / public works and other emergency vehicle aftermarket suppliers.</p><p> Strobes stocks product on behalf of virtually every leading OEM in the emergency vehicle equipment industry, and also designs & engineers products under the Strobes N' More brand, which serves as a low-cost option for budget-minded customers.  In addition to product distribution, the Company provides upfitting services at its Westerly facility.  Strobes prides itself on industry-leading fulfillment capabilities, a wide variety of inventory stock and exceptional customer service.</p>",
+        "subheading": "<p>Strobes N' More, founded ~30 years ago and headquartered in Westerly, distributes, installs and services emergency vehicle equipment on behalf of the industry’s leading manufacturers to government and commercial customers.  These include, but are not limited to, law enforcement, fire, EMS, utility / public works and other emergency vehicle aftermarket suppliers.<br/><br/>Strobes stocks product on behalf of virtually every leading OEM in the emergency vehicle equipment industry, and also designs & engineers products under the Strobes N' More brand, which serves as a low-cost option for budget-minded customers.  In addition to product distribution, the Company provides upfitting services at its Westerly facility.  Strobes prides itself on industry-leading fulfillment capabilities, a wide variety of inventory stock and exceptional customer service.</p>",
         "text_alignment": "left",
         "button_label": "Button",
         "button_link": ""
@@ -110,7 +110,7 @@
         "desktop_image_alignment": "left",
         "mobile_image_alignment": "bottom",
         "heading": "Our History",
-        "subheading": "<p>The Company was owned and operated by a local volunteer paramedic and fire chief, until he transferred ownership & management in 2023 to Cole Carrera & Jack Eldridge. </p><p>Despite the ownership change, Strobes’ mission remains the same: to provide industry-leading emergency vehicle products & services to the nation’s first responders.</p>",
+        "subheading": "<p>Strobes N' More was founded ~30 years ago in Westerly, RI to meet the growing demand for emergency vehicle equipment within fire, EMS and law enforcement applications. <br/><br/>The Company was led by a local volunteer paramedic and fire chief until 2023, at which point ownership & management was transferred to a new operating team. </p><p>Despite the ownership change, Strobes’ mission remains the same: <span style=\"text-decoration:underline\"><strong>to provide industry-leading emergency vehicle products & services to the nation’s first responders.</strong></span></p>",
         "text_alignment": "left",
         "button_label": "Button",
         "button_link": ""
