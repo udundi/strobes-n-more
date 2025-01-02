@@ -27,7 +27,7 @@
           "type": "question",
           "settings": {
             "question": "Does your website offer stock?",
-            "answer": "<p>Our website does not currently offer real-time stock availability. If you’d like to know if an item is in stock, please call 401-454-4487 or email sales@strobesnmore.com.  </p>",
+            "answer": "<p>Our website does not currently offer real-time stock availability. If you’d like to know if an item is in stock, please call (401) 454-4487 or email sales@strobesnmore.com.  </p>",
             "icon": "none"
           }
         },
@@ -35,7 +35,7 @@
           "type": "question",
           "settings": {
             "question": "What is the latest time I can place an order for expedited shipping?",
-            "answer": "<p>We can guarantee that all in stock items that have expedited shipping will ship if the order is placed by 1pm. We cannot guarantee it will ship if it is placed after that time. It is always best to contact us before placing an expedited order to ensure the item is in stock. You can email <strong>sales@strobesnmore.com </strong>or <strong>401-454-4487</strong></p>",
+            "answer": "<p>We can guarantee that all in stock items that have expedited shipping will ship if the order is placed by 1pm. We cannot guarantee it will ship if it is placed after that time. It is always best to contact us before placing an expedited order to ensure the item is in stock. You can email <strong>sales@strobesnmore.com </strong>or <strong>(401) 454-4487</strong></p>",
             "icon": "none"
           }
         },
