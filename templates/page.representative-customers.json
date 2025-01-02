@@ -337,32 +337,6 @@
         "title": ""
       }
     },
-    "dynamic_logo_list_pFeD8k": {
-      "type": "dynamic-logo-list",
-      "blocks": {
-        "logo_8gP9KJ": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/United_Road_Towing_Logo.png",
-            "link": ""
-          }
-        },
-        "logo_7Wcz7d": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Vulcan_Materials_Company_Logo.jpg",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_8gP9KJ",
-        "logo_7Wcz7d"
-      ],
-      "settings": {
-        "title": ""
-      }
-    },
     "dynamic_rich_text_JmUmRm": {
       "type": "dynamic-rich-text",
       "custom_css": [
@@ -558,7 +532,6 @@
     "dynamic_rich_text_fYUcBa",
     "dynamic_image_with_text_kakMMk",
     "dynamic_logo_list_jgRQAP",
-    "dynamic_logo_list_pFeD8k",
     "dynamic_rich_text_JmUmRm",
     "dynamic_image_with_text_CxPCtx",
     "dynamic_logo_list_MLBrj6"
