@@ -306,119 +306,119 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Brooking_industry_logo.png",
-            "link": ""
+            "link": "shopify://collections/brooking-industries"
           }
         },
         "logo_f3ryAt": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/carson-logo-small.webp",
-            "link": ""
+            "link": "shopify://collections/carson"
           }
         },
         "logo_P9dNyQ": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/images.png",
-            "link": ""
+            "link": "shopify://collections/diode-dynamics"
           }
         },
         "logo_hEREwt": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/fedsig-logo-small.jpg",
-            "link": ""
+            "link": "shopify://collections/federal-signal"
           }
         },
         "logo_TCE3h4": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Feniex_crop.png",
-            "link": ""
+            "link": "shopify://collections/feniex"
           }
         },
         "logo_UHFgKe": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/havis-logo-small.jpg",
-            "link": ""
+            "link": "shopify://collections/havis"
           }
         },
         "logo_QB8N7y": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/nova-logo-smallb.jpg",
-            "link": ""
+            "link": "shopify://collections/nova"
           }
         },
         "logo_j3KerA": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Prioritystart-copy.jpg",
-            "link": ""
+            "link": "shopify://collections/prioritystart"
           }
         },
         "logo_HYrNkh": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/pro-gard-logo.jpg",
-            "link": ""
+            "link": "shopify://collections/pro-gard"
           }
         },
         "logo_eEy8GY": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Setina-Logo_crop.jpg",
-            "link": ""
+            "link": "shopify://collections/setina"
           }
         },
         "logo_jcMazA": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/sos-logo-small.jpg",
-            "link": ""
+            "link": "shopify://collections/soundoff-signal"
           }
         },
         "logo_QdjCEq": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Spped-turtleCrop.jpg",
-            "link": ""
+            "link": "shopify://collections/speed-turtle"
           }
         },
         "logo_qJdnPp": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Star-svp-copy.jpg",
-            "link": ""
+            "link": "shopify://collections/star-svp"
           }
         },
         "logo_8at8Rx": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Streamlight-Logo-Crop.jpg",
-            "link": ""
+            "link": "shopify://collections/streamlight"
           }
         },
         "logo_cYQNqV": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/snm-logo-stacked-PRINT.jpg",
-            "link": ""
+            "link": "shopify://collections/strobes-n-more"
           }
         },
         "logo_diyiTp": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Tomar-Electronics_Logo_New.jpg",
-            "link": ""
+            "link": "shopify://collections/tomar"
           }
         },
         "logo_WyBBxK": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Whelen-logo.jpg",
-            "link": ""
+            "link": "shopify://collections/whelen-products"
           }
         }
       },
