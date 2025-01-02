@@ -203,6 +203,9 @@
     },
     "dynamic_rich_text_fHTnfJ": {
       "type": "dynamic-rich-text",
+      "custom_css": [
+        "iframe {height: 110px !important;}"
+      ],
       "settings": {
         "width": "wide",
         "title": "",
