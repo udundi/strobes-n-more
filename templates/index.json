@@ -194,7 +194,7 @@
       "settings": {
         "title": "Shop By Category",
         "thumbnail_columns_desktop": 4,
-        "thumbnail_columns_mobile": 3,
+        "thumbnail_columns_mobile": 2,
         "image-crop": "original",
         "cta_label": "",
         "cta_link": "",
