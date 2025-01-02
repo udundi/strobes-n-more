@@ -205,7 +205,8 @@
       "type": "dynamic-rich-text",
       "custom_css": [
         "iframe {height: 110px !important;}",
-        ".rich-text {margin-top: 45px; }"
+        "@media screen and (min-width: 860px) {.rich-text {margin-top: 45px; }}",
+        "@media screen and (max-width: 860px) {.rich-text {margin-top: 15px; }}"
       ],
       "settings": {
         "width": "wide",
