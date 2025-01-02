@@ -190,6 +190,7 @@
     },
     "dynamic_rich_text_nH4Ctq": {
       "type": "dynamic-rich-text",
+      "disabled": true,
       "settings": {
         "width": "wide",
         "title": "Will Use Testimonials app here",
