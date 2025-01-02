@@ -232,6 +232,21 @@
             "opacity": 50
           }
         },
+        "promotion_n6pQVR": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Devin.jpg",
+            "title": "Deb Telford",
+            "text": "Human Resource",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
         "promotion_YfY4CE": {
           "type": "promotion",
           "settings": {
@@ -447,6 +462,7 @@
         "promotion_X4Eaqk",
         "promotion_PgMDcH",
         "promotion_ERX7tP",
+        "promotion_n6pQVR",
         "promotion_YfY4CE",
         "promotion_g8bdkn",
         "promotion_kcJpLy",
