@@ -201,11 +201,14 @@
         "cta_button_style": "primary"
       }
     },
-    "dynamic_html_wYWqef": {
-      "type": "dynamic-html",
+    "dynamic_rich_text_fHTnfJ": {
+      "type": "dynamic-rich-text",
       "settings": {
+        "width": "wide",
         "title": "",
-        "custom_html": ""
+        "text": "<p>test</p>",
+        "heading_size": "medium",
+        "text_alignment": "center"
       }
     },
     "dynamic_highlights_banner_UdyCk4": {
@@ -449,7 +452,7 @@
     "dynamic_promo_mosaic",
     "dynamic_featured_collection-2",
     "dynamic_collection_list",
-    "dynamic_html_wYWqef",
+    "dynamic_rich_text_fHTnfJ",
     "dynamic_highlights_banner_UdyCk4",
     "dynamic_blog_posts_WbF3Tb",
     "dynamic_rich_text_tEzKJa",
