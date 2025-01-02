@@ -166,6 +166,13 @@
             "link": ""
           }
         },
+        "logo_4LkNCQ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/decked_logo.png",
+            "link": ""
+          }
+        },
         "logo_KRAEX9": {
           "type": "logo",
           "settings": {
@@ -214,13 +221,6 @@
             "image": "shopify://shop_images/Gamber_Johnson_logo.jpg",
             "link": ""
           }
-        },
-        "logo_4LkNCQ": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Havis_logo.png",
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -234,14 +234,14 @@
         "logo_LVkDMf",
         "logo_FhTqX3",
         "logo_3WAbLq",
+        "logo_4LkNCQ",
         "logo_KRAEX9",
         "logo_34pD6n",
         "logo_hNxMzW",
         "logo_qJPYBA",
         "logo_ypQDhi",
         "logo_NREGT6",
-        "logo_CDxRaq",
-        "logo_4LkNCQ"
+        "logo_CDxRaq"
       ],
       "custom_css": [
         "div {margin-top: 30px;}"
@@ -253,6 +253,20 @@
     "dynamic_logo_list_p7aXbG": {
       "type": "dynamic-logo-list",
       "blocks": {
+        "logo_w6WVUP": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/go_rhino_logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_xzDQbQ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Havis_logo.png",
+            "link": ""
+          }
+        },
         "logo_bpY9My": {
           "type": "logo",
           "settings": {
@@ -364,23 +378,11 @@
             "image": "shopify://shop_images/STOP_STICK_logo.png",
             "link": ""
           }
-        },
-        "logo_w6WVUP": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Streamlight_logo.png",
-            "link": ""
-          }
-        },
-        "logo_xzDQbQ": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Tiger_tough_logo.png",
-            "link": ""
-          }
         }
       },
       "block_order": [
+        "logo_w6WVUP",
+        "logo_xzDQbQ",
         "logo_bpY9My",
         "logo_XKMr4i",
         "logo_8rTWwm",
@@ -396,9 +398,7 @@
         "logo_GeGzeD",
         "logo_jzTfMQ",
         "logo_BFbCQP",
-        "logo_V4NWFF",
-        "logo_w6WVUP",
-        "logo_xzDQbQ"
+        "logo_V4NWFF"
       ],
       "settings": {
         "title": ""
@@ -407,6 +407,20 @@
     "dynamic_logo_list_8dB8Xc": {
       "type": "dynamic-logo-list",
       "blocks": {
+        "logo_dAGE9i": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Streamlight_logo.png",
+            "link": ""
+          }
+        },
+        "logo_dKM4zX": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Tiger_tough_logo.png",
+            "link": ""
+          }
+        },
         "logo_FCjwpn": {
           "type": "logo",
           "settings": {
@@ -463,7 +477,7 @@
             "link": ""
           }
         },
-        "logo_9KALRJ": {
+        "logo_3bFhdc": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Speed_turtle_logo.jpg",
@@ -472,6 +486,8 @@
         }
       },
       "block_order": [
+        "logo_dAGE9i",
+        "logo_dKM4zX",
         "logo_FCjwpn",
         "logo_UaATdP",
         "logo_QqzXKR",
@@ -480,7 +496,7 @@
         "logo_Kf7M7t",
         "logo_ia6HNg",
         "logo_YwGPN8",
-        "logo_9KALRJ"
+        "logo_3bFhdc"
       ],
       "settings": {
         "title": ""
