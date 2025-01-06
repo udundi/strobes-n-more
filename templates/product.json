@@ -254,10 +254,28 @@
       "settings": {
         "enable_recently_viewed_products": true
       }
+    },
+    "17361695840f23726e": {
+      "type": "apps",
+      "blocks": {
+        "oneloyalty_point_calculator_nHNciU": {
+          "type": "shopify://apps/oneloyalty/blocks/pointCalculator/6119b281-36ce-42b5-93ab-6aaf5fb224ce",
+          "settings": {
+            "alignment_component": "left"
+          }
+        }
+      },
+      "block_order": [
+        "oneloyalty_point_calculator_nHNciU"
+      ],
+      "settings": {
+        "include_padding": true
+      }
     }
   },
   "order": [
     "main",
+    "17361695840f23726e",
     "dynamic_faq_DL8gWe",
     "recommendations",
     "dynamic_rich_text_nH4Ctq",
