@@ -20,7 +20,7 @@
   @param products_per_row {String}
     The number of products per row
 {% endcomment %}
-
+{% if product.tags contains 'globo-product-options' %}{% continue %}{% endif %}
 {% liquid
   assign recently_viewed = recently_viewed | default: nil
   assign countdown_timer = countdown_timer | default: nil
