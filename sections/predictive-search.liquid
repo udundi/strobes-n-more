@@ -73,6 +73,7 @@
             <h3 class="search-flydown__group-title">{{ 'search.predictive_search.products_title' | t }}</h3>
             <ul class="search-flydown__group-list">
               {%- for product in predictive_search.resources.products -%}
+                {% if product.tags contains 'globo-product-options' %}{% continue %}{% endif %}
                 <li>
                   <a
                     class="search-flydown--product"
