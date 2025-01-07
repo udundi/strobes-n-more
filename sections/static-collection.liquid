@@ -346,6 +346,7 @@
           data-productgrid-items
         >
           {% for product in collection.products %}
+            {% if product.tags contains 'globo-product-options' %}{% continue %}{% endif %}
             {%
               render 'product-grid-item',
               product: product,
