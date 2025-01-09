@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "layout": "quickshop",
   "sections": {
@@ -6,33 +15,29 @@
       "blocks": {
         "title": {
           "type": "title",
-          "settings": {
-          }
+          "settings": {}
         },
         "vendor": {
           "type": "vendor",
-          "settings": {
-          }
+          "settings": {}
         },
         "rating": {
           "type": "rating",
-          "settings": {
-          }
+          "settings": {}
         },
         "price": {
           "type": "price",
-          "settings": {
-          }
+          "settings": {}
         },
         "form": {
           "type": "form",
           "settings": {
+            "enable_local_pickup": false
           }
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         }
       },
       "block_order": [
@@ -44,6 +49,12 @@
         "description"
       ],
       "settings": {
+        "quickshop_gallery_aspect_ratio": "natural",
+        "quickshop_gallery_image_crop": false,
+        "quickshop_gallery_thumbnail_position": "below",
+        "quickshop_gallery_video_autoplay": true,
+        "quickshop_gallery_video_looping": true,
+        "quickshop_gallery_hover_zoom": "disabled"
       }
     }
   },
