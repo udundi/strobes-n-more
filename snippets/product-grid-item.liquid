@@ -20,6 +20,9 @@
   @param products_per_row {String}
     The number of products per row
 {% endcomment %}
+{% comment %}
+{{ product.available }}
+{% endcomment %}
 {% if product.tags contains 'globo-product-options' %}{% continue %}{% endif %}
 {% liquid
   assign recently_viewed = recently_viewed | default: nil
@@ -52,6 +55,7 @@
   {% assign compare_at_price_varies = product.compare_at_price_varies %}
   {% assign price = product.price %}
   {% assign price_varies = product.price_varies %}
+  {% assign product_available = product.available %}
   {% assign product_title = product.title %}
   {% assign product_vendor = product.vendor %}
   {% assign product_link = product.url %}
