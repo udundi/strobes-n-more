@@ -20,9 +20,6 @@
   @param products_per_row {String}
     The number of products per row
 {% endcomment %}
-{% comment %}
-{{ product.available }}
-{% endcomment %}
 {% if product.tags contains 'globo-product-options' %}{% continue %}{% endif %}
 {% liquid
   assign recently_viewed = recently_viewed | default: nil
