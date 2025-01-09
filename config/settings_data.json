@@ -50,6 +50,7 @@
     "layout_max_width": 1400,
     "product_sales_badge": false,
     "product_sales_badge_style": "money",
+    "inventory_status": false,
     "inventory_display": "hidden",
     "product_option_style": "select",
     "swatches_enable": true,
