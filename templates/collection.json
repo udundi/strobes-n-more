@@ -14,17 +14,16 @@
       "blocks": {
         "filter-1": {
           "type": "filter",
-          "disabled": true,
           "settings": {
-            "filter_option": "faceted",
+            "filter_option": "tag",
             "filter_groups": "expand_first",
-            "show_filter_product_count": true,
+            "show_filter_product_count": false,
             "filter_style": "tags",
-            "filter_limit": "999",
+            "filter_limit": "20",
             "grid_categories": "",
             "custom_ordered_categories": "",
             "custom_ordered_tags": "",
-            "excluded_tags": "",
+            "excluded_tags": "B6LED, B6MM, body mount, L10, L51, Class 1, SoundOff Signal Class 1 LED Beacon, exterior, Whelen L41 Class 1 LED Beacon,",
             "excluded_groups": ""
           }
         }
