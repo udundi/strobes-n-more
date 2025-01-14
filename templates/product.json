@@ -28,6 +28,14 @@
           "type": "sku",
           "settings": {}
         },
+        "infinite_options_app_block_price_aRgW9h": {
+          "type": "shopify://apps/infinite-options/blocks/app-block-price/7e73b6f9-82b0-45f5-9b9b-04f446ba1a9b",
+          "settings": {
+            "color": "#000000",
+            "font": "Assistant, sans-serif",
+            "font_size": "18px"
+          }
+        },
         "infinite_options_app_block_XM9Rqj": {
           "type": "shopify://apps/infinite-options/blocks/app-block/7e73b6f9-82b0-45f5-9b9b-04f446ba1a9b",
           "settings": {}
@@ -65,6 +73,7 @@
         "vendor",
         "price",
         "sku_HkzLKU",
+        "infinite_options_app_block_price_aRgW9h",
         "infinite_options_app_block_XM9Rqj",
         "form",
         "rating",
