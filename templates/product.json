@@ -28,16 +28,16 @@
           "type": "sku",
           "settings": {}
         },
-        "infinite_options_app_block_XM9Rqj": {
-          "type": "shopify://apps/infinite-options/blocks/app-block/7e73b6f9-82b0-45f5-9b9b-04f446ba1a9b",
-          "settings": {}
-        },
         "form": {
           "type": "form",
           "settings": {
             "enable_local_pickup": false,
             "show_gift_card_recipient_form": false
           }
+        },
+        "infinite_options_app_block_XM9Rqj": {
+          "type": "shopify://apps/infinite-options/blocks/app-block/7e73b6f9-82b0-45f5-9b9b-04f446ba1a9b",
+          "settings": {}
         },
         "rating": {
           "type": "rating",
@@ -65,8 +65,8 @@
         "vendor",
         "price",
         "sku_HkzLKU",
-        "infinite_options_app_block_XM9Rqj",
         "form",
+        "infinite_options_app_block_XM9Rqj",
         "rating",
         "desc_tab_QhEzwa",
         "complementary_products_UQ4miN",
