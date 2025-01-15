@@ -18,10 +18,12 @@
         },
         "vendor": {
           "type": "vendor",
+          "disabled": true,
           "settings": {}
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {}
         },
         "sku_HkzLKU": {
