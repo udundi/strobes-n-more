@@ -20,7 +20,7 @@
   data-cartitem-price="{{ item.price }}"
 >
   <figure class="cart-item--image-wrapper">
-    <a href="{{ item.url }}">
+    <a href="{{ item.url | split: "?variant" | first  }}">
       {% if item.image %}
         {% render 'rimg', img: item.image, alt: item.title, size: '120x' %}
       {% else %}
@@ -32,7 +32,7 @@
   <div class="cart-item--inner">
     <div class="cart-item--content">
       <h2 class="cart-item--content-title">
-        <a href="{{ item.url }}">
+        <a href="{{ item.url | split: "?variant" | first  }}">
           {{ item.product.title }}
         </a>
       </h2>
