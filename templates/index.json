@@ -210,9 +210,9 @@
       ],
       "settings": {
         "width": "full-width",
-        "title": "",
-        "text": "<p><strong>Quality You Can Trust</strong></p>",
-        "heading_size": "medium",
+        "title": "Quality You Can Trust",
+        "text": "",
+        "heading_size": "small",
         "text_alignment": "center"
       }
     },
