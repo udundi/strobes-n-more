@@ -209,7 +209,7 @@
         "@media screen and (max-width: 860px) {.rich-text {margin-top: 15px; }}"
       ],
       "settings": {
-        "width": "wide",
+        "width": "full-width",
         "title": "",
         "text": "<p><strong>Quality You Can Trust</strong></p>",
         "heading_size": "medium",
