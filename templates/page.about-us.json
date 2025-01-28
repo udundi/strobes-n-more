@@ -442,21 +442,6 @@
             "opacity": 50
           }
         },
-        "promotion_UVxXdH": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/Piero.jpg",
-            "title": "Piero",
-            "text": "Inbound Sales & Customer Support Specialist",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
         "promotion_C98UPE": {
           "type": "promotion",
           "settings": {
@@ -486,6 +471,21 @@
             "background": "",
             "opacity": 50
           }
+        },
+        "promotion_AgLRxg": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Steve_Post_BW.jpg",
+            "title": "Steve",
+            "text": "Purchasing Manager",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
         }
       },
       "block_order": [
@@ -506,43 +506,9 @@
         "promotion_wFDQje",
         "promotion_hHLgxm",
         "promotion_t4C9tP",
-        "promotion_UVxXdH",
         "promotion_C98UPE",
-        "promotion_7UKBgC"
-      ],
-      "custom_css": [
-        "a {text-decoration: none; color: #000;}"
-      ],
-      "settings": {
-        "title": "",
-        "text_outside": true,
-        "text_centered": true,
-        "section_height": "natural",
-        "section_columns": 4,
-        "text_alignment": "center-center"
-      }
-    },
-    "dynamic_promo_grid_qikWGg": {
-      "type": "dynamic-promo-grid",
-      "blocks": {
-        "promotion_UgPMFk": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/Steve_Post_BW.jpg",
-            "title": "Steve",
-            "text": "Purchasing Manager",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        }
-      },
-      "block_order": [
-        "promotion_UgPMFk"
+        "promotion_7UKBgC",
+        "promotion_AgLRxg"
       ],
       "custom_css": [
         "a {text-decoration: none; color: #000;}"
@@ -566,7 +532,6 @@
     "main",
     "dynamic_highlights_banner_RJeHjd",
     "dynamic_rich_text_fYUcBa",
-    "dynamic_promo_grid_xYYwnc",
-    "dynamic_promo_grid_qikWGg"
+    "dynamic_promo_grid_xYYwnc"
   ]
 }
