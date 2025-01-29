@@ -107,7 +107,7 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Sho-me_logo.jpg",
-            "link": ""
+            "link": "shopify://collections/able-2-sho-me"
           }
         },
         "logo_KjHwHX": {
@@ -121,7 +121,7 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Atomic_LED_Logo.png",
-            "link": ""
+            "link": "shopify://collections/atomic"
           }
         },
         "logo_QY8hJx": {
@@ -149,7 +149,7 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Brooking_industry_logo.png",
-            "link": ""
+            "link": "shopify://collections/brooking-industries"
           }
         },
         "logo_FhTqX3": {
@@ -490,13 +490,6 @@
             "image": "shopify://shop_images/Whelen_logo.png",
             "link": "shopify://collections/whelen-products"
           }
-        },
-        "logo_3bFhdc": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Speed_turtle_logo.jpg",
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -511,8 +504,7 @@
         "logo_YGaDHt",
         "logo_Kf7M7t",
         "logo_ia6HNg",
-        "logo_YwGPN8",
-        "logo_3bFhdc"
+        "logo_YwGPN8"
       ],
       "settings": {
         "title": ""
