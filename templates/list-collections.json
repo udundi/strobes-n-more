@@ -140,20 +140,6 @@
             "collection": "strobe-equipment",
             "title": "Strobe Equipment"
           }
-        },
-        "collection_NUWkck": {
-          "type": "collection",
-          "settings": {
-            "collection": "feniex-quad",
-            "title": "Feniex Quad"
-          }
-        },
-        "collection_KWj7Br": {
-          "type": "collection",
-          "settings": {
-            "collection": "garage-sale",
-            "title": ""
-          }
         }
       },
       "block_order": [
@@ -171,9 +157,7 @@
         "collection_AMpb93",
         "collection_9VWthK",
         "collection_mKRcJ7",
-        "collection_P3Jy6z",
-        "collection_NUWkck",
-        "collection_KWj7Br"
+        "collection_P3Jy6z"
       ],
       "settings": {
         "title": "",
@@ -191,13 +175,29 @@
         "collection_6mzNKX": {
           "type": "collection",
           "settings": {
+            "collection": "feniex-quad",
+            "title": "Feniex Quad"
+          }
+        },
+        "collection_Gph6X8": {
+          "type": "collection",
+          "settings": {
+            "collection": "garage-sale",
+            "title": ""
+          }
+        },
+        "collection_Gw8BVw": {
+          "type": "collection",
+          "settings": {
             "collection": "open-box-sale",
             "title": ""
           }
         }
       },
       "block_order": [
-        "collection_6mzNKX"
+        "collection_6mzNKX",
+        "collection_Gph6X8",
+        "collection_Gw8BVw"
       ],
       "settings": {
         "title": "",
