@@ -36,39 +36,46 @@
     "dynamic_collection_list_9qkArp": {
       "type": "dynamic-collection-list",
       "blocks": {
-        "collection_VaRhnb": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-products",
-            "title": ""
-          }
-        },
         "collection_x74m8b": {
           "type": "collection",
           "settings": {
             "collection": "led-lights",
-            "title": ""
-          }
-        },
-        "collection_MrX4x4": {
-          "type": "collection",
-          "settings": {
-            "collection": "360-beacons",
-            "title": ""
+            "title": "LED Lights"
           }
         },
         "collection_HB66EA": {
           "type": "collection",
           "settings": {
             "collection": "sirens-speakers",
-            "title": ""
+            "title": "Sirens & Speakers"
           }
         },
         "collection_U4kDQH": {
           "type": "collection",
           "settings": {
             "collection": "lightbars",
-            "title": ""
+            "title": "Lightbars"
+          }
+        },
+        "collection_MrX4x4": {
+          "type": "collection",
+          "settings": {
+            "collection": "360-beacons",
+            "title": "360° Beacons and Accessories"
+          }
+        },
+        "collection_MWt4Ar": {
+          "type": "collection",
+          "settings": {
+            "collection": "switches-controllers",
+            "title": "Switches & Controllers"
+          }
+        },
+        "collection_cGpAgw": {
+          "type": "collection",
+          "settings": {
+            "collection": "flasher-modules",
+            "title": "Flasher Modules"
           }
         },
         "collection_BYgcEU": {
@@ -78,25 +85,32 @@
             "title": ""
           }
         },
-        "collection_MWt4Ar": {
-          "type": "collection",
-          "settings": {
-            "collection": "switches-controllers",
-            "title": ""
-          }
-        },
         "collection_CzRHjy": {
           "type": "collection",
           "settings": {
             "collection": "cables-accessories",
-            "title": ""
+            "title": "Cables & Accessories"
           }
         },
-        "collection_cGpAgw": {
+        "collection_VaRhnb": {
           "type": "collection",
           "settings": {
-            "collection": "flasher-modules",
-            "title": ""
+            "collection": "arrow-traffic-advisor-bars-1",
+            "title": "Arrow & Traffic Advisor Bars"
+          }
+        },
+        "collection_AFENJq": {
+          "type": "collection",
+          "settings": {
+            "collection": "replacement-bulbs-lenses",
+            "title": "Replacement Bulbs/Lenses"
+          }
+        },
+        "collection_qmie6M": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-products",
+            "title": "New Products!"
           }
         },
         "collection_AMpb93": {
@@ -110,7 +124,7 @@
           "type": "collection",
           "settings": {
             "collection": "motorcycle-equipment",
-            "title": ""
+            "title": "Motorcycle Equipment"
           }
         },
         "collection_mKRcJ7": {
@@ -124,21 +138,14 @@
           "type": "collection",
           "settings": {
             "collection": "strobe-equipment",
-            "title": ""
+            "title": "Strobe Equipment"
           }
         },
         "collection_NUWkck": {
           "type": "collection",
           "settings": {
             "collection": "feniex-quad",
-            "title": ""
-          }
-        },
-        "collection_AFENJq": {
-          "type": "collection",
-          "settings": {
-            "collection": "replacement-bulbs-lenses",
-            "title": ""
+            "title": "Feniex Quad"
           }
         },
         "collection_KWj7Br": {
@@ -147,8 +154,41 @@
             "collection": "garage-sale",
             "title": ""
           }
-        },
-        "collection_qmie6M": {
+        }
+      },
+      "block_order": [
+        "collection_x74m8b",
+        "collection_HB66EA",
+        "collection_U4kDQH",
+        "collection_MrX4x4",
+        "collection_MWt4Ar",
+        "collection_cGpAgw",
+        "collection_BYgcEU",
+        "collection_CzRHjy",
+        "collection_VaRhnb",
+        "collection_AFENJq",
+        "collection_qmie6M",
+        "collection_AMpb93",
+        "collection_9VWthK",
+        "collection_mKRcJ7",
+        "collection_P3Jy6z",
+        "collection_NUWkck",
+        "collection_KWj7Br"
+      ],
+      "settings": {
+        "title": "",
+        "thumbnail_columns_desktop": 5,
+        "thumbnail_columns_mobile": 2,
+        "image-crop": "original",
+        "cta_label": "",
+        "cta_link": "",
+        "cta_button_style": "primary"
+      }
+    },
+    "dynamic_collection_list_4pfzbA": {
+      "type": "dynamic-collection-list",
+      "blocks": {
+        "collection_6mzNKX": {
           "type": "collection",
           "settings": {
             "collection": "open-box-sale",
@@ -157,23 +197,7 @@
         }
       },
       "block_order": [
-        "collection_VaRhnb",
-        "collection_x74m8b",
-        "collection_MrX4x4",
-        "collection_HB66EA",
-        "collection_U4kDQH",
-        "collection_BYgcEU",
-        "collection_MWt4Ar",
-        "collection_CzRHjy",
-        "collection_cGpAgw",
-        "collection_AMpb93",
-        "collection_9VWthK",
-        "collection_mKRcJ7",
-        "collection_P3Jy6z",
-        "collection_NUWkck",
-        "collection_AFENJq",
-        "collection_KWj7Br",
-        "collection_qmie6M"
+        "collection_6mzNKX"
       ],
       "settings": {
         "title": "",
@@ -189,6 +213,7 @@
   "order": [
     "main",
     "pxs_image_with_text_overlay_mcH4PC",
-    "dynamic_collection_list_9qkArp"
+    "dynamic_collection_list_9qkArp",
+    "dynamic_collection_list_4pfzbA"
   ]
 }
