@@ -177,7 +177,7 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/images.png",
-            "link": ""
+            "link": "shopify://collections/diode-dynamics"
           }
         },
         "logo_34pD6n": {
@@ -205,14 +205,14 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Fedral_signals_logo.jpg",
-            "link": ""
+            "link": "shopify://collections/federal-signal"
           }
         },
         "logo_NREGT6": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Feniex_logo.png",
-            "link": ""
+            "link": "shopify://collections/feniex"
           }
         },
         "logo_CDxRaq": {
@@ -362,7 +362,7 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Star_signal_logo.png",
-            "link": ""
+            "link": "shopify://collections/star-svp"
           }
         },
         "logo_BFbCQP": {
@@ -425,7 +425,7 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Tomar-Electronics_Logo_New.jpg",
-            "link": ""
+            "link": "shopify://collections/tomar"
           }
         },
         "logo_UaATdP": {
