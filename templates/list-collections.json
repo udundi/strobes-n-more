@@ -124,6 +124,14 @@
             "title": "New Products!"
           }
         },
+        "collection_mKRcJ7": {
+          "type": "collection",
+          "settings": {
+            "collection": "more",
+            "image": "shopify://shop_images/Frame_8.jpg",
+            "title": ""
+          }
+        },
         "collection_P3Jy6z": {
           "type": "collection",
           "settings": {
@@ -136,14 +144,6 @@
           "settings": {
             "collection": "open-box-sale",
             "title": "Open Box Sale"
-          }
-        },
-        "collection_mKRcJ7": {
-          "type": "collection",
-          "settings": {
-            "collection": "more",
-            "image": "shopify://shop_images/Frame_8.jpg",
-            "title": ""
           }
         }
       },
@@ -159,9 +159,9 @@
         "collection_VaRhnb",
         "collection_AFENJq",
         "collection_qmie6M",
+        "collection_mKRcJ7",
         "collection_P3Jy6z",
-        "collection_gqiK7E",
-        "collection_mKRcJ7"
+        "collection_gqiK7E"
       ],
       "settings": {
         "title": "",
