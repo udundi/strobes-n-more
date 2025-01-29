@@ -411,7 +411,7 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Streamlight_logo.png",
-            "link": ""
+            "link": "shopify://collections/streamlight"
           }
         },
         "logo_dKM4zX": {
@@ -474,7 +474,7 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Whelen_logo.png",
-            "link": ""
+            "link": "shopify://collections/whelen-products"
           }
         },
         "logo_3bFhdc": {
