@@ -174,6 +174,38 @@
             "image": "shopify://shop_images/Frame_8.jpg",
             "title": "Cables & Accessories"
           }
+        },
+        "collection_iaqcma": {
+          "type": "collection",
+          "settings": {
+            "collection": "arrow-traffic-advisor-bars-1",
+            "image": "shopify://shop_images/Arrow_Traffic_Advisor_LED_Lightbars.jpg",
+            "title": "Arrow & Traffic LED Lightbars"
+          }
+        },
+        "collection_NVxyXU": {
+          "type": "collection",
+          "settings": {
+            "collection": "replacement-bulbs-lenses",
+            "image": "shopify://shop_images/Replacement_Lenses_Bulbs.jpg",
+            "title": "Replacement Lenses & Bulbs"
+          }
+        },
+        "collection_qrbbAU": {
+          "type": "collection",
+          "settings": {
+            "collection": "new-products",
+            "image": "shopify://shop_images/New_Products.jpg",
+            "title": "New Products"
+          }
+        },
+        "collection_77NgWN": {
+          "type": "collection",
+          "settings": {
+            "collection": "cables-accessories",
+            "image": "shopify://shop_images/Frame_8.jpg",
+            "title": "More"
+          }
         }
       },
       "block_order": [
@@ -184,7 +216,11 @@
         "collection-5",
         "collection-6",
         "collection_hkEPqM",
-        "collection_VFfdKL"
+        "collection_VFfdKL",
+        "collection_iaqcma",
+        "collection_NVxyXU",
+        "collection_qrbbAU",
+        "collection_77NgWN"
       ],
       "custom_css": [
         "{background-color: #21225b; margin-top: 60px; padding-bottom: 10px;}",
