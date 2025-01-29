@@ -264,7 +264,7 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Havis_logo.png",
-            "link": ""
+            "link": "shopify://collections/havis"
           }
         },
         "logo_bpY9My": {
@@ -299,7 +299,7 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/nova-logo-smallb.jpg",
-            "link": ""
+            "link": "shopify://collections/nova"
           }
         },
         "logo_8GbbKk": {
@@ -320,14 +320,14 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Prioritystart-copy.jpg",
-            "link": ""
+            "link": "shopify://collections/prioritystart"
           }
         },
         "logo_YDTM6p": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/pro-gard-logo.jpg",
-            "link": ""
+            "link": "shopify://collections/pro-gard"
           }
         },
         "logo_jTbi6K": {
@@ -341,14 +341,21 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Setina-Logo_crop.jpg",
-            "link": ""
+            "link": "shopify://collections/setina"
+          }
+        },
+        "logo_V4NWFF": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Sound_off_signal_logo.jpg",
+            "link": "shopify://collections/soundoff-signal"
           }
         },
         "logo_7WWNYT": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Speed_turtle_logo.jpg",
-            "link": ""
+            "link": "shopify://collections/speed-turtle"
           }
         },
         "logo_GeGzeD": {
@@ -371,13 +378,6 @@
             "image": "shopify://shop_images/STI-CO_INDUSTIRES_logo.png",
             "link": ""
           }
-        },
-        "logo_V4NWFF": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/STOP_STICK_logo.png",
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -394,11 +394,11 @@
         "logo_YDTM6p",
         "logo_jTbi6K",
         "logo_DwmTFe",
+        "logo_V4NWFF",
         "logo_7WWNYT",
         "logo_GeGzeD",
         "logo_jzTfMQ",
-        "logo_BFbCQP",
-        "logo_V4NWFF"
+        "logo_BFbCQP"
       ],
       "settings": {
         "title": ""
@@ -410,8 +410,22 @@
         "logo_dAGE9i": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/STOP_STICK_logo.png",
+            "link": ""
+          }
+        },
+        "logo_cKn8mB": {
+          "type": "logo",
+          "settings": {
             "image": "shopify://shop_images/Streamlight_logo.png",
             "link": "shopify://collections/streamlight"
+          }
+        },
+        "logo_UpTiWb": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Strobes_N_More_logo.png",
+            "link": "shopify://collections/strobes-n-more"
           }
         },
         "logo_dKM4zX": {
@@ -487,6 +501,8 @@
       },
       "block_order": [
         "logo_dAGE9i",
+        "logo_cKn8mB",
+        "logo_UpTiWb",
         "logo_dKM4zX",
         "logo_FCjwpn",
         "logo_UaATdP",
