@@ -172,13 +172,6 @@
     "dynamic_collection_list_4pfzbA": {
       "type": "dynamic-collection-list",
       "blocks": {
-        "collection_6mzNKX": {
-          "type": "collection",
-          "settings": {
-            "collection": "feniex-quad",
-            "title": "Feniex Quad"
-          }
-        },
         "collection_Gph6X8": {
           "type": "collection",
           "settings": {
@@ -195,7 +188,6 @@
         }
       },
       "block_order": [
-        "collection_6mzNKX",
         "collection_Gph6X8",
         "collection_Gw8BVw"
       ],
