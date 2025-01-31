@@ -20,17 +20,17 @@
             "text": "Strobes N' More, founded in 1993 and headquartered in Westerly, RI, distributes, installs and services emergency vehicle equipment on behalf of the industry’s leading manufacturers for government and commercial customers.",
             "color": "#ffffff",
             "block_link": "shopify://pages/about-us",
-            "button_text": "Learn More",
+            "button_text": "About Us",
             "button_style": "primary",
             "show_overlay": true,
             "background": "#1d1d1d",
-            "opacity": 30
+            "opacity": 4
           }
         },
         "promotion_kePLct": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/image_4.png",
+            "image": "shopify://shop_images/DSC_5782.jpg",
             "title": "Installs",
             "text": "We not only ensure that your install builds - whether it is one DEM truck or ten state police vehicles - will look sharp, but most importantly perform well.",
             "color": "#ffffff",
@@ -38,8 +38,8 @@
             "button_text": "Book Today",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#000000",
-            "opacity": 30
+            "background": "#1d1d1d",
+            "opacity": 43
           }
         },
         "promotion-4": {
@@ -50,11 +50,11 @@
             "text": "The Strobes N’ More Dealer Program provides smaller upfitters & distributors w/ stronger discounts based on higher levels of spend.",
             "color": "#ffffff",
             "block_link": "shopify://pages/dealers",
-            "button_text": "Apply Now",
+            "button_text": "Learn More",
             "button_style": "primary",
             "show_overlay": true,
             "background": "#1d1d1d",
-            "opacity": 30
+            "opacity": 25
           }
         }
       },
@@ -91,7 +91,7 @@
             "enable_full_width_on_mobile": false,
             "cta_label": "See more",
             "overlay_color": "#000000",
-            "overlay_opacity": 30
+            "overlay_opacity": 13
           }
         }
       },
