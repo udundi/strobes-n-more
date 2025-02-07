@@ -52,7 +52,7 @@
       ],
       "custom_css": [],
       "settings": {
-        "show_follow_on_shop": true,
+        "show_follow_on_shop": false,
         "payment_icons": true,
         "show_locale_selector": true,
         "show_currency_selector": true,
