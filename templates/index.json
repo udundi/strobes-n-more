@@ -80,18 +80,18 @@
         "title-card": {
           "type": "title_card",
           "settings": {
-            "image": "shopify://shop_images/b.jpg",
+            "image": "shopify://shop_images/Staff_Picks3.jpg",
             "text_alignment": "center-center",
-            "pre_heading": "Featured Products",
+            "pre_heading": "",
             "heading": "Staff Picks",
-            "text_color": "#ffffff",
+            "text_color": "#1d1d1d",
             "show_on_mobile": true,
             "horizontal_size": "3",
             "vertical_size": "2",
             "enable_full_width_on_mobile": false,
             "cta_label": "See more",
             "overlay_color": "#000000",
-            "overlay_opacity": 13
+            "overlay_opacity": 0
           }
         }
       },
