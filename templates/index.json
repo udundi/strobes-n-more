@@ -21,7 +21,7 @@
             "color": "#ffffff",
             "block_link": "shopify://pages/about-us",
             "button_text": "About Us",
-            "button_style": "primary",
+            "button_style": "secondary",
             "show_overlay": true,
             "background": "#1d1d1d",
             "opacity": 4
@@ -36,7 +36,7 @@
             "color": "#ffffff",
             "block_link": "shopify://pages/installation-service",
             "button_text": "Book Today",
-            "button_style": "primary",
+            "button_style": "secondary",
             "show_overlay": true,
             "background": "#1d1d1d",
             "opacity": 30
@@ -45,16 +45,16 @@
         "promotion-4": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/SNM_cb387f79-26c9-4483-9946-4839e90bd047.jpg",
+            "image": "shopify://shop_images/gifmaker_me_4.gif",
             "title": "Dealer Program",
             "text": "The Strobes N’ More Dealer Program provides smaller upfitters & distributors w/ stronger discounts based on higher levels of spend.",
             "color": "#ffffff",
             "block_link": "shopify://pages/dealers",
             "button_text": "Learn More",
-            "button_style": "primary",
+            "button_style": "secondary",
             "show_overlay": true,
             "background": "#1d1d1d",
-            "opacity": 25
+            "opacity": 50
           }
         }
       },
