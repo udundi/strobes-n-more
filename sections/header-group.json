@@ -43,7 +43,6 @@
     },
     "header": {
       "type": "static-header",
-      "disabled": true,
       "settings": {
         "sticky_header": true,
         "full_width_header": true,
