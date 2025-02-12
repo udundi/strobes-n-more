@@ -30,7 +30,7 @@
         "promotion_kePLct": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/gifmaker_me_1.gif",
+            "image": "shopify://shop_images/gifmaker_me_2.gif",
             "title": "Installs",
             "text": "We not only ensure that your install builds - whether it is one DEM truck or ten state police vehicles - will look sharp, but most importantly perform well.",
             "color": "#ffffff",
@@ -39,7 +39,7 @@
             "button_style": "primary",
             "show_overlay": true,
             "background": "#1d1d1d",
-            "opacity": 43
+            "opacity": 30
           }
         },
         "promotion-4": {
