@@ -37,7 +37,7 @@
         "show_menu_mobile": true,
         "mobile_layout": "below",
         "show_locale_selector": true,
-        "show_currency_selector": true,
+        "show_currency_selector": false,
         "show_social_icons": true
       }
     },
