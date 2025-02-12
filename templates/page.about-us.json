@@ -202,12 +202,12 @@
             "opacity": 49
           }
         },
-        "promotion_qWPfMa": {
+        "promotion_MGkeYw": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/Devin.jpg",
-            "title": "Bevaline",
-            "text": "Purchasing Specialist",
+            "image": "shopify://shop_images/Ben.jpg",
+            "title": "Ben",
+            "text": "Inbound Sales & Customer Support Specialist",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -217,12 +217,12 @@
             "opacity": 49
           }
         },
-        "promotion_MGkeYw": {
+        "promotion_qWPfMa": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/Ben.jpg",
-            "title": "Ben",
-            "text": "Inbound Sales & Customer Support Specialist",
+            "image": "shopify://shop_images/Devin.jpg",
+            "title": "Bevaline",
+            "text": "Purchasing Specialist",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -490,8 +490,8 @@
       },
       "block_order": [
         "promotion_X4Eaqk",
-        "promotion_qWPfMa",
         "promotion_MGkeYw",
+        "promotion_qWPfMa",
         "promotion_PgMDcH",
         "promotion_ERX7tP",
         "promotion_YfY4CE",
