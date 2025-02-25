@@ -125,6 +125,11 @@
         "type": "shopify://apps/apo-product-options/blocks/app-embed-block/a1199153-7462-4b5b-8a80-f0eefba85e99",
         "disabled": false,
         "settings": {}
+      },
+      "14280642947000332093": {
+        "type": "shopify://apps/warnify-pro-warnings/blocks/main/b82106ea-6172-4ab0-814f-17df1cb2b18a",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
