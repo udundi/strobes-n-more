@@ -68,6 +68,10 @@
         "share": {
           "type": "share",
           "settings": {}
+        },
+        "judge_me_reviews_preview_badge_67REpr": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         }
       },
       "block_order": [
@@ -81,7 +85,8 @@
         "rating",
         "desc_tab_QhEzwa",
         "complementary_products_UQ4miN",
-        "share"
+        "share",
+        "judge_me_reviews_preview_badge_67REpr"
       ],
       "custom_css": [
         ".shopify-payment-button button {text-transform: uppercase;}",
