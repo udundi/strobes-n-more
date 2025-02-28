@@ -115,6 +115,40 @@
         "include_padding": true
       }
     },
+    "17407469585773d0a2": {
+      "type": "apps",
+      "blocks": {
+        "trustshop_reviews_widget_box_9iN66A": {
+          "type": "shopify://apps/trustshop-reviews/blocks/widget-box/18b0c4cc-5411-4b6e-922d-34fdc2f30ab9",
+          "settings": {
+            "selected_product": "{{ product }}",
+            "wrapper_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "trustshop_reviews_widget_box_9iN66A"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "1740751518ae8cc801": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_ykadq4": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_ykadq4"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
     "dynamic_faq_DL8gWe": {
       "type": "dynamic-faq",
       "blocks": {
@@ -287,30 +321,13 @@
       "settings": {
         "enable_recently_viewed_products": true
       }
-    },
-    "17407469585773d0a2": {
-      "type": "apps",
-      "blocks": {
-        "trustshop_reviews_widget_box_9iN66A": {
-          "type": "shopify://apps/trustshop-reviews/blocks/widget-box/18b0c4cc-5411-4b6e-922d-34fdc2f30ab9",
-          "settings": {
-            "selected_product": "{{ product }}",
-            "wrapper_class": ""
-          }
-        }
-      },
-      "block_order": [
-        "trustshop_reviews_widget_box_9iN66A"
-      ],
-      "settings": {
-        "include_padding": true
-      }
     }
   },
   "order": [
     "main",
     "17361695840f23726e",
     "17407469585773d0a2",
+    "1740751518ae8cc801",
     "dynamic_faq_DL8gWe",
     "recommendations",
     "dynamic_rich_text_nH4Ctq",
