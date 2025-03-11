@@ -51,5 +51,81 @@ function mwApoCustom() {
 </script>
 
 <style>
+  .mw-apo-buy-it-now-cloned{
+font-size: 16px;
+}
+
+.mw-text.mw-text--style-strong, .mw-text.mw-accumulated-title{
+    font-size: 1rem;
+    opacity: 0.6;
+    color: #212121;
+    padding-left: 5px !important;
+font-weight: 400;
+}
+
+.mw-option__control--type-select{
+margin-top: 5px !important;
+  cursor: pointer;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    -ms-appearance: none;
+    -o-appearance: none;
+    appearance: none;
+color: #4d4d4d;
+font-size: 15px;
+    font-family: Assistant, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    padding-right: 1.75rem;
+    background-color: #fff;
+    box-shadow: 0 1px 2px #00000026;
+border: 1px solid #dddddd;
+    border-radius: 3px;
+}
+
+.mw-option--type-select > .mw-stack > .mw-stack__item:nth-of-type(2) {
+    margin-top: 0px;
+    margin-left: 8px;
+}
+.mw-option--type-select .mw-stack--vertical>.mw-stack__item {
+    margin-left: 2px;
+}
+
+
+.mw-option__control--type-select:focus,  .mw-option__control--type-select:focus-visible{
+    border-color: #818181;
+    box-shadow: 0 2px 6px #00000026, 0 0 0 .5px #919191;
+    outline: #818181;
+}
+
+.mw-option--type-select{
+position: relative;
+}
+.mw-option--type-select, .mw-option__control--type-select{
+min-height: 50px;
+}
+.mw-stack.mw-stack--alignment-center .mw-stack__item::before{
+    content: '';
+    display: inline-block;
+    width: 19px;
+    height: 19px;
+    cursor: pointer;
+    background-color: transparent;
+    background-image: url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZlcnNpb249IjEuMSIgeD0iMCIgeT0iMCIgdmlld0JveD0iLTE3LjUgLTEuMyA1MC4xIDI3LjkiIHhtbDpzcGFjZT0icHJlc2VydmUiPjxwb2x5bGluZSBwb2ludHM9IiAxNi4xIDguNSA3LjYgMTcgLTAuOSA4LjUgIiBzdHlsZT0iZmlsbDpub25lO3N0cm9rZS1saW5lY2FwOnJvdW5kO3N0cm9rZS1saW5lam9pbjpyb3VuZDtzdHJva2Utd2lkdGg6MztzdHJva2U6IzAwMCIvPjwvc3ZnPg==);
+    background-repeat: no-repeat;
+    background-position: right 4px top;
+   position: absolute;
+    right: 0px;
+    bottom: 7px;
+    margin-right: 0px; 
+}
+
+.mw-option__control--type-select{
+    background: initial;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 15px 20px 0 9px;
+}
 
 </style>
