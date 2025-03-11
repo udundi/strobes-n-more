@@ -40,6 +40,42 @@ function mwApoCustom() {
   window.mwApoInit  = window.mwApoInit  || {};
   window.mwApoInit.onEvent = function (event, args) { 
 
+
+    if (event == "init::finish") {
+
+
+      const optionElements = document.querySelectorAll('.mw-option--type-select');
+      optionElements.forEach(option => {
+          const strongText = option.querySelector('.mw-text.mw-text--style-strong');
+          
+          if (strongText) {
+              const height = strongText.offsetHeight;
+              
+              const selectElement = option.querySelector('select');
+              
+              if (selectElement) {
+                  if (height > 54) {
+                    selectElement.style.minHeight = '69px';
+                    selectElement.style.paddingTop = '52px';
+                    option.style.minHeight = '69px';
+                  } else if (height > 22) {
+                    selectElement.style.minHeight = '59px';
+                    selectElement.style.paddingTop = '37px';
+                    option.style.minHeight = '59px';
+                     // option.classList.add('marginTop29');
+                  }
+      
+              }
+          }
+      });
+
+
+
+    
+     }
+
+
+
   };
   window.mwApoInit.onCallback = function (event, data) {      
     if (event == "applyAttributeStateToHtml::price") {
