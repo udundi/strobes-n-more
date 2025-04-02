@@ -191,19 +191,78 @@
         "logo_FwAyBR": {
           "type": "logo",
           "settings": {
-            "link": ""
+            "image": "shopify://shop_images/Photon_Dual_LED_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/STROBES_N_MORE-Photon_Dual_LED_Install_Guide.pdf?v=1743610808"
           }
         },
         "logo_BWkigr": {
           "type": "logo",
           "settings": {
-            "link": ""
+            "image": "shopify://shop_images/S3_LED_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/S3_Install_Guide.pdf?v=1730332941"
           }
         },
         "logo_3GBHYA": {
           "type": "logo",
           "settings": {
-            "link": ""
+            "image": "shopify://shop_images/Side_Shooter_Floodlights_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/STROBES_N_MORE-Side_Shooter_Floodlights_Install_Guide.pdf?v=1743610983"
+          }
+        },
+        "logo_rMFync": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Surface_Star_Hide_Away_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Surface_Star_Hideaway_Install_Guide.pdf?v=1730332942"
+          }
+        },
+        "logo_CcUaep": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/TailGator_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/strobesnmore-tailgator-LED-install-guide.pdf?v=1730403337"
+          }
+        },
+        "logo_DWQQpB": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Tiger4_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Tiger_Install_Guide.pdf?v=1730332944"
+          }
+        },
+        "logo_NewdW9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Touch4_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/STROBES_N_MORE-Touch4_Install_Guide.pdf?v=1743611360"
+          }
+        },
+        "logo_Ht36iX": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/TOUCH6_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/STROBES_N_MORE-TOUCH6_Install_Guide.pdf?v=1743611460"
+          }
+        },
+        "logo_RU3wt8": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Touch7_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/STROBES_N_MORE-Touch7_Install_Guide.pdf?v=1743611506"
+          }
+        },
+        "logo_6qajyY": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/TruDual_2.0_EFlood_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/trudual-2-eflood-5400-8500-install-guides.pdf?v=1730404646"
+          }
+        },
+        "logo_ai9pJC": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/X8_LED_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/X8-lighthead-install-guide.pdf?v=1730404762"
           }
         }
       },
@@ -211,7 +270,15 @@
         "logo_TX7BjK",
         "logo_FwAyBR",
         "logo_BWkigr",
-        "logo_3GBHYA"
+        "logo_3GBHYA",
+        "logo_rMFync",
+        "logo_CcUaep",
+        "logo_DWQQpB",
+        "logo_NewdW9",
+        "logo_Ht36iX",
+        "logo_RU3wt8",
+        "logo_6qajyY",
+        "logo_ai9pJC"
       ],
       "settings": {
         "title": ""
