@@ -294,7 +294,7 @@
         "width": "full-width",
         "title": "Vendor Guides",
         "text": "",
-        "heading_size": "medium",
+        "heading_size": "small",
         "text_alignment": "center"
       }
     },
@@ -351,7 +351,7 @@
         "width": "full-width",
         "title": "Want to learn about our installation services",
         "text": "",
-        "heading_size": "medium",
+        "heading_size": "small",
         "text_alignment": "center"
       }
     },
