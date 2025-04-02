@@ -87,7 +87,7 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/E68_WITH_CONTROLLER_Install_Guide.png",
-            "link": ""
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/E68-TA-control-panel-install-guide.pdf?v=1730401681"
           }
         },
         "logo_DeWy6U": {
@@ -124,6 +124,34 @@
             "image": "shopify://shop_images/EBeacon_Elite_Install_Guide.png",
             "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Ebeacon_Elite_Install_Guide.pdf?v=1730332647"
           }
+        },
+        "logo_FYJNz9": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/EFlood_Install_Guide.png",
+            "link": ""
+          }
+        },
+        "logo_9kadkH": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Flasher_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/SNM_Flasher_Install_Guide.pdf?v=1730332943"
+          }
+        },
+        "logo_4kdhkn": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Lighted_Switchbox_4_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/STROBES_N_MORE-Lighted_Switchbox_4_Install_Guide.pdf?v=1743608771"
+          }
+        },
+        "logo_rhtb6C": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Lion_Linear_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Lion_Install_Guide.pdf?v=1730332943"
+          }
         }
       },
       "block_order": [
@@ -140,7 +168,50 @@
         "logo_aJJAGF",
         "logo_E6UtTq",
         "logo_DYtMF4",
-        "logo_wct9WK"
+        "logo_wct9WK",
+        "logo_FYJNz9",
+        "logo_9kadkH",
+        "logo_4kdhkn",
+        "logo_rhtb6C"
+      ],
+      "settings": {
+        "title": ""
+      }
+    },
+    "dynamic_logo_list_KpkX6w": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "logo_TX7BjK": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/On_Off_Flash_Switch_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Universal_Switch_Install_Guide.pdf?v=1730332943"
+          }
+        },
+        "logo_FwAyBR": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_BWkigr": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_3GBHYA": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_TX7BjK",
+        "logo_FwAyBR",
+        "logo_BWkigr",
+        "logo_3GBHYA"
       ],
       "settings": {
         "title": ""
@@ -198,6 +269,7 @@
         "logo_LhiHdC",
         "logo_Re4kPm"
       ],
+      "custom_css": [],
       "settings": {
         "title": ""
       }
@@ -270,6 +342,7 @@
     "main",
     "dynamic_rich_text_hWnJyE",
     "dynamic_logo_list_PEkRE6",
+    "dynamic_logo_list_KpkX6w",
     "dynamic_rich_text_XTH8wa",
     "dynamic_logo_list_kxfk8z",
     "dynamic_rich_text_MGW88C",
