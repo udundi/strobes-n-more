@@ -136,7 +136,7 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/EFlood_Install_Guide.png",
-            "link": ""
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/STROBES_N_MORE-EFlood_Install_Guide.pdf?v=1743616938"
           }
         },
         "logo_9kadkH": {
@@ -230,6 +230,13 @@
             "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/strobesnmore-tailgator-LED-install-guide.pdf?v=1730403337"
           }
         },
+        "logo_WcBHay": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Tiger_Next_Gen_Install_Guide.png",
+            "link": ""
+          }
+        },
         "logo_DWQQpB": {
           "type": "logo",
           "settings": {
@@ -272,33 +279,10 @@
             "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/X8-lighthead-install-guide.pdf?v=1730404762"
           }
         },
-        "logo_XJ6kCy": {
+        "logo_HfHJ3d": {
           "type": "logo",
           "settings": {
-            "link": ""
-          }
-        },
-        "logo_iRVcgP": {
-          "type": "logo",
-          "settings": {
-            "link": ""
-          }
-        },
-        "logo_cgcyyV": {
-          "type": "logo",
-          "settings": {
-            "link": ""
-          }
-        },
-        "logo_QGae3e": {
-          "type": "logo",
-          "settings": {
-            "link": ""
-          }
-        },
-        "logo_47CKXk": {
-          "type": "logo",
-          "settings": {
+            "image": "shopify://shop_images/X3100_Install_Guide.png",
             "link": ""
           }
         }
@@ -311,17 +295,14 @@
         "logo_3GBHYA",
         "logo_rMFync",
         "logo_CcUaep",
+        "logo_WcBHay",
         "logo_DWQQpB",
         "logo_NewdW9",
         "logo_Ht36iX",
         "logo_RU3wt8",
         "logo_6qajyY",
         "logo_ai9pJC",
-        "logo_XJ6kCy",
-        "logo_iRVcgP",
-        "logo_cgcyyV",
-        "logo_QGae3e",
-        "logo_47CKXk"
+        "logo_HfHJ3d"
       ],
       "settings": {
         "title": ""
