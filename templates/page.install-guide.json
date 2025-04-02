@@ -278,13 +278,6 @@
             "image": "shopify://shop_images/X8_LED_Install_Guide.png",
             "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/X8-lighthead-install-guide.pdf?v=1730404762"
           }
-        },
-        "logo_HfHJ3d": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/X3100_Install_Guide.png",
-            "link": ""
-          }
         }
       },
       "block_order": [
@@ -301,8 +294,7 @@
         "logo_Ht36iX",
         "logo_RU3wt8",
         "logo_6qajyY",
-        "logo_ai9pJC",
-        "logo_HfHJ3d"
+        "logo_ai9pJC"
       ],
       "settings": {
         "title": ""
