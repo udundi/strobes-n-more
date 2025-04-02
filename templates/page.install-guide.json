@@ -52,19 +52,77 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/E3_E4_E6_Install_Guide_d31e90f4-45f6-48dc-8fcf-14b68fdcdc09.png",
-            "link": ""
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/E3-E4-E6-install-guide-9-21-23.pdf?v=1730401216"
           }
         },
         "logo_9g6aP7": {
           "type": "logo",
           "settings": {
-            "link": ""
+            "image": "shopify://shop_images/E3DC_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/E3DC_Install_Guide.pdf?v=1730332644"
           }
         },
         "logo_ERyNp6": {
           "type": "logo",
           "settings": {
+            "image": "shopify://shop_images/E6_Mini_Extreme_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/E6-Mini-Extreme-Install-Guide.pdf?v=1730401276"
+          }
+        },
+        "logo_mt4E4T": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/E64_E66_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/E64_E66_Flood_Warning_Install_Guide.pdf?v=1730332639"
+          }
+        },
+        "logo_QDhdaP": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/E66_MAX_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/STROBES_N_MORE-E66MAX_Warning_Traffic_Install_Guide.pdf?v=1743606112"
+          }
+        },
+        "logo_3XiEi7": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/E68_WITH_CONTROLLER_Install_Guide.png",
             "link": ""
+          }
+        },
+        "logo_DeWy6U": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/E6DC_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/E6DC_Install_Guide.pdf?v=1730401241"
+          }
+        },
+        "logo_aJJAGF": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/E6TC_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/E6TC_Install_Guide.pdf?v=1730332643"
+          }
+        },
+        "logo_E6UtTq": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/E92_Hide_Away_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/E92_Hideaway_Install_Guide.pdf?v=1730332643"
+          }
+        },
+        "logo_DYtMF4": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/E94_Hide_Away_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/SNM_E94_Install_Guide.pdf?v=1730332942"
+          }
+        },
+        "logo_wct9WK": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/EBeacon_Elite_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Ebeacon_Elite_Install_Guide.pdf?v=1730332647"
           }
         }
       },
@@ -74,7 +132,15 @@
         "logo_RTXrJ8",
         "logo_zciibx",
         "logo_9g6aP7",
-        "logo_ERyNp6"
+        "logo_ERyNp6",
+        "logo_mt4E4T",
+        "logo_QDhdaP",
+        "logo_3XiEi7",
+        "logo_DeWy6U",
+        "logo_aJJAGF",
+        "logo_E6UtTq",
+        "logo_DYtMF4",
+        "logo_wct9WK"
       ],
       "settings": {
         "title": ""
