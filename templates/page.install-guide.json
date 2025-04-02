@@ -317,24 +317,17 @@
     "dynamic_logo_list_kxfk8z": {
       "type": "dynamic-logo-list",
       "blocks": {
-        "logo_JAhy7N": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Whelen_logo.png",
-            "link": ""
-          }
-        },
-        "logo_Hx74Ty": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Havis_logo.png",
-            "link": ""
-          }
-        },
         "logo_LhiHdC": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Sound_off_signal_logo.jpg",
+            "image": "shopify://shop_images/Diode_dynamics_logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_JAhy7N": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Fedral_signals_logo.jpg",
             "link": ""
           }
         },
@@ -344,15 +337,64 @@
             "image": "shopify://shop_images/Feniex_logo.png",
             "link": ""
           }
+        },
+        "logo_Hx74Ty": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Havis_logo.png",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "logo_JAhy7N",
-        "logo_Hx74Ty",
         "logo_LhiHdC",
-        "logo_Re4kPm"
+        "logo_JAhy7N",
+        "logo_Re4kPm",
+        "logo_Hx74Ty"
       ],
       "custom_css": [],
+      "settings": {
+        "title": ""
+      }
+    },
+    "dynamic_logo_list_Bmdema": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "logo_bfBzQy": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Pro-gard_logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_NadQKB": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Sound_off_signal_logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_rFNihQ": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Speed_turtle_logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_3DfhpW": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Whelen_logo.png",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_bfBzQy",
+        "logo_NadQKB",
+        "logo_rFNihQ",
+        "logo_3DfhpW"
+      ],
       "settings": {
         "title": ""
       }
@@ -428,6 +470,7 @@
     "dynamic_logo_list_KpkX6w",
     "dynamic_rich_text_XTH8wa",
     "dynamic_logo_list_kxfk8z",
+    "dynamic_logo_list_Bmdema",
     "dynamic_rich_text_MGW88C",
     "dynamic_highlights_banner_RJeHjd"
   ]
