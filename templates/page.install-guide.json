@@ -104,6 +104,13 @@
             "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/E6TC_Install_Guide.pdf?v=1730332643"
           }
         },
+        "logo_8yL3P6": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/E91_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/E91_Hideaway_Install_Guide.pdf?v=1730332643"
+          }
+        },
         "logo_E6UtTq": {
           "type": "logo",
           "settings": {
@@ -145,13 +152,6 @@
             "image": "shopify://shop_images/Lighted_Switchbox_4_Install_Guide.png",
             "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/STROBES_N_MORE-Lighted_Switchbox_4_Install_Guide.pdf?v=1743608771"
           }
-        },
-        "logo_rhtb6C": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Lion_Linear_Install_Guide.png",
-            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Lion_Install_Guide.pdf?v=1730332943"
-          }
         }
       },
       "block_order": [
@@ -166,13 +166,13 @@
         "logo_3XiEi7",
         "logo_DeWy6U",
         "logo_aJJAGF",
+        "logo_8yL3P6",
         "logo_E6UtTq",
         "logo_DYtMF4",
         "logo_wct9WK",
         "logo_FYJNz9",
         "logo_9kadkH",
-        "logo_4kdhkn",
-        "logo_rhtb6C"
+        "logo_4kdhkn"
       ],
       "settings": {
         "title": ""
@@ -181,6 +181,13 @@
     "dynamic_logo_list_KpkX6w": {
       "type": "dynamic-logo-list",
       "blocks": {
+        "logo_TXeaEr": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Lion_Linear_Install_Guide.png",
+            "link": ""
+          }
+        },
         "logo_TX7BjK": {
           "type": "logo",
           "settings": {
@@ -264,9 +271,40 @@
             "image": "shopify://shop_images/X8_LED_Install_Guide.png",
             "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/X8-lighthead-install-guide.pdf?v=1730404762"
           }
+        },
+        "logo_XJ6kCy": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_iRVcgP": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_cgcyyV": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_QGae3e": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
+        },
+        "logo_47CKXk": {
+          "type": "logo",
+          "settings": {
+            "link": ""
+          }
         }
       },
       "block_order": [
+        "logo_TXeaEr",
         "logo_TX7BjK",
         "logo_FwAyBR",
         "logo_BWkigr",
@@ -278,7 +316,12 @@
         "logo_Ht36iX",
         "logo_RU3wt8",
         "logo_6qajyY",
-        "logo_ai9pJC"
+        "logo_ai9pJC",
+        "logo_XJ6kCy",
+        "logo_iRVcgP",
+        "logo_cgcyyV",
+        "logo_QGae3e",
+        "logo_47CKXk"
       ],
       "settings": {
         "title": ""
