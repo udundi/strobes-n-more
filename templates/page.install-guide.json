@@ -446,7 +446,7 @@
           "settings": {
             "icon": "icon-chat-alternate",
             "title": "Chat With Us",
-            "text": "<p>Using the icon in the bottom right</p>",
+            "text": "<p>Click the yellow icon below</p>",
             "link": ""
           }
         },
