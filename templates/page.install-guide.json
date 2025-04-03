@@ -360,44 +360,29 @@
             "image": "shopify://shop_images/Havis_logo.png",
             "link": "https://www.havis.com/resources/product-literature/"
           }
-        }
-      },
-      "block_order": [
-        "logo_LhiHdC",
-        "logo_JAhy7N",
-        "logo_Re4kPm",
-        "logo_Hx74Ty"
-      ],
-      "custom_css": [],
-      "settings": {
-        "title": ""
-      }
-    },
-    "dynamic_logo_list_Bmdema": {
-      "type": "dynamic-logo-list",
-      "blocks": {
-        "logo_bfBzQy": {
+        },
+        "logo_7nX7bE": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Pro-gard_logo.jpg",
             "link": "https://pro-gard.com/resources/install-instructions/"
           }
         },
-        "logo_NadQKB": {
+        "logo_hRYagc": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Sound_off_signal_logo.jpg",
             "link": "https://www.soundoffsignal.com/s/resources"
           }
         },
-        "logo_rFNihQ": {
+        "logo_jTtFUC": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Speed_turtle_logo.jpg",
-            "link": "https://speedturtleengineering.com/support"
+            "link": ""
           }
         },
-        "logo_3DfhpW": {
+        "logo_zUKmja": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Whelen_logo.png",
@@ -406,11 +391,16 @@
         }
       },
       "block_order": [
-        "logo_bfBzQy",
-        "logo_NadQKB",
-        "logo_rFNihQ",
-        "logo_3DfhpW"
+        "logo_LhiHdC",
+        "logo_JAhy7N",
+        "logo_Re4kPm",
+        "logo_Hx74Ty",
+        "logo_7nX7bE",
+        "logo_hRYagc",
+        "logo_jTtFUC",
+        "logo_zUKmja"
       ],
+      "custom_css": [],
       "settings": {
         "title": ""
       }
@@ -418,7 +408,7 @@
     "dynamic_rich_text_MGW88C": {
       "type": "dynamic-rich-text",
       "custom_css": [
-        "{background-color: #21225b;}",
+        "{background-color: #21225b; margin-bottom: 0px;}",
         "h2 {color: white; padding: 12px;}"
       ],
       "settings": {
@@ -465,9 +455,7 @@
         "highlight_9Yec4T",
         "highlight_W8WRcL"
       ],
-      "custom_css": [
-        "{margin-top: -40px;}"
-      ],
+      "custom_css": [],
       "settings": {
         "section_spacing": true,
         "section_width": "full-width",
@@ -486,7 +474,6 @@
     "dynamic_logo_list_KpkX6w",
     "dynamic_rich_text_XTH8wa",
     "dynamic_logo_list_kxfk8z",
-    "dynamic_logo_list_Bmdema",
     "dynamic_rich_text_MGW88C",
     "dynamic_highlights_banner_RJeHjd"
   ]
