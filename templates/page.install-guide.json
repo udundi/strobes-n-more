@@ -27,6 +27,13 @@
     "dynamic_logo_list_PEkRE6": {
       "type": "dynamic-logo-list",
       "blocks": {
+        "logo_9kadkH": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Flasher_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/SNM_Flasher_Install_Guide.pdf?v=1730332943"
+          }
+        },
         "logo_Daz4eN": {
           "type": "logo",
           "settings": {
@@ -139,22 +146,16 @@
             "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/STROBES_N_MORE-EFlood_Install_Guide.pdf?v=1743616938"
           }
         },
-        "logo_9kadkH": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Flasher_Install_Guide.png",
-            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/SNM_Flasher_Install_Guide.pdf?v=1730332943"
-          }
-        },
         "logo_4kdhkn": {
           "type": "logo",
           "settings": {
-            "image": "shopify://shop_images/Lighted_Switchbox_4_Install_Guide.png",
-            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/STROBES_N_MORE-Lighted_Switchbox_4_Install_Guide.pdf?v=1743608771"
+            "image": "shopify://shop_images/ILB_Dual_Color_Install_Guide.jpg",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/SNM_ILB_DualColor_InteriorLightbar_InstallGuide.pdf?v=1730402960"
           }
         }
       },
       "block_order": [
+        "logo_9kadkH",
         "logo_Daz4eN",
         "logo_4KUbJX",
         "logo_RTXrJ8",
@@ -171,7 +172,6 @@
         "logo_DYtMF4",
         "logo_wct9WK",
         "logo_FYJNz9",
-        "logo_9kadkH",
         "logo_4kdhkn"
       ],
       "settings": {
@@ -181,6 +181,13 @@
     "dynamic_logo_list_KpkX6w": {
       "type": "dynamic-logo-list",
       "blocks": {
+        "logo_mpTMJm": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Lighted_Switchbox_4_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/STROBES_N_MORE-Lighted_Switchbox_4_Install_Guide.pdf?v=1743608771"
+          }
+        },
         "logo_TXeaEr": {
           "type": "logo",
           "settings": {
@@ -200,6 +207,13 @@
           "settings": {
             "image": "shopify://shop_images/Photon_Dual_LED_Install_Guide.png",
             "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/STROBES_N_MORE-Photon_Dual_LED_Install_Guide.pdf?v=1743610808"
+          }
+        },
+        "logo_Fxj3Lb": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Phantom_Speaker_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/strobesnmore-phantom-speaker-install-guide.pdf?v=1730403220"
           }
         },
         "logo_BWkigr": {
@@ -281,9 +295,11 @@
         }
       },
       "block_order": [
+        "logo_mpTMJm",
         "logo_TXeaEr",
         "logo_TX7BjK",
         "logo_FwAyBR",
+        "logo_Fxj3Lb",
         "logo_BWkigr",
         "logo_3GBHYA",
         "logo_rMFync",
