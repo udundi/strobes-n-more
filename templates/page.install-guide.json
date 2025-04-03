@@ -337,28 +337,28 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Diode_dynamics_logo.jpg",
-            "link": ""
+            "link": "https://www.diodedynamics.com/blog/category/installation-guides"
           }
         },
         "logo_JAhy7N": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Fedral_signals_logo.jpg",
-            "link": ""
+            "link": "https://www.fedsig.com/resources/?_gl=1*12uzmjb*_up*MQ..*_ga*MjEyMTY3MTgxOC4xNzQzMDgwNTAw*_ga_RFT3XBBV9F*MTc0MzA4MDQ5OS4xLjAuMTc0MzA4MDQ5OS4wLjAuMA.."
           }
         },
         "logo_Re4kPm": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Feniex_logo.png",
-            "link": ""
+            "link": "https://www.feniex.com/instruction-manuals"
           }
         },
         "logo_Hx74Ty": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Havis_logo.png",
-            "link": ""
+            "link": "https://www.havis.com/resources/product-literature/"
           }
         }
       },
@@ -380,28 +380,28 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Pro-gard_logo.jpg",
-            "link": ""
+            "link": "https://pro-gard.com/resources/install-instructions/"
           }
         },
         "logo_NadQKB": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Sound_off_signal_logo.jpg",
-            "link": ""
+            "link": "https://www.soundoffsignal.com/s/resources"
           }
         },
         "logo_rFNihQ": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Speed_turtle_logo.jpg",
-            "link": ""
+            "link": "https://speedturtleengineering.com/support"
           }
         },
         "logo_3DfhpW": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Whelen_logo.png",
-            "link": ""
+            "link": "https://www.whelen.com/support-and-training/install-guides"
           }
         }
       },
