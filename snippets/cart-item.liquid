@@ -68,6 +68,14 @@
                   {% assign words = item.variant.options[forloop.index0] | split: '#MWS' %}
                   {{ words[0] }}
                 {% endunless %}
+                {% for p in item.properties %}
+                  {% if p.first contains '_io_' %}
+                    {% continue %}
+                  {% endif %}
+                  {% unless p.last == blank %}
+                    <br />{{p.first}}: {{ p.last }}
+                  {% endunless %}
+                {% endfor %}
               </dd>
             </dl>
           {%- endfor -%}
