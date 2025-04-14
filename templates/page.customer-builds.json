@@ -115,6 +115,33 @@
         "text_alignment": "left"
       }
     },
+    "dynamic_rich_text_aktb8p": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "{background-color: #21225b;}",
+        "h2 {color: white; padding: 12px;}"
+      ],
+      "settings": {
+        "width": "regular",
+        "title": "How to Win",
+        "text": "",
+        "heading_size": "small",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_rich_text_XAmB84": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "{margin-top: -30px;}"
+      ],
+      "settings": {
+        "width": "regular",
+        "title": "",
+        "text": "<p>Here’s how winner selection will work:</p><ul><li>The Strobes N’ More team will review every submission for use/approval</li><li>Every quarter, the team will announce [##]  winners. Prizes will be awarded via email, and the winning individual/Company’s build will be shared in the next quarter’s Newsletter (not receiving our newsletter? Sign up at the<a href=\"https://strobesnmore.com/pages/contact\"><span style=\"text-decoration:underline\"> link on our footer</span></a> today!)</li></ul>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
     "dynamic_rich_text_mg9HNJ": {
       "type": "dynamic-rich-text",
       "custom_css": [
@@ -185,6 +212,8 @@
     "dynamic_countdown_timer_mHEwB9",
     "dynamic_rich_text_xyJ9aE",
     "dynamic_rich_text_bEHCbp",
+    "dynamic_rich_text_aktb8p",
+    "dynamic_rich_text_XAmB84",
     "dynamic_rich_text_mg9HNJ",
     "dynamic_highlights_banner_RJeHjd"
   ]
