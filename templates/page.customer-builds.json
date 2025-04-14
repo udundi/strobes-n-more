@@ -27,7 +27,12 @@
     },
     "dynamic_countdown_timer_mHEwB9": {
       "type": "dynamic-countdown-timer",
-      "custom_css": [],
+      "custom_css": [
+        "/* Update countdown timer background colors to #21225b */.countdown-timer {background-color: #21225b !important;}",
+        ".ud-spacer {background-color: #21225b !important; border: 1px solid white; padding: 20px;}",
+        ".ud-divider-maker {background-color: #21225b !important;}",
+        "/* If you want to ensure all elements use the same background */.countdown, .countdown.countdown--has-background,.countdown__item {background-color: #21225b !important;}"
+      ],
       "settings": {
         "section_height": "small",
         "countdown_year": "2025",
