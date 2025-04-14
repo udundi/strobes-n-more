@@ -14,12 +14,25 @@
       "disabled": true,
       "settings": {}
     },
-    "dynamic_rich_text_EQbzd9": {
+    "dynamic_rich_text_bHCYiy": {
       "type": "dynamic-rich-text",
       "custom_css": [],
       "settings": {
-        "width": "wide",
+        "width": "regular",
         "title": "Submit Your Builds & Earn Great Rewards!",
+        "text": "",
+        "heading_size": "large",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_EQbzd9": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "{margin-top: -30px;}"
+      ],
+      "settings": {
+        "width": "wide",
+        "title": "",
         "text": "<p>You're in the shop creating lighting installs and custom upfits that make vehicles safer, cooler, and more effective. Now, it’s your time to shine. <strong>Strobes N’ More’s Show Us Your Build </strong>program gives you a platform to show off videos of your work, be featured to Strobes N’ More’s community and digital network, and earn rewards for top builds.</p><p>SNM customers are some of the best in the business—hardworking pros who turn wrenches and make things happen. Whether you’ve built a fleet of emergency response vehicles, an innovative lighting setup, or a unique custom upfit, <strong>we want to see it.</strong></p>",
         "heading_size": "medium",
         "text_alignment": "left"
@@ -29,14 +42,27 @@
       "type": "dynamic-rich-text",
       "custom_css": [
         "{background-color: #21225b;}",
-        "h2 {color: white;}"
+        "h2 {color: white; padding: 12px;}"
       ],
       "settings": {
         "width": "regular",
         "title": "Why Participate?",
         "text": "",
-        "heading_size": "medium",
+        "heading_size": "small",
         "text_alignment": "center"
+      }
+    },
+    "dynamic_rich_text_FUWkXw": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "{margin-top: -30px;}"
+      ],
+      "settings": {
+        "width": "wide",
+        "title": "",
+        "text": "<p>✔ Get featured on SNM’s website, social media, email campaigns, and other owned channels.</p><p>✔ Gain exposure and ideas from fellow SNM customers’ builds, inspiring you - or your customers - with new and innovative upfits.</p><p>✔ <strong>[TBD Incentive*]</strong>—Earn TBD</p><p>✔ We’re on the hunt for the best builds, straight from the pros who make them happen.<br/></p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
       }
     },
     "dynamic_countdown_timer_mHEwB9": {
@@ -52,8 +78,8 @@
         "countdown_day": "30",
         "countdown_hour": "20",
         "countdown_minute": "14",
-        "countdown_timer_background": true,
-        "countdown_timer_complete": false,
+        "countdown_timer_background": false,
+        "countdown_timer_complete": true,
         "countdown_timer_message": "",
         "product": "",
         "title": "Time Left To Claim Incentive",
@@ -66,6 +92,43 @@
         "product_card_background_color": "#F5F3ED"
       }
     },
+    "dynamic_rich_text_xyJ9aE": {
+      "type": "dynamic-rich-text",
+      "settings": {
+        "width": "regular",
+        "title": "How to Enter",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_rich_text_bEHCbp": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "{margin-top: -30px;}"
+      ],
+      "settings": {
+        "width": "wide",
+        "title": "",
+        "text": "<p>Any Strobes N’ More Customer or Dealer is eligible to participate. Here’s how to enter:</p><p>[Fill out the form below/ Send a video of an impressive or unique upfit to: _____</p><p></p><ul><li>Along with the video, please include:</li><li>What products (Brand, Name) you used</li><li>Vehicle Make/Model</li><li>What the “ask” was / what the vehicle is being used for</li><li>Anything else interesting you’d like to include about the design</li></ul><p></p><p>Please consider the following when you upload your video:</p><ul><li><strong>Format:</strong> MP4 (recommended), MOV, AVI, WMV, etc.</li><li><strong>Resolution:</strong> Minimum 240p, up to 4K (2160p)</li><li><strong>Aspect Ratio:</strong> either landscape or portrait</li><li><em><strong>Preferred Length:</strong></em><em> 10 seconds - 1 minute</em></li></ul><p>By submitting a video, you agree to the Terms & Conditions of the program, as outlined here [anchor link].</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_mg9HNJ": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "{background-color: #21225b;}",
+        "h2 {color: white; padding: 12px;}"
+      ],
+      "settings": {
+        "width": "regular",
+        "title": "Want to learn more about Customer Builds",
+        "text": "",
+        "heading_size": "small",
+        "text_alignment": "center"
+      }
+    },
     "dynamic_highlights_banner_RJeHjd": {
       "type": "dynamic-highlights-banner",
       "blocks": {
@@ -74,7 +137,7 @@
           "settings": {
             "icon": "icon-cell-phone",
             "title": "Give Us A Call",
-            "text": "<p>401-4-LIGHTS</p>",
+            "text": "<p>(401) 454-4487</p>",
             "link": ""
           }
         },
@@ -106,8 +169,8 @@
         "section_spacing": true,
         "section_width": "full-width",
         "icon_layout": "center",
-        "color": "#1d1d1d",
-        "icon_color": "#07145e",
+        "color": "#21225b",
+        "icon_color": "#1d1d1d",
         "background_color": "#ffffff",
         "mobile_layout": "slider"
       }
@@ -115,9 +178,14 @@
   },
   "order": [
     "main",
+    "dynamic_rich_text_bHCYiy",
     "dynamic_rich_text_EQbzd9",
     "dynamic_rich_text_dt3dMA",
+    "dynamic_rich_text_FUWkXw",
     "dynamic_countdown_timer_mHEwB9",
+    "dynamic_rich_text_xyJ9aE",
+    "dynamic_rich_text_bEHCbp",
+    "dynamic_rich_text_mg9HNJ",
     "dynamic_highlights_banner_RJeHjd"
   ]
 }
