@@ -27,9 +27,7 @@
     },
     "dynamic_countdown_timer_mHEwB9": {
       "type": "dynamic-countdown-timer",
-      "custom_css": [
-        "{background-color: #21225b;}"
-      ],
+      "custom_css": [],
       "settings": {
         "section_height": "small",
         "countdown_year": "2025",
