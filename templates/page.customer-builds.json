@@ -21,15 +21,29 @@
         "width": "wide",
         "title": "Submit Your Builds & Earn Great Rewards!",
         "text": "<p>You're in the shop creating lighting installs and custom upfits that make vehicles safer, cooler, and more effective. Now, it’s your time to shine. <strong>Strobes N’ More’s Show Us Your Build </strong>program gives you a platform to show off videos of your work, be featured to Strobes N’ More’s community and digital network, and earn rewards for top builds.</p><p>SNM customers are some of the best in the business—hardworking pros who turn wrenches and make things happen. Whether you’ve built a fleet of emergency response vehicles, an innovative lighting setup, or a unique custom upfit, <strong>we want to see it.</strong></p>",
-        "heading_size": "large",
+        "heading_size": "medium",
         "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_dt3dMA": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "{background-color: #21225b;}",
+        "h2 {color: white;}"
+      ],
+      "settings": {
+        "width": "regular",
+        "title": "Why Participate?",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "center"
       }
     },
     "dynamic_countdown_timer_mHEwB9": {
       "type": "dynamic-countdown-timer",
       "custom_css": [
         ".countdown-timer,.countdown-timer *,.countdown-timer__content,.countdown-timer__caption,.ud-overlay,.ud-spacer,.countdown,.countdown *,.ud-countdown,.ud-divider-maker,.countdown__item,section.countdown-timer {background-color: #21225b !important;}",
-        "{background-color: #21225b;}"
+        " {background-color: #21225b;}"
       ],
       "settings": {
         "section_height": "small",
@@ -102,6 +116,7 @@
   "order": [
     "main",
     "dynamic_rich_text_EQbzd9",
+    "dynamic_rich_text_dt3dMA",
     "dynamic_countdown_timer_mHEwB9",
     "dynamic_highlights_banner_RJeHjd"
   ]
