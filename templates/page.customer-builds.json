@@ -29,8 +29,7 @@
       "type": "dynamic-countdown-timer",
       "custom_css": [
         ".countdown-timer,.countdown-timer *,.countdown-timer__content,.countdown-timer__caption,.ud-overlay,.ud-spacer,.countdown,.countdown *,.ud-countdown,.ud-divider-maker,.countdown__item,section.countdown-timer {background-color: #21225b !important;}",
-        ".countdown-timer--small,.countdown-timer--content-width,.countdown-timer--product-disabled,.countdown.countdown--has-background {background-color: #21225b !important;}",
-        ".ud-spacer,.ud-countdown,.countdown__item {border-color: white !important;}"
+        "{background-color: #21225b;}"
       ],
       "settings": {
         "section_height": "small",
