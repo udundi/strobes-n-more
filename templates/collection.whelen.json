@@ -1,0 +1,130 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-collection",
+      "blocks": {
+        "filter-1": {
+          "type": "filter",
+          "settings": {
+            "filter_option": "tag",
+            "filter_groups": "expand_first",
+            "show_filter_product_count": false,
+            "filter_style": "tags",
+            "filter_limit": "20",
+            "grid_categories": "",
+            "custom_ordered_categories": "",
+            "custom_ordered_tags": "",
+            "excluded_tags": "B6LED, B6MM, L10, L51, Class 1, SoundOff Signal Class 1 LED Beacon, exterior, Whelen L41 Class 1 LED Beacon,",
+            "excluded_groups": ""
+          }
+        }
+      },
+      "block_order": [
+        "filter-1"
+      ],
+      "settings": {
+        "show_collection_image": false,
+        "products_per_page_range": 48,
+        "products_per_row": "4",
+        "sort_by": true,
+        "grid_list": true,
+        "default_view": "grid-view",
+        "enable_subcollection": true,
+        "show_product_count": false,
+        "thumbnail_image": "collection-image",
+        "image_crop": "original"
+      }
+    },
+    "dynamic_faq_kyjq9r": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_Ln4r3T": {
+          "type": "category",
+          "settings": {
+            "heading": "Automotive Consoles",
+            "show_category_card": true
+          }
+        },
+        "question_7tUK8A": {
+          "type": "question",
+          "settings": {
+            "question": "What are the best automotive consoles for emergency vehicles?",
+            "answer": "<p>Top automotive consoles for emergency vehicles come from brands like Havis, Jotto Desk, Troy Products, and Gamber-Johnson. These consoles are built for rugged use and designed to fit radios, sirens, light controls, and other equipment. Look for vehicle-specific models that offer secure mounting, ergonomic access, and modular configurations.</p>",
+            "icon": "none"
+          }
+        },
+        "question_C6iYpN": {
+          "type": "question",
+          "settings": {
+            "question": "How do I install a custom automotive console?",
+            "answer": "<p>Installing a custom console usually involves removing the factory center console and bolting the new unit directly to the vehicle’s floor or mounting brackets. Wiring for radios, lighting controls, and power ports is routed through cutouts or pre-drilled panels. Some installs are plug-and-play, but others may require light fabrication—professional installation is recommended for complex setups.</p>",
+            "icon": "none"
+          }
+        },
+        "question_ffyGcn": {
+          "type": "question",
+          "settings": {
+            "question": "Are automotive consoles universal or vehicle-specific?",
+            "answer": "<p>Both types exist. Universal consoles can fit a range of vehicles but may require extra mounting hardware or adjustments. Vehicle-specific consoles are tailored to the make and model for a clean, secure fit and easier installation. For emergency vehicles, vehicle-specific options are preferred for durability and optimal layout.</p>",
+            "icon": "none"
+          }
+        },
+        "question_Khrmfz": {
+          "type": "question",
+          "settings": {
+            "question": "What storage options are available in automotive consoles?",
+            "answer": "<p>Many consoles offer integrated storage such as locking compartments, cup holders, document trays, and slots for flashlights or handcuffs. Modular accessories like armrests, clipboard holders, or keyboard trays can also be added, depending on the model. Storage is often customizable to suit the needs of law enforcement or fleet operators.</p>",
+            "icon": "none"
+          }
+        },
+        "question_r49x6L": {
+          "type": "question",
+          "settings": {
+            "question": "Can automotive consoles integrate with lighting control panels?",
+            "answer": "<p>Yes, most emergency vehicle consoles are designed to house lighting control panels, siren systems, and radio units. They include faceplates and mounting slots that match common control heads. This keeps everything centralized, accessible, and neatly organized for quick use during operations.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_Ln4r3T",
+        "question_7tUK8A",
+        "question_C6iYpN",
+        "question_ffyGcn",
+        "question_Khrmfz",
+        "question_r49x6L"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "settings": {
+        "section_width": "wide",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
+    "static-recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_faq_kyjq9r",
+    "static-recently-viewed"
+  ]
+}
