@@ -50,47 +50,47 @@
         "category_Ln4r3T": {
           "type": "category",
           "settings": {
-            "heading": "Category",
+            "heading": "Feniex Lights",
             "show_category_card": true
           }
         },
         "question_7tUK8A": {
           "type": "question",
           "settings": {
-            "question": "What are the best LED beacon lights for construction and emergency vehicles?",
-            "answer": "<p>The best LED beacons are bright, weatherproof, and built to handle tough environments. Models from ECCO, Whelen, and Federal Signal are top choices. For construction, amber beacons with multiple flash patterns are standard. Emergency vehicles often use dual-color or color-specific beacons (red, blue, or white) based on local regulations. Look for features like 360° visibility, rugged housings, and flexible mounting options.</p>",
+            "question": "What are the most popular Feniex light bars for emergency vehicles?",
+            "answer": "<p>Top Feniex light bars include the Fusion-S, Quad, and Fusion 2.0 series. The Fusion-S offers single-color, high-intensity output with 40° or 180° optics for focused or wide-angle coverage. The Quad series is fully customizable with four colors per module. These bars are known for their brightness, sleek design, and user-friendly programming.</p>",
             "icon": "none"
           }
         },
         "question_C6iYpN": {
           "type": "question",
           "settings": {
-            "question": "How does a rotating beacon light differ from a strobe beacon?",
-            "answer": "<p>A rotating beacon simulates motion by spinning a beam of light or using LEDs that mimic rotation. A strobe beacon, on the other hand, uses quick, high-intensity flashes. Rotating beacons offer a traditional, sweeping look and are less intense, while strobes deliver sharper, more attention-grabbing bursts. Both improve visibility, but strobes are generally more noticeable in fast-moving or high-risk environments.</p>",
+            "question": "How does Feniex’s Fusion technology enhance lighting performance?",
+            "answer": "<p>Fusion technology allows users to choose between 40° narrow optics for focused forward warning or 180° wide optics for maximum side visibility. This flexibility helps tailor each light to its exact mounting position and function, improving visibility and safety while reducing glare or light waste.</p>",
             "icon": "none"
           }
         },
         "question_ffyGcn": {
           "type": "question",
           "settings": {
-            "question": "Are magnetic mount beacon lights as secure as permanent installations?",
-            "answer": "<p>Magnetic mounts are secure for temporary or low-speed use, especially when paired with rubber bases or strong multi-magnet designs. However, for high-speed driving or long-term use, permanent mounts are more reliable. If you're frequently on the highway or in rough terrain, a bolted or hard-mounted beacon is the safer choice.</p>",
+            "question": "Are Feniex lights waterproof and weather-resistant?",
+            "answer": "<p>Yes, Feniex lights are built for harsh environments. Most units carry IP67 or higher ratings, meaning they’re dust-tight and water-resistant for use in rain, snow, mud, or off-road conditions. The housings are built from rugged materials to withstand vibration, UV exposure, and extreme temperatures.</p>",
             "icon": "none"
           }
         },
         "question_Khrmfz": {
           "type": "question",
           "settings": {
-            "question": "Can beacon lights be used for off-road or utility vehicles?",
-            "answer": "<p>Yes, beacon lights are commonly used on off-road and utility vehicles for increased visibility. Amber or white LED beacons help alert others to slow-moving, stopped, or working vehicles in rugged or low-visibility areas. Make sure the beacon is vibration-resistant and rated for outdoor use (look for IP65 or higher).</p>",
+            "question": "What power supply is required for Feniex LED warning lights?",
+            "answer": "<p>Most Feniex lights operate on a 12V DC system, which is standard for emergency and fleet vehicles. Some models can handle 10–16V ranges, and higher-end setups may use control boxes or relay modules to manage multiple lights. Always check individual product specs for current draw and fuse requirements.</p>",
             "icon": "none"
           }
         },
         "question_r49x6L": {
           "type": "question",
           "settings": {
-            "question": "What are the best power options for a beacon light (battery, hardwired, or rechargeable)?",
-            "answer": "<p>Each has its strengths:</p><ul><li>Hardwired beacons are best for permanent setups and consistent power.</li><li>Rechargeable beacons offer portability and are great for temporary use or quick deployment.</li><li>Battery-powered (replaceable batteries) are convenient but may need frequent changes.</li><li>For work vehicles or daily use, hardwired is the most reliable. For occasional use or flexibility across vehicles, go with rechargeable models.</li></ul>",
+            "question": "Can Feniex lights be synchronized with other emergency lighting systems?",
+            "answer": "<p>Yes, many Feniex lights can sync with other Feniex products using built-in sync wires or through the Feniex Module Programmer (FMP). Syncing with other brands may be possible but depends on flash pattern compatibility and wiring configurations. For best performance and full feature access, stick with an all-Feniex setup.</p>",
             "icon": "none"
           }
         }
