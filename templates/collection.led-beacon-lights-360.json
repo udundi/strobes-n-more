@@ -107,7 +107,7 @@
         "h3 {display: none;}"
       ],
       "settings": {
-        "section_width": "regular",
+        "section_width": "wide",
         "heading": "Frequently Asked Questions",
         "enable_category_cards": false,
         "category_card_image_crop": "original",
