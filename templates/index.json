@@ -822,10 +822,10 @@
       ],
       "settings": {
         "section_width": "wide",
-        "heading": "Frequently Asked Questions",
+        "heading": "",
         "enable_category_cards": false,
         "category_card_image_crop": "original",
-        "category_heading_size": "small",
+        "category_heading_size": "large",
         "icon_color": "rgba(0,0,0,0)"
       }
     }
