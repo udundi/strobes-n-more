@@ -115,70 +115,47 @@
         "category_RXBHFn": {
           "type": "category",
           "settings": {
-            "heading": "Shipping",
+            "heading": "Federal Signal Pathfinder",
             "show_category_card": true
           }
         },
         "question_N7XcBJ": {
           "type": "question",
           "settings": {
-            "question": "Do you ship overseas?",
-            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>",
+            "question": "What are the key features of the Federal Signal Pathfinder siren system?",
+            "answer": "<p>The Pathfinder is a fully programmable, multi-function siren and light controller designed for emergency vehicles. Key features include dual-tone capability, integrated radio rebroadcast, built-in diagnostic tools, configurable inputs/outputs, and compatibility with CAN networks. It also supports Federal Signal’s serial lightbar systems and offers seamless control of sirens, lights, and other peripherals.</p>",
             "icon": "none"
           }
         },
         "question_Q7V7f7": {
           "type": "question",
           "settings": {
-            "question": "How long will it take to get my order?",
-            "answer": "<p>The shipping time may vary depending on your location and the selected shipping method. During the checkout process, you will be provided with estimated delivery times based on your destination.</p>",
+            "question": "How does the Pathfinder system integrate with emergency lights?",
+            "answer": "<p>Pathfinder is built to work hand-in-hand with Federal Signal’s emergency lighting systems. It uses serial communication to control lightbars, directional lights, and perimeter lighting, allowing synchronized patterns and scenes. The system can trigger lighting based on siren tone, vehicle speed, or custom inputs—making it ideal for streamlined, event-driven response setups.</p>",
             "icon": "none"
           }
         },
         "question_pWG86w": {
           "type": "question",
           "settings": {
-            "question": "How can I track my order?",
-            "answer": "<p>Once your order is shipped, you will receive a confirmation email with tracking information. You can use this information to track the status and estimated delivery time of your order.</p>",
+            "question": "Is the Federal Signal Pathfinder programmable for different siren tones?",
+            "answer": "<p>Yes, Pathfinder is fully programmable and supports a wide range of siren tones, including Wail, Yelp, Priority, Hi-Lo, and PowerCall, as well as dual-tone options. Users can configure tone activation through software, set tone sequences, and customize functions for specific scenarios or jurisdictions.</p>",
             "icon": "none"
-          }
-        },
-        "category_i6NNUK": {
-          "type": "category",
-          "settings": {
-            "heading": "Orders",
-            "show_category_card": true
           }
         },
         "question_XLJAbP": {
           "type": "question",
           "settings": {
-            "question": "Can I get my product personalized?",
-            "answer": "<p>It depends on the manufacturer and the product. All options are outlined on the product page, so look out for customization options there.</p>",
+            "question": "What vehicles are compatible with the Federal Signal Pathfinder?",
+            "answer": "<p>Pathfinder is compatible with most police, fire, and EMS vehicles, including sedans, SUVs, trucks, and specialty rigs. It supports standard 12V systems and integrates with popular fleet platforms like Ford Police Interceptor, Chevrolet Tahoe PPV, Dodge Durango Pursuit, and others. Vehicle-specific harnesses and mounts are available for streamlined installation.</p>",
             "icon": "none"
           }
         },
         "question_JWg3Kp": {
           "type": "question",
           "settings": {
-            "question": "Is there a minimum order quantity for wholesale purchases?",
-            "answer": "<p>While we cater to both individual and wholesale customers, specific products may have minimum order quantities for wholesale purchases. Check the product details or contact our team for wholesale order requirements.</p>",
-            "icon": "none"
-          }
-        },
-        "question_Bg4xCX": {
-          "type": "question",
-          "settings": {
-            "question": "Can I modify my order after it has been placed?",
-            "answer": "<p>Once an order is placed, modifications may be limited. Please contact our customer support team as soon as possible if you need to make changes to your order, and we will do our best to accommodate your request.</p>",
-            "icon": "none"
-          }
-        },
-        "question_TaWtXp": {
-          "type": "question",
-          "settings": {
-            "question": "Do you offer technical support for your products?",
-            "answer": "<p>Absolutely! If you have any technical questions or need assistance with the installation and operation of our products, our knowledgeable technical support team is ready to help. Contact us for technical support.</p>",
+            "question": "Can the Pathfinder system be controlled via a mobile app?",
+            "answer": "<p>Yes, Pathfinder can be controlled using Federal Signal’s Pathfinder Mobile App on iOS and Android. The app allows users to control lights and sirens wirelessly, view system diagnostics, and switch between modes. This adds flexibility during setup, maintenance, or remote operation—especially helpful for supervisors or command vehicles.</p>",
             "icon": "none"
           }
         }
@@ -188,19 +165,12 @@
         "question_N7XcBJ",
         "question_Q7V7f7",
         "question_pWG86w",
-        "category_i6NNUK",
         "question_XLJAbP",
-        "question_JWg3Kp",
-        "question_Bg4xCX",
-        "question_TaWtXp"
+        "question_JWg3Kp"
       ],
-      "custom_css": [
-        "@media (min-width: 1200px) {.faq__items > div {max-width: 600px; }}",
-        "@media (min-width: 768px) {.faq__items {display: flex; gap: 90px; justify-content: space-between; flex-direction: row; }}",
-        ".faq__items > div {margin-bottom: 40px; flex: 1;}"
-      ],
+      "custom_css": [],
       "settings": {
-        "section_width": "full-width",
+        "section_width": "wide",
         "heading": "Frequently Asked Questions",
         "enable_category_cards": false,
         "category_card_image_crop": "original",
