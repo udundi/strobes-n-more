@@ -50,47 +50,47 @@
         "category_Ln4r3T": {
           "type": "category",
           "settings": {
-            "heading": "Category",
+            "heading": "Soundoff Signal",
             "show_category_card": true
           }
         },
         "question_7tUK8A": {
           "type": "question",
           "settings": {
-            "question": "What are the best LED beacon lights for construction and emergency vehicles?",
-            "answer": "<p>The best LED beacons are bright, weatherproof, and built to handle tough environments. Models from ECCO, Whelen, and Federal Signal are top choices. For construction, amber beacons with multiple flash patterns are standard. Emergency vehicles often use dual-color or color-specific beacons (red, blue, or white) based on local regulations. Look for features like 360° visibility, rugged housings, and flexible mounting options.</p>",
+            "question": "What types of emergency vehicle lighting does SoundOff Signal offer?",
+            "answer": "<p>SoundOff Signal offers a full lineup of emergency lighting, including LED light bars, surface mounts, grille lights, interior visor lights, beacons, perimeter lighting, and traffic advisors. Their nROADS and mpower® series are especially popular for police, fire, EMS, and utility applications, combining sleek designs with high-output performance.</p>",
             "icon": "none"
           }
         },
         "question_C6iYpN": {
           "type": "question",
           "settings": {
-            "question": "How does a rotating beacon light differ from a strobe beacon?",
-            "answer": "<p>A rotating beacon simulates motion by spinning a beam of light or using LEDs that mimic rotation. A strobe beacon, on the other hand, uses quick, high-intensity flashes. Rotating beacons offer a traditional, sweeping look and are less intense, while strobes deliver sharper, more attention-grabbing bursts. Both improve visibility, but strobes are generally more noticeable in fast-moving or high-risk environments.</p>",
+            "question": "Are SoundOff Signal lights compatible with all vehicle makes and models?",
+            "answer": "<p>Yes. SoundOff Signal lights are designed to be vehicle-agnostic and work with most makes and models. They offer universal mounting options and various sizes to fit everything from compact patrol units to full-size trucks. For fleet-specific setups, SoundOff also offers vehicle-specific brackets and mounting kits.</p>",
             "icon": "none"
           }
         },
         "question_ffyGcn": {
           "type": "question",
           "settings": {
-            "question": "Are magnetic mount beacon lights as secure as permanent installations?",
-            "answer": "<p>Magnetic mounts are secure for temporary or low-speed use, especially when paired with rubber bases or strong multi-magnet designs. However, for high-speed driving or long-term use, permanent mounts are more reliable. If you're frequently on the highway or in rough terrain, a bolted or hard-mounted beacon is the safer choice.</p>",
+            "question": "How does SoundOff Signal’s nROADS technology improve visibility?",
+            "answer": "<p>nROADS (Narrow Reflector Optic And Diode System) uses precise reflector optics to focus and direct LED light more efficiently. This results in sharper intensity, wider horizontal spread, and reduced glare, making emergency vehicles more visible at greater distances and sharper angles, especially in complex traffic situations.</p>",
             "icon": "none"
           }
         },
         "question_Khrmfz": {
           "type": "question",
           "settings": {
-            "question": "Can beacon lights be used for off-road or utility vehicles?",
-            "answer": "<p>Yes, beacon lights are commonly used on off-road and utility vehicles for increased visibility. Amber or white LED beacons help alert others to slow-moving, stopped, or working vehicles in rugged or low-visibility areas. Make sure the beacon is vibration-resistant and rated for outdoor use (look for IP65 or higher).</p>",
+            "question": "What are the differences between SoundOff Signal LED and halogen warning lights?",
+            "answer": "<p>LED lights from SoundOff Signal are significantly brighter, more energy-efficient, and longer-lasting than halogen lights. LEDs turn on instantly, don’t require warm-up time, and are solid-state, meaning fewer parts to break or burn out. Halogen lights are outdated by comparison, with shorter lifespans and higher power draw.</p>",
             "icon": "none"
           }
         },
         "question_r49x6L": {
           "type": "question",
           "settings": {
-            "question": "What are the best power options for a beacon light (battery, hardwired, or rechargeable)?",
-            "answer": "<p>Each has its strengths:</p><ul><li>Hardwired beacons are best for permanent setups and consistent power.</li><li>Rechargeable beacons offer portability and are great for temporary use or quick deployment.</li><li>Battery-powered (replaceable batteries) are convenient but may need frequent changes.</li><li>For work vehicles or daily use, hardwired is the most reliable. For occasional use or flexibility across vehicles, go with rechargeable models.</li></ul>",
+            "question": "How do I install and program SoundOff Signal light bars?",
+            "answer": "<p>Installation typically involves mounting the light bar, connecting to a 12V power source, and wiring to a control panel or switch box. Programming is done through SoundOff’s BluePRINT control system or compatible interfaces, allowing full customization of flash patterns, colors, zones, and sync features. Clear wiring diagrams and install kits are available for most setups.</p>",
             "icon": "none"
           }
         }
