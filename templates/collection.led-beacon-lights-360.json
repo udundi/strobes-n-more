@@ -9,6 +9,41 @@
  */
 {
   "sections": {
+    "main": {
+      "type": "static-collection",
+      "blocks": {
+        "filter-1": {
+          "type": "filter",
+          "settings": {
+            "filter_option": "tag",
+            "filter_groups": "expand_first",
+            "show_filter_product_count": false,
+            "filter_style": "tags",
+            "filter_limit": "20",
+            "grid_categories": "",
+            "custom_ordered_categories": "",
+            "custom_ordered_tags": "",
+            "excluded_tags": "B6LED, B6MM, L10, L51, Class 1, SoundOff Signal Class 1 LED Beacon, exterior, Whelen L41 Class 1 LED Beacon,",
+            "excluded_groups": ""
+          }
+        }
+      },
+      "block_order": [
+        "filter-1"
+      ],
+      "settings": {
+        "show_collection_image": false,
+        "products_per_page_range": 48,
+        "products_per_row": "4",
+        "sort_by": true,
+        "grid_list": true,
+        "default_view": "grid-view",
+        "enable_subcollection": true,
+        "show_product_count": false,
+        "thumbnail_image": "collection-image",
+        "image_crop": "original"
+      }
+    },
     "dynamic_faq_kyjq9r": {
       "type": "dynamic-faq",
       "blocks": {
@@ -77,41 +112,6 @@
         "icon_color": "rgba(0,0,0,0)"
       }
     },
-    "main": {
-      "type": "static-collection",
-      "blocks": {
-        "filter-1": {
-          "type": "filter",
-          "settings": {
-            "filter_option": "tag",
-            "filter_groups": "expand_first",
-            "show_filter_product_count": false,
-            "filter_style": "tags",
-            "filter_limit": "20",
-            "grid_categories": "",
-            "custom_ordered_categories": "",
-            "custom_ordered_tags": "",
-            "excluded_tags": "B6LED, B6MM, L10, L51, Class 1, SoundOff Signal Class 1 LED Beacon, exterior, Whelen L41 Class 1 LED Beacon,",
-            "excluded_groups": ""
-          }
-        }
-      },
-      "block_order": [
-        "filter-1"
-      ],
-      "settings": {
-        "show_collection_image": false,
-        "products_per_page_range": 48,
-        "products_per_row": "4",
-        "sort_by": true,
-        "grid_list": true,
-        "default_view": "grid-view",
-        "enable_subcollection": true,
-        "show_product_count": false,
-        "thumbnail_image": "collection-image",
-        "image_crop": "original"
-      }
-    },
     "static-recently-viewed": {
       "type": "static-recently-viewed",
       "settings": {
@@ -120,8 +120,8 @@
     }
   },
   "order": [
-    "dynamic_faq_kyjq9r",
     "main",
+    "dynamic_faq_kyjq9r",
     "static-recently-viewed"
   ]
 }
