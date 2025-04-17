@@ -1,0 +1,130 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-collection",
+      "blocks": {
+        "filter-1": {
+          "type": "filter",
+          "settings": {
+            "filter_option": "tag",
+            "filter_groups": "expand_first",
+            "show_filter_product_count": false,
+            "filter_style": "tags",
+            "filter_limit": "20",
+            "grid_categories": "",
+            "custom_ordered_categories": "",
+            "custom_ordered_tags": "",
+            "excluded_tags": "B6LED, B6MM, L10, L51, Class 1, SoundOff Signal Class 1 LED Beacon, exterior, Whelen L41 Class 1 LED Beacon,",
+            "excluded_groups": ""
+          }
+        }
+      },
+      "block_order": [
+        "filter-1"
+      ],
+      "settings": {
+        "show_collection_image": false,
+        "products_per_page_range": 48,
+        "products_per_row": "4",
+        "sort_by": true,
+        "grid_list": true,
+        "default_view": "grid-view",
+        "enable_subcollection": true,
+        "show_product_count": false,
+        "thumbnail_image": "collection-image",
+        "image_crop": "original"
+      }
+    },
+    "dynamic_faq_kyjq9r": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_Ln4r3T": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_7tUK8A": {
+          "type": "question",
+          "settings": {
+            "question": "What are the best LED beacon lights for construction and emergency vehicles?",
+            "answer": "<p>The best LED beacons are bright, weatherproof, and built to handle tough environments. Models from ECCO, Whelen, and Federal Signal are top choices. For construction, amber beacons with multiple flash patterns are standard. Emergency vehicles often use dual-color or color-specific beacons (red, blue, or white) based on local regulations. Look for features like 360° visibility, rugged housings, and flexible mounting options.</p>",
+            "icon": "none"
+          }
+        },
+        "question_C6iYpN": {
+          "type": "question",
+          "settings": {
+            "question": "How does a rotating beacon light differ from a strobe beacon?",
+            "answer": "<p>A rotating beacon simulates motion by spinning a beam of light or using LEDs that mimic rotation. A strobe beacon, on the other hand, uses quick, high-intensity flashes. Rotating beacons offer a traditional, sweeping look and are less intense, while strobes deliver sharper, more attention-grabbing bursts. Both improve visibility, but strobes are generally more noticeable in fast-moving or high-risk environments.</p>",
+            "icon": "none"
+          }
+        },
+        "question_ffyGcn": {
+          "type": "question",
+          "settings": {
+            "question": "Are magnetic mount beacon lights as secure as permanent installations?",
+            "answer": "<p>Magnetic mounts are secure for temporary or low-speed use, especially when paired with rubber bases or strong multi-magnet designs. However, for high-speed driving or long-term use, permanent mounts are more reliable. If you're frequently on the highway or in rough terrain, a bolted or hard-mounted beacon is the safer choice.</p>",
+            "icon": "none"
+          }
+        },
+        "question_Khrmfz": {
+          "type": "question",
+          "settings": {
+            "question": "Can beacon lights be used for off-road or utility vehicles?",
+            "answer": "<p>Yes, beacon lights are commonly used on off-road and utility vehicles for increased visibility. Amber or white LED beacons help alert others to slow-moving, stopped, or working vehicles in rugged or low-visibility areas. Make sure the beacon is vibration-resistant and rated for outdoor use (look for IP65 or higher).</p>",
+            "icon": "none"
+          }
+        },
+        "question_r49x6L": {
+          "type": "question",
+          "settings": {
+            "question": "What are the best power options for a beacon light (battery, hardwired, or rechargeable)?",
+            "answer": "<p>Each has its strengths:</p><ul><li>Hardwired beacons are best for permanent setups and consistent power.</li><li>Rechargeable beacons offer portability and are great for temporary use or quick deployment.</li><li>Battery-powered (replaceable batteries) are convenient but may need frequent changes.</li><li>For work vehicles or daily use, hardwired is the most reliable. For occasional use or flexibility across vehicles, go with rechargeable models.</li></ul>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_Ln4r3T",
+        "question_7tUK8A",
+        "question_C6iYpN",
+        "question_ffyGcn",
+        "question_Khrmfz",
+        "question_r49x6L"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "settings": {
+        "section_width": "wide",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
+    "static-recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_faq_kyjq9r",
+    "static-recently-viewed"
+  ]
+}
