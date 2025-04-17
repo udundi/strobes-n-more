@@ -65,32 +65,32 @@
         "question_C6iYpN": {
           "type": "question",
           "settings": {
-            "question": "How does a rotating beacon light differ from a strobe beacon?",
-            "answer": "<p>A rotating beacon simulates motion by spinning a beam of light or using LEDs that mimic rotation. A strobe beacon, on the other hand, uses quick, high-intensity flashes. Rotating beacons offer a traditional, sweeping look and are less intense, while strobes deliver sharper, more attention-grabbing bursts. Both improve visibility, but strobes are generally more noticeable in fast-moving or high-risk environments.</p>",
+            "question": "How do I install a custom automotive console?",
+            "answer": "<p>Installing a custom console usually involves removing the factory center console and bolting the new unit directly to the vehicle’s floor or mounting brackets. Wiring for radios, lighting controls, and power ports is routed through cutouts or pre-drilled panels. Some installs are plug-and-play, but others may require light fabrication—professional installation is recommended for complex setups.</p>",
             "icon": "none"
           }
         },
         "question_ffyGcn": {
           "type": "question",
           "settings": {
-            "question": "Are magnetic mount beacon lights as secure as permanent installations?",
-            "answer": "<p>Magnetic mounts are secure for temporary or low-speed use, especially when paired with rubber bases or strong multi-magnet designs. However, for high-speed driving or long-term use, permanent mounts are more reliable. If you're frequently on the highway or in rough terrain, a bolted or hard-mounted beacon is the safer choice.</p>",
+            "question": "Are automotive consoles universal or vehicle-specific?",
+            "answer": "<p>Both types exist. Universal consoles can fit a range of vehicles but may require extra mounting hardware or adjustments. Vehicle-specific consoles are tailored to the make and model for a clean, secure fit and easier installation. For emergency vehicles, vehicle-specific options are preferred for durability and optimal layout.</p>",
             "icon": "none"
           }
         },
         "question_Khrmfz": {
           "type": "question",
           "settings": {
-            "question": "Can beacon lights be used for off-road or utility vehicles?",
-            "answer": "<p>Yes, beacon lights are commonly used on off-road and utility vehicles for increased visibility. Amber or white LED beacons help alert others to slow-moving, stopped, or working vehicles in rugged or low-visibility areas. Make sure the beacon is vibration-resistant and rated for outdoor use (look for IP65 or higher).</p>",
+            "question": "What storage options are available in automotive consoles?",
+            "answer": "<p>Many consoles offer integrated storage such as locking compartments, cup holders, document trays, and slots for flashlights or handcuffs. Modular accessories like armrests, clipboard holders, or keyboard trays can also be added, depending on the model. Storage is often customizable to suit the needs of law enforcement or fleet operators.</p>",
             "icon": "none"
           }
         },
         "question_r49x6L": {
           "type": "question",
           "settings": {
-            "question": "What are the best power options for a beacon light (battery, hardwired, or rechargeable)?",
-            "answer": "<p>Each has its strengths:</p><ul><li>Hardwired beacons are best for permanent setups and consistent power.</li><li>Rechargeable beacons offer portability and are great for temporary use or quick deployment.</li><li>Battery-powered (replaceable batteries) are convenient but may need frequent changes.</li><li>For work vehicles or daily use, hardwired is the most reliable. For occasional use or flexibility across vehicles, go with rechargeable models.</li></ul>",
+            "question": "Can automotive consoles integrate with lighting control panels?",
+            "answer": "<p>Yes, most emergency vehicle consoles are designed to house lighting control panels, siren systems, and radio units. They include faceplates and mounting slots that match common control heads. This keeps everything centralized, accessible, and neatly organized for quick use during operations.</p>",
             "icon": "none"
           }
         }
