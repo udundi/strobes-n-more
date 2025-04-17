@@ -530,8 +530,8 @@
       ],
       "settings": {
         "width": "full-width",
-        "title": "FAQs",
-        "text": "",
+        "title": "",
+        "text": "<p>.</p><p>.</p>",
         "heading_size": "small",
         "text_alignment": "center"
       }
@@ -542,8 +542,8 @@
         "category_zBpze6": {
           "type": "category",
           "settings": {
-            "heading": "Category",
-            "show_category_card": true
+            "heading": "Frequently Asked Questions",
+            "show_category_card": false
           }
         },
         "question_FP6MCt": {
@@ -822,7 +822,7 @@
       ],
       "settings": {
         "section_width": "wide",
-        "heading": "",
+        "heading": "Frequently Asked Questions",
         "enable_category_cards": false,
         "category_card_image_crop": "original",
         "category_heading_size": "small",
