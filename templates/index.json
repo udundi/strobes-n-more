@@ -521,6 +521,313 @@
       "settings": {
         "title": ""
       }
+    },
+    "dynamic_rich_text_87LzTE": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "{background-color: #21225b;}",
+        "h2 {color: #fff; padding: 12px;}"
+      ],
+      "settings": {
+        "width": "full-width",
+        "title": "FAQs",
+        "text": "",
+        "heading_size": "small",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_faq_Fczewz": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_zBpze6": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_FP6MCt": {
+          "type": "question",
+          "settings": {
+            "question": "What are the benefits of LED warning lights over halogen or strobe lights?",
+            "answer": "<p>LED warning lights are brighter, last longer, and use less power than halogen or strobe lights. They’re also more durable, with solid-state construction that resists shock and vibration. Unlike halogen, LEDs don’t generate much heat, and they don’t require the high-voltage systems that strobes do. This means fewer maintenance issues and better reliability in the field.</p>",
+            "icon": "none"
+          }
+        },
+        "question_9cFQCm": {
+          "type": "question",
+          "settings": {
+            "question": "Are LED warning lights suitable for both emergency and commercial vehicles?",
+            "answer": "<p>Yes, LED warning lights are used widely on both emergency vehicles (like police, fire, and EMS) and commercial vehicles (like tow trucks, utility fleets, and construction vehicles). They offer customizable flash patterns and color options to meet different visibility and regulatory needs, making them adaptable for a wide range of applications.</p>",
+            "icon": "none"
+          }
+        },
+        "question_9KdhGp": {
+          "type": "question",
+          "settings": {
+            "question": "What flash patterns are available in LED warning lights?",
+            "answer": "<p>LED warning lights typically come with multiple flash patterns—often ranging from 10 to 30 or more. Common options include single flash, double flash, quad flash, alternating patterns, and rotating simulations. Some models allow syncing with other lights or alternating patterns across multiple units for enhanced visibility and coordination.</p>",
+            "icon": "none"
+          }
+        },
+        "question_nPGfAr": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked questionHow long do LED warning lights typically last?",
+            "answer": "<p>High-quality LED warning lights typically last 50,000 to 100,000 hours. That’s significantly longer than halogen or strobe lights, which often need replacement after a few thousand hours. LEDs also degrade slowly over time, rather than failing abruptly, which adds to their long-term reliability.</p>",
+            "icon": "none"
+          }
+        },
+        "question_LPt8qB": {
+          "type": "question",
+          "settings": {
+            "question": "Can LED warning lights be dimmed for nighttime use?",
+            "answer": "<p>Yes, many LED warning lights come with dimming features or night mode settings. This helps reduce glare at night while maintaining visibility and safety. Dimming can be automatic based on ambient light, or manually controlled depending on the system.</p>",
+            "icon": "none"
+          }
+        },
+        "question_MhL9yU": {
+          "type": "question",
+          "settings": {
+            "question": "What are the best car emergency lights for roadside safety?",
+            "answer": "<p>The best emergency lights for roadside safety are portable LED beacons, magnetic dash lights, and light bars with high visibility and multiple flash patterns. Look for options that are waterproof, easy to mount, and visible from a long distance. Rechargeable LED beacons are especially useful for quick roadside setups.<br/></p>",
+            "icon": "none"
+          }
+        },
+        "question_VUc8Qt": {
+          "type": "question",
+          "settings": {
+            "question": "Are car emergency lights legal for civilian use?",
+            "answer": "<p>Yes, but it depends on the type and how they're used. Civilians can legally use amber warning lights in most areas for roadside emergencies or work purposes. However, red, blue, or combinations that resemble police or emergency vehicle lights are often restricted. Always check local and state regulations before using emergency lights on public roads.</p>",
+            "icon": "none"
+          }
+        },
+        "question_QxH8Ax": {
+          "type": "question",
+          "settings": {
+            "question": "How do I install temporary emergency lights on my vehicle?",
+            "answer": "<p>Temporary emergency lights can be installed using magnetic mounts, suction cups, or clips, depending on the model. Most plug into a 12V cigarette lighter socket or USB port for power. Setup usually takes just a few minutes and doesn’t require wiring or permanent modifications to your vehicle.</p>",
+            "icon": "none"
+          }
+        },
+        "question_EfkF7n": {
+          "type": "question",
+          "settings": {
+            "question": "What power sources can be used for car emergency lights?",
+            "answer": "<p>Most car emergency lights run on 12V DC power from the vehicle’s cigarette lighter socket. Some also have USB power options or built-in rechargeable batteries for cordless operation. Battery-powered LED beacons are great for portable use without relying on the car's electrical system.</p>",
+            "icon": "none"
+          }
+        },
+        "question_fj7NAG": {
+          "type": "question",
+          "settings": {
+            "question": "Can car emergency lights be synced with hazard lights?",
+            "answer": "<p>In most cases, no—standard vehicle hazard lights and aftermarket emergency lights operate on separate systems. However, some advanced lighting systems offer sync features that allow coordination with other installed warning lights, but syncing with the factory hazard switch typically requires custom wiring and isn't common in temporary setups.</p>",
+            "icon": "none"
+          }
+        },
+        "question_t4TKKk": {
+          "type": "question",
+          "settings": {
+            "question": "What are the best emergency lighting options for trucks?",
+            "answer": "<p>Top emergency lighting options for trucks include LED light bars, strobe beacons, grille lights, and surface-mount warning lights. For work trucks, amber LEDs are most common. For emergency response, color combinations like red/blue or red/white may be used (where legal). Look for high-output, weatherproof lights with multiple flash patterns and rugged construction.<br/></p>",
+            "icon": "none"
+          }
+        },
+        "question_VUQJkW": {
+          "type": "question",
+          "settings": {
+            "question": "How do I install emergency lights on a commercial truck?",
+            "answer": "<p>Installation depends on the type of light. Magnetic or suction-mounted lights are quick and temporary—just plug into a 12V outlet. For permanent setups, surface-mount or grille lights typically require drilling and wiring into a power source, often with a switch panel in the cab. Always follow manufacturer instructions and consider a professional install for complex systems.<br/></p>",
+            "icon": "none"
+          }
+        },
+        "question_qnJ99z": {
+          "type": "question",
+          "settings": {
+            "question": "Are there DOT regulations for truck emergency lighting?",
+            "answer": "<p>Yes. The Department of Transportation (DOT) has regulations covering the color, placement, and usage of lights on commercial trucks. Amber lights are generally allowed for warning purposes, while red or blue is restricted to authorized vehicles. The rules vary by state and application (e.g., utility, tow, emergency), so it’s important to confirm compliance with both federal and state laws.<br/></p>",
+            "icon": "none"
+          }
+        },
+        "question_gHawRX": {
+          "type": "question",
+          "settings": {
+            "question": "Can emergency truck lighting be battery-operated?",
+            "answer": "<p>Yes, many portable LED beacons and work lights for trucks run on rechargeable batteries. These are ideal for temporary use or as backup lighting. However, for permanent warning systems, hardwiring into the truck’s 12V or 24V electrical system is more common for consistent performance and reliability.</p>",
+            "icon": "none"
+          }
+        },
+        "question_pKgYVB": {
+          "type": "question",
+          "settings": {
+            "question": "What are the best brands for truck emergency warning lights?",
+            "answer": "<p>Top-rated brands include Whelen, SoundOff Signal, Feniex, ECCO, and Federal Signal. These companies are known for reliable, high-performance LED lighting designed for commercial and emergency vehicles. They offer a wide range of options with industry certifications, weatherproofing, and advanced features like syncing, dimming, and custom flash patterns.\"</p>",
+            "icon": "none"
+          }
+        },
+        "question_W6W83r": {
+          "type": "question",
+          "settings": {
+            "question": "Where can I buy high-quality police lights online?",
+            "answer": "<p>You can buy high-quality police lights from specialized retailers like Extreme Tactical Dynamics, SpeedTech Lights, Fleet Safety, and Strobes N’ More. These sites offer certified, high-performance lights used by law enforcement, with options for dash, visor, grille, and full light bar setups. Look for trusted brands, warranty coverage, and clear specs before purchasing.</p>",
+            "icon": "none"
+          }
+        },
+        "question_fgXNKD": {
+          "type": "question",
+          "settings": {
+            "question": "Are police-style emergency lights legal for civilian vehicles?",
+            "answer": "<p>In most states, civilians cannot use red, blue, or red/blue flashing lights on public roads, as these are reserved for law enforcement. Some areas allow limited use on private property or for off-road purposes. Amber lights are generally legal for civilian use. Always check local laws before installing police-style lights on your vehicle.</p>",
+            "icon": "none"
+          }
+        },
+        "question_BWXnR6": {
+          "type": "question",
+          "settings": {
+            "question": "What are the best brands for police vehicle lighting?",
+            "answer": "<p>Top brands include Whelen, Federal Signal, Feniex, SoundOff Signal, and Code 3. These manufacturers are widely used by law enforcement agencies and known for their reliability, brightness, and feature-rich products. They offer everything from compact dash lights to full vehicle light systems.<br/></p>",
+            "icon": "none"
+          }
+        },
+        "question_7FacJL": {
+          "type": "question",
+          "settings": {
+            "question": "Do police lights come with different flash patterns?",
+            "answer": "<p>Yes, most police lights come with multiple flash patterns—often 10 to 30 or more. Patterns include single, double, triple flash, alternating sequences, and simulated rotation. Many systems let you sync multiple lights or set directional patterns for traffic control.</p>",
+            "icon": "none"
+          }
+        },
+        "question_dYrHKj": {
+          "type": "question",
+          "settings": {
+            "question": "Can I customize the colors of police vehicle lights?",
+            "answer": "<p>Yes, but it depends on the system and your location’s laws. Most manufacturers offer lights in red, blue, white, amber, and green, and many allow mixed-color configurations. However, red and blue combinations are often restricted to law enforcement. If you’re not an authorized user, stick to legal color options like amber or white.</p>",
+            "icon": "none"
+          }
+        },
+        "question_TT8aGU": {
+          "type": "question",
+          "settings": {
+            "question": "What types of emergency lighting does Strobes N' More offer?",
+            "answer": "<p>Strobes N' More offers a wide range of emergency lighting, including LED light bars, grille lights, surface mounts, dash lights, hideaways, beacons, and traffic advisors. They also carry scene lights and work lights for utility and service vehicles. Their in-house E-Series and Dual Color lines are popular for high-output, reliable performance.<br/></p>",
+            "icon": "none"
+          }
+        },
+        "question_X8T73n": {
+          "type": "question",
+          "settings": {
+            "question": "Are Strobes N' More products suitable for off-road use?",
+            "answer": "<p>Yes, many Strobes N' More lights are built with rugged, weatherproof housings that can handle off-road conditions. Their off-road and utility lighting options are designed for durability, vibration resistance, and visibility in tough environments. Just check IP ratings and mounting options to ensure a good fit for your setup.</p>",
+            "icon": "none"
+          }
+        },
+        "question_N4EQR8": {
+          "type": "question",
+          "settings": {
+            "question": "How do I choose the right light bar from Strobes N' More?",
+            "answer": "<p>Start by considering your vehicle type, mounting location, and intended use. For full-size emergency vehicles, roof-mounted light bars with multiple flash patterns and color zones work best. For smaller vehicles or more discreet setups, visor lights or mini light bars may be ideal. Strobes N' More lists detailed specs and comparison tools to help you choose.</p>",
+            "icon": "none"
+          }
+        },
+        "question_ycdgHp": {
+          "type": "question",
+          "settings": {
+            "question": "Does Strobes N' More offer wiring and installation accessories?",
+            "answer": "<p>Yes, they carry a full range of wiring harnesses, switch boxes, control panels, and mounting hardware. Whether you're doing a temporary setup or a permanent install, you can find the accessories needed to wire and control your lights safely and efficiently.</p>",
+            "icon": "none"
+          }
+        },
+        "question_Yc8Nmr": {
+          "type": "question",
+          "settings": {
+            "question": "Can Strobes N' More products be synchronized with other brands?",
+            "answer": "<p>Some models can be synced with lights from other brands, especially if they use standard sync wires or flashing protocols. However, compatibility isn’t guaranteed across brands, so it’s best to consult wiring diagrams or check with support. For seamless syncing, sticking with the same brand across all units is recommended.</p>",
+            "icon": "none"
+          }
+        },
+        "question_X3FY8B": {
+          "type": "question",
+          "settings": {
+            "question": "What are the best emergency flashing lights for police and fire vehicles?",
+            "answer": "<p>Top choices include high-intensity LED light bars, visor lights, grille lights, and surface-mount strobes. Brands like Whelen, Feniex, SoundOff Signal, and Federal Signal are trusted for their brightness, durability, and advanced flash pattern options. Red/blue or red/white lights are standard for police and fire, depending on local regulations.</p>",
+            "icon": "none"
+          }
+        },
+        "question_NK8UAc": {
+          "type": "question",
+          "settings": {
+            "question": "Are emergency flashing lights legal for personal vehicles?",
+            "answer": "<p>It depends on the color and how they’re used. Amber flashing lights are typically legal for personal use in situations like roadside emergencies or work zones. However, red, blue, or red/blue combinations are usually restricted to authorized emergency vehicles. Always check your local laws before installing flashing lights on your car.<br/></p>",
+            "icon": "none"
+          }
+        },
+        "question_ENhFJg": {
+          "type": "question",
+          "settings": {
+            "question": "How do I choose the right emergency flashing light for my vehicle?",
+            "answer": "<p>Start with your use case: roadside safety, volunteer response, or professional service. For temporary or personal use, portable LED beacons or dash lights work well. For permanent setups, consider grille lights or roof-mounted light bars. Choose lights with multiple flash patterns, proper color for your role, and compatibility with your vehicle’s power system.<br/></p>",
+            "icon": "none"
+          }
+        },
+        "question_xGWGVi": {
+          "type": "question",
+          "settings": {
+            "question": "What are the different flash patterns available in emergency vehicle lights?",
+            "answer": "<p>Common flash patterns include single, double, triple flash, quad flash, alternating, simultaneous, and simulated rotation. Many systems offer up to 30+ patterns, and advanced units allow syncing multiple lights or setting directional sequences for traffic control. Flash patterns can usually be changed with a switch or controller.<br/></p>",
+            "icon": "none"
+          }
+        },
+        "question_awnHYc": {
+          "type": "question",
+          "settings": {
+            "question": "How do emergency vehicle flashing lights improve visibility in low-light conditions?",
+            "answer": "<p>LED flashing lights cut through darkness, fog, rain, and other low-visibility conditions by producing intense, pulsing light. The strobing effect catches attention faster than steady lighting, helping other drivers see and react to the vehicle sooner. This is critical for safety during roadside stops, emergency responses, or nighttime work.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_zBpze6",
+        "question_FP6MCt",
+        "question_9cFQCm",
+        "question_9KdhGp",
+        "question_nPGfAr",
+        "question_LPt8qB",
+        "question_MhL9yU",
+        "question_VUc8Qt",
+        "question_QxH8Ax",
+        "question_EfkF7n",
+        "question_fj7NAG",
+        "question_t4TKKk",
+        "question_VUQJkW",
+        "question_qnJ99z",
+        "question_gHawRX",
+        "question_pKgYVB",
+        "question_W6W83r",
+        "question_fgXNKD",
+        "question_BWXnR6",
+        "question_7FacJL",
+        "question_dYrHKj",
+        "question_TT8aGU",
+        "question_X8T73n",
+        "question_N4EQR8",
+        "question_ycdgHp",
+        "question_Yc8Nmr",
+        "question_X3FY8B",
+        "question_NK8UAc",
+        "question_ENhFJg",
+        "question_xGWGVi",
+        "question_awnHYc"
+      ],
+      "settings": {
+        "section_width": "wide",
+        "heading": "",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "small",
+        "icon_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -532,6 +839,8 @@
     "dynamic_highlights_banner_UdyCk4",
     "dynamic_blog_posts_WbF3Tb",
     "dynamic_rich_text_tEzKJa",
-    "dynamic_logo_list_K49fPx"
+    "dynamic_logo_list_K49fPx",
+    "dynamic_rich_text_87LzTE",
+    "dynamic_faq_Fczewz"
   ]
 }
