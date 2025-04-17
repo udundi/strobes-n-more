@@ -24,10 +24,59 @@
         "heading_size": "medium",
         "text_alignment": "left"
       }
+    },
+    "dynamic_shoppable_image_cabQwY": {
+      "type": "dynamic-shoppable-image",
+      "blocks": {
+        "hotspot_QPJTKG": {
+          "type": "hotspot",
+          "settings": {
+            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
+            "x_axis": 54,
+            "y_axis": 65
+          }
+        },
+        "hotspot_zhXFQK": {
+          "type": "hotspot",
+          "settings": {
+            "product": "strobes-n-more-6-output-led-flasher",
+            "x_axis": 20,
+            "y_axis": 30
+          }
+        },
+        "hotspot_iBqafh": {
+          "type": "hotspot",
+          "settings": {
+            "product": "whelen-l32-super-led-beacon-class-1-2",
+            "x_axis": 85,
+            "y_axis": 55
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_QPJTKG",
+        "hotspot_zhXFQK",
+        "hotspot_iBqafh"
+      ],
+      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
+        "image_width": "two-thirds",
+        "link_text": "View product",
+        "textbox_title": "Tier Placeholder",
+        "textbox_subheading": "<p>LED Flasher V2 - XYZ Points<br/>Sire Amplifier - XYZ Points<br/>LED Beacon - XYZ Points</p>",
+        "textbox_button_label": "",
+        "textbox_button_link": "",
+        "textbox_button_style": "primary",
+        "textbox_text_alignment": "left",
+        "textbox_text_position": "right"
+      }
     }
   },
   "order": [
     "main",
-    "dynamic_rich_text_aNccxt"
+    "dynamic_rich_text_aNccxt",
+    "dynamic_shoppable_image_cabQwY"
   ]
 }
