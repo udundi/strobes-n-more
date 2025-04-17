@@ -50,47 +50,47 @@
         "category_Ln4r3T": {
           "type": "category",
           "settings": {
-            "heading": "Category",
+            "heading": "Amber LED Lightbar",
             "show_category_card": true
           }
         },
         "question_7tUK8A": {
           "type": "question",
           "settings": {
-            "question": "What are the best LED beacon lights for construction and emergency vehicles?",
-            "answer": "<p>The best LED beacons are bright, weatherproof, and built to handle tough environments. Models from ECCO, Whelen, and Federal Signal are top choices. For construction, amber beacons with multiple flash patterns are standard. Emergency vehicles often use dual-color or color-specific beacons (red, blue, or white) based on local regulations. Look for features like 360° visibility, rugged housings, and flexible mounting options.</p>",
+            "question": "What are the top-rated amber LED light bars for work trucks?",
+            "answer": "<p>Top-rated amber LED light bars include models from ECCO, Feniex, Whelen, and Xprite. Look for features like high-output LEDs, multiple flash patterns, weather-sealed housings, and low-profile designs. Full-size rooftop bars and mini bars with magnetic mounts are both popular for work truck applications like plowing, utility service, and road maintenance.</p>",
             "icon": "none"
           }
         },
         "question_C6iYpN": {
           "type": "question",
           "settings": {
-            "question": "How does a rotating beacon light differ from a strobe beacon?",
-            "answer": "<p>A rotating beacon simulates motion by spinning a beam of light or using LEDs that mimic rotation. A strobe beacon, on the other hand, uses quick, high-intensity flashes. Rotating beacons offer a traditional, sweeping look and are less intense, while strobes deliver sharper, more attention-grabbing bursts. Both improve visibility, but strobes are generally more noticeable in fast-moving or high-risk environments.</p>",
+            "question": "Are amber LED light bars suitable for off-road use?",
+            "answer": "<p>Yes. Amber LED light bars are excellent for off-road use, especially in dusty, foggy, or low-visibility conditions. Amber light cuts through airborne particles better than white light, reducing glare and improving trail visibility. They're commonly used on UTVs, trucks, and support vehicles in backcountry environments.</p>",
             "icon": "none"
           }
         },
         "question_ffyGcn": {
           "type": "question",
           "settings": {
-            "question": "Are magnetic mount beacon lights as secure as permanent installations?",
-            "answer": "<p>Magnetic mounts are secure for temporary or low-speed use, especially when paired with rubber bases or strong multi-magnet designs. However, for high-speed driving or long-term use, permanent mounts are more reliable. If you're frequently on the highway or in rough terrain, a bolted or hard-mounted beacon is the safer choice.</p>",
+            "question": "Can amber LED light bars be mounted on a roof rack?",
+            "answer": "<p>Absolutely. Many amber light bars are designed to mount on roof racks, using brackets, U-bolts, or magnetic bases. Make sure the light bar size fits your rack and that it’s secured with weather-rated hardware. Wiring can typically be routed along the rack and through the vehicle’s firewall or accessory port.</p>",
             "icon": "none"
           }
         },
         "question_Khrmfz": {
           "type": "question",
           "settings": {
-            "question": "Can beacon lights be used for off-road or utility vehicles?",
-            "answer": "<p>Yes, beacon lights are commonly used on off-road and utility vehicles for increased visibility. Amber or white LED beacons help alert others to slow-moving, stopped, or working vehicles in rugged or low-visibility areas. Make sure the beacon is vibration-resistant and rated for outdoor use (look for IP65 or higher).</p>",
+            "question": "What power sources are available for amber LED light bars?",
+            "answer": "<p>Amber LED light bars typically run on 12V or 24V DC systems, drawing power from the vehicle’s battery or accessory circuit. Options include hardwiring, plug-and-play cigarette lighter adapters, or quick-connect harnesses. Some models also support use with switch panels or relays for full control.</p>",
             "icon": "none"
           }
         },
         "question_r49x6L": {
           "type": "question",
           "settings": {
-            "question": "What are the best power options for a beacon light (battery, hardwired, or rechargeable)?",
-            "answer": "<p>Each has its strengths:</p><ul><li>Hardwired beacons are best for permanent setups and consistent power.</li><li>Rechargeable beacons offer portability and are great for temporary use or quick deployment.</li><li>Battery-powered (replaceable batteries) are convenient but may need frequent changes.</li><li>For work vehicles or daily use, hardwired is the most reliable. For occasional use or flexibility across vehicles, go with rechargeable models.</li></ul>",
+            "question": "Do amber LED light bars come with wireless remote control?",
+            "answer": "<p>Some models do. Select amber LED bars come with wireless remotes that let you change flash patterns, turn the light on/off, and adjust brightness. These are especially handy for temporary or portable setups. For more permanent installs, many users prefer hardwired switches or dash-mounted control boxes for reliability.</p>",
             "icon": "none"
           }
         }
