@@ -213,11 +213,7 @@
         "question_TaWtXp",
         "question_Qw9inQ"
       ],
-      "custom_css": [
-        "@media (min-width: 1200px) {.faq__items > div {max-width: 600px; }}",
-        "@media (min-width: 768px) {.faq__items {display: flex; gap: 90px; justify-content: space-between; flex-direction: row; }}",
-        ".faq__items > div {margin-bottom: 40px; flex: 1;}"
-      ],
+      "custom_css": [],
       "settings": {
         "section_width": "wide",
         "heading": "Frequently Asked Questions",
