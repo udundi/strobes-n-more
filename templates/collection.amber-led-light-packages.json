@@ -50,47 +50,133 @@
         "category_Ln4r3T": {
           "type": "category",
           "settings": {
-            "heading": "Category",
+            "heading": "LED Amber Light",
             "show_category_card": true
           }
         },
         "question_7tUK8A": {
           "type": "question",
           "settings": {
-            "question": "What are the best LED beacon lights for construction and emergency vehicles?",
-            "answer": "<p>The best LED beacons are bright, weatherproof, and built to handle tough environments. Models from ECCO, Whelen, and Federal Signal are top choices. For construction, amber beacons with multiple flash patterns are standard. Emergency vehicles often use dual-color or color-specific beacons (red, blue, or white) based on local regulations. Look for features like 360° visibility, rugged housings, and flexible mounting options.</p>",
+            "question": "What are the best uses for LED amber warning lights?",
+            "answer": "<p>LED amber lights are ideal for signaling caution. They’re commonly used on construction trucks, utility vehicles, tow trucks, snow plows, pilot cars, and roadside service vehicles. Amber is universally recognized for non-emergency warnings, helping alert other drivers to slow down, give space, or proceed with caution.</p>",
             "icon": "none"
           }
         },
         "question_C6iYpN": {
           "type": "question",
           "settings": {
-            "question": "How does a rotating beacon light differ from a strobe beacon?",
-            "answer": "<p>A rotating beacon simulates motion by spinning a beam of light or using LEDs that mimic rotation. A strobe beacon, on the other hand, uses quick, high-intensity flashes. Rotating beacons offer a traditional, sweeping look and are less intense, while strobes deliver sharper, more attention-grabbing bursts. Both improve visibility, but strobes are generally more noticeable in fast-moving or high-risk environments.</p>",
+            "question": "Are LED amber lights legal for civilian vehicles?",
+            "answer": "<p>Yes, amber lights are generally legal for civilian and commercial vehicles across all states—as long as they’re not used in a way that imitates emergency vehicles. They're commonly approved for work use, hazard signaling, or off-road purposes. Still, it’s smart to double-check state laws for placement and usage rules.</p>",
             "icon": "none"
           }
         },
         "question_ffyGcn": {
           "type": "question",
           "settings": {
-            "question": "Are magnetic mount beacon lights as secure as permanent installations?",
-            "answer": "<p>Magnetic mounts are secure for temporary or low-speed use, especially when paired with rubber bases or strong multi-magnet designs. However, for high-speed driving or long-term use, permanent mounts are more reliable. If you're frequently on the highway or in rough terrain, a bolted or hard-mounted beacon is the safer choice.</p>",
+            "question": "How do I install LED amber lights on a work truck?",
+            "answer": "<p>You can install amber lights using magnetic mounts for temporary setups or bolt mounts for permanent ones. Power options include plugging into a 12V outlet, hardwiring to the truck’s electrical system, or using a battery pack. For hardwiring, you'll need basic tools, connectors, and possibly a control switch inside the cab.</p>",
             "icon": "none"
           }
         },
         "question_Khrmfz": {
           "type": "question",
           "settings": {
-            "question": "Can beacon lights be used for off-road or utility vehicles?",
-            "answer": "<p>Yes, beacon lights are commonly used on off-road and utility vehicles for increased visibility. Amber or white LED beacons help alert others to slow-moving, stopped, or working vehicles in rugged or low-visibility areas. Make sure the beacon is vibration-resistant and rated for outdoor use (look for IP65 or higher).</p>",
+            "question": "What is the lifespan of an LED amber light?",
+            "answer": "<p>High-quality LED amber lights typically last between 50,000 and 100,000 hours. That’s much longer than halogen or strobe lights. Plus, LEDs degrade slowly, so they remain functional for years with little to no maintenance.</p>",
             "icon": "none"
           }
         },
         "question_r49x6L": {
           "type": "question",
           "settings": {
-            "question": "What are the best power options for a beacon light (battery, hardwired, or rechargeable)?",
-            "answer": "<p>Each has its strengths:</p><ul><li>Hardwired beacons are best for permanent setups and consistent power.</li><li>Rechargeable beacons offer portability and are great for temporary use or quick deployment.</li><li>Battery-powered (replaceable batteries) are convenient but may need frequent changes.</li><li>For work vehicles or daily use, hardwired is the most reliable. For occasional use or flexibility across vehicles, go with rechargeable models.</li></ul>",
+            "question": "Can LED amber lights be used for construction and road safety?",
+            "answer": "<p>Absolutely. LED amber lights are a staple for construction zones, road crews, flagging operations, and roadside assistance. They increase visibility, warn passing drivers of work activity, and reduce the risk of accidents—especially in low-light or high-traffic conditions.</p>",
+            "icon": "none"
+          }
+        },
+        "category_WkBUjh": {
+          "type": "category",
+          "settings": {
+            "heading": "Amber Strobe Light",
+            "show_category_card": true
+          }
+        },
+        "question_AKhFTx": {
+          "type": "question",
+          "settings": {
+            "question": "What are the best amber strobe lights for construction vehicles?",
+            "answer": "<p>The best amber strobes for construction vehicles are bright, weather-sealed, and vibration-resistant. Top picks include surface-mount strobes, mini light bars, and magnetic LED units from brands like ECCO, Whelen, and Federal Signal. Look for models with multiple flash patterns, wide-angle visibility, and rugged housings rated for outdoor use.</p>",
+            "icon": "none"
+          }
+        },
+        "question_aNQ9bY": {
+          "type": "question",
+          "settings": {
+            "question": "Are amber strobe lights street legal?",
+            "answer": "<p>Yes, amber strobe lights are legal on public roads in most states when used on construction, utility, or service vehicles. They’re meant for warning—not emergency—use. While amber is broadly permitted, always check your local regulations for specific rules on when and how the lights can be used.</p>",
+            "icon": "none"
+          }
+        },
+        "question_gFgjkE": {
+          "type": "question",
+          "settings": {
+            "question": "How do I install an amber strobe light on my truck?",
+            "answer": "<p>You can install an amber strobe using a magnetic base for temporary setups or a bolt-on mount for permanent installs. Power it through your truck’s 12V system, usually via a cigarette lighter plug or hardwiring to a fuse box or switch panel. Always follow manufacturer wiring diagrams and secure all connections against vibration.</p>",
+            "icon": "none"
+          }
+        },
+        "question_iTbndg": {
+          "type": "question",
+          "settings": {
+            "question": "What is the difference between an amber strobe and an LED beacon?",
+            "answer": "<p>An amber strobe emits rapid, high-intensity flashes—ideal for catching attention fast in active work zones. An LED beacon often flashes or rotates more slowly, offering broader 360° visibility. Strobes are more intense and directional, while beacons provide constant area coverage. Some units combine both features.</p>",
+            "icon": "none"
+          }
+        },
+        "category_GTWyyr": {
+          "type": "category",
+          "settings": {
+            "heading": "Best Amber Warning Lights For SXS",
+            "show_category_card": true
+          }
+        },
+        "question_Gi7V4y": {
+          "type": "question",
+          "settings": {
+            "question": "What are the best amber warning lights for off-road and SXS vehicles?",
+            "answer": "<p>Top amber lights for off-road and SXS (side-by-side) vehicles include low-profile LED whips, chase lights, and compact surface-mount strobes. Look for dust-resistant, waterproof models with vibration resistance. Brands like Baja Designs, Xprite, and Rigid Industries offer rugged amber lighting made for trails, dunes, and backcountry use.</p>",
+            "icon": "none"
+          }
+        },
+        "question_RePR6C": {
+          "type": "question",
+          "settings": {
+            "question": "Are amber LED lights necessary for night riding in a UTV?",
+            "answer": "<p>They’re not required, but they’re highly recommended. Amber LEDs cut through dust, fog, and low-visibility conditions better than white or blue lights, making you easier to spot by other riders. Many off-road parks and ride events require rear-facing amber lights for safety during group night rides.</p>",
+            "icon": "none"
+          }
+        },
+        "question_LNrhNG": {
+          "type": "question",
+          "settings": {
+            "question": "How do I install amber warning lights on a Polaris RZR or Can-Am Maverick?",
+            "answer": "<p>Most amber lights for SXS vehicles mount using brackets, clamps, or adhesive pads. Power can be pulled from an accessory port, bus bar, or the battery—usually routed through a fuse and relay. Many riders wire them to a switch panel or rocker switch on the dash for easy control.</p>",
+            "icon": "none"
+          }
+        },
+        "question_x3tR7i": {
+          "type": "question",
+          "settings": {
+            "question": "What are the advantages of using amber over white or blue lights on an SXS?",
+            "answer": "<p>Amber lights cause less glare in dust, fog, and snow, improving visibility for you and others behind you. Unlike white or blue, amber is easier on the eyes in low-light conditions and doesn’t reflect back as harshly. It’s also more likely to meet trail safety standards and group ride rules.</p>",
+            "icon": "none"
+          }
+        },
+        "question_wfan7X": {
+          "type": "question",
+          "settings": {
+            "question": "Can amber warning lights be controlled via a switch panel on an SXS?",
+            "answer": "<p>Yes, and it’s the most common setup. You can wire amber lights to a switch panel or rocker switch to control them independently. Some switch panels even have backlighting, custom labeling, and fuse protection built in, making it easier to manage multiple lighting zones on your UTV.</p>",
             "icon": "none"
           }
         }
@@ -101,11 +187,20 @@
         "question_C6iYpN",
         "question_ffyGcn",
         "question_Khrmfz",
-        "question_r49x6L"
+        "question_r49x6L",
+        "category_WkBUjh",
+        "question_AKhFTx",
+        "question_aNQ9bY",
+        "question_gFgjkE",
+        "question_iTbndg",
+        "category_GTWyyr",
+        "question_Gi7V4y",
+        "question_RePR6C",
+        "question_LNrhNG",
+        "question_x3tR7i",
+        "question_wfan7X"
       ],
-      "custom_css": [
-        "h3 {display: none;}"
-      ],
+      "custom_css": [],
       "settings": {
         "section_width": "wide",
         "heading": "Frequently Asked Questions",
