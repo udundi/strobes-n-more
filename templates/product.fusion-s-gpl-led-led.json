@@ -1,0 +1,342 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "vendor": {
+          "type": "vendor",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {}
+        },
+        "infinite_options_app_block_price_aRgW9h": {
+          "type": "shopify://apps/infinite-options/blocks/app-block-price/7e73b6f9-82b0-45f5-9b9b-04f446ba1a9b",
+          "disabled": true,
+          "settings": {
+            "color": "#000000",
+            "font": "Assistant, sans-serif",
+            "font_size": "18px"
+          }
+        },
+        "sku_HkzLKU": {
+          "type": "sku",
+          "settings": {}
+        },
+        "infinite_options_app_block_XM9Rqj": {
+          "type": "shopify://apps/infinite-options/blocks/app-block/7e73b6f9-82b0-45f5-9b9b-04f446ba1a9b",
+          "disabled": true,
+          "settings": {}
+        },
+        "form": {
+          "type": "form",
+          "settings": {
+            "enable_local_pickup": false,
+            "show_gift_card_recipient_form": false
+          }
+        },
+        "rating": {
+          "type": "rating",
+          "settings": {}
+        },
+        "desc_tab_QhEzwa": {
+          "type": "desc-tab",
+          "settings": {}
+        },
+        "complementary_products_UQ4miN": {
+          "type": "complementary_products",
+          "settings": {
+            "heading": "Accessories",
+            "product_recommendation_limit": 10,
+            "products_per_slide": 2
+          }
+        },
+        "share": {
+          "type": "share",
+          "settings": {}
+        },
+        "judge_me_reviews_preview_badge_67REpr": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "title",
+        "vendor",
+        "price",
+        "infinite_options_app_block_price_aRgW9h",
+        "sku_HkzLKU",
+        "infinite_options_app_block_XM9Rqj",
+        "form",
+        "rating",
+        "desc_tab_QhEzwa",
+        "complementary_products_UQ4miN",
+        "share",
+        "judge_me_reviews_preview_badge_67REpr"
+      ],
+      "custom_css": [
+        ".shopify-payment-button button {text-transform: uppercase;}",
+        "div[id*=\"trustpilot-widget-trustbox-0-wrapper\"] {display: none;}",
+        "@media (min-width: 1024px) {.product-gallery {position: sticky; top: 140px; /* Adjust as needed */ align-self: flex-start; /* Make sure it aligns properly */ z-index: 10; /* Ensures it stays above other elements */ }}"
+      ],
+      "settings": {
+        "gallery_aspect_ratio": "natural",
+        "gallery_image_crop": false,
+        "gallery_thumbnail_position": "below",
+        "gallery_video_autoplay": true,
+        "gallery_video_looping": true,
+        "gallery_hover_zoom": "disabled",
+        "gallery_click_to_zoom": "always"
+      }
+    },
+    "17361695840f23726e": {
+      "type": "apps",
+      "blocks": {
+        "oneloyalty_point_calculator_nHNciU": {
+          "type": "shopify://apps/oneloyalty/blocks/pointCalculator/6119b281-36ce-42b5-93ab-6aaf5fb224ce",
+          "settings": {
+            "alignment_component": "left"
+          }
+        }
+      },
+      "block_order": [
+        "oneloyalty_point_calculator_nHNciU"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "17407469585773d0a2": {
+      "type": "apps",
+      "blocks": {
+        "trustshop_reviews_widget_box_9iN66A": {
+          "type": "shopify://apps/trustshop-reviews/blocks/widget-box/18b0c4cc-5411-4b6e-922d-34fdc2f30ab9",
+          "settings": {
+            "selected_product": "{{ product }}",
+            "wrapper_class": ""
+          }
+        }
+      },
+      "block_order": [
+        "trustshop_reviews_widget_box_9iN66A"
+      ],
+      "disabled": true,
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "1740751518ae8cc801": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_ykadq4": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_ykadq4"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "dynamic_faq_DL8gWe": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_RXBHFn": {
+          "type": "category",
+          "settings": {
+            "heading": "Shipping",
+            "show_category_card": true
+          }
+        },
+        "question_N7XcBJ": {
+          "type": "question",
+          "settings": {
+            "question": "Do you ship overseas?",
+            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>",
+            "icon": "none"
+          }
+        },
+        "question_Q7V7f7": {
+          "type": "question",
+          "settings": {
+            "question": "How long will it take to get my order?",
+            "answer": "<p>The shipping time may vary depending on your location and the selected shipping method. During the checkout process, you will be provided with estimated delivery times based on your destination.</p>",
+            "icon": "none"
+          }
+        },
+        "question_pWG86w": {
+          "type": "question",
+          "settings": {
+            "question": "How can I track my order?",
+            "answer": "<p>Once your order is shipped, you will receive a confirmation email with tracking information. You can use this information to track the status and estimated delivery time of your order.</p>",
+            "icon": "none"
+          }
+        },
+        "category_i6NNUK": {
+          "type": "category",
+          "settings": {
+            "heading": "Orders",
+            "show_category_card": true
+          }
+        },
+        "question_XLJAbP": {
+          "type": "question",
+          "settings": {
+            "question": "Can I get my product personalized?",
+            "answer": "<p>It depends on the manufacturer and the product. All options are outlined on the product page, so look out for customization options there.</p>",
+            "icon": "none"
+          }
+        },
+        "question_JWg3Kp": {
+          "type": "question",
+          "settings": {
+            "question": "Is there a minimum order quantity for wholesale purchases?",
+            "answer": "<p>While we cater to both individual and wholesale customers, specific products may have minimum order quantities for wholesale purchases. Check the product details or contact our team for wholesale order requirements.</p>",
+            "icon": "none"
+          }
+        },
+        "question_Bg4xCX": {
+          "type": "question",
+          "settings": {
+            "question": "Can I modify my order after it has been placed?",
+            "answer": "<p>Once an order is placed, modifications may be limited. Please contact our customer support team as soon as possible if you need to make changes to your order, and we will do our best to accommodate your request.</p>",
+            "icon": "none"
+          }
+        },
+        "question_TaWtXp": {
+          "type": "question",
+          "settings": {
+            "question": "Do you offer technical support for your products?",
+            "answer": "<p>Absolutely! If you have any technical questions or need assistance with the installation and operation of our products, our knowledgeable technical support team is ready to help. Contact us for technical support.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_RXBHFn",
+        "question_N7XcBJ",
+        "question_Q7V7f7",
+        "question_pWG86w",
+        "category_i6NNUK",
+        "question_XLJAbP",
+        "question_JWg3Kp",
+        "question_Bg4xCX",
+        "question_TaWtXp"
+      ],
+      "custom_css": [
+        "@media (min-width: 1200px) {.faq__items > div {max-width: 600px; }}",
+        "@media (min-width: 768px) {.faq__items {display: flex; gap: 90px; justify-content: space-between; flex-direction: row; }}",
+        ".faq__items > div {margin-bottom: 40px; flex: 1;}"
+      ],
+      "settings": {
+        "section_width": "full-width",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
+    "recommendations": {
+      "type": "static-product-recommendations",
+      "settings": {
+        "show_product_recommendations": true,
+        "product_recommendations_heading": "You May Also Like"
+      }
+    },
+    "dynamic_rich_text_nH4Ctq": {
+      "type": "dynamic-rich-text",
+      "disabled": true,
+      "settings": {
+        "width": "wide",
+        "title": "Will Use Testimonials app here",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_highlights_banner_DTRagm": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_Q339zW": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-information",
+            "title": "Warranty Info",
+            "text": "<p>Easy to follow instructions provided by each manufacturer</p>",
+            "link": "shopify://pages/warranty-and-repairs"
+          }
+        },
+        "highlight_88jjUt": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-thumbs-up",
+            "title": "Helpful Videos",
+            "text": "<p>Installation & troubleshooting tips from our team</p>",
+            "link": "shopify://blogs/instructional-videos"
+          }
+        },
+        "highlight_pUnkHf": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-tape-measure",
+            "title": "Installation Services",
+            "text": "<p>Expert service with unmatched reliability and performance</p>",
+            "link": "shopify://pages/installation-service"
+          }
+        }
+      },
+      "block_order": [
+        "highlight_Q339zW",
+        "highlight_88jjUt",
+        "highlight_pUnkHf"
+      ],
+      "custom_css": [
+        "p {color: black;}"
+      ],
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "center",
+        "color": "#20215a",
+        "icon_color": "#07145e",
+        "background_color": "#ffffff",
+        "mobile_layout": "slider"
+      }
+    },
+    "recently-viewed": {
+      "type": "static-recently-viewed",
+      "custom_css": [],
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "17361695840f23726e",
+    "17407469585773d0a2",
+    "1740751518ae8cc801",
+    "dynamic_faq_DL8gWe",
+    "recommendations",
+    "dynamic_rich_text_nH4Ctq",
+    "dynamic_highlights_banner_DTRagm",
+    "recently-viewed"
+  ]
+}
