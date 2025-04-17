@@ -70,7 +70,7 @@
         "textbox_button_link": "",
         "textbox_button_style": "primary",
         "textbox_text_alignment": "left",
-        "textbox_text_position": "right"
+        "textbox_text_position": "left"
       }
     }
   },
