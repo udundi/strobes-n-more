@@ -73,6 +73,21 @@
         "textbox_text_position": "left"
       }
     },
+    "dynamic_rich_text_MrAKUE": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "h2 {color: #21225b; padding: 12px;}",
+        " {background-color: #21225b;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "title": ".",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
     "dynamic_shoppable_image_3UFi9H": {
       "type": "dynamic-shoppable-image",
       "blocks": {
@@ -126,6 +141,7 @@
     "main",
     "dynamic_rich_text_aNccxt",
     "dynamic_shoppable_image_cabQwY",
+    "dynamic_rich_text_MrAKUE",
     "dynamic_shoppable_image_3UFi9H"
   ]
 }
