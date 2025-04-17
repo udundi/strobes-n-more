@@ -157,87 +157,61 @@
     "dynamic_faq_DL8gWe": {
       "type": "dynamic-faq",
       "blocks": {
-        "category_RXBHFn": {
-          "type": "category",
-          "settings": {
-            "heading": "Shipping",
-            "show_category_card": true
-          }
-        },
-        "question_N7XcBJ": {
-          "type": "question",
-          "settings": {
-            "question": "Do you ship overseas?",
-            "answer": "<p>Yes, we ship all over the world. Shipping costs will apply, and will be added at checkout. We run discounts and promotions all year, so stay tuned for exclusive deals.</p>",
-            "icon": "none"
-          }
-        },
-        "question_Q7V7f7": {
-          "type": "question",
-          "settings": {
-            "question": "How long will it take to get my order?",
-            "answer": "<p>The shipping time may vary depending on your location and the selected shipping method. During the checkout process, you will be provided with estimated delivery times based on your destination.</p>",
-            "icon": "none"
-          }
-        },
-        "question_pWG86w": {
-          "type": "question",
-          "settings": {
-            "question": "How can I track my order?",
-            "answer": "<p>Once your order is shipped, you will receive a confirmation email with tracking information. You can use this information to track the status and estimated delivery time of your order.</p>",
-            "icon": "none"
-          }
-        },
         "category_i6NNUK": {
           "type": "category",
           "settings": {
-            "heading": "Orders",
+            "heading": "Fenix Light Bar",
             "show_category_card": true
           }
         },
         "question_XLJAbP": {
           "type": "question",
           "settings": {
-            "question": "Can I get my product personalized?",
-            "answer": "<p>It depends on the manufacturer and the product. All options are outlined on the product page, so look out for customization options there.</p>",
+            "question": "What are the best Feniex light bars for first responders?",
+            "answer": "<p>Top picks include the Feniex Fusion-S Lightbar, Fusion-S Mini, and the Quad Series. These bars offer high-output LEDs, customizable optics, and multiple color modes. They're built for police, fire, and EMS use, with strong durability, sleek profiles, and integration options for full vehicle control systems.</p>",
             "icon": "none"
           }
         },
         "question_JWg3Kp": {
           "type": "question",
           "settings": {
-            "question": "Is there a minimum order quantity for wholesale purchases?",
-            "answer": "<p>While we cater to both individual and wholesale customers, specific products may have minimum order quantities for wholesale purchases. Check the product details or contact our team for wholesale order requirements.</p>",
+            "question": "How does the Feniex Fusion light bar compare to other brands?",
+            "answer": "<p>The Feniex Fusion line stands out for its 180° or 40° optic choices, giving users flexibility between wide-angle visibility and focused forward light. It also features high brightness, user-configurable flash patterns, and compatibility with Feniex's control systems like the 4200 Controller. Compared to similar bars from Whelen or SoundOff, Fusion bars often come at a lower price point without sacrificing performance.</p>",
             "icon": "none"
           }
         },
         "question_Bg4xCX": {
           "type": "question",
           "settings": {
-            "question": "Can I modify my order after it has been placed?",
-            "answer": "<p>Once an order is placed, modifications may be limited. Please contact our customer support team as soon as possible if you need to make changes to your order, and we will do our best to accommodate your request.</p>",
+            "question": "Are Feniex light bars available in different flash patterns?",
+            "answer": "<p>Yes, Feniex light bars come with dozens of programmable flash patterns, including single, double, triple, quad flash, directional patterns, and random strobe sequences. With the Quad Series, users can also program multiple color combinations and switch patterns on the fly using the controller or software.</p>",
             "icon": "none"
           }
         },
         "question_TaWtXp": {
           "type": "question",
           "settings": {
-            "question": "Do you offer technical support for your products?",
-            "answer": "<p>Absolutely! If you have any technical questions or need assistance with the installation and operation of our products, our knowledgeable technical support team is ready to help. Contact us for technical support.</p>",
+            "question": "Can Feniex light bars be used for both interior and exterior mounting?",
+            "answer": "<p>Yes. Feniex offers models designed for both interior (like rear deck or visor bars) and exterior (roof-mounted or push bumper) use. Light bars like the Fusion-S Mini are compact enough for interior mounting, while full-size Fusion or Quad light bars are built for exterior roof mounting with weather-sealed housings.</p>",
+            "icon": "none"
+          }
+        },
+        "question_Qw9inQ": {
+          "type": "question",
+          "settings": {
+            "question": "What is the lifespan of a typical Feniex LED light bar?",
+            "answer": "<p>Feniex LED light bars are rated for 50,000 hours of use. They use solid-state electronics and sealed housings to withstand harsh conditions, making them ideal for long-term use in emergency and service vehicles. The brand also offers 5-year warranties on most of its products for added peace of mind.</p>",
             "icon": "none"
           }
         }
       },
       "block_order": [
-        "category_RXBHFn",
-        "question_N7XcBJ",
-        "question_Q7V7f7",
-        "question_pWG86w",
         "category_i6NNUK",
         "question_XLJAbP",
         "question_JWg3Kp",
         "question_Bg4xCX",
-        "question_TaWtXp"
+        "question_TaWtXp",
+        "question_Qw9inQ"
       ],
       "custom_css": [
         "@media (min-width: 1200px) {.faq__items > div {max-width: 600px; }}",
@@ -245,7 +219,7 @@
         ".faq__items > div {margin-bottom: 40px; flex: 1;}"
       ],
       "settings": {
-        "section_width": "full-width",
+        "section_width": "wide",
         "heading": "Frequently Asked Questions",
         "enable_category_cards": false,
         "category_card_image_crop": "original",
