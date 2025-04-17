@@ -1,0 +1,225 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-collection",
+      "blocks": {
+        "filter-1": {
+          "type": "filter",
+          "settings": {
+            "filter_option": "tag",
+            "filter_groups": "expand_first",
+            "show_filter_product_count": false,
+            "filter_style": "tags",
+            "filter_limit": "20",
+            "grid_categories": "",
+            "custom_ordered_categories": "",
+            "custom_ordered_tags": "",
+            "excluded_tags": "B6LED, B6MM, L10, L51, Class 1, SoundOff Signal Class 1 LED Beacon, exterior, Whelen L41 Class 1 LED Beacon,",
+            "excluded_groups": ""
+          }
+        }
+      },
+      "block_order": [
+        "filter-1"
+      ],
+      "settings": {
+        "show_collection_image": false,
+        "products_per_page_range": 48,
+        "products_per_row": "4",
+        "sort_by": true,
+        "grid_list": true,
+        "default_view": "grid-view",
+        "enable_subcollection": true,
+        "show_product_count": false,
+        "thumbnail_image": "collection-image",
+        "image_crop": "original"
+      }
+    },
+    "dynamic_faq_kyjq9r": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_Ln4r3T": {
+          "type": "category",
+          "settings": {
+            "heading": "LED Amber Light",
+            "show_category_card": true
+          }
+        },
+        "question_7tUK8A": {
+          "type": "question",
+          "settings": {
+            "question": "What are the best uses for LED amber warning lights?",
+            "answer": "<p>LED amber lights are ideal for signaling caution. They’re commonly used on construction trucks, utility vehicles, tow trucks, snow plows, pilot cars, and roadside service vehicles. Amber is universally recognized for non-emergency warnings, helping alert other drivers to slow down, give space, or proceed with caution.</p>",
+            "icon": "none"
+          }
+        },
+        "question_C6iYpN": {
+          "type": "question",
+          "settings": {
+            "question": "Are LED amber lights legal for civilian vehicles?",
+            "answer": "<p>Yes, amber lights are generally legal for civilian and commercial vehicles across all states—as long as they’re not used in a way that imitates emergency vehicles. They're commonly approved for work use, hazard signaling, or off-road purposes. Still, it’s smart to double-check state laws for placement and usage rules.</p>",
+            "icon": "none"
+          }
+        },
+        "question_ffyGcn": {
+          "type": "question",
+          "settings": {
+            "question": "How do I install LED amber lights on a work truck?",
+            "answer": "<p>You can install amber lights using magnetic mounts for temporary setups or bolt mounts for permanent ones. Power options include plugging into a 12V outlet, hardwiring to the truck’s electrical system, or using a battery pack. For hardwiring, you'll need basic tools, connectors, and possibly a control switch inside the cab.</p>",
+            "icon": "none"
+          }
+        },
+        "question_Khrmfz": {
+          "type": "question",
+          "settings": {
+            "question": "What is the lifespan of an LED amber light?",
+            "answer": "<p>High-quality LED amber lights typically last between 50,000 and 100,000 hours. That’s much longer than halogen or strobe lights. Plus, LEDs degrade slowly, so they remain functional for years with little to no maintenance.</p>",
+            "icon": "none"
+          }
+        },
+        "question_r49x6L": {
+          "type": "question",
+          "settings": {
+            "question": "Can LED amber lights be used for construction and road safety?",
+            "answer": "<p>Absolutely. LED amber lights are a staple for construction zones, road crews, flagging operations, and roadside assistance. They increase visibility, warn passing drivers of work activity, and reduce the risk of accidents—especially in low-light or high-traffic conditions.</p>",
+            "icon": "none"
+          }
+        },
+        "category_WkBUjh": {
+          "type": "category",
+          "settings": {
+            "heading": "Amber Strobe Light",
+            "show_category_card": true
+          }
+        },
+        "question_AKhFTx": {
+          "type": "question",
+          "settings": {
+            "question": "What are the best amber strobe lights for construction vehicles?",
+            "answer": "<p>The best amber strobes for construction vehicles are bright, weather-sealed, and vibration-resistant. Top picks include surface-mount strobes, mini light bars, and magnetic LED units from brands like ECCO, Whelen, and Federal Signal. Look for models with multiple flash patterns, wide-angle visibility, and rugged housings rated for outdoor use.</p>",
+            "icon": "none"
+          }
+        },
+        "question_aNQ9bY": {
+          "type": "question",
+          "settings": {
+            "question": "Are amber strobe lights street legal?",
+            "answer": "<p>Yes, amber strobe lights are legal on public roads in most states when used on construction, utility, or service vehicles. They’re meant for warning—not emergency—use. While amber is broadly permitted, always check your local regulations for specific rules on when and how the lights can be used.</p>",
+            "icon": "none"
+          }
+        },
+        "question_gFgjkE": {
+          "type": "question",
+          "settings": {
+            "question": "How do I install an amber strobe light on my truck?",
+            "answer": "<p>You can install an amber strobe using a magnetic base for temporary setups or a bolt-on mount for permanent installs. Power it through your truck’s 12V system, usually via a cigarette lighter plug or hardwiring to a fuse box or switch panel. Always follow manufacturer wiring diagrams and secure all connections against vibration.</p>",
+            "icon": "none"
+          }
+        },
+        "question_iTbndg": {
+          "type": "question",
+          "settings": {
+            "question": "What is the difference between an amber strobe and an LED beacon?",
+            "answer": "<p>An amber strobe emits rapid, high-intensity flashes—ideal for catching attention fast in active work zones. An LED beacon often flashes or rotates more slowly, offering broader 360° visibility. Strobes are more intense and directional, while beacons provide constant area coverage. Some units combine both features.</p>",
+            "icon": "none"
+          }
+        },
+        "category_GTWyyr": {
+          "type": "category",
+          "settings": {
+            "heading": "Best Amber Warning Lights For SXS",
+            "show_category_card": true
+          }
+        },
+        "question_Gi7V4y": {
+          "type": "question",
+          "settings": {
+            "question": "What are the best amber warning lights for off-road and SXS vehicles?",
+            "answer": "<p>Top amber lights for off-road and SXS (side-by-side) vehicles include low-profile LED whips, chase lights, and compact surface-mount strobes. Look for dust-resistant, waterproof models with vibration resistance. Brands like Baja Designs, Xprite, and Rigid Industries offer rugged amber lighting made for trails, dunes, and backcountry use.</p>",
+            "icon": "none"
+          }
+        },
+        "question_RePR6C": {
+          "type": "question",
+          "settings": {
+            "question": "Are amber LED lights necessary for night riding in a UTV?",
+            "answer": "<p>They’re not required, but they’re highly recommended. Amber LEDs cut through dust, fog, and low-visibility conditions better than white or blue lights, making you easier to spot by other riders. Many off-road parks and ride events require rear-facing amber lights for safety during group night rides.</p>",
+            "icon": "none"
+          }
+        },
+        "question_LNrhNG": {
+          "type": "question",
+          "settings": {
+            "question": "How do I install amber warning lights on a Polaris RZR or Can-Am Maverick?",
+            "answer": "<p>Most amber lights for SXS vehicles mount using brackets, clamps, or adhesive pads. Power can be pulled from an accessory port, bus bar, or the battery—usually routed through a fuse and relay. Many riders wire them to a switch panel or rocker switch on the dash for easy control.</p>",
+            "icon": "none"
+          }
+        },
+        "question_x3tR7i": {
+          "type": "question",
+          "settings": {
+            "question": "What are the advantages of using amber over white or blue lights on an SXS?",
+            "answer": "<p>Amber lights cause less glare in dust, fog, and snow, improving visibility for you and others behind you. Unlike white or blue, amber is easier on the eyes in low-light conditions and doesn’t reflect back as harshly. It’s also more likely to meet trail safety standards and group ride rules.</p>",
+            "icon": "none"
+          }
+        },
+        "question_wfan7X": {
+          "type": "question",
+          "settings": {
+            "question": "Can amber warning lights be controlled via a switch panel on an SXS?",
+            "answer": "<p>Yes, and it’s the most common setup. You can wire amber lights to a switch panel or rocker switch to control them independently. Some switch panels even have backlighting, custom labeling, and fuse protection built in, making it easier to manage multiple lighting zones on your UTV.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_Ln4r3T",
+        "question_7tUK8A",
+        "question_C6iYpN",
+        "question_ffyGcn",
+        "question_Khrmfz",
+        "question_r49x6L",
+        "category_WkBUjh",
+        "question_AKhFTx",
+        "question_aNQ9bY",
+        "question_gFgjkE",
+        "question_iTbndg",
+        "category_GTWyyr",
+        "question_Gi7V4y",
+        "question_RePR6C",
+        "question_LNrhNG",
+        "question_x3tR7i",
+        "question_wfan7X"
+      ],
+      "custom_css": [],
+      "settings": {
+        "section_width": "wide",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
+    "static-recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_faq_kyjq9r",
+    "static-recently-viewed"
+  ]
+}
