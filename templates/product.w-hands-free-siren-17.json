@@ -160,47 +160,47 @@
         "category_i6NNUK": {
           "type": "category",
           "settings": {
-            "heading": "speed turtle 3.0",
+            "heading": "whelen sirens",
             "show_category_card": true
           }
         },
         "question_XLJAbP": {
           "type": "question",
           "settings": {
-            "question": "What vehicles are compatible with the Speed Turtle 3.0 module?",
-            "answer": "<p>Speed Turtle 3.0 is compatible with a wide range of vehicles from major manufacturers like Ford, Dodge, Chevrolet, Toyota, Nissan, and GMC. It’s designed to work with vehicles equipped with CAN bus systems, including many police interceptors, pickup trucks, SUVs, and fleet vehicles. Compatibility varies by year and model, so it’s best to check the official compatibility list or use Speed Turtle’s lookup tool.</p>",
+            "question": "What are the loudest Whelen sirens available?",
+            "answer": "<p>The Whelen WSS Series and 295SLSA6 sirens are among the loudest in Whelen’s lineup, delivering up to 200 watts of output when paired with dual speakers. These units are built for high-performance emergency response, capable of cutting through traffic noise and urban environments with powerful tones and clear audio.</p>",
             "icon": "none"
           }
         },
         "question_JWg3Kp": {
           "type": "question",
           "settings": {
-            "question": "How does Speed Turtle 3.0 control emergency vehicle lighting?",
-            "answer": "<p>The module plugs directly into the vehicle’s OBD-II port and communicates with the CAN bus system to control the factory lights—such as brake lights, reverse lights, turn signals, and DRLs—turning them into flashing warning lights. It requires no cutting or hardwiring and can trigger lighting patterns with just a tap of the brake pedal, use of the gear shift, or activation of specific vehicle inputs.</p>",
+            "question": "How do Whelen sirens compare to Federal Signal sirens?",
+            "answer": "<p>Whelen sirens are known for their simplicity, reliability, and rugged build quality, while Federal Signal sirens often stand out for advanced integration and tone options. Whelen tends to offer more straightforward, easy-to-use systems, whereas Federal Signal emphasizes programmable logic and control through systems like Pathfinder. Both are high-quality—choice often comes down to fleet preferences and desired features.</p>",
             "icon": "none"
           }
         },
         "question_Bg4xCX": {
           "type": "question",
           "settings": {
-            "question": "Is Speed Turtle 3.0 easy to install and remove?",
-            "answer": "<p>Yes. The Speed Turtle 3.0 is a plug-and-play device that installs in seconds via the OBD-II port, with no permanent modifications required. Removal is just as fast, making it ideal for temporary use or vehicles shared between users. It’s a convenient solution for agencies or fleets that rotate vehicles often.</p>",
+            "question": "Are Whelen sirens programmable for different tones?",
+            "answer": "<p>Yes. Most Whelen sirens offer a selection of pre-programmed tones like Wail, Yelp, Piercer, Hi-Lo, and Air Horn. Some models, like the 295SDA1, allow users to customize tone selections, tone duration, and input triggers. While they don’t offer as much deep software customization as some competitors, they’re highly functional and easy to program.</p>",
             "icon": "none"
           }
         },
         "question_TaWtXp": {
           "type": "question",
           "settings": {
-            "question": "Can the Speed Turtle 3.0 module be used for covert police lighting?",
-            "answer": "<p>Absolutely. Speed Turtle 3.0 is widely used in unmarked and covert law enforcement vehicles. It allows the use of factory lights for warning functions without visible aftermarket lighting. This helps maintain a clean, low-profile appearance while still providing effective signaling when needed.</p>",
+            "question": "Can Whelen sirens be integrated with light bars?",
+            "answer": "<p>Yes. Whelen sirens are designed to work seamlessly with Whelen lightbars and control systems, including the CenCom Core and CenCom Carbide. Integration allows synchronized control of lights and sirens from a central keypad or interface, enabling scene modes, pursuit modes, and other multi-function setups.</p>",
             "icon": "none"
           }
         },
         "question_Qw9inQ": {
           "type": "question",
           "settings": {
-            "question": "Does Speed Turtle 3.0 support multiple flash patterns?",
-            "answer": "<p>Yes. The module comes with several built-in flash patterns, and users can configure them using Speed Turtle’s software. You can set different patterns for specific vehicle actions (like reverse or park), and even assign activation methods. Some models also support dual-mode operation, allowing two separate flash profiles depending on the situation.</p>",
+            "question": "What are the mounting options for Whelen sirens?",
+            "answer": "<p>Whelen sirens typically mount under the dash, in console enclosures, or within rack systems. Remote siren amplifiers can be mounted in the trunk or under the seat, while control heads fit into standard switch panels or faceplates. Whelen offers various mounting kits and brackets to match different vehicle types and upfit configurations.</p>",
             "icon": "none"
           }
         }
