@@ -105,47 +105,47 @@
         "category_RXBHFn": {
           "type": "category",
           "settings": {
-            "heading": "Federal Signal Pathfinder",
+            "heading": "soundoff mpower",
             "show_category_card": true
           }
         },
         "question_N7XcBJ": {
           "type": "question",
           "settings": {
-            "question": "What are the key features of the Federal Signal Pathfinder siren system?",
-            "answer": "<p>The Pathfinder is a fully programmable, multi-function siren and light controller designed for emergency vehicles. Key features include dual-tone capability, integrated radio rebroadcast, built-in diagnostic tools, configurable inputs/outputs, and compatibility with CAN networks. It also supports Federal Signal’s serial lightbar systems and offers seamless control of sirens, lights, and other peripherals.</p>",
+            "question": "What makes SoundOff mPower lights different from traditional LED emergency lights?",
+            "answer": "<p>mPower lights feature Fusion Technology optics, delivering powerful output with better beam control and visibility. They're also built with Clear Duty® molded one-piece construction, making them more compact, durable, and corrosion-resistant than traditional multi-part lights. The sleek design allows for low-profile mounting without compromising performance.</p>",
             "icon": "none"
           }
         },
         "question_Q7V7f7": {
           "type": "question",
           "settings": {
-            "question": "How does the Pathfinder system integrate with emergency lights?",
-            "answer": "<p>Pathfinder is built to work hand-in-hand with Federal Signal’s emergency lighting systems. It uses serial communication to control lightbars, directional lights, and perimeter lighting, allowing synchronized patterns and scenes. The system can trigger lighting based on siren tone, vehicle speed, or custom inputs—making it ideal for streamlined, event-driven response setups.</p>",
+            "question": "Are SoundOff mPower lights shatterproof and resistant to harsh conditions?",
+            "answer": "<p>Yes. mPower lights use Clear Duty® polymer, which is shatterproof, UV-resistant, and sealed to prevent water, dust, or chemical intrusion. They're designed to handle tough environments, including extreme temperatures, high-vibration settings, and exposure to road grime and pressure washers.</p>",
             "icon": "none"
           }
         },
         "question_pWG86w": {
           "type": "question",
           "settings": {
-            "question": "Is the Federal Signal Pathfinder programmable for different siren tones?",
-            "answer": "<p>Yes, Pathfinder is fully programmable and supports a wide range of siren tones, including Wail, Yelp, Priority, Hi-Lo, and PowerCall, as well as dual-tone options. Users can configure tone activation through software, set tone sequences, and customize functions for specific scenarios or jurisdictions.</p>",
+            "question": "How do I install and program SoundOff mPower lights?",
+            "answer": "<p>Installation varies by model, but most mPower lights offer surface, push bumper, grille, or license plate mounts, with plug-and-play connectors for easy setup. Programming is done via SoundOff control systems like the Blueprint Controller, allowing users to select flash patterns, sync options, and intensity settings through software or hardware controls.</p>",
             "icon": "none"
           }
         },
         "question_XLJAbP": {
           "type": "question",
           "settings": {
-            "question": "What vehicles are compatible with the Federal Signal Pathfinder?",
-            "answer": "<p>Pathfinder is compatible with most police, fire, and EMS vehicles, including sedans, SUVs, trucks, and specialty rigs. It supports standard 12V systems and integrates with popular fleet platforms like Ford Police Interceptor, Chevrolet Tahoe PPV, Dodge Durango Pursuit, and others. Vehicle-specific harnesses and mounts are available for streamlined installation.</p>",
+            "question": "Can SoundOff mPower lights be synced with other lighting systems?",
+            "answer": "<p>Yes. mPower lights can be synced with other SoundOff products and systems via Blueprint or hardwired sync lines, depending on the configuration. For broader setups, they integrate well with entire light and siren control systems to ensure coordinated flash patterns and scene lighting across the vehicle.</p>",
             "icon": "none"
           }
         },
         "question_JWg3Kp": {
           "type": "question",
           "settings": {
-            "question": "Can the Pathfinder system be controlled via a mobile app?",
-            "answer": "<p>Yes, Pathfinder can be controlled using Federal Signal’s Pathfinder Mobile App on iOS and Android. The app allows users to control lights and sirens wirelessly, view system diagnostics, and switch between modes. This adds flexibility during setup, maintenance, or remote operation—especially helpful for supervisors or command vehicles.</p>",
+            "question": "What vehicle types are compatible with SoundOff mPower LED lights?",
+            "answer": "<p>mPower lights are compatible with a wide range of vehicles, including police cruisers, fire apparatus, EMS vehicles, motorcycles, utility trucks, and municipal fleets. They come in various sizes and mounting styles, making them adaptable to different vehicle platforms and custom builds.</p>",
             "icon": "none"
           }
         }
