@@ -158,7 +158,9 @@
         "question_XLJAbP",
         "question_JWg3Kp"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
       "settings": {
         "section_width": "wide",
         "heading": "Frequently Asked Questions",
