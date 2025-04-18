@@ -90,6 +90,13 @@
             "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/STROBES_N_MORE-E66MAX_Warning_Traffic_Install_Guide.pdf?v=1743606112"
           }
         },
+        "logo_yMt4aq": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/E66_E68_Extreme_Install_Guide.png",
+            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/STROBES_N_MORE-E66_E68_Extreme_Install_Guide.pdf?v=1745005460"
+          }
+        },
         "logo_3XiEi7": {
           "type": "logo",
           "settings": {
@@ -145,13 +152,6 @@
             "image": "shopify://shop_images/EFlood_Install_Guide.png",
             "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/STROBES_N_MORE-EFlood_Install_Guide.pdf?v=1743616938"
           }
-        },
-        "logo_4kdhkn": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Galaxy_Elite_Mini_Install_Guide.png",
-            "link": "https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Galaxy_Minibar_Install_Guide.pdf?v=1730332943"
-          }
         }
       },
       "block_order": [
@@ -164,6 +164,7 @@
         "logo_ERyNp6",
         "logo_mt4E4T",
         "logo_QDhdaP",
+        "logo_yMt4aq",
         "logo_3XiEi7",
         "logo_DeWy6U",
         "logo_aJJAGF",
@@ -171,8 +172,7 @@
         "logo_E6UtTq",
         "logo_DYtMF4",
         "logo_wct9WK",
-        "logo_FYJNz9",
-        "logo_4kdhkn"
+        "logo_FYJNz9"
       ],
       "settings": {
         "title": ""
@@ -182,6 +182,13 @@
       "type": "dynamic-logo-list",
       "blocks": {
         "logo_Kqfx6a": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Galaxy_Elite_Mini_Install_Guide.png",
+            "link": ""
+          }
+        },
+        "logo_GPWAmx": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/ILB_Dual_Color_Install_Guide.jpg",
@@ -303,6 +310,7 @@
       },
       "block_order": [
         "logo_Kqfx6a",
+        "logo_GPWAmx",
         "logo_mpTMJm",
         "logo_TXeaEr",
         "logo_TX7BjK",
