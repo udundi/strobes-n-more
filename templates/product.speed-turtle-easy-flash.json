@@ -167,40 +167,40 @@
         "question_XLJAbP": {
           "type": "question",
           "settings": {
-            "question": "What are the best Feniex light bars for first responders?",
-            "answer": "<p>Top picks include the Feniex Fusion-S Lightbar, Fusion-S Mini, and the Quad Series. These bars offer high-output LEDs, customizable optics, and multiple color modes. They're built for police, fire, and EMS use, with strong durability, sleek profiles, and integration options for full vehicle control systems.</p>",
+            "question": "What vehicles are compatible with the Speed Turtle 3.0 module?",
+            "answer": "<p>Speed Turtle 3.0 is compatible with a wide range of vehicles from major manufacturers like Ford, Dodge, Chevrolet, Toyota, Nissan, and GMC. It’s designed to work with vehicles equipped with CAN bus systems, including many police interceptors, pickup trucks, SUVs, and fleet vehicles. Compatibility varies by year and model, so it’s best to check the official compatibility list or use Speed Turtle’s lookup tool.</p>",
             "icon": "none"
           }
         },
         "question_JWg3Kp": {
           "type": "question",
           "settings": {
-            "question": "How does the Feniex Fusion light bar compare to other brands?",
-            "answer": "<p>The Feniex Fusion line stands out for its 180° or 40° optic choices, giving users flexibility between wide-angle visibility and focused forward light. It also features high brightness, user-configurable flash patterns, and compatibility with Feniex's control systems like the 4200 Controller. Compared to similar bars from Whelen or SoundOff, Fusion bars often come at a lower price point without sacrificing performance.</p>",
+            "question": "How does Speed Turtle 3.0 control emergency vehicle lighting?",
+            "answer": "<p>The module plugs directly into the vehicle’s OBD-II port and communicates with the CAN bus system to control the factory lights—such as brake lights, reverse lights, turn signals, and DRLs—turning them into flashing warning lights. It requires no cutting or hardwiring and can trigger lighting patterns with just a tap of the brake pedal, use of the gear shift, or activation of specific vehicle inputs.</p>",
             "icon": "none"
           }
         },
         "question_Bg4xCX": {
           "type": "question",
           "settings": {
-            "question": "Are Feniex light bars available in different flash patterns?",
-            "answer": "<p>Yes, Feniex light bars come with dozens of programmable flash patterns, including single, double, triple, quad flash, directional patterns, and random strobe sequences. With the Quad Series, users can also program multiple color combinations and switch patterns on the fly using the controller or software.</p>",
+            "question": "Is Speed Turtle 3.0 easy to install and remove?",
+            "answer": "<p>Yes. The Speed Turtle 3.0 is a plug-and-play device that installs in seconds via the OBD-II port, with no permanent modifications required. Removal is just as fast, making it ideal for temporary use or vehicles shared between users. It’s a convenient solution for agencies or fleets that rotate vehicles often.</p>",
             "icon": "none"
           }
         },
         "question_TaWtXp": {
           "type": "question",
           "settings": {
-            "question": "Can Feniex light bars be used for both interior and exterior mounting?",
-            "answer": "<p>Yes. Feniex offers models designed for both interior (like rear deck or visor bars) and exterior (roof-mounted or push bumper) use. Light bars like the Fusion-S Mini are compact enough for interior mounting, while full-size Fusion or Quad light bars are built for exterior roof mounting with weather-sealed housings.</p>",
+            "question": "Can the Speed Turtle 3.0 module be used for covert police lighting?",
+            "answer": "<p>Absolutely. Speed Turtle 3.0 is widely used in unmarked and covert law enforcement vehicles. It allows the use of factory lights for warning functions without visible aftermarket lighting. This helps maintain a clean, low-profile appearance while still providing effective signaling when needed.</p>",
             "icon": "none"
           }
         },
         "question_Qw9inQ": {
           "type": "question",
           "settings": {
-            "question": "What is the lifespan of a typical Feniex LED light bar?",
-            "answer": "<p>Feniex LED light bars are rated for 50,000 hours of use. They use solid-state electronics and sealed housings to withstand harsh conditions, making them ideal for long-term use in emergency and service vehicles. The brand also offers 5-year warranties on most of its products for added peace of mind.</p>",
+            "question": "Does Speed Turtle 3.0 support multiple flash patterns?",
+            "answer": "<p>Yes. The module comes with several built-in flash patterns, and users can configure them using Speed Turtle’s software. You can set different patterns for specific vehicle actions (like reverse or park), and even assign activation methods. Some models also support dual-mode operation, allowing two separate flash profiles depending on the situation.</p>",
             "icon": "none"
           }
         }
@@ -213,7 +213,9 @@
         "question_TaWtXp",
         "question_Qw9inQ"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
       "settings": {
         "section_width": "wide",
         "heading": "Frequently Asked Questions",
