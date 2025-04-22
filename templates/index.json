@@ -526,12 +526,12 @@
       "type": "dynamic-rich-text",
       "custom_css": [
         "{background-color: #21225b;}",
-        "h2 {color: #fff; padding: 12px;}"
+        "h2 {color: white; padding: 12px;}"
       ],
       "settings": {
         "width": "full-width",
-        "title": "",
-        "text": "<p>.</p><p>.</p>",
+        "title": "Frequently Asked Questions",
+        "text": "",
         "heading_size": "small",
         "text_alignment": "center"
       }
@@ -819,6 +819,9 @@
         "question_ENhFJg",
         "question_xGWGVi",
         "question_awnHYc"
+      ],
+      "custom_css": [
+        "h3{display: none;}"
       ],
       "settings": {
         "section_width": "wide",
