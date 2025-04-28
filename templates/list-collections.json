@@ -28,7 +28,7 @@
         "content_position": "center-center",
         "color": "#ffffff",
         "overlay_background": "#000000",
-        "overlay_opacity": 50,
+        "overlay_opacity": 16,
         "link": "",
         "button_text": ""
       }
