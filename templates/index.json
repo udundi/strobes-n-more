@@ -203,7 +203,7 @@
           "type": "collection",
           "settings": {
             "collection": "more",
-            "image": "shopify://shop_images/More2.jpg",
+            "image": "shopify://shop_images/More.png",
             "title": "More"
           }
         }
