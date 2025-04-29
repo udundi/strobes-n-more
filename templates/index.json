@@ -546,8 +546,17 @@
             "show_category_card": false
           }
         },
+        "question_jj7h6x": {
+          "type": "question",
+          "settings": {
+            "question": "General Information About LED Emergency Lights",
+            "answer": "<ul><li><strong>What are the benefits of LED warning lights over halogen or strobe lights?</strong><br/>A: LED warning lights are brighter, last longer, and use less power than halogen or strobe lights. They’re also more durable, with solid-state construction that resists shock and vibration. Unlike halogen, LEDs don’t generate much heat, and they don’t require the high-voltage systems that strobes do. This means fewer maintenance issues and better reliability in the field.</li></ul><p></p><ul><li><strong>Are LED warning lights suitable for both emergency and commercial vehicles? </strong><br/>Yes, LED warning lights are used widely on both emergency vehicles (like police, fire, and EMS) and commercial vehicles (like tow trucks, utility fleets, and construction vehicles). They offer customizable flash patterns and color options to meet different visibility and regulatory needs, making them adaptable for a wide range of applications.</li></ul><p></p><ul><li><strong>What flash patterns are available in LED warning lights?<br/></strong>LED warning lights typically come with multiple flash patterns—often ranging from 10 to 30 or more. Common options include single flash, double flash, quad flash, alternating patterns, and rotating simulations. Some models allow syncing with other lights or alternating patterns across multiple units for enhanced visibility and coordination.</li></ul><p></p><ul><li><strong>How long do LED warning lights typically last? <br/></strong>High-quality LED warning lights typically last 50,000 to 100,000 hours. That’s significantly longer than halogen or strobe lights, which often need replacement after a few thousand hours. LEDs also degrade slowly over time, rather than failing abruptly, which adds to their long-term reliability.</li></ul><p></p><ul><li><strong>Can LED warning lights be dimmed for nighttime use?<br/></strong>Yes, many LED warning lights come with dimming features or night mode settings. This helps reduce glare at night while maintaining visibility and safety. Dimming can be automatic based on ambient light, or manually controlled depending on the system.</li></ul>",
+            "icon": "none"
+          }
+        },
         "question_FP6MCt": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "question": "What are the benefits of LED warning lights over halogen or strobe lights?",
             "answer": "<p>LED warning lights are brighter, last longer, and use less power than halogen or strobe lights. They’re also more durable, with solid-state construction that resists shock and vibration. Unlike halogen, LEDs don’t generate much heat, and they don’t require the high-voltage systems that strobes do. This means fewer maintenance issues and better reliability in the field.</p>",
@@ -556,6 +565,7 @@
         },
         "question_9cFQCm": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "question": "Are LED warning lights suitable for both emergency and commercial vehicles?",
             "answer": "<p>Yes, LED warning lights are used widely on both emergency vehicles (like police, fire, and EMS) and commercial vehicles (like tow trucks, utility fleets, and construction vehicles). They offer customizable flash patterns and color options to meet different visibility and regulatory needs, making them adaptable for a wide range of applications.</p>",
@@ -564,6 +574,7 @@
         },
         "question_9KdhGp": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "question": "What flash patterns are available in LED warning lights?",
             "answer": "<p>LED warning lights typically come with multiple flash patterns—often ranging from 10 to 30 or more. Common options include single flash, double flash, quad flash, alternating patterns, and rotating simulations. Some models allow syncing with other lights or alternating patterns across multiple units for enhanced visibility and coordination.</p>",
@@ -572,14 +583,16 @@
         },
         "question_nPGfAr": {
           "type": "question",
+          "disabled": true,
           "settings": {
-            "question": "Frequently asked questionHow long do LED warning lights typically last?",
+            "question": "How long do LED warning lights typically last?",
             "answer": "<p>High-quality LED warning lights typically last 50,000 to 100,000 hours. That’s significantly longer than halogen or strobe lights, which often need replacement after a few thousand hours. LEDs also degrade slowly over time, rather than failing abruptly, which adds to their long-term reliability.</p>",
             "icon": "none"
           }
         },
         "question_LPt8qB": {
           "type": "question",
+          "disabled": true,
           "settings": {
             "question": "Can LED warning lights be dimmed for nighttime use?",
             "answer": "<p>Yes, many LED warning lights come with dimming features or night mode settings. This helps reduce glare at night while maintaining visibility and safety. Dimming can be automatic based on ambient light, or manually controlled depending on the system.</p>",
@@ -789,6 +802,7 @@
       },
       "block_order": [
         "category_zBpze6",
+        "question_jj7h6x",
         "question_FP6MCt",
         "question_9cFQCm",
         "question_9KdhGp",
