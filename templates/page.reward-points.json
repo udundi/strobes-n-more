@@ -135,6 +135,13 @@
         "textbox_text_alignment": "left",
         "textbox_text_position": "left"
       }
+    },
+    "dynamic_custom_liquid_mQTTPL": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "{% comment %}\n  Custom Video Player with Autoplay and Mute - Full Width\n{% endcomment %}\n\n<div class=\"custom-video-container\">\n  <video \n    id=\"custom-video-player\"\n    class=\"custom-video\"\n    src=\"https://cdn.shopify.com/videos/c/o/v/297527a00ae545c598e8b09085fb443d.mp4\"\n    autoplay\n    muted\n    playsinline\n    loop>\n    Your browser does not support the video tag.\n  </video>\n</div>\n\n<style>\n  /* Video Container Styles - Full Width */\n  .custom-video-container {\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    overflow: hidden;\n  }\n  \n  /* Base Video Styles */\n  .custom-video {\n    width: 100%;\n    display: block;\n    object-fit: cover;\n  }\n  \n  /* Media Queries for Responsive Design */\n  @media screen and (max-width: 767px) {\n    /* Small screens (mobile) */\n    .custom-video {\n      height: 200px; /* Reduced height for mobile */\n    }\n  }\n  \n  @media screen and (min-width: 768px) and (max-width: 1023px) {\n    /* Medium screens (tablet) */\n    .custom-video {\n      height: 300px; /* Reduced height for tablet */\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    /* Large screens (desktop) */\n    .custom-video {\n      height: 450px; /* Increased height for laptop/desktop */\n    }\n  }\n</style>"
+      }
     }
   },
   "order": [
@@ -142,6 +149,7 @@
     "dynamic_rich_text_aNccxt",
     "dynamic_shoppable_image_cabQwY",
     "dynamic_rich_text_MrAKUE",
-    "dynamic_shoppable_image_3UFi9H"
+    "dynamic_shoppable_image_3UFi9H",
+    "dynamic_custom_liquid_mQTTPL"
   ]
 }
