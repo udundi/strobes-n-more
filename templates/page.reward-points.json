@@ -11,6 +11,7 @@
   "sections": {
     "dynamic_custom_liquid_mQTTPL": {
       "type": "dynamic-custom-liquid",
+      "disabled": true,
       "custom_css": [
         "{margin-top: -70px;}"
       ],
