@@ -19,6 +19,13 @@
         "custom_liquid": "{% comment %}\n  Custom Video Player with Autoplay and Mute - Full Width (Desktop Only)\n{% endcomment %}\n\n<div class=\"custom-video-container\">\n  <video \n    id=\"custom-video-player\"\n    class=\"custom-video\"\n    src=\"https://cdn.shopify.com/videos/c/o/v/5cb53fca24104ce8b86769b914995508.mp4\"\n    autoplay\n    muted\n    playsinline\n    loop>\n    Your browser does not support the video tag.\n  </video>\n</div>\n\n<style>\n  /* Video Container Styles - Full Width */\n  .custom-video-container {\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    overflow: hidden;\n    display: none; /* Hidden by default */\n  }\n  \n  /* Base Video Styles */\n  .custom-video {\n    width: 100%;\n    display: block;\n    object-fit: cover;\n  }\n  \n  /* Media Queries for Responsive Design */\n  @media screen and (max-width: 767px) {\n    /* Small screens (mobile) - Video hidden */\n    .custom-video-container {\n      display: none;\n    }\n  }\n  \n  @media screen and (min-width: 768px) and (max-width: 1023px) {\n    /* Medium screens (tablet) - Video hidden */\n    .custom-video-container {\n      display: none;\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    /* Large screens (laptop/desktop) - Video visible */\n    .custom-video-container {\n      display: block;\n    }\n    \n    .custom-video {\n      height: 450px;\n    }\n  }\n</style>\n</style>"
       }
     },
+    "dynamic_custom_liquid_Y3DcHJ": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "{% comment %}\n  Custom Video Player for Mobile Devices Only\n{% endcomment %}\n\n<div class=\"mobile-video-container\">\n  <video \n    id=\"mobile-video-player\"\n    class=\"mobile-video\"\n    src=\"https://cdn.shopify.com/videos/c/o/v/75ffa50b6d204f1fb1b9c4a17589f94f.mp4\"\n    autoplay\n    muted\n    playsinline\n    loop>\n    Your browser does not support the video tag.\n  </video>\n</div>\n\n<style>\n  /* Mobile Video Container Styles - Full Width */\n  .mobile-video-container {\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    overflow: hidden;\n    display: none; /* Hidden by default */\n  }\n  \n  /* Base Video Styles */\n  .mobile-video {\n    width: 100%;\n    display: block;\n    object-fit: cover;\n  }\n  \n  /* Media Queries for Responsive Design */\n  @media screen and (max-width: 767px) {\n    /* Small screens (mobile) - Video visible */\n    .mobile-video-container {\n      display: block;\n    }\n    \n    .mobile-video {\n      height: 200px; /* Height for mobile */\n    }\n  }\n  \n  @media screen and (min-width: 768px) and (max-width: 1023px) {\n    /* Medium screens (tablet) - Video visible */\n    .mobile-video-container {\n      display: block;\n    }\n    \n    .mobile-video {\n      height: 300px; /* Height for tablet */\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    /* Large screens (desktop) - Video hidden */\n    .mobile-video-container {\n      display: none;\n    }\n  }\n</style>"
+      }
+    },
     "dynamic_promo_mosaic": {
       "type": "dynamic-promo-mosaic",
       "blocks": {
@@ -629,6 +636,7 @@
   },
   "order": [
     "dynamic_custom_liquid_z7Umjt",
+    "dynamic_custom_liquid_Y3DcHJ",
     "dynamic_promo_mosaic",
     "dynamic_featured_collection-2",
     "dynamic_collection_list",
