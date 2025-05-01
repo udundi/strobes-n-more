@@ -9,17 +9,6 @@
  */
 {
   "sections": {
-    "dynamic_custom_liquid_mQTTPL": {
-      "type": "dynamic-custom-liquid",
-      "disabled": true,
-      "custom_css": [
-        "{margin-top: -70px;}"
-      ],
-      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
-      "settings": {
-        "custom_liquid": "<div class=\"custom-video-container\">\n  <video \n    id=\"custom-video-player\"\n    class=\"custom-video\"\n    src=\"https://cdn.shopify.com/videos/c/o/v/962cbe72e0f6435bb4e6844cc0beca91.mp4\"\n    autoplay\n    muted\n    playsinline\n    loop>\n    Your browser does not support the video tag.\n  </video>\n</div>\n\n<style>\n  /* Video Container Styles - Full Width */\n  .custom-video-container {\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    overflow: hidden;\n  }\n  \n  /* Base Video Styles */\n  .custom-video {\n    width: 100%;\n    display: block;\n    object-fit: cover;\n  }\n  \n  /* Media Queries for Responsive Design */\n  @media screen and (max-width: 767px) {\n    /* Small screens (mobile) */\n    .custom-video {\n      height: 200px; /* Reduced height for mobile */\n    }\n  }\n  \n  @media screen and (min-width: 768px) and (max-width: 1023px) {\n    /* Medium screens (tablet) */\n    .custom-video {\n      height: 300px; /* Reduced height for tablet */\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    /* Large screens (desktop) */\n    .custom-video {\n      height: 550px; /* Increased height for laptop/desktop */\n    }\n  }\n</style>"
-      }
-    },
     "main": {
       "type": "page",
       "disabled": true,
@@ -84,7 +73,7 @@
         "textbox_text_position": "left"
       }
     },
-    "dynamic_rich_text_MrAKUE": {
+    "dynamic_rich_text_PBhcpH": {
       "type": "dynamic-rich-text",
       "custom_css": [
         "h2 {color: #21225b; padding: 12px;}",
@@ -146,14 +135,663 @@
         "textbox_text_alignment": "left",
         "textbox_text_position": "left"
       }
+    },
+    "dynamic_rich_text_eXUtHw": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "h2 {color: #21225b; padding: 12px;}",
+        " {background-color: #21225b;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "title": ".",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_shoppable_image_YQdY9T": {
+      "type": "dynamic-shoppable-image",
+      "blocks": {
+        "hotspot_RPBT4z": {
+          "type": "hotspot",
+          "settings": {
+            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
+            "x_axis": 54,
+            "y_axis": 65
+          }
+        },
+        "hotspot_HW6tVf": {
+          "type": "hotspot",
+          "settings": {
+            "product": "strobes-n-more-6-output-led-flasher",
+            "x_axis": 20,
+            "y_axis": 30
+          }
+        },
+        "hotspot_aDmXdt": {
+          "type": "hotspot",
+          "settings": {
+            "product": "whelen-l32-super-led-beacon-class-1-2",
+            "x_axis": 85,
+            "y_axis": 55
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_RPBT4z",
+        "hotspot_HW6tVf",
+        "hotspot_aDmXdt"
+      ],
+      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
+        "image_width": "two-thirds",
+        "link_text": "View product",
+        "textbox_title": "Tier Placeholder",
+        "textbox_subheading": "<p>LED Flasher V2 - XYZ Points<br/>Sire Amplifier - XYZ Points<br/>LED Beacon - XYZ Points</p>",
+        "textbox_button_label": "",
+        "textbox_button_link": "",
+        "textbox_button_style": "primary",
+        "textbox_text_alignment": "left",
+        "textbox_text_position": "left"
+      }
+    },
+    "dynamic_rich_text_RfnTjz": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "h2 {color: #21225b; padding: 12px;}",
+        " {background-color: #21225b;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "title": ".",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_shoppable_image_fiLJKz": {
+      "type": "dynamic-shoppable-image",
+      "blocks": {
+        "hotspot_dwRUtq": {
+          "type": "hotspot",
+          "settings": {
+            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
+            "x_axis": 54,
+            "y_axis": 65
+          }
+        },
+        "hotspot_mEiHw4": {
+          "type": "hotspot",
+          "settings": {
+            "product": "strobes-n-more-6-output-led-flasher",
+            "x_axis": 20,
+            "y_axis": 30
+          }
+        },
+        "hotspot_38b9zP": {
+          "type": "hotspot",
+          "settings": {
+            "product": "whelen-l32-super-led-beacon-class-1-2",
+            "x_axis": 85,
+            "y_axis": 55
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_dwRUtq",
+        "hotspot_mEiHw4",
+        "hotspot_38b9zP"
+      ],
+      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
+        "image_width": "two-thirds",
+        "link_text": "View product",
+        "textbox_title": "Tier Placeholder",
+        "textbox_subheading": "<p>LED Flasher V2 - XYZ Points<br/>Sire Amplifier - XYZ Points<br/>LED Beacon - XYZ Points</p>",
+        "textbox_button_label": "",
+        "textbox_button_link": "",
+        "textbox_button_style": "primary",
+        "textbox_text_alignment": "left",
+        "textbox_text_position": "left"
+      }
+    },
+    "dynamic_rich_text_AqxkfM": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "h2 {color: #21225b; padding: 12px;}",
+        " {background-color: #21225b;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "title": ".",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_shoppable_image_WN3PDW": {
+      "type": "dynamic-shoppable-image",
+      "blocks": {
+        "hotspot_XECqEq": {
+          "type": "hotspot",
+          "settings": {
+            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
+            "x_axis": 54,
+            "y_axis": 65
+          }
+        },
+        "hotspot_QPJkeU": {
+          "type": "hotspot",
+          "settings": {
+            "product": "strobes-n-more-6-output-led-flasher",
+            "x_axis": 20,
+            "y_axis": 30
+          }
+        },
+        "hotspot_MmM6hq": {
+          "type": "hotspot",
+          "settings": {
+            "product": "whelen-l32-super-led-beacon-class-1-2",
+            "x_axis": 85,
+            "y_axis": 55
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_XECqEq",
+        "hotspot_QPJkeU",
+        "hotspot_MmM6hq"
+      ],
+      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
+        "image_width": "two-thirds",
+        "link_text": "View product",
+        "textbox_title": "Tier Placeholder",
+        "textbox_subheading": "<p>LED Flasher V2 - XYZ Points<br/>Sire Amplifier - XYZ Points<br/>LED Beacon - XYZ Points</p>",
+        "textbox_button_label": "",
+        "textbox_button_link": "",
+        "textbox_button_style": "primary",
+        "textbox_text_alignment": "left",
+        "textbox_text_position": "left"
+      }
+    },
+    "dynamic_rich_text_9Rcicy": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "h2 {color: #21225b; padding: 12px;}",
+        " {background-color: #21225b;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "title": ".",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_shoppable_image_MKkiCP": {
+      "type": "dynamic-shoppable-image",
+      "blocks": {
+        "hotspot_BGr8TM": {
+          "type": "hotspot",
+          "settings": {
+            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
+            "x_axis": 54,
+            "y_axis": 65
+          }
+        },
+        "hotspot_MJiATG": {
+          "type": "hotspot",
+          "settings": {
+            "product": "strobes-n-more-6-output-led-flasher",
+            "x_axis": 20,
+            "y_axis": 30
+          }
+        },
+        "hotspot_Fedq6B": {
+          "type": "hotspot",
+          "settings": {
+            "product": "whelen-l32-super-led-beacon-class-1-2",
+            "x_axis": 85,
+            "y_axis": 55
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_BGr8TM",
+        "hotspot_MJiATG",
+        "hotspot_Fedq6B"
+      ],
+      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
+        "image_width": "two-thirds",
+        "link_text": "View product",
+        "textbox_title": "Tier Placeholder",
+        "textbox_subheading": "<p>LED Flasher V2 - XYZ Points<br/>Sire Amplifier - XYZ Points<br/>LED Beacon - XYZ Points</p>",
+        "textbox_button_label": "",
+        "textbox_button_link": "",
+        "textbox_button_style": "primary",
+        "textbox_text_alignment": "left",
+        "textbox_text_position": "left"
+      }
+    },
+    "dynamic_rich_text_RKbaCx": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "h2 {color: #21225b; padding: 12px;}",
+        " {background-color: #21225b;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "title": ".",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_shoppable_image_Ahq6z9": {
+      "type": "dynamic-shoppable-image",
+      "blocks": {
+        "hotspot_zxi6Gj": {
+          "type": "hotspot",
+          "settings": {
+            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
+            "x_axis": 54,
+            "y_axis": 65
+          }
+        },
+        "hotspot_n6PiVN": {
+          "type": "hotspot",
+          "settings": {
+            "product": "strobes-n-more-6-output-led-flasher",
+            "x_axis": 20,
+            "y_axis": 30
+          }
+        },
+        "hotspot_im9G99": {
+          "type": "hotspot",
+          "settings": {
+            "product": "whelen-l32-super-led-beacon-class-1-2",
+            "x_axis": 85,
+            "y_axis": 55
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_zxi6Gj",
+        "hotspot_n6PiVN",
+        "hotspot_im9G99"
+      ],
+      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
+        "image_width": "two-thirds",
+        "link_text": "View product",
+        "textbox_title": "Tier Placeholder",
+        "textbox_subheading": "<p>LED Flasher V2 - XYZ Points<br/>Sire Amplifier - XYZ Points<br/>LED Beacon - XYZ Points</p>",
+        "textbox_button_label": "",
+        "textbox_button_link": "",
+        "textbox_button_style": "primary",
+        "textbox_text_alignment": "left",
+        "textbox_text_position": "left"
+      }
+    },
+    "dynamic_rich_text_Vexk34": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "h2 {color: #21225b; padding: 12px;}",
+        " {background-color: #21225b;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "title": ".",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_shoppable_image_afRxim": {
+      "type": "dynamic-shoppable-image",
+      "blocks": {
+        "hotspot_ztgcAn": {
+          "type": "hotspot",
+          "settings": {
+            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
+            "x_axis": 54,
+            "y_axis": 65
+          }
+        },
+        "hotspot_JrE8V9": {
+          "type": "hotspot",
+          "settings": {
+            "product": "strobes-n-more-6-output-led-flasher",
+            "x_axis": 20,
+            "y_axis": 30
+          }
+        },
+        "hotspot_JwpKhV": {
+          "type": "hotspot",
+          "settings": {
+            "product": "whelen-l32-super-led-beacon-class-1-2",
+            "x_axis": 85,
+            "y_axis": 55
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_ztgcAn",
+        "hotspot_JrE8V9",
+        "hotspot_JwpKhV"
+      ],
+      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
+        "image_width": "two-thirds",
+        "link_text": "View product",
+        "textbox_title": "Tier Placeholder",
+        "textbox_subheading": "<p>LED Flasher V2 - XYZ Points<br/>Sire Amplifier - XYZ Points<br/>LED Beacon - XYZ Points</p>",
+        "textbox_button_label": "",
+        "textbox_button_link": "",
+        "textbox_button_style": "primary",
+        "textbox_text_alignment": "left",
+        "textbox_text_position": "left"
+      }
+    },
+    "dynamic_rich_text_WjhTLc": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "h2 {color: #21225b; padding: 12px;}",
+        " {background-color: #21225b;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "title": ".",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_shoppable_image_eGwfUX": {
+      "type": "dynamic-shoppable-image",
+      "blocks": {
+        "hotspot_c73jjg": {
+          "type": "hotspot",
+          "settings": {
+            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
+            "x_axis": 54,
+            "y_axis": 65
+          }
+        },
+        "hotspot_zf7pmw": {
+          "type": "hotspot",
+          "settings": {
+            "product": "strobes-n-more-6-output-led-flasher",
+            "x_axis": 20,
+            "y_axis": 30
+          }
+        },
+        "hotspot_mECq7t": {
+          "type": "hotspot",
+          "settings": {
+            "product": "whelen-l32-super-led-beacon-class-1-2",
+            "x_axis": 85,
+            "y_axis": 55
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_c73jjg",
+        "hotspot_zf7pmw",
+        "hotspot_mECq7t"
+      ],
+      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
+        "image_width": "two-thirds",
+        "link_text": "View product",
+        "textbox_title": "Tier Placeholder",
+        "textbox_subheading": "<p>LED Flasher V2 - XYZ Points<br/>Sire Amplifier - XYZ Points<br/>LED Beacon - XYZ Points</p>",
+        "textbox_button_label": "",
+        "textbox_button_link": "",
+        "textbox_button_style": "primary",
+        "textbox_text_alignment": "left",
+        "textbox_text_position": "left"
+      }
+    },
+    "dynamic_rich_text_ceTyaJ": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "h2 {color: #21225b; padding: 12px;}",
+        " {background-color: #21225b;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "title": ".",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_shoppable_image_3T7mtJ": {
+      "type": "dynamic-shoppable-image",
+      "blocks": {
+        "hotspot_Fqbg6c": {
+          "type": "hotspot",
+          "settings": {
+            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
+            "x_axis": 54,
+            "y_axis": 65
+          }
+        },
+        "hotspot_PcWnMg": {
+          "type": "hotspot",
+          "settings": {
+            "product": "strobes-n-more-6-output-led-flasher",
+            "x_axis": 20,
+            "y_axis": 30
+          }
+        },
+        "hotspot_DiiXwc": {
+          "type": "hotspot",
+          "settings": {
+            "product": "whelen-l32-super-led-beacon-class-1-2",
+            "x_axis": 85,
+            "y_axis": 55
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_Fqbg6c",
+        "hotspot_PcWnMg",
+        "hotspot_DiiXwc"
+      ],
+      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
+        "image_width": "two-thirds",
+        "link_text": "View product",
+        "textbox_title": "Tier Placeholder",
+        "textbox_subheading": "<p>LED Flasher V2 - XYZ Points<br/>Sire Amplifier - XYZ Points<br/>LED Beacon - XYZ Points</p>",
+        "textbox_button_label": "",
+        "textbox_button_link": "",
+        "textbox_button_style": "primary",
+        "textbox_text_alignment": "left",
+        "textbox_text_position": "left"
+      }
+    },
+    "dynamic_rich_text_KVjVpa": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "h2 {color: #21225b; padding: 12px;}",
+        " {background-color: #21225b;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "title": ".",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_shoppable_image_xYpkAp": {
+      "type": "dynamic-shoppable-image",
+      "blocks": {
+        "hotspot_rX77QE": {
+          "type": "hotspot",
+          "settings": {
+            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
+            "x_axis": 54,
+            "y_axis": 65
+          }
+        },
+        "hotspot_dRUTta": {
+          "type": "hotspot",
+          "settings": {
+            "product": "strobes-n-more-6-output-led-flasher",
+            "x_axis": 20,
+            "y_axis": 30
+          }
+        },
+        "hotspot_JbTRBm": {
+          "type": "hotspot",
+          "settings": {
+            "product": "whelen-l32-super-led-beacon-class-1-2",
+            "x_axis": 85,
+            "y_axis": 55
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_rX77QE",
+        "hotspot_dRUTta",
+        "hotspot_JbTRBm"
+      ],
+      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
+        "image_width": "two-thirds",
+        "link_text": "View product",
+        "textbox_title": "Tier Placeholder",
+        "textbox_subheading": "<p>LED Flasher V2 - XYZ Points<br/>Sire Amplifier - XYZ Points<br/>LED Beacon - XYZ Points</p>",
+        "textbox_button_label": "",
+        "textbox_button_link": "",
+        "textbox_button_style": "primary",
+        "textbox_text_alignment": "left",
+        "textbox_text_position": "left"
+      }
+    },
+    "dynamic_shoppable_image_zhCVVh": {
+      "type": "dynamic-shoppable-image",
+      "blocks": {
+        "hotspot_Cn3nnp": {
+          "type": "hotspot",
+          "settings": {
+            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
+            "x_axis": 54,
+            "y_axis": 65
+          }
+        },
+        "hotspot_T6GfkM": {
+          "type": "hotspot",
+          "settings": {
+            "product": "strobes-n-more-6-output-led-flasher",
+            "x_axis": 20,
+            "y_axis": 30
+          }
+        },
+        "hotspot_iicGYw": {
+          "type": "hotspot",
+          "settings": {
+            "product": "whelen-l32-super-led-beacon-class-1-2",
+            "x_axis": 85,
+            "y_axis": 55
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_Cn3nnp",
+        "hotspot_T6GfkM",
+        "hotspot_iicGYw"
+      ],
+      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
+        "image_width": "two-thirds",
+        "link_text": "View product",
+        "textbox_title": "Tier Placeholder",
+        "textbox_subheading": "<p>LED Flasher V2 - XYZ Points<br/>Sire Amplifier - XYZ Points<br/>LED Beacon - XYZ Points</p>",
+        "textbox_button_label": "",
+        "textbox_button_link": "",
+        "textbox_button_style": "primary",
+        "textbox_text_alignment": "left",
+        "textbox_text_position": "left"
+      }
+    },
+    "dynamic_rich_text_MrAKUE": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "h2 {color: #21225b; padding: 12px;}",
+        " {background-color: #21225b;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "title": ".",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
     }
   },
   "order": [
-    "dynamic_custom_liquid_mQTTPL",
     "main",
     "dynamic_rich_text_aNccxt",
     "dynamic_shoppable_image_cabQwY",
+    "dynamic_rich_text_PBhcpH",
+    "dynamic_shoppable_image_3UFi9H",
+    "dynamic_rich_text_eXUtHw",
+    "dynamic_shoppable_image_YQdY9T",
+    "dynamic_rich_text_RfnTjz",
+    "dynamic_shoppable_image_fiLJKz",
+    "dynamic_rich_text_AqxkfM",
+    "dynamic_shoppable_image_WN3PDW",
+    "dynamic_rich_text_9Rcicy",
+    "dynamic_shoppable_image_MKkiCP",
+    "dynamic_rich_text_RKbaCx",
+    "dynamic_shoppable_image_Ahq6z9",
+    "dynamic_rich_text_Vexk34",
+    "dynamic_shoppable_image_afRxim",
+    "dynamic_rich_text_WjhTLc",
+    "dynamic_shoppable_image_eGwfUX",
+    "dynamic_rich_text_ceTyaJ",
+    "dynamic_shoppable_image_3T7mtJ",
+    "dynamic_rich_text_KVjVpa",
+    "dynamic_shoppable_image_xYpkAp",
     "dynamic_rich_text_MrAKUE",
-    "dynamic_shoppable_image_3UFi9H"
+    "dynamic_shoppable_image_zhCVVh"
   ]
 }
