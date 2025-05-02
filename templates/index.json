@@ -260,7 +260,7 @@
         "title_card_re6tdX": {
           "type": "title_card",
           "settings": {
-            "image": "shopify://shop_images/Lightbar_Packages5.jpg",
+            "image": "shopify://shop_images/Lightbar_Packages2.png",
             "text_alignment": "center-center",
             "pre_heading": "",
             "heading": "Lightbar Packages",
@@ -271,7 +271,7 @@
             "enable_full_width_on_mobile": false,
             "cta_label": "See more",
             "overlay_color": "#000000",
-            "overlay_opacity": 12
+            "overlay_opacity": 0
           }
         }
       },
