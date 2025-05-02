@@ -97,11 +97,11 @@
         "title-card": {
           "type": "title_card",
           "settings": {
-            "image": "shopify://shop_images/SNM-Staff-Picks2.jpg",
+            "image": "shopify://shop_images/Staff_Picks6.png",
             "text_alignment": "center-center",
             "pre_heading": "",
             "heading": "Staff Picks",
-            "text_color": "#1d1d1d",
+            "text_color": "#ffffff",
             "show_on_mobile": true,
             "horizontal_size": "3",
             "vertical_size": "2",
