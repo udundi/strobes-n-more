@@ -217,7 +217,7 @@
             "opacity": 49
           }
         },
-        "promotion_qWPfMa": {
+        "promotion_ea7jKy": {
           "type": "promotion",
           "settings": {
             "image": "shopify://shop_images/Devin.jpg",
@@ -238,6 +238,21 @@
             "image": "shopify://shop_images/Devin.jpg",
             "title": "Bevaline",
             "text": "Purchasing Specialist",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 49
+          }
+        },
+        "promotion_qWPfMa": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Devin.jpg",
+            "title": "Chantal",
+            "text": "Inbound Sales & Customer Support Specialist",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -471,28 +486,14 @@
             "background": "",
             "opacity": 50
           }
-        },
-        "promotion_C98UPE": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/Scott.jpg",
-            "title": "Scott",
-            "text": "Install & Upfitting",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
         }
       },
       "block_order": [
         "promotion_X4Eaqk",
         "promotion_MGkeYw",
-        "promotion_qWPfMa",
+        "promotion_ea7jKy",
         "promotion_Qx8VtE",
+        "promotion_qWPfMa",
         "promotion_PgMDcH",
         "promotion_ERX7tP",
         "promotion_YfY4CE",
@@ -507,8 +508,7 @@
         "promotion_7XmU94",
         "promotion_wFDQje",
         "promotion_hHLgxm",
-        "promotion_t4C9tP",
-        "promotion_C98UPE"
+        "promotion_t4C9tP"
       ],
       "custom_css": [
         "a {text-decoration: none; color: #000;}"
@@ -526,6 +526,21 @@
       "type": "dynamic-promo-grid",
       "blocks": {
         "promotion_dyNP8P": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Scott.jpg",
+            "title": "Scott",
+            "text": "Install & Upfitting",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_iWmB8c": {
           "type": "promotion",
           "settings": {
             "image": "shopify://shop_images/Steve_BW.jpg",
@@ -558,6 +573,7 @@
       },
       "block_order": [
         "promotion_dyNP8P",
+        "promotion_iWmB8c",
         "promotion_Nzfwki"
       ],
       "custom_css": [
