@@ -221,6 +221,21 @@
           "type": "promotion",
           "settings": {
             "image": "shopify://shop_images/Devin.jpg",
+            "title": "Benny",
+            "text": "Inbound Sales & Customer Support Specialist",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 49
+          }
+        },
+        "promotion_Qx8VtE": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Devin.jpg",
             "title": "Bevaline",
             "text": "Purchasing Specialist",
             "color": "#4d4d4d",
@@ -312,7 +327,7 @@
           "settings": {
             "image": "shopify://shop_images/Devin.jpg",
             "title": "Devin",
-            "text": "Inbound Sales & Customer Support Specialist",
+            "text": "Senior Customer Support Specialist",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -343,6 +358,21 @@
             "image": "shopify://shop_images/Jackie_B_W.jpg",
             "title": "Jackie",
             "text": "Warehouse Specialist",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_F6hfM6": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Devin.jpg",
+            "title": "Jocelyne",
+            "text": "Inbound Sales & Customer Support Specialist",
             "color": "#4d4d4d",
             "block_link": "",
             "button_text": "",
@@ -456,8 +486,46 @@
             "background": "",
             "opacity": 50
           }
-        },
-        "promotion_7UKBgC": {
+        }
+      },
+      "block_order": [
+        "promotion_X4Eaqk",
+        "promotion_MGkeYw",
+        "promotion_qWPfMa",
+        "promotion_Qx8VtE",
+        "promotion_PgMDcH",
+        "promotion_ERX7tP",
+        "promotion_YfY4CE",
+        "promotion_g8bdkn",
+        "promotion_n6pQVR",
+        "promotion_kcJpLy",
+        "promotion_hM8cK3",
+        "promotion_yPNcxD",
+        "promotion_F6hfM6",
+        "promotion_mCfnHj",
+        "promotion_xxUaKa",
+        "promotion_7XmU94",
+        "promotion_wFDQje",
+        "promotion_hHLgxm",
+        "promotion_t4C9tP",
+        "promotion_C98UPE"
+      ],
+      "custom_css": [
+        "a {text-decoration: none; color: #000;}"
+      ],
+      "settings": {
+        "title": "",
+        "text_outside": true,
+        "text_centered": true,
+        "section_height": "natural",
+        "section_columns": 4,
+        "text_alignment": "center-center"
+      }
+    },
+    "dynamic_promo_grid_39P3Bh": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion_dyNP8P": {
           "type": "promotion",
           "settings": {
             "image": "shopify://shop_images/Steve_BW.jpg",
@@ -472,7 +540,7 @@
             "opacity": 50
           }
         },
-        "promotion_AgLRxg": {
+        "promotion_Nzfwki": {
           "type": "promotion",
           "settings": {
             "image": "shopify://shop_images/Steve_Post_BW.jpg",
@@ -489,37 +557,20 @@
         }
       },
       "block_order": [
-        "promotion_X4Eaqk",
-        "promotion_MGkeYw",
-        "promotion_qWPfMa",
-        "promotion_PgMDcH",
-        "promotion_ERX7tP",
-        "promotion_YfY4CE",
-        "promotion_g8bdkn",
-        "promotion_n6pQVR",
-        "promotion_kcJpLy",
-        "promotion_hM8cK3",
-        "promotion_yPNcxD",
-        "promotion_mCfnHj",
-        "promotion_xxUaKa",
-        "promotion_7XmU94",
-        "promotion_wFDQje",
-        "promotion_hHLgxm",
-        "promotion_t4C9tP",
-        "promotion_C98UPE",
-        "promotion_7UKBgC",
-        "promotion_AgLRxg"
+        "promotion_dyNP8P",
+        "promotion_Nzfwki"
       ],
       "custom_css": [
         "a {text-decoration: none; color: #000;}"
       ],
+      "name": "t:sections.grid.presets.grid.name",
       "settings": {
         "title": "",
         "text_outside": true,
-        "text_centered": true,
+        "text_centered": false,
         "section_height": "natural",
         "section_columns": 4,
-        "text_alignment": "center-center"
+        "text_alignment": "top-left"
       }
     }
   },
@@ -532,6 +583,7 @@
     "main",
     "dynamic_highlights_banner_RJeHjd",
     "dynamic_rich_text_fYUcBa",
-    "dynamic_promo_grid_xYYwnc"
+    "dynamic_promo_grid_xYYwnc",
+    "dynamic_promo_grid_39P3Bh"
   ]
 }
