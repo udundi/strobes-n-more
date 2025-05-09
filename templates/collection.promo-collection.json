@@ -1,16 +1,17 @@
 /*
-* ------------------------------------------------------------
-* IMPORTANT: The contents of this file are auto-generated.
-*
-* This file may be updated by the Shopify admin theme editor
-* or related systems. Please exercise caution as any changes
-* made to this file may be overwritten.
-* ------------------------------------------------------------
-*/
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "dynamic_image_with_text_eGnAbt": {
       "type": "dynamic-image-with-text",
+      "disabled": true,
       "settings": {
         "section_heading": "Image with text",
         "desktop_height": "natural",
@@ -18,7 +19,7 @@
         "desktop_image_alignment": "left",
         "mobile_image_alignment": "top",
         "heading": "Image with text",
-        "subheading": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.<\/p>",
+        "subheading": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
         "text_alignment": "left",
         "button_label": "Button",
         "button_link": ""
@@ -31,7 +32,7 @@
           "type": "filter",
           "settings": {
             "filter_option": "faceted",
-            "filter_groups": "expand_first",
+            "filter_groups": "collapse_all",
             "show_filter_product_count": true,
             "filter_style": "tags",
             "filter_limit": "999",

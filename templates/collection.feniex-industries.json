@@ -15,8 +15,8 @@
         "filter-1": {
           "type": "filter",
           "settings": {
-            "filter_option": "tag",
-            "filter_groups": "expand_first",
+            "filter_option": "faceted",
+            "filter_groups": "collapse_all",
             "show_filter_product_count": false,
             "filter_style": "tags",
             "filter_limit": "20",
