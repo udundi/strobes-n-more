@@ -63,6 +63,10 @@
         "share": {
           "type": "share",
           "settings": {}
+        },
+        "judge_me_reviews_preview_badge_WBD8an": {
+          "type": "shopify://apps/judge-me-reviews/blocks/preview_badge/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
         }
       },
       "block_order": [
@@ -75,7 +79,8 @@
         "rating",
         "desc_tab_QhEzwa",
         "complementary_products_UQ4miN",
-        "share"
+        "share",
+        "judge_me_reviews_preview_badge_WBD8an"
       ],
       "custom_css": [
         ".shopify-payment-button button {text-transform: uppercase;}",
@@ -104,6 +109,21 @@
       },
       "block_order": [
         "oneloyalty_point_calculator_nHNciU"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "1747319206dafc7834": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_N4jREx": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_N4jREx"
       ],
       "settings": {
         "include_padding": true
@@ -187,6 +207,7 @@
   "order": [
     "main",
     "17361695840f23726e",
+    "1747319206dafc7834",
     "recommendations",
     "dynamic_rich_text_nH4Ctq",
     "dynamic_highlights_banner_DTRagm",
