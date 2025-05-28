@@ -20,7 +20,7 @@
       "settings": {
         "width": "full-width",
         "title": "Save With Every Dollar You Spend",
-        "text": "<p>Shop, Save, and Earn with Strobes N' More Rewards! We value our customers, and our rewards program is designed to give back for every purchase you make. For every dollar you spend, you'll earn <strong>1 reward point</strong>. These points can be accumulated and redeemed for discounts on <strong>most products in our catalog</strong>, making it even easier to get the gear you need at a great value.</p><p>Using your points is simple—just log into your account, check your points balance, and apply them at checkout toward eligible items. Whether you're upgrading your setup, adding new equipment, or stocking up on essentials, your points can help you save.</p><p>Start earning rewards today and make the most out of every purchase at Strobes N' More!</p><p>*Restrictions may apply, dealers may not participate. </p>",
+        "text": "<p>Shop, Save, and Earn with Strobes N' More Rewards! We value our customers, and our rewards program is designed to give back for every purchase you make. For every dollar you spend, you'll earn <strong>1 reward point</strong>. These points can be accumulated and redeemed for swag and your favorite Strobes N' More products! Please refer to the rewards tiers listed below. <br/><br/><strong>Using your points is simple</strong> - Call 401-454-4487 during business hours (8:30am-4:30pm EST) and talk to one of our Customer Support Specialists to redeem your points. Please review the catalog below prior to calling. </p><p>Start earning rewards today and make the most out of every purchase at Strobes N' More!</p><p>*Restrictions may apply, dealers may not participate. </p>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
@@ -58,7 +58,6 @@
         "hotspot_zhXFQK",
         "hotspot_iBqafh"
       ],
-      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
       "settings": {
         "title": "",
         "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
@@ -79,7 +78,6 @@
         "h2 {color: #21225b; padding: 12px;}",
         " {background-color: #21225b;}"
       ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "width": "regular",
         "title": ".",
@@ -121,7 +119,6 @@
         "hotspot_7GTN7Q",
         "hotspot_yCkdBH"
       ],
-      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
       "settings": {
         "title": "",
         "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
@@ -142,7 +139,6 @@
         "h2 {color: #21225b; padding: 12px;}",
         " {background-color: #21225b;}"
       ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "width": "regular",
         "title": ".",
@@ -184,7 +180,6 @@
         "hotspot_HW6tVf",
         "hotspot_aDmXdt"
       ],
-      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
       "settings": {
         "title": "",
         "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
@@ -205,7 +200,6 @@
         "h2 {color: #21225b; padding: 12px;}",
         " {background-color: #21225b;}"
       ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "width": "regular",
         "title": ".",
@@ -247,7 +241,6 @@
         "hotspot_mEiHw4",
         "hotspot_38b9zP"
       ],
-      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
       "settings": {
         "title": "",
         "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
@@ -268,7 +261,6 @@
         "h2 {color: #21225b; padding: 12px;}",
         " {background-color: #21225b;}"
       ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "width": "regular",
         "title": ".",
@@ -310,7 +302,6 @@
         "hotspot_QPJkeU",
         "hotspot_MmM6hq"
       ],
-      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
       "settings": {
         "title": "",
         "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
@@ -331,7 +322,6 @@
         "h2 {color: #21225b; padding: 12px;}",
         " {background-color: #21225b;}"
       ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "width": "regular",
         "title": ".",
@@ -373,7 +363,6 @@
         "hotspot_MJiATG",
         "hotspot_Fedq6B"
       ],
-      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
       "settings": {
         "title": "",
         "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
@@ -394,7 +383,6 @@
         "h2 {color: #21225b; padding: 12px;}",
         " {background-color: #21225b;}"
       ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "width": "regular",
         "title": ".",
@@ -436,7 +424,6 @@
         "hotspot_n6PiVN",
         "hotspot_im9G99"
       ],
-      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
       "settings": {
         "title": "",
         "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
@@ -457,7 +444,6 @@
         "h2 {color: #21225b; padding: 12px;}",
         " {background-color: #21225b;}"
       ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "width": "regular",
         "title": ".",
@@ -499,7 +485,6 @@
         "hotspot_JrE8V9",
         "hotspot_JwpKhV"
       ],
-      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
       "settings": {
         "title": "",
         "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
@@ -520,7 +505,6 @@
         "h2 {color: #21225b; padding: 12px;}",
         " {background-color: #21225b;}"
       ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "width": "regular",
         "title": ".",
@@ -562,7 +546,6 @@
         "hotspot_zf7pmw",
         "hotspot_mECq7t"
       ],
-      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
       "settings": {
         "title": "",
         "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
@@ -583,7 +566,6 @@
         "h2 {color: #21225b; padding: 12px;}",
         " {background-color: #21225b;}"
       ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "width": "regular",
         "title": ".",
@@ -625,7 +607,6 @@
         "hotspot_PcWnMg",
         "hotspot_DiiXwc"
       ],
-      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
       "settings": {
         "title": "",
         "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
@@ -646,7 +627,6 @@
         "h2 {color: #21225b; padding: 12px;}",
         " {background-color: #21225b;}"
       ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "width": "regular",
         "title": ".",
@@ -688,7 +668,6 @@
         "hotspot_dRUTta",
         "hotspot_JbTRBm"
       ],
-      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
       "settings": {
         "title": "",
         "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
@@ -709,7 +688,6 @@
         "h2 {color: #21225b; padding: 12px;}",
         " {background-color: #21225b;}"
       ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "width": "regular",
         "title": ".",
@@ -751,7 +729,6 @@
         "hotspot_T6GfkM",
         "hotspot_iicGYw"
       ],
-      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
       "settings": {
         "title": "",
         "image": "shopify://shop_images/image_3_baae65a2-0371-4848-8140-307cc50d9e5e.png",
