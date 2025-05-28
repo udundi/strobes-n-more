@@ -250,7 +250,7 @@
         "promotion_qWPfMa": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/Devin.jpg",
+            "image": "shopify://shop_images/Chantal.png",
             "title": "Chantal",
             "text": "Inbound Sales & Customer Support Specialist",
             "color": "#4d4d4d",
@@ -385,7 +385,7 @@
         "promotion_F6hfM6": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/Devin.jpg",
+            "image": "shopify://shop_images/Jocelyne.png",
             "title": "Jocelyne",
             "text": "Inbound Sales & Customer Support Specialist",
             "color": "#4d4d4d",
@@ -579,7 +579,6 @@
       "custom_css": [
         "a {text-decoration: none; color: #000;}"
       ],
-      "name": "t:sections.grid.presets.grid.name",
       "settings": {
         "title": "",
         "text_outside": true,
