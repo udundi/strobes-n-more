@@ -569,12 +569,28 @@
             "background": "",
             "opacity": 50
           }
+        },
+        "promotion_cd3JR8": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Devin.jpg",
+            "title": "Tasia Plunkett",
+            "text": "Digital Media Specialist",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
         }
       },
       "block_order": [
         "promotion_dyNP8P",
         "promotion_iWmB8c",
-        "promotion_Nzfwki"
+        "promotion_Nzfwki",
+        "promotion_cd3JR8"
       ],
       "custom_css": [
         "a {text-decoration: none; color: #000;}"
