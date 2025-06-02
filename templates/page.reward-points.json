@@ -145,15 +145,15 @@
     "dynamic_rich_text_eXUtHw": {
       "type": "dynamic-rich-text",
       "custom_css": [
-        "h2 {color: #21225b; padding: 12px;}",
+        "h2 {color: white; padding: 12px;}",
         " {background-color: #21225b;}"
       ],
       "settings": {
         "width": "regular",
-        "title": ".",
+        "title": "Tier 3: 1,500 Points",
         "text": "",
         "heading_size": "medium",
-        "text_alignment": "left"
+        "text_alignment": "center"
       }
     },
     "dynamic_shoppable_image_YQdY9T": {
@@ -162,15 +162,15 @@
         "hotspot_RPBT4z": {
           "type": "hotspot",
           "settings": {
-            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
-            "x_axis": 54,
-            "y_axis": 65
+            "product": "s3-led-surface-mount-strobes-n-more_p_6491",
+            "x_axis": 34,
+            "y_axis": 73
           }
         },
         "hotspot_HW6tVf": {
           "type": "hotspot",
           "settings": {
-            "product": "strobes-n-more-6-output-led-flasher",
+            "product": "strobes-n-more-led-ebeacon-mini",
             "x_axis": 20,
             "y_axis": 30
           }
@@ -178,9 +178,9 @@
         "hotspot_aDmXdt": {
           "type": "hotspot",
           "settings": {
-            "product": "whelen-l32-super-led-beacon-class-1-2",
-            "x_axis": 85,
-            "y_axis": 55
+            "product": "strobes-n-more-180-crescent-dual-color-lighthead",
+            "x_axis": 76,
+            "y_axis": 50
           }
         }
       },
@@ -194,8 +194,8 @@
         "image": "shopify://shop_images/SNM_Rewards_Graphics_Tier_3.png",
         "image_width": "two-thirds",
         "link_text": "View product",
-        "textbox_title": "Tier 3: 1,500 Points",
-        "textbox_subheading": "<p>S3 - 1,500 Points<br/>CRESCENT - 1,500 Points<br/>EBEACONMINI - 1,500 Points</p>",
+        "textbox_title": "",
+        "textbox_subheading": "<p>ITEM 1: S3<br/>ITEM 2: CRESCENT<br/>ITEM 3: EBEACONMINI</p>",
         "textbox_button_label": "",
         "textbox_button_link": "",
         "textbox_button_style": "primary",
@@ -206,15 +206,15 @@
     "dynamic_rich_text_RfnTjz": {
       "type": "dynamic-rich-text",
       "custom_css": [
-        "h2 {color: #21225b; padding: 12px;}",
+        "h2 {color: white; padding: 12px;}",
         " {background-color: #21225b;}"
       ],
       "settings": {
         "width": "regular",
-        "title": ".",
+        "title": "Tier 4: 2,000 Points",
         "text": "",
         "heading_size": "medium",
-        "text_alignment": "left"
+        "text_alignment": "center"
       }
     },
     "dynamic_shoppable_image_fiLJKz": {
@@ -223,25 +223,25 @@
         "hotspot_dwRUtq": {
           "type": "hotspot",
           "settings": {
-            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
-            "x_axis": 54,
-            "y_axis": 65
+            "product": "strobes-n-more-e6-slim-next-gen-led",
+            "x_axis": 25,
+            "y_axis": 71
           }
         },
         "hotspot_mEiHw4": {
           "type": "hotspot",
           "settings": {
-            "product": "strobes-n-more-6-output-led-flasher",
-            "x_axis": 20,
-            "y_axis": 30
+            "product": "strobesnmore-e6-led-lighthead",
+            "x_axis": 23,
+            "y_axis": 25
           }
         },
         "hotspot_38b9zP": {
           "type": "hotspot",
           "settings": {
-            "product": "whelen-l32-super-led-beacon-class-1-2",
-            "x_axis": 85,
-            "y_axis": 55
+            "product": "strobes-n-more-side-shooter-floodlights",
+            "x_axis": 76,
+            "y_axis": 50
           }
         }
       },
@@ -255,8 +255,8 @@
         "image": "shopify://shop_images/SNM_Rewards_Graphics_Tier_4.png",
         "image_width": "two-thirds",
         "link_text": "View product",
-        "textbox_title": "Tier 4: 2,000 Points",
-        "textbox_subheading": "<p>SIDESHOOTERS - 2,000 Points<br/>E6 - 2,000 Points<br/>E6SLIM - 2,000 Points</p>",
+        "textbox_title": "",
+        "textbox_subheading": "<p>ITEM 1: SIDESHOOTERS<br/>ITEM 2: E6<br/>ITEM 3: E6SLIM</p>",
         "textbox_button_label": "",
         "textbox_button_link": "",
         "textbox_button_style": "primary",
@@ -267,15 +267,15 @@
     "dynamic_rich_text_AqxkfM": {
       "type": "dynamic-rich-text",
       "custom_css": [
-        "h2 {color: #21225b; padding: 12px;}",
+        "h2 {color: white; padding: 12px;}",
         " {background-color: #21225b;}"
       ],
       "settings": {
         "width": "regular",
-        "title": ".",
+        "title": "Tier 5: 3000 Points",
         "text": "",
         "heading_size": "medium",
-        "text_alignment": "left"
+        "text_alignment": "center"
       }
     },
     "dynamic_shoppable_image_WN3PDW": {
@@ -284,31 +284,49 @@
         "hotspot_XECqEq": {
           "type": "hotspot",
           "settings": {
-            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
-            "x_axis": 54,
-            "y_axis": 65
+            "product": "strobes-n-more-tiger-dual-dash-light",
+            "x_axis": 78,
+            "y_axis": 21
           }
         },
         "hotspot_QPJkeU": {
           "type": "hotspot",
           "settings": {
-            "product": "strobes-n-more-6-output-led-flasher",
-            "x_axis": 20,
-            "y_axis": 30
+            "product": "strobes-n-more-shadow-siren-with-handheld-controller",
+            "x_axis": 24,
+            "y_axis": 86
+          }
+        },
+        "hotspot_kyBCrJ": {
+          "type": "hotspot",
+          "settings": {
+            "product": "strobes-n-more-amber-led-360-ebeacon-class-1",
+            "x_axis": 30,
+            "y_axis": 26
+          }
+        },
+        "hotspot_qzmrpV": {
+          "type": "hotspot",
+          "settings": {
+            "product": "snm-touch-7-fully-programmable-switchbox",
+            "x_axis": 54,
+            "y_axis": 61
           }
         },
         "hotspot_MmM6hq": {
           "type": "hotspot",
           "settings": {
-            "product": "whelen-l32-super-led-beacon-class-1-2",
-            "x_axis": 85,
-            "y_axis": 55
+            "product": "strobes-n-more-phantom-100-watt-speaker",
+            "x_axis": 83,
+            "y_axis": 73
           }
         }
       },
       "block_order": [
         "hotspot_XECqEq",
         "hotspot_QPJkeU",
+        "hotspot_kyBCrJ",
+        "hotspot_qzmrpV",
         "hotspot_MmM6hq"
       ],
       "settings": {
@@ -316,8 +334,8 @@
         "image": "shopify://shop_images/SNM_Rewards_Graphics_Tier_5.png",
         "image_width": "two-thirds",
         "link_text": "View product",
-        "textbox_title": "Tier 5: 3000 Points",
-        "textbox_subheading": "<p>PHANTOM - 3,000 Points<br/>T12DLR - 3,000 Points<br/>TOUCH7 - 3,000 Points<br/>EBEACON360 - 3,000 Points<br/>SHADOW - 3,000 Points</p>",
+        "textbox_title": "",
+        "textbox_subheading": "<p>ITEM 1: PHANTOM<br/>ITEM 2: T12DLR <br/>ITEM 3: TOUCH7<br/>ITEM 4: EBEACON360<br/>ITEM 5: SHADOW</p>",
         "textbox_button_label": "",
         "textbox_button_link": "",
         "textbox_button_style": "primary",
