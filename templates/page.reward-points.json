@@ -31,32 +31,41 @@
         "hotspot_QPJTKG": {
           "type": "hotspot",
           "settings": {
-            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
-            "x_axis": 54,
-            "y_axis": 65
+            "product": "hat",
+            "x_axis": 25,
+            "y_axis": 66
           }
         },
         "hotspot_zhXFQK": {
           "type": "hotspot",
           "settings": {
-            "product": "strobes-n-more-6-output-led-flasher",
-            "x_axis": 20,
-            "y_axis": 30
+            "product": "water-bottle",
+            "x_axis": 8,
+            "y_axis": 44
           }
         },
         "hotspot_iBqafh": {
           "type": "hotspot",
           "settings": {
-            "product": "whelen-l32-super-led-beacon-class-1-2",
-            "x_axis": 85,
-            "y_axis": 55
+            "product": "tshirt-promo-note-size-in-comments-box",
+            "x_axis": 64,
+            "y_axis": 40
+          }
+        },
+        "hotspot_GitFL7": {
+          "type": "hotspot",
+          "settings": {
+            "product": "tshirt-note-size-in-comments-box",
+            "x_axis": 88,
+            "y_axis": 50
           }
         }
       },
       "block_order": [
         "hotspot_QPJTKG",
         "hotspot_zhXFQK",
-        "hotspot_iBqafh"
+        "hotspot_iBqafh",
+        "hotspot_GitFL7"
       ],
       "settings": {
         "title": "",
@@ -64,7 +73,7 @@
         "image_width": "two-thirds",
         "link_text": "View product",
         "textbox_title": "Tier 1: 500 Points",
-        "textbox_subheading": "<p>MOUSEPAD - 500 Points<br/>WATER BOTTLE - 500 Points<br/>T-SHIRT - 500 Points<br/>HAT - 500 Points<br/>MYSTERY ITEM - 500 Points</p>",
+        "textbox_subheading": "<p>ITEM 1: MOUSEPAD<br/>ITEM 2: WATER BOTTLE<br/>ITEM 3: T-SHIRT<br/>ITEM 4:HAT<br/>ITEM 5: MYSTERY ITEM</p>",
         "textbox_button_label": "",
         "textbox_button_link": "",
         "textbox_button_style": "primary",
@@ -75,15 +84,15 @@
     "dynamic_rich_text_PBhcpH": {
       "type": "dynamic-rich-text",
       "custom_css": [
-        "h2 {color: #21225b; padding: 12px;}",
+        "h2 {color: white; padding: 12px;}",
         " {background-color: #21225b;}"
       ],
       "settings": {
         "width": "regular",
-        "title": ".",
+        "title": "Tier 2: 1,000 Points",
         "text": "",
         "heading_size": "medium",
-        "text_alignment": "left"
+        "text_alignment": "center"
       }
     },
     "dynamic_shoppable_image_3UFi9H": {
@@ -92,8 +101,8 @@
         "hotspot_EY3gn8": {
           "type": "hotspot",
           "settings": {
-            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
-            "x_axis": 54,
+            "product": "strobes-n-more-tiger-6-led-dash-light-amber_p_6988",
+            "x_axis": 50,
             "y_axis": 65
           }
         },
@@ -101,16 +110,16 @@
           "type": "hotspot",
           "settings": {
             "product": "strobes-n-more-6-output-led-flasher",
-            "x_axis": 20,
-            "y_axis": 30
+            "x_axis": 16,
+            "y_axis": 33
           }
         },
         "hotspot_yCkdBH": {
           "type": "hotspot",
           "settings": {
-            "product": "whelen-l32-super-led-beacon-class-1-2",
-            "x_axis": 85,
-            "y_axis": 55
+            "product": "e4-led-lighthead-strobes-n-more_p_7062",
+            "x_axis": 50,
+            "y_axis": 20
           }
         }
       },
@@ -124,8 +133,8 @@
         "image": "shopify://shop_images/SNM_Rewards_Graphics_Tier_2.png",
         "image_width": "two-thirds",
         "link_text": "View product",
-        "textbox_title": "Tier 2: 1,000 Points",
-        "textbox_subheading": "<p>HOODIE - 1,000 Points<br/>SNMFLASHER - 1,000 Points<br/>T6DL - 1,000 Points<br/>E4 - 1,000 Points</p>",
+        "textbox_title": "",
+        "textbox_subheading": "<p>ITEM 1: HOODIE<br/>ITEM 2: SNMFLASHER<br/>ITEM 3: T6DL<br/>ITEM 4: E4</p>",
         "textbox_button_label": "",
         "textbox_button_link": "",
         "textbox_button_style": "primary",
