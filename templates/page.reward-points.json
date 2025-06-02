@@ -752,19 +752,6 @@
     },
     "dynamic_shoppable_image_zhCVVh": {
       "type": "dynamic-shoppable-image",
-      "blocks": {
-        "hotspot_T6GfkM": {
-          "type": "hotspot",
-          "settings": {
-            "product": "60-atom-dual-color-rocker-panel-light-strobes-n-more_p_7061",
-            "x_axis": 16,
-            "y_axis": 50
-          }
-        }
-      },
-      "block_order": [
-        "hotspot_T6GfkM"
-      ],
       "settings": {
         "title": "",
         "image": "shopify://shop_images/SNM_Rewards_Graphics_Tier_12.png",
