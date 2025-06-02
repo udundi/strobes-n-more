@@ -416,15 +416,15 @@
     "dynamic_rich_text_RKbaCx": {
       "type": "dynamic-rich-text",
       "custom_css": [
-        "h2 {color: #21225b; padding: 12px;}",
+        "h2 {color: white; padding: 12px;}",
         " {background-color: #21225b;}"
       ],
       "settings": {
         "width": "regular",
-        "title": ".",
+        "title": "Tier 7: 5,000 Points",
         "text": "",
         "heading_size": "medium",
-        "text_alignment": "left"
+        "text_alignment": "center"
       }
     },
     "dynamic_shoppable_image_Ahq6z9": {
@@ -433,25 +433,25 @@
         "hotspot_zxi6Gj": {
           "type": "hotspot",
           "settings": {
-            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
-            "x_axis": 54,
-            "y_axis": 65
+            "product": "strobes-n-more-e64-flood-warning-led-stick",
+            "x_axis": 65,
+            "y_axis": 69
           }
         },
         "hotspot_n6PiVN": {
           "type": "hotspot",
           "settings": {
-            "product": "strobes-n-more-6-output-led-flasher",
-            "x_axis": 20,
-            "y_axis": 30
+            "product": "touch-6",
+            "x_axis": 18,
+            "y_axis": 48
           }
         },
         "hotspot_im9G99": {
           "type": "hotspot",
           "settings": {
-            "product": "whelen-l32-super-led-beacon-class-1-2",
-            "x_axis": 85,
-            "y_axis": 55
+            "product": "strobes-n-more-dual-threat-dash-light-free-shield-new-optics",
+            "x_axis": 65,
+            "y_axis": 21
           }
         }
       },
@@ -465,8 +465,8 @@
         "image": "shopify://shop_images/SNM_Rewards_Graphics_Tier_7.png",
         "image_width": "two-thirds",
         "link_text": "View product",
-        "textbox_title": "Tier 7: 5,000 Points",
-        "textbox_subheading": "<p>TOUCH6 - 5,000 Points<br/>DUALTHREAT - 5,000 Points<br/>E64 - 5,000 Points</p>",
+        "textbox_title": "",
+        "textbox_subheading": "<p>ITEM 1: TOUCH6<br/>ITEM 2: DUALTHREAT<br/>ITEM 3: E64</p>",
         "textbox_button_label": "",
         "textbox_button_link": "",
         "textbox_button_style": "primary",
@@ -477,15 +477,15 @@
     "dynamic_rich_text_Vexk34": {
       "type": "dynamic-rich-text",
       "custom_css": [
-        "h2 {color: #21225b; padding: 12px;}",
+        "h2 {color: white; padding: 12px;}",
         " {background-color: #21225b;}"
       ],
       "settings": {
         "width": "regular",
-        "title": ".",
+        "title": "Tier 8: 6,000 Points",
         "text": "",
         "heading_size": "medium",
-        "text_alignment": "left"
+        "text_alignment": "center"
       }
     },
     "dynamic_shoppable_image_afRxim": {
@@ -494,40 +494,58 @@
         "hotspot_ztgcAn": {
           "type": "hotspot",
           "settings": {
-            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
-            "x_axis": 54,
-            "y_axis": 65
+            "product": "strobes-n-more-lion-mini-lightbar",
+            "x_axis": 50,
+            "y_axis": 59
+          }
+        },
+        "hotspot_RtERwB": {
+          "type": "hotspot",
+          "settings": {
+            "product": "strobes-n-more-triple-threat-dual-color-dash-light",
+            "x_axis": 82,
+            "y_axis": 23
           }
         },
         "hotspot_JrE8V9": {
           "type": "hotspot",
           "settings": {
-            "product": "strobes-n-more-6-output-led-flasher",
-            "x_axis": 20,
-            "y_axis": 30
+            "product": "strobes-n-more-triple-threat-dash-light-new-optics",
+            "x_axis": 30,
+            "y_axis": 11
           }
         },
         "hotspot_JwpKhV": {
           "type": "hotspot",
           "settings": {
-            "product": "whelen-l32-super-led-beacon-class-1-2",
-            "x_axis": 85,
-            "y_axis": 55
+            "product": "strobes-n-more-trudual-2-0-eflood",
+            "x_axis": 76,
+            "y_axis": 87
+          }
+        },
+        "hotspot_kPVW9R": {
+          "type": "hotspot",
+          "settings": {
+            "product": "strobes-n-more-e94-four-head-hide-away-kit",
+            "x_axis": 18,
+            "y_axis": 66
           }
         }
       },
       "block_order": [
         "hotspot_ztgcAn",
+        "hotspot_RtERwB",
         "hotspot_JrE8V9",
-        "hotspot_JwpKhV"
+        "hotspot_JwpKhV",
+        "hotspot_kPVW9R"
       ],
       "settings": {
         "title": "",
         "image": "shopify://shop_images/SNM_Rewards_Graphics_Tier_8.png",
         "image_width": "two-thirds",
         "link_text": "View product",
-        "textbox_title": "Tier 8: 6,000 Points",
-        "textbox_subheading": "<p>TRIPLETHREAT - 6,000 Points<br/>LIONMINIBAR - 6,000 Points<br/>TRUDUAL - 6,000 Points<br/>TRIPLETHREATDUAL - 6,000 Points<br/>EHAW94 - 6,000 Points</p>",
+        "textbox_title": "",
+        "textbox_subheading": "<p>ITEM 1: TRIPLETHREAT<br/>ITEM 2: LIONMINIBAR<br/>ITEM 3: TRUDUAL<br/>ITEM 4: TRIPLETHREATDUAL<br/>ITEM 5: EHAW94</p>",
         "textbox_button_label": "",
         "textbox_button_link": "",
         "textbox_button_style": "primary",
@@ -538,15 +556,15 @@
     "dynamic_rich_text_WjhTLc": {
       "type": "dynamic-rich-text",
       "custom_css": [
-        "h2 {color: #21225b; padding: 12px;}",
+        "h2 {color: white; padding: 12px;}",
         " {background-color: #21225b;}"
       ],
       "settings": {
         "width": "regular",
-        "title": ".",
+        "title": "Tier 9: 7,000 Points",
         "text": "",
         "heading_size": "medium",
-        "text_alignment": "left"
+        "text_alignment": "center"
       }
     },
     "dynamic_shoppable_image_eGwfUX": {
@@ -555,40 +573,49 @@
         "hotspot_c73jjg": {
           "type": "hotspot",
           "settings": {
-            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
-            "x_axis": 54,
-            "y_axis": 65
+            "product": "strobes-n-more-tail-gator-taillight",
+            "x_axis": 49,
+            "y_axis": 7
           }
         },
         "hotspot_zf7pmw": {
           "type": "hotspot",
           "settings": {
-            "product": "strobes-n-more-6-output-led-flasher",
-            "x_axis": 20,
-            "y_axis": 30
+            "product": "strobes-n-more-lp-array-license-plate-bracket",
+            "x_axis": 48,
+            "y_axis": 67
           }
         },
         "hotspot_mECq7t": {
           "type": "hotspot",
           "settings": {
-            "product": "whelen-l32-super-led-beacon-class-1-2",
-            "x_axis": 85,
-            "y_axis": 55
+            "product": "strobes-n-more-millennium-mini-led-lightbar",
+            "x_axis": 81,
+            "y_axis": 51
+          }
+        },
+        "hotspot_cPdd8j": {
+          "type": "hotspot",
+          "settings": {
+            "product": "strobes-n-more-galaxy-elite-led-mini-lightbar",
+            "x_axis": 19,
+            "y_axis": 75
           }
         }
       },
       "block_order": [
         "hotspot_c73jjg",
         "hotspot_zf7pmw",
-        "hotspot_mECq7t"
+        "hotspot_mECq7t",
+        "hotspot_cPdd8j"
       ],
       "settings": {
         "title": "",
         "image": "shopify://shop_images/SNM_Rewards_Graphics_Tier_9.png",
         "image_width": "two-thirds",
         "link_text": "View product",
-        "textbox_title": "Tier 9: 7,000 Points",
-        "textbox_subheading": "<p>TAILGATOR - 7,000 Points<br/>MILLENNIUM  - 7,000 Points<br/>LPARRAY - 7,000 Points<br/>GALAXY - 7,000 Points</p>",
+        "textbox_title": "",
+        "textbox_subheading": "<p>ITEM 1: TAILGATOR<br/>ITEM 2: MILLENNIUM<br/>ITEM 3: LPARRAY<br/>ITEM 4: GALAXY</p>",
         "textbox_button_label": "",
         "textbox_button_link": "",
         "textbox_button_style": "primary",
@@ -599,15 +626,15 @@
     "dynamic_rich_text_ceTyaJ": {
       "type": "dynamic-rich-text",
       "custom_css": [
-        "h2 {color: #21225b; padding: 12px;}",
+        "h2 {color: white; padding: 12px;}",
         " {background-color: #21225b;}"
       ],
       "settings": {
         "width": "regular",
-        "title": ".",
+        "title": "Tier 10: 8,000 Points",
         "text": "",
         "heading_size": "medium",
-        "text_alignment": "left"
+        "text_alignment": "center"
       }
     },
     "dynamic_shoppable_image_3T7mtJ": {
@@ -616,30 +643,39 @@
         "hotspot_Fqbg6c": {
           "type": "hotspot",
           "settings": {
-            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
-            "x_axis": 54,
-            "y_axis": 65
+            "product": "strobes-n-more-e64-flood-warning-led-stick",
+            "x_axis": 22,
+            "y_axis": 74
+          }
+        },
+        "hotspot_Y66imH": {
+          "type": "hotspot",
+          "settings": {
+            "product": "strobes-n-more-ilb-interior-dual-color-lightbar-1",
+            "x_axis": 75,
+            "y_axis": 72
           }
         },
         "hotspot_PcWnMg": {
           "type": "hotspot",
           "settings": {
-            "product": "strobes-n-more-6-output-led-flasher",
-            "x_axis": 20,
-            "y_axis": 30
+            "product": "strobes-n-more-e66-traffic-warning-led-stick-with-removable-optics",
+            "x_axis": 24,
+            "y_axis": 25
           }
         },
         "hotspot_DiiXwc": {
           "type": "hotspot",
           "settings": {
-            "product": "whelen-l32-super-led-beacon-class-1-2",
-            "x_axis": 85,
-            "y_axis": 55
+            "product": "strobes-n-more-e66-max-traffic-warning-led-stick-new-optics",
+            "x_axis": 67,
+            "y_axis": 24
           }
         }
       },
       "block_order": [
         "hotspot_Fqbg6c",
+        "hotspot_Y66imH",
         "hotspot_PcWnMg",
         "hotspot_DiiXwc"
       ],
@@ -648,8 +684,8 @@
         "image": "shopify://shop_images/SNM_Rewards_Graphics_Tier_10.png",
         "image_width": "two-thirds",
         "link_text": "View product",
-        "textbox_title": "Tier 10: 8,000 Points",
-        "textbox_subheading": "<p>E66MAX - 8,000 Points<br/>E66 - 8,000 Points<br/>E64FLOOD - 8,000 Points<br/>ILB - 8,000 Points</p>",
+        "textbox_title": "",
+        "textbox_subheading": "<p>ITEM 1: E66MAX<br/>ITEM 2: E66<br/>ITEM 3: E64FLOOD<br/>ITEM 3: ILB</p>",
         "textbox_button_label": "",
         "textbox_button_link": "",
         "textbox_button_style": "primary",
@@ -660,15 +696,15 @@
     "dynamic_rich_text_KVjVpa": {
       "type": "dynamic-rich-text",
       "custom_css": [
-        "h2 {color: #21225b; padding: 12px;}",
+        "h2 {color: white; padding: 12px;}",
         " {background-color: #21225b;}"
       ],
       "settings": {
         "width": "regular",
-        "title": ".",
+        "title": "Tier 11: 9,000 Points",
         "text": "",
         "heading_size": "medium",
-        "text_alignment": "left"
+        "text_alignment": "center"
       }
     },
     "dynamic_shoppable_image_xYpkAp": {
@@ -677,25 +713,25 @@
         "hotspot_rX77QE": {
           "type": "hotspot",
           "settings": {
-            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
-            "x_axis": 54,
-            "y_axis": 65
+            "product": "strobes-n-more-e68-led-stick-with-removable-optics",
+            "x_axis": 68,
+            "y_axis": 75
           }
         },
         "hotspot_dRUTta": {
           "type": "hotspot",
           "settings": {
-            "product": "strobes-n-more-6-output-led-flasher",
+            "product": "strobes-n-more-e66-max-dual-color-traffic-warning-led-stick-new-optics",
             "x_axis": 20,
-            "y_axis": 30
+            "y_axis": 50
           }
         },
         "hotspot_JbTRBm": {
           "type": "hotspot",
           "settings": {
-            "product": "whelen-l32-super-led-beacon-class-1-2",
-            "x_axis": 85,
-            "y_axis": 55
+            "product": "strobes-n-more-e66-flood-warning-led-stick",
+            "x_axis": 70,
+            "y_axis": 33
           }
         }
       },
@@ -709,8 +745,8 @@
         "image": "shopify://shop_images/SNM_Rewards_Graphics_Tier_11.png",
         "image_width": "two-thirds",
         "link_text": "View product",
-        "textbox_title": "Tier 11: 9,000 Points",
-        "textbox_subheading": "<p>E66FLOOD - 9,000 Points<br/>E66MAXDUAL - 9,000 Points<br/>E68 - 9,000 Points</p>",
+        "textbox_title": "",
+        "textbox_subheading": "<p>ITEM 1: E66FLOOD<br/>ITEM 2: E66MAXDUAL<br/>ITEM 3: E68</p>",
         "textbox_button_label": "",
         "textbox_button_link": "",
         "textbox_button_style": "primary",
@@ -721,57 +757,39 @@
     "dynamic_rich_text_MrAKUE": {
       "type": "dynamic-rich-text",
       "custom_css": [
-        "h2 {color: #21225b; padding: 12px;}",
+        "h2 {color: white; padding: 12px;}",
         " {background-color: #21225b;}"
       ],
       "settings": {
         "width": "regular",
-        "title": ".",
+        "title": "Tier 12: 10,000 Points",
         "text": "",
         "heading_size": "medium",
-        "text_alignment": "left"
+        "text_alignment": "center"
       }
     },
     "dynamic_shoppable_image_zhCVVh": {
       "type": "dynamic-shoppable-image",
       "blocks": {
-        "hotspot_Cn3nnp": {
-          "type": "hotspot",
-          "settings": {
-            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
-            "x_axis": 54,
-            "y_axis": 65
-          }
-        },
         "hotspot_T6GfkM": {
           "type": "hotspot",
           "settings": {
-            "product": "strobes-n-more-6-output-led-flasher",
-            "x_axis": 20,
-            "y_axis": 30
-          }
-        },
-        "hotspot_iicGYw": {
-          "type": "hotspot",
-          "settings": {
-            "product": "whelen-l32-super-led-beacon-class-1-2",
-            "x_axis": 85,
-            "y_axis": 55
+            "product": "60-atom-dual-color-rocker-panel-light-strobes-n-more_p_7061",
+            "x_axis": 16,
+            "y_axis": 50
           }
         }
       },
       "block_order": [
-        "hotspot_Cn3nnp",
-        "hotspot_T6GfkM",
-        "hotspot_iicGYw"
+        "hotspot_T6GfkM"
       ],
       "settings": {
         "title": "",
         "image": "shopify://shop_images/SNM_Rewards_Graphics_Tier_12.png",
         "image_width": "two-thirds",
         "link_text": "View product",
-        "textbox_title": "Tier 12: 10,000 Points",
-        "textbox_subheading": "<p>2 ATOM60-WF - 10,000 Points<br/>2 ILBs + E64 - 10,000 Points<br/>SPECTRE + PHANTOM + 2 E SERIES - 10,000 Points</p>",
+        "textbox_title": "",
+        "textbox_subheading": "<p>ITEM 1: 2 ATOM60-WF<br/>ITEM 2: 2 ILBs + E64<br/>ITEM 3: SPECTRE + PHANTOM + 2 E SERIES</p>",
         "textbox_button_label": "",
         "textbox_button_link": "",
         "textbox_button_style": "primary",
