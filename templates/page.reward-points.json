@@ -346,15 +346,15 @@
     "dynamic_rich_text_9Rcicy": {
       "type": "dynamic-rich-text",
       "custom_css": [
-        "h2 {color: #21225b; padding: 12px;}",
+        "h2 {color: white; padding: 12px;}",
         " {background-color: #21225b;}"
       ],
       "settings": {
         "width": "regular",
-        "title": ".",
+        "title": "Tier 6: 4,000 Points",
         "text": "",
         "heading_size": "medium",
-        "text_alignment": "left"
+        "text_alignment": "center"
       }
     },
     "dynamic_shoppable_image_MKkiCP": {
@@ -363,30 +363,39 @@
         "hotspot_BGr8TM": {
           "type": "hotspot",
           "settings": {
-            "product": "whelen-siren-amplifier-21-push-buttons-and-handheld-slide-switch-controller",
-            "x_axis": 54,
+            "product": "strobes-n-more-e92-dual-head-hide-away-kit",
+            "x_axis": 17,
+            "y_axis": 68
+          }
+        },
+        "hotspot_QxJbzL": {
+          "type": "hotspot",
+          "settings": {
+            "product": "strobes-n-more-surface-star-dual-head-hide-away-kit",
+            "x_axis": 51,
             "y_axis": 65
           }
         },
         "hotspot_MJiATG": {
           "type": "hotspot",
           "settings": {
-            "product": "strobes-n-more-6-output-led-flasher",
-            "x_axis": 20,
-            "y_axis": 30
+            "product": "strobes-n-more-e62-led-stick-with-removable-optics",
+            "x_axis": 37,
+            "y_axis": 9
           }
         },
         "hotspot_Fedq6B": {
           "type": "hotspot",
           "settings": {
-            "product": "whelen-l32-super-led-beacon-class-1-2",
-            "x_axis": 85,
-            "y_axis": 55
+            "product": "strobes-n-more-mercury-30-watt-siren-speaker",
+            "x_axis": 79,
+            "y_axis": 43
           }
         }
       },
       "block_order": [
         "hotspot_BGr8TM",
+        "hotspot_QxJbzL",
         "hotspot_MJiATG",
         "hotspot_Fedq6B"
       ],
@@ -395,8 +404,8 @@
         "image": "shopify://shop_images/SNM_Rewards_Graphics_Tier_6.png",
         "image_width": "two-thirds",
         "link_text": "View product",
-        "textbox_title": "Tier 6: 4,000 Points",
-        "textbox_subheading": "<p>SSTARKIT - 4,000 Points<br/>E62 - 4,000 Points<br/>MERCURY - 4,000 Points<br/>EHAW92 - 4,000 Points</p>",
+        "textbox_title": "",
+        "textbox_subheading": "<p>ITEM 1: SSTARKIT<br/>ITEM 2: E62<br/>ITEM 3: MERCURY<br/>ITEM 4: EHAW92</p>",
         "textbox_button_label": "",
         "textbox_button_link": "",
         "textbox_button_style": "primary",
