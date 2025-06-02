@@ -43,29 +43,11 @@
             "x_axis": 8,
             "y_axis": 44
           }
-        },
-        "hotspot_iBqafh": {
-          "type": "hotspot",
-          "settings": {
-            "product": "tshirt-promo-note-size-in-comments-box",
-            "x_axis": 64,
-            "y_axis": 40
-          }
-        },
-        "hotspot_GitFL7": {
-          "type": "hotspot",
-          "settings": {
-            "product": "tshirt-note-size-in-comments-box",
-            "x_axis": 88,
-            "y_axis": 50
-          }
         }
       },
       "block_order": [
         "hotspot_QPJTKG",
-        "hotspot_zhXFQK",
-        "hotspot_iBqafh",
-        "hotspot_GitFL7"
+        "hotspot_zhXFQK"
       ],
       "settings": {
         "title": "",
