@@ -423,7 +423,7 @@
         "hotspot_n6PiVN": {
           "type": "hotspot",
           "settings": {
-            "product": "",
+            "product": "touch-6",
             "x_axis": 18,
             "y_axis": 48
           }
