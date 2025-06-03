@@ -36,14 +36,6 @@
             "y_axis": 66
           }
         },
-        "hotspot_RpUttG": {
-          "type": "hotspot",
-          "settings": {
-            "product": "tshirt-note-size-in-comments-box",
-            "x_axis": 88,
-            "y_axis": 50
-          }
-        },
         "hotspot_zhXFQK": {
           "type": "hotspot",
           "settings": {
@@ -55,7 +47,6 @@
       },
       "block_order": [
         "hotspot_QPJTKG",
-        "hotspot_RpUttG",
         "hotspot_zhXFQK"
       ],
       "settings": {
@@ -432,7 +423,7 @@
         "hotspot_n6PiVN": {
           "type": "hotspot",
           "settings": {
-            "product": "touch-6",
+            "product": "",
             "x_axis": 18,
             "y_axis": 48
           }
