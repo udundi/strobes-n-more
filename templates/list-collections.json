@@ -22,13 +22,13 @@
       "type": "pxs-image-with-text-overlay",
       "settings": {
         "section_height": "medium",
-        "image": "shopify://shop_images/Categories.jpg",
-        "title": "Shop By Category",
+        "image": "shopify://shop_images/Shop_By_Category.png",
+        "title": "",
         "text": "",
         "content_position": "center-center",
         "color": "#ffffff",
         "overlay_background": "#000000",
-        "overlay_opacity": 16,
+        "overlay_opacity": 0,
         "link": "",
         "button_text": ""
       }
