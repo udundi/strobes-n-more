@@ -25,6 +25,20 @@
         "text_alignment": "left"
       }
     },
+    "dynamic_rich_text_PBhcpH": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "h2 {color: white; padding: 12px;}",
+        " {background-color: #21225b;}"
+      ],
+      "settings": {
+        "width": "regular",
+        "title": "Tier 1: 500 Points",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "center"
+      }
+    },
     "dynamic_shoppable_image_cabQwY": {
       "type": "dynamic-shoppable-image",
       "blocks": {
@@ -54,7 +68,7 @@
         "image": "shopify://shop_images/SNM_Rewards_Graphics_1.png",
         "image_width": "two-thirds",
         "link_text": "View product",
-        "textbox_title": "Tier 1: 500 Points",
+        "textbox_title": "",
         "textbox_subheading": "<p>ITEM 1: MOUSEPAD<br/>ITEM 2: WATER BOTTLE<br/>ITEM 3: T-SHIRT<br/>ITEM 4:HAT<br/>ITEM 5: MYSTERY ITEM</p>",
         "textbox_button_label": "",
         "textbox_button_link": "",
@@ -63,7 +77,7 @@
         "textbox_text_position": "left"
       }
     },
-    "dynamic_rich_text_PBhcpH": {
+    "dynamic_rich_text_crhfXC": {
       "type": "dynamic-rich-text",
       "custom_css": [
         "h2 {color: white; padding: 12px;}",
@@ -132,7 +146,7 @@
       ],
       "settings": {
         "width": "regular",
-        "title": "Tier 3: 1,500 Points",
+        "title": "Tier 3: 2,000 Points",
         "text": "",
         "heading_size": "medium",
         "text_alignment": "center"
@@ -177,68 +191,7 @@
         "image_width": "two-thirds",
         "link_text": "View product",
         "textbox_title": "",
-        "textbox_subheading": "<p>ITEM 1: S3<br/>ITEM 2: CRESCENT<br/>ITEM 3: EBEACONMINI</p>",
-        "textbox_button_label": "",
-        "textbox_button_link": "",
-        "textbox_button_style": "primary",
-        "textbox_text_alignment": "left",
-        "textbox_text_position": "left"
-      }
-    },
-    "dynamic_rich_text_RfnTjz": {
-      "type": "dynamic-rich-text",
-      "custom_css": [
-        "h2 {color: white; padding: 12px;}",
-        " {background-color: #21225b;}"
-      ],
-      "settings": {
-        "width": "regular",
-        "title": "Tier 4: 2,000 Points",
-        "text": "",
-        "heading_size": "medium",
-        "text_alignment": "center"
-      }
-    },
-    "dynamic_shoppable_image_fiLJKz": {
-      "type": "dynamic-shoppable-image",
-      "blocks": {
-        "hotspot_dwRUtq": {
-          "type": "hotspot",
-          "settings": {
-            "product": "strobes-n-more-e6-slim-next-gen-led",
-            "x_axis": 25,
-            "y_axis": 71
-          }
-        },
-        "hotspot_mEiHw4": {
-          "type": "hotspot",
-          "settings": {
-            "product": "strobesnmore-e6-led-lighthead",
-            "x_axis": 23,
-            "y_axis": 25
-          }
-        },
-        "hotspot_38b9zP": {
-          "type": "hotspot",
-          "settings": {
-            "product": "strobes-n-more-side-shooter-floodlights",
-            "x_axis": 76,
-            "y_axis": 50
-          }
-        }
-      },
-      "block_order": [
-        "hotspot_dwRUtq",
-        "hotspot_mEiHw4",
-        "hotspot_38b9zP"
-      ],
-      "settings": {
-        "title": "",
-        "image": "shopify://shop_images/SNM_Rewards_Graphics_Tier_4.png",
-        "image_width": "two-thirds",
-        "link_text": "View product",
-        "textbox_title": "",
-        "textbox_subheading": "<p>ITEM 1: SIDESHOOTERS<br/>ITEM 2: E6<br/>ITEM 3: E6SLIM</p>",
+        "textbox_subheading": "<p>ITEM 1: S3<br/>ITEM 2: CRESCENT<br/>ITEM 3: EBEACONMINI<br/>ITEM 4: SIDESHOOTERS<br/>ITEM 5: E6<br/>ITEM 6: E6SLIM</p>",
         "textbox_button_label": "",
         "textbox_button_link": "",
         "textbox_button_style": "primary",
@@ -254,7 +207,7 @@
       ],
       "settings": {
         "width": "regular",
-        "title": "Tier 5: 3000 Points",
+        "title": "Tier 4: 3000 Points",
         "text": "",
         "heading_size": "medium",
         "text_alignment": "center"
@@ -333,7 +286,7 @@
       ],
       "settings": {
         "width": "regular",
-        "title": "Tier 6: 4,000 Points",
+        "title": "Tier 5: 4,000 Points",
         "text": "",
         "heading_size": "medium",
         "text_alignment": "center"
@@ -403,7 +356,7 @@
       ],
       "settings": {
         "width": "regular",
-        "title": "Tier 7: 5,000 Points",
+        "title": "Tier 6: 5,000 Points",
         "text": "",
         "heading_size": "medium",
         "text_alignment": "center"
@@ -464,7 +417,7 @@
       ],
       "settings": {
         "width": "regular",
-        "title": "Tier 8: 6,000 Points",
+        "title": "Tier 7: 6,000 Points",
         "text": "",
         "heading_size": "medium",
         "text_alignment": "center"
@@ -543,7 +496,7 @@
       ],
       "settings": {
         "width": "regular",
-        "title": "Tier 9: 7,000 Points",
+        "title": "Tier 8: 7,000 Points",
         "text": "",
         "heading_size": "medium",
         "text_alignment": "center"
@@ -613,7 +566,7 @@
       ],
       "settings": {
         "width": "regular",
-        "title": "Tier 10: 8,000 Points",
+        "title": "Tier 9: 8,000 Points",
         "text": "",
         "heading_size": "medium",
         "text_alignment": "center"
@@ -683,7 +636,7 @@
       ],
       "settings": {
         "width": "regular",
-        "title": "Tier 11: 9,000 Points",
+        "title": "Tier 10: 9,000 Points",
         "text": "",
         "heading_size": "medium",
         "text_alignment": "center"
@@ -744,7 +697,7 @@
       ],
       "settings": {
         "width": "regular",
-        "title": "Tier 12: 10,000 Points",
+        "title": "Tier 11: 10,000 Points",
         "text": "",
         "heading_size": "medium",
         "text_alignment": "center"
@@ -770,13 +723,12 @@
   "order": [
     "main",
     "dynamic_rich_text_aNccxt",
-    "dynamic_shoppable_image_cabQwY",
     "dynamic_rich_text_PBhcpH",
+    "dynamic_shoppable_image_cabQwY",
+    "dynamic_rich_text_crhfXC",
     "dynamic_shoppable_image_3UFi9H",
     "dynamic_rich_text_eXUtHw",
     "dynamic_shoppable_image_YQdY9T",
-    "dynamic_rich_text_RfnTjz",
-    "dynamic_shoppable_image_fiLJKz",
     "dynamic_rich_text_AqxkfM",
     "dynamic_shoppable_image_WN3PDW",
     "dynamic_rich_text_9Rcicy",
