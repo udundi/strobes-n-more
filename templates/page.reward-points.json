@@ -159,31 +159,49 @@
           "type": "hotspot",
           "settings": {
             "product": "s3-led-surface-mount-strobes-n-more_p_6491",
-            "x_axis": 34,
-            "y_axis": 73
+            "x_axis": 86,
+            "y_axis": 76
           }
         },
         "hotspot_HW6tVf": {
           "type": "hotspot",
           "settings": {
             "product": "strobes-n-more-led-ebeacon-mini",
-            "x_axis": 20,
-            "y_axis": 30
+            "x_axis": 56,
+            "y_axis": 52
+          }
+        },
+        "hotspot_ni6fUe": {
+          "type": "hotspot",
+          "settings": {
+            "product": "strobesnmore-e6-led-lighthead",
+            "x_axis": 49,
+            "y_axis": 15
           }
         },
         "hotspot_aDmXdt": {
           "type": "hotspot",
           "settings": {
             "product": "strobes-n-more-180-crescent-dual-color-lighthead",
-            "x_axis": 76,
-            "y_axis": 50
+            "x_axis": 12,
+            "y_axis": 61
+          }
+        },
+        "hotspot_9ELRnV": {
+          "type": "hotspot",
+          "settings": {
+            "product": "strobes-n-more-side-shooter-floodlights",
+            "x_axis": 83,
+            "y_axis": 33
           }
         }
       },
       "block_order": [
         "hotspot_RPBT4z",
         "hotspot_HW6tVf",
-        "hotspot_aDmXdt"
+        "hotspot_ni6fUe",
+        "hotspot_aDmXdt",
+        "hotspot_9ELRnV"
       ],
       "settings": {
         "title": "",
