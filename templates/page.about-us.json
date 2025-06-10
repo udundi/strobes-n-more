@@ -202,6 +202,21 @@
             "opacity": 49
           }
         },
+        "promotion_MCi6qe": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Alex.jpg",
+            "title": "Alex",
+            "text": "Warehouse Specialist",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 49
+          }
+        },
         "promotion_MGkeYw": {
           "type": "promotion",
           "settings": {
@@ -220,7 +235,7 @@
         "promotion_ea7jKy": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/Devin.jpg",
+            "image": "shopify://shop_images/Benny.jpg",
             "title": "Benny",
             "text": "Inbound Sales & Customer Support Specialist",
             "color": "#4d4d4d",
@@ -307,6 +322,21 @@
             "opacity": 50
           }
         },
+        "promotion_8JL6R4": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/David.jpg",
+            "title": "David",
+            "text": "Install & Upfitting",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
         "promotion_n6pQVR": {
           "type": "promotion",
           "settings": {
@@ -325,7 +355,7 @@
         "promotion_kcJpLy": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/Devin_15f85c3e-9cea-45a5-9146-f25da8568b6d.jpg",
+            "image": "shopify://shop_images/Headshots-6.jpg",
             "title": "Devin",
             "text": "Senior Customer Support Specialist",
             "color": "#4d4d4d",
@@ -456,40 +486,11 @@
             "background": "",
             "opacity": 50
           }
-        },
-        "promotion_t4C9tP": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/Matt_BW.jpg",
-            "title": "Matt R.",
-            "text": "Inbound Sales & Technical Support",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_gBGxrX": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/Scott.jpg",
-            "title": "Scott",
-            "text": "Install & Upfitting",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
         }
       },
       "block_order": [
         "promotion_X4Eaqk",
+        "promotion_MCi6qe",
         "promotion_MGkeYw",
         "promotion_ea7jKy",
         "promotion_Qx8VtE",
@@ -497,6 +498,7 @@
         "promotion_PgMDcH",
         "promotion_ERX7tP",
         "promotion_g8bdkn",
+        "promotion_8JL6R4",
         "promotion_n6pQVR",
         "promotion_kcJpLy",
         "promotion_hM8cK3",
@@ -506,9 +508,7 @@
         "promotion_xxUaKa",
         "promotion_7XmU94",
         "promotion_wFDQje",
-        "promotion_hHLgxm",
-        "promotion_t4C9tP",
-        "promotion_gBGxrX"
+        "promotion_hHLgxm"
       ],
       "custom_css": [
         "a {text-decoration: none; color: #000;}"
@@ -526,6 +526,36 @@
       "type": "dynamic-promo-grid",
       "blocks": {
         "promotion_iWmB8c": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Matt_BW.jpg",
+            "title": "Matt R",
+            "text": "Inbound Sales & Technical Support",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_g6cJH6": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Scott.jpg",
+            "title": "Scott",
+            "text": "Install & Upfitting",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_3RapKq": {
           "type": "promotion",
           "settings": {
             "image": "shopify://shop_images/Steve_BW.jpg",
@@ -573,6 +603,8 @@
       },
       "block_order": [
         "promotion_iWmB8c",
+        "promotion_g6cJH6",
+        "promotion_3RapKq",
         "promotion_Nzfwki",
         "promotion_cd3JR8"
       ],
