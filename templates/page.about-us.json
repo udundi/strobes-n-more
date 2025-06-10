@@ -292,21 +292,6 @@
             "opacity": 50
           }
         },
-        "promotion_YfY4CE": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/Devin.jpg",
-            "title": "Dasan",
-            "text": "Warehouse Specialist",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
         "promotion_g8bdkn": {
           "type": "promotion",
           "settings": {
@@ -486,6 +471,21 @@
             "background": "",
             "opacity": 50
           }
+        },
+        "promotion_gBGxrX": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Scott.jpg",
+            "title": "Scott",
+            "text": "Install & Upfitting",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
         }
       },
       "block_order": [
@@ -496,7 +496,6 @@
         "promotion_qWPfMa",
         "promotion_PgMDcH",
         "promotion_ERX7tP",
-        "promotion_YfY4CE",
         "promotion_g8bdkn",
         "promotion_n6pQVR",
         "promotion_kcJpLy",
@@ -508,7 +507,8 @@
         "promotion_7XmU94",
         "promotion_wFDQje",
         "promotion_hHLgxm",
-        "promotion_t4C9tP"
+        "promotion_t4C9tP",
+        "promotion_gBGxrX"
       ],
       "custom_css": [
         "a {text-decoration: none; color: #000;}"
@@ -525,21 +525,6 @@
     "dynamic_promo_grid_39P3Bh": {
       "type": "dynamic-promo-grid",
       "blocks": {
-        "promotion_dyNP8P": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/Scott.jpg",
-            "title": "Scott",
-            "text": "Install & Upfitting",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
         "promotion_iWmB8c": {
           "type": "promotion",
           "settings": {
@@ -587,7 +572,6 @@
         }
       },
       "block_order": [
-        "promotion_dyNP8P",
         "promotion_iWmB8c",
         "promotion_Nzfwki",
         "promotion_cd3JR8"
