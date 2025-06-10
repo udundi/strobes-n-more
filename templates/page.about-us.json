@@ -325,7 +325,7 @@
         "promotion_kcJpLy": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/Devin.jpg",
+            "image": "shopify://shop_images/Devin_15f85c3e-9cea-45a5-9146-f25da8568b6d.jpg",
             "title": "Devin",
             "text": "Senior Customer Support Specialist",
             "color": "#4d4d4d",
@@ -355,7 +355,7 @@
         "promotion_yPNcxD": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/Jackie_B_W.jpg",
+            "image": "shopify://shop_images/Jackie.jpg",
             "title": "Jackie",
             "text": "Warehouse Specialist",
             "color": "#4d4d4d",
@@ -415,7 +415,7 @@
         "promotion_7XmU94": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/Devin.jpg",
+            "image": "shopify://shop_images/Leah.jpg",
             "title": "Leah",
             "text": "Inbound Sales & Customer Support Specialist",
             "color": "#4d4d4d",
