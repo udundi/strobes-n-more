@@ -24,7 +24,7 @@
       "custom_css": [
         ".divider-section {margin-top: -70px;}"
       ],
-      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "name": "Custom Liquid - Laptop divider",
       "settings": {
         "custom_liquid": "{% comment %}\n  Simple Divider Section\n{% endcomment %}\n\n<div class=\"divider-section\"></div>\n\n<style>\n  .divider-section {\n    background-color: #ebd412;\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    height: 5px;\n    display: none; /* Hidden by default */\n  }\n  \n  /* Responsive display settings */\n  @media screen and (max-width: 767px) {\n    .divider-section {\n      display: none; /* Hidden on mobile */\n    }\n  }\n  \n  @media screen and (min-width: 768px) and (max-width: 1023px) {\n    .divider-section {\n      display: none; /* Hidden on tablet */\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    .divider-section {\n      display: block; /* Visible on desktop */\n    }\n  }\n</style>"
       }
@@ -34,6 +34,16 @@
       "name": "Custom Liquid - Mobile Video",
       "settings": {
         "custom_liquid": "{% comment %}\n  Custom Video Player for Mobile Devices Only\n{% endcomment %}\n\n<div class=\"mobile-video-container\">\n  <video \n    id=\"mobile-video-player\"\n    class=\"mobile-video\"\n    src=\"https://cdn.shopify.com/videos/c/o/v/75ffa50b6d204f1fb1b9c4a17589f94f.mp4\"\n    autoplay\n    muted\n    playsinline\n    loop>\n    Your browser does not support the video tag.\n  </video>\n</div>\n\n<style>\n  /* Mobile Video Container Styles - Full Width */\n  .mobile-video-container {\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    overflow: hidden;\n    display: none; /* Hidden by default */\n  }\n  \n  /* Base Video Styles */\n  .mobile-video {\n    width: 100%;\n    display: block;\n    object-fit: cover;\n  }\n  \n  /* Media Queries for Responsive Design */\n  @media screen and (max-width: 767px) {\n    /* Small screens (mobile) - Video visible */\n    .mobile-video-container {\n      display: block;\n    }\n    \n    .mobile-video {\n      height: 200px; /* Height for mobile */\n    }\n  }\n  \n  @media screen and (min-width: 768px) and (max-width: 1023px) {\n    /* Medium screens (tablet) - Video visible */\n    .mobile-video-container {\n      display: block;\n    }\n    \n    .mobile-video {\n      height: 300px; /* Height for tablet */\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    /* Large screens (desktop) - Video hidden */\n    .mobile-video-container {\n      display: none;\n    }\n  }\n</style>"
+      }
+    },
+    "dynamic_custom_liquid_nXfma8": {
+      "type": "dynamic-custom-liquid",
+      "custom_css": [
+        ".mobile-divider-section {margin-top: -50px;}"
+      ],
+      "name": "Custom Liquid - Mobile divider",
+      "settings": {
+        "custom_liquid": "{% comment %}\n  Simple Mobile Divider Section\n{% endcomment %}\n\n<div class=\"mobile-divider-section\"></div>\n\n<style>\n  .mobile-divider-section {\n    background-color: #ebd412;\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    display: none; /* Hidden by default */\n  }\n  \n  /* Responsive display and height settings */\n  @media screen and (max-width: 767px) {\n    .mobile-divider-section {\n      display: block; /* Visible on mobile */\n      height: 5px;\n    }\n  }\n  \n  @media screen and (min-width: 768px) and (max-width: 1023px) {\n    .mobile-divider-section {\n      display: block; /* Visible on tablet */\n      height: 40px;\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    .mobile-divider-section {\n      display: none; /* Hidden on desktop */\n    }\n  }\n</style>"
       }
     },
     "dynamic_promo_mosaic": {
@@ -648,6 +658,7 @@
     "dynamic_custom_liquid_z7Umjt",
     "dynamic_custom_liquid_mM7bWt",
     "dynamic_custom_liquid_Y3DcHJ",
+    "dynamic_custom_liquid_nXfma8",
     "dynamic_promo_mosaic",
     "dynamic_featured_collection-2",
     "dynamic_collection_list",
