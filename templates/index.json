@@ -123,6 +123,7 @@
       "block_order": [
         "title-card"
       ],
+      "name": "Collection - Staff Picks",
       "settings": {
         "title": "",
         "layout": "slideshow",
@@ -286,6 +287,7 @@
       "block_order": [
         "title_card_re6tdX"
       ],
+      "name": "Collection - Lighybar Packages",
       "settings": {
         "title": "",
         "layout": "slideshow",
@@ -647,9 +649,9 @@
     "dynamic_custom_liquid_Y3DcHJ",
     "dynamic_custom_liquid_nXfma8",
     "dynamic_promo_mosaic",
-    "dynamic_featured_collection-2",
-    "dynamic_collection_list",
     "dynamic_featured_collection_M4FrNj",
+    "dynamic_collection_list",
+    "dynamic_featured_collection-2",
     "dynamic_rich_text_fHTnfJ",
     "dynamic_highlights_banner_UdyCk4",
     "dynamic_blog_posts_WbF3Tb",
