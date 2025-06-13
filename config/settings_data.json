@@ -54,6 +54,7 @@
     "inventory_display": "hidden",
     "product_option_style": "select",
     "sold_out_options": "hidden",
+    "enable_cart_redirection": false,
     "swatches_enable": false,
     "swatches_product_card_size": 32,
     "swatches_product_page_size": 64,
