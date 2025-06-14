@@ -118,7 +118,6 @@
 <script>
   window.shopifyData = {
     carModel: '{{ car_model }}',
-    assetUrl: '{{ '' | asset_url }}',
     defaultCarImage: '{{ "car-default.jpg" | asset_url }}',
     productPlaceholder: '{{ "product-placeholder.png" | asset_url }}',
     collections: {
@@ -165,12 +164,12 @@ class CarBuilder {
   constructor() {
     this.carModel = window.shopifyData.carModel;
     this.collections = window.shopifyData.collections;
-    this.assetUrl = window.shopifyData.assetUrl;
     this.defaultCarImage = window.shopifyData.defaultCarImage;
     this.productPlaceholder = window.shopifyData.productPlaceholder;
     this.currentView = null;
     this.currentArea = null;
     this.cart = [];
+    this.imageCache = new Map(); // Cache for checking which images exist
     
     this.init();
   }
@@ -218,16 +217,41 @@ class CarBuilder {
     });
     document.querySelector(`[data-view="${view}"]`).classList.add('active');
 
-    // Update car image
-    const carImage = document.getElementById('carImage');
-    const imagePath = `${this.carModel}-${view}.jpg`;
-    carImage.src = this.assetUrl.replace('', imagePath);
-    carImage.onerror = () => {
-      carImage.src = this.defaultCarImage;
-    };
+    // Update car image with caching to avoid multiple requests
+    this.updateCarImage(view);
 
     // Update hotspots and load products
     this.updateHotspots(view);
+  }
+
+  async updateCarImage(view) {
+    const carImage = document.getElementById('carImage');
+    
+    // Check cache first
+    if (this.imageCache.has(view)) {
+      carImage.src = this.imageCache.get(view);
+      return;
+    }
+
+    // Try to load the specific car image
+    const specificImageUrl = `/assets/${this.carModel}-${view}.jpg`;
+    
+    try {
+      // Test if image exists without displaying it
+      const img = new Image();
+      img.onload = () => {
+        this.imageCache.set(view, specificImageUrl);
+        carImage.src = specificImageUrl;
+      };
+      img.onerror = () => {
+        this.imageCache.set(view, this.defaultCarImage);
+        carImage.src = this.defaultCarImage;
+      };
+      img.src = specificImageUrl;
+    } catch (error) {
+      this.imageCache.set(view, this.defaultCarImage);
+      carImage.src = this.defaultCarImage;
+    }
   }
 
   updateHotspots(view) {
