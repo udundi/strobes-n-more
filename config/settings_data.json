@@ -111,7 +111,7 @@
       "vehicle-configurator": {
         "type": "vehicle-configurator",
         "settings": {
-          "product_collection": "",
+          "product_collection": "vehicle-configurator-products",
           "panel_title": "Build Your Vehicle",
           "panel_subtitle": "Select a view and click on zones to add equipment",
           "welcome_title": "Welcome to Vehicle Builder",
