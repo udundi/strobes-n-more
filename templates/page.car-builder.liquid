@@ -118,6 +118,9 @@
 <script>
   window.shopifyData = {
     carModel: '{{ car_model }}',
+    assetUrl: '{{ '' | asset_url }}',
+    defaultCarImage: '{{ "car-default.jpg" | asset_url }}',
+    productPlaceholder: '{{ "product-placeholder.png" | asset_url }}',
     collections: {
       {% for collection in model_collections %}
         "{{ collection.handle }}": {
@@ -131,14 +134,20 @@
                 title: "{{ product.title | escape }}",
                 handle: "{{ product.handle }}",
                 price: {{ product.price | money_without_currency | remove: ',' }},
+                compare_at_price: {{ product.compare_at_price | money_without_currency | remove: ',' | default: 0 }},
                 available: {{ product.available }},
                 featured_image: "{{ product.featured_image | img_url: '300x300' }}",
+                url: "{{ product.url }}",
+                vendor: "{{ product.vendor | escape }}",
+                product_type: "{{ product.type | escape }}",
                 variants: [
                   {% for variant in product.variants %}
                     {
                       id: {{ variant.id }},
+                      title: "{{ variant.title | escape }}",
                       price: {{ variant.price | money_without_currency | remove: ',' }},
-                      available: {{ variant.available }}
+                      available: {{ variant.available }},
+                      sku: "{{ variant.sku | escape }}"
                     }{% unless forloop.last %},{% endunless %}
                   {% endfor %}
                 ]
@@ -156,11 +165,12 @@ class CarBuilder {
   constructor() {
     this.carModel = window.shopifyData.carModel;
     this.collections = window.shopifyData.collections;
+    this.assetUrl = window.shopifyData.assetUrl;
+    this.defaultCarImage = window.shopifyData.defaultCarImage;
+    this.productPlaceholder = window.shopifyData.productPlaceholder;
     this.currentView = null;
     this.currentArea = null;
     this.cart = [];
-    this.imageCache = new Map();
-    this.productCache = new Map();
     
     this.init();
   }
@@ -169,17 +179,6 @@ class CarBuilder {
     this.setupInitialState();
     this.bindEvents();
     this.loadCart();
-    this.preloadImages();
-  }
-
-  preloadImages() {
-    // Preload all view images
-    const views = Array.from(document.querySelectorAll('.sub-collection-btn')).map(btn => btn.dataset.view);
-    views.forEach(view => {
-      const img = new Image();
-      img.src = `{{ "' + this.carModel + '-' + view + '.jpg" | asset_url }}`;
-      this.imageCache.set(view, img.src);
-    });
   }
 
   setupInitialState() {
@@ -210,9 +209,7 @@ class CarBuilder {
     });
   }
 
-  async switchView(view) {
-    if (this.currentView === view) return;
-    
+  switchView(view) {
     this.currentView = view;
     
     // Update active sub-collection button
@@ -221,12 +218,12 @@ class CarBuilder {
     });
     document.querySelector(`[data-view="${view}"]`).classList.add('active');
 
-    // Update car image using cached version if available
-    const imageUrl = this.imageCache.get(view) || `{{ "' + this.carModel + '-' + view + '.jpg" | asset_url }}`;
+    // Update car image
     const carImage = document.getElementById('carImage');
-    carImage.src = imageUrl;
-    carImage.onerror = function() {
-      this.src = '{{ "car-default.jpg" | asset_url }}';
+    const imagePath = `${this.carModel}-${view}.jpg`;
+    carImage.src = this.assetUrl.replace('', imagePath);
+    carImage.onerror = () => {
+      carImage.src = this.defaultCarImage;
     };
 
     // Update hotspots and load products
@@ -315,13 +312,6 @@ class CarBuilder {
     }
 
     const collectionHandle = `${this.carModel}-${this.currentView}-${this.currentArea}`;
-    
-    // Check cache first
-    if (this.productCache.has(collectionHandle)) {
-      this.renderProducts(this.productCache.get(collectionHandle));
-      return;
-    }
-
     const collection = this.collections[collectionHandle];
     
     if (!collection || !collection.products || collection.products.length === 0) {
@@ -329,8 +319,6 @@ class CarBuilder {
       return;
     }
 
-    // Cache the products
-    this.productCache.set(collectionHandle, collection.products);
     this.renderProducts(collection.products);
   }
 
@@ -360,71 +348,45 @@ class CarBuilder {
     productsList.innerHTML = productsHTML;
   }
 
-  // Batch cart operations
-  async batchCartOperation(operations) {
+  async addToCart(variantId, title, price, image) {
     try {
-      const response = await fetch('/cart/update.js', {
+      // Add to Shopify cart via AJAX
+      const response = await fetch('/cart/add.js', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          updates: operations.reduce((acc, op) => {
-            acc[op.id] = op.quantity;
-            return acc;
-          }, {})
+          id: variantId,
+          quantity: 1
         })
       });
 
       if (response.ok) {
-        this.updateCartDisplay();
-        this.saveCart();
-      } else {
-        throw new Error('Failed to update cart');
-      }
-    } catch (error) {
-      console.error('Error updating cart:', error);
-      this.showMessage('Error updating cart', 'error');
-    }
-  }
-
-  async addToCart(variantId, title, price, image) {
-    const existingItem = this.cart.find(item => item.variantId === variantId);
-    
-    if (existingItem) {
-      await this.updateQuantity(variantId, existingItem.quantity + 1);
-    } else {
-      try {
-        const response = await fetch('/cart/add.js', {
-          method: 'POST',
-          headers: {
-            'Content-Type': 'application/json',
-          },
-          body: JSON.stringify({
-            id: variantId,
-            quantity: 1
-          })
-        });
-
-        if (response.ok) {
+        // Add to local cart display
+        const existingItem = this.cart.find(item => item.variantId === variantId);
+        
+        if (existingItem) {
+          existingItem.quantity += 1;
+        } else {
           this.cart.push({
             variantId: variantId,
             title: title,
-            price: price / 100,
+            price: price / 100, // Convert from cents
             image: image,
             quantity: 1
           });
-          
-          this.updateCartDisplay();
-          this.saveCart();
-          this.showMessage('Product added to cart!');
-        } else {
-          throw new Error('Failed to add to cart');
         }
-      } catch (error) {
-        console.error('Error adding to cart:', error);
-        this.showMessage('Error adding product to cart', 'error');
+        
+        this.updateCartDisplay();
+        this.saveCart();
+        this.showMessage('Product added to cart!');
+      } else {
+        throw new Error('Failed to add to cart');
       }
+    } catch (error) {
+      console.error('Error adding to cart:', error);
+      this.showMessage('Error adding product to cart', 'error');
     }
   }
 
@@ -568,4 +530,22 @@ class CarBuilder {
 document.addEventListener('DOMContentLoaded', function() {
   window.carBuilder = new CarBuilder();
 });
-</script>
+</script>d(2)}</span>
+        </div>
+        <div class="cart-item-controls">
+          <div class="quantity-controls">
+            <button onclick="carBuilder.updateQuantity(${item.id}, ${item.quantity - 1})">-</button>
+            <span class="quantity">${item.quantity}</span>
+            <button onclick="carBuilder.updateQuantity(${item.id}, ${item.quantity + 1})">+</button>
+          </div>
+          <button class="remove-item" onclick="carBuilder.removeFromCart(${item.id})">Remove</button>
+        </div>
+      </div>
+    `).join('');
+
+    cartItems.innerHTML = cartHTML;
+    
+    const total = this.cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+    cartTotal.textContent = `$${total.toFixed(2)}`;
+    checkoutBtn.disabled = false;
+  }
