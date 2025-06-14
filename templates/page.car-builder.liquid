@@ -1,0 +1,391 @@
+<!-- page.car-builder.liquid -->
+
+{{ 'car-builder.css' | asset_url | stylesheet_tag }}
+
+<div class="car-builder-container">
+  <!-- Page Header -->
+  <div class="page-header">
+    <h1 class="car-model-title">{{ page.title | default: 'Build Your Car' }}</h1>
+  </div>
+
+  <!-- Main Content Area -->
+  <div class="car-builder-main">
+    <!-- Left Column -->
+    <div class="left-column">
+      <!-- Car Image Container -->
+      <div class="car-image-container">
+        <div class="car-image-wrapper">
+          <img id="carImage" src="{{ 'car-front-default.jpg' | asset_url }}" alt="Car View" class="car-image">
+          
+          <!-- Area Hotspots -->
+          <div class="area-hotspots">
+            <button class="hotspot active" data-area="f1" style="top: 20%; left: 15%;">F1</button>
+            <button class="hotspot" data-area="f2" style="top: 20%; left: 35%;">F2</button>
+            <button class="hotspot" data-area="f3" style="top: 45%; left: 25%;">F3</button>
+            <button class="hotspot" data-area="f4" style="top: 70%; left: 15%;">F4</button>
+            <button class="hotspot" data-area="f5" style="top: 70%; left: 35%;">F5</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Sub-Collections Navigation -->
+      <div class="sub-collections">
+        <button class="sub-collection-btn active" data-view="front" data-collection="front">
+          Front
+        </button>
+        <button class="sub-collection-btn" data-view="left" data-collection="left">
+          Left
+        </button>
+        <button class="sub-collection-btn" data-view="right" data-collection="right">
+          Right
+        </button>
+        <button class="sub-collection-btn" data-view="rear" data-collection="rear">
+          Rear
+        </button>
+        <button class="sub-collection-btn" data-view="top" data-collection="top">
+          Top
+        </button>
+        <button class="sub-collection-btn" data-view="bottom" data-collection="bottom">
+          Bottom
+        </button>
+      </div>
+    </div>
+
+    <!-- Right Column -->
+    <div class="right-column">
+      <div class="products-container">
+        <div class="products-header">
+          <h3>Available Parts</h3>
+          <p class="current-selection">Viewing: <span id="currentArea">F1</span></p>
+        </div>
+        
+        <div id="productsList" class="products-list">
+          <!-- Products will be loaded here via JavaScript -->
+          <div class="loading">Loading products...</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Cart Section -->
+  <div class="cart-section">
+    <div class="cart-header">
+      <h2>Your Cart</h2>
+      <button id="clearCart" class="clear-cart-btn">Clear All</button>
+    </div>
+    
+    <div id="cartItems" class="cart-items">
+      <!-- Cart items will be populated here -->
+      <div class="empty-cart">Your cart is empty</div>
+    </div>
+    
+    <div class="cart-footer">
+      <div class="cart-total">
+        <strong>Total: <span id="cartTotal">$0.00</span></strong>
+      </div>
+      <button id="checkoutBtn" class="checkout-btn" disabled>
+        Proceed to Checkout
+      </button>
+    </div>
+  </div>
+</div>
+
+<script>
+class CarBuilder {
+  constructor() {
+    this.currentView = 'front';
+    this.currentArea = 'f1';
+    this.cart = [];
+    this.collections = {
+      front: { areas: ['f1', 'f2', 'f3', 'f4', 'f5'], image: 'car-front.jpg' },
+      left: { areas: ['l1', 'l2', 'l3', 'l4'], image: 'car-left.jpg' },
+      right: { areas: ['r1', 'r2', 'r3', 'r4'], image: 'car-right.jpg' },
+      rear: { areas: ['re1', 're2', 're3'], image: 'car-rear.jpg' },
+      top: { areas: ['t1', 't2', 't3', 't4'], image: 'car-top.jpg' },
+      bottom: { areas: ['b1', 'b2'], image: 'car-bottom.jpg' }
+    };
+    
+    this.init();
+  }
+
+  init() {
+    this.bindEvents();
+    this.loadProducts();
+    this.loadCart();
+  }
+
+  bindEvents() {
+    // Sub-collection buttons
+    document.querySelectorAll('.sub-collection-btn').forEach(btn => {
+      btn.addEventListener('click', (e) => {
+        this.switchView(e.target.dataset.view);
+      });
+    });
+
+    // Area hotspots
+    document.querySelectorAll('.hotspot').forEach(hotspot => {
+      hotspot.addEventListener('click', (e) => {
+        this.switchArea(e.target.dataset.area);
+      });
+    });
+
+    // Cart actions
+    document.getElementById('clearCart').addEventListener('click', () => {
+      this.clearCart();
+    });
+
+    document.getElementById('checkoutBtn').addEventListener('click', () => {
+      this.checkout();
+    });
+  }
+
+  switchView(view) {
+    this.currentView = view;
+    
+    // Update active sub-collection button
+    document.querySelectorAll('.sub-collection-btn').forEach(btn => {
+      btn.classList.remove('active');
+    });
+    document.querySelector(`[data-view="${view}"]`).classList.add('active');
+
+    // Update car image
+    const imageUrl = `{{ 'car-' | append: view | append: '.jpg' | asset_url }}`;
+    document.getElementById('carImage').src = imageUrl;
+
+    // Update hotspots
+    this.updateHotspots(view);
+    
+    // Auto-select first area of new view
+    const firstArea = this.collections[view].areas[0];
+    this.switchArea(firstArea);
+  }
+
+  updateHotspots(view) {
+    const hotspotsContainer = document.querySelector('.area-hotspots');
+    const areas = this.collections[view].areas;
+    
+    hotspotsContainer.innerHTML = '';
+    
+    areas.forEach((area, index) => {
+      const hotspot = document.createElement('button');
+      hotspot.className = `hotspot ${index === 0 ? 'active' : ''}`;
+      hotspot.dataset.area = area;
+      hotspot.textContent = area.toUpperCase();
+      hotspot.style.top = `${20 + (index * 15)}%`;
+      hotspot.style.left = `${15 + (index % 2 * 20)}%`;
+      
+      hotspot.addEventListener('click', (e) => {
+        this.switchArea(e.target.dataset.area);
+      });
+      
+      hotspotsContainer.appendChild(hotspot);
+    });
+  }
+
+  switchArea(area) {
+    this.currentArea = area;
+    
+    // Update active hotspot
+    document.querySelectorAll('.hotspot').forEach(hotspot => {
+      hotspot.classList.remove('active');
+    });
+    document.querySelector(`[data-area="${area}"]`).classList.add('active');
+
+    // Update current selection display
+    document.getElementById('currentArea').textContent = area.toUpperCase();
+
+    // Load products for this area
+    this.loadProducts();
+  }
+
+  async loadProducts() {
+    const productsList = document.getElementById('productsList');
+    productsList.innerHTML = '<div class="loading">Loading products...</div>';
+    
+    try {
+      // In a real implementation, you would fetch from Shopify's API
+      // For demo purposes, using mock data
+      const products = await this.fetchProducts(this.currentView, this.currentArea);
+      this.renderProducts(products);
+    } catch (error) {
+      productsList.innerHTML = '<div class="error">Error loading products</div>';
+    }
+  }
+
+  async fetchProducts(view, area) {
+    // Mock API call - replace with actual Shopify API calls
+    return new Promise(resolve => {
+      setTimeout(() => {
+        const mockProducts = [
+          {
+            id: 1,
+            title: `${area.toUpperCase()} Premium Part`,
+            price: 29.99,
+            image: '{{ "product-1.jpg" | asset_url }}',
+            handle: 'premium-part-1'
+          },
+          {
+            id: 2,
+            title: `${area.toUpperCase()} Standard Part`,
+            price: 19.99,
+            image: '{{ "product-2.jpg" | asset_url }}',
+            handle: 'standard-part-2'
+          },
+          {
+            id: 3,
+            title: `${area.toUpperCase()} Economy Part`,
+            price: 14.99,
+            image: '{{ "product-3.jpg" | asset_url }}',
+            handle: 'economy-part-3'
+          }
+        ];
+        resolve(mockProducts);
+      }, 500);
+    });
+  }
+
+  renderProducts(products) {
+    const productsList = document.getElementById('productsList');
+    
+    if (products.length === 0) {
+      productsList.innerHTML = '<div class="no-products">No products available</div>';
+      return;
+    }
+
+    const productsHTML = products.map(product => `
+      <div class="product-item">
+        <div class="product-image">
+          <img src="${product.image}" alt="${product.title}" onerror="this.src='{{ 'product-placeholder.png' | asset_url }}'">
+        </div>
+        <div class="product-info">
+          <h4 class="product-title">${product.title}</h4>
+          <div class="product-price">$${product.price.toFixed(2)}</div>
+          <button class="add-to-cart-btn" onclick="carBuilder.addToCart(${product.id}, '${product.title}', ${product.price})">
+            Add to Cart
+          </button>
+        </div>
+      </div>
+    `).join('');
+
+    productsList.innerHTML = productsHTML;
+  }
+
+  addToCart(productId, title, price) {
+    const existingItem = this.cart.find(item => item.id === productId);
+    
+    if (existingItem) {
+      existingItem.quantity += 1;
+    } else {
+      this.cart.push({
+        id: productId,
+        title: title,
+        price: price,
+        quantity: 1
+      });
+    }
+    
+    this.updateCartDisplay();
+    this.saveCart();
+    
+    // Show success message
+    this.showMessage('Product added to cart!');
+  }
+
+  updateCartDisplay() {
+    const cartItems = document.getElementById('cartItems');
+    const cartTotal = document.getElementById('cartTotal');
+    const checkoutBtn = document.getElementById('checkoutBtn');
+    
+    if (this.cart.length === 0) {
+      cartItems.innerHTML = '<div class="empty-cart">Your cart is empty</div>';
+      cartTotal.textContent = '$0.00';
+      checkoutBtn.disabled = true;
+      return;
+    }
+
+    const cartHTML = this.cart.map(item => `
+      <div class="cart-item">
+        <div class="cart-item-info">
+          <span class="cart-item-title">${item.title}</span>
+          <span class="cart-item-price">$${item.price.toFixed(2)}</span>
+        </div>
+        <div class="cart-item-controls">
+          <div class="quantity-controls">
+            <button onclick="carBuilder.updateQuantity(${item.id}, ${item.quantity - 1})">-</button>
+            <span class="quantity">${item.quantity}</span>
+            <button onclick="carBuilder.updateQuantity(${item.id}, ${item.quantity + 1})">+</button>
+          </div>
+          <button class="remove-item" onclick="carBuilder.removeFromCart(${item.id})">Remove</button>
+        </div>
+      </div>
+    `).join('');
+
+    cartItems.innerHTML = cartHTML;
+    
+    const total = this.cart.reduce((sum, item) => sum + (item.price * item.quantity), 0);
+    cartTotal.textContent = `$${total.toFixed(2)}`;
+    checkoutBtn.disabled = false;
+  }
+
+  updateQuantity(productId, newQuantity) {
+    if (newQuantity <= 0) {
+      this.removeFromCart(productId);
+      return;
+    }
+    
+    const item = this.cart.find(item => item.id === productId);
+    if (item) {
+      item.quantity = newQuantity;
+      this.updateCartDisplay();
+      this.saveCart();
+    }
+  }
+
+  removeFromCart(productId) {
+    this.cart = this.cart.filter(item => item.id !== productId);
+    this.updateCartDisplay();
+    this.saveCart();
+  }
+
+  clearCart() {
+    this.cart = [];
+    this.updateCartDisplay();
+    this.saveCart();
+    this.showMessage('Cart cleared!');
+  }
+
+  saveCart() {
+    localStorage.setItem('carBuilderCart', JSON.stringify(this.cart));
+  }
+
+  loadCart() {
+    const savedCart = localStorage.getItem('carBuilderCart');
+    if (savedCart) {
+      this.cart = JSON.parse(savedCart);
+      this.updateCartDisplay();
+    }
+  }
+
+  checkout() {
+    // Implement Shopify checkout integration
+    window.location.href = '/cart';
+  }
+
+  showMessage(message) {
+    // Simple message display - you can enhance this
+    const messageDiv = document.createElement('div');
+    messageDiv.className = 'success-message';
+    messageDiv.textContent = message;
+    document.body.appendChild(messageDiv);
+    
+    setTimeout(() => {
+      messageDiv.remove();
+    }, 3000);
+  }
+}
+
+// Initialize the car builder when DOM is loaded
+document.addEventListener('DOMContentLoaded', function() {
+  window.carBuilder = new CarBuilder();
+});
+</script>
