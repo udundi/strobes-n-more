@@ -10,8 +10,8 @@
 <div class="configurator-container" id="vehicleConfigurator">
   <div class="vehicle-section">
     <div class="vehicle-display view-front" id="vehicleDisplay">
-      {% comment %} Front view zones (F1-F11) {% endcomment %}
-      {% for i in (1..11) %}
+      {% comment %} Front view zones (F1-F{{ section.settings.front_zones_count }}) {% endcomment %}
+      {% for i in (1..section.settings.front_zones_count) %}
         <div class="zone-hotspot front-f{{ i }}" data-zone="f{{ i }}" data-view="front">F{{ i }}</div>
       {% endfor %}
 
@@ -72,11 +72,47 @@
   </div>
 </div>
 
-{% comment %} Cart Summary {% endcomment %}
-<div class="cart-summary" id="cartSummary" style="display: none;">
-  <div class="cart-count">Cart: <span id="cartCount">{{ cart.item_count }}</span> items</div>
-  <div>Total: {{ cart.total_price | money }}</div>
-  <a href="{{ routes.cart_url }}" class="view-cart-btn">View Cart</a>
+{% comment %} Cart Section {% endcomment %}
+<div class="cart-section" id="cartSection">
+  <div class="cart-header">
+    <h3>{{ section.settings.cart_title | default: "Your Vehicle Configuration" }}</h3>
+    <div class="cart-count">Items: <span id="cartCount">{{ cart.item_count }}</span></div>
+  </div>
+  
+  <div class="cart-items" id="cartItems">
+    {% if cart.item_count > 0 %}
+      {% for item in cart.items %}
+        <div class="cart-item" data-variant-id="{{ item.variant_id }}">
+          <div class="item-image">
+            <img src="{{ item.image | img_url: '100x' }}" alt="{{ item.title }}">
+          </div>
+          <div class="item-details">
+            <h4>{{ item.title }}</h4>
+            <p class="item-zone" data-zone="{{ item.properties.zone }}">Zone: {{ item.properties.zone }}</p>
+            <p class="item-price">{{ item.final_price | money }}</p>
+          </div>
+          <div class="item-actions">
+            <button class="remove-item" data-variant-id="{{ item.variant_id }}">Remove</button>
+          </div>
+        </div>
+      {% endfor %}
+    {% else %}
+      <div class="empty-cart">
+        <p>{{ section.settings.empty_cart_text | default: "Your cart is empty. Start building your vehicle by selecting zones above." }}</p>
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="cart-footer">
+    <div class="cart-total">
+      <span>Total:</span>
+      <span class="total-price">{{ cart.total_price | money }}</span>
+    </div>
+    <div class="cart-actions">
+      <a href="{{ routes.cart_url }}" class="view-cart-btn">{{ section.settings.view_cart_text | default: "View Cart" }}</a>
+      <a href="{{ routes.checkout_url }}" class="checkout-btn">{{ section.settings.checkout_text | default: "Checkout" }}</a>
+    </div>
+  </div>
 </div>
 
 {% comment %} Hidden data for JavaScript {% endcomment %}
@@ -94,27 +130,23 @@
     "interior": "{{ section.settings.interior_image | img_url: 'master' }}"
   },
   "zone_titles": {
-    {% comment %} Zone titles from settings - Fixed syntax {% endcomment %}
+    {% comment %} Zone titles from settings {% endcomment %}
     {% for i in (1..11) %}
       {% assign zone_key = 'zone_f' | append: i | append: '_title' %}
-      {% assign default_title = 'F' | append: i | append: ' - Front Zone ' | append: i %}
-      "f{{ i }}": "{{ section.settings[zone_key] | default: default_title }}"{% unless forloop.last %},{% endunless %}
-    {% endfor %},
+      "f{{ i }}": "{{ section.settings[zone_key] | default: 'F' | append: i | append: ' - Front Zone ' | append: i }}",
+    {% endfor %}
     {% for i in (1..8) %}
       {% assign zone_key = 'zone_r' | append: i | append: '_title' %}
-      {% assign default_title = 'R' | append: i | append: ' - Rear Zone ' | append: i %}
-      "r{{ i }}": "{{ section.settings[zone_key] | default: default_title }}"{% unless forloop.last %},{% endunless %}
-    {% endfor %},
+      "r{{ i }}": "{{ section.settings[zone_key] | default: 'R' | append: i | append: ' - Rear Zone ' | append: i }}",
+    {% endfor %}
     {% for i in (1..9) %}
       {% assign zone_key = 'zone_s' | append: i | append: '_title' %}
-      {% assign default_title = 'S' | append: i | append: ' - Side Zone ' | append: i %}
-      "s{{ i }}": "{{ section.settings[zone_key] | default: default_title }}"{% unless forloop.last %},{% endunless %}
-    {% endfor %},
+      "s{{ i }}": "{{ section.settings[zone_key] | default: 'S' | append: i | append: ' - Side Zone ' | append: i }}",
+    {% endfor %}
     {% for i in (1..4) %}
       {% assign zone_key = 'zone_t' | append: i | append: '_title' %}
-      {% assign default_title = 'T' | append: i | append: ' - Trunk Zone ' | append: i %}
-      "t{{ i }}": "{{ section.settings[zone_key] | default: default_title }}"{% unless forloop.last %},{% endunless %}
-    {% endfor %},
+      "t{{ i }}": "{{ section.settings[zone_key] | default: 'T' | append: i | append: ' - Trunk Zone ' | append: i }}",
+    {% endfor %}
     "i1": "{{ section.settings.zone_i1_title | default: 'I1 - Driver Console' }}",
     "i2": "{{ section.settings.zone_i2_title | default: 'I2 - Passenger Console' }}"
   }
@@ -247,6 +279,44 @@
       "id": "zone_f3_title",
       "label": "F3 Zone Title",
       "default": "F3 - Front Roof Equipment"
+    },
+    {
+      "type": "header",
+      "content": "Cart Settings"
+    },
+    {
+      "type": "text",
+      "id": "cart_title",
+      "label": "Cart Title",
+      "default": "Your Vehicle Configuration"
+    },
+    {
+      "type": "text",
+      "id": "empty_cart_text",
+      "label": "Empty Cart Text",
+      "default": "Your cart is empty. Start building your vehicle by selecting zones above."
+    },
+    {
+      "type": "text",
+      "id": "view_cart_text",
+      "label": "View Cart Button Text",
+      "default": "View Cart"
+    },
+    {
+      "type": "text",
+      "id": "checkout_text",
+      "label": "Checkout Button Text",
+      "default": "Checkout"
+    },
+    {
+      "type": "range",
+      "id": "front_zones_count",
+      "min": 1,
+      "max": 20,
+      "step": 1,
+      "label": "Number of Front Zones",
+      "default": 11,
+      "info": "Set the number of front view zones (F1-FX)"
     }
   ],
   "presets": [
