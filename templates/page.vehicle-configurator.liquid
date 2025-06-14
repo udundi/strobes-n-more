@@ -1,0 +1,44 @@
+{% comment %}
+  Vehicle Configurator Page Template
+  File: templates/page.vehicle-configurator.liquid
+{% endcomment %}
+
+{% layout 'theme' %}
+
+<div class="page-width">
+  <div class="page-header">
+    <h1 class="page-title h1">{{ page.title }}</h1>
+    {% if page.content != blank %}
+      <div class="page-content rte">
+        {{ page.content }}
+      </div>
+    {% endif %}
+  </div>
+</div>
+
+{% comment %} Render the vehicle configurator section {% endcomment %}
+{% section 'vehicle-configurator' %}
+
+{% comment %} Optional: Add structured data for SEO {% endcomment %}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebApplication",
+  "name": "{{ page.title | default: 'Vehicle Configurator' }}",
+  "description": "{{ page.content | strip_html | truncate: 160 | default: 'Interactive vehicle configurator for emergency equipment' }}",
+  "url": "{{ shop.url }}{{ page.url }}",
+  "applicationCategory": "AutomotiveApplication",
+  "operatingSystem": "Web Browser"
+}
+</script>
+
+<style>
+  /* Page-specific overrides if needed */
+  .page-header {
+    margin-bottom: 0;
+  }
+  
+  .vehicle-configurator-section {
+    margin-top: 0;
+  }
+</style>
