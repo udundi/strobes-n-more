@@ -1,271 +1,221 @@
 /**
- * Vehicle Configurator Styles
- * File: assets/vehicle-configurator.css
+ * Additional CSS for Vehicle Selection
+ * Add this to your existing vehicle-configurator.css file
  */
 
- .configurator-container {
-  display: flex;
-  min-height: 100vh;
-  background: white;
-  font-family: var(--font-body-family, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif);
-}
-
-.vehicle-section {
-  flex: 1;
-  position: relative;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-}
-
-.vehicle-display {
-  flex: 1;
-  position: relative;
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  transition: background-image 0.3s ease;
-  min-height: 60vh;
-}
-
-.view-slider-container {
-  padding: 20px;
-  background: white;
-  border-top: 1px solid #e0e0e0;
-}
-
-.view-slider {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  gap: 15px;
-  flex-wrap: wrap;
-}
-
-.view-option {
-  padding: 10px 20px;
-  background: #f8f9fa;
-  border: 2px solid #e0e0e0;
-  border-radius: 25px;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-weight: 600;
-  color: rgb(var(--color-foreground, 33, 34, 91));
-  font-size: 14px;
-  text-decoration: none;
-}
-
-.view-option:hover {
-  border-color: rgb(var(--color-foreground, 33, 34, 91));
-  background: #f0f0f0;
-}
-
-.view-option.active {
-  background: rgb(var(--color-foreground, 33, 34, 91));
-  color: white;
-  border-color: rgb(var(--color-foreground, 33, 34, 91));
-}
-
-.zone-hotspot {
-  position: absolute;
-  width: 25px;
-  height: 25px;
-  background: rgba(255, 255, 255, 0.95);
-  border: 3px solid rgb(var(--color-foreground, 33, 34, 91));
-  border-radius: 50%;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 10px rgba(33, 34, 91, 0.3);
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-  color: rgb(var(--color-foreground, 33, 34, 91));
-  font-size: 10px;
-  z-index: 10;
-}
-
-.zone-hotspot:hover {
-  transform: scale(1.2);
-  background: rgb(var(--color-foreground, 33, 34, 91));
-  color: white;
-  box-shadow: 0 4px 15px rgba(33, 34, 91, 0.5);
-}
-
-.zone-hotspot.active {
-  background: rgb(var(--color-foreground, 33, 34, 91));
-  color: white;
-  transform: scale(1.1);
-  animation: pulse 2s infinite;
-}
-
-@keyframes pulse {
-  0% { box-shadow: 0 0 0 0 rgba(33, 34, 91, 0.7); }
-  70% { box-shadow: 0 0 0 10px rgba(33, 34, 91, 0); }
-  100% { box-shadow: 0 0 0 0 rgba(33, 34, 91, 0); }
-}
-
-/* Front view zones (F1-F11) */
-.front-f1 { top: 35%; left: 30%; }
-.front-f2 { top: 35%; left: 70%; }
-.front-f3 { top: 25%; left: 50%; }
-.front-f4 { top: 50%; left: 25%; }
-.front-f5 { top: 50%; left: 75%; }
-.front-f6 { top: 65%; left: 35%; }
-.front-f7 { top: 65%; left: 65%; }
-.front-f8 { top: 45%; left: 15%; }
-.front-f9 { top: 45%; left: 85%; }
-.front-f10 { top: 75%; left: 50%; }
-.front-f11 { top: 20%; left: 50%; }
-
-/* Rear view zones (R1-R8) */
-.rear-r1 { top: 35%; left: 30%; }
-.rear-r2 { top: 35%; left: 70%; }
-.rear-r3 { top: 25%; left: 50%; }
-.rear-r4 { top: 50%; left: 25%; }
-.rear-r5 { top: 50%; left: 75%; }
-.rear-r6 { top: 65%; left: 35%; }
-.rear-r7 { top: 65%; left: 65%; }
-.rear-r8 { top: 75%; left: 50%; }
-
-/* Side view zones (S1-S9) */
-.side-s1 { top: 25%; left: 20%; }
-.side-s2 { top: 25%; left: 80%; }
-.side-s3 { top: 35%; left: 15%; }
-.side-s4 { top: 35%; left: 85%; }
-.side-s5 { top: 45%; left: 50%; }
-.side-s6 { top: 55%; left: 30%; }
-.side-s7 { top: 55%; left: 70%; }
-.side-s8 { top: 65%; left: 20%; }
-.side-s9 { top: 65%; left: 80%; }
-
-/* Trunk view zones (T1-T4) */
-.trunk-t1 { top: 40%; left: 30%; }
-.trunk-t2 { top: 40%; left: 70%; }
-.trunk-t3 { top: 60%; left: 40%; }
-.trunk-t4 { top: 60%; left: 60%; }
-
-/* Interior view zones (I1-I2) */
-.interior-i1 { top: 35%; left: 40%; }
-.interior-i2 { top: 35%; left: 60%; }
-
-.products-panel {
-  width: 400px;
-  background: white;
-  box-shadow: -2px 0 10px rgba(0,0,0,0.1);
-  overflow-y: auto;
-  transition: all 0.3s ease;
-  max-height: 100vh;
-}
-
-.panel-header {
-  padding: 20px;
-  background: linear-gradient(135deg, rgb(var(--color-foreground, 33, 34, 91)), rgba(var(--color-foreground, 33, 34, 91), 0.8));
-  color: white;
-  text-align: center;
-  position: sticky;
+/* Vehicle Selector Overlay */
+.vehicle-selector-overlay {
+  position: fixed;
   top: 0;
-  z-index: 20;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
 }
 
-.panel-title {
-  font-size: 24px;
-  font-weight: 700;
-  margin-bottom: 5px;
-  color: white;
+.vehicle-selector-modal {
+  background: white;
+  border-radius: 10px;
+  padding: 30px;
+  max-width: 800px;
+  width: 90%;
+  max-height: 80vh;
+  overflow-y: auto;
 }
 
-.panel-subtitle {
-  font-size: 14px;
-  opacity: 0.9;
-}
-
-.zone-content {
-  padding: 20px;
-  animation: slideIn 0.3s ease;
-}
-
-@keyframes slideIn {
-  from { opacity: 0; transform: translateX(20px); }
-  to { opacity: 1; transform: translateX(0); }
-}
-
-.zone-title {
-  font-size: 20px;
-  font-weight: 700;
+.vehicle-selector-modal h2 {
+  text-align: center;
+  margin-bottom: 10px;
   color: rgb(var(--color-foreground, 33, 34, 91));
-  margin-bottom: 15px;
-  border-bottom: 2px solid rgb(var(--color-foreground, 33, 34, 91));
-  padding-bottom: 10px;
+  font-size: 28px;
+  font-weight: 700;
 }
 
-.product-item {
-  border: 1px solid #e0e0e0;
-  border-radius: 8px;
-  padding: 15px;
-  margin-bottom: 15px;
+.vehicle-selector-modal p {
+  text-align: center;
+  margin-bottom: 30px;
+  color: rgba(var(--color-foreground, 33, 34, 91), 0.7);
+}
+
+.vehicle-options {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 20px;
+}
+
+.vehicle-option {
+  border: 2px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  text-align: center;
+  cursor: pointer;
   transition: all 0.3s ease;
   background: #fafafa;
 }
 
-.product-item:hover {
+.vehicle-option:hover {
   border-color: rgb(var(--color-foreground, 33, 34, 91));
-  box-shadow: 0 2px 8px rgba(33, 34, 91, 0.1);
+  background: white;
   transform: translateY(-2px);
+  box-shadow: 0 4px 15px rgba(33, 34, 91, 0.1);
 }
 
-.product-name {
-  font-weight: 600;
-  font-size: 16px;
-  color: rgb(var(--color-foreground, 33, 34, 91));
-  margin-bottom: 8px;
-  line-height: 1.3;
+.vehicle-option img {
+  width: 100%;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-bottom: 15px;
 }
 
-.product-price {
+.vehicle-option h3 {
   font-size: 18px;
-  font-weight: 700;
-  color: rgb(var(--color-accent, 235, 212, 18));
+  font-weight: 600;
+  color: rgb(var(--color-foreground, 33, 34, 91));
   margin-bottom: 10px;
 }
 
-.product-description {
+.vehicle-option p {
   font-size: 14px;
-  color: rgb(var(--color-foreground, 33, 34, 91));
-  margin-bottom: 15px;
+  color: rgba(var(--color-foreground, 33, 34, 91), 0.7);
   line-height: 1.4;
+}
+
+/* Selected Vehicle Header */
+.selected-vehicle-header {
+  background: linear-gradient(135deg, rgb(var(--color-foreground, 33, 34, 91)), rgba(var(--color-foreground, 33, 34, 91), 0.8));
+  color: white;
+  padding: 15px 20px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.vehicle-info {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.vehicle-name {
+  font-weight: 600;
+  font-size: 16px;
+}
+
+.change-vehicle-btn {
+  background: rgba(255, 255, 255, 0.2);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 8px 16px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 12px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.change-vehicle-btn:hover {
+  background: rgba(255, 255, 255, 0.3);
+  border-color: rgba(255, 255, 255, 0.5);
+}
+
+/* Product Item Enhancements */
+.product-image-container {
+  margin-bottom: 12px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.product-image {
+  width: 100%;
+  height: 120px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.product-item:hover .product-image {
+  transform: scale(1.05);
+}
+
+.product-details {
+  /* Container for product info */
+}
+
+/* Compatibility Badges */
+.compatibility-badge {
+  display: inline-block;
+  padding: 4px 8px;
+  border-radius: 12px;
+  font-size: 11px;
+  font-weight: 600;
+  margin-bottom: 10px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+}
+
+.compatibility-badge.universal {
+  background: #e8f5e8;
+  color: #2d5a2d;
+  border: 1px solid #a8d5a8;
+}
+
+.compatibility-badge.vehicle-specific {
+  background: rgba(var(--color-accent, 235, 212, 18), 0.2);
+  color: rgb(var(--color-foreground, 33, 34, 91));
+  border: 1px solid rgba(var(--color-accent, 235, 212, 18), 0.4);
+}
+
+/* Enhanced No Products Message */
+.no-products {
+  text-align: center;
+  padding: 40px 20px;
+  color: rgba(var(--color-foreground, 33, 34, 91), 0.6);
+  background: #f8f9fa;
+  border-radius: 8px;
+  border: 2px dashed #e0e0e0;
+}
+
+.no-products small {
+  display: block;
+  margin-top: 8px;
+  font-size: 12px;
   opacity: 0.8;
 }
 
-.add-to-cart-btn {
-  width: 100%;
-  padding: 12px 16px;
-  background: rgb(var(--color-accent, 235, 212, 18));
-  color: rgb(var(--color-foreground, 33, 34, 91));
-  border: none;
-  border-radius: 5px;
-  font-weight: 700;
-  cursor: pointer;
-  transition: all 0.3s ease;
-  font-size: 14px;
-  font-family: inherit;
+/* Loading States */
+.loading-spinner {
+  text-align: center;
+  padding: 40px 20px;
+  color: rgba(var(--color-foreground, 33, 34, 91), 0.6);
+  position: relative;
 }
 
-.add-to-cart-btn:hover:not(:disabled) {
-  background: rgba(var(--color-accent, 235, 212, 18), 0.9);
-  transform: translateY(-1px);
-  box-shadow: 0 2px 8px rgba(235, 212, 18, 0.3);
+.loading-spinner::after {
+  content: '';
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin: auto;
+  border: 2px solid transparent;
+  border-top-color: rgb(var(--color-accent, 235, 212, 18));
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  margin-top: 10px;
 }
 
-.add-to-cart-btn:disabled {
-  opacity: 0.6;
-  cursor: not-allowed;
-  transform: none;
+@keyframes spin {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
 }
 
+/* Enhanced Cart Summary */
 .cart-summary {
   position: fixed;
   bottom: 20px;
@@ -277,15 +227,17 @@
   border: 2px solid rgb(var(--color-foreground, 33, 34, 91));
   z-index: 100;
   min-width: 200px;
+  max-width: 300px;
 }
 
-.cart-count {
+.cart-summary .cart-count {
   font-weight: 700;
   color: rgb(var(--color-foreground, 33, 34, 91));
   margin-bottom: 5px;
+  font-size: 14px;
 }
 
-.view-cart-btn {
+.cart-summary .view-cart-btn {
   display: inline-block;
   margin-top: 10px;
   padding: 8px 16px;
@@ -296,141 +248,98 @@
   font-size: 12px;
   font-weight: 600;
   transition: all 0.3s ease;
+  width: 100%;
+  text-align: center;
 }
 
-.view-cart-btn:hover {
+.cart-summary .view-cart-btn:hover {
   background: rgba(var(--color-foreground, 33, 34, 91), 0.8);
   transform: translateY(-1px);
 }
 
-.welcome-message {
-  text-align: center;
-  padding: 40px 20px;
-  color: rgb(var(--color-foreground, 33, 34, 91));
-}
-
-.welcome-message h3 {
-  font-size: 18px;
-  margin-bottom: 15px;
-  color: rgb(var(--color-foreground, 33, 34, 91));
-  font-weight: 600;
-}
-
-.welcome-message p {
-  line-height: 1.5;
-  opacity: 0.8;
-}
-
-.loading-spinner {
-  text-align: center;
-  padding: 40px 20px;
-  color: rgb(var(--color-foreground, 33, 34, 91));
-  opacity: 0.6;
-}
-
-.error-message {
-  text-align: center;
-  padding: 40px 20px;
-  color: #dc3545;
-  background: #f8d7da;
-  border-radius: 5px;
-  margin: 20px 0;
-}
-
-.no-products {
-  text-align: center;
-  padding: 40px 20px;
-  color: rgb(var(--color-foreground, 33, 34, 91));
-  opacity: 0.6;
-  font-style: italic;
-}
-
-/* Mobile Responsiveness */
+/* Mobile Responsiveness for Vehicle Selection */
 @media (max-width: 768px) {
-  .configurator-container {
-    flex-direction: column;
+  .vehicle-selector-modal {
+    padding: 20px;
+    width: 95%;
   }
   
-  .products-panel {
-    width: 100%;
-    max-height: 60vh;
-    order: 2;
+  .vehicle-options {
+    grid-template-columns: 1fr;
+    gap: 15px;
   }
   
-  .vehicle-section {
-    min-height: 40vh;
-    order: 1;
+  .vehicle-option {
+    padding: 15px;
   }
-
-  .vehicle-display {
-    min-height: 40vh;
+  
+  .vehicle-option img {
+    height: 120px;
   }
-
-  .view-slider {
-    gap: 8px;
+  
+  .selected-vehicle-header {
+    padding: 12px 15px;
   }
-
-  .view-option {
-    padding: 8px 12px;
-    font-size: 12px;
+  
+  .vehicle-info {
+    gap: 15px;
   }
-
-  .zone-hotspot {
-    width: 30px;
-    height: 30px;
+  
+  .vehicle-name {
+    font-size: 14px;
+  }
+  
+  .change-vehicle-btn {
+    padding: 6px 12px;
     font-size: 11px;
   }
-
-  .panel-title {
-    font-size: 20px;
+  
+  .product-image {
+    height: 100px;
   }
-
-  .zone-title {
-    font-size: 18px;
-  }
-
-  .cart-summary {
-    bottom: 10px;
-    right: 10px;
-    left: 10px;
-    text-align: center;
+  
+  .compatibility-badge {
+    font-size: 10px;
+    padding: 3px 6px;
   }
 }
 
 @media (max-width: 480px) {
-  .zone-hotspot {
-    width: 28px;
-    height: 28px;
-    font-size: 10px;
+  .vehicle-selector-modal h2 {
+    font-size: 24px;
   }
-
-  .products-panel {
-    max-height: 50vh;
+  
+  .vehicle-option h3 {
+    font-size: 16px;
   }
-
-  .product-item {
-    padding: 12px;
+  
+  .vehicle-option p {
+    font-size: 13px;
   }
-
-  .view-option {
-    padding: 6px 10px;
-    font-size: 11px;
+  
+  .cart-summary {
+    bottom: 10px;
+    right: 10px;
+    left: 10px;
   }
 }
 
-/* Touch device improvements */
+/* Touch improvements */
 @media (hover: none) and (pointer: coarse) {
-  .zone-hotspot {
-    width: 35px;
-    height: 35px;
-    font-size: 12px;
+  .vehicle-option {
+    padding: 25px;
   }
   
-  .zone-hotspot:hover {
+  .vehicle-option:hover {
     transform: none;
   }
   
-  .zone-hotspot:active {
-    transform: scale(0.95);
+  .vehicle-option:active {
+    transform: scale(0.98);
+    background: #f0f0f0;
+  }
+  
+  .change-vehicle-btn:active {
+    background: rgba(255, 255, 255, 0.4);
   }
 }
