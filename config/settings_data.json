@@ -107,6 +107,31 @@
     "product_cart_redirect": false,
     "show_breadcrumbs": true,
     "quickshop_show_vendor": true,
+    "sections": {
+      "vehicle-configurator": {
+        "type": "vehicle-configurator",
+        "settings": {
+          "product_collection": "",
+          "panel_title": "Build Your Vehicle",
+          "panel_subtitle": "Select a view and click on zones to add equipment",
+          "welcome_title": "Welcome to Vehicle Builder",
+          "welcome_text": "Select a vehicle view from the slider below, then click on any numbered zone to start building your emergency equipment setup.",
+          "front_image": "shopify://shop_images/e2e6d0a13eeef6e1cca4cf0ae4de59ce.png",
+          "rear_image": "shopify://shop_images/Ford_Back.png",
+          "side_image": "shopify://shop_images/Ford_Side.png",
+          "trunk_image": "shopify://shop_images/Ford_Trunk.png",
+          "interior_image": "shopify://shop_images/Ford_Interior.png",
+          "front_view_text": "Front",
+          "rear_view_text": "Rear",
+          "side_view_text": "Side",
+          "trunk_view_text": "Trunk",
+          "interior_view_text": "Interior",
+          "zone_f1_title": "F1 - Front Left Headlight",
+          "zone_f2_title": "F2 - Front Right Headlight",
+          "zone_f3_title": "F3 - Front Roof Equipment"
+        }
+      }
+    },
     "content_for_index": [],
     "blocks": {
       "17428600031447253342": {
