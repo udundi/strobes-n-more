@@ -110,25 +110,29 @@
     "sections": {
       "vehicle-configurator": {
         "type": "vehicle-configurator",
+        "blocks": {
+          "vehicle_JigwMy": {
+            "type": "vehicle",
+            "settings": {
+              "vehicle_handle": "Ford",
+              "vehicle_name": "Interceptor",
+              "vehicle_description": "",
+              "vehicle_image": "shopify://shop_images/F1.png",
+              "front_image": "shopify://shop_images/e2e6d0a13eeef6e1cca4cf0ae4de59ce.png",
+              "rear_image": "shopify://shop_images/Ford_Back.png",
+              "side_image": "shopify://shop_images/Ford_Side.png",
+              "trunk_image": "shopify://shop_images/Ford_Trunk.png",
+              "interior_image": "shopify://shop_images/Ford_Interior.png"
+            }
+          }
+        },
+        "block_order": [
+          "vehicle_JigwMy"
+        ],
         "settings": {
           "product_collection": "vehicle-configurator-products",
           "panel_title": "Build Your Vehicle",
-          "panel_subtitle": "Select a view and click on zones to add equipment",
-          "welcome_title": "Welcome to Vehicle Builder",
-          "welcome_text": "Select a vehicle view from the slider below, then click on any numbered zone to start building your emergency equipment setup.",
-          "front_image": "shopify://shop_images/e2e6d0a13eeef6e1cca4cf0ae4de59ce.png",
-          "rear_image": "shopify://shop_images/Ford_Back.png",
-          "side_image": "shopify://shop_images/Ford_Side.png",
-          "trunk_image": "shopify://shop_images/Ford_Trunk.png",
-          "interior_image": "shopify://shop_images/Ford_Interior.png",
-          "front_view_text": "Front",
-          "rear_view_text": "Rear",
-          "side_view_text": "Side",
-          "trunk_view_text": "Trunk",
-          "interior_view_text": "Interior",
-          "zone_f1_title": "F1 - Front Left Headlight",
-          "zone_f2_title": "F2 - Front Right Headlight",
-          "zone_f3_title": "F3 - Front Roof Equipment"
+          "panel_subtitle": "Select a view and click on zones to add equipment"
         }
       }
     },
