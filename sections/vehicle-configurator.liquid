@@ -1,6 +1,258 @@
-{% schema %}
-  {
-    "name": "Section name",
-    "settings": []
+{% comment %}
+  Vehicle Configurator Section
+  File: sections/vehicle-configurator.liquid
+{% endcomment %}
+
+{{ 'vehicle-configurator.css' | asset_url | stylesheet_tag }}
+
+{% assign collection = collections[section.settings.product_collection] %}
+
+<div class="configurator-container" id="vehicleConfigurator">
+  <div class="vehicle-section">
+    <div class="vehicle-display view-front" id="vehicleDisplay">
+      {% comment %} Front view zones (F1-F11) {% endcomment %}
+      {% for i in (1..11) %}
+        <div class="zone-hotspot front-f{{ i }}" data-zone="f{{ i }}" data-view="front">F{{ i }}</div>
+      {% endfor %}
+
+      {% comment %} Rear view zones (R1-R8) {% endcomment %}
+      {% for i in (1..8) %}
+        <div class="zone-hotspot rear-r{{ i }}" data-zone="r{{ i }}" data-view="rear" style="display: none;">R{{ i }}</div>
+      {% endfor %}
+
+      {% comment %} Side view zones (S1-S9) {% endcomment %}
+      {% for i in (1..9) %}
+        <div class="zone-hotspot side-s{{ i }}" data-zone="s{{ i }}" data-view="side" style="display: none;">S{{ i }}</div>
+      {% endfor %}
+
+      {% comment %} Trunk view zones (T1-T4) {% endcomment %}
+      {% for i in (1..4) %}
+        <div class="zone-hotspot trunk-t{{ i }}" data-zone="t{{ i }}" data-view="trunk" style="display: none;">T{{ i }}</div>
+      {% endfor %}
+
+      {% comment %} Interior view zones (I1-I2) {% endcomment %}
+      {% for i in (1..2) %}
+        <div class="zone-hotspot interior-i{{ i }}" data-zone="i{{ i }}" data-view="interior" style="display: none;">I{{ i }}</div>
+      {% endfor %}
+    </div>
+
+    <div class="view-slider-container">
+      <div class="view-slider">
+        <div class="view-option active" data-view="front">{{ section.settings.front_view_text | default: "Front" }}</div>
+        <div class="view-option" data-view="rear">{{ section.settings.rear_view_text | default: "Rear" }}</div>
+        <div class="view-option" data-view="side">{{ section.settings.side_view_text | default: "Side" }}</div>
+        <div class="view-option" data-view="trunk">{{ section.settings.trunk_view_text | default: "Trunk" }}</div>
+        <div class="view-option" data-view="interior">{{ section.settings.interior_view_text | default: "Interior" }}</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="products-panel">
+    <div class="panel-header">
+      <div class="panel-title">{{ section.settings.panel_title | default: "Build Your Vehicle" }}</div>
+      <div class="panel-subtitle">{{ section.settings.panel_subtitle | default: "Select a view and click on zones to add equipment" }}</div>
+    </div>
+
+    <div class="welcome-message" id="welcomeMessage">
+      <h3>{{ section.settings.welcome_title | default: "Welcome to Vehicle Builder" }}</h3>
+      <p>{{ section.settings.welcome_text | default: "Select a vehicle view from the slider below, then click on any numbered zone to start building your emergency equipment setup." }}</p>
+    </div>
+
+    {% comment %} Zone content containers - will be populated via AJAX {% endcomment %}
+    {% assign zone_mappings = 'f1,f2,f3,f4,f5,f6,f7,f8,f9,f10,f11,r1,r2,r3,r4,r5,r6,r7,r8,s1,s2,s3,s4,s5,s6,s7,s8,s9,t1,t2,t3,t4,i1,i2' | split: ',' %}
+    
+    {% for zone in zone_mappings %}
+      <div class="zone-content" id="zone-{{ zone }}" style="display: none;">
+        <div class="zone-title" id="zone-title-{{ zone }}"></div>
+        <div class="zone-products" id="zone-products-{{ zone }}">
+          <div class="loading-spinner">Loading products...</div>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+{% comment %} Cart Summary {% endcomment %}
+<div class="cart-summary" id="cartSummary" style="display: none;">
+  <div class="cart-count">Cart: <span id="cartCount">{{ cart.item_count }}</span> items</div>
+  <div>Total: {{ cart.total_price | money }}</div>
+  <a href="{{ routes.cart_url }}" class="view-cart-btn">View Cart</a>
+</div>
+
+{% comment %} Hidden data for JavaScript {% endcomment %}
+<script type="application/json" id="configurator-data">
+{
+  "collection_id": "{{ collection.id }}",
+  "collection_handle": "{{ collection.handle }}",
+  "cart_add_url": "{{ routes.cart_add_url }}",
+  "shop_money_format": {{ shop.money_format | json }},
+  "images": {
+    "front": "{{ section.settings.front_image | img_url: 'master' }}",
+    "rear": "{{ section.settings.rear_image | img_url: 'master' }}",
+    "side": "{{ section.settings.side_image | img_url: 'master' }}",
+    "trunk": "{{ section.settings.trunk_image | img_url: 'master' }}",
+    "interior": "{{ section.settings.interior_image | img_url: 'master' }}"
+  },
+  "zone_titles": {
+    {% comment %} Zone titles from settings - Fixed syntax {% endcomment %}
+    {% for i in (1..11) %}
+      {% assign zone_key = 'zone_f' | append: i | append: '_title' %}
+      {% assign default_title = 'F' | append: i | append: ' - Front Zone ' | append: i %}
+      "f{{ i }}": "{{ section.settings[zone_key] | default: default_title }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %},
+    {% for i in (1..8) %}
+      {% assign zone_key = 'zone_r' | append: i | append: '_title' %}
+      {% assign default_title = 'R' | append: i | append: ' - Rear Zone ' | append: i %}
+      "r{{ i }}": "{{ section.settings[zone_key] | default: default_title }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %},
+    {% for i in (1..9) %}
+      {% assign zone_key = 'zone_s' | append: i | append: '_title' %}
+      {% assign default_title = 'S' | append: i | append: ' - Side Zone ' | append: i %}
+      "s{{ i }}": "{{ section.settings[zone_key] | default: default_title }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %},
+    {% for i in (1..4) %}
+      {% assign zone_key = 'zone_t' | append: i | append: '_title' %}
+      {% assign default_title = 'T' | append: i | append: ' - Trunk Zone ' | append: i %}
+      "t{{ i }}": "{{ section.settings[zone_key] | default: default_title }}"{% unless forloop.last %},{% endunless %}
+    {% endfor %},
+    "i1": "{{ section.settings.zone_i1_title | default: 'I1 - Driver Console' }}",
+    "i2": "{{ section.settings.zone_i2_title | default: 'I2 - Passenger Console' }}"
   }
+}
+</script>
+
+{{ 'vehicle-configurator.js' | asset_url | script_tag }}
+
+{% schema %}
+{
+  "name": "Vehicle Configurator",
+  "tag": "section",
+  "class": "vehicle-configurator-section",
+  "settings": [
+    {
+      "type": "header",
+      "content": "General Settings"
+    },
+    {
+      "type": "collection",
+      "id": "product_collection",
+      "label": "Product Collection",
+      "info": "Select the collection containing configurator products"
+    },
+    {
+      "type": "text",
+      "id": "panel_title",
+      "label": "Panel Title",
+      "default": "Build Your Vehicle"
+    },
+    {
+      "type": "text",
+      "id": "panel_subtitle",
+      "label": "Panel Subtitle",
+      "default": "Select a view and click on zones to add equipment"
+    },
+    {
+      "type": "text",
+      "id": "welcome_title",
+      "label": "Welcome Title",
+      "default": "Welcome to Vehicle Builder"
+    },
+    {
+      "type": "textarea",
+      "id": "welcome_text",
+      "label": "Welcome Text",
+      "default": "Select a vehicle view from the slider below, then click on any numbered zone to start building your emergency equipment setup."
+    },
+    {
+      "type": "header",
+      "content": "Vehicle Images"
+    },
+    {
+      "type": "image_picker",
+      "id": "front_image",
+      "label": "Front View Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "rear_image",
+      "label": "Rear View Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "side_image",
+      "label": "Side View Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "trunk_image",
+      "label": "Trunk View Image"
+    },
+    {
+      "type": "image_picker",
+      "id": "interior_image",
+      "label": "Interior View Image"
+    },
+    {
+      "type": "header",
+      "content": "View Labels"
+    },
+    {
+      "type": "text",
+      "id": "front_view_text",
+      "label": "Front View Button Text",
+      "default": "Front"
+    },
+    {
+      "type": "text",
+      "id": "rear_view_text",
+      "label": "Rear View Button Text",
+      "default": "Rear"
+    },
+    {
+      "type": "text",
+      "id": "side_view_text",
+      "label": "Side View Button Text",
+      "default": "Side"
+    },
+    {
+      "type": "text",
+      "id": "trunk_view_text",
+      "label": "Trunk View Button Text",
+      "default": "Trunk"
+    },
+    {
+      "type": "text",
+      "id": "interior_view_text",
+      "label": "Interior View Button Text",
+      "default": "Interior"
+    },
+    {
+      "type": "header",
+      "content": "Zone Titles (Front)"
+    },
+    {
+      "type": "text",
+      "id": "zone_f1_title",
+      "label": "F1 Zone Title",
+      "default": "F1 - Front Left Headlight"
+    },
+    {
+      "type": "text",
+      "id": "zone_f2_title",
+      "label": "F2 Zone Title",
+      "default": "F2 - Front Right Headlight"
+    },
+    {
+      "type": "text",
+      "id": "zone_f3_title",
+      "label": "F3 Zone Title",
+      "default": "F3 - Front Roof Equipment"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Vehicle Configurator"
+    }
+  ]
+}
 {% endschema %}
