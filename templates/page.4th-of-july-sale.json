@@ -50,30 +50,6 @@
         "slideshow_text_below_image": false
       }
     },
-    "dynamic_countdown_timer_LPV4nG": {
-      "type": "dynamic-countdown-timer",
-      "name": "t:sections.countdown_timer.presets.countdown_timer.name",
-      "settings": {
-        "section_height": "small",
-        "countdown_year": "2024",
-        "countdown_month": "07",
-        "countdown_day": "06",
-        "countdown_hour": "12",
-        "countdown_minute": "30",
-        "countdown_timer_background": true,
-        "countdown_timer_complete": false,
-        "countdown_timer_message": "",
-        "product": "",
-        "title": "",
-        "button_link": "",
-        "button_label": "",
-        "button_style": "primary",
-        "text_color": "#FFFFFF",
-        "overlay_color": "#000000",
-        "overlay_opacity": 15,
-        "product_card_background_color": "#F5F3ED"
-      }
-    },
     "dynamic_custom_liquid_7AWjbd": {
       "type": "dynamic-custom-liquid",
       "name": "t:sections.custom_liquid.presets.custom_liquid.name",
@@ -85,7 +61,6 @@
   "order": [
     "main",
     "dynamic_slideshow_i9w9ek",
-    "dynamic_countdown_timer_LPV4nG",
     "dynamic_custom_liquid_7AWjbd"
   ]
 }
