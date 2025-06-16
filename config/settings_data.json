@@ -107,35 +107,6 @@
     "product_cart_redirect": false,
     "show_breadcrumbs": true,
     "quickshop_show_vendor": true,
-    "sections": {
-      "vehicle-configurator": {
-        "type": "vehicle-configurator",
-        "blocks": {
-          "vehicle_JigwMy": {
-            "type": "vehicle",
-            "settings": {
-              "vehicle_handle": "Ford",
-              "vehicle_name": "Interceptor",
-              "vehicle_description": "",
-              "vehicle_image": "shopify://shop_images/F1.png",
-              "front_image": "shopify://shop_images/e2e6d0a13eeef6e1cca4cf0ae4de59ce.png",
-              "rear_image": "shopify://shop_images/Ford_Back.png",
-              "side_image": "shopify://shop_images/Ford_Side.png",
-              "trunk_image": "shopify://shop_images/Ford_Trunk.png",
-              "interior_image": "shopify://shop_images/Ford_Interior.png"
-            }
-          }
-        },
-        "block_order": [
-          "vehicle_JigwMy"
-        ],
-        "settings": {
-          "product_collection": "vehicle-configurator-products",
-          "panel_title": "Build Your Vehicle",
-          "panel_subtitle": "Select a view and click on zones to add equipment"
-        }
-      }
-    },
     "content_for_index": [],
     "blocks": {
       "17428600031447253342": {

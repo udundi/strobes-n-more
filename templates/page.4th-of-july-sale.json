@@ -9,368 +9,75 @@
  */
 {
   "sections": {
-    "pxs_image_with_text_overlay_LQRWFX": {
-      "type": "pxs-image-with-text-overlay",
-      "disabled": true,
-      "settings": {
-        "section_height": "medium",
-        "image": "shopify://shop_images/c.jpg",
-        "title": "Who We Are",
-        "text": "<p>Strobes N' More distributes, installs, and services mission-critical products for law enforcement, fire, EMS, and other emergency vehicle aftermarket suppliers. Founded in the early 1990s and headquartered in Rhode Island, we are one of the oldest eCommerce-based emergency vehicle lighting solutions providers in the industry.</p>",
-        "content_position": "center-center",
-        "color": "#ffffff",
-        "overlay_background": "#000000",
-        "overlay_opacity": 50,
-        "link": "shopify://collections",
-        "button_text": "Shop Now"
-      }
-    },
-    "dynamic_image_with_text_NWeqaA": {
-      "type": "dynamic-image-with-text",
-      "settings": {
-        "section_heading": "",
-        "image": "shopify://shop_images/SNM1.jpg",
-        "desktop_height": "400px",
-        "mobile_height": "natural",
-        "desktop_image_alignment": "right",
-        "mobile_image_alignment": "bottom",
-        "heading": "Representative Clients",
-        "subheading": "<p>At Strobes N' More, we are committed to providing high-quality products and exceptional service. Our customers reflect that standard, representing a wide range of industries—from emergency services and public safety to construction and utilities. The reliability and performance of our lighting solutions help them excel in their work.</p><p>This page is dedicated to showcasing the outstanding organizations and agencies who trust Strobes N' More to keep them visible, safe, and efficient. Each featured customer represents excellence in their field, and we are honored to support their efforts with products they can depend on.</p>",
-        "text_alignment": "left",
-        "button_label": "Button",
-        "button_link": ""
-      }
-    },
-    "dynamic_faq_ghB9TF": {
-      "type": "dynamic-faq",
-      "blocks": {
-        "question_fGVU3y": {
-          "type": "question",
-          "settings": {
-            "question": "Product Distribution",
-            "answer": "<p>We stock products from virtually every leading manufacturer in the emergency vehicle lighting industry.</p>",
-            "icon": "icon-delivery"
-          }
-        },
-        "question_mhyjNn": {
-          "type": "question",
-          "settings": {
-            "question": "Installation & Repair",
-            "answer": "<p>Our Westerly, RI facility offers installation, repair, and service work.</p>",
-            "icon": "icon-tape-measure"
-          }
-        },
-        "question_TNCgTF": {
-          "type": "question",
-          "settings": {
-            "question": "Custom Solutions",
-            "answer": "<p>We design and engineer products under the Strobes N' More brand, providing budget-friendly options without compromising quality.</p>",
-            "icon": "icon-rating-star"
-          }
-        }
-      },
-      "block_order": [
-        "question_fGVU3y",
-        "question_mhyjNn",
-        "question_TNCgTF"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_width": "wide",
-        "heading": "Our Services",
-        "enable_category_cards": false,
-        "category_card_image_crop": "original",
-        "category_heading_size": "medium",
-        "icon_color": "rgba(0,0,0,0)"
-      }
-    },
     "main": {
       "type": "page",
       "disabled": true,
       "settings": {}
     },
-    "dynamic_highlights_banner_RJeHjd": {
-      "type": "dynamic-highlights-banner",
+    "dynamic_slideshow_i9w9ek": {
+      "type": "dynamic-slideshow",
       "blocks": {
-        "highlight_ntH8DT": {
-          "type": "highlight",
+        "slide_rmfiRM": {
+          "type": "slide",
           "settings": {
-            "icon": "icon-cell-phone",
-            "title": "Give Us A Call",
-            "text": "<p>401-4-LIGHTS</p>",
-            "link": ""
-          }
-        },
-        "highlight_9Yec4T": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-chat-alternate",
-            "title": "Chat With Us",
-            "text": "<p>Using the icon in the bottom right</p>",
-            "link": ""
-          }
-        },
-        "highlight_W8WRcL": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-envelope",
-            "title": "Email Us",
-            "text": "<p>sales@strobesnmore.com</p>",
-            "link": ""
+            "title": "",
+            "text": "Single Graphic or slideshow highlighting 4th of July Sale",
+            "color": "#FFFFFF",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
           }
         }
       },
       "block_order": [
-        "highlight_ntH8DT",
-        "highlight_9Yec4T",
-        "highlight_W8WRcL"
+        "slide_rmfiRM"
       ],
+      "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
-        "section_spacing": true,
-        "section_width": "full-width",
-        "icon_layout": "center",
-        "color": "#1d1d1d",
-        "icon_color": "#07145e",
-        "background_color": "#ffffff",
-        "mobile_layout": "slider"
+        "enable_autoplay": true,
+        "autoplay_duration": 8,
+        "slideshow_width": "full",
+        "slideshow_height": "medium",
+        "slideshow_height_mobile": "medium",
+        "slideshow_text_below_image": false
       }
     },
-    "dynamic_rich_text_fYUcBa": {
-      "type": "dynamic-rich-text",
-      "custom_css": [
-        "div {background-color: #1b175d;}",
-        "h2 {color: #fff; padding: 12px;}"
-      ],
+    "dynamic_countdown_timer_LPV4nG": {
+      "type": "dynamic-countdown-timer",
+      "name": "t:sections.countdown_timer.presets.countdown_timer.name",
       "settings": {
-        "width": "full-width",
-        "title": "Featured Clients",
-        "text": "",
-        "heading_size": "medium",
-        "text_alignment": "center"
-      }
-    },
-    "dynamic_logo_list_y6CFQM": {
-      "type": "dynamic-logo-list",
-      "blocks": {
-        "logo_negKB8": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/AAA.jpg",
-            "link": ""
-          }
-        },
-        "logo_Pfc7Xf": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Auto_Zone.jpg",
-            "link": ""
-          }
-        },
-        "logo_XxdgLd": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/BrightView.jpg",
-            "link": ""
-          }
-        },
-        "logo_TGNdjX": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/CAT.jpg",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_negKB8",
-        "logo_Pfc7Xf",
-        "logo_XxdgLd",
-        "logo_TGNdjX"
-      ],
-      "settings": {
-        "title": ""
-      }
-    },
-    "dynamic_logo_list_yjmxHR": {
-      "type": "dynamic-logo-list",
-      "blocks": {
-        "logo_NqFwgC": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/comcast.jpg",
-            "link": ""
-          }
-        },
-        "logo_EiQPTN": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Cox_Automotive.jpg",
-            "link": ""
-          }
-        },
-        "logo_LDMhW3": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Duke_Energy.jpg",
-            "link": ""
-          }
-        },
-        "logo_9dcBDg": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/General_Dynamics.jpg",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_NqFwgC",
-        "logo_EiQPTN",
-        "logo_LDMhW3",
-        "logo_9dcBDg"
-      ],
-      "settings": {
-        "title": ""
-      }
-    },
-    "dynamic_logo_list_bzWKkR": {
-      "type": "dynamic-logo-list",
-      "blocks": {
-        "logo_wpFE6C": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Kinder_Morgan.jpg",
-            "link": ""
-          }
-        },
-        "logo_PYPnJJ": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Lockheed_Martin.jpg",
-            "link": ""
-          }
-        },
-        "logo_am74Mn": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/NAPA.jpg",
-            "link": ""
-          }
-        },
-        "logo_aeRFMd": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Norfolk_Southern.jpg",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_wpFE6C",
-        "logo_PYPnJJ",
-        "logo_am74Mn",
-        "logo_aeRFMd"
-      ],
-      "settings": {
-        "title": ""
-      }
-    },
-    "dynamic_logo_list_VpwpDQ": {
-      "type": "dynamic-logo-list",
-      "blocks": {
-        "logo_ERek4n": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Northrop_Grumman.jpg",
-            "link": ""
-          }
-        },
-        "logo_jm34hK": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Republic_Services.jpg",
-            "link": ""
-          }
-        },
-        "logo_CDDaJ3": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Southern_Company.jpg",
-            "link": ""
-          }
-        },
-        "logo_AFcmdT": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Union_Pacific.jpg",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_ERek4n",
-        "logo_jm34hK",
-        "logo_CDDaJ3",
-        "logo_AFcmdT"
-      ],
-      "settings": {
-        "title": ""
-      }
-    },
-    "dynamic_logo_list_q3xKqY": {
-      "type": "dynamic-logo-list",
-      "blocks": {
-        "logo_Xx4wJw": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/United_Airlines.jpg",
-            "link": ""
-          }
-        },
-        "logo_Ch7CFh": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/United_Rentals.jpg",
-            "link": ""
-          }
-        },
-        "logo_6FtejH": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Verizon.jpg",
-            "link": ""
-          }
-        },
-        "logo_Q8V9Jc": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Vulcan_Materials_Company.jpg",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "logo_Xx4wJw",
-        "logo_Ch7CFh",
-        "logo_6FtejH",
-        "logo_Q8V9Jc"
-      ],
-      "settings": {
-        "title": ""
+        "section_height": "small",
+        "countdown_year": "2024",
+        "countdown_month": "07",
+        "countdown_day": "06",
+        "countdown_hour": "12",
+        "countdown_minute": "30",
+        "countdown_timer_background": true,
+        "countdown_timer_complete": false,
+        "countdown_timer_message": "",
+        "product": "",
+        "title": "Countdown timer",
+        "button_link": "",
+        "button_label": "",
+        "button_style": "primary",
+        "text_color": "#FFFFFF",
+        "overlay_color": "#000000",
+        "overlay_opacity": 15,
+        "product_card_background_color": "#F5F3ED"
       }
     }
   },
   "order": [
-    "pxs_image_with_text_overlay_LQRWFX",
-    "dynamic_image_with_text_NWeqaA",
-    "dynamic_faq_ghB9TF",
     "main",
-    "dynamic_highlights_banner_RJeHjd",
-    "dynamic_rich_text_fYUcBa",
-    "dynamic_logo_list_y6CFQM",
-    "dynamic_logo_list_yjmxHR",
-    "dynamic_logo_list_bzWKkR",
-    "dynamic_logo_list_VpwpDQ",
-    "dynamic_logo_list_q3xKqY"
+    "dynamic_slideshow_i9w9ek",
+    "dynamic_countdown_timer_LPV4nG"
   ]
 }
