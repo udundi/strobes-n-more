@@ -82,7 +82,7 @@
     "dynamic_custom_liquid_7AWjbd": {
       "type": "dynamic-custom-liquid",
       "custom_css": [
-        "{margin-top: -50px;}"
+        "{margin-top: -40px;}"
       ],
       "name": "t:sections.custom_liquid.presets.custom_liquid.name",
       "settings": {
