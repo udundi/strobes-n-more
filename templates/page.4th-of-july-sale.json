@@ -69,7 +69,7 @@
       "settings": {
         "title": "",
         "image_width": "two-thirds",
-        "link_text": "View product",
+        "link_text": "Shop Now",
         "textbox_title": "Spectre Siren Amp",
         "textbox_subheading": "<p>TWO OR THREE LINE PRODUCT DESCRIPTION example example example example example example example example example example example example example example example.</p>",
         "textbox_button_label": "",
@@ -111,14 +111,14 @@
       "settings": {
         "title": "",
         "image_width": "two-thirds",
-        "link_text": "View product",
+        "link_text": "Shop Now",
         "textbox_title": "TailGator Taillight",
         "textbox_subheading": "<p>TWO OR THREE LINE PRODUCT DESCRIPTION example example example example example example example example example example example example example example example.</p>",
         "textbox_button_label": "",
         "textbox_button_link": "",
         "textbox_button_style": "primary",
         "textbox_text_alignment": "left",
-        "textbox_text_position": "right"
+        "textbox_text_position": "left"
       }
     },
     "dynamic_featured_collection_rYiY7G": {
