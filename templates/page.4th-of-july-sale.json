@@ -190,6 +190,60 @@
         "cta_label": "",
         "cta_button_style": "primary"
       }
+    },
+    "dynamic_faq_bM7nfd": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_hXrDWH": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_UhVecV": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "icon": "none"
+          }
+        },
+        "question_MqiApe": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "icon": "none"
+          }
+        },
+        "question_JrFLEy": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_hXrDWH",
+        "question_UhVecV",
+        "question_MqiApe",
+        "question_JrFLEy"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
@@ -200,6 +254,7 @@
     "dynamic_shoppable_image_cEJrc9",
     "dynamic_rich_text_LWN4EY",
     "175016809979d8c481",
-    "dynamic_featured_collection_rYiY7G"
+    "dynamic_featured_collection_rYiY7G",
+    "dynamic_faq_bM7nfd"
   ]
 }
