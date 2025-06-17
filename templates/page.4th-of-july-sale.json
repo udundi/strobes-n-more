@@ -90,12 +90,42 @@
         "cta_label": "",
         "cta_button_style": "primary"
       }
+    },
+    "dynamic_shoppable_image_kKgW99": {
+      "type": "dynamic-shoppable-image",
+      "blocks": {
+        "hotspot_Kq4JMV": {
+          "type": "hotspot",
+          "settings": {
+            "product": "strobes-n-more-spectre-siren-amp",
+            "x_axis": 50,
+            "y_axis": 50
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_Kq4JMV"
+      ],
+      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
+      "settings": {
+        "title": "",
+        "image_width": "two-thirds",
+        "link_text": "View product",
+        "textbox_title": "Spectre Siren Amp",
+        "textbox_subheading": "<p>two to three line product description</p>",
+        "textbox_button_label": "Shop Now",
+        "textbox_button_link": "",
+        "textbox_button_style": "primary",
+        "textbox_text_alignment": "left",
+        "textbox_text_position": "right"
+      }
     }
   },
   "order": [
     "main",
     "dynamic_slideshow_i9w9ek",
     "dynamic_custom_liquid_7AWjbd",
-    "dynamic_featured_collection_rYiY7G"
+    "dynamic_featured_collection_rYiY7G",
+    "dynamic_shoppable_image_kKgW99"
   ]
 }
