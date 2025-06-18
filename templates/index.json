@@ -96,22 +96,22 @@
         "section_height": "small",
         "text_alignment": "top-left",
         "maintain_aspect_ratio": true,
-        "compress_blocks": false
+        "compress_blocks": true
       }
     },
-    "dynamic_featured_collection-2": {
+    "dynamic_featured_collection_M4FrNj": {
       "type": "dynamic-featured-collection",
       "blocks": {
-        "title-card": {
+        "title_card_re6tdX": {
           "type": "title_card",
           "settings": {
-            "image": "shopify://shop_images/Staff_Picks6.png",
+            "image": "shopify://shop_images/Lightbar_Packages2.png",
             "text_alignment": "center-center",
             "pre_heading": "",
-            "heading": "Staff Picks",
+            "heading": "Lightbar Packages",
             "text_color": "#ffffff",
             "show_on_mobile": true,
-            "horizontal_size": "3",
+            "horizontal_size": "2",
             "vertical_size": "2",
             "enable_full_width_on_mobile": false,
             "cta_label": "See more",
@@ -121,16 +121,16 @@
         }
       },
       "block_order": [
-        "title-card"
+        "title_card_re6tdX"
       ],
-      "name": "Collection - Staff Picks",
+      "name": "Collection - Lighybar Packages",
       "settings": {
         "title": "",
         "layout": "slideshow",
         "mobile_layout": "slideshow",
-        "collection": "matts-picks",
-        "product_count": 7,
-        "cta_label": "",
+        "collection": "lightbar-packages",
+        "product_count": 4,
+        "cta_label": "LED Lightbar Packages",
         "cta_button_style": "primary"
       }
     },
@@ -263,19 +263,19 @@
         "cta_button_style": "primary"
       }
     },
-    "dynamic_featured_collection_M4FrNj": {
+    "dynamic_featured_collection-2": {
       "type": "dynamic-featured-collection",
       "blocks": {
-        "title_card_re6tdX": {
+        "title-card": {
           "type": "title_card",
           "settings": {
-            "image": "shopify://shop_images/Lightbar_Packages2.png",
+            "image": "shopify://shop_images/Staff_Picks6.png",
             "text_alignment": "center-center",
             "pre_heading": "",
-            "heading": "Lightbar Packages",
+            "heading": "Staff Picks",
             "text_color": "#ffffff",
             "show_on_mobile": true,
-            "horizontal_size": "2",
+            "horizontal_size": "3",
             "vertical_size": "2",
             "enable_full_width_on_mobile": false,
             "cta_label": "See more",
@@ -285,16 +285,16 @@
         }
       },
       "block_order": [
-        "title_card_re6tdX"
+        "title-card"
       ],
-      "name": "Collection - Lighybar Packages",
+      "name": "Collection - Staff Picks",
       "settings": {
         "title": "",
         "layout": "slideshow",
         "mobile_layout": "slideshow",
-        "collection": "lightbar-packages",
-        "product_count": 4,
-        "cta_label": "LED Lightbar Packages",
+        "collection": "matts-picks",
+        "product_count": 7,
+        "cta_label": "",
         "cta_button_style": "primary"
       }
     },
