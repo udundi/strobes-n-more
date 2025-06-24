@@ -41,7 +41,7 @@
         "enable_subcollection": true,
         "show_product_count": false,
         "thumbnail_image": "collection-image",
-        "image_crop": "square"
+        "image_crop": "original"
       }
     },
     "static-recently-viewed": {
