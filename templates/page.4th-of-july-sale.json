@@ -14,40 +14,20 @@
       "disabled": true,
       "settings": {}
     },
-    "dynamic_slideshow_i9w9ek": {
-      "type": "dynamic-slideshow",
-      "blocks": {
-        "slide_rmfiRM": {
-          "type": "slide",
-          "settings": {
-            "title": "",
-            "text": "Single Graphic or slideshow highlighting 4th of July Sale",
-            "color": "#ffffff",
-            "link": "",
-            "text_alignment": "center",
-            "button_one_label": "",
-            "button_one_link": "",
-            "button_one_style": "primary",
-            "button_two_label": "",
-            "button_two_link": "",
-            "button_two_style": "primary",
-            "show_overlay": true,
-            "overlay_color": "#000000",
-            "overlay_opacity": 50
-          }
-        }
-      },
-      "block_order": [
-        "slide_rmfiRM"
-      ],
-      "name": "t:sections.slideshow.presets.slideshow.name",
+    "pxs_image_with_text_overlay_czgNEg": {
+      "type": "pxs-image-with-text-overlay",
+      "name": "t:sections.image_with_text_overlay.presets.name",
       "settings": {
-        "enable_autoplay": true,
-        "autoplay_duration": 8,
-        "slideshow_width": "full",
-        "slideshow_height": "medium",
-        "slideshow_height_mobile": "medium",
-        "slideshow_text_below_image": false
+        "section_height": "original",
+        "image": "shopify://shop_images/4th_of_July_Draft-4_3.png",
+        "title": "",
+        "text": "",
+        "content_position": "center-center",
+        "color": "#ffffff",
+        "overlay_background": "#000000",
+        "overlay_opacity": 0,
+        "link": "",
+        "button_text": ""
       }
     },
     "dynamic_custom_liquid_7AWjbd": {
@@ -78,6 +58,7 @@
       "name": "t:sections.shoppable_image.presets.shoppable_image.name",
       "settings": {
         "title": "",
+        "image": "shopify://shop_images/Untitled_4.png",
         "image_width": "two-thirds",
         "link_text": "Shop Now",
         "textbox_title": "Spectre Siren Amp",
@@ -112,49 +93,13 @@
         "title": "",
         "image_width": "two-thirds",
         "link_text": "Shop Now",
-        "textbox_title": "TailGator Taillight",
+        "textbox_title": "Razor Taillight",
         "textbox_subheading": "<p>TWO OR THREE LINE PRODUCT DESCRIPTION example example example example example example example example example example example example example example example.</p>",
         "textbox_button_label": "",
         "textbox_button_link": "",
         "textbox_button_style": "primary",
         "textbox_text_alignment": "left",
         "textbox_text_position": "left"
-      }
-    },
-    "dynamic_rich_text_LWN4EY": {
-      "type": "dynamic-rich-text",
-      "custom_css": [
-        "{background-color: #21225b;}",
-        "h2 {color: white; padding: 12px;}"
-      ],
-      "name": "t:sections.rich_text.presets.rich_text.name",
-      "settings": {
-        "width": "regular",
-        "title": "Let customers speak for us",
-        "text": "",
-        "heading_size": "medium",
-        "text_alignment": "center"
-      }
-    },
-    "175016809979d8c481": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_featured_carousel_xjPgAr": {
-          "type": "shopify://apps/judge-me-reviews/blocks/featured_carousel/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {
-            "maxwidth": 1080
-          }
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_featured_carousel_xjPgAr"
-      ],
-      "custom_css": [
-        "{margin-top: -30px;}",
-        "h2 {display: none;}"
-      ],
-      "settings": {
-        "include_padding": true
       }
     },
     "dynamic_featured_collection_rYiY7G": {
@@ -248,12 +193,10 @@
   },
   "order": [
     "main",
-    "dynamic_slideshow_i9w9ek",
+    "pxs_image_with_text_overlay_czgNEg",
     "dynamic_custom_liquid_7AWjbd",
     "dynamic_shoppable_image_kKgW99",
     "dynamic_shoppable_image_cEJrc9",
-    "dynamic_rich_text_LWN4EY",
-    "175016809979d8c481",
     "dynamic_featured_collection_rYiY7G",
     "dynamic_faq_bM7nfd"
   ]
