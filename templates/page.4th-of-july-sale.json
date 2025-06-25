@@ -108,17 +108,18 @@
         "title_card_qfcAx7": {
           "type": "title_card",
           "settings": {
+            "image": "shopify://shop_images/4th_of_July_Draft-6.png",
             "text_alignment": "center-center",
-            "pre_heading": "Strobes N' More",
-            "heading": "Independence Day Sale",
+            "pre_heading": "",
+            "heading": "",
             "text_color": "#ffffff",
-            "show_on_mobile": true,
+            "show_on_mobile": false,
             "horizontal_size": "2",
             "vertical_size": "2",
             "enable_full_width_on_mobile": false,
             "cta_label": "",
             "overlay_color": "#000000",
-            "overlay_opacity": 50
+            "overlay_opacity": 0
           }
         }
       },
