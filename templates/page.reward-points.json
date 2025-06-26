@@ -41,13 +41,16 @@
     },
     "dynamic_shoppable_image_cabQwY": {
       "type": "dynamic-shoppable-image",
+      "custom_css": [
+        "a {color: #007ace;}"
+      ],
       "settings": {
         "title": "",
         "image": "shopify://shop_images/SNM_Rewards_Graphics_1.png",
         "image_width": "two-thirds",
         "link_text": "View product",
         "textbox_title": "",
-        "textbox_subheading": "<p>ITEM 1: <a href=\"https://strobesnmore.com/products/mouse-pad?_pos=1&_sid=2864e5ed3&_ss=r\" title=\"Whelen and SNM Mousepad\">MOUSEPAD</a><br/>ITEM 2: WATER BOTTLE<br/>ITEM 3: T-SHIRT<br/>ITEM 4: HAT<br/>ITEM 5: MYSTERY ITEM</p>",
+        "textbox_subheading": "<p>ITEM 1: <a href=\"https://strobesnmore.com/products/mouse-pad?_pos=1&_sid=2864e5ed3&_ss=r\" title=\"SNM and Whelen Mousepad\">MOUSEPAD</a><br/>ITEM 2: <a href=\"https://strobesnmore.com/products/water-bottle?_pos=1&_psq=water+bottle&_ss=e&_v=1.0\" title=\"SNM and Whelen Water Bottle\">WATER BOTTLE</a><br/>ITEM 3: T-SHIRT<br/>ITEM 4: <a href=\"https://strobesnmore.com/products/hat?_pos=1&_sid=8d19ef867&_ss=r\" title=\"SNM and Whelen Hats\">HAT</a><br/>ITEM 5: MYSTERY ITEM</p>",
         "textbox_button_label": "",
         "textbox_button_link": "",
         "textbox_button_style": "primary",
