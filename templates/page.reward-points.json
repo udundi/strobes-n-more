@@ -47,7 +47,7 @@
         "image_width": "two-thirds",
         "link_text": "View product",
         "textbox_title": "",
-        "textbox_subheading": "<p>ITEM 1: MOUSEPAD<br/>ITEM 2: WATER BOTTLE<br/>ITEM 3: T-SHIRT<br/>ITEM 4: HAT<br/>ITEM 5: MYSTERY ITEM</p>",
+        "textbox_subheading": "<p>ITEM 1: <a href=\"https://strobesnmore.com/products/mouse-pad?_pos=1&_sid=2864e5ed3&_ss=r\" title=\"Whelen and SNM Mousepad\">MOUSEPAD</a><br/>ITEM 2: WATER BOTTLE<br/>ITEM 3: T-SHIRT<br/>ITEM 4: HAT<br/>ITEM 5: MYSTERY ITEM</p>",
         "textbox_button_label": "",
         "textbox_button_link": "",
         "textbox_button_style": "primary",
