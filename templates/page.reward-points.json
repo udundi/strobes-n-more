@@ -187,13 +187,16 @@
         "hotspot_aDmXdt",
         "hotspot_9ELRnV"
       ],
+      "custom_css": [
+        "a {color: #007ace;}"
+      ],
       "settings": {
         "title": "",
         "image": "shopify://shop_images/SNM_Rewards_Graphics_Tier_3_07e2071a-573c-4cfa-93cd-a7eebc9d8f24.png",
         "image_width": "two-thirds",
         "link_text": "View product",
         "textbox_title": "",
-        "textbox_subheading": "<p>ITEM 1: S3<br/>ITEM 2: CRESCENT<br/>ITEM 3: EBEACONMINI<br/>ITEM 4: SIDESHOOTERS<br/>ITEM 5: E6<br/><a href=\"https://strobesnmore.com/products/strobes-n-more-e6-slim-next-gen-led?_pos=2&_sid=dfcbb460f&_ss=r\" title=\"https://strobesnmore.com/products/strobes-n-more-e6-slim-next-gen-led?_pos=2&_sid=dfcbb460f&_ss=r\">ITEM 6: E6SLIM</a></p>",
+        "textbox_subheading": "<p>ITEM 1: <a href=\"https://strobesnmore.com/products/s3-led-surface-mount-strobes-n-more_p_6491?_pos=1&_sid=332610129&_ss=r\" title=\"S3 LED Surface Mount | Strobes N More\">S3</a><br/>ITEM 2: <a href=\"https://strobesnmore.com/products/strobes-n-more-180-crescent-dual-color-lighthead?_pos=1&_sid=f8e54222c&_ss=r\" title=\"Strobes N' More 180° Crescent Dual Color Lighthead\">CRESCENT</a><br/>ITEM 3: <a href=\"https://strobesnmore.com/products/strobes-n-more-led-ebeacon-mini?_pos=1&_sid=3a28e02cb&_ss=r\" title=\"Strobes N' More LED EBeacon Mini\">EBEACONMINI</a><br/>ITEM 4: <a href=\"https://strobesnmore.com/products/strobes-n-more-side-shooter-floodlights?_pos=1&_sid=b9919f065&_ss=r\" title=\"Strobes N' More Side Shooter Floodlights\">SIDESHOOTERS</a><br/>ITEM 5: <a href=\"https://strobesnmore.com/products/strobesnmore-e6-led-lighthead?_pos=1&_sid=c2f9d85ef&_ss=r&variant=48997760762136\" title=\"E6 LED Lighthead | Strobes N More\">E6</a><br/>ITEM 6: <a href=\"https://strobesnmore.com/products/strobes-n-more-e6-slim-next-gen-led?variant=48997623595288\" title=\"Strobes N' More E6 Slim Next Gen LED\">E6SLIM</a></p>",
         "textbox_button_label": "",
         "textbox_button_link": "",
         "textbox_button_style": "primary",
@@ -229,7 +232,7 @@
         "hotspot_QPJkeU": {
           "type": "hotspot",
           "settings": {
-            "product": "strobes-n-more-shadow-siren-with-handheld-controller",
+            "product": "strobes-n-more-spectre-siren-amp",
             "x_axis": 24,
             "y_axis": 86
           }
@@ -266,13 +269,16 @@
         "hotspot_qzmrpV",
         "hotspot_MmM6hq"
       ],
+      "custom_css": [
+        "a {color: #007ace;}"
+      ],
       "settings": {
         "title": "",
         "image": "shopify://shop_images/SNM_Rewards_Graphics_Tier_5.png",
         "image_width": "two-thirds",
         "link_text": "View product",
         "textbox_title": "",
-        "textbox_subheading": "<p>ITEM 1: PHANTOM<br/>ITEM 2: T12DLR <br/>ITEM 3: TOUCH7<br/>ITEM 4: EBEACON360<br/>ITEM 5: SHADOW</p>",
+        "textbox_subheading": "<p>ITEM 1: <a href=\"https://strobesnmore.com/products/strobes-n-more-phantom-100-watt-speaker?_pos=1&_sid=9f3279c93&_ss=r\" title=\"Strobes N' More Phantom 100 Watt Speaker\">PHANTOM</a><br/>ITEM 2: <a href=\"https://strobesnmore.com/products/strobes-n-more-tiger-dual-dash-light?_pos=1&_sid=23481ffb3&_ss=r&variant=48997817155864\" title=\"Strobes N More Tiger Dual Dash Light\">T12DLR</a> <br/>ITEM 3: <a href=\"https://strobesnmore.com/products/snm-touch-7-fully-programmable-switchbox?_pos=1&_sid=bfaf7e4ad&_ss=r\" title=\"SNM Touch 7 Fully Programmable Switchbox\">TOUCH7</a><br/>ITEM 4: <a href=\"https://strobesnmore.com/products/strobes-n-more-amber-led-360-ebeacon-class-1?_pos=2&_sid=84d02b103&_ss=r\" title=\"Strobes N' More Amber LED 360° EBeacon Class 1\">EBEACON360</a><br/>ITEM 5: <a href=\"https://strobesnmore.com/products/strobes-n-more-spectre-siren-amp?_pos=1&_sid=2a612e1a4&_ss=r\" title=\"Strobes N' More Spectre Siren Amp\">SPECTRE</a></p>",
         "textbox_button_label": "",
         "textbox_button_link": "",
         "textbox_button_style": "primary",
@@ -336,6 +342,9 @@
         "hotspot_MJiATG",
         "hotspot_Fedq6B"
       ],
+      "custom_css": [
+        "a {color: #007ace;}"
+      ],
       "settings": {
         "title": "",
         "image": "shopify://shop_images/SNM_Rewards_Graphics_Tier_6.png",
@@ -396,6 +405,9 @@
         "hotspot_zxi6Gj",
         "hotspot_n6PiVN",
         "hotspot_im9G99"
+      ],
+      "custom_css": [
+        "a {color: #007ace;}"
       ],
       "settings": {
         "title": "",
@@ -476,6 +488,9 @@
         "hotspot_JwpKhV",
         "hotspot_kPVW9R"
       ],
+      "custom_css": [
+        "a {color: #007ace;}"
+      ],
       "settings": {
         "title": "",
         "image": "shopify://shop_images/SNM_Rewards_Graphics_Tier_8.png",
@@ -545,6 +560,9 @@
         "hotspot_zf7pmw",
         "hotspot_mECq7t",
         "hotspot_cPdd8j"
+      ],
+      "custom_css": [
+        "a {color: #007ace;}"
       ],
       "settings": {
         "title": "",
@@ -616,6 +634,9 @@
         "hotspot_PcWnMg",
         "hotspot_DiiXwc"
       ],
+      "custom_css": [
+        "a {color: #007ace;}"
+      ],
       "settings": {
         "title": "",
         "image": "shopify://shop_images/SNM_Rewards_Graphics_Tier_10.png",
@@ -677,6 +698,9 @@
         "hotspot_dRUTta",
         "hotspot_JbTRBm"
       ],
+      "custom_css": [
+        "a {color: #007ace;}"
+      ],
       "settings": {
         "title": "",
         "image": "shopify://shop_images/SNM_Rewards_Graphics_Tier_11.png",
@@ -707,6 +731,9 @@
     },
     "dynamic_shoppable_image_zhCVVh": {
       "type": "dynamic-shoppable-image",
+      "custom_css": [
+        "a {color: #007ace;}"
+      ],
       "settings": {
         "title": "",
         "image": "shopify://shop_images/SNM_Rewards_Graphics_Tier_12_0855d8a6-8a05-4e03-87ae-490cd21facf0.png",
