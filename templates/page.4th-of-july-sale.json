@@ -58,7 +58,7 @@
       "name": "t:sections.shoppable_image.presets.shoppable_image.name",
       "settings": {
         "title": "",
-        "image": "shopify://shop_images/Untitled_4.png",
+        "image": "shopify://shop_images/Untitled-1_1.png",
         "image_width": "two-thirds",
         "link_text": "Shop Now",
         "textbox_title": "Spectre Siren Amp",
@@ -91,6 +91,7 @@
       "name": "t:sections.shoppable_image.presets.shoppable_image.name",
       "settings": {
         "title": "",
+        "image": "shopify://shop_images/Untitled-2_1.png",
         "image_width": "two-thirds",
         "link_text": "Shop Now",
         "textbox_title": "Razor Taillight",
