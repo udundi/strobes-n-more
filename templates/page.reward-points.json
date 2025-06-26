@@ -105,13 +105,16 @@
         "hotspot_7GTN7Q",
         "hotspot_yCkdBH"
       ],
+      "custom_css": [
+        "a {color: #007ace;}"
+      ],
       "settings": {
         "title": "",
         "image": "shopify://shop_images/SNM_Rewards_Graphics_Tier_2.png",
         "image_width": "two-thirds",
         "link_text": "View product",
         "textbox_title": "",
-        "textbox_subheading": "<p>ITEM 1: HOODIE<br/>ITEM 2: SNMFLASHER<br/>ITEM 3: T6DL<br/>ITEM 4: E4</p>",
+        "textbox_subheading": "<p>ITEM 1: HOODIE<br/>ITEM 2: <a href=\"https://strobesnmore.com/products/strobes-n-more-6-output-led-flasher?_pos=1&_sid=5478df06a&_ss=r\" title=\"Strobes N' More 6 Output LED Flasher\">SNMFLASHER</a><br/>ITEM 3: <a href=\"https://strobesnmore.com/products/strobes-n-more-tiger-6-led-dash-light-amber_p_6988?_pos=1&_sid=90f07092e&_ss=r\" title=\"Strobes N' More Tiger 6 LED Dash Light\">T6DL</a><br/>ITEM 4: <a href=\"https://strobesnmore.com/products/e4-led-lighthead-strobes-n-more_p_7062?_pos=1&_sid=0ce3b4a37&_ss=r\" title=\"E4 LED Lighthead | Strobes N More\">E4</a></p>",
         "textbox_button_label": "",
         "textbox_button_link": "",
         "textbox_button_style": "primary",
