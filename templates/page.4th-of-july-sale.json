@@ -47,8 +47,8 @@
           "type": "hotspot",
           "settings": {
             "product": "strobes-n-more-spectre-siren-amp",
-            "x_axis": 50,
-            "y_axis": 50
+            "x_axis": 43,
+            "y_axis": 67
           }
         }
       },
@@ -76,9 +76,9 @@
         "hotspot_xB9GEW": {
           "type": "hotspot",
           "settings": {
-            "product": "strobes-n-more-tail-gator-taillight",
+            "product": "strobes-n-more-razor-light-stick",
             "x_axis": 50,
-            "y_axis": 50
+            "y_axis": 59
           }
         }
       },
