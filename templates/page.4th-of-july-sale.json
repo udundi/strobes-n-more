@@ -63,8 +63,8 @@
         "link_text": "Shop Now",
         "textbox_title": "Spectre Siren Amp",
         "textbox_subheading": "<p>Compact and powerful, the Spectre 100W Siren Amplifier delivers loud, clear tones and integrated light control in one rugged, rust-proof unit. Perfect for emergency vehicles with 12–24V setups. Built to perform in extreme conditions with minimal power draw.</p>",
-        "textbox_button_label": "",
-        "textbox_button_link": "",
+        "textbox_button_label": "Shop Now",
+        "textbox_button_link": "https://strobesnmore.com/products/strobes-n-more-spectre-siren-amp?_pos=1&_sid=bb4369cd8&_ss=r",
         "textbox_button_style": "primary",
         "textbox_text_alignment": "left",
         "textbox_text_position": "right"
@@ -95,9 +95,9 @@
         "image_width": "two-thirds",
         "link_text": "Shop Now",
         "textbox_title": "Razor Taillight Stick",
-        "textbox_subheading": "<p>The Razor Light Stick is a slim, rugged under-tailgate LED bar with dual-color output, 104 flash patterns, and easy 3M DuraLock installation. It fits both compact and full-size trucks and syncs with the Strobes N’ More E-Series, Photons, E62, and E64 sticks. Now includes steady burn override for red and white lighting, ideal for work and warning applications.</p>",
-        "textbox_button_label": "",
-        "textbox_button_link": "",
+        "textbox_subheading": "<p>The Razor Light Stick is a slim, rugged under-tailgate LED bar with dual-color output, 104 flash patterns, and easy 3M DuraLock installation. Syncs with Strobes N’ More E-Series and fits both compact and full-size trucks.</p>",
+        "textbox_button_label": "Shop Now",
+        "textbox_button_link": "https://strobesnmore.com/products/strobes-n-more-razor-light-stick",
         "textbox_button_style": "primary",
         "textbox_text_alignment": "left",
         "textbox_text_position": "left"
