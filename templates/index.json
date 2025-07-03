@@ -13,7 +13,7 @@
       "type": "pxs-image-with-text-overlay",
       "name": "t:sections.image_with_text_overlay.presets.name",
       "settings": {
-        "section_height": "small",
+        "section_height": "original",
         "image": "shopify://shop_images/SNM_July4th_Web.png",
         "title": "",
         "text": "",
