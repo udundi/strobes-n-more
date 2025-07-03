@@ -23,7 +23,23 @@
       "type": "dynamic-custom-liquid",
       "name": "Custom Liquid - Mobile Video",
       "settings": {
-        "custom_liquid": "{% comment %}\n  Custom Video Player for Mobile Devices Only\n{% endcomment %}\n\n<div class=\"mobile-video-container\">\n  <video \n    id=\"mobile-video-player\"\n    class=\"mobile-video\"\n    src=\"https://cdn.shopify.com/videos/c/o/v/75ffa50b6d204f1fb1b9c4a17589f94f.mp4\"\n    autoplay\n    muted\n    playsinline\n    loop>\n    Your browser does not support the video tag.\n  </video>\n</div>\n\n<style>\n  /* Mobile Video Container Styles - Full Width */\n  .mobile-video-container {\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    overflow: hidden;\n    display: none; /* Hidden by default */\n  }\n  \n  /* Base Video Styles */\n  .mobile-video {\n    width: 100%;\n    display: block;\n    object-fit: cover;\n  }\n  \n  /* Media Queries for Responsive Design */\n  @media screen and (max-width: 767px) {\n    /* Small screens (mobile) - Video visible */\n    .mobile-video-container {\n      display: block;\n    }\n    \n    .mobile-video {\n      height: 200px; /* Height for mobile */\n    }\n  }\n  \n  @media screen and (min-width: 768px) and (max-width: 1023px) {\n    /* Medium screens (tablet) - Video visible */\n    .mobile-video-container {\n      display: block;\n    }\n    \n    .mobile-video {\n      height: 300px; /* Height for tablet */\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    /* Large screens (desktop) - Video hidden */\n    .mobile-video-container {\n      display: none;\n    }\n  }\n</style>"
+        "custom_liquid": ""
+      }
+    },
+    "pxs_image_with_text_overlay_r6TqiV": {
+      "type": "pxs-image-with-text-overlay",
+      "name": "t:sections.image_with_text_overlay.presets.name",
+      "settings": {
+        "section_height": "medium",
+        "image": "shopify://shop_images/SNM_July4th_Web.png",
+        "title": "",
+        "text": "",
+        "content_position": "center-center",
+        "color": "#ffffff",
+        "overlay_background": "#000000",
+        "overlay_opacity": 0,
+        "link": "",
+        "button_text": "Button"
       }
     },
     "dynamic_custom_liquid_nXfma8": {
@@ -647,6 +663,7 @@
   "order": [
     "dynamic_custom_liquid_z7Umjt",
     "dynamic_custom_liquid_Y3DcHJ",
+    "pxs_image_with_text_overlay_r6TqiV",
     "dynamic_custom_liquid_nXfma8",
     "dynamic_promo_mosaic",
     "dynamic_featured_collection_M4FrNj",
