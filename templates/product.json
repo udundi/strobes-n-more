@@ -65,6 +65,12 @@
             "products_per_slide": 2
           }
         },
+        "oneloyalty_point_calculator_qRryQU": {
+          "type": "shopify://apps/oneloyalty/blocks/pointCalculator/6119b281-36ce-42b5-93ab-6aaf5fb224ce",
+          "settings": {
+            "alignment_component": "left"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {}
@@ -85,6 +91,7 @@
         "rating",
         "desc_tab_QhEzwa",
         "complementary_products_UQ4miN",
+        "oneloyalty_point_calculator_qRryQU",
         "share",
         "judge_me_reviews_preview_badge_67REpr"
       ],
