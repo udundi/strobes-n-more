@@ -439,55 +439,6 @@
     },
     "dynamic_shoppable_image_afRxim": {
       "type": "dynamic-shoppable-image",
-      "blocks": {
-        "hotspot_ztgcAn": {
-          "type": "hotspot",
-          "settings": {
-            "product": "strobes-n-more-lion-mini-lightbar",
-            "x_axis": 50,
-            "y_axis": 59
-          }
-        },
-        "hotspot_RtERwB": {
-          "type": "hotspot",
-          "settings": {
-            "product": "strobes-n-more-triple-threat-dual-color-dash-light",
-            "x_axis": 82,
-            "y_axis": 23
-          }
-        },
-        "hotspot_JrE8V9": {
-          "type": "hotspot",
-          "settings": {
-            "product": "strobes-n-more-triple-threat-dash-light-new-optics",
-            "x_axis": 30,
-            "y_axis": 11
-          }
-        },
-        "hotspot_JwpKhV": {
-          "type": "hotspot",
-          "settings": {
-            "product": "strobes-n-more-trudual-2-0-eflood",
-            "x_axis": 76,
-            "y_axis": 87
-          }
-        },
-        "hotspot_kPVW9R": {
-          "type": "hotspot",
-          "settings": {
-            "product": "strobes-n-more-e94-four-head-hide-away-kit",
-            "x_axis": 18,
-            "y_axis": 66
-          }
-        }
-      },
-      "block_order": [
-        "hotspot_ztgcAn",
-        "hotspot_RtERwB",
-        "hotspot_JrE8V9",
-        "hotspot_JwpKhV",
-        "hotspot_kPVW9R"
-      ],
       "custom_css": [
         "a {color: #007ace;}"
       ],
@@ -521,46 +472,6 @@
     },
     "dynamic_shoppable_image_eGwfUX": {
       "type": "dynamic-shoppable-image",
-      "blocks": {
-        "hotspot_c73jjg": {
-          "type": "hotspot",
-          "settings": {
-            "product": "strobes-n-more-tail-gator-taillight",
-            "x_axis": 49,
-            "y_axis": 7
-          }
-        },
-        "hotspot_zf7pmw": {
-          "type": "hotspot",
-          "settings": {
-            "product": "strobes-n-more-lp-array-license-plate-bracket",
-            "x_axis": 48,
-            "y_axis": 67
-          }
-        },
-        "hotspot_mECq7t": {
-          "type": "hotspot",
-          "settings": {
-            "product": "strobes-n-more-millennium-mini-led-lightbar",
-            "x_axis": 81,
-            "y_axis": 51
-          }
-        },
-        "hotspot_cPdd8j": {
-          "type": "hotspot",
-          "settings": {
-            "product": "strobes-n-more-galaxy-elite-led-mini-lightbar",
-            "x_axis": 19,
-            "y_axis": 75
-          }
-        }
-      },
-      "block_order": [
-        "hotspot_c73jjg",
-        "hotspot_zf7pmw",
-        "hotspot_mECq7t",
-        "hotspot_cPdd8j"
-      ],
       "custom_css": [
         "a {color: #007ace;}"
       ],
@@ -667,37 +578,6 @@
     },
     "dynamic_shoppable_image_xYpkAp": {
       "type": "dynamic-shoppable-image",
-      "blocks": {
-        "hotspot_rX77QE": {
-          "type": "hotspot",
-          "settings": {
-            "product": "strobes-n-more-e68-led-stick-with-removable-optics",
-            "x_axis": 68,
-            "y_axis": 75
-          }
-        },
-        "hotspot_dRUTta": {
-          "type": "hotspot",
-          "settings": {
-            "product": "strobes-n-more-e66-max-dual-color-traffic-warning-led-stick-new-optics",
-            "x_axis": 20,
-            "y_axis": 50
-          }
-        },
-        "hotspot_JbTRBm": {
-          "type": "hotspot",
-          "settings": {
-            "product": "strobes-n-more-e66-flood-warning-led-stick",
-            "x_axis": 70,
-            "y_axis": 33
-          }
-        }
-      },
-      "block_order": [
-        "hotspot_rX77QE",
-        "hotspot_dRUTta",
-        "hotspot_JbTRBm"
-      ],
       "custom_css": [
         "a {color: #007ace;}"
       ],
