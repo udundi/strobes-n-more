@@ -33,7 +33,7 @@
       ],
       "settings": {
         "show_collection_image": false,
-        "products_per_page_range": 48,
+        "products_per_page_range": 24,
         "products_per_row": "4",
         "sort_by": true,
         "grid_list": true,
@@ -42,6 +42,72 @@
         "show_product_count": false,
         "thumbnail_image": "collection-image",
         "image_crop": "original"
+      }
+    },
+    "dynamic_rich_text_DQJzrW": {
+      "type": "dynamic-rich-text",
+      "name": "Rich text - Why choose SoundOff Signal",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2><strong>Why Choose SoundOff Signal?</strong></h2><p>For over 30 years, <strong>SoundOff Signal</strong> has been a leader in the emergency vehicle equipment space. Their reputation is built on reliability, performance, and a deep understanding of the needs of first responders. Each product is designed with real-world use in mind—bright, durable, and easy to operate even in high-stress scenarios.</p><p>Whether you're looking for low-profile lightbars, sirens with customizable tones, or smart control systems that integrate lighting and sound, SoundOff Signal offers dependable solutions that get the job done.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_VRXM6f": {
+      "type": "dynamic-rich-text",
+      "name": "Rich text - Product Categories ",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2><strong>Product Categories from SoundOff Signal</strong></h2><p>At <strong>Strobes N More</strong>, we carry a full range of SoundOff Signal products, including:</p><ul><li><strong>Lightbars</strong> – Roof-mounted and interior options with customizable flash patterns.</li><li><strong>Surface Mount LEDs</strong> – Compact, powerful lighting for bumpers, grills, and fenders.</li><li><strong>Grille and Deck Lights</strong> – Low-profile options for stealth and visibility.</li><li><strong>Sirens and Speakers</strong> – High-output sound systems with multiple tone selections.</li><li><strong>Switch Panels and Controllers</strong> – Intuitive designs for complete control of lights, sirens, and other devices.</li><li><strong>Perimeter Warning Systems</strong> – Enhanced safety with intersection lighting and side visibility.</li></ul><p>Whether for patrol, fire response, or utility vehicles, there’s a solution that fits your setup.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_QDcKeH": {
+      "type": "dynamic-rich-text",
+      "name": "Rich text - Popular SoundOff Signal Products",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2><strong>Popular SoundOff Signal Products</strong></h2><p>Here are some top-selling items available now at <strong>Strobes N More</strong>:</p><ul><li><strong>SoundOff nERGY 400 Series Siren</strong> – All-in-one light and siren controller with intuitive interface.</li><li><strong>SoundOff mpower® Fascia Lights</strong> – Built with Clear Duty™ technology for unmatched durability and visibility.</li><li><strong>SoundOff Ghost LED Lights</strong> – Ultra-slim, versatile, and perfect for undercover or low-profile installations.</li><li><strong>SoundOff Pinnacle Lightbar</strong> – A high-visibility LED lightbar with full customization and smart control features.</li></ul><p>Each of these products is engineered to meet or exceed industry standards, and many are used by agencies across North America.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_FyUX67": {
+      "type": "dynamic-rich-text",
+      "name": "Rich text - Key Benefits of SoundOff Signal Equipment",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2><strong>Key Benefits of SoundOff Signal Equipment</strong></h2><ul><li><strong>High Visibility</strong>: Engineered for maximum output and optical clarity, ideal for all environments and lighting conditions.</li><li><strong>Customizable Functions</strong>: Many products allow user-programmed flash patterns and sound tones.</li><li><strong>Rugged Construction</strong>: Weather-resistant housings and vibration-tested components ensure longevity.</li><li><strong>Easy Integration</strong>: SoundOff’s smart controllers and modular wiring simplify installation and fleet standardization.</li></ul><p><strong>Trusted by Professionals</strong>: Used by police departments, fire rescue teams, and government fleets across the U.S.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_jNKtBX": {
+      "type": "dynamic-rich-text",
+      "name": "Rich text - Installation & Compatibility",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2><strong>Installation & Compatibility</strong></h2><p>SoundOff Signal products are designed for straightforward installation. Many lights include versatile mounting brackets, pigtail connectors, and plug-and-play interfaces. When purchasing through <strong>Strobes N More</strong>, you also have access to installation kits, wiring harnesses, and expert guidance to ensure your setup is both functional and code-compliant.</p><p>Our team is available to help you choose components that are compatible with your vehicle’s existing systems and electrical specs.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_QEaydL": {
+      "type": "dynamic-rich-text",
+      "name": "Rich text - Why Buy from Strobes N More?",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2><strong>Why Buy from Strobes N More?</strong></h2><p>We’ve been serving emergency responders, contractors, and municipalities for over 20 years. Here’s what sets us apart:</p><ul><li><strong>Certified distributor of SoundOff Signal products</strong></li><li><strong>Fast, nationwide shipping</strong></li><li><strong>Competitive pricing on individual and bulk orders</strong></li><li><strong>Exceptional customer support</strong></li><li><strong>Only top-tier, field-tested gear</strong></li></ul><p>Whether you're upgrading a single unit or spec'ing out an entire fleet, <strong>Strobes N More</strong> ensures you get the gear you need—on time and within budget.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
       }
     },
     "dynamic_faq_kyjq9r": {
@@ -57,160 +123,80 @@
         "question_7tUK8A": {
           "type": "question",
           "settings": {
-            "question": "What types of emergency vehicle lighting does SoundOff Signal offer?",
-            "answer": "<p>SoundOff Signal offers a full lineup of emergency lighting, including LED light bars, surface mounts, grille lights, interior visor lights, beacons, perimeter lighting, and traffic advisors. Their nROADS and mpower® series are especially popular for police, fire, EMS, and utility applications, combining sleek designs with high-output performance.</p>",
+            "question": "What is SoundOff Signal and why is it trusted for emergency vehicle lighting?",
+            "answer": "<p>SoundOff Signal is a leading manufacturer of high-performance lighting and control systems for emergency, utility, and commercial vehicles. Known for innovation, reliability, and quality, their products are trusted by first responders and fleet operators across the country.</p>",
             "icon": "none"
           }
         },
         "question_C6iYpN": {
           "type": "question",
           "settings": {
-            "question": "Are SoundOff Signal lights compatible with all vehicle makes and models?",
-            "answer": "<p>Yes. SoundOff Signal lights are designed to be vehicle-agnostic and work with most makes and models. They offer universal mounting options and various sizes to fit everything from compact patrol units to full-size trucks. For fleet-specific setups, SoundOff also offers vehicle-specific brackets and mounting kits.</p>",
+            "question": "Does Strobes N’ More carry the full range of SoundOff Signal lights?",
+            "answer": "<p>Yes! Strobes N’ More carries a wide selection of SoundOff Signal lighting, including light bars, visor lights, grille lights, and more. Whether you’re outfitting a police cruiser or a tow truck, we’ve got you covered.</p>",
             "icon": "none"
           }
         },
         "question_ffyGcn": {
           "type": "question",
           "settings": {
-            "question": "How does SoundOff Signal’s nROADS technology improve visibility?",
-            "answer": "<p>nROADS (Narrow Reflector Optic And Diode System) uses precise reflector optics to focus and direct LED light more efficiently. This results in sharper intensity, wider horizontal spread, and reduced glare, making emergency vehicles more visible at greater distances and sharper angles, especially in complex traffic situations.</p>",
+            "question": "What’s the difference between a SoundOff Signal light bar and a visor light?",
+            "answer": "<p>A <strong>SoundOff light bar</strong> is typically roof-mounted and provides high-visibility warning signals across long distances. A <strong>SoundOff visor light</strong>, on the other hand, mounts inside your windshield and is ideal for stealth or undercover applications.</p>",
             "icon": "none"
           }
         },
         "question_Khrmfz": {
           "type": "question",
           "settings": {
-            "question": "What are the differences between SoundOff Signal LED and halogen warning lights?",
-            "answer": "<p>LED lights from SoundOff Signal are significantly brighter, more energy-efficient, and longer-lasting than halogen lights. LEDs turn on instantly, don’t require warm-up time, and are solid-state, meaning fewer parts to break or burn out. Halogen lights are outdated by comparison, with shorter lifespans and higher power draw.</p>",
+            "question": "Are SoundOff Signal light bars compatible with all vehicles?",
+            "answer": "<p>Most SoundOff Signal light bars are designed with universal mounting options and wiring setups to work with a wide range of vehicles, including trucks, SUVs, and sedans. Be sure to check each product's specs or contact us for guidance.</p>",
             "icon": "none"
           }
         },
         "question_r49x6L": {
           "type": "question",
           "settings": {
-            "question": "How do I install and program SoundOff Signal light bars?",
-            "answer": "<p>Installation typically involves mounting the light bar, connecting to a 12V power source, and wiring to a control panel or switch box. Programming is done through SoundOff’s BluePRINT control system or compatible interfaces, allowing full customization of flash patterns, colors, zones, and sync features. Clear wiring diagrams and install kits are available for most setups.</p>",
+            "question": "Can I control multiple SoundOff Signal lights from a single controller?",
+            "answer": "<p>Absolutely. Many users pair their lighting setup with a <strong>SoundOff Signal controller</strong>, which allows easy, centralized management of your light bar, siren, and other accessories.</p>",
             "icon": "none"
           }
         },
         "question_R7Q3Ah": {
           "type": "question",
           "settings": {
-            "question": "What makes SoundOff Signal lights different from other emergency lighting brands?",
-            "answer": "<p>SoundOff Signal stands out for its optical precision, durable design, and advanced integration. Technologies like nROADS optics and mpower® silicone lens construction deliver intense visibility with reduced glare and unmatched weather resistance. Their products are designed for modern fleets, with smart systems like BluePRINT enabling full lighting and siren control from a single platform.</p>",
+            "question": "What makes SoundOff Signal lights stand out from other brands?",
+            "answer": "<p>SoundOff Signal is known for advanced optics, durable construction, and smart features like synchronization and dimming modes. Their lights are built for the real-world demands of emergency response and commercial use.</p>",
             "icon": "none"
           }
         },
         "question_tcMPrc": {
           "type": "question",
           "settings": {
-            "question": "Are SoundOff Signal sirens and controllers compatible with any vehicle?",
-            "answer": "<p>Yes, SoundOff Signal sirens and controllers are designed to be vehicle-compatible across most makes and models. Their BluePRINT system uses modular components and flexible wiring options to adapt to a wide range of setups, from police cruisers to fire apparatus and public works vehicles. They also offer vehicle-specific integration kits when needed.</p>",
+            "question": "Do SoundOff Signal products come with a warranty?",
+            "answer": "<p>Yes, most SoundOff Signal products include a manufacturer's warranty, typically ranging from 2 to 5 years, depending on the product. Check individual listings for warranty details.</p>",
             "icon": "none"
           }
         },
         "question_zxpErm": {
           "type": "question",
           "settings": {
-            "question": "How do I wire and program a SoundOff Signal vehicle lighting system?",
-            "answer": "<p>Wiring involves connecting lights and sirens to a 12V power source, then routing them through a BluePRINT control module or switch panel. Programming is done via SoundOff’s Blueprint software, which lets you assign flash patterns, sync lights, control zones, and automate responses (like lights activating with door opens or siren tones). Detailed schematics and guides are available with each product.</p>",
+            "question": "How do I install a SoundOff Signal light bar or visor light?",
+            "answer": "<p> Installation varies by model, but many SoundOff products come with mounting brackets and clear instructions. We also offer resources and expert advice—just contact our team if you need help getting set up.</p>",
             "icon": "none"
           }
         },
         "question_dGbVGe": {
           "type": "question",
           "settings": {
-            "question": "What certifications do SoundOff Signal products carry for safety compliance?",
-            "answer": "<p>SoundOff Signal products meet or exceed certifications such as SAE, CA Title 13, and ECE R65, depending on the product type. Many are also IP67 or IP69K-rated for water and dust resistance. Their lighting and siren systems are tested to meet industry standards for brightness, durability, and electronic safety.</p>",
+            "question": "Are SoundOff Signal emergency lights legal in my state?",
+            "answer": "<p>Regulations vary by state and vehicle type. It's your responsibility to ensure you comply with local laws regarding emergency and warning lights. Always check with your local DMV or law enforcement agency.</p>",
             "icon": "none"
           }
         },
         "question_gLjhbF": {
           "type": "question",
           "settings": {
-            "question": "Do SoundOff Signal products come with a plug-and-play installation option?",
-            "answer": "<p>Yes, many SoundOff Signal products offer plug-and-play compatibility, especially when paired with their QuickConnect harnesses or BluePRINT systems. This speeds up installation, reduces wiring errors, and makes maintenance easier. For fleets or upfitters, this can significantly cut install time while ensuring reliable operation.</p>",
-            "icon": "none"
-          }
-        },
-        "question_FmDwEg": {
-          "type": "question",
-          "settings": {
-            "question": "What are the most popular SoundOff Signal light models?",
-            "answer": "<p>Some of the most popular models include the mpower® Fascia Series, nForce® Interior and Exterior Lights, and the Enforcer Light Bar. These lights are widely used on police, fire, EMS, and commercial vehicles thanks to their powerful output, compact design, and rugged build. The mpower® series, in particular, is known for its silicone lens durability and sleek integration.</p>",
-            "icon": "none"
-          }
-        },
-        "question_RihXUH": {
-          "type": "question",
-          "settings": {
-            "question": "How does SoundOff Signal’s mpower silicone technology improve durability?",
-            "answer": "<p>SoundOff Signal’s mpower® silicone lens technology replaces traditional polycarbonate lenses with a flexible, UV- and impact-resistant silicone. This makes the lights virtually shatterproof, prevents yellowing or cracking over time, and provides better sealing against moisture and dirt. It’s ideal for high-vibration, high-exposure environments like emergency vehicles or utility fleets.</p>",
-            "icon": "none"
-          }
-        },
-        "question_JCT8B4": {
-          "type": "question",
-          "settings": {
-            "question": "Are SoundOff Signal lights weatherproof and waterproof?",
-            "answer": "<p>Yes. Most SoundOff Signal lights are rated IP67 or higher, meaning they’re fully sealed against dust and can withstand water immersion. They’re also tested for extreme temperatures, vibration, and UV exposure—making them reliable in harsh weather, off-road use, and daily duty in emergency or service environments.</p>",
-            "icon": "none"
-          }
-        },
-        "question_mx4ebE": {
-          "type": "question",
-          "settings": {
-            "question": "Can SoundOff Signal lights be used on both emergency and commercial vehicles?",
-            "answer": "<p>Absolutely. While many of their products are designed for emergency response, SoundOff Signal also offers amber and white lighting solutions ideal for tow trucks, construction fleets, snow plows, and utility vehicles. Their modular designs and multi-color options make it easy to configure lights for any vehicle role or regulation.</p>",
-            "icon": "none"
-          }
-        },
-        "question_qCDKTk": {
-          "type": "question",
-          "settings": {
-            "question": "What mounting options are available for SoundOff Signal lights?",
-            "answer": "<p>SoundOff offers a wide range of mounting options, including surface, grille, dash, headlight, license plate, and rear window mounts. Many products include universal brackets, and some have vehicle-specific mounts for cleaner installs. Their mpower lights are especially flexible, with mounting bases that conform to curved surfaces for a flush fit.</p>",
-            "icon": "none"
-          }
-        },
-        "question_rzJ36M": {
-          "type": "question",
-          "settings": {
-            "question": "How does Signal SoundOff technology improve LED light performance?",
-            "answer": "<p>Signal SoundOff technology enhances LED performance through precision optics, smart circuit design, and advanced control systems. Features like nROADS optics and mpower® silicone lenses deliver intense, focused light with minimal glare. Their systems also offer programmable flash patterns, low power draw, and fast response, all engineered for maximum visibility and reliability in demanding environments.</p>",
-            "icon": "none"
-          }
-        },
-        "question_cYUFtc": {
-          "type": "question",
-          "settings": {
-            "question": "What are the most durable Signal SoundOff warning lights?",
-            "answer": "<p>The mpower® Fascia Series and nForce® perimeter lights are among the most durable. Built with silicone lenses, solid-state components, and IP-rated housings, these lights are made to withstand vibration, extreme temperatures, moisture, and UV exposure. They're field-tested for daily use on patrol, off-road, and utility vehicles.</p>",
-            "icon": "none"
-          }
-        },
-        "question_wqqRik": {
-          "type": "question",
-          "settings": {
-            "question": "Can Signal SoundOff lights be used on motorcycles and bicycles?",
-            "answer": "<p>Yes. Many compact Signal SoundOff lights—like the mpower® 4\" Fascia or nForce micro lights—can be mounted on motorcycles and even bicycles for high-visibility warning. They're lightweight, weather-resistant, and available in multi-color options for law enforcement, EMS, or escort duties. Proper mounting and power solutions (like small 12V systems or rechargeable packs) are needed for bike use.</p>",
-            "icon": "none"
-          }
-        },
-        "question_Kd8CDe": {
-          "type": "question",
-          "settings": {
-            "question": "Are Signal SoundOff products compliant with emergency vehicle lighting regulations?",
-            "answer": "<p>Yes. Most Signal SoundOff products meet or exceed key industry standards, including SAE J595, J845, CA Title 13, and ECE R65, depending on the model. They are designed specifically for use on police, fire, EMS, and public works vehicles, ensuring legal compliance and performance under official requirements.</p>",
-            "icon": "none"
-          }
-        },
-        "question_4TCn3M": {
-          "type": "question",
-          "settings": {
-            "question": "What is the lifespan of Signal SoundOff LED products?",
-            "answer": "<p>Signal SoundOff LED products typically have a lifespan of 50,000 to 100,000 hours, depending on the model and usage conditions. Thanks to solid-state construction and thermal management, they outlast halogen and strobe systems by years, with minimal maintenance and consistent brightness throughout their life cycle.</p>",
+            "question": "Does Strobes N’ More offer support or custom setups for SoundOff Signal systems?",
+            "answer": "<p>Yes, we’re happy to help! Whether you need help selecting products, wiring your setup, or configuring a <strong>SoundOff Signal lighting controller</strong>, our expert team is here to assist you.</p>",
             "icon": "none"
           }
         }
@@ -226,17 +212,7 @@
         "question_tcMPrc",
         "question_zxpErm",
         "question_dGbVGe",
-        "question_gLjhbF",
-        "question_FmDwEg",
-        "question_RihXUH",
-        "question_JCT8B4",
-        "question_mx4ebE",
-        "question_qCDKTk",
-        "question_rzJ36M",
-        "question_cYUFtc",
-        "question_wqqRik",
-        "question_Kd8CDe",
-        "question_4TCn3M"
+        "question_gLjhbF"
       ],
       "custom_css": [
         "h3 {display: none;}"
@@ -259,6 +235,12 @@
   },
   "order": [
     "main",
+    "dynamic_rich_text_DQJzrW",
+    "dynamic_rich_text_VRXM6f",
+    "dynamic_rich_text_QDcKeH",
+    "dynamic_rich_text_FyUX67",
+    "dynamic_rich_text_jNKtBX",
+    "dynamic_rich_text_QEaydL",
     "dynamic_faq_kyjq9r",
     "static-recently-viewed"
   ]
