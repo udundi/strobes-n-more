@@ -48,7 +48,7 @@
       "type": "dynamic-rich-text",
       "name": "Rich text - Why choose SoundOff Signal",
       "settings": {
-        "width": "full-width",
+        "width": "wide",
         "title": "",
         "text": "<h2><strong>Why Choose SoundOff Signal?</strong></h2><p>For over 30 years, <strong>SoundOff Signal</strong> has been a leader in the emergency vehicle equipment space. Their reputation is built on reliability, performance, and a deep understanding of the needs of first responders. Each product is designed with real-world use in mind—bright, durable, and easy to operate even in high-stress scenarios.</p><p>Whether you're looking for low-profile lightbars, sirens with customizable tones, or smart control systems that integrate lighting and sound, SoundOff Signal offers dependable solutions that get the job done.</p>",
         "heading_size": "medium",
@@ -59,7 +59,7 @@
       "type": "dynamic-rich-text",
       "name": "Rich text - Product Categories ",
       "settings": {
-        "width": "full-width",
+        "width": "wide",
         "title": "",
         "text": "<h2><strong>Product Categories from SoundOff Signal</strong></h2><p>At <strong>Strobes N More</strong>, we carry a full range of SoundOff Signal products, including:</p><ul><li><strong>Lightbars</strong> – Roof-mounted and interior options with customizable flash patterns.</li><li><strong>Surface Mount LEDs</strong> – Compact, powerful lighting for bumpers, grills, and fenders.</li><li><strong>Grille and Deck Lights</strong> – Low-profile options for stealth and visibility.</li><li><strong>Sirens and Speakers</strong> – High-output sound systems with multiple tone selections.</li><li><strong>Switch Panels and Controllers</strong> – Intuitive designs for complete control of lights, sirens, and other devices.</li><li><strong>Perimeter Warning Systems</strong> – Enhanced safety with intersection lighting and side visibility.</li></ul><p>Whether for patrol, fire response, or utility vehicles, there’s a solution that fits your setup.</p>",
         "heading_size": "medium",
