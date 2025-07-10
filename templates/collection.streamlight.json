@@ -44,6 +44,190 @@
         "image_crop": "original"
       }
     },
+    "dynamic_rich_text_D3nJeg": {
+      "type": "dynamic-rich-text",
+      "name": "Rich text - Why Choose a Streamlight Flashlight?",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2><strong>Why Choose a Streamlight Flashlight?</strong></h2><p>Streamlight is synonymous with reliability, performance, and cutting-edge technology in the world of portable lighting. Known for their rugged construction, bright output, and long battery life, Streamlight flashlights are used by law enforcement, firefighters, industrial workers, and everyday consumers worldwide.</p><p>Each flashlight is engineered with feedback from real-world users to ensure optimal performance in the field. Streamlight’s commitment to innovation includes advanced LED technology, multiple lighting modes, and weatherproof designs.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_XqiyrV": {
+      "type": "dynamic-rich-text",
+      "name": "Rich text - Types of Streamlight Flashlights",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2><strong>Types of Streamlight Flashlights</strong></h2><p>Streamlight offers a wide variety of flashlights to fit different needs:</p><ul><li><strong>Tactical Flashlights</strong>: High-lumen models designed for law enforcement and security professionals.</li><li><strong>EDC Flashlights</strong>: Everyday carry lights that are compact, lightweight, and powerful.</li><li><strong>Rechargeable Flashlights</strong>: Cost-effective and environmentally friendly options that eliminate the need for disposable batteries.</li><li><strong>Right-Angle and Hands-Free Lights</strong>: Ideal for maintenance, fire/rescue, or confined spaces.</li><li><strong>Headlamps</strong>: Perfect for hands-free work or outdoor exploration.</li><li><strong>Weapon-Mounted Lights</strong>: Designed to attach to firearms for tactical and home defense use.</li></ul><p>No matter the job or setting, there’s a Streamlight flashlight to match.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_ftwkDB": {
+      "type": "dynamic-rich-text",
+      "name": "Rich text - Top Streamlight Flashlights Available at Strobes N More",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2><strong>Top Streamlight Flashlights Available at Strobes N More</strong></h2><p>Here are some of the most popular and highly rated models we carry:</p><ul><li><strong>Streamlight ProTac HL-X</strong>: 1,000-lumen tactical flashlight with USB rechargeable capability and multiple brightness modes.</li><li><strong>Streamlight Stylus Pro</strong>: Slim, pen-sized EDC flashlight perfect for daily use and pocket carry.</li><li><strong>Streamlight Stinger DS LED HL</strong>: Dual switch, rechargeable flashlight with 800 lumens—ideal for law enforcement and industrial settings.</li><li><strong>Streamlight Sidewinder Compact II</strong>: Military-grade, multi-color light with hands-free functionality.</li></ul><p>Each model is backed by Streamlight’s limited lifetime warranty and engineered for high performance.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_cNHTjX": {
+      "type": "dynamic-rich-text",
+      "name": "Rich text - Key Features to Look For",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2><strong>Key Features to Look For</strong></h2><p>When selecting a Streamlight flashlight, consider these important features:</p><ul><li><strong>Lumen Output</strong>: Ranges from 100 to over 2,000 lumens, depending on the model and intended use.</li><li><strong>Battery Type</strong>: Options include USB rechargeable, lithium-ion, alkaline, or CR123A batteries.</li><li><strong>Beam Pattern</strong>: Choose between flood (wide area) or spot (focused beam) depending on your needs.</li><li><strong>Durability</strong>: Most Streamlight models are IPX7 or IPX8 waterproof rated and constructed with anodized aluminum.</li><li><strong>User Interface</strong>: Features like tail switches, side buttons, and multiple output modes enhance usability.</li></ul><p>Strobes N More provides detailed product specs to help you compare models and find the perfect match.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_pCfJGr": {
+      "type": "dynamic-rich-text",
+      "name": "Rich text - Streamlight for Professional Use",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2><strong>Streamlight for Professional Use</strong></h2><p>Streamlight flashlights are trusted by professionals across industries:</p><ul><li><strong>Law Enforcement</strong>: Tactical models like the ProTac series offer bright output, strobe functions, and weapon-mount options.</li><li><strong>Fire/Rescue</strong>: Right-angle lights and helmet-mounted designs are ideal for hands-free use in high-stress environments.</li><li><strong>Construction & Utility</strong>: Durable, impact-resistant models with long battery life excel on job sites and in field conditions.</li></ul><p>We work closely with departments and organizations nationwide to provide volume discounts and reliable gear.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_6cjf3T": {
+      "type": "dynamic-rich-text",
+      "name": "Rich text - Why Buy from Strobes N More?",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2><strong>Why Buy from Strobes N More?</strong></h2><p>When you shop <strong>Streamlight flashlights</strong> at <strong>Strobes N More</strong>, you get:</p><ul><li>A trusted selection of genuine Streamlight products</li><li>Competitive pricing and bulk order options</li><li>Fast shipping and excellent customer service</li><li>Expert guidance on choosing the right flashlight for your needs</li></ul><p>With 20+ years of experience in emergency lighting and equipment, we know what works in the field—and we only sell what we’d use ourselves.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_faq_BKPyUi": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_YKEWYT": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_qbiAXt": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "icon": "none"
+          }
+        },
+        "question_G4WKP6": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "icon": "none"
+          }
+        },
+        "question_QUiE7r": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "icon": "none"
+          }
+        },
+        "question_7in8bc": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "icon": "none"
+          }
+        },
+        "question_WLJx44": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "icon": "none"
+          }
+        },
+        "question_BPMHpa": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "icon": "none"
+          }
+        },
+        "question_7EgVU4": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "icon": "none"
+          }
+        },
+        "question_QzrxRC": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "icon": "none"
+          }
+        },
+        "question_7EatW9": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "icon": "none"
+          }
+        },
+        "question_JwxgqJ": {
+          "type": "question",
+          "settings": {
+            "question": "Frequently asked question",
+            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_YKEWYT",
+        "question_qbiAXt",
+        "question_G4WKP6",
+        "question_QUiE7r",
+        "question_7in8bc",
+        "question_WLJx44",
+        "question_BPMHpa",
+        "question_7EgVU4",
+        "question_QzrxRC",
+        "question_7EatW9",
+        "question_JwxgqJ"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "wide",
+        "heading": "FAQs about Streamlight Flashlights & Lanterns",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
     "static-recently-viewed": {
       "type": "static-recently-viewed",
       "settings": {
@@ -53,6 +237,13 @@
   },
   "order": [
     "main",
+    "dynamic_rich_text_D3nJeg",
+    "dynamic_rich_text_XqiyrV",
+    "dynamic_rich_text_ftwkDB",
+    "dynamic_rich_text_cNHTjX",
+    "dynamic_rich_text_pCfJGr",
+    "dynamic_rich_text_6cjf3T",
+    "dynamic_faq_BKPyUi",
     "static-recently-viewed"
   ]
 }
