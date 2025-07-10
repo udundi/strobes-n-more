@@ -70,7 +70,7 @@
       "type": "dynamic-rich-text",
       "name": "Rich text - Popular SoundOff Signal Products",
       "settings": {
-        "width": "full-width",
+        "width": "wide",
         "title": "",
         "text": "<h2><strong>Popular SoundOff Signal Products</strong></h2><p>Here are some top-selling items available now at <strong>Strobes N More</strong>:</p><ul><li><strong>SoundOff nERGY 400 Series Siren</strong> – All-in-one light and siren controller with intuitive interface.</li><li><strong>SoundOff mpower® Fascia Lights</strong> – Built with Clear Duty™ technology for unmatched durability and visibility.</li><li><strong>SoundOff Ghost LED Lights</strong> – Ultra-slim, versatile, and perfect for undercover or low-profile installations.</li><li><strong>SoundOff Pinnacle Lightbar</strong> – A high-visibility LED lightbar with full customization and smart control features.</li></ul><p>Each of these products is engineered to meet or exceed industry standards, and many are used by agencies across North America.</p>",
         "heading_size": "medium",
@@ -81,7 +81,7 @@
       "type": "dynamic-rich-text",
       "name": "Rich text - Key Benefits of SoundOff Signal Equipment",
       "settings": {
-        "width": "full-width",
+        "width": "wide",
         "title": "",
         "text": "<h2><strong>Key Benefits of SoundOff Signal Equipment</strong></h2><ul><li><strong>High Visibility</strong>: Engineered for maximum output and optical clarity, ideal for all environments and lighting conditions.</li><li><strong>Customizable Functions</strong>: Many products allow user-programmed flash patterns and sound tones.</li><li><strong>Rugged Construction</strong>: Weather-resistant housings and vibration-tested components ensure longevity.</li><li><strong>Easy Integration</strong>: SoundOff’s smart controllers and modular wiring simplify installation and fleet standardization.</li></ul><p><strong>Trusted by Professionals</strong>: Used by police departments, fire rescue teams, and government fleets across the U.S.</p>",
         "heading_size": "medium",
@@ -92,7 +92,7 @@
       "type": "dynamic-rich-text",
       "name": "Rich text - Installation & Compatibility",
       "settings": {
-        "width": "full-width",
+        "width": "wide",
         "title": "",
         "text": "<h2><strong>Installation & Compatibility</strong></h2><p>SoundOff Signal products are designed for straightforward installation. Many lights include versatile mounting brackets, pigtail connectors, and plug-and-play interfaces. When purchasing through <strong>Strobes N More</strong>, you also have access to installation kits, wiring harnesses, and expert guidance to ensure your setup is both functional and code-compliant.</p><p>Our team is available to help you choose components that are compatible with your vehicle’s existing systems and electrical specs.</p>",
         "heading_size": "medium",
@@ -103,7 +103,7 @@
       "type": "dynamic-rich-text",
       "name": "Rich text - Why Buy from Strobes N More?",
       "settings": {
-        "width": "full-width",
+        "width": "wide",
         "title": "",
         "text": "<h2><strong>Why Buy from Strobes N More?</strong></h2><p>We’ve been serving emergency responders, contractors, and municipalities for over 20 years. Here’s what sets us apart:</p><ul><li><strong>Certified distributor of SoundOff Signal products</strong></li><li><strong>Fast, nationwide shipping</strong></li><li><strong>Competitive pricing on individual and bulk orders</strong></li><li><strong>Exceptional customer support</strong></li><li><strong>Only top-tier, field-tested gear</strong></li></ul><p>Whether you're upgrading a single unit or spec'ing out an entire fleet, <strong>Strobes N More</strong> ensures you get the gear you need—on time and within budget.</p>",
         "heading_size": "medium",
