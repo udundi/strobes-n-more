@@ -33,7 +33,7 @@
       ],
       "settings": {
         "show_collection_image": false,
-        "products_per_page_range": 48,
+        "products_per_page_range": 36,
         "products_per_row": "4",
         "sort_by": true,
         "grid_list": true,
