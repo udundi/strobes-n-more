@@ -123,80 +123,80 @@
         "question_qbiAXt": {
           "type": "question",
           "settings": {
-            "question": "Frequently asked question",
-            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "question": "What makes Streamlight flashlights a top choice for professionals and everyday users?",
+            "answer": "<p>Streamlight flashlights are known for their rugged build, powerful LED output, and reliable performance in demanding conditions. From tactical use to everyday carry, they’re a trusted choice for law enforcement, first responders, and outdoor enthusiasts.</p>",
             "icon": "none"
           }
         },
         "question_G4WKP6": {
           "type": "question",
           "settings": {
-            "question": "Frequently asked question",
-            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "question": "Does Strobes N’ More carry the full range of Streamlight flashlights?",
+            "answer": "<p>Yes, we carry a wide variety of Streamlight products, including handheld flashlights, headlamps, tactical models, and lanterns—ideal for personal, professional, and emergency use.</p>",
             "icon": "none"
           }
         },
         "question_QUiE7r": {
           "type": "question",
           "settings": {
-            "question": "Frequently asked question",
-            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "question": "What’s the difference between a Streamlight flashlight and a Streamlight lantern?",
+            "answer": "<p>A <strong>Streamlight flashlight</strong> provides a focused beam, great for long-distance visibility, while a <strong>Streamlight lantern</strong> delivers 360° area lighting, perfect for campsites, power outages, and work zones.</p>",
             "icon": "none"
           }
         },
         "question_7in8bc": {
           "type": "question",
           "settings": {
-            "question": "Frequently asked question",
-            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "question": "Are Streamlight LED flashlights better than traditional flashlights?",
+            "answer": "<p>Absolutely. Streamlight LED lights are brighter, more energy-efficient, and last significantly longer than older incandescent models. They’re also more durable and often include multiple lighting modes.</p>",
             "icon": "none"
           }
         },
         "question_WLJx44": {
           "type": "question",
           "settings": {
-            "question": "Frequently asked question",
-            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "question": "Is there a difference between “Streamlight” and “Streamlite” flashlights?",
+            "answer": "<p>“Streamlite” is often a misspelling or variation of <strong>Streamlight</strong>, the official brand. At Strobes N’ More, we only stock <strong>authentic Streamlight</strong> products to ensure top-tier performance and warranty coverage.</p>",
             "icon": "none"
           }
         },
         "question_BPMHpa": {
           "type": "question",
           "settings": {
-            "question": "Frequently asked question",
-            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "question": "Are Streamlight flashlights rechargeable?",
+            "answer": "<p>Many models are! Streamlight offers both rechargeable and battery-powered options. Rechargeable models often come with USB charging ports or charging cradles for convenience.</p>",
             "icon": "none"
           }
         },
         "question_7EgVU4": {
           "type": "question",
           "settings": {
-            "question": "Frequently asked question",
-            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "question": "What are the best Streamlight options for emergency preparedness?",
+            "answer": "<p>For emergencies, we recommend Streamlight lanterns for area lighting and compact flashlights for personal use. Models like the <strong>Siege Lantern</strong> and <strong>ProTac series</strong> are popular picks for emergency kits.</p>",
             "icon": "none"
           }
         },
         "question_QzrxRC": {
           "type": "question",
           "settings": {
-            "question": "Frequently asked question",
-            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "question": "How long do Streamlight LED lights typically last?",
+            "answer": "<p>Streamlight LEDs are rated to last tens of thousands of hours—often over 50,000. Plus, their durable design helps ensure years of use even in rough environments.</p>",
             "icon": "none"
           }
         },
         "question_7EatW9": {
           "type": "question",
           "settings": {
-            "question": "Frequently asked question",
-            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "question": "Can I use Streamlight flashlights for tactical or law enforcement purposes?",
+            "answer": "<p>Definitely, many Streamlight flashlights are designed specifically for tactical applications, with high-lumen output, strobe modes, and rugged, weapon-mountable designs.</p>",
             "icon": "none"
           }
         },
         "question_JwxgqJ": {
           "type": "question",
           "settings": {
-            "question": "Frequently asked question",
-            "answer": "<p>Use this text to provide answers for your most commonly asked questions.</p>",
+            "question": "Frequently askDoes Strobes N’ More offer support or replacement parts for Streamlight products?ed question",
+            "answer": "<p>Yes—we’re here to help. If you need guidance choosing the right flashlight or assistance with accessories or parts, our team at Strobes N’ More is just a call or email away.</p>",
             "icon": "none"
           }
         }
@@ -214,7 +214,6 @@
         "question_7EatW9",
         "question_JwxgqJ"
       ],
-      "disabled": true,
       "custom_css": [
         "h3 {display: none;}"
       ],
