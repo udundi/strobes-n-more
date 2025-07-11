@@ -44,6 +44,134 @@
         "image_crop": "original"
       }
     },
+    "dynamic_rich_text_QkdjdF": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "wide",
+        "title": "",
+        "text": "<p>Need help understanding how LED stick lights work or which model is right for your setup? Check out our frequently asked questions to get the clarity you need before you buy.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_faq_DRx8zx": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_rtGb7A": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_Jh9MME": {
+          "type": "question",
+          "settings": {
+            "question": "What are LED stick lights used for?",
+            "answer": "<p>LED stick lights are slim, powerful lighting solutions used for vehicle perimeter lighting, grille lights, rear warning, and directional signaling.</p>",
+            "icon": "none"
+          }
+        },
+        "question_NnQp9Q": {
+          "type": "question",
+          "settings": {
+            "question": "How do LED stick lights differ from traditional strobes?",
+            "answer": "<p>Stick lights offer more linear, focused lighting with multiple heads in a bar format. They’re more compact and versatile compared to round or rectangular strobes.</p>",
+            "icon": "none"
+          }
+        },
+        "question_hLxG4M": {
+          "type": "question",
+          "settings": {
+            "question": "Can I mount LED stick lights vertically or horizontally?",
+            "answer": "<p>Yes, our LED stick lights can be mounted in either orientation depending on your vehicle's configuration and lighting needs.</p>",
+            "icon": "none"
+          }
+        },
+        "question_pdENKc": {
+          "type": "question",
+          "settings": {
+            "question": "Are your stick LED lights waterproof?",
+            "answer": "<p>Absolutely. All our stick lights are weather-sealed, typically with an IP67 or higher rating, making them safe for outdoor and emergency use.</p>",
+            "icon": "none"
+          }
+        },
+        "question_cwHaBJ": {
+          "type": "question",
+          "settings": {
+            "question": "What size LED light sticks are available?",
+            "answer": "<p>We offer stick lights in various lengths—from small 4-head models for grille mounting to long 8 or 12-head bars for rear deck or windshield use.</p>",
+            "icon": "none"
+          }
+        },
+        "question_gJRfbT": {
+          "type": "question",
+          "settings": {
+            "question": "Do LED light sticks come with sync functionality?",
+            "answer": "<p>Yes, many models can sync with each other or with other warning lights, allowing coordinated flash patterns for maximum visibility.</p>",
+            "icon": "none"
+          }
+        },
+        "question_HJjgH7": {
+          "type": "question",
+          "settings": {
+            "question": "Can I wire multiple stick lights together?",
+            "answer": "<p>Definitely. Our LED stick lights are designed to be daisy-chained or wired to a single controller for unified operation.</p>",
+            "icon": "none"
+          }
+        },
+        "question_eWfCd7": {
+          "type": "question",
+          "settings": {
+            "question": "Are LED stick lights legal to use on a civilian vehicle?",
+            "answer": "<p>Amber LED stick lights are generally legal for hazard or construction use, but red, blue, or combination colors may be restricted depending on local laws.</p>",
+            "icon": "none"
+          }
+        },
+        "question_WX9HDT": {
+          "type": "question",
+          "settings": {
+            "question": "Do your stick lights support multiple flash patterns?",
+            "answer": "<p>Yes, each stick light usually includes several built-in flash patterns that can be changed via a control wire or external switch.</p>",
+            "icon": "none"
+          }
+        },
+        "question_VyhUmL": {
+          "type": "question",
+          "settings": {
+            "question": "Are LED stick lights difficult to install?",
+            "answer": "<p>Not at all. Most lights include brackets or adhesive mounting, and the wiring is straightforward for those with basic 12V electrical knowledge.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_rtGb7A",
+        "question_Jh9MME",
+        "question_NnQp9Q",
+        "question_hLxG4M",
+        "question_pdENKc",
+        "question_cwHaBJ",
+        "question_gJRfbT",
+        "question_HJjgH7",
+        "question_eWfCd7",
+        "question_WX9HDT",
+        "question_VyhUmL"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "wide",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
     "static-recently-viewed": {
       "type": "static-recently-viewed",
       "settings": {
@@ -53,6 +181,8 @@
   },
   "order": [
     "main",
+    "dynamic_rich_text_QkdjdF",
+    "dynamic_faq_DRx8zx",
     "static-recently-viewed"
   ]
 }
