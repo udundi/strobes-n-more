@@ -44,6 +44,78 @@
         "image_crop": "original"
       }
     },
+    "dynamic_faq_FKFzyJ": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_q6tQUJ": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_dtKVfg": {
+          "type": "question",
+          "settings": {
+            "question": "What are the best police speakers for use with sirens?",
+            "answer": "<p>Top police speakers include the Whelen SA315P, Federal Signal AS124, and Feniex Triton. These models are known for loud, clear output, rugged construction, and compatibility with most major siren systems. Look for 100-watt models with compact housings that fit easily behind grilles or bumpers.</p>",
+            "icon": "none"
+          }
+        },
+        "question_aaQ8eQ": {
+          "type": "question",
+          "settings": {
+            "question": "How do I install a police speaker in my vehicle?",
+            "answer": "<p>Most speakers mount behind the grille, under the bumper, or in the engine bay using included brackets. Installation involves securing the speaker with bolts and running wiring to the siren amplifier unit inside the vehicle. Ensure the speaker faces forward, has a clear sound path, and is protected from heat and moving parts.</p>",
+            "icon": "none"
+          }
+        },
+        "question_fTxrgP": {
+          "type": "question",
+          "settings": {
+            "question": "Are police speakers waterproof and durable?",
+            "answer": "<p>Yes. Quality police speakers are built to be weatherproof, corrosion-resistant, and shock-resistant. Most models feature polycarbonate or cast aluminum housings, sealed electronics, and high-temp voice coils. They’re designed to perform reliably in rain, snow, and high-vibration environments.</p>",
+            "icon": "none"
+          }
+        },
+        "question_9HTMH9": {
+          "type": "question",
+          "settings": {
+            "question": "Can a police speaker be used with multiple siren systems?",
+            "answer": "<p>In most cases, yes. Most 100-watt speakers are universal and compatible with standard siren outputs, including those from Whelen, Federal Signal, Feniex, Carson, and SoundOff. Just make sure the impedance (usually 11 ohms) matches the siren system's specs. Some setups also allow dual speakers for dual-tone sirens.</p>",
+            "icon": "none"
+          }
+        },
+        "question_NB33dE": {
+          "type": "question",
+          "settings": {
+            "question": "What is the power rating of a typical police speaker?",
+            "answer": "<p>The standard power rating is 100 watts at 11 ohms, which is loud enough for high-traffic and high-speed scenarios. Some siren systems support dual 100-watt speakers for added volume or tone layering. Always match the speaker rating to your siren amp to avoid underperformance or damage.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_q6tQUJ",
+        "question_dtKVfg",
+        "question_aaQ8eQ",
+        "question_fTxrgP",
+        "question_9HTMH9",
+        "question_NB33dE"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "wide",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
     "static-recently-viewed": {
       "type": "static-recently-viewed",
       "settings": {
@@ -53,6 +125,7 @@
   },
   "order": [
     "main",
+    "dynamic_faq_FKFzyJ",
     "static-recently-viewed"
   ]
 }
