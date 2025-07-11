@@ -44,6 +44,134 @@
         "image_crop": "original"
       }
     },
+    "dynamic_rich_text_bNRBkf": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2>Be Seen. Stay Safe. Trust Green & Purple LED Lighting.</h2><p>In the world of emergency response and work vehicle operations, <strong>visibility can save lives</strong>. That’s why investing in high-performance <strong>green LED light</strong> and <strong>purple LED light</strong> systems is more than an upgrade—it’s a safety imperative. At Strobes N’ More, we know what it takes to be seen under pressure, in traffic, or on a dimly lit job site. Whether you're guiding a convoy, working roadside at night, or responding to an incident, your lighting system should work as hard as you do.</p><p><strong>Green LEDs</strong> often serve as markers for command or security vehicles, while <strong>purple LEDs</strong> may be designated for ceremonial or specialty applications like funeral escorts or event security. Our lights are engineered with high-intensity output, durable housings, and waterproof ratings to withstand real-world conditions. Designed for trucks, SUVs, utility vehicles, and emergency fleets, they mount easily and offer versatile configurations to match your operational needs.</p><p>Your safety, your crew’s safety, and the public’s awareness all hinge on your visibility. That’s why professionals nationwide trust our LEDs to perform without fail. Explore our green and purple LED lighting solutions today—and drive into every situation with confidence, clarity, and compliance.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_faq_jGyEYj": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_aQeVj4": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_ByrxNq": {
+          "type": "question",
+          "settings": {
+            "question": "Why use green LED lights on work trucks or first responder vehicles?",
+            "answer": "<p>Green LEDs are often used by command vehicles, EMS supervisors, or security details to indicate leadership presence and ensure visibility.</p>",
+            "icon": "none"
+          }
+        },
+        "question_fKDKJr": {
+          "type": "question",
+          "settings": {
+            "question": "Are purple LED lights legal on emergency vehicles?",
+            "answer": "<p>In some jurisdictions, purple LEDs are allowed for ceremonial use such as funeral escorts or special duty vehicles—always check your local laws.</p>",
+            "icon": "none"
+          }
+        },
+        "question_xe8giT": {
+          "type": "question",
+          "settings": {
+            "question": "What makes green and purple LED lights effective for safety?",
+            "answer": "<p>Their unique color makes them stand out from standard vehicle lighting, increasing visibility and reducing risk in busy or low-light environments.</p>",
+            "icon": "none"
+          }
+        },
+        "question_DBxmTd": {
+          "type": "question",
+          "settings": {
+            "question": "Can these LEDs handle tough work environments?",
+            "answer": "<p>Yes. Our lights are weather-sealed, vibration-resistant, and built for the demanding needs of emergency responders and fleet operators.</p>",
+            "icon": "none"
+          }
+        },
+        "question_8Czc9j": {
+          "type": "question",
+          "settings": {
+            "question": "Do your LEDs meet industry safety standards?",
+            "answer": "<p>Many of our lights are SAE and NFPA compliant or built to meet local emergency lighting codes—check individual product listings for certifications.</p>",
+            "icon": "none"
+          }
+        },
+        "question_kjjqFM": {
+          "type": "question",
+          "settings": {
+            "question": "How are purple LED lights used in funeral or escort services?",
+            "answer": "<p>Purple lighting is often used to signify solemn or ceremonial processions, helping guide and protect the group in transit.</p>",
+            "icon": "none"
+          }
+        },
+        "question_4zk4M7": {
+          "type": "question",
+          "settings": {
+            "question": "Can I install green or purple LEDs on my vehicle without rewiring?",
+            "answer": "<p>Most of our products are plug-and-play or require minimal wiring—ideal for both fleet managers and individual installers.</p>",
+            "icon": "none"
+          }
+        },
+        "question_LKxnWR": {
+          "type": "question",
+          "settings": {
+            "question": "Are your LEDs bright enough for daylight visibility?",
+            "answer": "<p>Absolutely. Our LEDs are daylight-visible with high-lumen output, ensuring your vehicle is seen in any conditions.</p>",
+            "icon": "none"
+          }
+        },
+        "question_4XLLWp": {
+          "type": "question",
+          "settings": {
+            "question": "Is it legal to mix green or purple lights with other emergency colors?",
+            "answer": "<p>This varies by state. Mixing colors is often permitted for command or specialized vehicles—always consult local regulations.</p>",
+            "icon": "none"
+          }
+        },
+        "question_jMFr3V": {
+          "type": "question",
+          "settings": {
+            "question": "Do you offer surface mounts, dash lights, or lightbars in these colors?",
+            "answer": "<p>Yes—we carry a full range of green and purple LED lights in all form factors, from discreet interior lights to full-size lightbars.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_aQeVj4",
+        "question_ByrxNq",
+        "question_fKDKJr",
+        "question_xe8giT",
+        "question_DBxmTd",
+        "question_8Czc9j",
+        "question_kjjqFM",
+        "question_4zk4M7",
+        "question_LKxnWR",
+        "question_4XLLWp",
+        "question_jMFr3V"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
     "static-recently-viewed": {
       "type": "static-recently-viewed",
       "settings": {
@@ -53,6 +181,8 @@
   },
   "order": [
     "main",
+    "dynamic_rich_text_bNRBkf",
+    "dynamic_faq_jGyEYj",
     "static-recently-viewed"
   ]
 }
