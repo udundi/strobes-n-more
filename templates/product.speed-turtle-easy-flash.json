@@ -167,40 +167,80 @@
         "question_XLJAbP": {
           "type": "question",
           "settings": {
-            "question": "What vehicles are compatible with the Speed Turtle 3.0 module?",
-            "answer": "<p>Speed Turtle 3.0 is compatible with a wide range of vehicles from major manufacturers like Ford, Dodge, Chevrolet, Toyota, Nissan, and GMC. It’s designed to work with vehicles equipped with CAN bus systems, including many police interceptors, pickup trucks, SUVs, and fleet vehicles. Compatibility varies by year and model, so it’s best to check the official compatibility list or use Speed Turtle’s lookup tool.</p>",
+            "question": "What is the Speed Turtle 3.0?",
+            "answer": "<p>The Speed Turtle 3.0 is a plug-and-play emergency vehicle lighting control module that allows users to activate factory or aftermarket lights using the vehicle’s existing controls—typically through steering wheel buttons or gear selectors. It’s ideal for quick, hands-free light activation during traffic stops or emergency response.</p>",
             "icon": "none"
           }
         },
         "question_JWg3Kp": {
           "type": "question",
           "settings": {
-            "question": "How does Speed Turtle 3.0 control emergency vehicle lighting?",
-            "answer": "<p>The module plugs directly into the vehicle’s OBD-II port and communicates with the CAN bus system to control the factory lights—such as brake lights, reverse lights, turn signals, and DRLs—turning them into flashing warning lights. It requires no cutting or hardwiring and can trigger lighting patterns with just a tap of the brake pedal, use of the gear shift, or activation of specific vehicle inputs.</p>",
+            "question": "How does the Speed Turtle 3.0 work?",
+            "answer": "<p>The Speed Turtle 3.0 interfaces directly with your vehicle’s OBD-II port and reads CAN bus signals. It translates these signals into commands to control exterior lights based on pre-configured trigger actions like braking, door opening, or shifting into park.</p>",
             "icon": "none"
           }
         },
         "question_Bg4xCX": {
           "type": "question",
           "settings": {
-            "question": "Is Speed Turtle 3.0 easy to install and remove?",
-            "answer": "<p>Yes. The Speed Turtle 3.0 is a plug-and-play device that installs in seconds via the OBD-II port, with no permanent modifications required. Removal is just as fast, making it ideal for temporary use or vehicles shared between users. It’s a convenient solution for agencies or fleets that rotate vehicles often.</p>",
+            "question": "Which vehicles are compatible with Speed Turtle 3.0?",
+            "answer": "<p>The Speed Turtle 3.0 supports a wide range of late-model fleet and emergency vehicles from manufacturers such as Ford, Dodge, Chevrolet, and more. Compatibility depends on the vehicle’s electronic system and model year—check the official compatibility chart or contact Strobes N’ More for guidance.</p>",
             "icon": "none"
           }
         },
         "question_TaWtXp": {
           "type": "question",
           "settings": {
-            "question": "Can the Speed Turtle 3.0 module be used for covert police lighting?",
-            "answer": "<p>Absolutely. Speed Turtle 3.0 is widely used in unmarked and covert law enforcement vehicles. It allows the use of factory lights for warning functions without visible aftermarket lighting. This helps maintain a clean, low-profile appearance while still providing effective signaling when needed.</p>",
+            "question": "Do I need to cut or splice wires to install Speed Turtle 3.0?",
+            "answer": "<p>No. The Speed Turtle 3.0 is a true plug-and-play module that installs through the OBD-II port, requiring no wire cutting or splicing. Installation typically takes less than 10 minutes and requires no special tools.</p>",
             "icon": "none"
           }
         },
         "question_Qw9inQ": {
           "type": "question",
           "settings": {
-            "question": "Does Speed Turtle 3.0 support multiple flash patterns?",
-            "answer": "<p>Yes. The module comes with several built-in flash patterns, and users can configure them using Speed Turtle’s software. You can set different patterns for specific vehicle actions (like reverse or park), and even assign activation methods. Some models also support dual-mode operation, allowing two separate flash profiles depending on the situation.</p>",
+            "question": "What kind of lights can the Speed Turtle 3.0 control?",
+            "answer": "<p>The Speed Turtle 3.0 is designed to control factory-installed lights, such as tail lights, brake lights, reverse lights, or turn signals. It can also be used with select aftermarket warning lights that are integrated into the vehicle’s lighting system.</p>",
+            "icon": "none"
+          }
+        },
+        "question_aVVXNE": {
+          "type": "question",
+          "settings": {
+            "question": "Can I customize the light flash patterns or triggers?",
+            "answer": "<p>Yes. The Speed Turtle 3.0 can be configured using Speed Turtle’s Windows-based configuration software. Users can program activation triggers, flash patterns, and priority behavior to tailor the module to their operational needs.</p>",
+            "icon": "none"
+          }
+        },
+        "question_fAHnMK": {
+          "type": "question",
+          "settings": {
+            "question": "Is the Speed Turtle 3.0 legal for use on public roads?",
+            "answer": "<p>When used properly, the Speed Turtle 3.0 is legal for use by authorized personnel such as law enforcement, security officers, and certain commercial or municipal operators. However, it’s important to comply with local laws and regulations regarding emergency lighting.</p>",
+            "icon": "none"
+          }
+        },
+        "question_pmwneH": {
+          "type": "question",
+          "settings": {
+            "question": "What makes the Speed Turtle 3.0 better than traditional lighting controllers?",
+            "answer": "<p>The Speed Turtle 3.0 offers stealth functionality, quick deployment, and minimal installation effort—perfect for covert or temporary vehicle setups. It provides an affordable, no-hassle alternative to complex hardwired control systems.</p>",
+            "icon": "none"
+          }
+        },
+        "question_9UWMNz": {
+          "type": "question",
+          "settings": {
+            "question": "Can I remove or transfer the Speed Turtle 3.0 to another vehicle?",
+            "answer": "<p>Yes. The Speed Turtle 3.0 is fully portable and can be unplugged and moved to another compatible vehicle. This makes it an excellent choice for shared fleet vehicles or temporary installations.</p>",
+            "icon": "none"
+          }
+        },
+        "question_6ECYmd": {
+          "type": "question",
+          "settings": {
+            "question": "Why buy the Speed Turtle 3.0 from Strobes N' More?",
+            "answer": "<p>Strobes N’ More offers competitive pricing, expert product support, and fast shipping on the Speed Turtle 3.0. Our knowledgeable team ensures you choose the right setup for your vehicle and get the most out of your emergency lighting solution.</p>",
             "icon": "none"
           }
         }
@@ -211,7 +251,12 @@
         "question_JWg3Kp",
         "question_Bg4xCX",
         "question_TaWtXp",
-        "question_Qw9inQ"
+        "question_Qw9inQ",
+        "question_aVVXNE",
+        "question_fAHnMK",
+        "question_pmwneH",
+        "question_9UWMNz",
+        "question_6ECYmd"
       ],
       "custom_css": [
         "h3 {display: none;}"
