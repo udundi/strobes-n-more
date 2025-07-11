@@ -44,6 +44,134 @@
         "image_crop": "original"
       }
     },
+    "dynamic_rich_text_cWKBfE": {
+      "type": "dynamic-rich-text",
+      "name": "Rich text - Flash Smarter",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2>Flash Smarter: Engineered for Visibility, Built for Real Life</h2><p>Not all flashers are created equal. At the intersection of safety and innovation, our selection of <strong>LED flasher lights</strong> and <strong>strobe light modules</strong> is engineered to outperform. From <strong>headlight and tail light strobes</strong> to OBD2-enabled systems like the <strong>OBD light flasher module</strong>, every component is built for real-world reliability and attention-grabbing output.</p><p>Whether you're customizing a personal ride or outfitting a fleet, choosing the right <strong>flasher for LED</strong> or <strong>headlight flasher module</strong> can be a game-changer. Need plug-and-play ease? Our <strong>strobe light plug in</strong> units snap into place without rewiring. Prefer a full <strong>headlight flasher kit</strong>? We've got that too—complete with everything you need to get flashing in minutes.</p><p>Our tech covers it all: street use, show cars, utility vehicles, and more. Looking to turn your car into a visible warning presence? Explore our <strong>flashers lights</strong> and <strong>LED light strobe modules</strong> designed for high-impact illumination. Each <strong>flasher light</strong> is tested for performance, durability, and ease of use—so you're never left in the dark.</p><p>Don't just install a flasher—upgrade with confidence. Browse our full range of <strong>flasher car</strong> solutions, including <strong>headlight strobe kits</strong>, <strong>emergency flashers</strong>, and <strong>OBD2 strobe light modules</strong>. Visibility is power. Make yours count.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_faq_mBrH3U": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_LtAbNm": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_3GRk7c": {
+          "type": "question",
+          "settings": {
+            "question": "What is a LED flash module used for?",
+            "answer": "<p>LED flash modules are used to create high-visibility flashing patterns for emergency, warning, or utility vehicles. They improve safety by alerting others on the road to your presence, especially in low-light or high-traffic situations.</p>",
+            "icon": "none"
+          }
+        },
+        "question_VcNQ6T": {
+          "type": "question",
+          "settings": {
+            "question": "How does an emergency flasher differ from a standard flasher?",
+            "answer": "<p>Emergency flashers are designed for high-intensity, rapid blinking to quickly capture attention, whereas standard flashers often have slower or less noticeable patterns. Emergency flashers are typically used on police, fire, and construction vehicles.</p>",
+            "icon": "none"
+          }
+        },
+        "question_kaJg38": {
+          "type": "question",
+          "settings": {
+            "question": "Are flasher lights legal for personal vehicles?",
+            "answer": "<p>Flasher lights may be legal for personal use depending on your local regulations and how they're used. For example, white or amber lights may be permitted on utility vehicles, but red and blue are typically reserved for official emergency services.</p>",
+            "icon": "none"
+          }
+        },
+        "question_hD7chq": {
+          "type": "question",
+          "settings": {
+            "question": " Can I install a LED flasher light on my truck myself?",
+            "answer": "<p>Yes, most LED flasher lights are DIY-friendly and come with wiring instructions. However, for complex systems or integration with OEM switches, professional installation may be recommended.</p>",
+            "icon": "none"
+          }
+        },
+        "question_UrwGjD": {
+          "type": "question",
+          "settings": {
+            "question": "What are headlight strobe lights and when should I use them?",
+            "answer": "<p>Headlight strobe lights are designed to alternate the flashing of your vehicle’s headlights. They're commonly used by volunteer firefighters, security vehicles, or off-roaders who need to increase visibility in specific situations.</p>",
+            "icon": "none"
+          }
+        },
+        "question_YdJ7xp": {
+          "type": "question",
+          "settings": {
+            "question": "What’s the difference between a flasher light and a strobe light?",
+            "answer": "<p>While both emit flashes, a flasher light generally provides rhythmic, steady blinking patterns, whereas strobe lights emit intense, high-frequency bursts for maximum visibility in short durations.</p>",
+            "icon": "none"
+          }
+        },
+        "question_qwPQzy": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use a headlight flasher on my motorcycle?",
+            "answer": "<p>Yes, headlight flashers can be installed on motorcycles to improve daytime visibility. However, ensure that the unit complies with local traffic laws to avoid misuse of emergency-style lighting.</p>",
+            "icon": "none"
+          }
+        },
+        "question_EyFrgT": {
+          "type": "question",
+          "settings": {
+            "question": "Do I need a special flasher for LED lights?",
+            "answer": "<p>Yes, standard flashers may not work correctly with low-current LED systems. A flasher for LED lights is specifically engineered to prevent hyper-flashing and ensure consistent performance.</p>",
+            "icon": "none"
+          }
+        },
+        "question_wPexfN": {
+          "type": "question",
+          "settings": {
+            "question": "What does a flasher do in a lighting system?",
+            "answer": "<p>A flasher, often referred to as a \"flasher relay\" or simply \"a flasher,\" controls the on-off cycle of your lights. It enables turn signals or warning lights to blink at a set pace, improving vehicle communication and safety.</p>",
+            "icon": "none"
+          }
+        },
+        "question_jDgDH9": {
+          "type": "question",
+          "settings": {
+            "question": "What comes in a headlight strobe kit?",
+            "answer": "<p>A headlight strobe kit typically includes a control module, wiring harness, connectors, and two or more strobe units. Some kits also offer multiple flash patterns, waterproof casings, and compatibility with OEM headlight systems.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_LtAbNm",
+        "question_3GRk7c",
+        "question_VcNQ6T",
+        "question_kaJg38",
+        "question_hD7chq",
+        "question_UrwGjD",
+        "question_YdJ7xp",
+        "question_qwPQzy",
+        "question_EyFrgT",
+        "question_wPexfN",
+        "question_jDgDH9"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "wide",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
     "static-recently-viewed": {
       "type": "static-recently-viewed",
       "settings": {
@@ -53,6 +181,8 @@
   },
   "order": [
     "main",
+    "dynamic_rich_text_cWKBfE",
+    "dynamic_faq_mBrH3U",
     "static-recently-viewed"
   ]
 }
