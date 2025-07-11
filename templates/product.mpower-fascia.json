@@ -104,6 +104,21 @@
         "include_padding": true
       }
     },
+    "1747319666f97964a4": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_i9RCEM": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_i9RCEM"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
     "dynamic_faq_DL8gWe": {
       "type": "dynamic-faq",
       "blocks": {
@@ -117,40 +132,80 @@
         "question_N7XcBJ": {
           "type": "question",
           "settings": {
-            "question": "What makes SoundOff mPower lights different from traditional LED emergency lights?",
-            "answer": "<p>mPower lights feature Fusion Technology optics, delivering powerful output with better beam control and visibility. They're also built with Clear Duty® molded one-piece construction, making them more compact, durable, and corrosion-resistant than traditional multi-part lights. The sleek design allows for low-profile mounting without compromising performance.</p>",
+            "question": "What is SoundOff mpower?",
+            "answer": "<p>SoundOff mpower is a high-performance line of emergency vehicle lighting products created by SoundOff Signal. Known for their advanced optics and rugged design, mpower lights are used by police, fire, EMS, and utility fleets across the U.S.</p>",
             "icon": "none"
           }
         },
         "question_Q7V7f7": {
           "type": "question",
           "settings": {
-            "question": "Are SoundOff mPower lights shatterproof and resistant to harsh conditions?",
-            "answer": "<p>Yes. mPower lights use Clear Duty® polymer, which is shatterproof, UV-resistant, and sealed to prevent water, dust, or chemical intrusion. They're designed to handle tough environments, including extreme temperatures, high-vibration settings, and exposure to road grime and pressure washers.</p>",
+            "question": "What makes SoundOff mpower lights unique?",
+            "answer": "<p>SoundOff mpower lights feature Fusion Technology optics and Clear Duty® polymer lenses, which offer superior light output, durability, and water resistance. These lights are built to withstand the harshest environments while maintaining a sleek, low-profile appearance.</p>",
             "icon": "none"
           }
         },
         "question_pWG86w": {
           "type": "question",
           "settings": {
-            "question": "How do I install and program SoundOff mPower lights?",
-            "answer": "<p>Installation varies by model, but most mPower lights offer surface, push bumper, grille, or license plate mounts, with plug-and-play connectors for easy setup. Programming is done via SoundOff control systems like the Blueprint Controller, allowing users to select flash patterns, sync options, and intensity settings through software or hardware controls.</p>",
+            "question": "What types of SoundOff mpower lights does Strobes N' More offer?",
+            "answer": "<p>Strobes N' More offers a wide range of SoundOff mpower products, including fascia lights, grille lights, surface mounts, dash lights, and lightbars. We also carry mounting brackets, sync cables, and control systems for full vehicle integration.</p>",
             "icon": "none"
           }
         },
         "question_XLJAbP": {
           "type": "question",
           "settings": {
-            "question": "Can SoundOff mPower lights be synced with other lighting systems?",
-            "answer": "<p>Yes. mPower lights can be synced with other SoundOff products and systems via Blueprint or hardwired sync lines, depending on the configuration. For broader setups, they integrate well with entire light and siren control systems to ensure coordinated flash patterns and scene lighting across the vehicle.</p>",
+            "question": "Are mpower lights suitable for undercover or low-profile use?",
+            "answer": "<p>Yes. The SoundOff mpower Fascia Series is specifically designed for discreet mounting and low-profile performance, making them ideal for undercover law enforcement and security vehicles that need powerful but subtle lighting.</p>",
             "icon": "none"
           }
         },
         "question_JWg3Kp": {
           "type": "question",
           "settings": {
-            "question": "What vehicle types are compatible with SoundOff mPower LED lights?",
-            "answer": "<p>mPower lights are compatible with a wide range of vehicles, including police cruisers, fire apparatus, EMS vehicles, motorcycles, utility trucks, and municipal fleets. They come in various sizes and mounting styles, making them adaptable to different vehicle platforms and custom builds.</p>",
+            "question": "Can SoundOff mpower lights be synced with each other?",
+            "answer": "<p>Absolutely. SoundOff mpower lights are built for synchronization and can be programmed to flash in unison with other mpower or SoundOff Signal lights. This allows for clean, uniform lighting patterns across your vehicle.</p>",
+            "icon": "none"
+          }
+        },
+        "question_cD3dHM": {
+          "type": "question",
+          "settings": {
+            "question": "Are SoundOff mpower lights weatherproof and durable?",
+            "answer": "<p>Yes, the entire SoundOff mpower line is engineered to be extremely durable and weather-resistant. The Clear Duty® housing is resistant to cracking, yellowing, and moisture, making it ideal for long-term use in all conditions.</p>",
+            "icon": "none"
+          }
+        },
+        "question_jtFrmQ": {
+          "type": "question",
+          "settings": {
+            "question": "Do SoundOff mpower lights come in multiple colors and flash patterns?",
+            "answer": "<p>Yes. SoundOff mpower lights are available in a variety of color configurations, including red, blue, amber, white, and green. They also support numerous programmable flash patterns to meet different operational needs and compliance standards.</p>",
+            "icon": "none"
+          }
+        },
+        "question_DPyCLH": {
+          "type": "question",
+          "settings": {
+            "question": "What vehicles are SoundOff mpower lights compatible with?",
+            "answer": "<p>SoundOff mpower lights can be installed on a wide variety of vehicles, including police cruisers, fire trucks, ambulances, tow trucks, and municipal service vehicles. Their compact design and universal mounting options make them highly adaptable.</p>",
+            "icon": "none"
+          }
+        },
+        "question_x9iR6A": {
+          "type": "question",
+          "settings": {
+            "question": "Can I install mpower lights myself?",
+            "answer": "<p>Many mpower products are designed for straightforward installation with included hardware and wiring diagrams. However, professional installation is recommended for more complex setups or when integrating with control systems and sirens.</p>",
+            "icon": "none"
+          }
+        },
+        "question_kDwrQ7": {
+          "type": "question",
+          "settings": {
+            "question": "Why choose SoundOff mpower lights from Strobes N' More?",
+            "answer": "<p>Strobes N' More offers competitive pricing, expert support, and fast shipping on all SoundOff mpower products. We are a trusted distributor and can help you select and configure the best lighting system for your emergency or fleet vehicle.</p>",
             "icon": "none"
           }
         }
@@ -161,7 +216,12 @@
         "question_Q7V7f7",
         "question_pWG86w",
         "question_XLJAbP",
-        "question_JWg3Kp"
+        "question_JWg3Kp",
+        "question_cD3dHM",
+        "question_jtFrmQ",
+        "question_DPyCLH",
+        "question_x9iR6A",
+        "question_kDwrQ7"
       ],
       "custom_css": [
         "h3 {display: none;}"
@@ -247,21 +307,6 @@
       "custom_css": [],
       "settings": {
         "enable_recently_viewed_products": true
-      }
-    },
-    "1747319666f97964a4": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_i9RCEM": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_i9RCEM"
-      ],
-      "settings": {
-        "include_padding": true
       }
     }
   },
