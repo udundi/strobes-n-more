@@ -167,40 +167,80 @@
         "question_XLJAbP": {
           "type": "question",
           "settings": {
-            "question": "What are the loudest Whelen sirens available?",
-            "answer": "<p>The Whelen WSS Series and 295SLSA6 sirens are among the loudest in Whelen’s lineup, delivering up to 200 watts of output when paired with dual speakers. These units are built for high-performance emergency response, capable of cutting through traffic noise and urban environments with powerful tones and clear audio.</p>",
+            "question": "What is a Whelen hands free siren?",
+            "answer": "<p>A Whelen hands free siren is a compact, high-performance emergency siren system designed for use without manual button activation. It enables responders to control siren tones through vehicle actions like horn presses or auxiliary switches, streamlining operation during critical responses.</p>",
             "icon": "none"
           }
         },
         "question_JWg3Kp": {
           "type": "question",
           "settings": {
-            "question": "How do Whelen sirens compare to Federal Signal sirens?",
-            "answer": "<p>Whelen sirens are known for their simplicity, reliability, and rugged build quality, while Federal Signal sirens often stand out for advanced integration and tone options. Whelen tends to offer more straightforward, easy-to-use systems, whereas Federal Signal emphasizes programmable logic and control through systems like Pathfinder. Both are high-quality—choice often comes down to fleet preferences and desired features.</p>",
+            "question": "Does Strobes N' More carry Whelen hands free sirens?",
+            "answer": "<p>Yes. Strobes N' More offers a selection of Whelen hands free sirens, including popular models like the Whelen Howler, 295SLSA6, and 295HFS, all trusted by police, fire, and EMS agencies nationwide.</p>",
             "icon": "none"
           }
         },
         "question_Bg4xCX": {
           "type": "question",
           "settings": {
-            "question": "Are Whelen sirens programmable for different tones?",
-            "answer": "<p>Yes. Most Whelen sirens offer a selection of pre-programmed tones like Wail, Yelp, Piercer, Hi-Lo, and Air Horn. Some models, like the 295SDA1, allow users to customize tone selections, tone duration, and input triggers. While they don’t offer as much deep software customization as some competitors, they’re highly functional and easy to program.</p>",
+            "question": "How does a hands free siren from Whelen work?",
+            "answer": "<p>A Whelen hands free siren allows the driver to activate or change tones using the vehicle’s horn ring or an auxiliary control switch. This keeps both hands on the wheel, improving safety while enhancing responsiveness in high-speed or high-stress scenarios.</p>",
             "icon": "none"
           }
         },
         "question_TaWtXp": {
           "type": "question",
           "settings": {
-            "question": "Can Whelen sirens be integrated with light bars?",
-            "answer": "<p>Yes. Whelen sirens are designed to work seamlessly with Whelen lightbars and control systems, including the CenCom Core and CenCom Carbide. Integration allows synchronized control of lights and sirens from a central keypad or interface, enabling scene modes, pursuit modes, and other multi-function setups.</p>",
+            "question": "What tones are included in Whelen hands free sirens?",
+            "answer": "<p>Most Whelen hands free sirens include standard tones such as wail, yelp, piercer, hi/lo, and air horn. Some models also offer tone override and radio rebroadcast functionality for maximum versatility in field communications.</p>",
             "icon": "none"
           }
         },
         "question_Qw9inQ": {
           "type": "question",
           "settings": {
-            "question": "What are the mounting options for Whelen sirens?",
-            "answer": "<p>Whelen sirens typically mount under the dash, in console enclosures, or within rack systems. Remote siren amplifiers can be mounted in the trunk or under the seat, while control heads fit into standard switch panels or faceplates. Whelen offers various mounting kits and brackets to match different vehicle types and upfit configurations.</p>",
+            "question": "Are Whelen hands free sirens easy to install?",
+            "answer": "<p>Yes. Whelen sirens are designed with ease of installation in mind and typically include clear wiring diagrams and mounting hardware. That said, for fleet or advanced integrations, professional installation is often recommended.</p>",
+            "icon": "none"
+          }
+        },
+        "question_njFkDe": {
+          "type": "question",
+          "settings": {
+            "question": "Can Whelen hands free sirens be integrated with light control systems?",
+            "answer": "<p>Absolutely. Many Whelen hands free sirens are designed to work in tandem with Whelen lightbars and warning systems, allowing synchronized control of lights and tones through a unified controller or console.</p>",
+            "icon": "none"
+          }
+        },
+        "question_iQgcEW": {
+          "type": "question",
+          "settings": {
+            "question": "Are Whelen hands free sirens suitable for undercover or low-profile vehicles?",
+            "answer": "<p>Yes. Compact and stealth-friendly models of the Whelen hands free siren are ideal for undercover units or unmarked police vehicles where discretion is key but functionality is still essential.</p>",
+            "icon": "none"
+          }
+        },
+        "question_Jp7hhJ": {
+          "type": "question",
+          "settings": {
+            "question": "Is the Whelen hands free siren legal for civilian use?",
+            "answer": "<p>In general, Whelen hands free sirens are restricted to authorized users such as police, fire, EMS, and certain public safety professionals. Civilians should consult local laws and ordinances before purchasing or installing any siren device.</p>",
+            "icon": "none"
+          }
+        },
+        "question_jdLFV8": {
+          "type": "question",
+          "settings": {
+            "question": "Can I customize the control settings on a Whelen hands free siren?",
+            "answer": "<p>Yes. Many Whelen siren systems are configurable, allowing users to assign tones to different switches, set automatic patterns, and program priority functions through dip switches or software depending on the model.</p>",
+            "icon": "none"
+          }
+        },
+        "question_36BWQy": {
+          "type": "question",
+          "settings": {
+            "question": "Why buy a Whelen hands free siren from Strobes N’ More?",
+            "answer": "<p>Strobes N' More is a trusted dealer offering competitive pricing, fast shipping, and expert support on all Whelen hands free sirens. We help first responders and fleet managers choose the right siren for their operational and compliance needs.</p>",
             "icon": "none"
           }
         }
@@ -211,7 +251,12 @@
         "question_JWg3Kp",
         "question_Bg4xCX",
         "question_TaWtXp",
-        "question_Qw9inQ"
+        "question_Qw9inQ",
+        "question_njFkDe",
+        "question_iQgcEW",
+        "question_Jp7hhJ",
+        "question_jdLFV8",
+        "question_36BWQy"
       ],
       "custom_css": [
         "h3 {display: none;}"
