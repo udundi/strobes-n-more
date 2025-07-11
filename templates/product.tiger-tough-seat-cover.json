@@ -120,25 +120,6 @@
         "include_padding": true
       }
     },
-    "17407469585773d0a2": {
-      "type": "apps",
-      "blocks": {
-        "trustshop_reviews_widget_box_9iN66A": {
-          "type": "shopify://apps/trustshop-reviews/blocks/widget-box/18b0c4cc-5411-4b6e-922d-34fdc2f30ab9",
-          "settings": {
-            "selected_product": "{{ product }}",
-            "wrapper_class": ""
-          }
-        }
-      },
-      "block_order": [
-        "trustshop_reviews_widget_box_9iN66A"
-      ],
-      "disabled": true,
-      "settings": {
-        "include_padding": true
-      }
-    },
     "1740751518ae8cc801": {
       "type": "apps",
       "blocks": {
@@ -154,22 +135,128 @@
         "include_padding": true
       }
     },
+    "dynamic_faq_AAEFLh": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_qhVGDA": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_wa8DHC": {
+          "type": "question",
+          "settings": {
+            "question": "What makes TigerTough seat covers different from other brands?",
+            "answer": "<p>TigerTough seat covers are built for durability, custom-fit precision, and rugged use. Unlike generic covers, they’re designed to match your vehicle's seats exactly and are made with military-grade materials that withstand tough job sites and daily wear.</p>",
+            "icon": "none"
+          }
+        },
+        "question_FDVcze": {
+          "type": "question",
+          "settings": {
+            "question": "Are TigerTough seat covers truly custom-fit for my vehicle?",
+            "answer": "<p>Yes. Each set is laser-measured and specifically designed for your vehicle’s year, make, and model. This ensures a perfect fit with factory features like seat belts, airbags, and controls.</p>",
+            "icon": "none"
+          }
+        },
+        "question_yF3Yr3": {
+          "type": "question",
+          "settings": {
+            "question": "How durable are TigerTough seat covers?",
+            "answer": "<p>Incredibly durable. Made with 1000 Denier Cordura® and double-stitched seams, they resist rips, stains, and spills—even in heavy-duty environments like construction, utility work, and law enforcement.</p>",
+            "icon": "none"
+          }
+        },
+        "question_h69BM4": {
+          "type": "question",
+          "settings": {
+            "question": "Can I install TigerTough seat covers myself?",
+            "answer": "<p>Yes, they’re designed for easy DIY installation with no special tools required. Step-by-step instructions are included for a snug, secure fit.</p>",
+            "icon": "none"
+          }
+        },
+        "question_AErADE": {
+          "type": "question",
+          "settings": {
+            "question": "Are TigerTough seat covers waterproof or water-resistant?",
+            "answer": "<p>They’re water-resistant and block most spills, sweat, and grime. For full waterproofing, optional waterproof layers are available.</p>",
+            "icon": "none"
+          }
+        },
+        "question_QpKXYm": {
+          "type": "question",
+          "settings": {
+            "question": "Do they work with heated or air-conditioned seats?",
+            "answer": "<p>Absolutely. TigerTough seat covers are safe to use with climate-controlled seats and won't interfere with their functionality.</p>",
+            "icon": "none"
+          }
+        },
+        "question_TzcFWz": {
+          "type": "question",
+          "settings": {
+            "question": "Can I machine wash TigerTough seat covers?",
+            "answer": "<p>Yes. They’re machine washable and built to handle repeated cleaning without fraying or fading.</p>",
+            "icon": "none"
+          }
+        },
+        "question_W6CTLa": {
+          "type": "question",
+          "settings": {
+            "question": "Do these seat covers protect against pet damage?",
+            "answer": "<p>Definitely. TigerTough covers are pet-resistant and protect your seats from claws, fur, and drool—perfect for dog owners.</p>",
+            "icon": "none"
+          }
+        },
+        "question_nmrQpk": {
+          "type": "question",
+          "settings": {
+            "question": "Are TigerTough seat covers available for commercial and fleet vehicles?",
+            "answer": "<p>Yes. Strobes N More offers seat covers for a wide range of work trucks, vans, and fleet vehicles with special pricing for bulk orders.</p>",
+            "icon": "none"
+          }
+        },
+        "question_P3dVNA": {
+          "type": "question",
+          "settings": {
+            "question": "Why buy TigerTough seat covers from Strobes N More?",
+            "answer": "<p>Strobes N More is an authorized dealer with fast shipping, great support, and a deep understanding of professional vehicle outfitting. We help you get the best protection, fast.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_qhVGDA",
+        "question_wa8DHC",
+        "question_FDVcze",
+        "question_yF3Yr3",
+        "question_h69BM4",
+        "question_AErADE",
+        "question_QpKXYm",
+        "question_TzcFWz",
+        "question_W6CTLa",
+        "question_nmrQpk",
+        "question_P3dVNA"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "wide",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
     "recommendations": {
       "type": "static-product-recommendations",
       "settings": {
         "show_product_recommendations": true,
         "product_recommendations_heading": "You May Also Like"
-      }
-    },
-    "dynamic_rich_text_nH4Ctq": {
-      "type": "dynamic-rich-text",
-      "disabled": true,
-      "settings": {
-        "width": "wide",
-        "title": "Will Use Testimonials app here",
-        "text": "",
-        "heading_size": "medium",
-        "text_alignment": "center"
       }
     },
     "dynamic_highlights_banner_DTRagm": {
@@ -232,10 +319,9 @@
   "order": [
     "main",
     "17361695840f23726e",
-    "17407469585773d0a2",
     "1740751518ae8cc801",
+    "dynamic_faq_AAEFLh",
     "recommendations",
-    "dynamic_rich_text_nH4Ctq",
     "dynamic_highlights_banner_DTRagm",
     "recently-viewed"
   ]
