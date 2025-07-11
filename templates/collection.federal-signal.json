@@ -57,87 +57,80 @@
         "question_7tUK8A": {
           "type": "question",
           "settings": {
-            "question": "What are the top Federal Signal light bars for emergency vehicles?",
-            "answer": "<p>Federal Signal’s top light bars include the Allegiant, Integrity, and Valor series. The Allegiant is known for its dual-layer design and customizable zones. The Integrity offers full-spectrum lighting with advanced flash patterns. The Valor stands out with its curved shape and high-visibility design, ideal for patrol and pursuit vehicles.</p>",
+            "question": "What is a Federal Signal lightbar?",
+            "answer": "<p>A Federal Signal lightbar is a high-performance emergency lighting system commonly used by police, fire, EMS, and other public safety vehicles. These lightbars feature cutting-edge LED technology, customizable flash patterns, and durable construction for optimal visibility in critical situations.</p>",
             "icon": "none"
           }
         },
         "question_C6iYpN": {
           "type": "question",
           "settings": {
-            "question": "How does the Federal Signal Allegiant light bar compare to the Integrity series?",
-            "answer": "<p>The Allegiant is more customizable, with dual-level lighting and up to 28 flash patterns per color. It’s great for agencies needing directional traffic control and zone control. The Integrity, while slightly more compact, is built for 360° coverage and has a sleek, low-profile design. Both support programmable features, but Allegiant offers more modular flexibility.</p>",
+            "question": "Does Strobes N' More carry Federal Signal lightbars?",
+            "answer": "<p>Yes, Strobes N' More proudly offers a selection of Federal Signal lightbars, including the popular Integrity®, Legend®, and Valor® series. These models are known for their brightness, reliability, and advanced features tailored for emergency and utility use.</p>",
             "icon": "none"
           }
         },
         "question_ffyGcn": {
           "type": "question",
           "settings": {
-            "question": "Are Federal Signal light bars easy to install and program?",
-            "answer": "<p>Yes, especially with proper tools and planning. Many Federal Signal bars come with pre-wired harnesses and clear install guides. Their Platinum Series bars support plug-and-play setups. Programming is done through a compatible controller or software like Federal Signal’s Convergence Network, allowing full control over flash patterns, zones, and sync functions.</p>",
+            "question": "What are the key features of Federal Signal lightbars?",
+            "answer": "<p>Federal Signal lightbars include features like 360° light coverage, multicolor modules, low-profile design, integrated signal control, and programmable flash patterns. Many models also support vehicle synchronization and control system integration.</p>",
             "icon": "none"
           }
         },
         "question_Khrmfz": {
           "type": "question",
           "settings": {
-            "question": "What are the available color options for Federal Signal light bars?",
-            "answer": "<p>Color options include red, blue, amber, white, and green, with dual-color modules also available. Colors can be configured for specific zones, directional functions, or custom flash sequences. Most bars can be factory-customized to meet agency or jurisdictional standards.</p>",
+            "question": "Can I install a Federal Signal lightbar on my personal or fleet vehicle?",
+            "answer": "<p>Yes, many Federal Signal lightbars are compatible with a wide range of vehicle types. Strobes N' More provides universal mounting kits and installation support for individuals, fleets, and emergency service agencies.</p>",
             "icon": "none"
           }
         },
         "question_r49x6L": {
           "type": "question",
           "settings": {
-            "question": "How do Federal Signal light bars integrate with siren controllers?",
-            "answer": "<p>Federal Signal light bars pair seamlessly with their siren controllers like the SmartSiren Platinum or Pathfinder system. These allow control over lighting functions, siren tones, takedowns, and traffic arrows—all from a single interface. Integration is often handled through CAN bus or serial connections for efficient setup and synchronization.</p>",
+            "question": "What is the Federal Signal Corporation siren?",
+            "answer": "<p>The Federal Signal Corporation siren is a powerful and reliable auditory warning device used on emergency vehicles. These sirens provide distinct tones, including wail, yelp, and air horn, to alert nearby drivers and pedestrians during response operations.</p>",
             "icon": "none"
-          }
-        },
-        "category_WkBUjh": {
-          "type": "category",
-          "settings": {
-            "heading": "Federal Signal Corporation Siren",
-            "show_category_card": true
           }
         },
         "question_AKhFTx": {
           "type": "question",
           "settings": {
-            "question": "What are the most powerful sirens from Federal Signal?",
-            "answer": "<p>The Pathfinder, SmartSiren Platinum, and Unitrol 800 Series are among Federal Signal’s most powerful and feature-rich sirens. The Pathfinder is a top-tier digital system with full tone control and lighting integration. The SmartSiren Platinum offers versatile outputs and compatibility with Federal Signal light bars. For classic durability, the Unitrol series remains a trusted choice in many fleets.</p>",
+            "question": "Do you sell sirens made by Federal Signal Corporation?",
+            "answer": "<p>Absolutely. Strobes N' More carries a wide range of Federal Signal Corporation sirens, including popular models like the Smart Siren® Platinum and Touchmaster Delta®. These units are engineered for performance, reliability, and integration with lighting systems.</p>",
             "icon": "none"
           }
         },
         "question_aNQ9bY": {
           "type": "question",
           "settings": {
-            "question": "How does the Federal Signal Pathfinder siren system work?",
-            "answer": "<p>The Pathfinder is a fully digital, multi-channel siren and controller system. It combines siren tones, radio rebroadcast, and emergency lighting control into one unit. Controlled via a keypad or touchscreen, it lets users trigger specific tones, lighting patterns, and even voice commands. It integrates with CAN networks and is compatible with multiple vehicles and lighting setups.</p>",
+            "question": "What makes Federal Signal sirens a top choice for emergency vehicles?",
+            "answer": "<p>Federal Signal Corporation sirens are renowned for their high output, durable design, and advanced features such as dual-tone capability, programmable tones, and compatibility with lighting controllers. They're trusted by first responders across the U.S.</p>",
             "icon": "none"
           }
         },
         "question_gFgjkE": {
           "type": "question",
           "settings": {
-            "question": "Are Federal Signal sirens programmable for different tones?",
-            "answer": "<p>Yes, most Federal Signal sirens—including the Pathfinder and SmartSiren Platinum—are fully programmable. You can choose from standard tones like Wail, Yelp, Hi-Lo, Priority, and Air Horn, and assign them to different buttons or switches. Some systems also support radio rebroadcast and public address functions.</p>",
+            "question": "Are Federal Signal lightbars and sirens easy to install?",
+            "answer": "<p>Many Federal Signal products are designed for easy integration with existing vehicle systems. While DIY installation is possible for experienced users, professional installation is recommended for fleet vehicles or systems requiring complex wiring and synchronization.</p>",
             "icon": "none"
           }
         },
         "question_iTbndg": {
           "type": "question",
           "settings": {
-            "question": "Can Federal Signal sirens be used with any emergency lighting system?",
-            "answer": "<p>Generally yes. While they’re optimized for use with Federal Signal lighting, most sirens can be integrated with third-party emergency lights using standard outputs and wiring. The key is ensuring voltage compatibility and proper synchronization. Some advanced features (like serial communication) may only work within the Federal Signal ecosystem.</p>",
+            "question": "Can Federal Signal sirens be controlled remotely or through a console?",
+            "answer": "<p>Yes. Most Federal Signal Corporation sirens are compatible with external control consoles and offer remote operation features. Strobes N' More also provides compatible control systems for seamless integration and in-cab access.</p>",
             "icon": "none"
           }
         },
         "question_MMFQak": {
           "type": "question",
           "settings": {
-            "question": "What mounting options are available for Federal Signal sirens?",
-            "answer": "<p>Federal Signal sirens can be mounted under dashboards, in center consoles, or rack-mounted depending on the unit. Compact remote systems like the Pathfinder also support hidden installations with only a control head visible. Brackets and mounts are available for most vehicle types, and some systems offer handheld or flush-mount control heads.</p>",
+            "question": "Why choose Federal Signal products from Strobes N' More?",
+            "answer": "<p>Strobes N' More offers competitive pricing, fast shipping, and knowledgeable support for all Federal Signal lightbars and siren systems. We are an authorized distributor and provide expert guidance to ensure you choose the right setup for your emergency or utility vehicle.</p>",
             "icon": "none"
           }
         }
@@ -149,14 +142,15 @@
         "question_ffyGcn",
         "question_Khrmfz",
         "question_r49x6L",
-        "category_WkBUjh",
         "question_AKhFTx",
         "question_aNQ9bY",
         "question_gFgjkE",
         "question_iTbndg",
         "question_MMFQak"
       ],
-      "custom_css": [],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
       "settings": {
         "section_width": "wide",
         "heading": "Frequently Asked Questions",
