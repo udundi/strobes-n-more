@@ -44,6 +44,134 @@
         "image_crop": "original"
       }
     },
+    "dynamic_rich_text_CzDtJC": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2>Be Heard, Be Seen: Ultimate Siren Solutions for Safety</h2><p>Safety is the cornerstone of any emergency response or utility operation, and the right <strong>emergency vehicle siren</strong> is a cornerstone of that safety. At Strobes N’ More, we understand that your siren is a critical communication tool—one that separates a routine drive from a lifesaving mission. Our products are engineered for unmatched reliability, tested under extreme conditions, and compliant with industry standards so that your vehicle stands out, loud and clear, in any situation.</p><p>Choosing the right siren means choosing clarity in chaos. Our compact units and full-range amplifiers offer tone flexibility, quick response triggers, and fail-safe output to ensure you’re never left unheard. They work seamlessly with LED systems—synchronized for maximum awareness and compliance—empowering you to manage traffic, secure scenes, and navigate emergencies with authority. Whether equipping a lone work truck or upgrading an entire fleet, our sirens deliver exceptional audio presence, durability, and peace of mind. Choose Strobes N’ More for systems that work as hard as you do—because your crew’s safety, and the public’s, depends on being heard.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_faq_x44awL": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_PFQbJf": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_CxKpKz": {
+          "type": "question",
+          "settings": {
+            "question": "Why is an emergency vehicle siren essential for work trucks?",
+            "answer": "<p>It ensures fast, unmistakable alerting of nearby traffic and pedestrians—vital during roadside operations or low‑visibility situations.</p>",
+            "icon": "none"
+          }
+        },
+        "question_LcXPnM": {
+          "type": "question",
+          "settings": {
+            "question": "How do sirens improve response time?",
+            "answer": "<p>They clear lanes instantly, minimizing delays and creating safer access for emergency or utility crews.</p>",
+            "icon": "none"
+          }
+        },
+        "question_HbaUWh": {
+          "type": "question",
+          "settings": {
+            "question": "What types of siren tones are available?",
+            "answer": "<p>Options range from wail, yelp, air horn, and manual to customizable multi-tone cycles to match regional standards.</p>",
+            "icon": "none"
+          }
+        },
+        "question_6QzAKU": {
+          "type": "question",
+          "settings": {
+            "question": "Can sirens be integrated with LED light systems?",
+            "answer": "<p>Yes—our sirens easily sync with LED strobes to create a multi-sensory alert package.</p>",
+            "icon": "none"
+          }
+        },
+        "question_hMwcaf": {
+          "type": "question",
+          "settings": {
+            "question": "Are your sirens compliant with regulations?",
+            "answer": "<p>Our lineup includes IEC/SAE‑certified units designed for emergency service and utility vehicle use; always check local codes.</p>",
+            "icon": "none"
+          }
+        },
+        "question_XXMBhV": {
+          "type": "question",
+          "settings": {
+            "question": "Do sirens require special installation?",
+            "answer": "<p>Models vary—some mount on the dash, others need amplifier installation. Wiring guidelines are provided; professional installation is recommended for amp units.</p>",
+            "icon": "none"
+          }
+        },
+        "question_Nq6Gb6": {
+          "type": "question",
+          "settings": {
+            "question": "Are your sirens durable for off-road or harsh environments?",
+            "answer": "<p>Absolutely—built to resist water, vibration, and extreme temperatures for long-term field use.</p>",
+            "icon": "none"
+          }
+        },
+        "question_RzRADz": {
+          "type": "question",
+          "settings": {
+            "question": "Can I control siren tones from inside the cab?",
+            "answer": "<p>Yes—most systems include an easy-control switch or panel for multiple-tone selection.</p>",
+            "icon": "none"
+          }
+        },
+        "question_JLPPwX": {
+          "type": "question",
+          "settings": {
+            "question": "Do you offer amplification units for large vehicles?",
+            "answer": "<p>Yes—we provide powerful amplifiers tailored for fire trucks, tow fleets, and heavy-duty utility vehicles.</p>",
+            "icon": "none"
+          }
+        },
+        "question_CJJCrw": {
+          "type": "question",
+          "settings": {
+            "question": "Is aftermarket siren installation deductible for fleets?",
+            "answer": "<p>In many jurisdictions, emergency or utility upgrades are tax-deductible or eligible for fleet vehicle allowances; consult your accountant.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_PFQbJf",
+        "question_CxKpKz",
+        "question_LcXPnM",
+        "question_HbaUWh",
+        "question_6QzAKU",
+        "question_hMwcaf",
+        "question_XXMBhV",
+        "question_Nq6Gb6",
+        "question_RzRADz",
+        "question_JLPPwX",
+        "question_CJJCrw"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "wide",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
     "static-recently-viewed": {
       "type": "static-recently-viewed",
       "settings": {
@@ -53,6 +181,8 @@
   },
   "order": [
     "main",
+    "dynamic_rich_text_CzDtJC",
+    "dynamic_faq_x44awL",
     "static-recently-viewed"
   ]
 }
