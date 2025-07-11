@@ -49,10 +49,83 @@
       "settings": {
         "enable_recently_viewed_products": true
       }
+    },
+    "dynamic_faq_3Q9KUC": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_ynm7xw": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_TLGMjT": {
+          "type": "question",
+          "settings": {
+            "question": "What is the Whelen CenCom system and how does it function?",
+            "answer": "<p>The Whelen CenCom system is an advanced control and integration platform for emergency vehicle lights, sirens, and accessories. It centralizes all functions—warning lights, traffic advisor, siren tones, and scene lighting—into one programmable unit. It connects to vehicle systems via hardwired inputs and CAN bus (in Core models), allowing event-based automation and streamlined control from a single keypad.</p>",
+            "icon": "none"
+          }
+        },
+        "question_iVyYGw": {
+          "type": "question",
+          "settings": {
+            "question": "Which Whelen light bars are compatible with the CenCom control system?",
+            "answer": "<p>CenCom is compatible with most Whelen serial-controlled lightbars, including the Liberty™ II, Freedom™ IV, Legacy™, and WeCanX™ series. These bars integrate directly with the CenCom system for pattern syncing, dimming, traffic direction, and diagnostic feedback. Standard lightbars can also be controlled via relay outputs.</p>",
+            "icon": "none"
+          }
+        },
+        "question_FPD8in": {
+          "type": "question",
+          "settings": {
+            "question": "Is CenCom Core programmable via software?",
+            "answer": "<p>Yes. CenCom Core is fully programmable using Whelen Command™ software, which allows users to:</p><ul><li>Assign functions to each button</li><li>Create custom flash patterns</li><li>Set vehicle event triggers (e.g., door open, vehicle in park)</li><li>Configure I/O, audio, and traffic modes</li><li>Run diagnostics and firmware updates</li></ul><p>Programming can be done via USB or Ethernet connection.</p>",
+            "icon": "none"
+          }
+        },
+        "question_rqhpgi": {
+          "type": "question",
+          "settings": {
+            "question": "Can CenCom control both lights and sirens?",
+            "answer": "<p>Absolutely. CenCom is designed to control all major lighting and siren functions. It supports siren tone activation, radio rebroadcast, air horn override, and speaker output alongside full control of warning, scene, and directional lights. It’s a complete command solution for emergency vehicle upfits.</p>",
+            "icon": "none"
+          }
+        },
+        "question_HRbdeq": {
+          "type": "question",
+          "settings": {
+            "question": "What accessories are available for the Whelen CenCom system?",
+            "answer": "<p>Key accessories include:</p><ul><li>Keypads and touch controllers (standard and handheld)</li><li>Expansion modules for additional inputs/outputs</li><li>Whelen WeCanX modules for network-based lighting</li><li>Diagnostic tools and cables for configuration and updates</li><li>Mounting kits for dash, console, or remote installs</li></ul><p>These accessories allow scalable control systems from basic to fully customized command vehicles.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_ynm7xw",
+        "question_TLGMjT",
+        "question_iVyYGw",
+        "question_FPD8in",
+        "question_rqhpgi",
+        "question_HRbdeq"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "wide",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "main",
-    "static-recently-viewed"
+    "static-recently-viewed",
+    "dynamic_faq_3Q9KUC"
   ]
 }
