@@ -44,12 +44,6 @@
         "image_crop": "original"
       }
     },
-    "static-recently-viewed": {
-      "type": "static-recently-viewed",
-      "settings": {
-        "enable_recently_viewed_products": true
-      }
-    },
     "dynamic_faq_3Q9KUC": {
       "type": "dynamic-faq",
       "blocks": {
@@ -121,11 +115,17 @@
         "category_heading_size": "medium",
         "icon_color": "rgba(0,0,0,0)"
       }
+    },
+    "static-recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
     }
   },
   "order": [
     "main",
-    "static-recently-viewed",
-    "dynamic_faq_3Q9KUC"
+    "dynamic_faq_3Q9KUC",
+    "static-recently-viewed"
   ]
 }
