@@ -57,40 +57,80 @@
         "question_7tUK8A": {
           "type": "question",
           "settings": {
-            "question": "What are the different types of automotive light switches available?",
-            "answer": "<p>Automotive light switches come in several types, including rocker switches, toggle switches, push-button switches, rotary dials, and multi-position switches. Some are simple on/off designs, while others offer multiple outputs or momentary functions. Many switches are also backlit or labeled for emergency, work, or auxiliary lighting.</p>",
+            "question": "What is a light controller, and how is it used in emergency vehicles?",
+            "answer": "<p>A light controller is an in-vehicle device that allows users to manage and activate multiple lighting systems—such as strobes, lightbars, and flashers—from a single interface. In emergency vehicles, this enables quick access to warning lights, scene lighting, and directional signals.</p>",
             "icon": "none"
           }
         },
         "question_C6iYpN": {
           "type": "question",
           "settings": {
-            "question": "How do I wire an automotive light switch for emergency lighting?",
-            "answer": "<p>Wiring typically involves connecting the switch to a 12V power source, a fuse, and the positive lead of the light. Ground the light and ensure proper amperage for the circuit. For setups with multiple lights or flash patterns, use a relay or control module to manage load and protect the switch.</p>",
+            "question": "What types of automotive light switches are available at Strobes N' More?",
+            "answer": "<p>We offer a range of automotive light switches, from basic toggle and rocker switches to advanced programmable control panels. These switches are compatible with LED lightbars, auxiliary lighting, sirens, and integrated strobe systems for both fleet and emergency vehicles.</p>",
             "icon": "none"
           }
         },
         "question_ffyGcn": {
           "type": "question",
           "settings": {
-            "question": "Are automotive light switches universal or vehicle-specific?",
-            "answer": "<p>Most aftermarket light switches are universal, designed to fit standard 12V systems and dash panels. However, some OEM-style switches are vehicle-specific, built to match factory styling and connectors. Always check sizing, voltage, and mounting dimensions before purchasing.</p>",
+            "question": "What is a strobe light controller, and why do I need one?",
+            "answer": "<p>A strobe light controller enables users to activate and cycle through different flash patterns on LED strobe lights. It provides precise control over timing, synchronization, and pattern selection—crucial for creating an effective and attention-grabbing warning display.</p>",
             "icon": "none"
           }
         },
         "question_Khrmfz": {
           "type": "question",
           "settings": {
-            "question": "What safety features should I look for in an automotive light switch?",
-            "answer": "<p>Look for switches with built-in fuses or circuit protection, water-resistant or weather-sealed designs, and LED indicators for active status. For emergency or high-power setups, choose switches rated for higher amperage and use with a relay to prevent overheating or circuit failure.</p>",
+            "question": "Do you carry emergency light controllers for police and fire vehicles?",
+            "answer": "<p>Yes. Strobes N' More supplies high-quality emergency light controllers designed specifically for law enforcement, fire, EMS, and public safety vehicles. These systems allow seamless control of multiple lighting zones and can be integrated with sirens and PA systems.</p>",
             "icon": "none"
           }
         },
         "question_r49x6L": {
           "type": "question",
           "settings": {
-            "question": "Can a single automotive light switch control multiple lights?",
-            "answer": "<p>Yes, a single switch can control multiple lights if they’re wired in parallel and the total current doesn’t exceed the switch’s rating. For larger setups, using a relay or control box is safer and more reliable. Some multi-function switches also allow independent control of zones or flash patterns.</p>",
+            "question": "Can I install a strobe controller myself?",
+            "answer": "<p>Many strobe controllers offered by Strobes N' More are designed for easy installation with included wiring diagrams. DIY installation is possible for users with basic electrical knowledge, but we recommend professional installation for more complex or integrated setups.</p>",
+            "icon": "none"
+          }
+        },
+        "question_B9YtVU": {
+          "type": "question",
+          "settings": {
+            "question": "What is a light control switch, and how is it different from a regular switch?",
+            "answer": "<p>A light control switch is typically part of a multi-function panel or digital controller used to manage auxiliary and emergency lights. Unlike a regular switch, it often includes programmable features, backlighting, labeling, and the ability to control multiple outputs from a single point.</p>",
+            "icon": "none"
+          }
+        },
+        "question_kKTV4y": {
+          "type": "question",
+          "settings": {
+            "question": "Are your automotive light switches weather-resistant and durable?",
+            "answer": "<p>Yes. Our automotive light switches and controllers are built for harsh environments. Many are rated for dust and moisture resistance and feature heavy-duty housings, making them ideal for police, fire, utility, and off-road use.</p>",
+            "icon": "none"
+          }
+        },
+        "question_7KXW48": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use your strobe light controllers on construction or utility vehicles?",
+            "answer": "<p>Absolutely. Our strobe light controllers are perfect for construction fleets, snow plows, tow trucks, and utility vehicles. They provide reliable control of amber and white warning lights, ensuring visibility and compliance with road safety regulations.</p>",
+            "icon": "none"
+          }
+        },
+        "question_BaYwNn": {
+          "type": "question",
+          "settings": {
+            "question": "Do your light controllers support synchronization between multiple strobe units?",
+            "answer": "<p>Yes. Most light controllers and strobe controllers we offer support synchronization features. This allows all connected strobe lights to flash in sync or follow alternating patterns, enhancing the visibility and effectiveness of your warning system.</p>",
+            "icon": "none"
+          }
+        },
+        "question_JjN8Mm": {
+          "type": "question",
+          "settings": {
+            "question": "Why should I buy light controllers and switches from Strobes N’ More?",
+            "answer": "<p>Strobes N’ More offers top-quality light control solutions, including emergency light controllers, automotive light switches, and strobe controllers from leading brands. Our team provides expert support, competitive pricing, and fast shipping to ensure your vehicle is equipped safely and efficiently.</p>",
             "icon": "none"
           }
         }
@@ -101,7 +141,12 @@
         "question_C6iYpN",
         "question_ffyGcn",
         "question_Khrmfz",
-        "question_r49x6L"
+        "question_r49x6L",
+        "question_B9YtVU",
+        "question_kKTV4y",
+        "question_7KXW48",
+        "question_BaYwNn",
+        "question_JjN8Mm"
       ],
       "custom_css": [
         "h3 {display: none;}"
