@@ -44,6 +44,134 @@
         "image_crop": "original"
       }
     },
+    "dynamic_rich_text_Kn9KpT": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<p>Still have questions about choosing the right tow light bar for your wrecker or recovery vehicle? Explore our most frequently asked questions below to learn more about compatibility, installation, legal requirements, and more.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_faq_AaGepT": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_XtXqGp": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_EQAxVA": {
+          "type": "question",
+          "settings": {
+            "question": "What’s the best light bar for a tow truck?",
+            "answer": "<p>The best light bar for a tow truck offers high visibility, durable construction, and features like multiple flash patterns and weather resistance. Our collection includes top-rated models with these features.</p>",
+            "icon": "none"
+          }
+        },
+        "question_QRfcbK": {
+          "type": "question",
+          "settings": {
+            "question": "Are your tow light bars compatible with all tow trucks?",
+            "answer": "<p>Yes, our tow light bars are designed for universal mounting and are compatible with most light-duty, medium-duty, and heavy-duty tow trucks.</p>",
+            "icon": "none"
+          }
+        },
+        "question_GjbTQr": {
+          "type": "question",
+          "settings": {
+            "question": "Do I need a special permit to install a tow truck light bar?",
+            "answer": "<p>Regulations vary by state. Some jurisdictions require amber lighting only, while others have restrictions on strobe or red/blue lights. Check local laws before installing.</p>",
+            "icon": "none"
+          }
+        },
+        "question_74cHLy": {
+          "type": "question",
+          "settings": {
+            "question": "How do I install a light bar on my wrecker?",
+            "answer": "<p>Most tow light bars come with mounting brackets and wiring kits. Installation involves securing the bar to the roof or headache rack and connecting it to a switch or power controller.</p>",
+            "icon": "none"
+          }
+        },
+        "question_wGWHtq": {
+          "type": "question",
+          "settings": {
+            "question": "Are the tow truck light bars waterproof?",
+            "answer": "<p>Yes, the majority of our light bars for tow trucks are IP67 or IP68 rated, ensuring resistance to dust and water for safe operation in all weather conditions.</p>",
+            "icon": "none"
+          }
+        },
+        "question_cXKaVP": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use a tow light bar for roadside assistance vehicles?",
+            "answer": "<p>Absolutely. Many of our tow light bars are used by roadside assistance fleets, including tire change and battery jump vehicles.</p>",
+            "icon": "none"
+          }
+        },
+        "question_CibNdw": {
+          "type": "question",
+          "settings": {
+            "question": "What flash patterns are available on your tow light bars?",
+            "answer": "<p>Most models offer a variety of programmable flash patterns, including alternating, sequential, and directional flashes, to enhance roadside visibility.</p>",
+            "icon": "none"
+          }
+        },
+        "question_zG4hQQ": {
+          "type": "question",
+          "settings": {
+            "question": "Do your light bars support plug-and-play installation?",
+            "answer": "<p>Select models come with plug-and-play functionality for quick setup, while others may require hardwiring.</p>",
+            "icon": "none"
+          }
+        },
+        "question_xpzyX3": {
+          "type": "question",
+          "settings": {
+            "question": "Is there a warranty on tow truck light bars?",
+            "answer": "<p>Yes, our tow light bars typically come with warranties ranging from 1 to 5 years, depending on the brand and model.</p>",
+            "icon": "none"
+          }
+        },
+        "question_qDN4Mi": {
+          "type": "question",
+          "settings": {
+            "question": "Can I connect a tow light bar to my existing emergency lighting system?",
+            "answer": "<p>Most bars are compatible with auxiliary lighting systems and can be integrated with controllers like Feniex, SoundOff Signal, or Whelen.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_XtXqGp",
+        "question_EQAxVA",
+        "question_QRfcbK",
+        "question_GjbTQr",
+        "question_74cHLy",
+        "question_wGWHtq",
+        "question_cXKaVP",
+        "question_CibNdw",
+        "question_zG4hQQ",
+        "question_xpzyX3",
+        "question_qDN4Mi"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "wide",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
     "static-recently-viewed": {
       "type": "static-recently-viewed",
       "settings": {
@@ -53,6 +181,8 @@
   },
   "order": [
     "main",
+    "dynamic_rich_text_Kn9KpT",
+    "dynamic_faq_AaGepT",
     "static-recently-viewed"
   ]
 }
