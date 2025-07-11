@@ -49,10 +49,83 @@
       "settings": {
         "enable_recently_viewed_products": true
       }
+    },
+    "dynamic_faq_GmJCiw": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_bnVtwf": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_CfqH9R": {
+          "type": "question",
+          "settings": {
+            "question": "What are micro dash lights and how are they used in emergency vehicles?",
+            "answer": "<p>Micro dash lights are compact, high-intensity LED lights designed for mounting on the inside of the windshield or rear window. They’re commonly used in unmarked police vehicles, volunteer firefighter cars, and utility fleets for quick, high-visibility warning without permanent exterior installation. Despite their size, they offer powerful light output.</p>",
+            "icon": "none"
+          }
+        },
+        "question_thMiMJ": {
+          "type": "question",
+          "settings": {
+            "question": "How do I mount and wire micro dash lights?",
+            "answer": "<p>Most micro dash lights come with suction cup mounts or bracket systems for easy attachment to the windshield or dash. Wiring depends on the model: many include a cigarette lighter plug with built-in switch and flash pattern selector, while hardwired models connect directly to a 12V power source for permanent installs.</p>",
+            "icon": "none"
+          }
+        },
+        "question_aCinh3": {
+          "type": "question",
+          "settings": {
+            "question": "What flash patterns are available in micro dash lights?",
+            "answer": "<p>Micro dash lights typically come with 8 to 30+ flash patterns, including single, double, triple strobe, quad flash, alternating, and random patterns. Many also support pattern memory, so the light remembers the last setting used when turned off and back on.</p>",
+            "icon": "none"
+          }
+        },
+        "question_KTyr8N": {
+          "type": "question",
+          "settings": {
+            "question": "Are micro dash lights visible in daylight conditions?",
+            "answer": "<p>Yes. High-quality micro dash lights use high-output LEDs and focused optics to maintain visibility even in direct sunlight. While they’re most effective at night or in low-light conditions, top-tier models are daylight-visible from a distance, especially when mounted properly and angled toward oncoming traffic.</p>",
+            "icon": "none"
+          }
+        },
+        "question_fJXMti": {
+          "type": "question",
+          "settings": {
+            "question": "Can micro dash lights be used with cigarette plug power adapters?",
+            "answer": "<p>Yes. Many models are designed specifically for plug-and-play use with cigarette lighter adapters. These versions often include a switch for power and flash pattern control on the plug itself, making them ideal for quick, temporary setups or shared fleet vehicles.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_bnVtwf",
+        "question_CfqH9R",
+        "question_thMiMJ",
+        "question_aCinh3",
+        "question_KTyr8N",
+        "question_fJXMti"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "wide",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
     }
   },
   "order": [
     "main",
-    "static-recently-viewed"
+    "static-recently-viewed",
+    "dynamic_faq_GmJCiw"
   ]
 }
