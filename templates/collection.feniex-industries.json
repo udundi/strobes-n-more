@@ -57,40 +57,80 @@
         "question_7tUK8A": {
           "type": "question",
           "settings": {
-            "question": "What are the most popular Feniex light bars for emergency vehicles?",
-            "answer": "<p>Top Feniex light bars include the Fusion-S, Quad, and Fusion 2.0 series. The Fusion-S offers single-color, high-intensity output with 40° or 180° optics for focused or wide-angle coverage. The Quad series is fully customizable with four colors per module. These bars are known for their brightness, sleek design, and user-friendly programming.</p>",
+            "question": "What are Feniex lights used for?",
+            "answer": "<p>Feniex lights are high-intensity LED lighting systems designed for emergency vehicles, utility trucks, and commercial fleets. They provide superior visibility, customizable flash patterns, and rugged performance in demanding environments such as law enforcement, fire rescue, and roadside assistance.</p>",
             "icon": "none"
           }
         },
         "question_C6iYpN": {
           "type": "question",
           "settings": {
-            "question": "How does Feniex’s Fusion technology enhance lighting performance?",
-            "answer": "<p>Fusion technology allows users to choose between 40° narrow optics for focused forward warning or 180° wide optics for maximum side visibility. This flexibility helps tailor each light to its exact mounting position and function, improving visibility and safety while reducing glare or light waste.</p>",
+            "question": "Does Strobes N' More sell Feniex lights?",
+            "answer": "<p>Yes, Strobes N' More is an authorized dealer of Feniex lights, offering a wide selection of lightbars, grille lights, dash lights, and surface-mount LEDs from Feniex Industries — all known for their innovation, performance, and durability.</p>",
             "icon": "none"
           }
         },
         "question_ffyGcn": {
           "type": "question",
           "settings": {
-            "question": "Are Feniex lights waterproof and weather-resistant?",
-            "answer": "<p>Yes, Feniex lights are built for harsh environments. Most units carry IP67 or higher ratings, meaning they’re dust-tight and water-resistant for use in rain, snow, mud, or off-road conditions. The housings are built from rugged materials to withstand vibration, UV exposure, and extreme temperatures.</p>",
+            "question": "What types of Feniex lighting products are available?",
+            "answer": "<p>We carry the full range of Feniex lights, including the Quad and Fusion series lightbars, T3 surface mounts, cannon hideaways, interior visor bars, and control systems like the Feniex 4200. These products suit everything from stealth installs to high-visibility patrol setups.</p>",
             "icon": "none"
           }
         },
         "question_Khrmfz": {
           "type": "question",
           "settings": {
-            "question": "What power supply is required for Feniex LED warning lights?",
-            "answer": "<p>Most Feniex lights operate on a 12V DC system, which is standard for emergency and fleet vehicles. Some models can handle 10–16V ranges, and higher-end setups may use control boxes or relay modules to manage multiple lights. Always check individual product specs for current draw and fuse requirements.</p>",
+            "question": "What makes Feniex lights different from other emergency vehicle lights?",
+            "answer": "<p>Feniex lights are known for their American-made quality, low current draw, long LED lifespan, and industry-leading brightness. Their modular designs and plug-and-play functionality make them easy to install and customize.</p>",
             "icon": "none"
           }
         },
         "question_r49x6L": {
           "type": "question",
           "settings": {
-            "question": "Can Feniex lights be synchronized with other emergency lighting systems?",
-            "answer": "<p>Yes, many Feniex lights can sync with other Feniex products using built-in sync wires or through the Feniex Module Programmer (FMP). Syncing with other brands may be possible but depends on flash pattern compatibility and wiring configurations. For best performance and full feature access, stick with an all-Feniex setup.</p>",
+            "question": "Can I install Feniex lights myself?",
+            "answer": "<p>Yes, many Feniex lighting systems are designed for user-friendly installation with detailed guides and pre-wired connectors. However, professional installation is recommended for more complex setups or full-vehicle integration.</p>",
+            "icon": "none"
+          }
+        },
+        "question_9mxkNx": {
+          "type": "question",
+          "settings": {
+            "question": "Are Feniex lights legal for civilian use?",
+            "answer": "<p>Some Feniex lights, such as amber or white LEDs, are legal for civilian or commercial use (e.g., towing, construction). However, red and blue configurations are typically restricted to emergency personnel. Always check your local laws before purchasing or installing lights.</p>",
+            "icon": "none"
+          }
+        },
+        "question_GU9A3z": {
+          "type": "question",
+          "settings": {
+            "question": "Do Feniex lights come with warranty coverage?",
+            "answer": "<p>Yes, Feniex lights are backed by a robust manufacturer warranty. Most products include a 2–5 year limited warranty covering defects in materials and workmanship. Strobes N' More can assist with warranty claims or product support as needed.</p>",
+            "icon": "none"
+          }
+        },
+        "question_iQPUbk": {
+          "type": "question",
+          "settings": {
+            "question": "Can I synchronize multiple Feniex lights on one vehicle?",
+            "answer": "<p>Absolutely. Feniex lights are engineered to be easily synced with each other, especially within the same series (e.g., Fusion, Quad). This creates coordinated flash patterns for a unified and professional lighting display.</p>",
+            "icon": "none"
+          }
+        },
+        "question_Aa9MNw": {
+          "type": "question",
+          "settings": {
+            "question": "What are the most popular Feniex lights for first responders?",
+            "answer": "<p>Top choices for first responders include the Feniex Fusion Lightbar, T3 surface mounts, Fusion interior visor lights, and the 4200 DataLink controller. These options offer maximum brightness, flexibility, and control in critical response situations.</p>",
+            "icon": "none"
+          }
+        },
+        "question_7cxpQQ": {
+          "type": "question",
+          "settings": {
+            "question": "Why should I buy Feniex lights from Strobes N' More?",
+            "answer": "<p>Strobes N' More offers competitive pricing, fast shipping, and knowledgeable support on all Feniex lighting products. As an experienced dealer, we help customers choose the right solution for their needs and ensure a smooth buying and installation experience.</p>",
             "icon": "none"
           }
         }
@@ -101,7 +141,12 @@
         "question_C6iYpN",
         "question_ffyGcn",
         "question_Khrmfz",
-        "question_r49x6L"
+        "question_r49x6L",
+        "question_9mxkNx",
+        "question_GU9A3z",
+        "question_iQPUbk",
+        "question_Aa9MNw",
+        "question_7cxpQQ"
       ],
       "custom_css": [
         "h3 {display: none;}"
