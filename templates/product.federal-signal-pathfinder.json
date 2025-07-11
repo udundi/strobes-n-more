@@ -114,6 +114,21 @@
         "include_padding": true
       }
     },
+    "1747319492ce8a2fbf": {
+      "type": "apps",
+      "blocks": {
+        "judge_me_reviews_review_widget_XaEYbt": {
+          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "judge_me_reviews_review_widget_XaEYbt"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
     "dynamic_faq_DL8gWe": {
       "type": "dynamic-faq",
       "blocks": {
@@ -127,40 +142,80 @@
         "question_N7XcBJ": {
           "type": "question",
           "settings": {
-            "question": "What are the key features of the Federal Signal Pathfinder siren system?",
-            "answer": "<p>The Pathfinder is a fully programmable, multi-function siren and light controller designed for emergency vehicles. Key features include dual-tone capability, integrated radio rebroadcast, built-in diagnostic tools, configurable inputs/outputs, and compatibility with CAN networks. It also supports Federal Signal’s serial lightbar systems and offers seamless control of sirens, lights, and other peripherals.</p>",
+            "question": "What is the Federal Signal Pathfinder?",
+            "answer": "<p>The Federal Signal Pathfinder is an advanced all-in-one emergency warning system that combines siren, controller, and lighting control into a single unit. Designed for law enforcement and emergency response vehicles, it offers unmatched customization, reliability, and integration.</p>",
             "icon": "none"
           }
         },
         "question_Q7V7f7": {
           "type": "question",
           "settings": {
-            "question": "How does the Pathfinder system integrate with emergency lights?",
-            "answer": "<p>Pathfinder is built to work hand-in-hand with Federal Signal’s emergency lighting systems. It uses serial communication to control lightbars, directional lights, and perimeter lighting, allowing synchronized patterns and scenes. The system can trigger lighting based on siren tone, vehicle speed, or custom inputs—making it ideal for streamlined, event-driven response setups.</p>",
+            "question": "Does Strobes N' More sell the Federal Signal Pathfinder system?",
+            "answer": "<p>Yes, Strobes N' More is proud to offer the Federal Signal Pathfinder as part of our emergency vehicle equipment lineup. We provide system components, full kits, and accessories compatible with a variety of emergency and utility vehicle setups.</p>",
             "icon": "none"
           }
         },
         "question_pWG86w": {
           "type": "question",
           "settings": {
-            "question": "Is the Federal Signal Pathfinder programmable for different siren tones?",
-            "answer": "<p>Yes, Pathfinder is fully programmable and supports a wide range of siren tones, including Wail, Yelp, Priority, Hi-Lo, and PowerCall, as well as dual-tone options. Users can configure tone activation through software, set tone sequences, and customize functions for specific scenarios or jurisdictions.</p>",
+            "question": "What features does the Federal Signal Pathfinder offer?",
+            "answer": "<p>The Federal Signal Pathfinder offers programmable siren tones, lighting control, radio rebroadcast, Rumbler® integration, and multi-channel support. It also includes multiple input/output options and is compatible with popular vehicle control consoles.</p>",
             "icon": "none"
           }
         },
         "question_XLJAbP": {
           "type": "question",
           "settings": {
-            "question": "What vehicles are compatible with the Federal Signal Pathfinder?",
-            "answer": "<p>Pathfinder is compatible with most police, fire, and EMS vehicles, including sedans, SUVs, trucks, and specialty rigs. It supports standard 12V systems and integrates with popular fleet platforms like Ford Police Interceptor, Chevrolet Tahoe PPV, Dodge Durango Pursuit, and others. Vehicle-specific harnesses and mounts are available for streamlined installation.</p>",
+            "question": "Can I control emergency lights with the Pathfinder system?",
+            "answer": "<p>Absolutely. The Federal Signal Pathfinder allows for comprehensive light control, including scene lighting, directional warning, and flashing patterns. It can be integrated with Federal Signal lightbars, grille lights, and perimeter lighting.</p>",
             "icon": "none"
           }
         },
         "question_JWg3Kp": {
           "type": "question",
           "settings": {
-            "question": "Can the Pathfinder system be controlled via a mobile app?",
-            "answer": "<p>Yes, Pathfinder can be controlled using Federal Signal’s Pathfinder Mobile App on iOS and Android. The app allows users to control lights and sirens wirelessly, view system diagnostics, and switch between modes. This adds flexibility during setup, maintenance, or remote operation—especially helpful for supervisors or command vehicles.</p>",
+            "question": "Is the Federal Signal Pathfinder easy to install?",
+            "answer": "<p>While the Pathfinder system offers plug-and-play components and vehicle-specific harnesses, its advanced capabilities often require professional installation for proper integration with sirens, radios, and lighting systems.</p>",
+            "icon": "none"
+          }
+        },
+        "question_NMFzrP": {
+          "type": "question",
+          "settings": {
+            "question": "Which emergency vehicles is the Pathfinder system best suited for?",
+            "answer": "<p>The Federal Signal Pathfinder is ideal for police cruisers, fire command vehicles, ambulances, and public safety fleets. It provides a centralized control interface for complex lighting and audio signaling demands in high-pressure environments.</p>",
+            "icon": "none"
+          }
+        },
+        "question_Hnq9QB": {
+          "type": "question",
+          "settings": {
+            "question": "What is the difference between the Pathfinder and traditional siren systems?",
+            "answer": "<p>Unlike basic siren systems, the Federal Signal Pathfinder integrates siren tones, public address, lighting control, and CAN bus vehicle functions. It reduces the need for multiple separate controllers, simplifying vehicle upfitting and operation.</p>",
+            "icon": "none"
+          }
+        },
+        "question_zYCiNp": {
+          "type": "question",
+          "settings": {
+            "question": "Does the Federal Signal Pathfinder support Rumbler siren integration?",
+            "answer": "<p>Yes, the Pathfinder is fully compatible with Federal Signal’s Rumbler® low-frequency siren system. This allows users to pair traditional tones with low-frequency vibrations for enhanced driver awareness in congested traffic.</p>",
+            "icon": "none"
+          }
+        },
+        "question_hneMQi": {
+          "type": "question",
+          "settings": {
+            "question": "Can the Pathfinder system be programmed for specific vehicle or agency needs?",
+            "answer": "<p>Yes, the Federal Signal Pathfinder is fully programmable. Agencies can set up custom tone sequences, light patterns, button configurations, and even integrate radio functions, making it a flexible solution for diverse operational requirements.</p>",
+            "icon": "none"
+          }
+        },
+        "question_BYzJQa": {
+          "type": "question",
+          "settings": {
+            "question": "Why should I purchase the Federal Signal Pathfinder from Strobes N' More?",
+            "answer": "<p>Strobes N' More offers competitive pricing, expert installation support, and a deep understanding of emergency vehicle needs. As a trusted distributor of Federal Signal Pathfinder systems, we ensure you receive reliable products and responsive service tailored to your fleet or department.</p>",
             "icon": "none"
           }
         }
@@ -171,7 +226,12 @@
         "question_Q7V7f7",
         "question_pWG86w",
         "question_XLJAbP",
-        "question_JWg3Kp"
+        "question_JWg3Kp",
+        "question_NMFzrP",
+        "question_Hnq9QB",
+        "question_zYCiNp",
+        "question_hneMQi",
+        "question_BYzJQa"
       ],
       "custom_css": [],
       "settings": {
@@ -255,21 +315,6 @@
       "custom_css": [],
       "settings": {
         "enable_recently_viewed_products": true
-      }
-    },
-    "1747319492ce8a2fbf": {
-      "type": "apps",
-      "blocks": {
-        "judge_me_reviews_review_widget_XaEYbt": {
-          "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
-          "settings": {}
-        }
-      },
-      "block_order": [
-        "judge_me_reviews_review_widget_XaEYbt"
-      ],
-      "settings": {
-        "include_padding": true
       }
     }
   },
