@@ -44,6 +44,17 @@
         "image_crop": "original"
       }
     },
+    "dynamic_rich_text_f8gCja": {
+      "type": "dynamic-rich-text",
+      "name": "Rich text - The Light You Need—When You Need It Most",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2>The Light You Need—When You Need It Most</h2><p>At <strong>Strobes N More</strong>, we're not just a retailer—we're your go-to destination for top-tier <strong>beacon LED lighting</strong>. Our customers include first responders, utility crews, fleet managers, and construction pros who trust us for dependable, field-tested <strong>beacons light</strong> solutions that hold up under pressure. We understand the conditions you work in—and we deliver the lighting that keeps you safe, seen, and compliant.</p><p>Whether you're in the market for a <strong>red beacon light</strong> to alert others of an emergency vehicle, a <strong>LED rotating beacon</strong> for roadside service, or a <strong>beacon strobe light</strong> to increase visibility on job sites, our inventory is built around quality and performance. Every product we stock—from a compact <strong>beacon LED</strong> to a bold, spinning <strong>light beacon</strong>—undergoes rigorous testing to ensure brightness, durability, and long-range visibility.</p><p>We also make shopping easy. With fast shipping, real customer support, and competitive pricing, Strobes N More is committed to helping you find the right solution the first time. Our customers keep coming back because we don't just sell lights—we build trust, one product at a time.</p><p>Don’t settle for low-visibility lighting. Choose the professionals who understand your needs and light the way forward. Choose <strong>Strobes N More</strong>—your beacon for safety, clarity, and performance.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
     "dynamic_faq_kyjq9r": {
       "type": "dynamic-faq",
       "blocks": {
@@ -57,40 +68,80 @@
         "question_7tUK8A": {
           "type": "question",
           "settings": {
-            "question": "What are the best LED beacon lights for construction and emergency vehicles?",
-            "answer": "<p>The best LED beacons are bright, weatherproof, and built to handle tough environments. Models from ECCO, Whelen, and Federal Signal are top choices. For construction, amber beacons with multiple flash patterns are standard. Emergency vehicles often use dual-color or color-specific beacons (red, blue, or white) based on local regulations. Look for features like 360° visibility, rugged housings, and flexible mounting options.</p>",
+            "question": "What are beacon lights used for?",
+            "answer": "<p>Beacon lights are used for safety, visibility, and signaling on emergency vehicles, work zones, construction equipment, and more.</p>",
             "icon": "none"
           }
         },
         "question_C6iYpN": {
           "type": "question",
           "settings": {
-            "question": "How does a rotating beacon light differ from a strobe beacon?",
-            "answer": "<p>A rotating beacon simulates motion by spinning a beam of light or using LEDs that mimic rotation. A strobe beacon, on the other hand, uses quick, high-intensity flashes. Rotating beacons offer a traditional, sweeping look and are less intense, while strobes deliver sharper, more attention-grabbing bursts. Both improve visibility, but strobes are generally more noticeable in fast-moving or high-risk environments.</p>",
+            "question": "Do you offer LED rotating beacon lights?",
+            "answer": "<p>Yes, we carry several models of <strong>LED rotating beacon lights</strong> with adjustable flash patterns and mounting options.</p>",
             "icon": "none"
           }
         },
         "question_ffyGcn": {
           "type": "question",
           "settings": {
-            "question": "Are magnetic mount beacon lights as secure as permanent installations?",
-            "answer": "<p>Magnetic mounts are secure for temporary or low-speed use, especially when paired with rubber bases or strong multi-magnet designs. However, for high-speed driving or long-term use, permanent mounts are more reliable. If you're frequently on the highway or in rough terrain, a bolted or hard-mounted beacon is the safer choice.</p>",
+            "question": "Are your beacon lights weather-resistant?",
+            "answer": "<p>Absolutely—all of our beacon lights are built to handle tough environments, including rain, snow, and extreme heat.</p>",
             "icon": "none"
           }
         },
         "question_Khrmfz": {
           "type": "question",
           "settings": {
-            "question": "Can beacon lights be used for off-road or utility vehicles?",
-            "answer": "<p>Yes, beacon lights are commonly used on off-road and utility vehicles for increased visibility. Amber or white LED beacons help alert others to slow-moving, stopped, or working vehicles in rugged or low-visibility areas. Make sure the beacon is vibration-resistant and rated for outdoor use (look for IP65 or higher).</p>",
+            "question": "Can I get a red beacon light for my emergency vehicle?",
+            "answer": "<p>Yes, we offer red beacon lights that meet visibility and compliance standards for emergency use.</p>",
             "icon": "none"
           }
         },
         "question_r49x6L": {
           "type": "question",
           "settings": {
-            "question": "What are the best power options for a beacon light (battery, hardwired, or rechargeable)?",
-            "answer": "<p>Each has its strengths:</p><ul><li>Hardwired beacons are best for permanent setups and consistent power.</li><li>Rechargeable beacons offer portability and are great for temporary use or quick deployment.</li><li>Battery-powered (replaceable batteries) are convenient but may need frequent changes.</li><li>For work vehicles or daily use, hardwired is the most reliable. For occasional use or flexibility across vehicles, go with rechargeable models.</li></ul>",
+            "question": "What's the difference between a beacon strobe and a rotating beacon?",
+            "answer": "<p>A strobe emits rapid, high-intensity flashes, while a rotating beacon produces a sweeping beam of light.</p>",
+            "icon": "none"
+          }
+        },
+        "question_R47abB": {
+          "type": "question",
+          "settings": {
+            "question": "Do your LED beacon lights work on 12V systems?",
+            "answer": "<p>Yes, most of our beacon LEDs are designed for 12V and 24V systems, ideal for vehicles and equipment.</p>",
+            "icon": "none"
+          }
+        },
+        "question_RXk83V": {
+          "type": "question",
+          "settings": {
+            "question": "Is installation complicated?",
+            "answer": "<p>No—many of our lights are plug-and-play or include simple mounting hardware for quick setup.</p>",
+            "icon": "none"
+          }
+        },
+        "question_medk3Y": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use these on off-road or utility vehicles?",
+            "answer": "<p>Definitely. Our LED beacon lights are ideal for utility trucks, ATVs, tractors, and more.</p>",
+            "icon": "none"
+          }
+        },
+        "question_EqD8ex": {
+          "type": "question",
+          "settings": {
+            "question": "Do you sell beacon lights in bulk?",
+            "answer": "<p>Yes, we offer bulk discounts for fleets and businesses. Contact us for details.</p>",
+            "icon": "none"
+          }
+        },
+        "question_F3EFN3": {
+          "type": "question",
+          "settings": {
+            "question": "How fast is shipping from Strobes N More?",
+            "answer": "<p>We ship fast—most orders go out the same day or next business day.</p>",
             "icon": "none"
           }
         }
@@ -101,7 +152,12 @@
         "question_C6iYpN",
         "question_ffyGcn",
         "question_Khrmfz",
-        "question_r49x6L"
+        "question_r49x6L",
+        "question_R47abB",
+        "question_RXk83V",
+        "question_medk3Y",
+        "question_EqD8ex",
+        "question_F3EFN3"
       ],
       "custom_css": [
         "h3 {display: none;}"
@@ -124,6 +180,7 @@
   },
   "order": [
     "main",
+    "dynamic_rich_text_f8gCja",
     "dynamic_faq_kyjq9r",
     "static-recently-viewed"
   ]
