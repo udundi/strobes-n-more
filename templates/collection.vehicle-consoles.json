@@ -57,40 +57,80 @@
         "question_7tUK8A": {
           "type": "question",
           "settings": {
-            "question": "What are the best automotive consoles for emergency vehicles?",
-            "answer": "<p>Top automotive consoles for emergency vehicles come from brands like Havis, Jotto Desk, Troy Products, and Gamber-Johnson. These consoles are built for rugged use and designed to fit radios, sirens, light controls, and other equipment. Look for vehicle-specific models that offer secure mounting, ergonomic access, and modular configurations.</p>",
+            "question": "What is a car console and how is it used?",
+            "answer": "<p>A car console is the compartment or panel located between the driver and passenger seats. It typically houses gear selectors, cup holders, storage, and may be outfitted with equipment like control switches or radios in emergency and fleet vehicles.</p>",
             "icon": "none"
           }
         },
         "question_C6iYpN": {
           "type": "question",
           "settings": {
-            "question": "How do I install a custom automotive console?",
-            "answer": "<p>Installing a custom console usually involves removing the factory center console and bolting the new unit directly to the vehicle’s floor or mounting brackets. Wiring for radios, lighting controls, and power ports is routed through cutouts or pre-drilled panels. Some installs are plug-and-play, but others may require light fabrication—professional installation is recommended for complex setups.</p>",
+            "question": "Does Strobes N' More sell vehicle center consoles for emergency and service vehicles?",
+            "answer": "<p>Yes, we offer a wide range of vehicle center consoles designed for law enforcement, fire, EMS, utility, and security vehicles. Our consoles are engineered to securely mount siren controllers, radios, tablets, and switch panels for efficient in-cabin operations.</p>",
             "icon": "none"
           }
         },
         "question_ffyGcn": {
           "type": "question",
           "settings": {
-            "question": "Are automotive consoles universal or vehicle-specific?",
-            "answer": "<p>Both types exist. Universal consoles can fit a range of vehicles but may require extra mounting hardware or adjustments. Vehicle-specific consoles are tailored to the make and model for a clean, secure fit and easier installation. For emergency vehicles, vehicle-specific options are preferred for durability and optimal layout.</p>",
+            "question": "What’s the difference between a standard automotive console and a custom truck console?",
+            "answer": "<p>A standard automotive console is built for everyday storage and comfort, while a truck console or fleet vehicle console is often customized to hold specialized equipment like communication devices, lighting controls, and laptop mounts. Our consoles are made with rugged materials to handle heavy-duty use.</p>",
             "icon": "none"
           }
         },
         "question_Khrmfz": {
           "type": "question",
           "settings": {
-            "question": "What storage options are available in automotive consoles?",
-            "answer": "<p>Many consoles offer integrated storage such as locking compartments, cup holders, document trays, and slots for flashlights or handcuffs. Modular accessories like armrests, clipboard holders, or keyboard trays can also be added, depending on the model. Storage is often customizable to suit the needs of law enforcement or fleet operators.</p>",
+            "question": "Can I install a center console in my vehicle myself?",
+            "answer": "<p>Many vehicle center consoles offered by Strobes N' More are designed for easy installation using brackets or bolt-in systems. However, for setups involving integrated electronics or wiring (e.g., sirens, radios), professional installation is often recommended.</p>",
             "icon": "none"
           }
         },
         "question_r49x6L": {
           "type": "question",
           "settings": {
-            "question": "Can automotive consoles integrate with lighting control panels?",
-            "answer": "<p>Yes, most emergency vehicle consoles are designed to house lighting control panels, siren systems, and radio units. They include faceplates and mounting slots that match common control heads. This keeps everything centralized, accessible, and neatly organized for quick use during operations.</p>",
+            "question": "Do you offer universal car consoles that fit multiple vehicle models?",
+            "answer": "<p>Yes. We carry universal car consoles as well as vehicle-specific options that ensure a snug, factory-style fit. Universal consoles are ideal for fleets with mixed vehicle types and can often be configured with modular inserts and faceplates.</p>",
+            "icon": "none"
+          }
+        },
+        "question_tRJUf6": {
+          "type": "question",
+          "settings": {
+            "question": "What are the benefits of installing a custom truck console?",
+            "answer": "<p>A custom truck console optimizes cabin space, increases organization, and improves safety by providing secure, ergonomic placement for essential gear like radios, sirens, and tablets. It helps responders and operators stay efficient and focused while driving.</p>",
+            "icon": "none"
+          }
+        },
+        "question_9bnxQL": {
+          "type": "question",
+          "settings": {
+            "question": "Can your automotive consoles be used for both professional and recreational vehicles?",
+            "answer": "<p>Absolutely. While our automotive consoles are designed with professionals in mind, they're also a great fit for off-road trucks, overlanders, and enthusiasts who need secure mounts for accessories like GPS units, CB radios, and lighting controls.</p>",
+            "icon": "none"
+          }
+        },
+        "question_LrDdwY": {
+          "type": "question",
+          "settings": {
+            "question": "Are the vehicle center consoles durable and weather-resistant?",
+            "answer": "<p>Our vehicle center consoles are built from high-grade aluminum or steel with powder-coated finishes, designed to withstand years of use in tough conditions. They’re built for durability, even in high-temperature or high-vibration environments.</p>",
+            "icon": "none"
+          }
+        },
+        "question_GJgdnM": {
+          "type": "question",
+          "settings": {
+            "question": "Do your car consoles include wiring channels or cable management?",
+            "answer": "<p>Yes. Many of our car consoles include integrated cable pass-throughs, wiring raceways, and knockouts to keep cables tidy and out of sight—making it easy to connect radios, sirens, and power systems.</p>",
+            "icon": "none"
+          }
+        },
+        "question_4MVKXJ": {
+          "type": "question",
+          "settings": {
+            "question": "Why choose Strobes N' More for truck and automotive consoles?",
+            "answer": "<p>Strobes N' More offers trusted brands, expert support, and a large selection of truck consoles, car consoles, and vehicle center consoles designed for demanding field use. Whether you're outfitting a police cruiser or a commercial fleet, we help you build a reliable, functional command center inside your vehicle.</p>",
             "icon": "none"
           }
         }
@@ -101,7 +141,12 @@
         "question_C6iYpN",
         "question_ffyGcn",
         "question_Khrmfz",
-        "question_r49x6L"
+        "question_r49x6L",
+        "question_tRJUf6",
+        "question_9bnxQL",
+        "question_LrDdwY",
+        "question_GJgdnM",
+        "question_4MVKXJ"
       ],
       "custom_css": [
         "h3 {display: none;}"
