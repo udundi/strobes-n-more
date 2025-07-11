@@ -44,6 +44,17 @@
         "image_crop": "original"
       }
     },
+    "dynamic_rich_text_D3zT8M": {
+      "type": "dynamic-rich-text",
+      "name": "Rich text - Signal Strength: Lightbars That Get You Noticed",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2>Signal Strength: Lightbars That Get You Noticed</h2><p>When your safety or mission depends on being seen, don’t compromise—equip your vehicle with the best in <strong>emergency lightbar</strong> technology. Our selection of <strong>LED light bars</strong>, including <strong>amber light bars</strong>, <strong>blue light bars</strong>, and <strong>red emergency light bars</strong>, delivers unmatched brightness, reliability, and ease of installation.</p><p>We serve a wide range of users: firefighters, EMS personnel, road crews, tow operators, and even everyday drivers who want to increase visibility during off-road trips or roadside emergencies. Whether you need a <strong>bar emergency light</strong> for a personal vehicle or a professional-grade <strong>emergency vehicle light bar</strong>, we’ve got the right fit.</p><p>For rapid response and rugged environments, our <strong>wheelen light bars</strong> and <strong>firefighter light bars</strong> are built with high-impact housings, waterproof ratings, and optimized strobe patterns. If you're upgrading your fleet or looking for <strong>warning light bars for trucks</strong>, we carry models that are both DOT-compliant and easy to integrate with your existing systems.</p><p>From slim profiles for stealth installs to large <strong>lightbars</strong> that dominate the road, each <strong>LED amber light bar</strong> and <strong>emergency lightbar</strong> in our lineup is tested for longevity and visibility. Get noticed. Stay safe. Choose a <strong>light bar for your car</strong> or truck that won’t let you down when it matters most.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
     "dynamic_faq_kyjq9r": {
       "type": "dynamic-faq",
       "blocks": {
@@ -57,40 +68,80 @@
         "question_7tUK8A": {
           "type": "question",
           "settings": {
-            "question": "What are the top-rated amber LED light bars for work trucks?",
-            "answer": "<p>Top-rated amber LED light bars include models from ECCO, Feniex, Whelen, and Xprite. Look for features like high-output LEDs, multiple flash patterns, weather-sealed housings, and low-profile designs. Full-size rooftop bars and mini bars with magnetic mounts are both popular for work truck applications like plowing, utility service, and road maintenance.</p>",
+            "question": "What is a lightbar used for?",
+            "answer": "<p>A lightbar increases vehicle visibility, especially in emergency, utility, or off-road situations. It helps alert other drivers to your presence.</p>",
             "icon": "none"
           }
         },
         "question_C6iYpN": {
           "type": "question",
           "settings": {
-            "question": "Are amber LED light bars suitable for off-road use?",
-            "answer": "<p>Yes. Amber LED light bars are excellent for off-road use, especially in dusty, foggy, or low-visibility conditions. Amber light cuts through airborne particles better than white light, reducing glare and improving trail visibility. They're commonly used on UTVs, trucks, and support vehicles in backcountry environments.</p>",
+            "question": "Can I install a lightbar on a regular car?",
+            "answer": "<p>Yes, <strong>lightbars for cars</strong> are available in various sizes and formats, many of which are plug-and-play and easily installed.</p>",
             "icon": "none"
           }
         },
         "question_ffyGcn": {
           "type": "question",
           "settings": {
-            "question": "Can amber LED light bars be mounted on a roof rack?",
-            "answer": "<p>Absolutely. Many amber light bars are designed to mount on roof racks, using brackets, U-bolts, or magnetic bases. Make sure the light bar size fits your rack and that it’s secured with weather-rated hardware. Wiring can typically be routed along the rack and through the vehicle’s firewall or accessory port.</p>",
+            "question": "Are emergency lightbars street legal?",
+            "answer": "<p>Legality varies by color and location. <strong>Amber LED lightbars</strong> are often allowed for utility use, while <strong>blue and red light bars</strong> are restricted to official emergency vehicles.</p>",
             "icon": "none"
           }
         },
         "question_Khrmfz": {
           "type": "question",
           "settings": {
-            "question": "What power sources are available for amber LED light bars?",
-            "answer": "<p>Amber LED light bars typically run on 12V or 24V DC systems, drawing power from the vehicle’s battery or accessory circuit. Options include hardwiring, plug-and-play cigarette lighter adapters, or quick-connect harnesses. Some models also support use with switch panels or relays for full control.</p>",
+            "question": "What is the difference between a strobe light bar and a regular lightbar?",
+            "answer": "<p><strong>Strobe light bars</strong> flash in patterns for visibility, while regular lightbars may offer steady illumination or minimal flashing.</p>",
             "icon": "none"
           }
         },
         "question_r49x6L": {
           "type": "question",
           "settings": {
-            "question": "Do amber LED light bars come with wireless remote control?",
-            "answer": "<p>Some models do. Selected amber LED bars come with wireless remotes that let you change flash patterns, turn the light on/off, and adjust brightness. These are especially handy for temporary or portable setups. For more permanent installs, many users prefer hardwired switches or dash-mounted control boxes for reliability.</p>",
+            "question": "What’s the best color lightbar for roadside work?",
+            "answer": "<p><strong>Amber light bars</strong> are typically used for construction, towing, and roadside assistance.</p>",
+            "icon": "none"
+          }
+        },
+        "question_ReqGaU": {
+          "type": "question",
+          "settings": {
+            "question": "Can I get a lightbar with multiple color options?",
+            "answer": "<p>Yes, many models offer dual- or tri-color configurations for flexible use.</p>",
+            "icon": "none"
+          }
+        },
+        "question_MhPr8N": {
+          "type": "question",
+          "settings": {
+            "question": "Do I need professional installation?",
+            "answer": "<p>Not always. Many <strong>LED light bars</strong> come with simple mounting kits and cigarette lighter adapters.</p>",
+            "icon": "none"
+          }
+        },
+        "question_kUFDHH": {
+          "type": "question",
+          "settings": {
+            "question": "Are lightbars waterproof?",
+            "answer": "<p>Most quality <strong>lightbars</strong> are rated IP65 or higher, making them weather-resistant and safe for outdoor use.</p>",
+            "icon": "none"
+          }
+        },
+        "question_AXacGd": {
+          "type": "question",
+          "settings": {
+            "question": "How long do LED lightbars last?",
+            "answer": "<p>On average, high-quality <strong>LED light bars</strong> last 30,000 to 50,000 hours.</p>",
+            "icon": "none"
+          }
+        },
+        "question_7c9Gze": {
+          "type": "question",
+          "settings": {
+            "question": "What’s the difference between a firefighter light bar and a standard one?",
+            "answer": "<p><strong>Firefighter light bars</strong> often use red and white LEDs and are designed for higher intensity and priority response visibility.</p>",
             "icon": "none"
           }
         }
@@ -101,7 +152,12 @@
         "question_C6iYpN",
         "question_ffyGcn",
         "question_Khrmfz",
-        "question_r49x6L"
+        "question_r49x6L",
+        "question_ReqGaU",
+        "question_MhPr8N",
+        "question_kUFDHH",
+        "question_AXacGd",
+        "question_7c9Gze"
       ],
       "custom_css": [
         "h3 {display: none;}"
@@ -124,6 +180,7 @@
   },
   "order": [
     "main",
+    "dynamic_rich_text_D3zT8M",
     "dynamic_faq_kyjq9r",
     "static-recently-viewed"
   ]
