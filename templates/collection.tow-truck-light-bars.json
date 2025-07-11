@@ -48,7 +48,7 @@
       "type": "dynamic-rich-text",
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
-        "width": "full-width",
+        "width": "wide",
         "title": "",
         "text": "<p>Still have questions about choosing the right tow light bar for your wrecker or recovery vehicle? Explore our most frequently asked questions below to learn more about compatibility, installation, legal requirements, and more.</p>",
         "heading_size": "medium",
