@@ -44,6 +44,78 @@
         "image_crop": "original"
       }
     },
+    "dynamic_faq_jxmfHe": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_nDAiCq": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_6pBBNB": {
+          "type": "question",
+          "settings": {
+            "question": "What are LED stick lights used for in emergency setups?",
+            "answer": "<p>LED stick lights are used as slim-profile warning lights that provide high-intensity, directional lighting. They’re commonly mounted on rear windows, front windshields, bumpers, push bars, or interior decks. Stick lights are ideal for traffic control, rear warning, and perimeter visibility without needing a full lightbar.</p>",
+            "icon": "none"
+          }
+        },
+        "question_MVwxpD": {
+          "type": "question",
+          "settings": {
+            "question": "How do you mount a stick light on rear windows or inside grills?",
+            "answer": "<p>Stick lights usually come with brackets, suction cups, or adjustable mounts for easy installation. For rear window or windshield use, suction cups or headliner brackets are ideal. For grille or bumper installs, use screw-on L-brackets or custom mounting plates. Always secure wiring away from heat or moving parts.</p>",
+            "icon": "none"
+          }
+        },
+        "question_9QmrpC": {
+          "type": "question",
+          "settings": {
+            "question": "What length options are available for LED stick lights?",
+            "answer": "<p>Stick lights come in a range of lengths, typically from 4 inches to 48 inches or more. Popular sizes include 8\", 18\", 28\", and 36\", with longer lengths used for rear window or rear deck applications, and shorter models used for grilles or push bumpers. Many models are modular for flexible setups.</p>",
+            "icon": "none"
+          }
+        },
+        "question_RHaGEm": {
+          "type": "question",
+          "settings": {
+            "question": "Are LED stick lights weatherproof for exterior use?",
+            "answer": "<p>Yes, most quality stick lights are fully sealed and weather-rated (usually IP65 or higher), making them safe for grille, bumper, and exterior mounting. They’re built to handle rain, snow, dirt, and car washes. Always confirm the IP rating before installing externally.</p>",
+            "icon": "none"
+          }
+        },
+        "question_RDtgCU": {
+          "type": "question",
+          "settings": {
+            "question": "Can stick lights be synchronized with dash lights?",
+            "answer": "<p>Yes. Many LED stick lights include sync wires that allow them to flash in coordination with dash lights, surface mounts, or visor lights. This creates unified warning patterns for better visibility and a more professional look. Syncing usually requires compatible brands or systems and sometimes a central controller.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_nDAiCq",
+        "question_6pBBNB",
+        "question_MVwxpD",
+        "question_9QmrpC",
+        "question_RHaGEm",
+        "question_RDtgCU"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "wide",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
     "static-recently-viewed": {
       "type": "static-recently-viewed",
       "settings": {
@@ -53,6 +125,7 @@
   },
   "order": [
     "main",
+    "dynamic_faq_jxmfHe",
     "static-recently-viewed"
   ]
 }
