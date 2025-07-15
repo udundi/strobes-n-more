@@ -1,3 +1,12 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
 {
   "sections": {
     "main": {
@@ -6,50 +15,57 @@
         "heading": {
           "type": "heading",
           "settings": {
+            "text": "Product information"
           }
         },
         "description": {
           "type": "description",
-          "settings": {
-          }
+          "settings": {}
         },
         "vendor": {
           "type": "vendor",
-          "settings": {
-          }
+          "settings": {}
         },
         "inventory-status": {
           "type": "availability",
           "settings": {
+            "inventory_display": "hidden",
+            "inventory_transfer_notice": true
           }
         },
         "rating": {
           "type": "rating",
-          "settings": {
-          }
+          "settings": {}
         },
         "heading-2": {
           "type": "heading",
+          "disabled": true,
           "settings": {
             "text": "Specifications"
           }
         },
         "dynamic-comparison": {
           "type": "dynamic_comparison",
+          "disabled": true,
           "settings": {
-            "title": "Dimensions"
+            "title": "Dimensions",
+            "text": "<p>Use this text to share additional information about your product.</p>"
           }
         },
         "dynamic-comparison-2": {
           "type": "dynamic_comparison",
+          "disabled": true,
           "settings": {
-            "title": "Weight"
+            "title": "Weight",
+            "text": "<p>Use this text to share additional information about your product.</p>"
           }
         },
         "dynamic-comparison-3": {
           "type": "dynamic_comparison",
+          "disabled": true,
           "settings": {
-            "title": "General features"
+            "title": "General features",
+            "text": "<p>Use this text to share additional information about your product.</p>"
           }
         }
       },
@@ -65,25 +81,19 @@
         "dynamic-comparison-3"
       ],
       "settings": {
+        "filter_groups": "expand_first"
       }
     },
     "dynamic-highlights-banner": {
       "type": "dynamic-highlights-banner",
       "blocks": {
-        "highlight": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-delivery",
-            "title": "Free Shipping",
-            "text": "<p>When you spend $100+<\/p>"
-          }
-        },
         "highlight-2": {
           "type": "highlight",
           "settings": {
             "icon": "icon-cell-phone",
             "title": "Give Us A Call",
-            "text": "<p>+1 (201) 555-5555<\/p>"
+            "text": "<p>(401) 454-4487</p>",
+            "link": ""
           }
         },
         "highlight-3": {
@@ -91,29 +101,33 @@
           "settings": {
             "icon": "icon-chat-alternate",
             "title": "Chat With Us",
-            "text": "<p>We offer 24-hour chat support<\/p>"
+            "text": "<p>We offer 24-hour chat support</p>",
+            "link": ""
           }
         },
-        "highlight-4": {
+        "highlight": {
           "type": "highlight",
           "settings": {
-            "icon": "icon-pin",
-            "title": "Locations",
-            "text": "<p>Find a store near you<\/p>"
+            "icon": "icon-envelope",
+            "title": "Email Us",
+            "text": "<p>sales@strobesnmore.com</p>",
+            "link": ""
           }
         }
       },
       "block_order": [
-        "highlight",
         "highlight-2",
         "highlight-3",
-        "highlight-4"
+        "highlight"
       ],
       "settings": {
         "section_spacing": true,
+        "section_width": "full-width",
         "icon_layout": "center",
-        "icon_color": "#046e82",
-        "background_color": "rgba(0,0,0,0)"
+        "color": "#21225b",
+        "icon_color": "#21225b",
+        "background_color": "rgba(0,0,0,0)",
+        "mobile_layout": "slider"
       }
     }
   },
