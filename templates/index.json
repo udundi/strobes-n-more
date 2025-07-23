@@ -313,6 +313,17 @@
         "text_alignment": "center"
       }
     },
+    "dynamic_blog_posts_Hp4zjq": {
+      "type": "dynamic-blog-posts",
+      "custom_css": [],
+      "settings": {
+        "title": "Informative Blogs",
+        "blog": "informative",
+        "show_date": false,
+        "show_author": false,
+        "show_excerpt": false
+      }
+    },
     "dynamic_highlights_banner_UdyCk4": {
       "type": "dynamic-highlights-banner",
       "blocks": {
@@ -689,6 +700,7 @@
     "dynamic_collection_list",
     "dynamic_featured_collection-2",
     "dynamic_rich_text_fHTnfJ",
+    "dynamic_blog_posts_Hp4zjq",
     "dynamic_highlights_banner_UdyCk4",
     "dynamic_blog_posts_WbF3Tb",
     "dynamic_rich_text_tEzKJa",
