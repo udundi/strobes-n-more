@@ -313,11 +313,26 @@
         "text_alignment": "center"
       }
     },
+    "dynamic_rich_text_xBbwX6": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "{background-color: #21225b;}",
+        "h2 {color: #fff; padding: 12px;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "title": "Better Installs, Brighter Results",
+        "text": "",
+        "heading_size": "small",
+        "text_alignment": "center"
+      }
+    },
     "dynamic_blog_posts_Hp4zjq": {
       "type": "dynamic-blog-posts",
       "custom_css": [],
       "settings": {
-        "title": "Better Installs, Brighter Results",
+        "title": "",
         "blog": "informative",
         "show_date": false,
         "show_author": false,
@@ -700,6 +715,7 @@
     "dynamic_collection_list",
     "dynamic_featured_collection-2",
     "dynamic_rich_text_fHTnfJ",
+    "dynamic_rich_text_xBbwX6",
     "dynamic_blog_posts_Hp4zjq",
     "dynamic_highlights_banner_UdyCk4",
     "dynamic_blog_posts_WbF3Tb",
