@@ -315,7 +315,6 @@
     },
     "dynamic_blog_posts_Hp4zjq": {
       "type": "dynamic-blog-posts",
-      "disabled": true,
       "custom_css": [],
       "settings": {
         "title": "Informative Blogs",
