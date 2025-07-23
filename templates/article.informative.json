@@ -12,7 +12,7 @@
     "main": {
       "type": "static-article",
       "custom_css": [
-        "@media (min-width: 767px) {.article-image--content-width {background-color: white; background-size: contain !important; background-repeat: no-repeat; background-position: center center; height: auto !important; aspect-ratio: auto; min-height: 700px; }}"
+        "@media (min-width: 767px) {.article-image--content-width {background-color: white; background-size: contain !important; background-repeat: no-repeat; background-position: center center; height: auto !important; aspect-ratio: auto; min-height: 800px; }}"
       ],
       "settings": {
         "featured_image_width": "content-width",
