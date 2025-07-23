@@ -298,6 +298,21 @@
         "cta_button_style": "primary"
       }
     },
+    "dynamic_rich_text_xBbwX6": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "{background-color: #21225b;}",
+        "h2 {color: #fff; padding: 12px;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "title": "Quality You Can Trust",
+        "text": "",
+        "heading_size": "small",
+        "text_alignment": "center"
+      }
+    },
     "dynamic_rich_text_fHTnfJ": {
       "type": "dynamic-rich-text",
       "custom_css": [
@@ -307,13 +322,13 @@
       ],
       "settings": {
         "width": "full-width",
-        "title": "Quality You Can Trust",
+        "title": "",
         "text": "<p><strong>Find us on TrustPilot</strong></p>",
         "heading_size": "small",
         "text_alignment": "center"
       }
     },
-    "dynamic_rich_text_xBbwX6": {
+    "dynamic_rich_text_G7jrXc": {
       "type": "dynamic-rich-text",
       "custom_css": [
         "{background-color: #21225b;}",
@@ -714,8 +729,9 @@
     "dynamic_featured_collection_M4FrNj",
     "dynamic_collection_list",
     "dynamic_featured_collection-2",
-    "dynamic_rich_text_fHTnfJ",
     "dynamic_rich_text_xBbwX6",
+    "dynamic_rich_text_fHTnfJ",
+    "dynamic_rich_text_G7jrXc",
     "dynamic_blog_posts_Hp4zjq",
     "dynamic_highlights_banner_UdyCk4",
     "dynamic_blog_posts_WbF3Tb",
