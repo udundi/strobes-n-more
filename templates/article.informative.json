@@ -1,0 +1,28 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-article",
+      "custom_css": [
+        "@media (min-width: 767px) {.article-image--content-width {background-color: white; background-size: contain !important; background-repeat: no-repeat; background-position: center center; height: auto !important; aspect-ratio: auto; min-height: 700px; /* Adjust as needed for mobile visibility */ }}"
+      ],
+      "settings": {
+        "featured_image_width": "content-width",
+        "show_date": true,
+        "show_author": true,
+        "use_share_buttons": true
+      }
+    }
+  },
+  "order": [
+    "main"
+  ]
+}
