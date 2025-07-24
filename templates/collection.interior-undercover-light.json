@@ -44,6 +44,134 @@
         "image_crop": "original"
       }
     },
+    "dynamic_rich_text_B7Hzxt": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "full-width",
+        "title": "Trusted Interior Light Bars for Law Enforcement, Security, and Emergency Response",
+        "text": "<p>Strobes N’ More is your go-to source for reliable, rugged, and road-tested <strong>interior visor light bars</strong>. Our lightbars are engineered for visibility, longevity, and ease of use, making them ideal for professionals who demand more from their equipment. From <strong>cop light bars</strong> used in municipal fleets to <strong>bar police light</strong> systems for security and volunteer use, every product we offer delivers consistent performance you can count on.</p><p>We carry a variety of <strong>overhead light bar</strong> alternatives, including slim-profile units that mount cleanly without permanent vehicle modification. Looking for <strong>visor lights with takedowns</strong>? Want a <strong>police lightbar</strong> that syncs with your siren system? We have integrated options that combine cutting-edge lighting with mission-ready functionality.</p><p>Whether you're building a complete <strong>police light bar</strong> setup or just adding discreet <strong>interior lighting</strong>, our selection includes trusted models that deliver powerful output without external mounting. Plus, our team is always here to help you choose the right <strong>light bar visor</strong> for your vehicle and operational needs.</p><p>Upgrade your stealth and safety today with Strobes N’ More.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_faq_yP3Vry": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_PGgaT3": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_y98Fq8": {
+          "type": "question",
+          "settings": {
+            "question": "What is an undercover interior light bar?",
+            "answer": "<p>An undercover interior light bar is a low-profile emergency lighting system installed inside a vehicle, usually behind the windshield or rear window, offering discreet visibility for law enforcement and first responders.</p>",
+            "icon": "none"
+          }
+        },
+        "question_DEjqpL": {
+          "type": "question",
+          "settings": {
+            "question": "Are police interior light bars legal to install?",
+            "answer": "<p>Interior light bars are legal for authorized personnel such as police, fire, EMS, or security use. Check local laws for restrictions on color, placement, and usage.</p>",
+            "icon": "none"
+          }
+        },
+        "question_bgX7cA": {
+          "type": "question",
+          "settings": {
+            "question": "Do interior visor light bars have takedown lights?",
+            "answer": "<p>Yes, many of our visor light bars come with integrated takedown lights, offering powerful white illumination for nighttime visibility and traffic stops.</p>",
+            "icon": "none"
+          }
+        },
+        "question_6Kajyp": {
+          "type": "question",
+          "settings": {
+            "question": "How does a light bar visor differ from a rooftop light bar?",
+            "answer": "<p>Visor light bars mount inside the vehicle, offering a stealthier look compared to external rooftop light bars, with reduced wind drag and lower visibility when not in use.</p>",
+            "icon": "none"
+          }
+        },
+        "question_qpRNgU": {
+          "type": "question",
+          "settings": {
+            "question": "Can I use a cop car light bar in my personal vehicle?",
+            "answer": "<p>Only if you are authorized—using police-style light bars in personal vehicles without proper authorization may be illegal in many states.</p>",
+            "icon": "none"
+          }
+        },
+        "question_y3bEmB": {
+          "type": "question",
+          "settings": {
+            "question": "What are LAPD light bars and do you carry them?",
+            "answer": "<p>LAPD light bars typically refer to interior or exterior bars meeting Los Angeles Police Department specs. We offer lightbars modeled after these industry standards.</p>",
+            "icon": "none"
+          }
+        },
+        "question_pVUpp4": {
+          "type": "question",
+          "settings": {
+            "question": "Are visor lights with takedowns easy to install?",
+            "answer": "<p>Yes, our visor light bars are plug-and-play with universal mounts and simple wiring, making them easy for DIY or professional installation.</p>",
+            "icon": "none"
+          }
+        },
+        "question_Uk9rEf": {
+          "type": "question",
+          "settings": {
+            "question": "What is the best interior police light bar for unmarked units?",
+            "answer": "<p>Our slim, dual-color interior visor light bars are ideal for unmarked units, balancing stealth with maximum output and optional rear warning lights.</p>",
+            "icon": "none"
+          }
+        },
+        "question_nXVCnT": {
+          "type": "question",
+          "settings": {
+            "question": "Do you offer overhead light bar alternatives?",
+            "answer": "<p>Yes, our interior light bars serve as discreet, high-performance alternatives to traditional overhead light bars.</p>",
+            "icon": "none"
+          }
+        },
+        "question_VkdiEe": {
+          "type": "question",
+          "settings": {
+            "question": "Can a police light bar sync with sirens?",
+            "answer": "<p>Many of our cop light bars include syncing options with siren systems and controllers for full tactical functionality.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_PGgaT3",
+        "question_y98Fq8",
+        "question_DEjqpL",
+        "question_bgX7cA",
+        "question_6Kajyp",
+        "question_qpRNgU",
+        "question_y3bEmB",
+        "question_pVUpp4",
+        "question_Uk9rEf",
+        "question_nXVCnT",
+        "question_VkdiEe"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "wide",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
     "static-recently-viewed": {
       "type": "static-recently-viewed",
       "settings": {
@@ -53,6 +181,8 @@
   },
   "order": [
     "main",
+    "dynamic_rich_text_B7Hzxt",
+    "dynamic_faq_yP3Vry",
     "static-recently-viewed"
   ]
 }
