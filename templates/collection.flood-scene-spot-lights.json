@@ -44,6 +44,134 @@
         "image_crop": "original"
       }
     },
+    "dynamic_rich_text_6g4djg": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "full-width",
+        "title": "Professional-Grade Spot and Flood Lights Built for Every Vehicle and Mission",
+        "text": "<p>At Strobes N’ More, we understand that dependable lighting makes all the difference in high-stakes situations. Our wide selection of <strong>auto flood lights</strong> and <strong>vehicle spot lights</strong> is trusted by police, fire departments, tow operators, construction crews, and off-road adventurers across the country.</p><p>We stock everything from high-intensity <strong>LED flood lights</strong> to ultra-focused <strong>vehicle-mounted spotlights</strong>, giving you complete control over illumination based on your mission. Whether you're lighting up a scene with a <strong>vehicle spotlight floodlight combo</strong> or directing beams with adjustable <strong>LED car spot lights</strong>, our equipment delivers unmatched performance and longevity.</p><p>All of our <strong>scenelights</strong> and <strong>automotive flood lights</strong> are tested for durability, waterproofing, and heat resistance. Need a <strong>spotlight for your car</strong> that mounts to roof racks or push bumpers? Looking for dual-beam <strong>spot/flood lights</strong> with switchable modes? We have solutions for every professional and personal use case.</p><p>Strobes N’ More stands behind our gear with expert support and fast shipping. Choose lighting that’s built to last, no matter the conditions. Browse our collection and equip your vehicle with the best <strong>emergency floodlights</strong> and <strong>spot lights for cars</strong> available today.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_faq_LXBg4X": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_UKxXF9": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_4XCdwn": {
+          "type": "question",
+          "settings": {
+            "question": "What is the difference between a flood light and a spotlight for vehicles?",
+            "answer": "<p>Flood lights spread light over a wide area, ideal for scenes or work zones, while spotlights emit a focused beam for long-distance visibility.</p>",
+            "icon": "none"
+          }
+        },
+        "question_3CdrPY": {
+          "type": "question",
+          "settings": {
+            "question": "Are vehicle spotlights and floodlights legal to install?",
+            "answer": "<p>Yes, they’re legal for work and off-road use. Some states restrict use on public roads, so always check local regulations.</p>",
+            "icon": "none"
+          }
+        },
+        "question_cXDtYc": {
+          "type": "question",
+          "settings": {
+            "question": "Can I mount a spotlight or floodlight on any vehicle?",
+            "answer": "<p>Yes, our spot and flood lights can be mounted on most vehicles including trucks, emergency units, UTVs, and more with the appropriate brackets.</p>",
+            "icon": "none"
+          }
+        },
+        "question_Q63AWJ": {
+          "type": "question",
+          "settings": {
+            "question": "What are the benefits of LED flood and spot lights for cars?",
+            "answer": "<p>LED lights are energy-efficient, brighter, and longer-lasting than traditional halogen lights, making them ideal for automotive use.</p>",
+            "icon": "none"
+          }
+        },
+        "question_4fjXqq": {
+          "type": "question",
+          "settings": {
+            "question": "Do you offer combo spot flood lights?",
+            "answer": "<p>Yes, we carry hybrid units that offer both spot and flood patterns in a single light for versatile scene illumination.</p>",
+            "icon": "none"
+          }
+        },
+        "question_gNhigk": {
+          "type": "question",
+          "settings": {
+            "question": "How do I power my automotive flood light?",
+            "answer": "<p>Most lights run on 12V or 24V DC systems and can be wired into your vehicle’s existing electrical setup.</p>",
+            "icon": "none"
+          }
+        },
+        "question_PMfdiC": {
+          "type": "question",
+          "settings": {
+            "question": "Are emergency floodlights waterproof?",
+            "answer": "<p>Absolutely. Our emergency floodlights are IP-rated for waterproofing and designed to handle rough, wet environments.</p>",
+            "icon": "none"
+          }
+        },
+        "question_FC7Drj": {
+          "type": "question",
+          "settings": {
+            "question": "Do you have vehicle-mounted spotlights with remote control?",
+            "answer": "<p>Yes, we offer motorized spotlights with remote tilt and pan for convenient directional lighting.</p>",
+            "icon": "none"
+          }
+        },
+        "question_QgMQmK": {
+          "type": "question",
+          "settings": {
+            "question": "What applications are flood scene lights used for?",
+            "answer": "<p>They’re commonly used for accident scenes, roadwork, search and rescue, nighttime construction, and off-road exploration.</p>",
+            "icon": "none"
+          }
+        },
+        "question_p9WjK9": {
+          "type": "question",
+          "settings": {
+            "question": "Can I install these lights myself?",
+            "answer": "<p>Yes, many of our spot and flood lights are DIY-friendly with included hardware and instructions.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_UKxXF9",
+        "question_4XCdwn",
+        "question_3CdrPY",
+        "question_cXDtYc",
+        "question_Q63AWJ",
+        "question_4fjXqq",
+        "question_gNhigk",
+        "question_PMfdiC",
+        "question_FC7Drj",
+        "question_QgMQmK",
+        "question_p9WjK9"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "wide",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
     "static-recently-viewed": {
       "type": "static-recently-viewed",
       "settings": {
@@ -53,6 +181,8 @@
   },
   "order": [
     "main",
+    "dynamic_rich_text_6g4djg",
+    "dynamic_faq_LXBg4X",
     "static-recently-viewed"
   ]
 }
