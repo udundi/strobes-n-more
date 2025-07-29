@@ -121,6 +121,7 @@
         "slide_pEbC8h": {
           "type": "slide",
           "settings": {
+            "background_image": "shopify://shop_images/Untitled-2_1.png",
             "title": "Sample product 1",
             "text": "Introduce customers to your shop with lifestyle and product imagery",
             "color": "#FFFFFF",
