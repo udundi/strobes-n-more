@@ -155,7 +155,7 @@
             "button_two_style": "primary",
             "show_overlay": true,
             "overlay_color": "#000000",
-            "overlay_opacity": 25
+            "overlay_opacity": 40
           }
         },
         "slide_nr9YPe": {
@@ -174,7 +174,7 @@
             "button_two_style": "primary",
             "show_overlay": true,
             "overlay_color": "#000000",
-            "overlay_opacity": 25
+            "overlay_opacity": 40
           }
         }
       },
@@ -184,7 +184,83 @@
         "slide_nr9YPe"
       ],
       "custom_css": [
-        "@media (max-width: 767px) {h2 {color: #21225b; } a {color: #21225b; }}"
+        "@media (max-width: 767px) {h2 {color: #21225b; } p {color: #21225b; }}"
+      ],
+      "name": "t:sections.slideshow.presets.slideshow.name",
+      "settings": {
+        "enable_autoplay": true,
+        "autoplay_duration": 8,
+        "slideshow_width": "content",
+        "slideshow_height": "small",
+        "slideshow_height_mobile": "small",
+        "slideshow_text_below_image": true
+      }
+    },
+    "dynamic_slideshow_CbXDbB": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "slide_eagVjG": {
+          "type": "slide",
+          "settings": {
+            "title": "LED Beacon Lights",
+            "text": "Strobes N More offers high-performance LED beacon lights designed for maximum visibility, durability, and safety. From compact strobes to powerful rotating beacons, we’ve got options for every vehicle and job.",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "Shop Now",
+            "button_one_link": "shopify://collections/360-beacons",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 40
+          }
+        },
+        "slide_zYWrg7": {
+          "type": "slide",
+          "settings": {
+            "title": "LED Flashers",
+            "text": "Upgrade your vehicle’s visibility with LED flasher lights—smart, bright, and easy to install. From emergency strobe modules to plug-and-play headlight flashers, we’ve got reliable options for every need.",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "Shop Now",
+            "button_one_link": "shopify://collections/flasher-modules",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 40
+          }
+        },
+        "slide_UeH3Fz": {
+          "type": "slide",
+          "settings": {
+            "title": "LED Light Bars",
+            "text": "Strobes N More offers a wide range of LED lightbars—from full-size to undercover—built for maximum brightness and reliability. Perfect for emergency, towing, or utility use, our lightbars ensure you’re seen when it matters most.",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "Shop Now",
+            "button_one_link": "shopify://collections/lightbars",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "slide_eagVjG",
+        "slide_zYWrg7",
+        "slide_UeH3Fz"
       ],
       "name": "t:sections.slideshow.presets.slideshow.name",
       "settings": {
@@ -381,6 +457,7 @@
     "dynamic_custom_liquid_7AWjbd",
     "dynamic_promo_mosaic_6GXbTn",
     "dynamic_slideshow_4FNAhg",
+    "dynamic_slideshow_CbXDbB",
     "dynamic_shoppable_image_kKgW99",
     "dynamic_shoppable_image_cEJrc9",
     "dynamic_custom_liquid_HfUrcM",
