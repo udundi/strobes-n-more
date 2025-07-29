@@ -122,45 +122,66 @@
           "type": "slide",
           "settings": {
             "background_image": "shopify://shop_images/Untitled-2_1.png",
-            "title": "Sample product 1",
-            "text": "Introduce customers to your shop with lifestyle and product imagery",
+            "title": "Razor Light Stick",
+            "text": "The Razor Light Stick is a rugged, ultra-slim LED light bar built for under-tailgate use, offering brighter output, dual-color LEDs, and 104 flash patterns. It installs cleanly with 3M DuraLock tape and syncs with E-Series, Photons, E62, and E64 systems.",
             "color": "#ffffff",
-            "link": "https://strobesnmore.com/products/strobes-n-more-razor-light-stick?_pos=3&_sid=98ffa439d&_ss=r",
+            "link": "",
             "text_alignment": "center",
             "button_one_label": "Shop Now",
-            "button_one_link": "",
+            "button_one_link": "https://strobesnmore.com/products/strobes-n-more-razor-light-stick?_pos=3&_sid=98ffa439d&_ss=r",
             "button_one_style": "primary",
             "button_two_label": "",
             "button_two_link": "",
             "button_two_style": "primary",
             "show_overlay": true,
             "overlay_color": "#000000",
-            "overlay_opacity": 50
+            "overlay_opacity": 40
           }
         },
-        "slide_yPQE7x": {
+        "slide_MjtkYh": {
           "type": "slide",
           "settings": {
-            "title": "Sample product 2",
-            "text": "Introduce customers to your shop with lifestyle and product imagery",
-            "color": "#FFFFFF",
-            "link": "https://strobesnmore.com/products/strobes-n-more-razor-light-stick?_pos=3&_sid=98ffa439d&_ss=r",
+            "background_image": "shopify://shop_images/Untitled_4.png",
+            "title": "Spectre Siren Amp",
+            "text": "The Spectre 100W Siren Amplifier is a compact, rust-proof unit delivering powerful sound and integrated light control for emergency vehicles. It supports 12–24V systems, operates in extreme conditions, and includes four 5A outputs for auxiliary lighting.",
+            "color": "#ffffff",
+            "link": "",
             "text_alignment": "center",
             "button_one_label": "Shop Now",
-            "button_one_link": "",
+            "button_one_link": "https://strobesnmore.com/products/strobes-n-more-spectre-siren-amp?_pos=1&_sid=7ea4e96e3&_ss=r",
             "button_one_style": "primary",
             "button_two_label": "",
             "button_two_link": "",
             "button_two_style": "primary",
             "show_overlay": true,
             "overlay_color": "#000000",
-            "overlay_opacity": 50
+            "overlay_opacity": 25
+          }
+        },
+        "slide_nr9YPe": {
+          "type": "slide",
+          "settings": {
+            "title": "Phantom 100 Watt Speaker",
+            "text": "The Phantom Siren Speaker is a compact, rustproof, and waterproof 100W speaker built for tight spaces in modern vehicles. It delivers clear, powerful sound across all frequencies and includes a universal bracket for easy installation.",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "Shop Now",
+            "button_one_link": "https://strobesnmore.com/products/strobes-n-more-phantom-100-watt-speaker?_pos=1&_sid=230849c1a&_ss=r",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 25
           }
         }
       },
       "block_order": [
         "slide_pEbC8h",
-        "slide_yPQE7x"
+        "slide_MjtkYh",
+        "slide_nr9YPe"
       ],
       "custom_css": [
         "@media (max-width: 767px) {h2 {color: #21225b; } a {color: #21225b; }}"
