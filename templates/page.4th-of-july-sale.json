@@ -115,6 +115,62 @@
         "compress_blocks": false
       }
     },
+    "dynamic_slideshow_4FNAhg": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "slide_pEbC8h": {
+          "type": "slide",
+          "settings": {
+            "title": "Sample product 1",
+            "text": "Introduce customers to your shop with lifestyle and product imagery",
+            "color": "#FFFFFF",
+            "link": "https://strobesnmore.com/products/strobes-n-more-razor-light-stick?_pos=3&_sid=98ffa439d&_ss=r",
+            "text_alignment": "center",
+            "button_one_label": "Button",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        },
+        "slide_yPQE7x": {
+          "type": "slide",
+          "settings": {
+            "title": "Sample product 2",
+            "text": "Introduce customers to your shop with lifestyle and product imagery",
+            "color": "#FFFFFF",
+            "link": "https://strobesnmore.com/products/strobes-n-more-razor-light-stick?_pos=3&_sid=98ffa439d&_ss=r",
+            "text_alignment": "center",
+            "button_one_label": "Button",
+            "button_one_link": "",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "slide_pEbC8h",
+        "slide_yPQE7x"
+      ],
+      "name": "t:sections.slideshow.presets.slideshow.name",
+      "settings": {
+        "enable_autoplay": true,
+        "autoplay_duration": 8,
+        "slideshow_width": "full",
+        "slideshow_height": "small",
+        "slideshow_height_mobile": "medium",
+        "slideshow_text_below_image": true
+      }
+    },
     "dynamic_shoppable_image_kKgW99": {
       "type": "dynamic-shoppable-image",
       "blocks": {
@@ -299,6 +355,7 @@
     "pxs_image_with_text_overlay_czgNEg",
     "dynamic_custom_liquid_7AWjbd",
     "dynamic_promo_mosaic_6GXbTn",
+    "dynamic_slideshow_4FNAhg",
     "dynamic_shoppable_image_kKgW99",
     "dynamic_shoppable_image_cEJrc9",
     "dynamic_custom_liquid_HfUrcM",
