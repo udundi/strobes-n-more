@@ -124,7 +124,7 @@
             "background_image": "shopify://shop_images/Untitled-2_1.png",
             "title": "Sample product 1",
             "text": "Introduce customers to your shop with lifestyle and product imagery",
-            "color": "#FFFFFF",
+            "color": "#21225b",
             "link": "https://strobesnmore.com/products/strobes-n-more-razor-light-stick?_pos=3&_sid=98ffa439d&_ss=r",
             "text_alignment": "center",
             "button_one_label": "Shop Now",
@@ -168,7 +168,7 @@
         "autoplay_duration": 8,
         "slideshow_width": "content",
         "slideshow_height": "small",
-        "slideshow_height_mobile": "medium",
+        "slideshow_height_mobile": "small",
         "slideshow_text_below_image": true
       }
     },
