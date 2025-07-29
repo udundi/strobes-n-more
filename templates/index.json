@@ -88,6 +88,7 @@
         "promotion_kePLct",
         "promotion-4"
       ],
+      "disabled": true,
       "custom_css": [
         "p {font-weight: bold;}"
       ],
