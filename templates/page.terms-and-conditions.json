@@ -131,7 +131,29 @@
       "settings": {
         "width": "wide",
         "title": "Submission Requirements",
-        "text": "<p>This contest (“Promotion”) is open to all legal residents of the United States who are 18 years of age or older and are customers or dealers of Strobes N’ More. Employees of Strobes N’ More, its affiliates, subsidiaries, advertising, promotion, and fulfillment agencies, and their immediate family members are not eligible to participate.</p>",
+        "text": "<p>By submitting a video, photo, or related content (“Submission”), you confirm that:</p><ul><li>You are the rightful owner of the Submission or have full permission from the owner to enter it into this Promotion.</li><li>The Submission does not infringe upon the intellectual property, privacy, or publicity rights of any third party.</li><li>The Submission complies with all applicable laws and regulations.</li></ul>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_B9L998": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "wide",
+        "title": "Grant of Rights / Usage License",
+        "text": "<p>By entering this Promotion, you <strong>irrevocably grant Strobes N’ More</strong> and its affiliates, licensees, successors, and assigns a <strong>perpetual, worldwide, royalty-free, non-exclusive license</strong> to:</p><ul><li>Use, reproduce, modify, adapt, publish, translate, create derivative works from, distribute, publicly display, and publicly perform your Submission, in whole or in part.</li><li>Use your name, likeness, and any statements you make in connection with the Submission for advertising, marketing, promotional, and other commercial purposes.</li></ul><p>This license includes use across all media platforms now known or later developed (including but not limited to website, social media, email marketing, print, and paid advertising).</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_BkT9Jh": {
+      "type": "dynamic-rich-text",
+      "name": "Rich text - Prizes",
+      "settings": {
+        "width": "wide",
+        "title": "Prizes",
+        "text": "<p>Prizes will be awarded as outlined in the official contest rules. Prizes are non-transferable and cannot be redeemed for cash.</p><h2>Winner Selection</h2><p>Eligible Submissions will be reviewed by Strobes N’ More. Finalists will be selected for public voting. Strobes N’ More will also select a separate winner for the “Strobes N’ More Select” prize. Decisions are final.</p><h2>Liability Release</h2><p>By participating, you release Strobes N’ More, its affiliates, officers, employees, and agents from any and all liability arising from or related to participation in the Promotion and/or acceptance or use of any prize.</p><h2>Modification or Cancellation</h2><p>Strobes N’ More reserves the right to modify, suspend, or terminate the Promotion at any time for any reason without prior notice.</p><h2>Governing Law</h2><p>This Promotion and these Terms & Conditions are governed by and construed under the laws of the State of Rhode Island, without regard to its conflict of law principles.</p>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
@@ -149,6 +171,8 @@
     "dynamic_rich_text_z7wrwL",
     "dynamic_rich_text_fF6MKa",
     "dynamic_rich_text_9KFJQH",
-    "dynamic_rich_text_JCjNrh"
+    "dynamic_rich_text_JCjNrh",
+    "dynamic_rich_text_B9L998",
+    "dynamic_rich_text_BkT9Jh"
   ]
 }
