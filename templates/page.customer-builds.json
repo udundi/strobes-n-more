@@ -14,6 +14,21 @@
       "disabled": true,
       "settings": {}
     },
+    "pxs_image_with_text_overlay_4rc4k6": {
+      "type": "pxs-image-with-text-overlay",
+      "name": "t:sections.image_with_text_overlay.presets.name",
+      "settings": {
+        "section_height": "medium",
+        "title": "",
+        "text": "",
+        "content_position": "center-center",
+        "color": "#ffffff",
+        "overlay_background": "#000000",
+        "overlay_opacity": 0,
+        "link": "",
+        "button_text": "Button"
+      }
+    },
     "dynamic_rich_text_bHCYiy": {
       "type": "dynamic-rich-text",
       "custom_css": [],
@@ -209,6 +224,7 @@
   },
   "order": [
     "main",
+    "pxs_image_with_text_overlay_4rc4k6",
     "dynamic_rich_text_bHCYiy",
     "dynamic_rich_text_EQbzd9",
     "dynamic_rich_text_dt3dMA",
