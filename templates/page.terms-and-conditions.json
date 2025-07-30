@@ -98,6 +98,43 @@
         "heading_size": "medium",
         "text_alignment": "left"
       }
+    },
+    "dynamic_rich_text_fF6MKa": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "{background-color: #21225b;}",
+        "h2 {color: #fff; padding: 12px;}"
+      ],
+      "name": "Rich text - Show Us Your Build Contest",
+      "settings": {
+        "width": "wide",
+        "title": "Show Us Your Build Contest – Terms & Conditions",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_rich_text_9KFJQH": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "wide",
+        "title": "Eligibility",
+        "text": "<p>This contest (“Promotion”) is open to all legal residents of the United States who are 18 years of age or older and are customers or dealers of Strobes N’ More. Employees of Strobes N’ More, its affiliates, subsidiaries, advertising, promotion, and fulfillment agencies, and their immediate family members are not eligible to participate.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_JCjNrh": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "wide",
+        "title": "Submission Requirements",
+        "text": "<p>This contest (“Promotion”) is open to all legal residents of the United States who are 18 years of age or older and are customers or dealers of Strobes N’ More. Employees of Strobes N’ More, its affiliates, subsidiaries, advertising, promotion, and fulfillment agencies, and their immediate family members are not eligible to participate.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
     }
   },
   "order": [
@@ -109,6 +146,9 @@
     "dynamic_rich_text_fMrYFr",
     "dynamic_rich_text_U6qD6y",
     "pxs_image_with_text_overlay_mi3jVn",
-    "dynamic_rich_text_z7wrwL"
+    "dynamic_rich_text_z7wrwL",
+    "dynamic_rich_text_fF6MKa",
+    "dynamic_rich_text_9KFJQH",
+    "dynamic_rich_text_JCjNrh"
   ]
 }
