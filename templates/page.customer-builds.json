@@ -19,6 +19,7 @@
       "name": "t:sections.image_with_text_overlay.presets.name",
       "settings": {
         "section_height": "medium",
+        "image": "shopify://shop_images/Show_Us_Your_Build_Launch-5_2.png",
         "title": "",
         "text": "",
         "content_position": "center-center",
