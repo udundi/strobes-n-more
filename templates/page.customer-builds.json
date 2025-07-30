@@ -60,7 +60,7 @@
       "settings": {
         "width": "wide",
         "title": "",
-        "text": "<p>✔ Get featured on SNM’s website, social media, email campaigns, and other owned channels.</p><p>✔ Gain exposure and ideas from fellow SNM customers’ builds, inspiring you - or your customers - with new and innovative upfits.</p><p>✔ <strong>[TBD Incentive*]</strong>—Earn TBD</p><p>✔ We’re on the hunt for the best builds, straight from the pros who make them happen.<br/></p>",
+        "text": "<p>✔ Get featured on SNM’s website, social media, email campaigns, and other owned channels.</p><p>✔ Gain exposure and ideas from fellow SNM customers’ builds, inspiring you - or your customers - with new and innovative upfits.</p><p>✔ Earn Gift Cards & Company Merch! </p><p>✔ We’re on the hunt for the best builds, straight from the pros who make them happen.<br/></p>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
@@ -94,6 +94,10 @@
     },
     "dynamic_rich_text_xyJ9aE": {
       "type": "dynamic-rich-text",
+      "custom_css": [
+        "{background-color: #21225b;}",
+        "h2 {color: white; padding: 12px;}"
+      ],
       "settings": {
         "width": "regular",
         "title": "How to Enter",
@@ -110,7 +114,7 @@
       "settings": {
         "width": "wide",
         "title": "",
-        "text": "<p>Any Strobes N’ More Customer or Dealer is eligible to participate. Here’s how to enter:</p><p>[Fill out the form below/ Send a video of an impressive or unique upfit to: _____</p><p></p><ul><li>Along with the video, please include:</li><li>What products (Brand, Name) you used</li><li>Vehicle Make/Model</li><li>What the “ask” was / what the vehicle is being used for</li><li>Anything else interesting you’d like to include about the design</li></ul><p></p><p>Please consider the following when you upload your video:</p><ul><li><strong>Format:</strong> MP4 (recommended), MOV, AVI, WMV, etc.</li><li><strong>Resolution:</strong> Minimum 240p, up to 4K (2160p)</li><li><strong>Aspect Ratio:</strong> either landscape or portrait, <strong>but portrait is preferred!</strong> </li><li><em><strong>Preferred Length:</strong></em><em> 10 seconds - 1 minute</em></li></ul><p>By submitting a video, you agree to the Terms & Conditions of the program, as outlined here [anchor link].</p>",
+        "text": "<p>Any Strobes N’ More Customer or Dealer is eligible to participate. Here’s how to enter:</p><p>Submit a <strong>vertical video</strong> and include:</p><ul><li>Products used (Brand + Name)</li><li>Vehicle make/model</li><li>Purpose of the build (what it’s used for)</li><li>Any cool details you’d like to share</li></ul><p>Tag <strong>@strobesnmore</strong> and use <strong>#SNMShowUsYourBuild</strong></p><p><strong>Entries Open:</strong> 8/1 – 8/31<br/><strong>Voting:</strong> 9/9 – 9/16<br/><strong>Winners Announced:</strong> 9/24</p><p>Please consider the following when you upload your video:</p><ul><li><strong>Format:</strong> MP4 (recommended), MOV, AVI, WMV, etc.</li><li><strong>Resolution:</strong> Minimum 240p, up to 4K (2160p)</li><li><strong>Aspect Ratio:</strong> either landscape or portrait, <strong>but portrait is preferred!</strong> </li><li><em><strong>Preferred Length:</strong></em><em> 10 seconds - 1 minute</em></li></ul><p>By submitting a video, you agree to the Terms & Conditions of the program, as outlined here [anchor link].</p>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
@@ -137,7 +141,7 @@
       "settings": {
         "width": "wide",
         "title": "",
-        "text": "<p>Here’s how winner selection will work:</p><ul><li>The Strobes N’ More team will review every submission for use/approval</li><li>Every quarter, the team will announce [##]  winners. Prizes will be awarded via email, and the winning individual/Company’s build will be shared in the next quarter’s Newsletter (not receiving our newsletter? Sign up at the<a href=\"https://strobesnmore.com/pages/contact\"><span style=\"text-decoration:underline\"> link on our footer</span></a> today!)</li></ul>",
+        "text": "<p>Here’s how winner selection will work:</p><ul><li>The Strobes N’ More team will review every submission for use/approval</li><li>The top 3 builds will be selected for community vote! Decide which build <em>you </em>think deserves 1st prize. </li><li>The Strobes N’ More team will select the top build using Strobes N' more Products for our grand prize winner.</li><li>Every quarter, the team will announce 4 winners. Prizes will be awarded via email, and the winning individual/Company’s build will be shared in the next quarter’s Newsletter and on our Strobes N More social media channels (not receiving our newsletter? Sign up at the<a href=\"https://strobesnmore.com/pages/contact\"><span style=\"text-decoration:underline\"> link on our footer</span></a> today!)</li></ul>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
@@ -150,7 +154,7 @@
       ],
       "settings": {
         "width": "regular",
-        "title": "Want to learn more about Customer Builds",
+        "title": "Want to learn more about Show Us Your Build",
         "text": "",
         "heading_size": "small",
         "text_alignment": "center"
