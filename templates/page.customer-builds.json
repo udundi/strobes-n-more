@@ -32,13 +32,16 @@
     },
     "dynamic_rich_text_bHCYiy": {
       "type": "dynamic-rich-text",
-      "custom_css": [],
+      "custom_css": [
+        "{background-color: #21225b;}",
+        "h2 {color: white; padding: 12px;}"
+      ],
       "settings": {
-        "width": "regular",
+        "width": "wide",
         "title": "Submit Your Builds & Earn Great Rewards!",
         "text": "",
-        "heading_size": "large",
-        "text_alignment": "left"
+        "heading_size": "medium",
+        "text_alignment": "center"
       }
     },
     "dynamic_rich_text_EQbzd9": {
