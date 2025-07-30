@@ -84,41 +84,6 @@
         "text_alignment": "left"
       }
     },
-    "dynamic_countdown_timer_mHEwB9": {
-      "type": "dynamic-countdown-timer",
-      "disabled": true,
-      "custom_css": [
-        ".countdown-timer,.countdown-timer *,.countdown-timer__content,.countdown-timer__caption,.ud-overlay,.ud-spacer,.countdown,.countdown *,.ud-countdown,.ud-divider-maker,.countdown__item,section.countdown-timer {background-color: #21225b !important;}",
-        " {background-color: #21225b;}"
-      ],
-      "settings": {
-        "section_height": "small",
-        "countdown_year": "2025",
-        "countdown_month": "08",
-        "countdown_day": "31",
-        "countdown_hour": "23",
-        "countdown_minute": "59",
-        "countdown_timer_background": false,
-        "countdown_timer_complete": true,
-        "countdown_timer_message": "",
-        "product": "",
-        "title": "Time Left To Submit",
-        "button_link": "",
-        "button_label": "",
-        "button_style": "primary",
-        "text_color": "#ffffff",
-        "overlay_color": "#000000",
-        "overlay_opacity": 0,
-        "product_card_background_color": "#f5f3ed"
-      }
-    },
-    "dynamic_custom_liquid_PUnt4P": {
-      "type": "dynamic-custom-liquid",
-      "name": "Custom Liquid - Timer",
-      "settings": {
-        "custom_liquid": "{% comment %}\nShopify Countdown Timer\nUsage: Include this in your theme template and set the target date\n{% endcomment %}\n\n{% assign target_date = '2025-09-01T12:49:00' %}\n{% assign current_date = 'now' | date: '%s' %}\n{% assign target_timestamp = target_date | date: '%s' %}\n\n<div class=\"custom-countdown-wrapper\">\n  <div class=\"custom-countdown-display\" data-target-date=\"{{ target_date }}\">\n    <h2 class=\"custom-countdown-heading\">Time Left To Submit</h2>\n    <div class=\"custom-countdown-row\">\n    <div class=\"custom-countdown-block\">\n      <div class=\"custom-countdown-digit\" id=\"custom-days\">0</div>\n      <div class=\"custom-countdown-text\">DAYS</div>\n    </div>\n    <div class=\"custom-countdown-divider\"></div>\n    <div class=\"custom-countdown-block\">\n      <div class=\"custom-countdown-digit\" id=\"custom-hours\">0</div>\n      <div class=\"custom-countdown-text\">HOURS</div>\n    </div>\n    <div class=\"custom-countdown-divider\"></div>\n    <div class=\"custom-countdown-block\">\n      <div class=\"custom-countdown-digit\" id=\"custom-minutes\">0</div>\n      <div class=\"custom-countdown-text\">MINUTES</div>\n    </div>\n    <div class=\"custom-countdown-divider\"></div>\n    <div class=\"custom-countdown-block\">\n      <div class=\"custom-countdown-digit\" id=\"custom-seconds\">0</div>\n      <div class=\"custom-countdown-text\">SECONDS</div>\n    </div>\n    </div>\n  </div>\n</div>\n\n<style>\n.custom-countdown-wrapper {\n  width: 100%;\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 20px;\n}\n\n.custom-countdown-display {\n  background: #FFE614;\n  border: 2px solid rgba(0, 0, 0, 0.2);\n  border-radius: 0;\n  padding: 0 20px 30px 20px;\n  position: relative;\n  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);\n}\n\n.custom-countdown-heading {\n  text-align: center;\n  font-size: 1.8rem;\n  font-weight: 900;\n  color: black !important;\n  margin: 0 0 50px 0;\n  font-family: 'Montserrat', 'Arial', sans-serif;\n  font-style: normal;\n}\n\n.custom-countdown-row {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.custom-countdown-block {\n  flex: 1;\n  text-align: center;\n  color: black;\n}\n\n.custom-countdown-digit {\n  font-size: 3rem;\n  font-weight: 700;\n  line-height: 1;\n  margin-bottom: 8px;\n  font-family: 'Arial', sans-serif;\n  text-shadow: 0 2px 4px rgba(255, 255, 255, 0.3);\n}\n\n.custom-countdown-text {\n  font-size: 0.9rem;\n  font-weight: 500;\n  letter-spacing: 2px;\n  opacity: 0.9;\n  font-family: 'Nunito Sans', 'Arial', sans-serif;\n}\n\n.custom-countdown-divider {\n  width: 2px;\n  height: 60px;\n  background: rgba(0, 0, 0, 0.3);\n  margin: 0 15px;\n}\n\n/* Responsive Design */\n@media (max-width: 768px) {\n  .custom-countdown-display {\n    padding: 0 0 15px 0;\n  }\n  \n  .custom-countdown-digit {\n    font-size: 2.5rem;\n  }\n  \n  .custom-countdown-text {\n    font-size: 0.8rem;\n    letter-spacing: 1px;\n  }\n  \n  .custom-countdown-divider {\n    height: 50px;\n    margin: 0 10px;\n  }\n}\n\n@media (max-width: 480px) {\n  .custom-countdown-display {\n    padding: 0 0 10px 0;\n  }\n  \n  .custom-countdown-digit {\n    font-size: 2rem;\n  }\n  \n  .custom-countdown-text {\n    font-size: 0.7rem;\n  }\n  \n  .custom-countdown-divider {\n    height: 40px;\n    margin: 0 8px;\n  }\n}\n\n/* Animation for number changes */\n.custom-countdown-digit {\n  transition: transform 0.3s ease;\n}\n\n.custom-countdown-digit.updating {\n  transform: scale(1.1);\n}\n</style>\n\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n  const customCountdownTimer = document.querySelector('.custom-countdown-display');\n  const targetDate = customCountdownTimer.getAttribute('data-target-date');\n  \n  function updateCustomCountdown() {\n    const now = new Date().getTime();\n    const target = new Date(targetDate).getTime();\n    const difference = target - now;\n    \n    console.log('Target Date:', targetDate); // Debug log\n    console.log('Time Difference:', difference); // Debug log\n    \n    if (difference > 0) {\n      const days = Math.floor(difference / (1000 * 60 * 60 * 24));\n      const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));\n      const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));\n      const seconds = Math.floor((difference % (1000 * 60)) / 1000);\n      \n      // Add animation class when updating\n      const daysEl = document.getElementById('custom-days');\n      const hoursEl = document.getElementById('custom-hours');\n      const minutesEl = document.getElementById('custom-minutes');\n      const secondsEl = document.getElementById('custom-seconds');\n      \n      if (daysEl.textContent !== days.toString()) {\n        daysEl.classList.add('updating');\n        setTimeout(() => daysEl.classList.remove('updating'), 300);\n      }\n      if (hoursEl.textContent !== hours.toString()) {\n        hoursEl.classList.add('updating');\n        setTimeout(() => hoursEl.classList.remove('updating')"
-      }
-    },
     "dynamic_rich_text_xyJ9aE": {
       "type": "dynamic-rich-text",
       "custom_css": [
@@ -241,8 +206,6 @@
     "dynamic_rich_text_EQbzd9",
     "dynamic_rich_text_dt3dMA",
     "dynamic_rich_text_FUWkXw",
-    "dynamic_countdown_timer_mHEwB9",
-    "dynamic_custom_liquid_PUnt4P",
     "dynamic_rich_text_xyJ9aE",
     "dynamic_rich_text_bEHCbp",
     "dynamic_rich_text_aktb8p",
