@@ -36,6 +36,7 @@
         "{background-color: #21225b;}",
         "h2 {color: white; padding: 12px;}"
       ],
+      "name": "Rich Text - Submit Your Builds",
       "settings": {
         "width": "wide",
         "title": "Submit Your Builds & Earn Great Rewards!",
@@ -63,6 +64,7 @@
         "{background-color: #21225b;}",
         "h2 {color: white; padding: 12px;}"
       ],
+      "name": "Rich Text - Why Participate?",
       "settings": {
         "width": "regular",
         "title": "Why Participate?",
@@ -97,6 +99,7 @@
         "{background-color: #21225b;}",
         "h2 {color: white; padding: 12px;}"
       ],
+      "name": "Rich Text - How to Enter",
       "settings": {
         "width": "regular",
         "title": "How to Enter",
@@ -124,6 +127,7 @@
         "{background-color: #21225b;}",
         "h2 {color: white; padding: 12px;}"
       ],
+      "name": "Rich Text - How to Win",
       "settings": {
         "width": "wide",
         "title": "How to Win",
@@ -151,6 +155,7 @@
         "{background-color: #21225b;}",
         "h2 {color: white; padding: 12px;}"
       ],
+      "name": "Rich Text - More Questions?",
       "settings": {
         "width": "regular",
         "title": "More Questions?",
