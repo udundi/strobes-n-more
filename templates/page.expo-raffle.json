@@ -84,12 +84,86 @@
       "settings": {
         "include_padding": true
       }
+    },
+    "dynamic_rich_text_7Lzbnb": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "{background-color: #21225b;}",
+        "h2 {color: #fff; padding: 12px;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "title": "For More Info",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_highlights_banner_4tWmAp": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_TXNGXh": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-envelope",
+            "title": "Email",
+            "text": "<p>sales@strobesnmore.com</p>",
+            "link": ""
+          }
+        },
+        "highlight_VXmgYX": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-cell-phone",
+            "title": "Give Us A Call",
+            "text": "<p>(401) 454-4487</p>",
+            "link": ""
+          }
+        },
+        "highlight_Bm4dE9": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "Chat With Us",
+            "text": "<p>Leave us a message</p>",
+            "link": ""
+          }
+        },
+        "highlight_trmzaG": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-information",
+            "title": "Fax",
+            "text": "<p>(401) 596-6596</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_TXNGXh",
+        "highlight_VXmgYX",
+        "highlight_Bm4dE9",
+        "highlight_trmzaG"
+      ],
+      "name": "t:sections.highlights_banner.presets.highlights_banner.name",
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "center",
+        "color": "#4d4d4d",
+        "icon_color": "#4d4d4d",
+        "background_color": "#ffffff",
+        "mobile_layout": "grid"
+      }
     }
   },
   "order": [
     "main",
     "pxs_image_with_text_overlay_RLeByJ",
     "dynamic_rich_text_pQVPFk",
-    "1754057079671cd620"
+    "1754057079671cd620",
+    "dynamic_rich_text_7Lzbnb",
+    "dynamic_highlights_banner_4tWmAp"
   ]
 }
