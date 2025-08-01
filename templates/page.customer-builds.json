@@ -201,6 +201,15 @@
             "link": ""
           }
         },
+        "highlight_fqTYKx": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-information",
+            "title": "Fax",
+            "text": "<p>(401) 596-6596</p>",
+            "link": ""
+          }
+        },
         "highlight_9Yec4T": {
           "type": "highlight",
           "settings": {
@@ -222,6 +231,7 @@
       },
       "block_order": [
         "highlight_ntH8DT",
+        "highlight_fqTYKx",
         "highlight_9Yec4T",
         "highlight_W8WRcL"
       ],
@@ -232,7 +242,7 @@
         "color": "#21225b",
         "icon_color": "#1d1d1d",
         "background_color": "#ffffff",
-        "mobile_layout": "slider"
+        "mobile_layout": "grid"
       }
     }
   },
