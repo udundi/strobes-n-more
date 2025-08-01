@@ -156,6 +156,41 @@
         "background_color": "#ffffff",
         "mobile_layout": "grid"
       }
+    },
+    "dynamic_featured_collection_fWKEXq": {
+      "type": "dynamic-featured-collection",
+      "blocks": {
+        "title_card_yJyLUN": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify://shop_images/Lightbar_Packages2.png",
+            "text_alignment": "center-center",
+            "pre_heading": "",
+            "heading": "Lightbar Packages",
+            "text_color": "#FFFFFF",
+            "show_on_mobile": true,
+            "horizontal_size": "2",
+            "vertical_size": "2",
+            "enable_full_width_on_mobile": false,
+            "cta_label": "See more",
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "title_card_yJyLUN"
+      ],
+      "name": "t:sections.featured_collection.presets.featured_collection.name",
+      "settings": {
+        "title": "",
+        "layout": "slideshow",
+        "mobile_layout": "slideshow",
+        "collection": "lightbar-packages",
+        "product_count": 5,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
     }
   },
   "order": [
@@ -163,6 +198,7 @@
     "pxs_image_with_text_overlay_RLeByJ",
     "dynamic_rich_text_pQVPFk",
     "1754057079671cd620",
+    "dynamic_featured_collection_fWKEXq",
     "dynamic_rich_text_7Lzbnb",
     "dynamic_highlights_banner_4tWmAp"
   ]
