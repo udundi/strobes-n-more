@@ -28,10 +28,28 @@
         "link": "",
         "button_text": ""
       }
+    },
+    "1754053683464a992b": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_JUc7aC": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": ""
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_JUc7aC"
+      ],
+      "settings": {
+        "include_padding": true
+      }
     }
   },
   "order": [
     "main",
-    "pxs_image_with_text_overlay_RLeByJ"
+    "pxs_image_with_text_overlay_RLeByJ",
+    "1754053683464a992b"
   ]
 }
