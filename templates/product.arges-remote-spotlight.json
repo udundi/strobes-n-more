@@ -22,11 +22,11 @@
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {}
         },
         "infinite_options_app_block_price_aRgW9h": {
           "type": "shopify://apps/infinite-options/blocks/app-block-price/7e73b6f9-82b0-45f5-9b9b-04f446ba1a9b",
-          "disabled": true,
           "settings": {
             "color": "#000000",
             "font": "Assistant, sans-serif",
@@ -120,25 +120,6 @@
         "include_padding": true
       }
     },
-    "17407469585773d0a2": {
-      "type": "apps",
-      "blocks": {
-        "trustshop_reviews_widget_box_9iN66A": {
-          "type": "shopify://apps/trustshop-reviews/blocks/widget-box/18b0c4cc-5411-4b6e-922d-34fdc2f30ab9",
-          "settings": {
-            "selected_product": "{{ product }}",
-            "wrapper_class": ""
-          }
-        }
-      },
-      "block_order": [
-        "trustshop_reviews_widget_box_9iN66A"
-      ],
-      "disabled": true,
-      "settings": {
-        "include_padding": true
-      }
-    },
     "1740751518ae8cc801": {
       "type": "apps",
       "blocks": {
@@ -152,6 +133,123 @@
       ],
       "settings": {
         "include_padding": true
+      }
+    },
+    "dynamic_faq_dJWb8B": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_fjC6nt": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_yqRUfm": {
+          "type": "question",
+          "settings": {
+            "question": "1. What is the Whelen Arges Remote Spotlight?",
+            "answer": "<p>The Whelen Arges is a high-performance, remote-controlled spotlight designed for emergency, utility, and service vehicles. It delivers precise aiming with 360° continuous rotation and 180° tilt, ensuring maximum scene illumination.</p>",
+            "icon": "none"
+          }
+        },
+        "question_79HMpx": {
+          "type": "question",
+          "settings": {
+            "question": "2. How does the Arges Spotlight differ from traditional spotlights?",
+            "answer": "<p>Unlike traditional spotlights, the Arges features programmable smart controls, continuous rotation without dead spots, and a rugged all-weather design. It’s built for demanding environments and allows for pinpoint accuracy with minimal user effort.</p>",
+            "icon": "none"
+          }
+        },
+        "question_fGTwRC": {
+          "type": "question",
+          "settings": {
+            "question": "3. Is the Whelen Arges spotlight compatible with my vehicle?",
+            "answer": "<p>Yes, the Arges spotlight is compatible with a variety of emergency and utility vehicles. It can be surface-mounted or mounted with compatible brackets (sold separately), and integrates with Whelen’s control systems.</p>",
+            "icon": "none"
+          }
+        },
+        "question_U8M8dz": {
+          "type": "question",
+          "settings": {
+            "question": "4. Can I control the Whelen Arges Spotlight remotely?",
+            "answer": "<p>Absolutely. The Arges is equipped with full remote control functionality, including joystick or keypad operation, giving you complete command over pan, tilt, and preset lighting positions.</p>",
+            "icon": "none"
+          }
+        },
+        "question_ErcWUG": {
+          "type": "question",
+          "settings": {
+            "question": "5. What type of lighting does the Arges use?",
+            "answer": "<p>The Whelen Arges spotlight utilizes long-lasting, high-output LEDs, ensuring a bright and efficient beam with minimal maintenance. It also features multiple flash patterns for enhanced visibility.</p>",
+            "icon": "none"
+          }
+        },
+        "question_9Jxbgy": {
+          "type": "question",
+          "settings": {
+            "question": "6. Does the Arges Remote Spotlight support preset positions?",
+            "answer": "<p>Yes. The spotlight supports customizable presets, so you can quickly direct the beam to frequently used positions at the push of a button.</p>",
+            "icon": "none"
+          }
+        },
+        "question_rw7YXY": {
+          "type": "question",
+          "settings": {
+            "question": "7. Is the Arges spotlight weatherproof?",
+            "answer": "<p>Yes. The Whelen Arges spotlight is IP67 rated, making it dust-tight and water-resistant—ideal for outdoor and all-weather operations.</p>",
+            "icon": "none"
+          }
+        },
+        "question_WYnbid": {
+          "type": "question",
+          "settings": {
+            "question": "8. What voltage options are available for the Arges search light?",
+            "answer": "<p>The Arges operates on 12–24 VDC, making it compatible with most vehicle electrical systems without the need for additional converters.</p>",
+            "icon": "none"
+          }
+        },
+        "question_K4k6H4": {
+          "type": "question",
+          "settings": {
+            "question": "9. Can I install the Whelen search light myself?",
+            "answer": "<p>While some users with technical expertise may install it themselves, professional installation is recommended to ensure proper wiring, control integration, and long-term performance.</p>",
+            "icon": "none"
+          }
+        },
+        "question_x7CiaK": {
+          "type": "question",
+          "settings": {
+            "question": "10. What is the warranty for the Whelen Arges spotlight?",
+            "answer": "<p>Whelen typically offers a 5-year warranty on most lighting products, including the Arges spotlight. For full warranty details, refer to Whelen’s official documentation or contact the distributor.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_fjC6nt",
+        "question_yqRUfm",
+        "question_79HMpx",
+        "question_fGTwRC",
+        "question_U8M8dz",
+        "question_ErcWUG",
+        "question_9Jxbgy",
+        "question_rw7YXY",
+        "question_WYnbid",
+        "question_K4k6H4",
+        "question_x7CiaK"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "wide",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
       }
     },
     "recommendations": {
@@ -232,8 +330,8 @@
   "order": [
     "main",
     "17361695840f23726e",
-    "17407469585773d0a2",
     "1740751518ae8cc801",
+    "dynamic_faq_dJWb8B",
     "recommendations",
     "dynamic_rich_text_nH4Ctq",
     "dynamic_highlights_banner_DTRagm",
