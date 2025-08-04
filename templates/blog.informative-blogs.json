@@ -9,43 +9,6 @@
  */
 {
   "sections": {
-    "dynamic_rich_text_4XU8zE": {
-      "type": "dynamic-rich-text",
-      "settings": {
-        "width": "full-width",
-        "title": "Video Support",
-        "text": "<p>Here at Strobes N' More we realize you may need additional help outside of the installation guide so we've created a few videos to troubleshoot some of these general issues. We hope these will help you in the process of getting the most out of your purchase. Remember, do not bench test (battery chargers, batteries, converters, etc.) Install the lights per the manufacturer's specifications. Make sure they're fused properly, don't cut your wires too short and don't add too much heat shrink to the wires behind the light (this could affect the solder inside the housing.) You can contact us directly with any other questions at (401) 454-4487.</p><p></p><p><a href=\"https://www.youtube.com/user/StrobesnmoreUSA\" target=\"_blank\" title=\"Strobes N' More Youtube channel\"><strong>Click for more informational videos </strong></a></p>",
-        "heading_size": "medium",
-        "text_alignment": "left"
-      }
-    },
-    "dynamic_highlights_banner_x9h9yQ": {
-      "type": "dynamic-highlights-banner",
-      "blocks": {
-        "highlight_nQcn7h": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-information",
-            "title": "YouTube",
-            "text": "<p><a href=\"https://www.youtube.com/user/StrobesnmoreUSA\" target=\"_blank\" title=\"https://www.youtube.com/user/StrobesnmoreUSA\">Click for more informational videos</a></p>",
-            "link": ""
-          }
-        }
-      },
-      "block_order": [
-        "highlight_nQcn7h"
-      ],
-      "disabled": true,
-      "settings": {
-        "section_spacing": false,
-        "section_width": "full-width",
-        "icon_layout": "left",
-        "color": "#4d4d4d",
-        "icon_color": "#4d4d4d",
-        "background_color": "#f8f8f8",
-        "mobile_layout": "slider"
-      }
-    },
     "main": {
       "type": "static-blog",
       "custom_css": [
@@ -67,8 +30,6 @@
     }
   },
   "order": [
-    "dynamic_rich_text_4XU8zE",
-    "dynamic_highlights_banner_x9h9yQ",
     "main"
   ]
 }
