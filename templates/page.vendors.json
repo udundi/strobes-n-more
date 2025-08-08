@@ -145,13 +145,6 @@
             "link": ""
           }
         },
-        "logo_LVkDMf": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Brooking_industry_logo.png",
-            "link": "shopify://collections/brooking-industries"
-          }
-        },
         "logo_FhTqX3": {
           "type": "logo",
           "settings": {
@@ -221,6 +214,13 @@
             "image": "shopify://shop_images/Gamber_Johnson_logo.jpg",
             "link": ""
           }
+        },
+        "logo_Yzy8Hz": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/go_rhino_logo.jpg",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -231,7 +231,6 @@
         "logo_QY8hJx",
         "logo_gMfCzy",
         "logo_cAen7b",
-        "logo_LVkDMf",
         "logo_FhTqX3",
         "logo_3WAbLq",
         "logo_4LkNCQ",
@@ -241,7 +240,8 @@
         "logo_qJPYBA",
         "logo_ypQDhi",
         "logo_NREGT6",
-        "logo_CDxRaq"
+        "logo_CDxRaq",
+        "logo_Yzy8Hz"
       ],
       "custom_css": [
         "div {margin-top: 30px;}"
@@ -253,13 +253,6 @@
     "dynamic_logo_list_p7aXbG": {
       "type": "dynamic-logo-list",
       "blocks": {
-        "logo_w6WVUP": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/go_rhino_logo.jpg",
-            "link": ""
-          }
-        },
         "logo_xzDQbQ": {
           "type": "logo",
           "settings": {
@@ -378,10 +371,16 @@
             "image": "shopify://shop_images/STI-CO_INDUSTIRES_logo.png",
             "link": ""
           }
+        },
+        "logo_q9tJQw": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/STOP_STICK_logo.png",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "logo_w6WVUP",
         "logo_xzDQbQ",
         "logo_bpY9My",
         "logo_XKMr4i",
@@ -398,7 +397,8 @@
         "logo_7WWNYT",
         "logo_GeGzeD",
         "logo_jzTfMQ",
-        "logo_BFbCQP"
+        "logo_BFbCQP",
+        "logo_q9tJQw"
       ],
       "settings": {
         "title": ""
@@ -407,13 +407,6 @@
     "dynamic_logo_list_8dB8Xc": {
       "type": "dynamic-logo-list",
       "blocks": {
-        "logo_dAGE9i": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/STOP_STICK_logo.png",
-            "link": ""
-          }
-        },
         "logo_cKn8mB": {
           "type": "logo",
           "settings": {
@@ -493,7 +486,6 @@
         }
       },
       "block_order": [
-        "logo_dAGE9i",
         "logo_cKn8mB",
         "logo_UpTiWb",
         "logo_dKM4zX",

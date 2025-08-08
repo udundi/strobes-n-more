@@ -460,13 +460,6 @@
             "link": ""
           }
         },
-        "logo_Tr3MaH": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/Brooking_industry_logo.png",
-            "link": "shopify://collections/brooking-industries"
-          }
-        },
         "logo_f3ryAt": {
           "type": "logo",
           "settings": {
@@ -582,7 +575,6 @@
       },
       "block_order": [
         "logo_widrQW",
-        "logo_Tr3MaH",
         "logo_f3ryAt",
         "logo_P9dNyQ",
         "logo_hEREwt",
