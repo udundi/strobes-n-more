@@ -11,7 +11,6 @@
   "sections": {
     "pxs_image_with_text_overlay_jcXVpi": {
       "type": "pxs-image-with-text-overlay",
-      "disabled": true,
       "name": "t:sections.image_with_text_overlay.presets.name",
       "settings": {
         "section_height": "original",
