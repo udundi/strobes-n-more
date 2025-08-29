@@ -435,6 +435,13 @@
             "link": "shopify://collections/tomar"
           }
         },
+        "logo_pQrDPP": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/TowMate_logo.png",
+            "link": "shopify://collections/towmate"
+          }
+        },
         "logo_UaATdP": {
           "type": "logo",
           "settings": {
@@ -490,6 +497,7 @@
         "logo_UpTiWb",
         "logo_dKM4zX",
         "logo_FCjwpn",
+        "logo_pQrDPP",
         "logo_UaATdP",
         "logo_QqzXKR",
         "logo_DqBJND",
