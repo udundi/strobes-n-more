@@ -9,6 +9,22 @@
  */
 {
   "sections": {
+    "pxs_image_with_text_overlay_h4dPr4": {
+      "type": "pxs-image-with-text-overlay",
+      "name": "t:sections.image_with_text_overlay.presets.name",
+      "settings": {
+        "section_height": "original",
+        "image": "shopify://shop_images/Untitled-2_7.png",
+        "title": "",
+        "text": "",
+        "content_position": "center-center",
+        "color": "#ffffff",
+        "overlay_background": "#000000",
+        "overlay_opacity": 0,
+        "link": "",
+        "button_text": ""
+      }
+    },
     "main": {
       "type": "static-collection",
       "blocks": {
@@ -52,6 +68,7 @@
     }
   },
   "order": [
+    "pxs_image_with_text_overlay_h4dPr4",
     "main",
     "static-recently-viewed"
   ]
