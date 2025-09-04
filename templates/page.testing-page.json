@@ -26,30 +26,11 @@
       "settings": {
         "custom_liquid": ""
       }
-    },
-    "175699904058e87cc9": {
-      "type": "apps",
-      "blocks": {
-        "common_ninja_all_in_one_suite_app_block_tzzY9z": {
-          "type": "shopify://apps/common-ninja-all-in-one-suite/blocks/app-block/c062b79d-db93-4e96-aa90-38eecd46c8f7",
-          "settings": {
-            "isVisible": true,
-            "appId": "77fa07d0-2b83-4cca-ac6c-9b2e62140af7"
-          }
-        }
-      },
-      "block_order": [
-        "common_ninja_all_in_one_suite_app_block_tzzY9z"
-      ],
-      "settings": {
-        "include_padding": true
-      }
     }
   },
   "order": [
     "main",
     "dynamic_custom_liquid_PtUwKe",
-    "dynamic_custom_liquid_GTEktp",
-    "175699904058e87cc9"
+    "dynamic_custom_liquid_GTEktp"
   ]
 }
