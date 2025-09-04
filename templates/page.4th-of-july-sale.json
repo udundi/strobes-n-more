@@ -30,24 +30,6 @@
         "button_text": ""
       }
     },
-    "1756999282de9c4e06": {
-      "type": "apps",
-      "blocks": {
-        "common_ninja_all_in_one_suite_app_block_RViCMF": {
-          "type": "shopify://apps/common-ninja-all-in-one-suite/blocks/app-block/c062b79d-db93-4e96-aa90-38eecd46c8f7",
-          "settings": {
-            "isVisible": true,
-            "appId": "77fa07d0-2b83-4cca-ac6c-9b2e62140af7"
-          }
-        }
-      },
-      "block_order": [
-        "common_ninja_all_in_one_suite_app_block_RViCMF"
-      ],
-      "settings": {
-        "include_padding": true
-      }
-    },
     "dynamic_custom_liquid_7AWjbd": {
       "type": "dynamic-custom-liquid",
       "custom_css": [
@@ -319,7 +301,6 @@
   "order": [
     "main",
     "pxs_image_with_text_overlay_czgNEg",
-    "1756999282de9c4e06",
     "dynamic_custom_liquid_7AWjbd",
     "dynamic_slideshow_4FNAhg",
     "dynamic_shoppable_image_kKgW99",
