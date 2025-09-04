@@ -153,6 +153,11 @@
         "type": "shopify://apps/hulk-form-builder/blocks/app-embed/b6b8dd14-356b-4725-a4ed-77232212b3c3",
         "disabled": false,
         "settings": {}
+      },
+      "1140779600804625888": {
+        "type": "shopify://apps/common-ninja-all-in-one-suite/blocks/app-embed-block/c062b79d-db93-4e96-aa90-38eecd46c8f7",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
