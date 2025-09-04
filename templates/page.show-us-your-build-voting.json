@@ -53,12 +53,114 @@
       "settings": {
         "include_padding": true
       }
+    },
+    "dynamic_featured_collection_4iB3Yj": {
+      "type": "dynamic-featured-collection",
+      "blocks": {
+        "title_card_ji6Fq9": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify://shop_images/Lightbar_Packages2.png",
+            "text_alignment": "center-center",
+            "pre_heading": "Featured",
+            "heading": "Products",
+            "text_color": "#FFFFFF",
+            "show_on_mobile": true,
+            "horizontal_size": "1",
+            "vertical_size": "1",
+            "enable_full_width_on_mobile": false,
+            "cta_label": "See more",
+            "overlay_color": "#000000",
+            "overlay_opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "title_card_ji6Fq9"
+      ],
+      "name": "t:sections.featured_collection.presets.featured_collection.name",
+      "settings": {
+        "title": "",
+        "layout": "grid",
+        "mobile_layout": "slideshow",
+        "collection": "",
+        "product_count": 4,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
+    },
+    "dynamic_highlights_banner_7HQ6wX": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_GdVkiW": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-information",
+            "title": "Free Shipping",
+            "text": "<p>When you spend $100+</p>",
+            "link": ""
+          }
+        },
+        "highlight_iFqNeK": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-cell-phone",
+            "title": "Give Us A Call",
+            "text": "<p>+1 (201) 555-5555</p>",
+            "link": ""
+          }
+        },
+        "highlight_7MHRdP": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "Chat With Us",
+            "text": "<p>We offer 24-hour chat support</p>",
+            "link": ""
+          }
+        },
+        "highlight_pcQ8Jw": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-pin",
+            "title": "Locations",
+            "text": "<p>Find a store near you</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_GdVkiW",
+        "highlight_iFqNeK",
+        "highlight_7MHRdP",
+        "highlight_pcQ8Jw"
+      ],
+      "name": "t:sections.highlights_banner.presets.highlights_banner.name",
+      "settings": {
+        "section_spacing": true,
+        "section_width": "full-width",
+        "icon_layout": "center",
+        "color": "#4d4d4d",
+        "icon_color": "#4d4d4d",
+        "background_color": "#f8f8f8",
+        "mobile_layout": "slider"
+      }
+    },
+    "dynamic_custom_liquid_BkQNDY": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": ""
+      }
     }
   },
   "order": [
     "main",
     "pxs_image_with_text_overlay_rYqrXD",
     "dynamic_custom_liquid_zAHApP",
-    "1757009796adca086c"
+    "1757009796adca086c",
+    "dynamic_featured_collection_4iB3Yj",
+    "dynamic_highlights_banner_7HQ6wX",
+    "dynamic_custom_liquid_BkQNDY"
   ]
 }
