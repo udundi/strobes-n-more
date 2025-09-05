@@ -64,7 +64,7 @@
             "text_alignment": "center-center",
             "pre_heading": "Featured",
             "heading": "Products",
-            "text_color": "#FFFFFF",
+            "text_color": "#ffffff",
             "show_on_mobile": true,
             "horizontal_size": "1",
             "vertical_size": "1",
@@ -77,6 +77,9 @@
       },
       "block_order": [
         "title_card_ji6Fq9"
+      ],
+      "custom_css": [
+        "{padding-top: 50px;}"
       ],
       "name": "t:sections.featured_collection.presets.featured_collection.name",
       "settings": {
