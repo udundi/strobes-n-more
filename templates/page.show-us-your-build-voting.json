@@ -18,7 +18,7 @@
       "type": "pxs-image-with-text-overlay",
       "name": "t:sections.image_with_text_overlay.presets.name",
       "settings": {
-        "section_height": "medium",
+        "section_height": "original",
         "image": "shopify://shop_images/Show_Us_Your_Build_Launch-8.png",
         "title": "",
         "text": "",
