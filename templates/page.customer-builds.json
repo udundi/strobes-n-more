@@ -155,7 +155,7 @@
         "{background-color: #21225b;}",
         "h2 {color: white; padding: 12px;}"
       ],
-      "name": "Rich Text - How to Win",
+      "name": "Rich Text - Prizes",
       "settings": {
         "width": "wide",
         "title": "Prizes",
@@ -169,7 +169,7 @@
       "settings": {
         "width": "wide",
         "title": "",
-        "text": "<p><br/><strong>Community Vote</strong><br/><em>Top 3 submissions will be chosen for the Strobes N More Community to vote on their favorite!</em><br/><br/>1st: $150 SNM Website Gift Card<br/>2nd: $75 SNM Website Gift Card<br/>3rd: SNM Hoodie + Hat<br/><br/><strong>Strobes N More Select</strong><br/><em>For the best build using Strobes N More Products!</em><br/><br/>$250 SNM Website Gift Card<br/><br/></p>",
+        "text": "<p><strong>Community Vote</strong><br/><em>Top 3 submissions will be chosen for the Strobes N More Community to vote on their favorite!</em><br/><br/>1st: $150 SNM Website Gift Card<br/>2nd: $75 SNM Website Gift Card<br/>3rd: SNM Hoodie + Hat<br/><br/><strong>Strobes N More Select</strong><br/><em>For the best build using Strobes N More Products!</em><br/><br/>$250 SNM Website Gift Card</p>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
