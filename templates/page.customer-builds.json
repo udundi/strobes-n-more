@@ -174,6 +174,13 @@
         "text_alignment": "left"
       }
     },
+    "dynamic_custom_liquid_CFxCQg": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "<div class=\"custom-button-container\" style=\"text-align: center; padding: 5px 0;\">\n  <a href=\"https://strobesnmore.com/pages/show-us-your-build-voting\" class=\"custom-redirect-button\">\n    Show Us Your Build - Vote Now!\n  </a>\n</div>\n\n<style>\n  .custom-redirect-button {\n    display: inline-block;\n    background-color: #21225b;\n    color: white !important;\n    font-family: 'Nunito Sans', sans-serif;\n    font-weight: 700;\n    font-size: 16px;\n    padding: 14px 32px;\n    text-decoration: none;\n    border-radius: 4px;\n    transition: all 0.3s ease;\n    border: none;\n    cursor: pointer;\n  }\n\n  .custom-redirect-button:hover {\n    background-color: #1a1d4a;\n    color: white !important;\n    transform: translateY(-2px);\n    box-shadow: 0 4px 8px rgba(33, 34, 91, 0.3);\n    text-decoration: none;\n  }\n\n  .custom-redirect-button:active {\n    transform: translateY(0);\n  }\n\n  .custom-redirect-button:visited {\n    color: white !important;\n  }\n</style>"
+      }
+    },
     "dynamic_rich_text_mg9HNJ": {
       "type": "dynamic-rich-text",
       "custom_css": [
@@ -260,6 +267,7 @@
     "dynamic_rich_text_XAmB84",
     "dynamic_rich_text_gEfRVn",
     "dynamic_rich_text_KN8b6T",
+    "dynamic_custom_liquid_CFxCQg",
     "dynamic_rich_text_mg9HNJ",
     "dynamic_highlights_banner_RJeHjd"
   ]
