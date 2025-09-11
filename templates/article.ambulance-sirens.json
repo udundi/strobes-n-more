@@ -18,9 +18,135 @@
         "show_author": true,
         "use_share_buttons": true
       }
+    },
+    "dynamic_faq_rzxDhN": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_t4JhEd": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_RpPVjp": {
+          "type": "question",
+          "settings": {
+            "question": "What is the purpose of an ambulance siren?",
+            "answer": "<p>An ambulance siren alerts other drivers and pedestrians that an emergency vehicle is approaching, helping to clear the road and reduce response time.</p>",
+            "icon": "none"
+          }
+        },
+        "question_eznTQY": {
+          "type": "question",
+          "settings": {
+            "question": "How loud is an ambulance siren?",
+            "answer": "<p>Most ambulance sirens range from 110 to 120 decibels, which is loud enough to be heard over traffic and ambient noise.</p>",
+            "icon": "none"
+          }
+        },
+        "question_rT6AxQ": {
+          "type": "question",
+          "settings": {
+            "question": "What are the different types of ambulance siren tones?",
+            "answer": "<p>Common tones include Wail, Yelp, Hi-Lo, and Airhorn—each used for different traffic conditions and levels of urgency.</p>",
+            "icon": "none"
+          }
+        },
+        "question_9a8BVc": {
+          "type": "question",
+          "settings": {
+            "question": "Are ambulance sirens legal to use on personal vehicles?",
+            "answer": "<p>No, ambulance sirens are restricted to authorized emergency vehicles. Using them on a personal vehicle is illegal in most jurisdictions.</p>",
+            "icon": "none"
+          }
+        },
+        "question_RjERUN": {
+          "type": "question",
+          "settings": {
+            "question": "Can I install an ambulance siren myself?",
+            "answer": "<p>Yes, if you're experienced with vehicle electronics, but professional installation is recommended to ensure proper performance and legal compliance.</p>",
+            "icon": "none"
+          }
+        },
+        "question_7PK7KE": {
+          "type": "question",
+          "settings": {
+            "question": "Do ambulance sirens come with PA systems?",
+            "answer": "<p>Many modern sirens include a built-in public address (PA) system for clear voice communication outside the vehicle.</p>",
+            "icon": "none"
+          }
+        },
+        "question_tgtbMP": {
+          "type": "question",
+          "settings": {
+            "question": "What’s the difference between 100-watt and 200-watt sirens?",
+            "answer": "<p>200-watt sirens are louder and more powerful, often used in larger or noisier urban areas, while 100-watt systems are standard for most EMS vehicles.</p>",
+            "icon": "none"
+          }
+        },
+        "question_rjyKBT": {
+          "type": "question",
+          "settings": {
+            "question": "How do I choose the right ambulance siren for my vehicle?",
+            "answer": "<p>Consider factors like decibel output, tone variety, size, control unit compatibility, and regulatory requirements in your area.</p>",
+            "icon": "none"
+          }
+        },
+        "question_DyUi4L": {
+          "type": "question",
+          "settings": {
+            "question": "Do ambulance sirens need to be synchronized with emergency lights?",
+            "answer": "<p>While not required, synchronizing sirens with lights improves visibility and can be beneficial in high-traffic areas.</p>",
+            "icon": "none"
+          }
+        },
+        "question_bcQtLM": {
+          "type": "question",
+          "settings": {
+            "question": "Where can I buy high-quality ambulance sirens online?",
+            "answer": "<p>You can find top-rated ambulance sirens, speakers, and accessories at<a href=\"https://www.strobesnmore.com\"> <span style=\"text-decoration:underline\">Strobes N More</span></a>, trusted by first responders nationwide.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_t4JhEd",
+        "question_RpPVjp",
+        "question_eznTQY",
+        "question_rT6AxQ",
+        "question_9a8BVc",
+        "question_RjERUN",
+        "question_7PK7KE",
+        "question_tgtbMP",
+        "question_rjyKBT",
+        "question_DyUi4L",
+        "question_bcQtLM"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
+    "dynamic_custom_liquid_wGPWmz": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What is the purpose of an ambulance siren?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"An ambulance siren alerts other drivers and pedestrians that an emergency vehicle is approaching, helping to clear the road and reduce response time.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How loud is an ambulance siren?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Most ambulance sirens range from 110 to 120 decibels, which is loud enough to be heard over traffic and ambient noise.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What are the different types of ambulance siren tones?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Common tones include Wail, Yelp, Hi-Lo, and Airhorn—each used for different traffic conditions and levels of urgency.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are ambulance sirens legal to use on personal vehicles?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"No, ambulance sirens are restricted to authorized emergency vehicles. Using them on a personal vehicle is illegal in most jurisdictions.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can I install an ambulance siren myself?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes, if you're experienced with vehicle electronics, but professional installation is recommended to ensure proper performance and legal compliance.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do ambulance sirens come with PA systems?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Many modern sirens include a built-in public address (PA) system for clear voice communication outside the vehicle.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What’s the difference between 100-watt and 200-watt sirens?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"200-watt sirens are louder and more powerful, often used in larger or noisier urban areas, while 100-watt systems are standard for most EMS vehicles.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How do I choose the right ambulance siren for my vehicle?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Consider factors like decibel output, tone variety, size, control unit compatibility, and regulatory requirements in your area.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do ambulance sirens need to be synchronized with emergency lights?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"While not required, synchronizing sirens with lights improves visibility and can be beneficial in high-traffic areas.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Where can I buy high-quality ambulance sirens online?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"You can find top-rated ambulance sirens, speakers, and accessories at Strobes N More, trusted by first responders nationwide.\"\n      }\n    }\n  ]\n}\n</script>"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "dynamic_faq_rzxDhN",
+    "dynamic_custom_liquid_wGPWmz"
   ]
 }
