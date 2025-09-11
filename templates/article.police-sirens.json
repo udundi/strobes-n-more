@@ -18,9 +18,90 @@
         "show_author": true,
         "use_share_buttons": true
       }
+    },
+    "dynamic_faq_Cariza": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_pyURLh": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_mz3ap7": {
+          "type": "question",
+          "settings": {
+            "question": "Q1: Are your police sirens suitable for volunteer responders or security vehicles?",
+            "answer": "<p>Yes! We carry sirens designed for both professional and volunteer use, including options for security patrols and unmarked units.</p>",
+            "icon": "none"
+          }
+        },
+        "question_JJzjRq": {
+          "type": "question",
+          "settings": {
+            "question": "Q2: Do your sirens include installation hardware?",
+            "answer": "<p>Most sirens come with mounting brackets and wiring diagrams. Check each product page for specific inclusions.</p>",
+            "icon": "none"
+          }
+        },
+        "question_MKbK6M": {
+          "type": "question",
+          "settings": {
+            "question": "Q3: Can I control lights and sirens from the same unit?",
+            "answer": "<p>Absolutely. We offer multi-function controllers that operate both lighting and siren tones in one compact package.</p>",
+            "icon": "none"
+          }
+        },
+        "question_itMVaL": {
+          "type": "question",
+          "settings": {
+            "question": "Q4: Are your police sirens compliant with federal regulations?",
+            "answer": "<p>Yes. Our sirens meet SAE and other relevant standards for emergency vehicle warning devices.</p>",
+            "icon": "none"
+          }
+        },
+        "question_YgnaE8": {
+          "type": "question",
+          "settings": {
+            "question": "Q5: Do you offer support for installation?",
+            "answer": "<p>Yes. Our team can assist with product recommendations and provide wiring documentation for your specific vehicle setup.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_pyURLh",
+        "question_mz3ap7",
+        "question_JJzjRq",
+        "question_MKbK6M",
+        "question_itMVaL",
+        "question_YgnaE8"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "heading": "FAQs: Police Sirens",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
+    "dynamic_custom_liquid_KrqPUF": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are your police sirens suitable for volunteer responders or security vehicles?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes! We carry sirens designed for both professional and volunteer use, including options for security patrols and unmarked units.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do your sirens include installation hardware?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Most sirens come with mounting brackets and wiring diagrams. Check each product page for specific inclusions.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can I control lights and sirens from the same unit?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Absolutely. We offer multi-function controllers that operate both lighting and siren tones in one compact package.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are your police sirens compliant with federal regulations?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes. Our sirens meet SAE and other relevant standards for emergency vehicle warning devices.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do you offer support for installation?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes. Our team can assist with product recommendations and provide wiring documentation for your specific vehicle setup.\"\n      }\n    }\n  ]\n}\n</script>"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "dynamic_faq_Cariza",
+    "dynamic_custom_liquid_KrqPUF"
   ]
 }
