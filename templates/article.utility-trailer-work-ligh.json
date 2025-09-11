@@ -18,9 +18,108 @@
         "show_author": true,
         "use_share_buttons": true
       }
+    },
+    "dynamic_faq_CxiWgR": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_RWwVqM": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_t3eiwy": {
+          "type": "question",
+          "settings": {
+            "question": "What are utility trailer work lights used for?",
+            "answer": "<p>They provide illumination for loading, unloading, and working in dark or low-visibility conditions.</p>",
+            "icon": "none"
+          }
+        },
+        "question_8NX9pq": {
+          "type": "question",
+          "settings": {
+            "question": "What type of work light is best for utility trailers?",
+            "answer": "<p>Floodlights are great for wide coverage, while spotlights offer focused beams. Combination lights offer the best of both worlds.</p>",
+            "icon": "none"
+          }
+        },
+        "question_B7j8AQ": {
+          "type": "question",
+          "settings": {
+            "question": "Are LED work lights better than halogen for trailers?",
+            "answer": "<p>Yes, LEDs are more energy-efficient, have a longer lifespan, and are more durable than halogen bulbs.</p>",
+            "icon": "none"
+          }
+        },
+        "question_i4iwCB": {
+          "type": "question",
+          "settings": {
+            "question": "Can I install work lights on my trailer myself?",
+            "answer": "<p>Yes, with basic tools and wiring knowledge, most trailer work lights are easy to install.</p>",
+            "icon": "none"
+          }
+        },
+        "question_FXx8Kq": {
+          "type": "question",
+          "settings": {
+            "question": "Do trailer work lights need to be waterproof?",
+            "answer": "<p>Absolutely—look for lights with at least an IP65 rating to ensure weather resistance.</p>",
+            "icon": "none"
+          }
+        },
+        "question_EdNfw3": {
+          "type": "question",
+          "settings": {
+            "question": "Can work lights run off a 12V trailer battery?",
+            "answer": "<p>Yes, most LED work lights are designed to run off standard 12V power systems.</p>",
+            "icon": "none"
+          }
+        },
+        "question_33i78i": {
+          "type": "question",
+          "settings": {
+            "question": "Where can I buy utility trailer work lights online?",
+            "answer": "<p>Strobes N More offers a wide selection of high-quality trailer work lights for all applications.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_RWwVqM",
+        "question_t3eiwy",
+        "question_8NX9pq",
+        "question_B7j8AQ",
+        "question_i4iwCB",
+        "question_FXx8Kq",
+        "question_EdNfw3",
+        "question_33i78i"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "heading": "Utility Trailer Lights FAQs",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
+    "dynamic_custom_liquid_mb7idM": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What are utility trailer work lights used for?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"They provide illumination for loading, unloading, and working in dark or low-visibility conditions.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What type of work light is best for utility trailers?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Floodlights are great for wide coverage, while spotlights offer focused beams. Combination lights offer the best of both worlds.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are LED work lights better than halogen for trailers?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes, LEDs are more energy-efficient, have a longer lifespan, and are more durable than halogen bulbs.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can I install work lights on my trailer myself?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes, with basic tools and wiring knowledge, most trailer work lights are easy to install.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do trailer work lights need to be waterproof?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Absolutely—look for lights with at least an IP65 rating to ensure weather resistance.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can work lights run off a 12V trailer battery?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes, most LED work lights are designed to run off standard 12V power systems.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Where can I buy utility trailer work lights online?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Strobes N More offers a wide selection of high-quality trailer work lights for all applications.\"\n      }\n    }\n  ]\n}\n</script>"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "dynamic_faq_CxiWgR",
+    "dynamic_custom_liquid_mb7idM"
   ]
 }
