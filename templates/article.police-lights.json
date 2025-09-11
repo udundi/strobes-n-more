@@ -18,9 +18,90 @@
         "show_author": true,
         "use_share_buttons": true
       }
+    },
+    "dynamic_faq_WzG9Ve": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_gDWAjq": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_aik8yC": {
+          "type": "question",
+          "settings": {
+            "question": "Are your police lights street-legal for civilian vehicles?",
+            "answer": "<p> Some lights may be used for off-road or show purposes, but use on public roads is regulated. Always check your local laws.</p>",
+            "icon": "none"
+          }
+        },
+        "question_wcReij": {
+          "type": "question",
+          "settings": {
+            "question": "Do the lights come with flash pattern options?",
+            "answer": "<p> Yes. Most of our LED police lights include multiple built-in flash patterns that can be easily programmed.</p>",
+            "icon": "none"
+          }
+        },
+        "question_t9RnQw": {
+          "type": "question",
+          "settings": {
+            "question": "Are your police lights waterproof?",
+            "answer": "<p>Absolutely. Our lights are built with weather-resistant or waterproof housings designed to perform in rain, snow, and extreme temperatures.</p>",
+            "icon": "none"
+          }
+        },
+        "question_z7qDJG": {
+          "type": "question",
+          "settings": {
+            "question": "Can I sync multiple lights together?",
+            "answer": "<p>Yes. Many of our police lights include sync functionality so multiple units can flash in coordinated patterns.</p>",
+            "icon": "none"
+          }
+        },
+        "question_aqqAPw": {
+          "type": "question",
+          "settings": {
+            "question": "Do you offer installation support?",
+            "answer": "<p>Yes. We offer wiring guides and technical support to help ensure your installation is smooth and secure.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_gDWAjq",
+        "question_aik8yC",
+        "question_wcReij",
+        "question_t9RnQw",
+        "question_z7qDJG",
+        "question_aqqAPw"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "regular",
+        "heading": "FAQs about Police Lights",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
+    "dynamic_custom_liquid_kDpxRM": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are your police lights street-legal for civilian vehicles?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Some lights may be used for off-road or show purposes, but use on public roads is regulated. Always check your local laws.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do the lights come with flash pattern options?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes. Most of our LED police lights include multiple built-in flash patterns that can be easily programmed.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are your police lights waterproof?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Absolutely. Our lights are built with weather-resistant or waterproof housings designed to perform in rain, snow, and extreme temperatures.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can I sync multiple lights together?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes. Many of our police lights include sync functionality so multiple units can flash in coordinated patterns.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do you offer support for installation?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes. We offer wiring guides and technical support to help ensure your installation is smooth and secure.\"\n      }\n    }\n  ]\n}\n</script>"
+      }
     }
   },
   "order": [
-    "main"
+    "main",
+    "dynamic_faq_WzG9Ve",
+    "dynamic_custom_liquid_kDpxRM"
   ]
 }
