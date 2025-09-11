@@ -734,6 +734,13 @@
         "category_heading_size": "large",
         "icon_color": "rgba(0,0,0,0)"
       }
+    },
+    "dynamic_custom_liquid_jCcFeA": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Strobes N' More\",\n  \"url\": \"https://strobesnmore.com/\",\n  \"logo\": \"https://strobesnmore.com/cdn/shop/files/logo_transparent2x_562x192.png\",\n  \"contactPoint\": {\n    \"@type\": \"ContactPoint\",\n    \"telephone\": \"+1-401-454-4487\",\n    \"contactType\": \"Customer Service\",\n    \"areaServed\": \"US\",\n    \"availableLanguage\": \"en\"\n  },\n  \"sameAs\": [\n    \"https://www.facebook.com/Strobesnmore/\",\n    \"https://www.instagram.com/strobesnmore/\",\n    \"https://youtube.com/user/StrobesnmoreUSA\"\n\n  ]\n}\n</script>"
+      }
     }
   },
   "order": [
@@ -755,6 +762,7 @@
     "dynamic_rich_text_tEzKJa",
     "dynamic_logo_list_K49fPx",
     "dynamic_rich_text_87LzTE",
-    "dynamic_faq_Fczewz"
+    "dynamic_faq_Fczewz",
+    "dynamic_custom_liquid_jCcFeA"
   ]
 }
