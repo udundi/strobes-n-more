@@ -125,7 +125,7 @@
           "type": "question",
           "settings": {
             "question": "Do I need a special flasher for LED lights?",
-            "answer": "<p>Yes, standard flashers may not work correctly with low-current LED systems. A flasher for LED lights is specifically engineered to prevent hyper-flashing and ensure consistent performance.</p>",
+            "answer": "<p>Yes, standard flashers may not work correctly with low-current LED systems. A flasher for <a href=\"https://strobesnmore.com/collections/led-lights\" title=\"LED Flashers & Flash Modules Collection\">LED lights</a> is specifically engineered to prevent hyper-flashing and ensure consistent performance.</p>",
             "icon": "none"
           }
         },
