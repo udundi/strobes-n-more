@@ -158,6 +158,11 @@
         "type": "shopify://apps/common-ninja-all-in-one-suite/blocks/app-embed-block/c062b79d-db93-4e96-aa90-38eecd46c8f7",
         "disabled": false,
         "settings": {}
+      },
+      "15685250022964305326": {
+        "type": "shopify://apps/elevar-conversion-tracking/blocks/dataLayerEmbed/bc30ab68-b15c-4311-811f-8ef485877ad6",
+        "disabled": false,
+        "settings": {}
       }
     }
   },
