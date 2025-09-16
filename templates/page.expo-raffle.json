@@ -18,13 +18,14 @@
       "type": "pxs-image-with-text-overlay",
       "name": "t:sections.image_with_text_overlay.presets.name",
       "settings": {
-        "section_height": "medium",
+        "section_height": "original",
+        "image": "shopify://shop_images/Untitled_13_1.png",
         "title": "",
         "text": "",
         "content_position": "center-center",
         "color": "#ffffff",
         "overlay_background": "#000000",
-        "overlay_opacity": 50,
+        "overlay_opacity": 0,
         "link": "",
         "button_text": ""
       }
@@ -95,7 +96,7 @@
             "text_alignment": "center-center",
             "pre_heading": "",
             "heading": "Lightbar Packages",
-            "text_color": "#FFFFFF",
+            "text_color": "#ffffff",
             "show_on_mobile": true,
             "horizontal_size": "2",
             "vertical_size": "2",
