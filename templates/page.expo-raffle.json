@@ -45,42 +45,18 @@
         "text_alignment": "center"
       }
     },
-    "1754057079671cd620": {
+    "1758050960d0a62df3": {
       "type": "apps",
       "blocks": {
-        "hulk_form_builder_form_block_Gczb89": {
-          "type": "shopify://apps/hulk-form-builder/blocks/form-block/b6b8dd14-356b-4725-a4ed-77232212b3c3",
+        "powerful_form_builder_app_block_GETYja": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
           "settings": {
-            "form_uuid": "_ap9C_dRsewKJ9Gklqv7-g",
-            "form_settings": true,
-            "font_color": "#000000",
-            "size": 14,
-            "input_background_color": "#ffffff",
-            "input_background_color_focus": "#f4dada",
-            "input_border_radius": 1,
-            "input_border_color": "#ebe9e9",
-            "input_border_color_focus": "#2d2727",
-            "input_font_color": "#3d3131",
-            "input_size": 14,
-            "border_color": "#121212",
-            "border_radius": 2,
-            "border": 1,
-            "fill_color": "#ebe9e9",
-            "padding": 35,
-            "form_width": 900,
-            "btn_text": "Submit",
-            "sub_btn_txt_color": "#21225b",
-            "sub_btn_bg_color": "#ffe614",
-            "sub_btn_font_size": 14,
-            "sub_btn_bdr_color": "#21225b",
-            "sub_btn_bdr_rad": 3,
-            "sub_btn_bdr_width": 1,
-            "fonts": "Helvetica"
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTAyNDAx\"></div>"
           }
         }
       },
       "block_order": [
-        "hulk_form_builder_form_block_Gczb89"
+        "powerful_form_builder_app_block_GETYja"
       ],
       "settings": {
         "include_padding": true
@@ -109,6 +85,9 @@
       },
       "block_order": [
         "title_card_yJyLUN"
+      ],
+      "custom_css": [
+        "{margin-top: 70px;}"
       ],
       "name": "t:sections.featured_collection.presets.featured_collection.name",
       "settings": {
@@ -198,7 +177,7 @@
     "main",
     "pxs_image_with_text_overlay_RLeByJ",
     "dynamic_rich_text_pQVPFk",
-    "1754057079671cd620",
+    "1758050960d0a62df3",
     "dynamic_featured_collection_fWKEXq",
     "dynamic_rich_text_7Lzbnb",
     "dynamic_highlights_banner_4tWmAp"
