@@ -29,21 +29,132 @@
         "button_text": ""
       }
     },
+    "dynamic_rich_text_LbyjNU": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "{background-color: #21225b;}",
+        "h2 {color: #fff; padding: 12px;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "title": "Here’s how it works",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "center"
+      }
+    },
     "dynamic_rich_text_QWYUUh": {
       "type": "dynamic-rich-text",
+      "custom_css": [
+        "{margin-top: -30px;}"
+      ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "width": "wide",
-        "title": "Here’s how it works:",
+        "title": "",
         "text": "<p>If you refer a municipality that is not a current Strobes N’ More install customer and they engage us on an upfitting project, your department will receive a $500 credit on your next install.  The new customer will also receive a discount ($ amount will be dependent on the build).  So, everybody wins!</p>",
         "heading_size": "medium",
         "text_alignment": "left"
+      }
+    },
+    "17580518654835c84d": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_VwAKVc": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTA5NDAx\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_VwAKVc"
+      ],
+      "settings": {
+        "include_padding": true
+      }
+    },
+    "dynamic_rich_text_LLLFey": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "{background-color: #21225b;}",
+        "h2 {color: #fff; padding: 12px;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "title": "For More Info",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_highlights_banner_3VV3rQ": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_kbFyaH": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-envelope",
+            "title": "Email",
+            "text": "<p>sales@strobesnmore.com</p>",
+            "link": ""
+          }
+        },
+        "highlight_MgnPzG": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-cell-phone",
+            "title": "Give Us A Call",
+            "text": "<p>(401) 454-4487</p>",
+            "link": ""
+          }
+        },
+        "highlight_DWp4yL": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "Chat With Us",
+            "text": "<p>Using the icon in the bottom right</p>",
+            "link": ""
+          }
+        },
+        "highlight_RPpmag": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-information",
+            "title": "Fax",
+            "text": "<p>(401) 596-6596</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_kbFyaH",
+        "highlight_MgnPzG",
+        "highlight_DWp4yL",
+        "highlight_RPpmag"
+      ],
+      "name": "t:sections.highlights_banner.presets.highlights_banner.name",
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "center",
+        "color": "#4d4d4d",
+        "icon_color": "#4d4d4d",
+        "background_color": "#ffffff",
+        "mobile_layout": "slider"
       }
     }
   },
   "order": [
     "main",
     "pxs_image_with_text_overlay_A7nAtM",
-    "dynamic_rich_text_QWYUUh"
+    "dynamic_rich_text_LbyjNU",
+    "dynamic_rich_text_QWYUUh",
+    "17580518654835c84d",
+    "dynamic_rich_text_LLLFey",
+    "dynamic_highlights_banner_3VV3rQ"
   ]
 }
