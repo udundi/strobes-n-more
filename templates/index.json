@@ -284,10 +284,10 @@
         "title-card": {
           "type": "title_card",
           "settings": {
-            "image": "shopify://shop_images/Staff_Picks7.png",
+            "image": "shopify://shop_images/website_graphics-1_1.png",
             "text_alignment": "center-center",
             "pre_heading": "",
-            "heading": "Staff Picks",
+            "heading": "Switches & Controllers",
             "text_color": "#ffffff",
             "show_on_mobile": true,
             "horizontal_size": "3",
@@ -307,7 +307,7 @@
         "title": "",
         "layout": "slideshow",
         "mobile_layout": "slideshow",
-        "collection": "matts-picks",
+        "collection": "switches-controllers",
         "product_count": 7,
         "cta_label": "",
         "cta_button_style": "primary"
