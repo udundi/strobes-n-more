@@ -149,6 +149,41 @@
         "custom_liquid": "<style>\n  .mobile-image {\n    width: 100%;\n    max-width: 100%;\n    height: auto;\n    display: block;\n  }\n  \n  .mobile-section {\n    width: 100vw;\n    padding: 0;\n    margin: 0;\n    margin-left: calc(-50vw + 50%);\n    position: relative;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n  }\n  \n  .mobile-container {\n    width: 100%;\n    margin: 0 auto;\n  }\n  \n  /* Show only on mobile devices (768px and below) */\n  @media screen and (max-width: 768px) {\n    .mobile-section {\n      display: flex;\n    }\n  }\n  \n  /* Hide on tablet and desktop (769px and above) */\n  @media screen and (min-width: 769px) {\n    .mobile-section {\n      display: none !important;\n    }\n  }\n</style>\n\n<section class=\"mobile-section\">\n  <div class=\"mobile-container\">\n    <a href=\"https://strobesnmore.com/pages/show-us-your-build\" target=\"_blank\" rel=\"noopener noreferrer\">\n      <img \n        src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/show_us_your_build_mobile.jpg?v=1754067414\"\n        alt=\"Show us your build - Mobile\"\n        class=\"mobile-image\"\n        loading=\"lazy\"\n      >\n    </a>\n  </div>\n</section>"
       }
     },
+    "dynamic_featured_collection_xVetnN": {
+      "type": "dynamic-featured-collection",
+      "blocks": {
+        "title_card_464xXp": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify://shop_images/website_graphics-2_2.png",
+            "text_alignment": "center-center",
+            "pre_heading": "",
+            "heading": "LED Flasher",
+            "text_color": "#ffffff",
+            "show_on_mobile": true,
+            "horizontal_size": "3",
+            "vertical_size": "2",
+            "enable_full_width_on_mobile": false,
+            "cta_label": "See more",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "title_card_464xXp"
+      ],
+      "name": "Collection - Staff Picks",
+      "settings": {
+        "title": "",
+        "layout": "slideshow",
+        "mobile_layout": "slideshow",
+        "collection": "flasher-modules",
+        "product_count": 7,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
+    },
     "dynamic_collection_list": {
       "type": "dynamic-collection-list",
       "blocks": {
@@ -751,6 +786,7 @@
     "dynamic_featured_collection_M4FrNj",
     "dynamic_custom_liquid_8WJDtC",
     "dynamic_custom_liquid_C7bmL7",
+    "dynamic_featured_collection_xVetnN",
     "dynamic_collection_list",
     "dynamic_featured_collection-2",
     "dynamic_rich_text_xBbwX6",
