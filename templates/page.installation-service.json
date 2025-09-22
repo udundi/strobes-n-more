@@ -143,7 +143,7 @@
           "type": "question",
           "settings": {
             "question": "Schedule an Appointment",
-            "answer": "<p>Please contact Dave, our primary Installs Service Advisor, for more information or to schedule an appointment.  Dave handles quoting, scheduling and other install logistics.  For the quickest turnaround, email Dave with photos of the vehicles you would like upfit and include any relevant information on the build you're looking for.<br/><br/><strong>Email: </strong><span style=\"text-decoration:underline\">installquotes@strobesnmore.com<br/></span><strong>Phone:</strong> (401) 454-4487 x 102</p>",
+            "answer": "<p>Please contact Dave, our primary Installs Service Advisor, for more information or to schedule an appointment.  Dave handles quoting, scheduling and other install logistics.  For the quickest turnaround, email Dave with photos of the vehicles you would like upfit and include any relevant information on the build you're looking for.<br/><br/><strong>Email: </strong><span style=\"text-decoration:underline\">installquotes@strobesnmore.com<br/></span><strong>Phone:</strong> (401) 454-4487</p>",
             "icon": "icon-delivery-door"
           }
         }
