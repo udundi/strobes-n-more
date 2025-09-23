@@ -43,7 +43,9 @@
     },
     "header": {
       "type": "static-header",
-      "custom_css": [],
+      "custom_css": [
+        "@media (min-width: 769px) {.navmenu-id-brands .navmenu-submenu {max-height: 550px; overflow-y: auto; overflow-x: hidden; } .navmenu-id-brands .navmenu-submenu::-webkit-scrollbar {width: 8px; } .navmenu-id-brands .navmenu-submenu::-webkit-scrollbar-track {background: #f1f1f1; border-radius: 4px; } .navmenu-id-brands .navmenu-submenu::-webkit-scrollbar-thumb {background: #c1c1c1; border-radius: 4px; } .navmenu-id-brands .navmenu-submenu::-webkit-scrollbar-thumb:hover {background: #a1a1a1; }}"
+      ],
       "settings": {
         "sticky_header": true,
         "full_width_header": true,
