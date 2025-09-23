@@ -135,14 +135,14 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/BPI_Logo.png",
-            "link": ""
+            "link": "shopify://collections/bayco"
           }
         },
         "logo_cAen7b": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/Blue_sea_logo.png",
-            "link": ""
+            "link": "shopify://collections/bluesea-systems"
           }
         },
         "logo_FhTqX3": {
@@ -177,7 +177,7 @@
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/ECCO-logo.png",
-            "link": ""
+            "link": "shopify://collections/ecco"
           }
         },
         "logo_hNxMzW": {
