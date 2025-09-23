@@ -43,11 +43,7 @@
     },
     "header": {
       "type": "static-header",
-      "custom_css": [
-        ".navmenu-id-brands .navmenu-submenu {display: grid; grid-template-columns: 1fr; /* Single column on mobile */ max-height: 600px; overflow-y: auto;}",
-        "/* Desktop styles - two columns only on larger screens */@media (min-width: 769px) {.navmenu-id-brands .navmenu-submenu {grid-template-columns: 1fr 1fr; /* Two equal columns */ gap: 40px; /* Space between columns */ }}",
-        "/* Ensure menu items stay intact */.navmenu-id-brands .navmenu-item {display: block; width: 100%; /* Remove any column-break properties since we're not using columns */}"
-      ],
+      "custom_css": [],
       "settings": {
         "sticky_header": true,
         "full_width_header": true,
