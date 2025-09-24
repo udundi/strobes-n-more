@@ -39,7 +39,7 @@
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "width": "regular",
-        "title": "Sample Heading",
+        "title": "Enter for a chance to win!",
         "text": "",
         "heading_size": "medium",
         "text_alignment": "center"
