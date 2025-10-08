@@ -229,8 +229,8 @@
         "section_spacing": false,
         "section_width": "full-width",
         "icon_layout": "center",
-        "color": "#4d4d4d",
-        "icon_color": "#4d4d4d",
+        "color": "#1d1d1d",
+        "icon_color": "#1d1d1d",
         "background_color": "#ffffff",
         "mobile_layout": "slider"
       }
