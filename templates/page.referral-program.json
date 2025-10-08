@@ -75,6 +75,93 @@
         "include_padding": true
       }
     },
+    "dynamic_image_with_text_gGUPCd": {
+      "type": "dynamic-image-with-text",
+      "custom_css": [
+        "{margin-top: 60px;}"
+      ],
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify://shop_images/SNM.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Installation & Services",
+        "subheading": "<p>Our team of expert designers, quoters, and technicians has decades of experience in emergency vehicle upfitting. We specialize in installing products like lights, push bumpers, and vehicle consoles for agencies in Rhode Island and Connecticut.</p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_image_with_text_bd4n38": {
+      "type": "dynamic-image-with-text",
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify://shop_images/image.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "right",
+        "mobile_image_alignment": "top",
+        "heading": "Reliable and Expert Upfitting Services",
+        "subheading": "<p>We pride ourselves on delivering reliable and high-quality upfitting, ensuring your vehicle performs flawlessly. Our technicians use a mix of traditional wiring techniques and creative solutions, and our customer reviews reflect our commitment to excellence. We also provide routine maintenance and repairs to keep your fleet ready for action.</p>",
+        "text_alignment": "left",
+        "button_label": "Button",
+        "button_link": ""
+      }
+    },
+    "dynamic_highlights_banner_3VV3rQ": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_kbFyaH": {
+          "type": "highlight",
+          "settings": {
+            "icon": "none",
+            "title": "Professional Staff",
+            "text": "<p>Our Team has decades of experience quoting, configuring and installing the most sophisticated emergency vehicle equipment on the market.</p>",
+            "link": ""
+          }
+        },
+        "highlight_MgnPzG": {
+          "type": "highlight",
+          "settings": {
+            "icon": "none",
+            "title": "Follow-Up Support",
+            "text": "<p>When required, our follow-up support is second to none.  We're there to help you every step of the way so that your vehicle can get back into commission.</p>",
+            "link": ""
+          }
+        },
+        "highlight_DWp4yL": {
+          "type": "highlight",
+          "settings": {
+            "icon": "none",
+            "title": "Chat With Us",
+            "text": "<p>Strobes N' More partners with the leading OEMs, and we stand ready to keep first responder fleets up-to-date with the latest emergency vehicle solutions.</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_kbFyaH",
+        "highlight_MgnPzG",
+        "highlight_DWp4yL"
+      ],
+      "custom_css": [
+        "{margin-top: 40px;}"
+      ],
+      "name": "t:sections.highlights_banner.presets.highlights_banner.name",
+      "settings": {
+        "section_spacing": false,
+        "section_width": "content-width",
+        "icon_layout": "center",
+        "color": "#ffffff",
+        "icon_color": "#4d4d4d",
+        "background_color": "#21225b",
+        "mobile_layout": "slider"
+      }
+    },
     "dynamic_rich_text_LLLFey": {
       "type": "dynamic-rich-text",
       "custom_css": [
@@ -90,10 +177,10 @@
         "text_alignment": "center"
       }
     },
-    "dynamic_highlights_banner_3VV3rQ": {
+    "dynamic_highlights_banner_aPn4Ah": {
       "type": "dynamic-highlights-banner",
       "blocks": {
-        "highlight_kbFyaH": {
+        "highlight_LqtppR": {
           "type": "highlight",
           "settings": {
             "icon": "icon-envelope",
@@ -102,7 +189,7 @@
             "link": ""
           }
         },
-        "highlight_MgnPzG": {
+        "highlight_fUhnqg": {
           "type": "highlight",
           "settings": {
             "icon": "icon-cell-phone",
@@ -111,7 +198,7 @@
             "link": ""
           }
         },
-        "highlight_DWp4yL": {
+        "highlight_ktzhcH": {
           "type": "highlight",
           "settings": {
             "icon": "icon-chat-alternate",
@@ -120,7 +207,7 @@
             "link": ""
           }
         },
-        "highlight_RPpmag": {
+        "highlight_qPPBhE": {
           "type": "highlight",
           "settings": {
             "icon": "icon-information",
@@ -131,10 +218,10 @@
         }
       },
       "block_order": [
-        "highlight_kbFyaH",
-        "highlight_MgnPzG",
-        "highlight_DWp4yL",
-        "highlight_RPpmag"
+        "highlight_LqtppR",
+        "highlight_fUhnqg",
+        "highlight_ktzhcH",
+        "highlight_qPPBhE"
       ],
       "name": "t:sections.highlights_banner.presets.highlights_banner.name",
       "settings": {
@@ -154,7 +241,10 @@
     "dynamic_rich_text_LbyjNU",
     "dynamic_rich_text_QWYUUh",
     "17580518654835c84d",
+    "dynamic_image_with_text_gGUPCd",
+    "dynamic_image_with_text_bd4n38",
+    "dynamic_highlights_banner_3VV3rQ",
     "dynamic_rich_text_LLLFey",
-    "dynamic_highlights_banner_3VV3rQ"
+    "dynamic_highlights_banner_aPn4Ah"
   ]
 }
