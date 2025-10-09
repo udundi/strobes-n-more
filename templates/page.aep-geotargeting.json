@@ -174,8 +174,8 @@
           "type": "highlight",
           "settings": {
             "icon": "none",
-            "title": "Sample Heading",
-            "text": "<p><strong>Sample text.</strong> Our Team has decades of experience quoting, configuring and installing the most sophisticated emergency vehicle equipment on the market.</p>",
+            "title": "Mission",
+            "text": "<p><strong>Sample text.</strong> To provide the highest of quality of work, at the lowest possible price. We are here to help better service the brave men and women who are on the front lines.</p>",
             "link": ""
           }
         },
@@ -183,8 +183,8 @@
           "type": "highlight",
           "settings": {
             "icon": "none",
-            "title": "Sample Heading",
-            "text": "<p><strong>Sample text</strong> When required, our follow-up support is second to none.  We're there to help you every step of the way so that your vehicle can get back into commission.</p>",
+            "title": "Vision",
+            "text": "<p><strong>Sample text</strong> Create an opportunity to offer a simple, effective and reliable source for a complete all in one service for our customers vehicle needs.</p>",
             "link": ""
           }
         },
