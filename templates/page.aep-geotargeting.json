@@ -169,11 +169,15 @@
     },
     "dynamic_rich_text_Najzi3": {
       "type": "dynamic-rich-text",
+      "custom_css": [
+        "{background-color: #21225b;}",
+        "h2 {color: #fff; padding: 12px;}"
+      ],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "width": "regular",
-        "title": "",
-        "text": "<h2><a href=\"#globo-formbuilder-113168\" title=\"#globo-formbuilder-113168\">Contact Us</a></h2>",
+        "title": "For More Information",
+        "text": "",
         "heading_size": "medium",
         "text_alignment": "center"
       }
@@ -181,15 +185,6 @@
     "dynamic_highlights_banner_t89ghY": {
       "type": "dynamic-highlights-banner",
       "blocks": {
-        "highlight_brdNhE": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-delivery",
-            "title": "Free Shipping",
-            "text": "<p>When you spend $100+</p>",
-            "link": ""
-          }
-        },
         "highlight_XAcUge": {
           "type": "highlight",
           "settings": {
@@ -208,31 +203,64 @@
             "link": ""
           }
         },
+        "highlight_brdNhE": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-envelope",
+            "title": "Email",
+            "text": "<p>sample@sample.com</p>",
+            "link": ""
+          }
+        },
         "highlight_w8p7DR": {
           "type": "highlight",
           "settings": {
             "icon": "icon-pin",
-            "title": "Locations",
-            "text": "<p>Find a store near you</p>",
+            "title": "Fax",
+            "text": "<p>+1 (000) 000-0000</p>",
             "link": ""
           }
         }
       },
       "block_order": [
-        "highlight_brdNhE",
         "highlight_XAcUge",
         "highlight_xGdFTA",
+        "highlight_brdNhE",
         "highlight_w8p7DR"
       ],
       "name": "t:sections.highlights_banner.presets.highlights_banner.name",
       "settings": {
         "section_spacing": false,
         "section_width": "full-width",
-        "icon_layout": "left",
-        "color": "#4d4d4d",
-        "icon_color": "#4d4d4d",
-        "background_color": "#f8f8f8",
-        "mobile_layout": "slider"
+        "icon_layout": "center",
+        "color": "#1d1d1d",
+        "icon_color": "#21225b",
+        "background_color": "#ffffff",
+        "mobile_layout": "grid"
+      }
+    },
+    "dynamic_rich_text_eqVndD": {
+      "type": "dynamic-rich-text",
+      "custom_css": [],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "title": "Visit Us At",
+        "text": "<p>151 Mill Rock Rd E, Old Saybrook, CT 06475</p>",
+        "heading_size": "medium",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_html_rNafPU": {
+      "type": "dynamic-html",
+      "custom_css": [
+        ".iframe-container {display: flex; justify-content: center; /* Center horizontally */ align-items: center; /* Center vertically (if needed) */ height: auto; /* Adjust this based on your layout */}",
+        ".map-frame {width: 1200px; height: 450px;}"
+      ],
+      "name": "t:sections.custom_html.presets.custom_html.name",
+      "settings": {
+        "title": "",
+        "custom_html": "<div class=\"iframe-container\">\n  <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1914.8797988279125!2d-72.38617767126135!3d41.30230030589688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e6230741297c81%3A0xdabb7f655308bce4!2sAdvanced%20Emergency%20Products!5e0!3m2!1sen!2s!4v1760038538001!5m2!1sen!2s\" width=\"1200\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>\n</div>"
       }
     }
   },
@@ -244,6 +272,8 @@
     "dynamic_logo_list_8TjH6h",
     "pxs_image_with_text_overlay_RnwWme",
     "dynamic_rich_text_Najzi3",
-    "dynamic_highlights_banner_t89ghY"
+    "dynamic_highlights_banner_t89ghY",
+    "dynamic_rich_text_eqVndD",
+    "dynamic_html_rNafPU"
   ]
 }
