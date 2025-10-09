@@ -161,7 +161,7 @@
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "width": "regular",
-        "title": "Why Choose Us",
+        "title": "Why Choose Us (Or List Services here)",
         "text": "",
         "heading_size": "medium",
         "text_alignment": "center"
