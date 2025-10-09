@@ -243,21 +243,21 @@
     "dynamic_highlights_banner_t89ghY": {
       "type": "dynamic-highlights-banner",
       "blocks": {
+        "highlight_xGdFTA": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "Chat With Us",
+            "text": "<p><a href=\"#globo-formbuilder-113168\" title=\"AEP Installs form\">Leave us a message and we will get back shortly</a></p>",
+            "link": ""
+          }
+        },
         "highlight_XAcUge": {
           "type": "highlight",
           "settings": {
             "icon": "icon-cell-phone",
             "title": "Give Us A Call",
             "text": "<p>+1 (201) 555-5555</p>",
-            "link": ""
-          }
-        },
-        "highlight_xGdFTA": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-chat-alternate",
-            "title": "Chat With Us",
-            "text": "<p>We offer 24-hour chat support</p>",
             "link": ""
           }
         },
@@ -281,8 +281,8 @@
         }
       },
       "block_order": [
-        "highlight_XAcUge",
         "highlight_xGdFTA",
+        "highlight_XAcUge",
         "highlight_brdNhE",
         "highlight_w8p7DR"
       ],
