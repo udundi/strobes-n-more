@@ -151,6 +151,21 @@
       "settings": {
         "title": ""
       }
+    },
+    "pxs_image_with_text_overlay_RnwWme": {
+      "type": "pxs-image-with-text-overlay",
+      "name": "t:sections.image_with_text_overlay.presets.name",
+      "settings": {
+        "section_height": "original",
+        "title": "",
+        "text": "",
+        "content_position": "center-center",
+        "color": "#ffffff",
+        "overlay_background": "#000000",
+        "overlay_opacity": 0,
+        "link": "",
+        "button_text": ""
+      }
     }
   },
   "order": [
@@ -158,6 +173,7 @@
     "pxs_image_with_text_overlay_LQRWFX",
     "17600354881c79572b",
     "dynamic_rich_text_U6CXWa",
-    "dynamic_logo_list_8TjH6h"
+    "dynamic_logo_list_8TjH6h",
+    "pxs_image_with_text_overlay_RnwWme"
   ]
 }
