@@ -21,7 +21,7 @@
         "image": "shopify://shop_images/c.jpg",
         "title": "Advanced Emergency Products",
         "text": "<p>Advanced Emergency Products Sample Text. sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text</p>",
-        "content_position": "center-left",
+        "content_position": "center-center",
         "color": "#ffffff",
         "overlay_background": "#000000",
         "overlay_opacity": 50,
@@ -35,7 +35,7 @@
         "powerful_form_builder_app_block_fQnXn3": {
           "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
           "settings": {
-            "shortcode": ""
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTEzMTY4\"></div>"
           }
         }
       },
