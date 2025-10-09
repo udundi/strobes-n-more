@@ -152,19 +152,77 @@
         "title": ""
       }
     },
-    "pxs_image_with_text_overlay_RnwWme": {
-      "type": "pxs-image-with-text-overlay",
-      "name": "t:sections.image_with_text_overlay.presets.name",
+    "dynamic_rich_text_aDUptU": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "{background-color: #21225b;}",
+        "h2 {color: #fff; padding: 12px;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
-        "section_height": "original",
-        "title": "",
+        "width": "regular",
+        "title": "Why Choose Us",
         "text": "",
-        "content_position": "center-center",
-        "color": "#ffffff",
-        "overlay_background": "#000000",
-        "overlay_opacity": 0,
-        "link": "",
-        "button_text": ""
+        "heading_size": "medium",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_highlights_banner_3KYd68": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_jCxLhm": {
+          "type": "highlight",
+          "settings": {
+            "icon": "none",
+            "title": "Sample Heading",
+            "text": "<p><strong>Sample text.</strong> Our Team has decades of experience quoting, configuring and installing the most sophisticated emergency vehicle equipment on the market.</p>",
+            "link": ""
+          }
+        },
+        "highlight_gPKtjQ": {
+          "type": "highlight",
+          "settings": {
+            "icon": "none",
+            "title": "Sample Heading",
+            "text": "<p><strong>Sample text</strong> When required, our follow-up support is second to none.  We're there to help you every step of the way so that your vehicle can get back into commission.</p>",
+            "link": ""
+          }
+        },
+        "highlight_jijhKU": {
+          "type": "highlight",
+          "settings": {
+            "icon": "none",
+            "title": "Sample Heading",
+            "text": "<p><strong>Sample text.</strong> AEP partners with the leading OEMs, and we stand ready to keep first responder fleets up-to-date with the latest emergency vehicle solutions.</p>",
+            "link": ""
+          }
+        },
+        "highlight_NCRz7Y": {
+          "type": "highlight",
+          "settings": {
+            "icon": "none",
+            "title": "Sample Heading",
+            "text": "<p><strong>Sample text.</strong> AEP partners with the leading OEMs, and we stand ready to keep first responder fleets up-to-date with the latest emergency vehicle solutions.</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_jCxLhm",
+        "highlight_gPKtjQ",
+        "highlight_jijhKU",
+        "highlight_NCRz7Y"
+      ],
+      "custom_css": [],
+      "name": "t:sections.highlights_banner.presets.highlights_banner.name",
+      "settings": {
+        "section_spacing": false,
+        "section_width": "content-width",
+        "icon_layout": "center",
+        "color": "#000000",
+        "icon_color": "#ffffff",
+        "background_color": "#ffffff",
+        "mobile_layout": "grid"
       }
     },
     "dynamic_rich_text_Najzi3": {
@@ -262,17 +320,6 @@
         "title": "",
         "custom_html": "<div class=\"iframe-container\">\n  <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1914.8797988279125!2d-72.38617767126135!3d41.30230030589688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e6230741297c81%3A0xdabb7f655308bce4!2sAdvanced%20Emergency%20Products!5e0!3m2!1sen!2s!4v1760038538001!5m2!1sen!2s\" width=\"1200\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>\n</div>"
       }
-    },
-    "dynamic_rich_text_aDUptU": {
-      "type": "dynamic-rich-text",
-      "name": "t:sections.rich_text.presets.rich_text.name",
-      "settings": {
-        "width": "regular",
-        "title": "Rich text",
-        "text": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.</p>",
-        "heading_size": "medium",
-        "text_alignment": "left"
-      }
     }
   },
   "order": [
@@ -281,11 +328,11 @@
     "17600354881c79572b",
     "dynamic_rich_text_U6CXWa",
     "dynamic_logo_list_8TjH6h",
-    "pxs_image_with_text_overlay_RnwWme",
+    "dynamic_rich_text_aDUptU",
+    "dynamic_highlights_banner_3KYd68",
     "dynamic_rich_text_Najzi3",
     "dynamic_highlights_banner_t89ghY",
     "dynamic_rich_text_eqVndD",
-    "dynamic_html_rNafPU",
-    "dynamic_rich_text_aDUptU"
+    "dynamic_html_rNafPU"
   ]
 }
