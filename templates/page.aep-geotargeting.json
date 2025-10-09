@@ -45,11 +45,79 @@
       "settings": {
         "include_padding": true
       }
+    },
+    "dynamic_rich_text_U6CXWa": {
+      "type": "dynamic-rich-text",
+      "custom_css": [
+        "{background-color: #21225b;}",
+        "h2 {color: #fff; padding: 12px;}"
+      ],
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "title": "Industry Leading Brand Selection",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_logo_list_8TjH6h": {
+      "type": "dynamic-logo-list",
+      "blocks": {
+        "logo_xm9LLE": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Havis_logo.png",
+            "link": ""
+          }
+        },
+        "logo_3U6bRx": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/pro-gard-logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_73xJLA": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/ACARI_logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_hrYqxB": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/whelen-strobesn_more.jpg",
+            "link": ""
+          }
+        },
+        "logo_LrEjrg": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/fedsig-logo-small.jpg",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "logo_xm9LLE",
+        "logo_3U6bRx",
+        "logo_73xJLA",
+        "logo_hrYqxB",
+        "logo_LrEjrg"
+      ],
+      "name": "t:sections.logo_list.presets.logo_list.name",
+      "settings": {
+        "title": ""
+      }
     }
   },
   "order": [
     "main",
     "pxs_image_with_text_overlay_LQRWFX",
-    "17600354881c79572b"
+    "17600354881c79572b",
+    "dynamic_rich_text_U6CXWa",
+    "dynamic_logo_list_8TjH6h"
   ]
 }
