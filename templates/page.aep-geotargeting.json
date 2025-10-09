@@ -98,6 +98,41 @@
             "image": "shopify://shop_images/fedsig-logo-small.jpg",
             "link": ""
           }
+        },
+        "logo_twjqxj": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Setina-Logo_crop.jpg",
+            "link": ""
+          }
+        },
+        "logo_Cyw76e": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Zone-Command-logo.webp",
+            "link": ""
+          }
+        },
+        "logo_n9QfVd": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Tiger_tough_logo.png",
+            "link": ""
+          }
+        },
+        "logo_Xx6k9B": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Sound_off_signal_logo.jpg",
+            "link": ""
+          }
+        },
+        "logo_VtcXCd": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Weiser-Solutions_logo.webp",
+            "link": ""
+          }
         }
       },
       "block_order": [
@@ -105,7 +140,12 @@
         "logo_3U6bRx",
         "logo_73xJLA",
         "logo_hrYqxB",
-        "logo_LrEjrg"
+        "logo_LrEjrg",
+        "logo_twjqxj",
+        "logo_Cyw76e",
+        "logo_n9QfVd",
+        "logo_Xx6k9B",
+        "logo_VtcXCd"
       ],
       "name": "t:sections.logo_list.presets.logo_list.name",
       "settings": {
