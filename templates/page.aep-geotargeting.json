@@ -20,7 +20,7 @@
         "section_height": "medium",
         "image": "shopify://shop_images/c.jpg",
         "title": "Advanced Emergency Products",
-        "text": "<p>Advanced Emergency Products Sample Text. sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text sample text</p>",
+        "text": "<p>Advanced Emergency Products has been in the vehicle lighting business for over 30 years. We take much pride in helping to keep the men and women who serve our country safe. AEP is a family owned and operated business with our main focus being customer service and satisfaction.</p>",
         "content_position": "center-center",
         "color": "#ffffff",
         "overlay_background": "#000000",
@@ -262,6 +262,17 @@
         "title": "",
         "custom_html": "<div class=\"iframe-container\">\n  <iframe src=\"https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1914.8797988279125!2d-72.38617767126135!3d41.30230030589688!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x89e6230741297c81%3A0xdabb7f655308bce4!2sAdvanced%20Emergency%20Products!5e0!3m2!1sen!2s!4v1760038538001!5m2!1sen!2s\" width=\"1200\" height=\"450\" style=\"border:0;\" allowfullscreen=\"\" loading=\"lazy\" referrerpolicy=\"no-referrer-when-downgrade\"></iframe>\n</div>"
       }
+    },
+    "dynamic_rich_text_aDUptU": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "title": "Rich text",
+        "text": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
     }
   },
   "order": [
@@ -274,6 +285,7 @@
     "dynamic_rich_text_Najzi3",
     "dynamic_highlights_banner_t89ghY",
     "dynamic_rich_text_eqVndD",
-    "dynamic_html_rNafPU"
+    "dynamic_html_rNafPU",
+    "dynamic_rich_text_aDUptU"
   ]
 }
