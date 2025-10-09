@@ -166,6 +166,74 @@
         "link": "",
         "button_text": ""
       }
+    },
+    "dynamic_rich_text_Najzi3": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "title": "",
+        "text": "<h2><a href=\"#globo-formbuilder-113168\" title=\"#globo-formbuilder-113168\">Contact Us</a></h2>",
+        "heading_size": "medium",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_highlights_banner_t89ghY": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_brdNhE": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-delivery",
+            "title": "Free Shipping",
+            "text": "<p>When you spend $100+</p>",
+            "link": ""
+          }
+        },
+        "highlight_XAcUge": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-cell-phone",
+            "title": "Give Us A Call",
+            "text": "<p>+1 (201) 555-5555</p>",
+            "link": ""
+          }
+        },
+        "highlight_xGdFTA": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "Chat With Us",
+            "text": "<p>We offer 24-hour chat support</p>",
+            "link": ""
+          }
+        },
+        "highlight_w8p7DR": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-pin",
+            "title": "Locations",
+            "text": "<p>Find a store near you</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_brdNhE",
+        "highlight_XAcUge",
+        "highlight_xGdFTA",
+        "highlight_w8p7DR"
+      ],
+      "name": "t:sections.highlights_banner.presets.highlights_banner.name",
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#4d4d4d",
+        "icon_color": "#4d4d4d",
+        "background_color": "#f8f8f8",
+        "mobile_layout": "slider"
+      }
     }
   },
   "order": [
@@ -174,6 +242,8 @@
     "17600354881c79572b",
     "dynamic_rich_text_U6CXWa",
     "dynamic_logo_list_8TjH6h",
-    "pxs_image_with_text_overlay_RnwWme"
+    "pxs_image_with_text_overlay_RnwWme",
+    "dynamic_rich_text_Najzi3",
+    "dynamic_highlights_banner_t89ghY"
   ]
 }
