@@ -21,7 +21,7 @@
       "type": "dynamic-custom-liquid",
       "name": "t:sections.custom_liquid.presets.custom_liquid.name",
       "settings": {
-        "custom_liquid": "<style>\n  .black-friday-hero {\n    padding: 40px 20px;\n    max-width: 870px;\n    margin: 0 auto;\n  }\n  \n  .black-friday-hero h1 {\n    font-family: 'Montserrat', sans-serif;\n    font-weight: 800;\n    color: #000000;\n    font-size: 24px;\n    line-height: 1.3;\n    margin: 0 0 20px 0;\n    text-align: left;\n  }\n  \n  .black-friday-hero p {\n    font-family: 'Nunito Sans', sans-serif;\n    font-weight: 400;\n    color: #21225b;\n    font-size: 16px;\n    line-height: 1.6;\n    margin: 0;\n    text-align: left;\n  }\n  \n  /* Tablet */\n  @media (min-width: 768px) {\n    .black-friday-hero {\n      padding: 50px 30px;\n    }\n    \n    .black-friday-hero h1 {\n      font-size: 28px;\n      margin-bottom: 24px;\n    }\n    \n    .black-friday-hero p {\n      font-size: 16px;\n      line-height: 1.65;\n    }\n  }\n  \n  /* Desktop */\n  @media (min-width: 1024px) {\n    .black-friday-hero {\n      padding: 60px 40px;\n    }\n    \n    .black-friday-hero h1 {\n      font-size: 32px;\n      margin-bottom: 28px;\n    }\n    \n    .black-friday-hero p {\n      font-size: 16px;\n      line-height: 1.7;\n    }\n  }\n</style>\n\n<div class=\"black-friday-hero\">\n  <h1>Black Friday Deals on Emergency Vehicle Lights & Light Bars</h1>\n  <p>The <b>Strobes N More Black Friday Sale</b> is here, and it's your once-a-year opportunity to save big on the <b> best emergency vehicle lights </b> and accessories. We understand the importance of reliable lighting for professionals, volunteers, and contractors who need dependable performance under pressure — and this is the ideal time to upgrade. Whether you're looking for <b> LED emergency lights, strobe lights for vehicles,</b> or <b>light bars for trucks,</b> you'll find them all at unbeatable prices. Our Black Friday event features a comprehensive range of gear, including <b>mini light bars, visor lights, full-size light bars,</b> and <b>surface mount lights,</b> all designed for maximum visibility. <br> <br> This is also the time to stock up on accessories that make a difference in day-to-day use. <b>Shop siren speakers, wiring harness kits,</b> and <b>emergency light controllers,</b> all available at limited-time discounts. We haven't forgotten our first responder community either — you'll also find savings on <b>police car lights, ambulance lights, firefighter lights,</b> and <b>volunteer firefighter lights.</b> No matter what you drive — <b>a tow truck, construction vehicle,</b> or <b>utility truck</b> — our Black Friday sale delivers professional-grade equipment at the lowest prices of the year. Don't wait — once these deals are gone, they won't return until next year.</p>\n</div>"
+        "custom_liquid": "<style>\n  .black-friday-hero {\n    padding: 40px 20px;\n    max-width: 870px;\n    margin: 0 auto;\n  }\n  \n  .black-friday-hero h1 {\n    font-family: 'Montserrat', sans-serif;\n    font-weight: 800;\n    color: #000000;\n    font-size: 24px;\n    line-height: 1.3;\n    margin: 0 0 20px 0;\n    text-align: left;\n  }\n  \n  .black-friday-hero p {\n    font-family: 'Nunito Sans', sans-serif;\n    font-weight: 400;\n    color: #21225b;\n    font-size: 16px;\n    line-height: 1.6;\n    margin: 0;\n    text-align: left;\n  }\n  \n  /* Tablet */\n  @media (min-width: 768px) {\n    .black-friday-hero {\n      padding: 50px 30px;\n    }\n    \n    .black-friday-hero h1 {\n      font-size: 28px;\n      margin-bottom: 24px;\n    }\n    \n    .black-friday-hero p {\n      font-size: 16px;\n      line-height: 1.65;\n    }\n  }\n  \n  /* Desktop */\n  @media (min-width: 1024px) {\n    .black-friday-hero {\n      padding: 60px 40px;\n    }\n    \n    .black-friday-hero h1 {\n      font-size: 32px;\n      margin-bottom: 28px;\n    }\n    \n    .black-friday-hero p {\n      font-size: 16px;\n      line-height: 1.7;\n    }\n  }\n</style>\n\n<div class=\"black-friday-hero\">\n  <h1>Black Friday Deals on Emergency Vehicle Lights & Light Bars</h1>\n  <p>The <b>Strobes N More Black Friday Sale</b> is here, and it's your once-a-year opportunity to save big on the <b> best emergency vehicle lights </b> and accessories. We understand the importance of reliable lighting for professionals, volunteers, and contractors who need dependable performance under pressure — and this is the ideal time to upgrade. Whether you're looking for <b> LED emergency lights, strobe lights for vehicles,</b> or <b>light bars for trucks,</b> you'll find them all at unbeatable prices. Our Black Friday event features a comprehensive range of gear, including <b>mini light bars, visor lights, full-size light bars,</b> and <b>surface mount lights,</b> all designed for maximum visibility.</p> \n<br> <p>This is also the time to stock up on accessories that make a difference in day-to-day use. <b>Shop siren speakers, wiring harness kits,</b> and <b>emergency light controllers,</b> all available at limited-time discounts. We haven't forgotten our first responder community either — you'll also find savings on <b>police car lights, ambulance lights, firefighter lights,</b> and <b>volunteer firefighter lights.</b> No matter what you drive — <b>a tow truck, construction vehicle,</b> or <b>utility truck</b> — our Black Friday sale delivers professional-grade equipment at the lowest prices of the year. Don't wait — once these deals are gone, they won't return until next year.</p>\n</div>"
       }
     },
     "dynamic_rich_text_azmHe9": {
@@ -30,9 +30,72 @@
       "settings": {
         "width": "wide",
         "title": "Black Friday Deals on Emergency Vehicle Lighting",
-        "text": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.</p>",
+        "text": "<p>This year’s <strong>Black Friday deals on emergency vehicle lighting</strong> are bigger than ever. At Strobes N More, we’re offering exclusive discounts on the lights and accessories that keep professionals safe and visible on the road. Start with our popular <strong>LED emergency lights</strong> and <strong>strobe lights for vehicles</strong>, built for high intensity and long-lasting performance. Need compact solutions? Our <strong>mini light bars</strong> and <strong>visor lights</strong> are perfect for volunteer responders or personal vehicles, while our <strong>full-size light bars</strong> and <strong>surface-mount lights</strong> provide maximum coverage for fleets, tow operators, and construction teams.</p><p>We’re also making sure accessories are included in the savings. Black Friday is the best time to grab <strong>emergency light controllers</strong>, <strong>siren speakers</strong>, and <strong>wiring harness kits</strong> to complete your setup. These small but essential pieces ensure your lighting system works flawlessly when you need it most. If you’re upgrading your <strong>tow truck, police cruiser, ambulance, fire truck, construction vehicle, or utility truck</strong>, this is the chance to do it for less.</p><p>What makes our Black Friday event stand out is not just the discounts but the variety. From <strong>volunteer firefighter lights</strong> to <strong>wireless emergency lights</strong>, everything you need is included. You won’t find prices like this again for another year, so take advantage now. Black Friday is about getting prepared for the season ahead, and there’s no better way than equipping your vehicle with reliable lighting at a fraction of the cost.</p>",
         "heading_size": "medium",
         "text_alignment": "left"
+      }
+    },
+    "dynamic_faq_bM7nfd": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_hXrDWH": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_UhVecV": {
+          "type": "question",
+          "settings": {
+            "question": "When do Black Friday deals start?",
+            "answer": "<p>Discounts launch Thanksgiving week and run through Black Friday weekend.</p>",
+            "icon": "none"
+          }
+        },
+        "question_MqiApe": {
+          "type": "question",
+          "settings": {
+            "question": "Are all emergency vehicle lights on sale?",
+            "answer": "<p> Yes — including <strong>LEDs, light bars, strobes, and accessories</strong>.</p>",
+            "icon": "none"
+          }
+        },
+        "question_JrFLEy": {
+          "type": "question",
+          "settings": {
+            "question": "Can I shop online?",
+            "answer": "<p> Absolutely — all deals are available on our website.</p>",
+            "icon": "none"
+          }
+        },
+        "question_axR8Xk": {
+          "type": "question",
+          "settings": {
+            "question": "Do Black Friday sales include volunteer firefighter lights?",
+            "answer": "<p> Yes — these are part of the promotion.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_hXrDWH",
+        "question_UhVecV",
+        "question_MqiApe",
+        "question_JrFLEy",
+        "question_axR8Xk"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "wide",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
       }
     },
     "pxs_image_with_text_overlay_czgNEg": {
@@ -245,91 +308,19 @@
         "cta_label": "",
         "cta_button_style": "primary"
       }
-    },
-    "dynamic_faq_bM7nfd": {
-      "type": "dynamic-faq",
-      "blocks": {
-        "category_hXrDWH": {
-          "type": "category",
-          "settings": {
-            "heading": "Category",
-            "show_category_card": true
-          }
-        },
-        "question_UhVecV": {
-          "type": "question",
-          "settings": {
-            "question": "General Information About LED Emergency Lights",
-            "answer": "<ul><li><strong>What are the benefits of LED warning lights over halogen or strobe lights?</strong><br/>LED warning lights are brighter, last longer, and use less power than halogen or strobe lights. They’re also more durable, with solid-state construction that resists shock and vibration. Unlike halogen, LEDs don’t generate much heat, and they don’t require the high-voltage systems that strobes do. This means fewer maintenance issues and better reliability in the field.</li></ul><p></p><ul><li><strong>Are LED warning lights suitable for both emergency and commercial vehicles? </strong><br/>Yes, LED warning lights are used widely on both emergency vehicles (like police, fire, and EMS) and commercial vehicles (like tow trucks, utility fleets, and construction vehicles). They offer customizable flash patterns and color options to meet different visibility and regulatory needs, making them adaptable for a wide range of applications.</li></ul><p></p><ul><li><strong>What flash patterns are available in LED warning lights?<br/></strong>LED warning lights typically come with multiple flash patterns—often ranging from 10 to 30 or more. Common options include single flash, double flash, quad flash, alternating patterns, and rotating simulations. Some models allow syncing with other lights or alternating patterns across multiple units for enhanced visibility and coordination.</li></ul><p></p><ul><li><strong>How long do LED warning lights typically last? <br/></strong>High-quality LED warning lights typically last 50,000 to 100,000 hours. That’s significantly longer than halogen or strobe lights, which often need replacement after a few thousand hours. LEDs also degrade slowly over time, rather than failing abruptly, which adds to their long-term reliability.</li></ul><p></p><ul><li><strong>Can LED warning lights be dimmed for nighttime use?<br/></strong>Yes, many LED warning lights come with dimming features or night mode settings. This helps reduce glare at night while maintaining visibility and safety. Dimming can be automatic based on ambient light, or manually controlled depending on the system.</li></ul>",
-            "icon": "none"
-          }
-        },
-        "question_MqiApe": {
-          "type": "question",
-          "settings": {
-            "question": "Car Emergency Lights (General Civilian Use)",
-            "answer": "<ul><li><strong>What are the best car emergency lights for roadside safety?</strong><br/>The best emergency lights for roadside safety are portable LED beacons, magnetic dash lights, and light bars with high visibility and multiple flash patterns. Look for options that are waterproof, easy to mount, and visible from a long distance. Rechargeable LED beacons are especially useful for quick roadside setups.</li></ul><p></p><ul><li><strong>Are car emergency lights legal for civilian use?<br/></strong>Yes, but it depends on the type and how they're used. Civilians can legally use amber warning lights in most areas for roadside emergencies or work purposes. However, red, blue, or combinations that resemble police or emergency vehicle lights are often restricted. Always check local and state regulations before using emergency lights on public roads.</li></ul><p></p><ul><li><strong>How do I install temporary emergency lights on my vehicle?<br/></strong>Temporary emergency lights can be installed using magnetic mounts, suction cups, or clips, depending on the model. Most plug into a 12V cigarette lighter socket or USB port for power. Setup usually takes just a few minutes and doesn’t require wiring or permanent modifications to your vehicle.</li></ul><p></p><ul><li><strong>What power sources can be used for car emergency lights?<br/></strong>Most car emergency lights run on 12V DC power from the vehicle’s cigarette lighter socket. Some also have USB power options or built-in rechargeable batteries for cordless operation. Battery-powered LED beacons are great for portable use without relying on the car's electrical system.</li></ul><p></p><ul><li><strong>Can car emergency lights be synced with hazard lights?<br/></strong>In most cases, no—standard vehicle hazard lights and aftermarket emergency lights operate on separate systems. However, some advanced lighting systems offer sync features that allow coordination with other installed warning lights, but syncing with the factory hazard switch typically requires custom wiring and isn't common in temporary setups.</li></ul>",
-            "icon": "none"
-          }
-        },
-        "question_JrFLEy": {
-          "type": "question",
-          "settings": {
-            "question": "Police Vehicle Lighting",
-            "answer": "<ul><li><strong>Where can I buy high-quality police lights online?</strong><br/>You can buy high-quality police lights from specialized retailers like Extreme Tactical Dynamics, SpeedTech Lights, Fleet Safety, and Strobes N’ More. These sites offer certified, high-performance lights used by law enforcement, with options for dash, visor, grille, and full light bar setups. Look for trusted brands, warranty coverage, and clear specs before purchasing.</li></ul><p></p><ul><li><strong>Are police-style emergency lights legal for civilian vehicles?<br/></strong>In most states, civilians cannot use red, blue, or red/blue flashing lights on public roads, as these are reserved for law enforcement. Some areas allow limited use on private property or for off-road purposes. Amber lights are generally legal for civilian use. Always check local laws before installing police-style lights on your vehicle.</li></ul><p></p><ul><li><strong>What are the best brands for police vehicle lighting?<br/></strong>Top brands include Whelen, Federal Signal, Feniex, SoundOff Signal, and Code 3. These manufacturers are widely used by law enforcement agencies and known for their reliability, brightness, and feature-rich products. They offer everything from compact dash lights to full vehicle light systems.</li></ul><p></p><ul><li><strong>Do police lights come with di(erent flash patterns? <br/></strong>Yes, most police lights come with multiple flash patterns—often 10 to 30 or more. Patterns include single, double, triple flash, alternating sequences, and simulated rotation. Many systems let you sync multiple lights or set directional patterns for traffic control.</li></ul><p></p><ul><li><strong>Can I customize the colors of police vehicle lights?<br/></strong>Yes, but it depends on the system and your location’s laws. Most manufacturers offer lights in red, blue, white, amber, and green, and many allow mixed-color configurations. However, red and blue combinations are often restricted to law enforcement. If you’re not an authorized user, stick to legal color options like amber or white.</li></ul>",
-            "icon": "none"
-          }
-        },
-        "question_axR8Xk": {
-          "type": "question",
-          "settings": {
-            "question": "Strobes N' More Specific Questions",
-            "answer": "<ul><li><strong>What types of emergency lighting does Strobes N' More offer?</strong><br/>Strobes N' More offers a wide range of emergency lighting, including LED light bars, grille lights, surface mounts, dash lights, hideaways, beacons, and traffic advisors. They also carry scene lights and work lights for utility and service vehicles. Their in-house E-Series and Dual Color lines are popular for high-output, reliable performance.</li></ul><p></p><ul><li><strong>Are Strobes N' More products suitable for off-road use?<br/></strong>Yes, many Strobes N' More lights are built with rugged, weatherproof housings that can handle off-road conditions. Their off-road and utility lighting options are designed for durability, vibration resistance, and visibility in tough environments. Just check IP ratings and mounting options to ensure a good fit for your setup.</li></ul><p></p><ul><li><strong>How do I choose the right light bar from Strobes N' More?<br/></strong>Start by considering your vehicle type, mounting location, and intended use. For full-size emergency vehicles, roof-mounted light bars with multiple flash patterns and color zones work best. For smaller vehicles or more discreet setups, visor lights or mini light bars may be ideal. Strobes N' More lists detailed specs and comparison tools to help you choose.</li></ul><p></p><ul><li><strong>Does Strobes N' More offer wiring and installation accessories?<br/></strong>Yes, they carry a full range of wiring harnesses, switch boxes, control panels, and mounting hardware. Whether you're doing a temporary setup or a permanent install, you can find the accessories needed to wire and control your lights safely and efficiently.</li></ul><p></p><ul><li><strong>Can Strobes N' More products be synchronized with other brands? <br/></strong>Some models can be synced with lights from other brands, especially if they use standard sync wires or flashing protocols. However, compatibility isn’t guaranteed across brands, so it’s best to consult wiring diagrams or check with support. For seamless syncing, sticking with the same brand across all units is recommended.</li></ul>",
-            "icon": "none"
-          }
-        },
-        "question_BY84gC": {
-          "type": "question",
-          "settings": {
-            "question": "Emergency Flashing Lights (General Use)",
-            "answer": "<ul><li><strong>What are the best emergency flashing lights for police and fire vehicles?</strong><br/>Top choices include high-intensity LED light bars, visor lights, grille lights, and surface-mount strobes. Brands like Whelen, Feniex, SoundOff Signal, and Federal Signal are trusted for their brightness, durability, and advanced flash pattern options. Red/blue or red/white lights are standard for police and fire, depending on local regulations.</li></ul><p></p><ul><li><strong>Are emergency flashing lights legal for personal vehicles? <br/></strong>It depends on the color and how they’re used. Amber flashing lights are typically legal for personal use in situations like roadside emergencies or work zones. However, red, blue, or red/blue combinations are usually restricted to authorized emergency vehicles. Always check your local laws before installing flashing lights on your car.</li></ul><p></p><ul><li><strong>How do I choose the right emergency flashing light for my vehicle?<br/></strong>Start with your use case: roadside safety, volunteer response, or professional service. For temporary or personal use, portable LED beacons or dash lights work well. For permanent setups, consider grille lights or roof-mounted light bars. Choose lights with multiple flash patterns, proper color for your role, and compatibility with your vehicle’s power system.</li></ul><p></p><ul><li><strong>What are the different flash patterns available in emergency vehicle lights?<br/></strong>Common flash patterns include single, double, triple flash, quad flash, alternating, simultaneous, and simulated rotation. Many systems offer up to 30+ patterns, and advanced units allow syncing multiple lights or setting directional sequences for traffic control. Flash patterns can usually be changed with a switch or controller.</li></ul><p></p><ul><li><strong>How do emergency vehicle flashing lights improve visibility in low-light conditions?<br/></strong>LED flashing lights cut through darkness, fog, rain, and other low-visibility conditions by producing intense, pulsing light. The strobing effect catches attention faster than steady lighting, helping other drivers see and react to the vehicle sooner. This is critical for safety during roadside stops, emergency responses, or nighttime work.</li></ul>",
-            "icon": "none"
-          }
-        }
-      },
-      "block_order": [
-        "category_hXrDWH",
-        "question_UhVecV",
-        "question_MqiApe",
-        "question_JrFLEy",
-        "question_axR8Xk",
-        "question_BY84gC"
-      ],
-      "custom_css": [
-        "h3 {display: none;}"
-      ],
-      "name": "t:sections.faq.presets.name",
-      "settings": {
-        "section_width": "wide",
-        "heading": "Frequently Asked Questions",
-        "enable_category_cards": false,
-        "category_card_image_crop": "original",
-        "category_heading_size": "medium",
-        "icon_color": "rgba(0,0,0,0)"
-      }
     }
   },
   "order": [
     "main",
     "dynamic_custom_liquid_3XfdNr",
-    "dynamic_rich_text_azmHe9",
-    "pxs_image_with_text_overlay_czgNEg",
     "dynamic_custom_liquid_7AWjbd",
+    "dynamic_rich_text_azmHe9",
+    "dynamic_faq_bM7nfd",
+    "pxs_image_with_text_overlay_czgNEg",
     "dynamic_slideshow_4FNAhg",
     "dynamic_shoppable_image_kKgW99",
     "dynamic_shoppable_image_cEJrc9",
     "dynamic_custom_liquid_HfUrcM",
-    "dynamic_featured_collection_rYiY7G",
-    "dynamic_faq_bM7nfd"
+    "dynamic_featured_collection_rYiY7G"
   ]
 }
