@@ -9,11 +9,18 @@
  */
 {
   "sections": {
+    "dynamic_custom_liquid_WtH93B": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .black-friday-hero {\n    padding: 40px 20px;\n    max-width: 1200px;\n    margin: 0 auto;\n  }\n  \n  .black-friday-hero h1 {\n    font-family: 'Montserrat', sans-serif;\n    font-weight: 800;\n    color: #000000;\n    font-size: 24px;\n    line-height: 1.3;\n    margin: 0 0 20px 0;\n    text-align: left;\n  }\n  \n  .black-friday-hero p {\n    font-family: 'Nunito Sans', sans-serif;\n    font-weight: 400;\n    color: #21225b;\n    font-size: 16px;\n    line-height: 1.6;\n    margin: 0;\n    text-align: left;\n  }\n  \n  /* Tablet */\n  @media (min-width: 768px) {\n    .black-friday-hero {\n      padding: 50px 30px;\n    }\n    \n    .black-friday-hero h1 {\n      font-size: 28px;\n      margin-bottom: 24px;\n    }\n    \n    .black-friday-hero p {\n      font-size: 16px;\n      line-height: 1.65;\n    }\n  }\n  \n  /* Desktop */\n  @media (min-width: 1024px) {\n    .black-friday-hero {\n      padding: 60px 40px;\n    }\n    \n    .black-friday-hero h1 {\n      font-size: 32px;\n      margin-bottom: 28px;\n    }\n    \n    .black-friday-hero p {\n      font-size: 16px;\n      line-height: 1.7;\n    }\n  }\n</style>\n\n<div class=\"black-friday-hero\">\n  <h1>Black Friday Deals on Emergency Vehicle Lights & Light Bars</h1>\n  <p>The <b>Strobes N More Black Friday Sale</b> is here, and it's your once-a-year opportunity to save big on the best emergency vehicle lights and accessories. We understand the importance of reliable lighting for professionals, volunteers, and contractors who need dependable performance under pressure — and this is the ideal time to upgrade. Whether you're looking for LED emergency lights, strobe lights for vehicles, or light bars for trucks, you'll find them all at unbeatable prices. Our Black Friday event features a comprehensive range of gear, including mini light bars, visor lights, full-size light bars, and surface mount lights, all designed for maximum visibility. This is also the time to stock up on accessories that make a difference in day-to-day use. Shop siren speakers, wiring harness kits, and emergency light controllers, all available at limited-time discounts. We haven't forgotten our first responder community either — you'll also find savings on police car lights, ambulance lights, firefighter lights, and volunteer firefighter lights. No matter what you drive — a tow truck, construction vehicle, or utility truck — our Black Friday sale delivers professional-grade equipment at the lowest prices of the year. Don't wait — once these deals are gone, they won't return until next year.</p>\n</div>"
+      }
+    },
     "dynamic_rich_text_azmHe9": {
       "type": "dynamic-rich-text",
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
-        "width": "regular",
+        "width": "wide",
         "title": "Sample H1",
         "text": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.</p>",
         "heading_size": "medium",
@@ -310,6 +317,7 @@
     }
   },
   "order": [
+    "dynamic_custom_liquid_WtH93B",
     "dynamic_rich_text_azmHe9",
     "main",
     "pxs_image_with_text_overlay_czgNEg",
