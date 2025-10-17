@@ -24,6 +24,16 @@
         "custom_liquid": "<style>\n  .black-friday-hero {\n    padding: 40px 20px;\n    max-width: 870px;\n    margin: 0 auto;\n  }\n  \n  .black-friday-hero h1 {\n    font-family: 'Montserrat', sans-serif;\n    font-weight: 800;\n    color: #000000;\n    font-size: 24px;\n    line-height: 1.3;\n    margin: 0 0 20px 0;\n    text-align: left;\n  }\n  \n  .black-friday-hero p {\n    font-family: 'Nunito Sans', sans-serif;\n    font-weight: 400;\n    color: #21225b;\n    font-size: 16px;\n    line-height: 1.6;\n    margin: 0;\n    text-align: left;\n  }\n  \n  /* Tablet */\n  @media (min-width: 768px) {\n    .black-friday-hero {\n      padding: 50px 30px;\n    }\n    \n    .black-friday-hero h1 {\n      font-size: 28px;\n      margin-bottom: 24px;\n    }\n    \n    .black-friday-hero p {\n      font-size: 16px;\n      line-height: 1.65;\n    }\n  }\n  \n  /* Desktop */\n  @media (min-width: 1024px) {\n    .black-friday-hero {\n      padding: 60px 40px;\n    }\n    \n    .black-friday-hero h1 {\n      font-size: 32px;\n      margin-bottom: 28px;\n    }\n    \n    .black-friday-hero p {\n      font-size: 16px;\n      line-height: 1.7;\n    }\n  }\n</style>\n\n<div class=\"black-friday-hero\">\n  <h1>Black Friday Deals on Emergency Vehicle Lights & Light Bars</h1>\n  <p>The <b>Strobes N More Black Friday Sale</b> is here, and it's your once-a-year opportunity to save big on the <b> best emergency vehicle lights </b> and accessories. We understand the importance of reliable lighting for professionals, volunteers, and contractors who need dependable performance under pressure — and this is the ideal time to upgrade. Whether you're looking for <b> LED emergency lights, strobe lights for vehicles,</b> or <b>light bars for trucks,</b> you'll find them all at unbeatable prices. Our Black Friday event features a comprehensive range of gear, including <b>mini light bars, visor lights, full-size light bars,</b> and <b>surface mount lights,</b> all designed for maximum visibility.</p> \n<br> <p>This is also the time to stock up on accessories that make a difference in day-to-day use. <b>Shop siren speakers, wiring harness kits,</b> and <b>emergency light controllers,</b> all available at limited-time discounts. We haven't forgotten our first responder community either — you'll also find savings on <b>police car lights, ambulance lights, firefighter lights,</b> and <b>volunteer firefighter lights.</b> No matter what you drive — <b>a tow truck, construction vehicle,</b> or <b>utility truck</b> — our Black Friday sale delivers professional-grade equipment at the lowest prices of the year. Don't wait — once these deals are gone, they won't return until next year.</p>\n</div>"
       }
     },
+    "dynamic_custom_liquid_7AWjbd": {
+      "type": "dynamic-custom-liquid",
+      "custom_css": [
+        "{margin-top: -30px;}"
+      ],
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "{% comment %}\nShopify Countdown Timer\nUsage: Include this in your theme template and set the target date\n{% endcomment %}\n\n{% assign target_date = '2025-12-02T00:00:00' %}\n{% assign current_date = 'now' | date: '%s' %}\n{% assign target_timestamp = target_date | date: '%s' %}\n\n<div class=\"custom-countdown-wrapper\">\n  <div class=\"custom-countdown-display\" data-target-date=\"{{ target_date }}\">\n    <h2 class=\"custom-countdown-heading\">Sale will end in</h2>\n    <div class=\"custom-countdown-row\">\n    <div class=\"custom-countdown-block\">\n      <div class=\"custom-countdown-digit\" id=\"custom-days\">0</div>\n      <div class=\"custom-countdown-text\">DAYS</div>\n    </div>\n    <div class=\"custom-countdown-divider\"></div>\n    <div class=\"custom-countdown-block\">\n      <div class=\"custom-countdown-digit\" id=\"custom-hours\">0</div>\n      <div class=\"custom-countdown-text\">HOURS</div>\n    </div>\n    <div class=\"custom-countdown-divider\"></div>\n    <div class=\"custom-countdown-block\">\n      <div class=\"custom-countdown-digit\" id=\"custom-minutes\">0</div>\n      <div class=\"custom-countdown-text\">MINUTES</div>\n    </div>\n    <div class=\"custom-countdown-divider\"></div>\n    <div class=\"custom-countdown-block\">\n      <div class=\"custom-countdown-digit\" id=\"custom-seconds\">0</div>\n      <div class=\"custom-countdown-text\">SECONDS</div>\n    </div>\n    </div>\n  </div>\n</div>\n\n<style>\n.custom-countdown-wrapper {\n  width: 100%;\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 20px;\n}\n\n.custom-countdown-display {\n  background: #21225b;\n  border: 2px solid rgba(255, 255, 255, 0.2);\n  border-radius: 0;\n  padding: 20px 20px 30px 20px;\n  position: relative;\n  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);\n}\n\n.custom-countdown-heading {\n  text-align: center;\n  font-size: 1.8rem;\n  font-weight: 800;\n  color: white !important;\n  margin: 0 0 35px 0;\n  font-family: 'Montserrat', 'Arial', sans-serif;\n  font-style: normal;\n}\n\n.custom-countdown-row {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.custom-countdown-block {\n  flex: 1;\n  text-align: center;\n  color: white;\n}\n\n.custom-countdown-digit {\n  font-size: 3rem;\n  font-weight: 700;\n  line-height: 1;\n  margin-bottom: 8px;\n  font-family: 'Arial', sans-serif;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n\n.custom-countdown-text {\n  font-size: 0.9rem;\n  font-weight: 500;\n  letter-spacing: 2px;\n  opacity: 0.9;\n  font-family: 'Nunito Sans', 'Arial', sans-serif;\n}\n\n.custom-countdown-divider {\n  width: 2px;\n  height: 60px;\n  background: rgba(255, 255, 255, 0.3);\n  margin: 0 15px;\n}\n\n/* Responsive Design */\n@media (max-width: 768px) {\n  .custom-countdown-display {\n    padding: 20px 15px;\n  }\n  \n  .custom-countdown-digit {\n    font-size: 2.5rem;\n  }\n  \n  .custom-countdown-text {\n    font-size: 0.8rem;\n    letter-spacing: 1px;\n  }\n  \n  .custom-countdown-divider {\n    height: 50px;\n    margin: 0 10px;\n  }\n}\n\n@media (max-width: 480px) {\n  .custom-countdown-display {\n    padding: 15px 10px;\n  }\n  \n  .custom-countdown-digit {\n    font-size: 2rem;\n  }\n  \n  .custom-countdown-text {\n    font-size: 0.7rem;\n  }\n  \n  .custom-countdown-divider {\n    height: 40px;\n    margin: 0 8px;\n  }\n}\n\n/* Animation for number changes */\n.custom-countdown-digit {\n  transition: transform 0.3s ease;\n}\n\n.custom-countdown-digit.updating {\n  transform: scale(1.1);\n}\n</style>\n\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n  const customCountdownTimer = document.querySelector('.custom-countdown-display');\n  const targetDate = customCountdownTimer.getAttribute('data-target-date');\n  \n  function updateCustomCountdown() {\n    const now = new Date().getTime();\n    const target = new Date(targetDate).getTime();\n    const difference = target - now;\n    \n    console.log('Target Date:', targetDate); // Debug log\n    console.log('Time Difference:', difference); // Debug log\n    \n    if (difference > 0) {\n      const days = Math.floor(difference / (1000 * 60 * 60 * 24));\n      const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));\n      const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));\n      const seconds = Math.floor((difference % (1000 * 60)) / 1000);\n      \n      // Add animation class when updating\n      const daysEl = document.getElementById('custom-days');\n      const hoursEl = document.getElementById('custom-hours');\n      const minutesEl = document.getElementById('custom-minutes');\n      const secondsEl = document.getElementById('custom-seconds');\n      \n      if (daysEl.textContent !== days.toString()) {\n        daysEl.classList.add('updating');\n        setTimeout(() => daysEl.classList.remove('updating'), 300);\n      }\n      if (hoursEl.textContent !== hours.toString()) {\n        hoursEl.classList.add('updating');\n        setTimeout(() => hoursEl.classList.remove('updating'), 300);\n      }\n      if (minutesEl.textContent !== minutes.toString()) {\n        minutesEl.classList.add('updating');\n        setTimeout(() => minutesEl.classList.remove('updating'), 300);\n      }\n      if (secondsEl.textContent !== seconds.toString()) {\n        secondsEl.classList.add('updating');\n        setTimeout(() => secondsEl.classList.remove('updating'), 300);\n      }\n      \n      daysEl.textContent = days;\n      hoursEl.textContent = hours;\n      minutesEl.textContent = minutes;\n      secondsEl.textContent = seconds;\n    } else {\n      // Countdown finished\n      document.getElementById('custom-days').textContent = '0';\n      document.getElementById('custom-hours').textContent = '0';\n      document.getElementById('custom-minutes').textContent = '0';\n      document.getElementById('custom-seconds').textContent = '0';\n      \n      // Optional: Add expired state\n      customCountdownTimer.classList.add('custom-expired');\n    }\n  }\n  \n  // Update immediately\n  updateCustomCountdown();\n  \n  // Update every second\n  const customInterval = setInterval(updateCustomCountdown, 1000);\n  \n  // Clean up interval when page unloads\n  window.addEventListener('beforeunload', function() {\n    clearInterval(customInterval);\n  });\n});\n</script>\n\n{% comment %}\nInstructions for customization:\n\n1. Change the target date:\n   Modify the target_date variable at the top:\n   {% assign target_date = '2025-12-31T23:59:59' %}\n\n2. To use a specific product launch date, you can use:\n   {% assign target_date = product.created_at | date: '%Y-%m-%dT%H:%M:%S' %}\n\n3. For a sale end date, you can use:\n   {% assign target_date = '2025-07-01T00:00:00' %}\n\n4. To customize colors, modify the CSS:\n   - Background gradient: background: linear-gradient(135deg, #2a2d7a 0%, #1a1d4a 100%);\n   - Border color: border: 2px solid rgba(255, 255, 255, 0.2);\n   - Text color: color: white;\n\n5. To add this to your theme:\n   - Create a new snippet file: countdown-timer.liquid\n   - Include it in your template: {% include 'countdown-timer' %}\n   - Or add directly to your template file\n\n6. Optional: Add expired state styling by adding this CSS:\n   .custom-countdown-display.custom-expired {\n     background: #666;\n   }\n   .custom-countdown-display.custom-expired .custom-countdown-digit {\n     color: #ccc;\n   }\n{% endcomment %}"
+      }
+    },
     "dynamic_rich_text_azmHe9": {
       "type": "dynamic-rich-text",
       "name": "t:sections.rich_text.presets.rich_text.name",
@@ -98,177 +108,8 @@
         "icon_color": "rgba(0,0,0,0)"
       }
     },
-    "pxs_image_with_text_overlay_czgNEg": {
-      "type": "pxs-image-with-text-overlay",
-      "name": "t:sections.image_with_text_overlay.presets.name",
-      "settings": {
-        "section_height": "original",
-        "image": "shopify://shop_images/4th_of_July_Draft-4_3.png",
-        "title": "",
-        "text": "",
-        "content_position": "center-center",
-        "color": "#ffffff",
-        "overlay_background": "#000000",
-        "overlay_opacity": 0,
-        "link": "",
-        "button_text": ""
-      }
-    },
-    "dynamic_custom_liquid_7AWjbd": {
-      "type": "dynamic-custom-liquid",
-      "custom_css": [
-        "{margin-top: -30px;}"
-      ],
-      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
-      "settings": {
-        "custom_liquid": "{% comment %}\nShopify Countdown Timer\nUsage: Include this in your theme template and set the target date\n{% endcomment %}\n\n{% assign target_date = '2025-12-02T00:00:00' %}\n{% assign current_date = 'now' | date: '%s' %}\n{% assign target_timestamp = target_date | date: '%s' %}\n\n<div class=\"custom-countdown-wrapper\">\n  <div class=\"custom-countdown-display\" data-target-date=\"{{ target_date }}\">\n    <h2 class=\"custom-countdown-heading\">Sale will end in</h2>\n    <div class=\"custom-countdown-row\">\n    <div class=\"custom-countdown-block\">\n      <div class=\"custom-countdown-digit\" id=\"custom-days\">0</div>\n      <div class=\"custom-countdown-text\">DAYS</div>\n    </div>\n    <div class=\"custom-countdown-divider\"></div>\n    <div class=\"custom-countdown-block\">\n      <div class=\"custom-countdown-digit\" id=\"custom-hours\">0</div>\n      <div class=\"custom-countdown-text\">HOURS</div>\n    </div>\n    <div class=\"custom-countdown-divider\"></div>\n    <div class=\"custom-countdown-block\">\n      <div class=\"custom-countdown-digit\" id=\"custom-minutes\">0</div>\n      <div class=\"custom-countdown-text\">MINUTES</div>\n    </div>\n    <div class=\"custom-countdown-divider\"></div>\n    <div class=\"custom-countdown-block\">\n      <div class=\"custom-countdown-digit\" id=\"custom-seconds\">0</div>\n      <div class=\"custom-countdown-text\">SECONDS</div>\n    </div>\n    </div>\n  </div>\n</div>\n\n<style>\n.custom-countdown-wrapper {\n  width: 100%;\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 20px;\n}\n\n.custom-countdown-display {\n  background: #21225b;\n  border: 2px solid rgba(255, 255, 255, 0.2);\n  border-radius: 0;\n  padding: 20px 20px 30px 20px;\n  position: relative;\n  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);\n}\n\n.custom-countdown-heading {\n  text-align: center;\n  font-size: 1.8rem;\n  font-weight: 800;\n  color: white !important;\n  margin: 0 0 35px 0;\n  font-family: 'Montserrat', 'Arial', sans-serif;\n  font-style: normal;\n}\n\n.custom-countdown-row {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.custom-countdown-block {\n  flex: 1;\n  text-align: center;\n  color: white;\n}\n\n.custom-countdown-digit {\n  font-size: 3rem;\n  font-weight: 700;\n  line-height: 1;\n  margin-bottom: 8px;\n  font-family: 'Arial', sans-serif;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n\n.custom-countdown-text {\n  font-size: 0.9rem;\n  font-weight: 500;\n  letter-spacing: 2px;\n  opacity: 0.9;\n  font-family: 'Nunito Sans', 'Arial', sans-serif;\n}\n\n.custom-countdown-divider {\n  width: 2px;\n  height: 60px;\n  background: rgba(255, 255, 255, 0.3);\n  margin: 0 15px;\n}\n\n/* Responsive Design */\n@media (max-width: 768px) {\n  .custom-countdown-display {\n    padding: 20px 15px;\n  }\n  \n  .custom-countdown-digit {\n    font-size: 2.5rem;\n  }\n  \n  .custom-countdown-text {\n    font-size: 0.8rem;\n    letter-spacing: 1px;\n  }\n  \n  .custom-countdown-divider {\n    height: 50px;\n    margin: 0 10px;\n  }\n}\n\n@media (max-width: 480px) {\n  .custom-countdown-display {\n    padding: 15px 10px;\n  }\n  \n  .custom-countdown-digit {\n    font-size: 2rem;\n  }\n  \n  .custom-countdown-text {\n    font-size: 0.7rem;\n  }\n  \n  .custom-countdown-divider {\n    height: 40px;\n    margin: 0 8px;\n  }\n}\n\n/* Animation for number changes */\n.custom-countdown-digit {\n  transition: transform 0.3s ease;\n}\n\n.custom-countdown-digit.updating {\n  transform: scale(1.1);\n}\n</style>\n\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n  const customCountdownTimer = document.querySelector('.custom-countdown-display');\n  const targetDate = customCountdownTimer.getAttribute('data-target-date');\n  \n  function updateCustomCountdown() {\n    const now = new Date().getTime();\n    const target = new Date(targetDate).getTime();\n    const difference = target - now;\n    \n    console.log('Target Date:', targetDate); // Debug log\n    console.log('Time Difference:', difference); // Debug log\n    \n    if (difference > 0) {\n      const days = Math.floor(difference / (1000 * 60 * 60 * 24));\n      const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));\n      const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));\n      const seconds = Math.floor((difference % (1000 * 60)) / 1000);\n      \n      // Add animation class when updating\n      const daysEl = document.getElementById('custom-days');\n      const hoursEl = document.getElementById('custom-hours');\n      const minutesEl = document.getElementById('custom-minutes');\n      const secondsEl = document.getElementById('custom-seconds');\n      \n      if (daysEl.textContent !== days.toString()) {\n        daysEl.classList.add('updating');\n        setTimeout(() => daysEl.classList.remove('updating'), 300);\n      }\n      if (hoursEl.textContent !== hours.toString()) {\n        hoursEl.classList.add('updating');\n        setTimeout(() => hoursEl.classList.remove('updating'), 300);\n      }\n      if (minutesEl.textContent !== minutes.toString()) {\n        minutesEl.classList.add('updating');\n        setTimeout(() => minutesEl.classList.remove('updating'), 300);\n      }\n      if (secondsEl.textContent !== seconds.toString()) {\n        secondsEl.classList.add('updating');\n        setTimeout(() => secondsEl.classList.remove('updating'), 300);\n      }\n      \n      daysEl.textContent = days;\n      hoursEl.textContent = hours;\n      minutesEl.textContent = minutes;\n      secondsEl.textContent = seconds;\n    } else {\n      // Countdown finished\n      document.getElementById('custom-days').textContent = '0';\n      document.getElementById('custom-hours').textContent = '0';\n      document.getElementById('custom-minutes').textContent = '0';\n      document.getElementById('custom-seconds').textContent = '0';\n      \n      // Optional: Add expired state\n      customCountdownTimer.classList.add('custom-expired');\n    }\n  }\n  \n  // Update immediately\n  updateCustomCountdown();\n  \n  // Update every second\n  const customInterval = setInterval(updateCustomCountdown, 1000);\n  \n  // Clean up interval when page unloads\n  window.addEventListener('beforeunload', function() {\n    clearInterval(customInterval);\n  });\n});\n</script>\n\n{% comment %}\nInstructions for customization:\n\n1. Change the target date:\n   Modify the target_date variable at the top:\n   {% assign target_date = '2025-12-31T23:59:59' %}\n\n2. To use a specific product launch date, you can use:\n   {% assign target_date = product.created_at | date: '%Y-%m-%dT%H:%M:%S' %}\n\n3. For a sale end date, you can use:\n   {% assign target_date = '2025-07-01T00:00:00' %}\n\n4. To customize colors, modify the CSS:\n   - Background gradient: background: linear-gradient(135deg, #2a2d7a 0%, #1a1d4a 100%);\n   - Border color: border: 2px solid rgba(255, 255, 255, 0.2);\n   - Text color: color: white;\n\n5. To add this to your theme:\n   - Create a new snippet file: countdown-timer.liquid\n   - Include it in your template: {% include 'countdown-timer' %}\n   - Or add directly to your template file\n\n6. Optional: Add expired state styling by adding this CSS:\n   .custom-countdown-display.custom-expired {\n     background: #666;\n   }\n   .custom-countdown-display.custom-expired .custom-countdown-digit {\n     color: #ccc;\n   }\n{% endcomment %}"
-      }
-    },
-    "dynamic_slideshow_4FNAhg": {
-      "type": "dynamic-slideshow",
-      "blocks": {
-        "slide_pEbC8h": {
-          "type": "slide",
-          "settings": {
-            "background_image": "shopify://shop_images/Untitled-2_1.png",
-            "title": "Razor Light Stick",
-            "text": "The Razor Light Stick is a rugged, ultra-slim LED light bar built for under-tailgate use, offering brighter output, dual-color LEDs, and 104 flash patterns. It installs cleanly with 3M DuraLock tape and syncs with E-Series, Photons, E62, and E64 systems.",
-            "color": "#ffffff",
-            "link": "",
-            "text_alignment": "center",
-            "button_one_label": "Shop Now",
-            "button_one_link": "https://strobesnmore.com/products/strobes-n-more-razor-light-stick?_pos=3&_sid=98ffa439d&_ss=r",
-            "button_one_style": "primary",
-            "button_two_label": "",
-            "button_two_link": "",
-            "button_two_style": "primary",
-            "show_overlay": true,
-            "overlay_color": "#000000",
-            "overlay_opacity": 40
-          }
-        },
-        "slide_MjtkYh": {
-          "type": "slide",
-          "settings": {
-            "background_image": "shopify://shop_images/Untitled_4.png",
-            "title": "Spectre Siren Amp",
-            "text": "The Spectre 100W Siren Amplifier is a compact, rust-proof unit delivering powerful sound and integrated light control for emergency vehicles. It supports 12–24V systems, operates in extreme conditions, and includes four 5A outputs for auxiliary lighting.",
-            "color": "#ffffff",
-            "link": "",
-            "text_alignment": "center",
-            "button_one_label": "Shop Now",
-            "button_one_link": "https://strobesnmore.com/products/strobes-n-more-spectre-siren-amp?_pos=1&_sid=7ea4e96e3&_ss=r",
-            "button_one_style": "primary",
-            "button_two_label": "",
-            "button_two_link": "",
-            "button_two_style": "primary",
-            "show_overlay": true,
-            "overlay_color": "#000000",
-            "overlay_opacity": 40
-          }
-        },
-        "slide_nr9YPe": {
-          "type": "slide",
-          "settings": {
-            "title": "Phantom 100 Watt Speaker",
-            "text": "The Phantom Siren Speaker is a compact, rustproof, and waterproof 100W speaker built for tight spaces in modern vehicles. It delivers clear, powerful sound across all frequencies and includes a universal bracket for easy installation.",
-            "color": "#ffffff",
-            "link": "",
-            "text_alignment": "center",
-            "button_one_label": "Shop Now",
-            "button_one_link": "https://strobesnmore.com/products/strobes-n-more-phantom-100-watt-speaker?_pos=1&_sid=230849c1a&_ss=r",
-            "button_one_style": "primary",
-            "button_two_label": "",
-            "button_two_link": "",
-            "button_two_style": "primary",
-            "show_overlay": true,
-            "overlay_color": "#000000",
-            "overlay_opacity": 40
-          }
-        }
-      },
-      "block_order": [
-        "slide_pEbC8h",
-        "slide_MjtkYh",
-        "slide_nr9YPe"
-      ],
-      "custom_css": [],
-      "name": "t:sections.slideshow.presets.slideshow.name",
-      "settings": {
-        "enable_autoplay": true,
-        "autoplay_duration": 8,
-        "slideshow_width": "content",
-        "slideshow_height": "small",
-        "slideshow_height_mobile": "small",
-        "slideshow_text_below_image": true
-      }
-    },
-    "dynamic_shoppable_image_kKgW99": {
-      "type": "dynamic-shoppable-image",
-      "blocks": {
-        "hotspot_Kq4JMV": {
-          "type": "hotspot",
-          "settings": {
-            "product": "strobes-n-more-spectre-siren-amp",
-            "x_axis": 43,
-            "y_axis": 67
-          }
-        }
-      },
-      "block_order": [
-        "hotspot_Kq4JMV"
-      ],
-      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
-      "settings": {
-        "title": "",
-        "image": "shopify://shop_images/Untitled-1_1.png",
-        "image_width": "two-thirds",
-        "link_text": "Shop Now",
-        "textbox_title": "Spectre Siren Amp",
-        "textbox_subheading": "<p>Compact and powerful, the Spectre 100W Siren Amplifier delivers loud, clear tones and integrated light control in one rugged, rust-proof unit. Perfect for emergency vehicles with 12–24V setups. Built to perform in extreme conditions with minimal power draw.</p>",
-        "textbox_button_label": "Shop Now",
-        "textbox_button_link": "https://strobesnmore.com/products/strobes-n-more-spectre-siren-amp?_pos=1&_sid=bb4369cd8&_ss=r",
-        "textbox_button_style": "primary",
-        "textbox_text_alignment": "left",
-        "textbox_text_position": "right"
-      }
-    },
-    "dynamic_shoppable_image_cEJrc9": {
-      "type": "dynamic-shoppable-image",
-      "blocks": {
-        "hotspot_xB9GEW": {
-          "type": "hotspot",
-          "settings": {
-            "product": "strobes-n-more-razor-light-stick",
-            "x_axis": 50,
-            "y_axis": 59
-          }
-        }
-      },
-      "block_order": [
-        "hotspot_xB9GEW"
-      ],
-      "custom_css": [
-        "{padding-top: 40px;}"
-      ],
-      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
-      "settings": {
-        "title": "",
-        "image": "shopify://shop_images/Untitled-2_1.png",
-        "image_width": "two-thirds",
-        "link_text": "Shop Now",
-        "textbox_title": "Razor Taillight Stick",
-        "textbox_subheading": "<p>The Razor Light Stick is a slim, rugged under-tailgate LED bar with dual-color output, 104 flash patterns, and easy 3M DuraLock installation. Syncs with Strobes N’ More E-Series and fits both compact and full-size trucks.</p>",
-        "textbox_button_label": "Shop Now",
-        "textbox_button_link": "https://strobesnmore.com/products/strobes-n-more-razor-light-stick",
-        "textbox_button_style": "primary",
-        "textbox_text_alignment": "left",
-        "textbox_text_position": "left"
-      }
-    },
     "dynamic_custom_liquid_HfUrcM": {
       "type": "dynamic-custom-liquid",
-      "custom_css": [],
       "name": "t:sections.custom_liquid.presets.custom_liquid.name",
       "settings": {
         "custom_liquid": "<style>\n  .strobes-section {\n    padding: 10px 20px 40px 20px;\n    max-width: 1200px;\n    margin: 0 auto;\n    text-align: center;\n  }\n  \n  .strobes-button {\n    background-color: #21225b !important;\n    color: white !important;\n    padding: 0.75rem 1.125rem;\n    border: none;\n    border-radius: 3px;\n    cursor: pointer;\n    text-decoration: none !important;\n    display: inline-block;\n    transition: background-color 0.3s ease;\n    font-size: 16px;\n    font-weight: bold;\n    line-height: 1.2;\n  }\n  \n  .strobes-button:hover {\n    background-color: #1a1b4a !important;\n    color: white !important;\n    text-decoration: none !important;\n  }\n  \n  .strobes-button:visited {\n    color: white !important;\n  }\n  \n  .strobes-button:active {\n    color: white !important;\n  }\n  \n  @media (max-width: 768px) {\n    .strobes-section {\n      padding: 0px 15px 50px 15px;\n    }\n  }\n</style>\n\n<div class=\"strobes-section\">\n  <h2>Strobes N' More</h2>\n  \n  <p>Strobes N' More offers a specialized range of LED lights and flush mount lighting options tailored for electric vehicles. Our LED lights provide powerful illumination to ensure your EV remains visible and efficient on the road, while flush-mount LED lights create a sleek, streamlined look without sacrificing brightness. Built for durability and energy efficiency, these lights are perfect for enhancing both safety and style. Whether you're seeking extra visibility or a modern aesthetic upgrade, Strobes N' More has the right LED light solutions. Discover our selection today and take your EV lighting to the next level with products designed to perform and last.</p>\n  \n  <a href=\"/collections/all\" class=\"strobes-button\">\n    See all products\n  </a>\n</div>"
@@ -316,10 +157,6 @@
     "dynamic_custom_liquid_7AWjbd",
     "dynamic_rich_text_azmHe9",
     "dynamic_faq_bM7nfd",
-    "pxs_image_with_text_overlay_czgNEg",
-    "dynamic_slideshow_4FNAhg",
-    "dynamic_shoppable_image_kKgW99",
-    "dynamic_shoppable_image_cEJrc9",
     "dynamic_custom_liquid_HfUrcM",
     "dynamic_featured_collection_rYiY7G"
   ]
