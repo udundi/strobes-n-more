@@ -9,6 +9,17 @@
  */
 {
   "sections": {
+    "dynamic_rich_text_azmHe9": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "title": "Sample H1",
+        "text": "<p>Use this section to welcome customers to your store, say a bit about your brand, or share news and seasonal promotions.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
     "main": {
       "type": "page",
       "disabled": true,
@@ -299,6 +310,7 @@
     }
   },
   "order": [
+    "dynamic_rich_text_azmHe9",
     "main",
     "pxs_image_with_text_overlay_czgNEg",
     "dynamic_custom_liquid_7AWjbd",
