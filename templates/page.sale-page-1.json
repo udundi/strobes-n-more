@@ -1,0 +1,312 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "settings": {}
+    },
+    "pxs_image_with_text_overlay_czgNEg": {
+      "type": "pxs-image-with-text-overlay",
+      "name": "t:sections.image_with_text_overlay.presets.name",
+      "settings": {
+        "section_height": "original",
+        "image": "shopify://shop_images/4th_of_July_Draft-4_3.png",
+        "title": "",
+        "text": "",
+        "content_position": "center-center",
+        "color": "#ffffff",
+        "overlay_background": "#000000",
+        "overlay_opacity": 0,
+        "link": "",
+        "button_text": ""
+      }
+    },
+    "dynamic_custom_liquid_7AWjbd": {
+      "type": "dynamic-custom-liquid",
+      "custom_css": [
+        "{margin-top: -30px;}"
+      ],
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "{% comment %}\nShopify Countdown Timer\nUsage: Include this in your theme template and set the target date\n{% endcomment %}\n\n{% assign target_date = '2025-12-02T00:00:00' %}\n{% assign current_date = 'now' | date: '%s' %}\n{% assign target_timestamp = target_date | date: '%s' %}\n\n<div class=\"custom-countdown-wrapper\">\n  <div class=\"custom-countdown-display\" data-target-date=\"{{ target_date }}\">\n    <h2 class=\"custom-countdown-heading\">Sale will end in</h2>\n    <div class=\"custom-countdown-row\">\n    <div class=\"custom-countdown-block\">\n      <div class=\"custom-countdown-digit\" id=\"custom-days\">0</div>\n      <div class=\"custom-countdown-text\">DAYS</div>\n    </div>\n    <div class=\"custom-countdown-divider\"></div>\n    <div class=\"custom-countdown-block\">\n      <div class=\"custom-countdown-digit\" id=\"custom-hours\">0</div>\n      <div class=\"custom-countdown-text\">HOURS</div>\n    </div>\n    <div class=\"custom-countdown-divider\"></div>\n    <div class=\"custom-countdown-block\">\n      <div class=\"custom-countdown-digit\" id=\"custom-minutes\">0</div>\n      <div class=\"custom-countdown-text\">MINUTES</div>\n    </div>\n    <div class=\"custom-countdown-divider\"></div>\n    <div class=\"custom-countdown-block\">\n      <div class=\"custom-countdown-digit\" id=\"custom-seconds\">0</div>\n      <div class=\"custom-countdown-text\">SECONDS</div>\n    </div>\n    </div>\n  </div>\n</div>\n\n<style>\n.custom-countdown-wrapper {\n  width: 100%;\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 20px;\n}\n\n.custom-countdown-display {\n  background: #21225b;\n  border: 2px solid rgba(255, 255, 255, 0.2);\n  border-radius: 0;\n  padding: 20px 20px 30px 20px;\n  position: relative;\n  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);\n}\n\n.custom-countdown-heading {\n  text-align: center;\n  font-size: 1.8rem;\n  font-weight: 800;\n  color: white !important;\n  margin: 0 0 35px 0;\n  font-family: 'Montserrat', 'Arial', sans-serif;\n  font-style: normal;\n}\n\n.custom-countdown-row {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.custom-countdown-block {\n  flex: 1;\n  text-align: center;\n  color: white;\n}\n\n.custom-countdown-digit {\n  font-size: 3rem;\n  font-weight: 700;\n  line-height: 1;\n  margin-bottom: 8px;\n  font-family: 'Arial', sans-serif;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n\n.custom-countdown-text {\n  font-size: 0.9rem;\n  font-weight: 500;\n  letter-spacing: 2px;\n  opacity: 0.9;\n  font-family: 'Nunito Sans', 'Arial', sans-serif;\n}\n\n.custom-countdown-divider {\n  width: 2px;\n  height: 60px;\n  background: rgba(255, 255, 255, 0.3);\n  margin: 0 15px;\n}\n\n/* Responsive Design */\n@media (max-width: 768px) {\n  .custom-countdown-display {\n    padding: 20px 15px;\n  }\n  \n  .custom-countdown-digit {\n    font-size: 2.5rem;\n  }\n  \n  .custom-countdown-text {\n    font-size: 0.8rem;\n    letter-spacing: 1px;\n  }\n  \n  .custom-countdown-divider {\n    height: 50px;\n    margin: 0 10px;\n  }\n}\n\n@media (max-width: 480px) {\n  .custom-countdown-display {\n    padding: 15px 10px;\n  }\n  \n  .custom-countdown-digit {\n    font-size: 2rem;\n  }\n  \n  .custom-countdown-text {\n    font-size: 0.7rem;\n  }\n  \n  .custom-countdown-divider {\n    height: 40px;\n    margin: 0 8px;\n  }\n}\n\n/* Animation for number changes */\n.custom-countdown-digit {\n  transition: transform 0.3s ease;\n}\n\n.custom-countdown-digit.updating {\n  transform: scale(1.1);\n}\n</style>\n\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n  const customCountdownTimer = document.querySelector('.custom-countdown-display');\n  const targetDate = customCountdownTimer.getAttribute('data-target-date');\n  \n  function updateCustomCountdown() {\n    const now = new Date().getTime();\n    const target = new Date(targetDate).getTime();\n    const difference = target - now;\n    \n    console.log('Target Date:', targetDate); // Debug log\n    console.log('Time Difference:', difference); // Debug log\n    \n    if (difference > 0) {\n      const days = Math.floor(difference / (1000 * 60 * 60 * 24));\n      const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));\n      const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));\n      const seconds = Math.floor((difference % (1000 * 60)) / 1000);\n      \n      // Add animation class when updating\n      const daysEl = document.getElementById('custom-days');\n      const hoursEl = document.getElementById('custom-hours');\n      const minutesEl = document.getElementById('custom-minutes');\n      const secondsEl = document.getElementById('custom-seconds');\n      \n      if (daysEl.textContent !== days.toString()) {\n        daysEl.classList.add('updating');\n        setTimeout(() => daysEl.classList.remove('updating'), 300);\n      }\n      if (hoursEl.textContent !== hours.toString()) {\n        hoursEl.classList.add('updating');\n        setTimeout(() => hoursEl.classList.remove('updating'), 300);\n      }\n      if (minutesEl.textContent !== minutes.toString()) {\n        minutesEl.classList.add('updating');\n        setTimeout(() => minutesEl.classList.remove('updating'), 300);\n      }\n      if (secondsEl.textContent !== seconds.toString()) {\n        secondsEl.classList.add('updating');\n        setTimeout(() => secondsEl.classList.remove('updating'), 300);\n      }\n      \n      daysEl.textContent = days;\n      hoursEl.textContent = hours;\n      minutesEl.textContent = minutes;\n      secondsEl.textContent = seconds;\n    } else {\n      // Countdown finished\n      document.getElementById('custom-days').textContent = '0';\n      document.getElementById('custom-hours').textContent = '0';\n      document.getElementById('custom-minutes').textContent = '0';\n      document.getElementById('custom-seconds').textContent = '0';\n      \n      // Optional: Add expired state\n      customCountdownTimer.classList.add('custom-expired');\n    }\n  }\n  \n  // Update immediately\n  updateCustomCountdown();\n  \n  // Update every second\n  const customInterval = setInterval(updateCustomCountdown, 1000);\n  \n  // Clean up interval when page unloads\n  window.addEventListener('beforeunload', function() {\n    clearInterval(customInterval);\n  });\n});\n</script>\n\n{% comment %}\nInstructions for customization:\n\n1. Change the target date:\n   Modify the target_date variable at the top:\n   {% assign target_date = '2025-12-31T23:59:59' %}\n\n2. To use a specific product launch date, you can use:\n   {% assign target_date = product.created_at | date: '%Y-%m-%dT%H:%M:%S' %}\n\n3. For a sale end date, you can use:\n   {% assign target_date = '2025-07-01T00:00:00' %}\n\n4. To customize colors, modify the CSS:\n   - Background gradient: background: linear-gradient(135deg, #2a2d7a 0%, #1a1d4a 100%);\n   - Border color: border: 2px solid rgba(255, 255, 255, 0.2);\n   - Text color: color: white;\n\n5. To add this to your theme:\n   - Create a new snippet file: countdown-timer.liquid\n   - Include it in your template: {% include 'countdown-timer' %}\n   - Or add directly to your template file\n\n6. Optional: Add expired state styling by adding this CSS:\n   .custom-countdown-display.custom-expired {\n     background: #666;\n   }\n   .custom-countdown-display.custom-expired .custom-countdown-digit {\n     color: #ccc;\n   }\n{% endcomment %}"
+      }
+    },
+    "dynamic_slideshow_4FNAhg": {
+      "type": "dynamic-slideshow",
+      "blocks": {
+        "slide_pEbC8h": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify://shop_images/Untitled-2_1.png",
+            "title": "Razor Light Stick",
+            "text": "The Razor Light Stick is a rugged, ultra-slim LED light bar built for under-tailgate use, offering brighter output, dual-color LEDs, and 104 flash patterns. It installs cleanly with 3M DuraLock tape and syncs with E-Series, Photons, E62, and E64 systems.",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "Shop Now",
+            "button_one_link": "https://strobesnmore.com/products/strobes-n-more-razor-light-stick?_pos=3&_sid=98ffa439d&_ss=r",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 40
+          }
+        },
+        "slide_MjtkYh": {
+          "type": "slide",
+          "settings": {
+            "background_image": "shopify://shop_images/Untitled_4.png",
+            "title": "Spectre Siren Amp",
+            "text": "The Spectre 100W Siren Amplifier is a compact, rust-proof unit delivering powerful sound and integrated light control for emergency vehicles. It supports 12–24V systems, operates in extreme conditions, and includes four 5A outputs for auxiliary lighting.",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "Shop Now",
+            "button_one_link": "https://strobesnmore.com/products/strobes-n-more-spectre-siren-amp?_pos=1&_sid=7ea4e96e3&_ss=r",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 40
+          }
+        },
+        "slide_nr9YPe": {
+          "type": "slide",
+          "settings": {
+            "title": "Phantom 100 Watt Speaker",
+            "text": "The Phantom Siren Speaker is a compact, rustproof, and waterproof 100W speaker built for tight spaces in modern vehicles. It delivers clear, powerful sound across all frequencies and includes a universal bracket for easy installation.",
+            "color": "#ffffff",
+            "link": "",
+            "text_alignment": "center",
+            "button_one_label": "Shop Now",
+            "button_one_link": "https://strobesnmore.com/products/strobes-n-more-phantom-100-watt-speaker?_pos=1&_sid=230849c1a&_ss=r",
+            "button_one_style": "primary",
+            "button_two_label": "",
+            "button_two_link": "",
+            "button_two_style": "primary",
+            "show_overlay": true,
+            "overlay_color": "#000000",
+            "overlay_opacity": 40
+          }
+        }
+      },
+      "block_order": [
+        "slide_pEbC8h",
+        "slide_MjtkYh",
+        "slide_nr9YPe"
+      ],
+      "custom_css": [],
+      "name": "t:sections.slideshow.presets.slideshow.name",
+      "settings": {
+        "enable_autoplay": true,
+        "autoplay_duration": 8,
+        "slideshow_width": "content",
+        "slideshow_height": "small",
+        "slideshow_height_mobile": "small",
+        "slideshow_text_below_image": true
+      }
+    },
+    "dynamic_shoppable_image_kKgW99": {
+      "type": "dynamic-shoppable-image",
+      "blocks": {
+        "hotspot_Kq4JMV": {
+          "type": "hotspot",
+          "settings": {
+            "product": "strobes-n-more-spectre-siren-amp",
+            "x_axis": 43,
+            "y_axis": 67
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_Kq4JMV"
+      ],
+      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/Untitled-1_1.png",
+        "image_width": "two-thirds",
+        "link_text": "Shop Now",
+        "textbox_title": "Spectre Siren Amp",
+        "textbox_subheading": "<p>Compact and powerful, the Spectre 100W Siren Amplifier delivers loud, clear tones and integrated light control in one rugged, rust-proof unit. Perfect for emergency vehicles with 12–24V setups. Built to perform in extreme conditions with minimal power draw.</p>",
+        "textbox_button_label": "Shop Now",
+        "textbox_button_link": "https://strobesnmore.com/products/strobes-n-more-spectre-siren-amp?_pos=1&_sid=bb4369cd8&_ss=r",
+        "textbox_button_style": "primary",
+        "textbox_text_alignment": "left",
+        "textbox_text_position": "right"
+      }
+    },
+    "dynamic_shoppable_image_cEJrc9": {
+      "type": "dynamic-shoppable-image",
+      "blocks": {
+        "hotspot_xB9GEW": {
+          "type": "hotspot",
+          "settings": {
+            "product": "strobes-n-more-razor-light-stick",
+            "x_axis": 50,
+            "y_axis": 59
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_xB9GEW"
+      ],
+      "custom_css": [
+        "{padding-top: 40px;}"
+      ],
+      "name": "t:sections.shoppable_image.presets.shoppable_image.name",
+      "settings": {
+        "title": "",
+        "image": "shopify://shop_images/Untitled-2_1.png",
+        "image_width": "two-thirds",
+        "link_text": "Shop Now",
+        "textbox_title": "Razor Taillight Stick",
+        "textbox_subheading": "<p>The Razor Light Stick is a slim, rugged under-tailgate LED bar with dual-color output, 104 flash patterns, and easy 3M DuraLock installation. Syncs with Strobes N’ More E-Series and fits both compact and full-size trucks.</p>",
+        "textbox_button_label": "Shop Now",
+        "textbox_button_link": "https://strobesnmore.com/products/strobes-n-more-razor-light-stick",
+        "textbox_button_style": "primary",
+        "textbox_text_alignment": "left",
+        "textbox_text_position": "left"
+      }
+    },
+    "dynamic_custom_liquid_HfUrcM": {
+      "type": "dynamic-custom-liquid",
+      "custom_css": [],
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .strobes-section {\n    padding: 10px 20px 40px 20px;\n    max-width: 1200px;\n    margin: 0 auto;\n    text-align: center;\n  }\n  \n  .strobes-button {\n    background-color: #21225b !important;\n    color: white !important;\n    padding: 0.75rem 1.125rem;\n    border: none;\n    border-radius: 3px;\n    cursor: pointer;\n    text-decoration: none !important;\n    display: inline-block;\n    transition: background-color 0.3s ease;\n    font-size: 16px;\n    font-weight: bold;\n    line-height: 1.2;\n  }\n  \n  .strobes-button:hover {\n    background-color: #1a1b4a !important;\n    color: white !important;\n    text-decoration: none !important;\n  }\n  \n  .strobes-button:visited {\n    color: white !important;\n  }\n  \n  .strobes-button:active {\n    color: white !important;\n  }\n  \n  @media (max-width: 768px) {\n    .strobes-section {\n      padding: 0px 15px 50px 15px;\n    }\n  }\n</style>\n\n<div class=\"strobes-section\">\n  <h2>Strobes N' More</h2>\n  \n  <p>Strobes N' More offers a specialized range of LED lights and flush mount lighting options tailored for electric vehicles. Our LED lights provide powerful illumination to ensure your EV remains visible and efficient on the road, while flush-mount LED lights create a sleek, streamlined look without sacrificing brightness. Built for durability and energy efficiency, these lights are perfect for enhancing both safety and style. Whether you're seeking extra visibility or a modern aesthetic upgrade, Strobes N' More has the right LED light solutions. Discover our selection today and take your EV lighting to the next level with products designed to perform and last.</p>\n  \n  <a href=\"/collections/all\" class=\"strobes-button\">\n    See all products\n  </a>\n</div>"
+      }
+    },
+    "dynamic_featured_collection_rYiY7G": {
+      "type": "dynamic-featured-collection",
+      "blocks": {
+        "title_card_qfcAx7": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify://shop_images/4th_of_July_Draft-6.png",
+            "text_alignment": "center-center",
+            "pre_heading": "",
+            "heading": "",
+            "text_color": "#ffffff",
+            "show_on_mobile": false,
+            "horizontal_size": "2",
+            "vertical_size": "2",
+            "enable_full_width_on_mobile": false,
+            "cta_label": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "title_card_qfcAx7"
+      ],
+      "name": "t:sections.featured_collection.presets.featured_collection.name",
+      "settings": {
+        "title": "",
+        "layout": "slideshow",
+        "mobile_layout": "slideshow",
+        "collection": "independence-day-sale",
+        "product_count": 5,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
+    },
+    "dynamic_faq_bM7nfd": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_hXrDWH": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_UhVecV": {
+          "type": "question",
+          "settings": {
+            "question": "General Information About LED Emergency Lights",
+            "answer": "<ul><li><strong>What are the benefits of LED warning lights over halogen or strobe lights?</strong><br/>LED warning lights are brighter, last longer, and use less power than halogen or strobe lights. They’re also more durable, with solid-state construction that resists shock and vibration. Unlike halogen, LEDs don’t generate much heat, and they don’t require the high-voltage systems that strobes do. This means fewer maintenance issues and better reliability in the field.</li></ul><p></p><ul><li><strong>Are LED warning lights suitable for both emergency and commercial vehicles? </strong><br/>Yes, LED warning lights are used widely on both emergency vehicles (like police, fire, and EMS) and commercial vehicles (like tow trucks, utility fleets, and construction vehicles). They offer customizable flash patterns and color options to meet different visibility and regulatory needs, making them adaptable for a wide range of applications.</li></ul><p></p><ul><li><strong>What flash patterns are available in LED warning lights?<br/></strong>LED warning lights typically come with multiple flash patterns—often ranging from 10 to 30 or more. Common options include single flash, double flash, quad flash, alternating patterns, and rotating simulations. Some models allow syncing with other lights or alternating patterns across multiple units for enhanced visibility and coordination.</li></ul><p></p><ul><li><strong>How long do LED warning lights typically last? <br/></strong>High-quality LED warning lights typically last 50,000 to 100,000 hours. That’s significantly longer than halogen or strobe lights, which often need replacement after a few thousand hours. LEDs also degrade slowly over time, rather than failing abruptly, which adds to their long-term reliability.</li></ul><p></p><ul><li><strong>Can LED warning lights be dimmed for nighttime use?<br/></strong>Yes, many LED warning lights come with dimming features or night mode settings. This helps reduce glare at night while maintaining visibility and safety. Dimming can be automatic based on ambient light, or manually controlled depending on the system.</li></ul>",
+            "icon": "none"
+          }
+        },
+        "question_MqiApe": {
+          "type": "question",
+          "settings": {
+            "question": "Car Emergency Lights (General Civilian Use)",
+            "answer": "<ul><li><strong>What are the best car emergency lights for roadside safety?</strong><br/>The best emergency lights for roadside safety are portable LED beacons, magnetic dash lights, and light bars with high visibility and multiple flash patterns. Look for options that are waterproof, easy to mount, and visible from a long distance. Rechargeable LED beacons are especially useful for quick roadside setups.</li></ul><p></p><ul><li><strong>Are car emergency lights legal for civilian use?<br/></strong>Yes, but it depends on the type and how they're used. Civilians can legally use amber warning lights in most areas for roadside emergencies or work purposes. However, red, blue, or combinations that resemble police or emergency vehicle lights are often restricted. Always check local and state regulations before using emergency lights on public roads.</li></ul><p></p><ul><li><strong>How do I install temporary emergency lights on my vehicle?<br/></strong>Temporary emergency lights can be installed using magnetic mounts, suction cups, or clips, depending on the model. Most plug into a 12V cigarette lighter socket or USB port for power. Setup usually takes just a few minutes and doesn’t require wiring or permanent modifications to your vehicle.</li></ul><p></p><ul><li><strong>What power sources can be used for car emergency lights?<br/></strong>Most car emergency lights run on 12V DC power from the vehicle’s cigarette lighter socket. Some also have USB power options or built-in rechargeable batteries for cordless operation. Battery-powered LED beacons are great for portable use without relying on the car's electrical system.</li></ul><p></p><ul><li><strong>Can car emergency lights be synced with hazard lights?<br/></strong>In most cases, no—standard vehicle hazard lights and aftermarket emergency lights operate on separate systems. However, some advanced lighting systems offer sync features that allow coordination with other installed warning lights, but syncing with the factory hazard switch typically requires custom wiring and isn't common in temporary setups.</li></ul>",
+            "icon": "none"
+          }
+        },
+        "question_JrFLEy": {
+          "type": "question",
+          "settings": {
+            "question": "Police Vehicle Lighting",
+            "answer": "<ul><li><strong>Where can I buy high-quality police lights online?</strong><br/>You can buy high-quality police lights from specialized retailers like Extreme Tactical Dynamics, SpeedTech Lights, Fleet Safety, and Strobes N’ More. These sites offer certified, high-performance lights used by law enforcement, with options for dash, visor, grille, and full light bar setups. Look for trusted brands, warranty coverage, and clear specs before purchasing.</li></ul><p></p><ul><li><strong>Are police-style emergency lights legal for civilian vehicles?<br/></strong>In most states, civilians cannot use red, blue, or red/blue flashing lights on public roads, as these are reserved for law enforcement. Some areas allow limited use on private property or for off-road purposes. Amber lights are generally legal for civilian use. Always check local laws before installing police-style lights on your vehicle.</li></ul><p></p><ul><li><strong>What are the best brands for police vehicle lighting?<br/></strong>Top brands include Whelen, Federal Signal, Feniex, SoundOff Signal, and Code 3. These manufacturers are widely used by law enforcement agencies and known for their reliability, brightness, and feature-rich products. They offer everything from compact dash lights to full vehicle light systems.</li></ul><p></p><ul><li><strong>Do police lights come with di(erent flash patterns? <br/></strong>Yes, most police lights come with multiple flash patterns—often 10 to 30 or more. Patterns include single, double, triple flash, alternating sequences, and simulated rotation. Many systems let you sync multiple lights or set directional patterns for traffic control.</li></ul><p></p><ul><li><strong>Can I customize the colors of police vehicle lights?<br/></strong>Yes, but it depends on the system and your location’s laws. Most manufacturers offer lights in red, blue, white, amber, and green, and many allow mixed-color configurations. However, red and blue combinations are often restricted to law enforcement. If you’re not an authorized user, stick to legal color options like amber or white.</li></ul>",
+            "icon": "none"
+          }
+        },
+        "question_axR8Xk": {
+          "type": "question",
+          "settings": {
+            "question": "Strobes N' More Specific Questions",
+            "answer": "<ul><li><strong>What types of emergency lighting does Strobes N' More offer?</strong><br/>Strobes N' More offers a wide range of emergency lighting, including LED light bars, grille lights, surface mounts, dash lights, hideaways, beacons, and traffic advisors. They also carry scene lights and work lights for utility and service vehicles. Their in-house E-Series and Dual Color lines are popular for high-output, reliable performance.</li></ul><p></p><ul><li><strong>Are Strobes N' More products suitable for off-road use?<br/></strong>Yes, many Strobes N' More lights are built with rugged, weatherproof housings that can handle off-road conditions. Their off-road and utility lighting options are designed for durability, vibration resistance, and visibility in tough environments. Just check IP ratings and mounting options to ensure a good fit for your setup.</li></ul><p></p><ul><li><strong>How do I choose the right light bar from Strobes N' More?<br/></strong>Start by considering your vehicle type, mounting location, and intended use. For full-size emergency vehicles, roof-mounted light bars with multiple flash patterns and color zones work best. For smaller vehicles or more discreet setups, visor lights or mini light bars may be ideal. Strobes N' More lists detailed specs and comparison tools to help you choose.</li></ul><p></p><ul><li><strong>Does Strobes N' More offer wiring and installation accessories?<br/></strong>Yes, they carry a full range of wiring harnesses, switch boxes, control panels, and mounting hardware. Whether you're doing a temporary setup or a permanent install, you can find the accessories needed to wire and control your lights safely and efficiently.</li></ul><p></p><ul><li><strong>Can Strobes N' More products be synchronized with other brands? <br/></strong>Some models can be synced with lights from other brands, especially if they use standard sync wires or flashing protocols. However, compatibility isn’t guaranteed across brands, so it’s best to consult wiring diagrams or check with support. For seamless syncing, sticking with the same brand across all units is recommended.</li></ul>",
+            "icon": "none"
+          }
+        },
+        "question_BY84gC": {
+          "type": "question",
+          "settings": {
+            "question": "Emergency Flashing Lights (General Use)",
+            "answer": "<ul><li><strong>What are the best emergency flashing lights for police and fire vehicles?</strong><br/>Top choices include high-intensity LED light bars, visor lights, grille lights, and surface-mount strobes. Brands like Whelen, Feniex, SoundOff Signal, and Federal Signal are trusted for their brightness, durability, and advanced flash pattern options. Red/blue or red/white lights are standard for police and fire, depending on local regulations.</li></ul><p></p><ul><li><strong>Are emergency flashing lights legal for personal vehicles? <br/></strong>It depends on the color and how they’re used. Amber flashing lights are typically legal for personal use in situations like roadside emergencies or work zones. However, red, blue, or red/blue combinations are usually restricted to authorized emergency vehicles. Always check your local laws before installing flashing lights on your car.</li></ul><p></p><ul><li><strong>How do I choose the right emergency flashing light for my vehicle?<br/></strong>Start with your use case: roadside safety, volunteer response, or professional service. For temporary or personal use, portable LED beacons or dash lights work well. For permanent setups, consider grille lights or roof-mounted light bars. Choose lights with multiple flash patterns, proper color for your role, and compatibility with your vehicle’s power system.</li></ul><p></p><ul><li><strong>What are the different flash patterns available in emergency vehicle lights?<br/></strong>Common flash patterns include single, double, triple flash, quad flash, alternating, simultaneous, and simulated rotation. Many systems offer up to 30+ patterns, and advanced units allow syncing multiple lights or setting directional sequences for traffic control. Flash patterns can usually be changed with a switch or controller.</li></ul><p></p><ul><li><strong>How do emergency vehicle flashing lights improve visibility in low-light conditions?<br/></strong>LED flashing lights cut through darkness, fog, rain, and other low-visibility conditions by producing intense, pulsing light. The strobing effect catches attention faster than steady lighting, helping other drivers see and react to the vehicle sooner. This is critical for safety during roadside stops, emergency responses, or nighttime work.</li></ul>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_hXrDWH",
+        "question_UhVecV",
+        "question_MqiApe",
+        "question_JrFLEy",
+        "question_axR8Xk",
+        "question_BY84gC"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "wide",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "pxs_image_with_text_overlay_czgNEg",
+    "dynamic_custom_liquid_7AWjbd",
+    "dynamic_slideshow_4FNAhg",
+    "dynamic_shoppable_image_kKgW99",
+    "dynamic_shoppable_image_cEJrc9",
+    "dynamic_custom_liquid_HfUrcM",
+    "dynamic_featured_collection_rYiY7G",
+    "dynamic_faq_bM7nfd"
+  ]
+}
