@@ -9,6 +9,14 @@
  */
 {
   "sections": {
+    "dynamic_html_fKYXXm": {
+      "type": "dynamic-html",
+      "name": "t:sections.custom_html.presets.custom_html.name",
+      "settings": {
+        "title": "",
+        "custom_html": "<marquee behavior=\"scroll\" direction=\"left\" scrollamount=\"6\" style=\"background:#c00; color:#fff; font-weight:bold; padding:10px;\">\n  Our shipping system is currently down and we will be unable to ship orders until the outage is resolved. We apologize for the inconvenience and appreciate your patience.\n</marquee>"
+      }
+    },
     "dynamic_custom_liquid_C9HdJ3": {
       "type": "dynamic-custom-liquid",
       "custom_css": [
@@ -784,6 +792,7 @@
     }
   },
   "order": [
+    "dynamic_html_fKYXXm",
     "dynamic_custom_liquid_C9HdJ3",
     "dynamic_custom_liquid_q4tCT9",
     "dynamic_custom_liquid_nXfma8",
