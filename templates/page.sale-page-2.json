@@ -1,0 +1,163 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "disabled": true,
+      "custom_css": [
+        "p {max-width: 100%;}"
+      ],
+      "settings": {}
+    },
+    "dynamic_custom_liquid_3XfdNr": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .black-friday-hero {\n    padding: 40px 20px;\n    max-width: 870px;\n    margin: 0 auto;\n  }\n  \n  .black-friday-hero h1 {\n    font-family: 'Montserrat', sans-serif;\n    font-weight: 800;\n    color: #000000;\n    font-size: 24px;\n    line-height: 1.3;\n    margin: 0 0 20px 0;\n    text-align: left;\n  }\n  \n  .black-friday-hero p {\n    font-family: 'Nunito Sans', sans-serif;\n    font-weight: 400;\n    color: #21225b;\n    font-size: 16px;\n    line-height: 1.6;\n    margin: 0;\n    text-align: left;\n  }\n  \n  /* Tablet */\n  @media (min-width: 768px) {\n    .black-friday-hero {\n      padding: 50px 30px;\n    }\n    \n    .black-friday-hero h1 {\n      font-size: 28px;\n      margin-bottom: 24px;\n    }\n    \n    .black-friday-hero p {\n      font-size: 16px;\n      line-height: 1.65;\n    }\n  }\n  \n  /* Desktop */\n  @media (min-width: 1024px) {\n    .black-friday-hero {\n      padding: 60px 20px;\n    }\n    \n    .black-friday-hero h1 {\n      font-size: 32px;\n      margin-bottom: 28px;\n    }\n    \n    .black-friday-hero p {\n      font-size: 16px;\n      line-height: 1.7;\n    }\n  }\n</style>\n\n<div class=\"black-friday-hero\">\n  <h1>Black Friday Deals on Emergency Vehicle Lights & Light Bars</h1>\n  <p>The <b>Strobes N More Black Friday Sale</b> is here, and it's your once-a-year opportunity to save big on the <b> best emergency vehicle lights </b> and accessories. We understand the importance of reliable lighting for professionals, volunteers, and contractors who need dependable performance under pressure — and this is the ideal time to upgrade. Whether you're looking for <b> LED emergency lights, strobe lights for vehicles,</b> or <b>light bars for trucks,</b> you'll find them all at unbeatable prices. Our Black Friday event features a comprehensive range of gear, including <b>mini light bars, visor lights, full-size light bars,</b> and <b>surface mount lights,</b> all designed for maximum visibility.</p> \n<br> <p>This is also the time to stock up on accessories that make a difference in day-to-day use. <b>Shop siren speakers, wiring harness kits,</b> and <b>emergency light controllers,</b> all available at limited-time discounts. We haven't forgotten our first responder community either — you'll also find savings on <b>police car lights, ambulance lights, firefighter lights,</b> and <b>volunteer firefighter lights.</b> No matter what you drive — <b>a tow truck, construction vehicle,</b> or <b>utility truck</b> — our Black Friday sale delivers professional-grade equipment at the lowest prices of the year. Don't wait — once these deals are gone, they won't return until next year.</p>\n</div>"
+      }
+    },
+    "dynamic_custom_liquid_7AWjbd": {
+      "type": "dynamic-custom-liquid",
+      "custom_css": [
+        "{margin-top: -30px;}"
+      ],
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "{% comment %}\nShopify Countdown Timer\nUsage: Include this in your theme template and set the target date\n{% endcomment %}\n\n{% assign target_date = '2025-12-02T00:00:00' %}\n{% assign current_date = 'now' | date: '%s' %}\n{% assign target_timestamp = target_date | date: '%s' %}\n\n<div class=\"custom-countdown-wrapper\">\n  <div class=\"custom-countdown-display\" data-target-date=\"{{ target_date }}\">\n    <h2 class=\"custom-countdown-heading\">Sale will end in</h2>\n    <div class=\"custom-countdown-row\">\n    <div class=\"custom-countdown-block\">\n      <div class=\"custom-countdown-digit\" id=\"custom-days\">0</div>\n      <div class=\"custom-countdown-text\">DAYS</div>\n    </div>\n    <div class=\"custom-countdown-divider\"></div>\n    <div class=\"custom-countdown-block\">\n      <div class=\"custom-countdown-digit\" id=\"custom-hours\">0</div>\n      <div class=\"custom-countdown-text\">HOURS</div>\n    </div>\n    <div class=\"custom-countdown-divider\"></div>\n    <div class=\"custom-countdown-block\">\n      <div class=\"custom-countdown-digit\" id=\"custom-minutes\">0</div>\n      <div class=\"custom-countdown-text\">MINUTES</div>\n    </div>\n    <div class=\"custom-countdown-divider\"></div>\n    <div class=\"custom-countdown-block\">\n      <div class=\"custom-countdown-digit\" id=\"custom-seconds\">0</div>\n      <div class=\"custom-countdown-text\">SECONDS</div>\n    </div>\n    </div>\n  </div>\n</div>\n\n<style>\n.custom-countdown-wrapper {\n  width: 100%;\n  max-width: 1200px;\n  margin: 0 auto;\n  padding: 20px;\n}\n\n.custom-countdown-display {\n  background: #21225b;\n  border: 2px solid rgba(255, 255, 255, 0.2);\n  border-radius: 0;\n  padding: 20px 20px 30px 20px;\n  position: relative;\n  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);\n}\n\n.custom-countdown-heading {\n  text-align: center;\n  font-size: 1.8rem;\n  font-weight: 800;\n  color: white !important;\n  margin: 0 0 35px 0;\n  font-family: 'Montserrat', 'Arial', sans-serif;\n  font-style: normal;\n}\n\n.custom-countdown-row {\n  display: flex;\n  justify-content: space-between;\n  align-items: center;\n}\n\n.custom-countdown-block {\n  flex: 1;\n  text-align: center;\n  color: white;\n}\n\n.custom-countdown-digit {\n  font-size: 3rem;\n  font-weight: 700;\n  line-height: 1;\n  margin-bottom: 8px;\n  font-family: 'Arial', sans-serif;\n  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.3);\n}\n\n.custom-countdown-text {\n  font-size: 0.9rem;\n  font-weight: 500;\n  letter-spacing: 2px;\n  opacity: 0.9;\n  font-family: 'Nunito Sans', 'Arial', sans-serif;\n}\n\n.custom-countdown-divider {\n  width: 2px;\n  height: 60px;\n  background: rgba(255, 255, 255, 0.3);\n  margin: 0 15px;\n}\n\n/* Responsive Design */\n@media (max-width: 768px) {\n  .custom-countdown-display {\n    padding: 20px 15px;\n  }\n  \n  .custom-countdown-digit {\n    font-size: 2.5rem;\n  }\n  \n  .custom-countdown-text {\n    font-size: 0.8rem;\n    letter-spacing: 1px;\n  }\n  \n  .custom-countdown-divider {\n    height: 50px;\n    margin: 0 10px;\n  }\n}\n\n@media (max-width: 480px) {\n  .custom-countdown-display {\n    padding: 15px 10px;\n  }\n  \n  .custom-countdown-digit {\n    font-size: 2rem;\n  }\n  \n  .custom-countdown-text {\n    font-size: 0.7rem;\n  }\n  \n  .custom-countdown-divider {\n    height: 40px;\n    margin: 0 8px;\n  }\n}\n\n/* Animation for number changes */\n.custom-countdown-digit {\n  transition: transform 0.3s ease;\n}\n\n.custom-countdown-digit.updating {\n  transform: scale(1.1);\n}\n</style>\n\n<script>\ndocument.addEventListener('DOMContentLoaded', function() {\n  const customCountdownTimer = document.querySelector('.custom-countdown-display');\n  const targetDate = customCountdownTimer.getAttribute('data-target-date');\n  \n  function updateCustomCountdown() {\n    const now = new Date().getTime();\n    const target = new Date(targetDate).getTime();\n    const difference = target - now;\n    \n    console.log('Target Date:', targetDate); // Debug log\n    console.log('Time Difference:', difference); // Debug log\n    \n    if (difference > 0) {\n      const days = Math.floor(difference / (1000 * 60 * 60 * 24));\n      const hours = Math.floor((difference % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));\n      const minutes = Math.floor((difference % (1000 * 60 * 60)) / (1000 * 60));\n      const seconds = Math.floor((difference % (1000 * 60)) / 1000);\n      \n      // Add animation class when updating\n      const daysEl = document.getElementById('custom-days');\n      const hoursEl = document.getElementById('custom-hours');\n      const minutesEl = document.getElementById('custom-minutes');\n      const secondsEl = document.getElementById('custom-seconds');\n      \n      if (daysEl.textContent !== days.toString()) {\n        daysEl.classList.add('updating');\n        setTimeout(() => daysEl.classList.remove('updating'), 300);\n      }\n      if (hoursEl.textContent !== hours.toString()) {\n        hoursEl.classList.add('updating');\n        setTimeout(() => hoursEl.classList.remove('updating'), 300);\n      }\n      if (minutesEl.textContent !== minutes.toString()) {\n        minutesEl.classList.add('updating');\n        setTimeout(() => minutesEl.classList.remove('updating'), 300);\n      }\n      if (secondsEl.textContent !== seconds.toString()) {\n        secondsEl.classList.add('updating');\n        setTimeout(() => secondsEl.classList.remove('updating'), 300);\n      }\n      \n      daysEl.textContent = days;\n      hoursEl.textContent = hours;\n      minutesEl.textContent = minutes;\n      secondsEl.textContent = seconds;\n    } else {\n      // Countdown finished\n      document.getElementById('custom-days').textContent = '0';\n      document.getElementById('custom-hours').textContent = '0';\n      document.getElementById('custom-minutes').textContent = '0';\n      document.getElementById('custom-seconds').textContent = '0';\n      \n      // Optional: Add expired state\n      customCountdownTimer.classList.add('custom-expired');\n    }\n  }\n  \n  // Update immediately\n  updateCustomCountdown();\n  \n  // Update every second\n  const customInterval = setInterval(updateCustomCountdown, 1000);\n  \n  // Clean up interval when page unloads\n  window.addEventListener('beforeunload', function() {\n    clearInterval(customInterval);\n  });\n});\n</script>\n\n{% comment %}\nInstructions for customization:\n\n1. Change the target date:\n   Modify the target_date variable at the top:\n   {% assign target_date = '2025-12-31T23:59:59' %}\n\n2. To use a specific product launch date, you can use:\n   {% assign target_date = product.created_at | date: '%Y-%m-%dT%H:%M:%S' %}\n\n3. For a sale end date, you can use:\n   {% assign target_date = '2025-07-01T00:00:00' %}\n\n4. To customize colors, modify the CSS:\n   - Background gradient: background: linear-gradient(135deg, #2a2d7a 0%, #1a1d4a 100%);\n   - Border color: border: 2px solid rgba(255, 255, 255, 0.2);\n   - Text color: color: white;\n\n5. To add this to your theme:\n   - Create a new snippet file: countdown-timer.liquid\n   - Include it in your template: {% include 'countdown-timer' %}\n   - Or add directly to your template file\n\n6. Optional: Add expired state styling by adding this CSS:\n   .custom-countdown-display.custom-expired {\n     background: #666;\n   }\n   .custom-countdown-display.custom-expired .custom-countdown-digit {\n     color: #ccc;\n   }\n{% endcomment %}"
+      }
+    },
+    "dynamic_rich_text_azmHe9": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "wide",
+        "title": "Black Friday Deals on Emergency Vehicle Lighting",
+        "text": "<p>This year’s <strong>Black Friday deals on emergency vehicle lighting</strong> are bigger than ever. At Strobes N More, we’re offering exclusive discounts on the lights and accessories that keep professionals safe and visible on the road. Start with our popular <strong>LED emergency lights</strong> and <strong>strobe lights for vehicles</strong>, built for high intensity and long-lasting performance. Need compact solutions? Our <strong>mini light bars</strong> and <strong>visor lights</strong> are perfect for volunteer responders or personal vehicles, while our <strong>full-size light bars</strong> and <strong>surface-mount lights</strong> provide maximum coverage for fleets, tow operators, and construction teams.</p><p>We’re also making sure accessories are included in the savings. Black Friday is the best time to grab <strong>emergency light controllers</strong>, <strong>siren speakers</strong>, and <strong>wiring harness kits</strong> to complete your setup. These small but essential pieces ensure your lighting system works flawlessly when you need it most. If you’re upgrading your <strong>tow truck, police cruiser, ambulance, fire truck, construction vehicle, or utility truck</strong>, this is the chance to do it for less.</p><p>What makes our Black Friday event stand out is not just the discounts but the variety. From <strong>volunteer firefighter lights</strong> to <strong>wireless emergency lights</strong>, everything you need is included. You won’t find prices like this again for another year, so take advantage now. Black Friday is about getting prepared for the season ahead, and there’s no better way than equipping your vehicle with reliable lighting at a fraction of the cost.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_faq_bM7nfd": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_hXrDWH": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_UhVecV": {
+          "type": "question",
+          "settings": {
+            "question": "When do Black Friday deals start?",
+            "answer": "<p>Discounts launch Thanksgiving week and run through Black Friday weekend.</p>",
+            "icon": "none"
+          }
+        },
+        "question_MqiApe": {
+          "type": "question",
+          "settings": {
+            "question": "Are all emergency vehicle lights on sale?",
+            "answer": "<p> Yes — including <strong>LEDs, light bars, strobes, and accessories</strong>.</p>",
+            "icon": "none"
+          }
+        },
+        "question_JrFLEy": {
+          "type": "question",
+          "settings": {
+            "question": "Can I shop online?",
+            "answer": "<p> Absolutely — all deals are available on our website.</p>",
+            "icon": "none"
+          }
+        },
+        "question_axR8Xk": {
+          "type": "question",
+          "settings": {
+            "question": "Do Black Friday sales include volunteer firefighter lights?",
+            "answer": "<p> Yes — these are part of the promotion.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_hXrDWH",
+        "question_UhVecV",
+        "question_MqiApe",
+        "question_JrFLEy",
+        "question_axR8Xk"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "wide",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
+    "dynamic_custom_liquid_HfUrcM": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .strobes-section {\n    padding: 10px 20px 40px 20px;\n    max-width: 1200px;\n    margin: 0 auto;\n    text-align: center;\n  }\n  \n  .strobes-button {\n    background-color: #21225b !important;\n    color: white !important;\n    padding: 0.75rem 1.125rem;\n    border: none;\n    border-radius: 3px;\n    cursor: pointer;\n    text-decoration: none !important;\n    display: inline-block;\n    transition: background-color 0.3s ease;\n    font-size: 16px;\n    font-weight: bold;\n    line-height: 1.2;\n  }\n  \n  .strobes-button:hover {\n    background-color: #1a1b4a !important;\n    color: white !important;\n    text-decoration: none !important;\n  }\n  \n  .strobes-button:visited {\n    color: white !important;\n  }\n  \n  .strobes-button:active {\n    color: white !important;\n  }\n  \n  @media (max-width: 768px) {\n    .strobes-section {\n      padding: 0px 15px 50px 15px;\n    }\n  }\n</style>\n\n<div class=\"strobes-section\">\n  <h2>Strobes N' More</h2>\n  \n  <p>Strobes N' More offers a specialized range of LED lights and flush mount lighting options tailored for electric vehicles. Our LED lights provide powerful illumination to ensure your EV remains visible and efficient on the road, while flush-mount LED lights create a sleek, streamlined look without sacrificing brightness. Built for durability and energy efficiency, these lights are perfect for enhancing both safety and style. Whether you're seeking extra visibility or a modern aesthetic upgrade, Strobes N' More has the right LED light solutions. Discover our selection today and take your EV lighting to the next level with products designed to perform and last.</p>\n  \n  <a href=\"/collections/all\" class=\"strobes-button\">\n    See all products\n  </a>\n</div>"
+      }
+    },
+    "dynamic_featured_collection_rYiY7G": {
+      "type": "dynamic-featured-collection",
+      "blocks": {
+        "title_card_qfcAx7": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify://shop_images/4th_of_July_Draft-6.png",
+            "text_alignment": "center-center",
+            "pre_heading": "",
+            "heading": "",
+            "text_color": "#ffffff",
+            "show_on_mobile": false,
+            "horizontal_size": "2",
+            "vertical_size": "2",
+            "enable_full_width_on_mobile": false,
+            "cta_label": "",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "title_card_qfcAx7"
+      ],
+      "name": "t:sections.featured_collection.presets.featured_collection.name",
+      "settings": {
+        "title": "",
+        "layout": "slideshow",
+        "mobile_layout": "slideshow",
+        "collection": "independence-day-sale",
+        "product_count": 5,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_custom_liquid_3XfdNr",
+    "dynamic_custom_liquid_7AWjbd",
+    "dynamic_rich_text_azmHe9",
+    "dynamic_faq_bM7nfd",
+    "dynamic_custom_liquid_HfUrcM",
+    "dynamic_featured_collection_rYiY7G"
+  ]
+}
