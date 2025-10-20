@@ -50,13 +50,12 @@
         },
         "description_wA3N4U": {
           "type": "description",
-          "disabled": true,
           "settings": {}
         },
         "tabs_QdCHNA": {
           "type": "tabs",
           "settings": {
-            "show_product_description": true,
+            "show_product_description": false,
             "show_tabs_below_product_gallery": false,
             "tab_heading_1": "{{ product.metafields.custom.testing_tab_1.value }}",
             "tab_text_1": "<p>{{ product.metafields.custom.testing_tab_1_description | metafield_tag }}</p>",
