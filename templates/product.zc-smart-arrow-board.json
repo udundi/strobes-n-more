@@ -55,11 +55,25 @@
         },
         "rating": {
           "type": "rating",
+          "disabled": true,
           "settings": {}
         },
         "desc_tab_QhEzwa": {
           "type": "desc-tab",
           "settings": {}
+        },
+        "tabs_tA9bHt": {
+          "type": "tabs",
+          "settings": {
+            "show_product_description": false,
+            "show_tabs_below_product_gallery": false,
+            "tab_heading_1": "{{ product.metafields.custom.testing_tab_1.value }}",
+            "tab_text_1": "<p>{{ product.metafields.custom.testing_tab_1_description | metafield_tag }}</p>",
+            "tab_heading_2": "{{ product.metafields.custom.testing_tab_2.value }}",
+            "tab_text_2": "<p>{{ product.metafields.custom.testing_tab_2_description | metafield_tag }}</p>",
+            "tab_heading_3": "",
+            "tab_text_3": ""
+          }
         },
         "complementary_products_UQ4miN": {
           "type": "complementary_products",
@@ -88,6 +102,7 @@
         "form",
         "rating",
         "desc_tab_QhEzwa",
+        "tabs_tA9bHt",
         "complementary_products_UQ4miN",
         "share",
         "judge_me_reviews_preview_badge_67REpr"
