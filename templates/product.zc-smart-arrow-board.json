@@ -83,6 +83,12 @@
             "products_per_slide": 2
           }
         },
+        "custom_liquid_mwMhwR": {
+          "type": "custom-liquid",
+          "settings": {
+            "custom_liquid": "<div style=\"display: flex; gap: 4px; justify-content: flex-start; align-items: center; flex-wrap: wrap; margin: 20px 0;\">\n  \n  {% comment %} Install Guide Button {% endcomment %}\n  <a href=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/strobesnmore-smart-arrow-board-install-guide.pdf?v=1760971709\" target=\"_blank\" rel=\"noopener\" style=\"display: inline-block;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Install_Guide_1.png?v=1743182961\" alt=\"Install Guide\" style=\"width: 135px; height: 30px; display: block;\">\n  </a>\n\n  {% comment %} Warranty Info Button {% endcomment %}\n  <a href=\"https://strobesnmore.com/warranty\" target=\"_blank\" rel=\"noopener\" style=\"display: inline-block;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Warranty_Info_1.png?v=1743181003\" alt=\"Warranty Info\" style=\"width: 160px; height: 30px; display: block;\">\n  </a>\n\n  {% comment %} FAQs Button {% endcomment %}\n  <a href=\"https://strobesnmore.com/pages/faq\" target=\"_blank\" rel=\"noopener\" style=\"display: inline-block;\">\n    <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/FAQs_1.png?v=1743181026\" alt=\"FAQs\" style=\"width: 68px; height: 30px; display: block;\">\n  </a>\n\n</div>"
+          }
+        },
         "share": {
           "type": "share",
           "settings": {}
@@ -104,6 +110,7 @@
         "desc_tab_QhEzwa",
         "tabs_tA9bHt",
         "complementary_products_UQ4miN",
+        "custom_liquid_mwMhwR",
         "share",
         "judge_me_reviews_preview_badge_67REpr"
       ],
