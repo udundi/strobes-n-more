@@ -160,7 +160,7 @@
             "image": "shopify://shop_images/website_graphics-2_2.png",
             "text_alignment": "center-center",
             "pre_heading": "",
-            "heading": "LED Flasher",
+            "heading": "LED Flashers",
             "text_color": "#ffffff",
             "show_on_mobile": true,
             "horizontal_size": "3",
@@ -182,7 +182,7 @@
         "mobile_layout": "slideshow",
         "collection": "flasher-modules",
         "product_count": 7,
-        "cta_label": "LED Flasher",
+        "cta_label": "LED Flashers",
         "cta_button_style": "primary"
       }
     },
