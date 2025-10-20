@@ -257,6 +257,7 @@
     },
     "recently-viewed": {
       "type": "static-recently-viewed",
+      "disabled": true,
       "custom_css": [],
       "settings": {
         "enable_recently_viewed_products": true
