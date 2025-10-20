@@ -107,11 +107,19 @@
         "gallery_click_to_zoom": "always"
       }
     },
+    "dynamic_custom_liquid_fyB7Td": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "{% comment %}\n  Custom Video Player with Autoplay, Mute, and Controls - All Devices\n{% endcomment %}\n<div class=\"custom-video-container\">\n  <video \n    id=\"custom-video-player\"\n    class=\"custom-video\"\n    src=\"https://cdn.shopify.com/videos/c/o/v/cd203b5a202042eabf5ff64b4ba53e63.mp4\"\n    autoplay\n    muted\n    playsinline\n    loop\n    controls>\n    Your browser does not support the video tag.\n  </video>\n</div>\n<style>\n  /* Video Container Styles - Responsive */\n  .custom-video-container {\n    width: 100%;\n    max-width: 100%;\n    overflow: hidden;\n  }\n  \n  /* Base Video Styles */\n  .custom-video {\n    width: 100%;\n    height: auto;\n    display: block;\n    object-fit: contain;\n  }\n</style>"
+      }
+    },
     "17361695840f23726e": {
       "type": "apps",
       "blocks": {
         "oneloyalty_point_calculator_nHNciU": {
           "type": "shopify://apps/oneloyalty/blocks/pointCalculator/6119b281-36ce-42b5-93ab-6aaf5fb224ce",
+          "disabled": true,
           "settings": {
             "alignment_component": "left"
           }
@@ -120,6 +128,7 @@
       "block_order": [
         "oneloyalty_point_calculator_nHNciU"
       ],
+      "disabled": true,
       "settings": {
         "include_padding": true
       }
@@ -159,12 +168,14 @@
       "block_order": [
         "judge_me_reviews_review_widget_ykadq4"
       ],
+      "disabled": true,
       "settings": {
         "include_padding": true
       }
     },
     "recommendations": {
       "type": "static-product-recommendations",
+      "disabled": true,
       "settings": {
         "show_product_recommendations": true,
         "product_recommendations_heading": "You May Also Like"
@@ -241,6 +252,7 @@
   },
   "order": [
     "main",
+    "dynamic_custom_liquid_fyB7Td",
     "17361695840f23726e",
     "17407469585773d0a2",
     "1740751518ae8cc801",
