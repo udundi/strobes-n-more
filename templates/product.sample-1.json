@@ -18,14 +18,17 @@
         },
         "vendor": {
           "type": "vendor",
+          "disabled": true,
           "settings": {}
         },
         "price": {
           "type": "price",
+          "disabled": true,
           "settings": {}
         },
         "form": {
           "type": "form",
+          "disabled": true,
           "settings": {
             "enable_local_pickup": false,
             "show_gift_card_recipient_form": false
@@ -33,20 +36,26 @@
         },
         "rating": {
           "type": "rating",
+          "disabled": true,
           "settings": {}
         },
         "complementary_products_UQ4miN": {
           "type": "complementary_products",
+          "disabled": true,
           "settings": {
             "heading": "Accessories",
             "product_recommendation_limit": 10,
             "products_per_slide": 2
           }
         },
+        "description_wA3N4U": {
+          "type": "description",
+          "settings": {}
+        },
         "tabs_QdCHNA": {
           "type": "tabs",
           "settings": {
-            "show_product_description": true,
+            "show_product_description": false,
             "show_tabs_below_product_gallery": false,
             "tab_heading_1": "{{ product.metafields.custom.testing_tab_1.value }}",
             "tab_text_1": "<p>{{ product.metafields.custom.testing_tab_1_description | metafield_tag }}</p>",
@@ -68,6 +77,7 @@
         "form",
         "rating",
         "complementary_products_UQ4miN",
+        "description_wA3N4U",
         "tabs_QdCHNA",
         "share"
       ],
