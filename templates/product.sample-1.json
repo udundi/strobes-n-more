@@ -181,6 +181,7 @@
         "question_LNP8KQ",
         "question_hncjUr"
       ],
+      "disabled": true,
       "custom_css": [
         "@media (min-width: 1200px) {.faq__items > div {max-width: 600px; }}",
         "@media (min-width: 768px) {.faq__items {display: flex; gap: 90px; justify-content: space-between; flex-direction: row; }}",
@@ -197,6 +198,7 @@
     },
     "recommendations": {
       "type": "static-product-recommendations",
+      "disabled": true,
       "settings": {
         "show_product_recommendations": true,
         "product_recommendations_heading": "You May Also Like"
@@ -204,6 +206,7 @@
     },
     "dynamic_rich_text_WFYcHk": {
       "type": "dynamic-rich-text",
+      "disabled": true,
       "settings": {
         "width": "regular",
         "title": "Will Use Testimonials app here",
@@ -214,6 +217,7 @@
     },
     "recently-viewed": {
       "type": "static-recently-viewed",
+      "disabled": true,
       "settings": {
         "enable_recently_viewed_products": true
       }
@@ -311,6 +315,7 @@
         "highlight_88jjUt",
         "highlight_pUnkHf"
       ],
+      "disabled": true,
       "settings": {
         "section_spacing": false,
         "section_width": "full-width",
