@@ -39,8 +39,8 @@
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "width": "wide",
-        "title": "Black Friday Deals on Emergency Vehicle Lighting",
-        "text": "<p>This year’s <strong>Black Friday deals on emergency vehicle lighting</strong> are bigger than ever. At Strobes N More, we’re offering exclusive discounts on the lights and accessories that keep professionals safe and visible on the road. Start with our popular <strong>LED emergency lights</strong> and <strong>strobe lights for vehicles</strong>, built for high intensity and long-lasting performance. Need compact solutions? Our <strong>mini light bars</strong> and <strong>visor lights</strong> are perfect for volunteer responders or personal vehicles, while our <strong>full-size light bars</strong> and <strong>surface-mount lights</strong> provide maximum coverage for fleets, tow operators, and construction teams.</p><p>We’re also making sure accessories are included in the savings. Black Friday is the best time to grab <strong>emergency light controllers</strong>, <strong>siren speakers</strong>, and <strong>wiring harness kits</strong> to complete your setup. These small but essential pieces ensure your lighting system works flawlessly when you need it most. If you’re upgrading your <strong>tow truck, police cruiser, ambulance, fire truck, construction vehicle, or utility truck</strong>, this is the chance to do it for less.</p><p>What makes our Black Friday event stand out is not just the discounts but the variety. From <strong>volunteer firefighter lights</strong> to <strong>wireless emergency lights</strong>, everything you need is included. You won’t find prices like this again for another year, so take advantage now. Black Friday is about getting prepared for the season ahead, and there’s no better way than equipping your vehicle with reliable lighting at a fraction of the cost.</p>",
+        "title": "Cyber Monday Savings on Emergency Vehicle Lighting",
+        "text": "<p>The <strong>Strobes N More Cyber Monday event</strong> is all about online-only savings that bring professional-grade lighting within reach. This year, our Cyber Monday collection includes steep discounts on <strong>emergency vehicle lights</strong>, <strong>LED emergency lights</strong>, and <strong>strobe lights for vehicles</strong>, all designed to keep you visible and safe in any condition. Need something compact? Shop our <strong>mini light bars</strong>, <strong>visor lights</strong>, and <strong>wireless emergency lights</strong> — perfect for quick installs and everyday reliability.</p><p>For fleets and heavy-duty needs, Cyber Monday features savings on <strong>full size light bars</strong>, <strong>surface mount lights</strong>, and specialty solutions for <strong>tow trucks, ambulances, police cars, construction vehicles, and fire trucks</strong>. These are trusted by professionals nationwide and now available at prices you won’t see again until next year.</p><p>Accessories are also a major part of this event. Save on <strong>siren speakers</strong>, <strong>wiring harness kits</strong>, and <strong>emergency light controllers</strong> that ensure your system is complete and dependable. Whether you’re upgrading one vehicle or an entire fleet, Cyber Monday is the perfect time to invest in performance without overspending.</p><p>Our Cyber Monday sale is designed with urgency in mind — it lasts just 24 hours, and once the deals are gone, they’re gone for good. Don’t wait until the last minute; secure your gear now and enjoy peace of mind knowing your emergency lighting is top-quality and budget-friendly.</p>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
@@ -58,32 +58,32 @@
         "question_UhVecV": {
           "type": "question",
           "settings": {
-            "question": "When do Black Friday deals start?",
-            "answer": "<p>Discounts launch Thanksgiving week and run through Black Friday weekend.</p>",
+            "question": "When do Cyber Monday deals start?",
+            "answer": "<p> They begin at midnight Monday after Black Friday and run for 24 hours.</p>",
             "icon": "none"
           }
         },
         "question_MqiApe": {
           "type": "question",
           "settings": {
-            "question": "Are all emergency vehicle lights on sale?",
-            "answer": "<p> Yes — including <strong>LEDs, light bars, strobes, and accessories</strong>.</p>",
+            "question": "Are Cyber Monday discounts different?",
+            "answer": "<p> Yes — these are <strong>online-only offers</strong>, separate from Black Friday.</p>",
             "icon": "none"
           }
         },
         "question_JrFLEy": {
           "type": "question",
           "settings": {
-            "question": "Can I shop online?",
-            "answer": "<p> Absolutely — all deals are available on our website.</p>",
+            "question": "Can I bundle items for extra savings?",
+            "answer": "<p> Yes — combine <strong>accessories and kits</strong> for maximum discounts.</p>",
             "icon": "none"
           }
         },
         "question_axR8Xk": {
           "type": "question",
           "settings": {
-            "question": "Do Black Friday sales include volunteer firefighter lights?",
-            "answer": "<p> Yes — these are part of the promotion.</p>",
+            "question": "Do Cyber Monday deals include siren speakers and wiring kits?",
+            "answer": "<p> Absolutely — they’re part of our Cyber Monday specials.</p>",
             "icon": "none"
           }
         }
