@@ -176,12 +176,20 @@
       "settings": {
         "enable_recently_viewed_products": true
       }
+    },
+    "dynamic_custom_liquid_b3Fzjx": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What are beacon lights used for?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Beacon lights are used for safety, visibility, and signaling on emergency vehicles, work zones, construction equipment, and more.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do you offer LED rotating beacon lights?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes, we carry several models of LED rotating beacon lights with adjustable flash patterns and mounting options.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are your beacon lights weather-resistant?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Absolutely—all of our beacon lights are built to handle tough environments, including rain, snow, and extreme heat.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can I get a red beacon light for my emergency vehicle?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes, we offer red beacon lights that meet visibility and compliance standards for emergency use.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What's the difference between a beacon strobe and a rotating beacon?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"A strobe emits rapid, high-intensity flashes, while a rotating beacon produces a sweeping beam of light.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do your LED beacon lights work on 12V systems?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes, most of our beacon LEDs are designed for 12V and 24V systems, ideal for vehicles and equipment.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Is installation complicated?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"No—many of our lights are plug-and-play or include simple mounting hardware for quick setup.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can I use these on off-road or utility vehicles?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Definitely. Our LED beacon lights are ideal for utility trucks, ATVs, tractors, and more.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do you sell beacon lights in bulk?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes, we offer bulk discounts for fleets and businesses. Contact us for details.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How fast is shipping from Strobes N' More?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"We ship fast—most orders go out the same day or next business day.\"\n      }\n    }\n  ]\n}\n</script>"
+      }
     }
   },
   "order": [
     "main",
     "dynamic_rich_text_f8gCja",
     "dynamic_faq_kyjq9r",
-    "static-recently-viewed"
+    "static-recently-viewed",
+    "dynamic_custom_liquid_b3Fzjx"
   ]
 }
