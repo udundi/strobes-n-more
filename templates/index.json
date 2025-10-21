@@ -46,130 +46,6 @@
         "custom_liquid": "{% comment %}\n  Universal Divider Section with Custom Margins\n{% endcomment %}\n\n<div class=\"mobile-divider-section\"></div>\n\n<style>\n  .mobile-divider-section {\n    background-color: #ffe614;\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    height: 5px;\n    display: block; /* Visible on all screens */\n  }\n  \n  /* Responsive margin settings */\n  @media screen and (max-width: 1023px) {\n    .mobile-divider-section {\n      margin-top: -50px; /* Top margin for small screens */\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    .mobile-divider-section {\n      margin-top: -70px; /* Top margin for large screens */\n    }\n  }\n</style>"
       }
     },
-    "dynamic_promo_mosaic_V8X7xp": {
-      "type": "dynamic-promo-mosaic",
-      "blocks": {
-        "promotion_EAHyHz": {
-          "type": "promotion",
-          "settings": {
-            "title": "Mosaic",
-            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_qT9FWg": {
-          "type": "promotion",
-          "settings": {
-            "title": "Mosaic",
-            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_68Cx4X": {
-          "type": "promotion",
-          "settings": {
-            "title": "Mosaic",
-            "text": "Use this section to welcome customers to your store, say a bit about your brand, or share news.",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        }
-      },
-      "block_order": [
-        "promotion_EAHyHz",
-        "promotion_qT9FWg",
-        "promotion_68Cx4X"
-      ],
-      "disabled": true,
-      "name": "t:sections.mosaic.presets.mosaic.name",
-      "settings": {
-        "title": "",
-        "section_height": "small",
-        "text_alignment": "top-left",
-        "maintain_aspect_ratio": true,
-        "compress_blocks": false
-      }
-    },
-    "dynamic_promo_mosaic": {
-      "type": "dynamic-promo-mosaic",
-      "blocks": {
-        "promotion-1": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/Strobes_N__More_LED_Lights.jpg",
-            "title": "Strobes N' More",
-            "text": "Strobes N' More, founded in 1993 and headquartered in Westerly, RI, distributes, installs and services emergency vehicle equipment on behalf of the industry’s leading manufacturers for government and commercial customers.",
-            "color": "#ffffff",
-            "block_link": "shopify://pages/about-us",
-            "button_text": "About Us",
-            "button_style": "primary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 21
-          }
-        },
-        "promotion_kePLct": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/gifmaker_me_2.gif",
-            "title": "Installs",
-            "text": "We not only ensure that your install builds - whether it is one DEM truck or ten state police vehicles - will look sharp, but most importantly perform well.",
-            "color": "#ffffff",
-            "block_link": "shopify://pages/installation-service",
-            "button_text": "Book Today",
-            "button_style": "primary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 30
-          }
-        },
-        "promotion-4": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/gifmaker_me_4.gif",
-            "title": "Dealer Program",
-            "text": "The Strobes N’ More Dealer Program provides smaller upfitters & distributors w/ stronger discounts based on higher levels of spend.",
-            "color": "#ffffff",
-            "block_link": "shopify://pages/dealers",
-            "button_text": "Learn More",
-            "button_style": "primary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
-          }
-        }
-      },
-      "block_order": [
-        "promotion-1",
-        "promotion_kePLct",
-        "promotion-4"
-      ],
-      "disabled": true,
-      "settings": {
-        "title": "",
-        "section_height": "small",
-        "text_alignment": "top-left",
-        "maintain_aspect_ratio": true,
-        "compress_blocks": true
-      }
-    },
     "dynamic_featured_collection_M4FrNj": {
       "type": "dynamic-featured-collection",
       "blocks": {
@@ -203,6 +79,69 @@
         "product_count": 8,
         "cta_label": "LED Lightbar Packages",
         "cta_button_style": "primary"
+      }
+    },
+    "dynamic_promo_mosaic": {
+      "type": "dynamic-promo-mosaic",
+      "blocks": {
+        "promotion-1": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Strobes_N__More_LED_Lights.jpg",
+            "title": "Strobes N' More",
+            "text": "Strobes N' More, founded in 1993 and headquartered in Westerly, RI, distributes, installs and services emergency vehicle equipment on behalf of the industry’s leading manufacturers for government and commercial customers.",
+            "color": "#ffffff",
+            "block_link": "shopify://pages/about-us",
+            "button_text": "About Us",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 45
+          }
+        },
+        "promotion_kePLct": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/gifmaker_me_2.gif",
+            "title": "Installs",
+            "text": "We not only ensure that your install builds - whether it is one DEM truck or ten state police vehicles - will look sharp, but most importantly perform well.",
+            "color": "#ffffff",
+            "block_link": "shopify://pages/installation-service",
+            "button_text": "Book Today",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 65
+          }
+        },
+        "promotion-4": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/gifmaker_me_4.gif",
+            "title": "Dealer Program",
+            "text": "The Strobes N’ More Dealer Program provides smaller upfitters & distributors w/ stronger discounts based on higher levels of spend.",
+            "color": "#ffffff",
+            "block_link": "shopify://pages/dealers",
+            "button_text": "Learn More",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 65
+          }
+        }
+      },
+      "block_order": [
+        "promotion-1",
+        "promotion_kePLct",
+        "promotion-4"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "text_alignment": "top-left",
+        "maintain_aspect_ratio": true,
+        "compress_blocks": true
       }
     },
     "dynamic_custom_liquid_8WJDtC": {
@@ -858,9 +797,8 @@
     "dynamic_custom_liquid_C9HdJ3",
     "dynamic_custom_liquid_q4tCT9",
     "dynamic_custom_liquid_nXfma8",
-    "dynamic_promo_mosaic_V8X7xp",
-    "dynamic_promo_mosaic",
     "dynamic_featured_collection_M4FrNj",
+    "dynamic_promo_mosaic",
     "dynamic_custom_liquid_8WJDtC",
     "dynamic_custom_liquid_C7bmL7",
     "dynamic_featured_collection_xVetnN",
