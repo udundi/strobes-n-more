@@ -29,6 +29,53 @@
         "button_text": ""
       }
     },
+    "dynamic_promo_mosaic_VmCcdJ": {
+      "type": "dynamic-promo-mosaic",
+      "blocks": {
+        "promotion_k6W7PY": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/07022025_Bomb_Squad_Truck_PhotoVideo-1.jpg",
+            "title": "Connecticut's Emergency Upfit Experts",
+            "text": "From lights to full builds, AEP delivers dependable upfitting for police, fire, and EMS fleets. Quality installs. Fast turnaround. Built for first responders.",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 60
+          }
+        },
+        "promotion_HAETjh": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/m6plast3-work-truck-768x1024.jpg",
+            "title": "Ready-to-Serve Vehicle Upfits",
+            "text": "AEP builds mission-ready vehicles for Connecticut agencies — lighting, wiring, and installs done right the first time. Trusted by departments across New England.",
+            "color": "#ffffff",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 55
+          }
+        }
+      },
+      "block_order": [
+        "promotion_k6W7PY",
+        "promotion_HAETjh"
+      ],
+      "name": "t:sections.mosaic.presets.mosaic.name",
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "text_alignment": "top-left",
+        "maintain_aspect_ratio": false,
+        "compress_blocks": false
+      }
+    },
     "17600354881c79572b": {
       "type": "apps",
       "blocks": {
@@ -325,6 +372,7 @@
   "order": [
     "main",
     "pxs_image_with_text_overlay_LQRWFX",
+    "dynamic_promo_mosaic_VmCcdJ",
     "17600354881c79572b",
     "dynamic_rich_text_U6CXWa",
     "dynamic_logo_list_8TjH6h",
