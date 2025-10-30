@@ -30,7 +30,10 @@
           "settings": {
             "color": "#000000",
             "font": "Assistant, sans-serif",
-            "font_size": "18px"
+            "font_size": "18px",
+            "compare_at_color": "#999999",
+            "compare_at_font_size": "14px",
+            "compare_at_position": "before"
           }
         },
         "sku_HkzLKU": {
@@ -44,6 +47,7 @@
         },
         "form": {
           "type": "form",
+          "disabled": true,
           "settings": {
             "enable_local_pickup": false,
             "show_gift_card_recipient_form": false
@@ -146,7 +150,9 @@
           "type": "shopify://apps/judge-me-reviews/blocks/review_widget/61ccd3b1-a9f2-4160-9fe9-4fec8413e5d8",
           "settings": {
             "review_data": "sample_data",
-            "max_width": 1200
+            "max_width": 1200,
+            "show_shop_reviews": false,
+            "empty_state": "empty_widget"
           }
         }
       },
