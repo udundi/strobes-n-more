@@ -164,6 +164,111 @@
         "textbox_text_alignment": "left",
         "textbox_text_position": "left"
       }
+    },
+    "dynamic_rich_text_D9YXAi": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "regular",
+        "title": "Option 4",
+        "text": "",
+        "heading_size": "medium",
+        "text_alignment": "center"
+      }
+    },
+    "dynamic_promo_mosaic_xiTebh": {
+      "type": "dynamic-promo-mosaic",
+      "blocks": {
+        "promotion_Jpezdz": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Untitled-2_1.png",
+            "title": "LED Lights",
+            "text": "When responding to emergencies, visibility is everything. Strobes N’ More offers high-performance LED lights engineered for maximum brightness, durability, and efficiency—keeping your vehicle seen and your team safe in any condition.",
+            "color": "#1d1d1d",
+            "block_link": "https://strobesnmore.com/collections/led-lights",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#949494",
+            "opacity": 29
+          }
+        },
+        "promotion_tnGigk": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/website_graphics-2_2.png",
+            "title": "LED Flasher",
+            "text": "Boost your vehicle’s visibility with Strobes N’ More LED flasher lights—bright, reliable, and easy to install.",
+            "color": "#ffffff",
+            "block_link": "https://strobesnmore.com/collections/flasher-modules",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_pDJaQd": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/website_graphics-1_1.png",
+            "title": "Switches & Controllers",
+            "text": "Control your vehicle’s lighting with Strobes N’ More durable, high-performance switches and controllers built for reliability and ease.",
+            "color": "#ffffff",
+            "block_link": "https://strobesnmore.com/collections/switches-controllers",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_Erd6QK": {
+          "type": "promotion",
+          "settings": {
+            "title": "Siren and Speakers",
+            "text": "Premium sirens and speakers engineered for emergency vehicles—delivering loud, clear, and reliable performance when every second counts. Built for durability and clarity in any environment, our easy-to-install sirens and speakers ensure you’re heard when it matters most.",
+            "color": "#4d4d4d",
+            "block_link": "https://strobesnmore.com/collections/sirens-speakers",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_gGVWcD": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Staff_Picks7.png",
+            "title": "Light Bars",
+            "text": "Stay visible and safe with Strobes N’ More LED lightbars—built for unmatched brightness, reliability, and performance in any situation.",
+            "color": "#ffffff",
+            "block_link": "https://strobesnmore.com/collections/lightbars",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion_Jpezdz",
+        "promotion_tnGigk",
+        "promotion_pDJaQd",
+        "promotion_Erd6QK",
+        "promotion_gGVWcD"
+      ],
+      "name": "t:sections.mosaic.presets.mosaic.name",
+      "settings": {
+        "title": "",
+        "section_height": "medium",
+        "text_alignment": "top-left",
+        "maintain_aspect_ratio": true,
+        "compress_blocks": true
+      }
     }
   },
   "order": [
@@ -174,6 +279,8 @@
     "dynamic_slideshow_CgcCPr",
     "dynamic_rich_text_pzfrdD",
     "dynamic_shoppable_image_Tpbq7p",
-    "dynamic_shoppable_image_jWbWe8"
+    "dynamic_shoppable_image_jWbWe8",
+    "dynamic_rich_text_D9YXAi",
+    "dynamic_promo_mosaic_xiTebh"
   ]
 }
