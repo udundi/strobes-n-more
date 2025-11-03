@@ -264,7 +264,7 @@
       "name": "t:sections.mosaic.presets.mosaic.name",
       "settings": {
         "title": "",
-        "section_height": "medium",
+        "section_height": "small",
         "text_alignment": "top-left",
         "maintain_aspect_ratio": true,
         "compress_blocks": true
