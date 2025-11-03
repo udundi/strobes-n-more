@@ -175,69 +175,6 @@
         "cta_button_style": "primary"
       }
     },
-    "dynamic_promo_mosaic": {
-      "type": "dynamic-promo-mosaic",
-      "blocks": {
-        "promotion-1": {
-          "type": "promotion",
-          "disabled": true,
-          "settings": {
-            "image": "shopify://shop_images/Strobes_N__More_LED_Lights.jpg",
-            "title": "Strobes N' More",
-            "text": "Strobes N' More, founded in 1993 and headquartered in Westerly, RI, distributes, installs and services emergency vehicle equipment on behalf of the industry’s leading manufacturers for government and commercial customers.",
-            "color": "#ffffff",
-            "block_link": "shopify://pages/about-us",
-            "button_text": "About Us",
-            "button_style": "primary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 45
-          }
-        },
-        "promotion_kePLct": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/gifmaker_me_2.gif",
-            "title": "Installs",
-            "text": "We not only ensure that your install builds - whether it is one DEM truck or ten state police vehicles - will look sharp, but most importantly perform well.",
-            "color": "#ffffff",
-            "block_link": "shopify://pages/installation-service",
-            "button_text": "Book Today",
-            "button_style": "primary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 65
-          }
-        },
-        "promotion-4": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/gifmaker_me_4.gif",
-            "title": "Dealer Program",
-            "text": "The Strobes N’ More Dealer Program provides smaller upfitters & distributors w/ stronger discounts based on higher levels of spend.",
-            "color": "#ffffff",
-            "block_link": "shopify://pages/dealers",
-            "button_text": "Learn More",
-            "button_style": "primary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 65
-          }
-        }
-      },
-      "block_order": [
-        "promotion-1",
-        "promotion_kePLct",
-        "promotion-4"
-      ],
-      "settings": {
-        "title": "",
-        "section_height": "small",
-        "text_alignment": "top-left",
-        "maintain_aspect_ratio": true,
-        "compress_blocks": true
-      }
-    },
     "dynamic_featured_collection-2": {
       "type": "dynamic-featured-collection",
       "blocks": {
@@ -361,6 +298,69 @@
         "product_count": 8,
         "cta_label": "LED Lightbar Packages",
         "cta_button_style": "primary"
+      }
+    },
+    "dynamic_promo_mosaic": {
+      "type": "dynamic-promo-mosaic",
+      "blocks": {
+        "promotion-1": {
+          "type": "promotion",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/Strobes_N__More_LED_Lights.jpg",
+            "title": "Strobes N' More",
+            "text": "Strobes N' More, founded in 1993 and headquartered in Westerly, RI, distributes, installs and services emergency vehicle equipment on behalf of the industry’s leading manufacturers for government and commercial customers.",
+            "color": "#ffffff",
+            "block_link": "shopify://pages/about-us",
+            "button_text": "About Us",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 45
+          }
+        },
+        "promotion_kePLct": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/gifmaker_me_2.gif",
+            "title": "Installs",
+            "text": "We not only ensure that your install builds - whether it is one DEM truck or ten state police vehicles - will look sharp, but most importantly perform well.",
+            "color": "#ffffff",
+            "block_link": "shopify://pages/installation-service",
+            "button_text": "Book Today",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 65
+          }
+        },
+        "promotion-4": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/gifmaker_me_4.gif",
+            "title": "Dealer Program",
+            "text": "The Strobes N’ More Dealer Program provides smaller upfitters & distributors w/ stronger discounts based on higher levels of spend.",
+            "color": "#ffffff",
+            "block_link": "shopify://pages/dealers",
+            "button_text": "Learn More",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 65
+          }
+        }
+      },
+      "block_order": [
+        "promotion-1",
+        "promotion_kePLct",
+        "promotion-4"
+      ],
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "text_alignment": "top-left",
+        "maintain_aspect_ratio": true,
+        "compress_blocks": true
       }
     },
     "dynamic_rich_text_xBbwX6": {
@@ -799,12 +799,12 @@
     "dynamic_custom_liquid_q4tCT9",
     "dynamic_custom_liquid_nXfma8",
     "dynamic_collection_list",
-    "dynamic_promo_mosaic",
     "dynamic_featured_collection-2",
     "dynamic_featured_collection_xVetnN",
     "dynamic_custom_liquid_8WJDtC",
     "dynamic_custom_liquid_C7bmL7",
     "dynamic_featured_collection_M4FrNj",
+    "dynamic_promo_mosaic",
     "dynamic_rich_text_xBbwX6",
     "dynamic_rich_text_fHTnfJ",
     "dynamic_rich_text_G7jrXc",
