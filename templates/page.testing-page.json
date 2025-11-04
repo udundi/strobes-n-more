@@ -182,14 +182,14 @@
         "promotion_Jpezdz": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/Untitled-2_1.png",
+            "image": "shopify://shop_images/website_graphics-2_2.png",
             "title": "LED Lights",
             "text": "When responding to emergencies, visibility is everything. Strobes N’ More offers high-performance LED lights engineered for maximum brightness, durability, and efficiency—keeping your vehicle seen and your team safe in any condition.",
-            "color": "#1d1d1d",
+            "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/led-lights",
             "button_text": "View Collection",
             "button_style": "primary",
-            "show_overlay": true,
+            "show_overlay": false,
             "background": "#949494",
             "opacity": 29
           }
@@ -227,9 +227,10 @@
         "promotion_Erd6QK": {
           "type": "promotion",
           "settings": {
+            "image": "shopify://shop_images/website_graphics-1_1.png",
             "title": "Siren and Speakers",
             "text": "Premium sirens and speakers engineered for emergency vehicles—delivering loud, clear, and reliable performance when every second counts. Built for durability and clarity in any environment, our easy-to-install sirens and speakers ensure you’re heard when it matters most.",
-            "color": "#4d4d4d",
+            "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/sirens-speakers",
             "button_text": "View Collection",
             "button_style": "primary",
@@ -270,25 +271,25 @@
         "compress_blocks": true
       }
     },
-    "dynamic_promo_mosaic_x3UiEn": {
+    "dynamic_promo_mosaic_xkEzT4": {
       "type": "dynamic-promo-mosaic",
       "blocks": {
-        "promotion_rjKE8B": {
+        "promotion_LiBWDT": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/Untitled-2_1.png",
+            "image": "shopify://shop_images/website_graphics-2_2.png",
             "title": "LED Lights",
             "text": "When responding to emergencies, visibility is everything. Strobes N’ More offers high-performance LED lights engineered for maximum brightness, durability, and efficiency—keeping your vehicle seen and your team safe in any condition.",
-            "color": "#1d1d1d",
+            "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/led-lights",
             "button_text": "View Collection",
             "button_style": "primary",
-            "show_overlay": true,
+            "show_overlay": false,
             "background": "#949494",
             "opacity": 29
           }
         },
-        "promotion_B8jaRH": {
+        "promotion_Hk7DDK": {
           "type": "promotion",
           "settings": {
             "image": "shopify://shop_images/website_graphics-2_2.png",
@@ -303,7 +304,7 @@
             "opacity": 50
           }
         },
-        "promotion_kdraNq": {
+        "promotion_8dTDfb": {
           "type": "promotion",
           "settings": {
             "image": "shopify://shop_images/website_graphics-1_1.png",
@@ -318,12 +319,13 @@
             "opacity": 50
           }
         },
-        "promotion_UJcwjE": {
+        "promotion_9UnTYE": {
           "type": "promotion",
           "settings": {
+            "image": "shopify://shop_images/website_graphics-1_1.png",
             "title": "Siren and Speakers",
             "text": "Premium sirens and speakers engineered for emergency vehicles—delivering loud, clear, and reliable performance when every second counts. Built for durability and clarity in any environment, our easy-to-install sirens and speakers ensure you’re heard when it matters most.",
-            "color": "#4d4d4d",
+            "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/sirens-speakers",
             "button_text": "View Collection",
             "button_style": "primary",
@@ -332,7 +334,7 @@
             "opacity": 50
           }
         },
-        "promotion_hTQUrQ": {
+        "promotion_EnHrXR": {
           "type": "promotion",
           "settings": {
             "image": "shopify://shop_images/Staff_Picks7.png",
@@ -349,11 +351,11 @@
         }
       },
       "block_order": [
-        "promotion_rjKE8B",
-        "promotion_B8jaRH",
-        "promotion_kdraNq",
-        "promotion_UJcwjE",
-        "promotion_hTQUrQ"
+        "promotion_LiBWDT",
+        "promotion_Hk7DDK",
+        "promotion_8dTDfb",
+        "promotion_9UnTYE",
+        "promotion_EnHrXR"
       ],
       "name": "t:sections.mosaic.presets.mosaic.name",
       "settings": {
@@ -376,6 +378,6 @@
     "dynamic_shoppable_image_jWbWe8",
     "dynamic_rich_text_D9YXAi",
     "dynamic_promo_mosaic_xiTebh",
-    "dynamic_promo_mosaic_x3UiEn"
+    "dynamic_promo_mosaic_xkEzT4"
   ]
 }
