@@ -18,9 +18,9 @@
       "type": "dynamic-rich-text",
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
-        "width": "regular",
+        "width": "wide",
         "title": "Option 1",
-        "text": "",
+        "text": "<p>For this option we would need to click a photo with atleast one product from as many collection as possible, like lightbar, 360 beacon, maybe a pseaker or siren on the front grill, LED lights somewhere on the car, replacement bulb collection can be placed on the head or tail light, and a arrow light beside the car or at the front. <br/>We can cover 6 to 7 collection in this option </p>",
         "heading_size": "medium",
         "text_alignment": "center"
       }
@@ -37,7 +37,7 @@
       "settings": {
         "width": "regular",
         "title": "Option 2",
-        "text": "",
+        "text": "<p>Simple Slider for each collection </p>",
         "heading_size": "medium",
         "text_alignment": "center"
       }
@@ -126,7 +126,7 @@
       "settings": {
         "width": "regular",
         "title": "Option 3",
-        "text": "",
+        "text": "<p>Simple picture with collection description </p>",
         "heading_size": "medium",
         "text_alignment": "center"
       }
@@ -169,9 +169,9 @@
       "type": "dynamic-rich-text",
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
-        "width": "regular",
+        "width": "wide",
         "title": "Option 4",
-        "text": "",
+        "text": "<p>(I personally like this one) We can cover our top 5 collection in this option, with two or three collections showing as is on the home page (Lightbar packages, etc), The rest customers can select from the main menu, this option also also looks decent on mobile view and doesn't take a lot of space.</p>",
         "heading_size": "medium",
         "text_alignment": "center"
       }
