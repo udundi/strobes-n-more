@@ -198,7 +198,7 @@
           "type": "promotion",
           "settings": {
             "image": "shopify://shop_images/website_graphics-2_2.png",
-            "title": "LED Flasher",
+            "title": "Lightbars",
             "text": "Boost your vehicle’s visibility with Strobes N’ More LED flasher lights—bright, reliable, and easy to install.",
             "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/flasher-modules",
@@ -242,8 +242,8 @@
         "promotion_gGVWcD": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/Staff_Picks7.png",
-            "title": "Light Bars",
+            "image": "shopify://shop_images/Screenshot_2025-09-04_132108.png",
+            "title": "360 Beacons",
             "text": "Stay visible and safe with Strobes N’ More LED lightbars—built for unmatched brightness, reliability, and performance in any situation.",
             "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/lightbars",
@@ -278,7 +278,7 @@
           "type": "promotion",
           "settings": {
             "image": "shopify://shop_images/website_graphics-2_2.png",
-            "title": "LED Lights",
+            "title": "Vehicle Consoles",
             "text": "When responding to emergencies, visibility is everything. Strobes N’ More offers high-performance LED lights engineered for maximum brightness, durability, and efficiency—keeping your vehicle seen and your team safe in any condition.",
             "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/led-lights",
@@ -293,7 +293,7 @@
           "type": "promotion",
           "settings": {
             "image": "shopify://shop_images/website_graphics-2_2.png",
-            "title": "LED Flasher",
+            "title": "Flasher Modules",
             "text": "Boost your vehicle’s visibility with Strobes N’ More LED flasher lights—bright, reliable, and easy to install.",
             "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/flasher-modules",
@@ -308,7 +308,7 @@
           "type": "promotion",
           "settings": {
             "image": "shopify://shop_images/website_graphics-1_1.png",
-            "title": "Switches & Controllers",
+            "title": "Replacement Lenses & Bulbs",
             "text": "Control your vehicle’s lighting with Strobes N’ More durable, high-performance switches and controllers built for reliability and ease.",
             "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/switches-controllers",
@@ -323,7 +323,7 @@
           "type": "promotion",
           "settings": {
             "image": "shopify://shop_images/website_graphics-1_1.png",
-            "title": "Siren and Speakers",
+            "title": "Arrow & Traffic LED Lightbars",
             "text": "Premium sirens and speakers engineered for emergency vehicles—delivering loud, clear, and reliable performance when every second counts. Built for durability and clarity in any environment, our easy-to-install sirens and speakers ensure you’re heard when it matters most.",
             "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/sirens-speakers",
@@ -337,8 +337,8 @@
         "promotion_EnHrXR": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/Staff_Picks7.png",
-            "title": "Light Bars",
+            "image": "shopify://shop_images/Screenshot_2025-09-04_132108.png",
+            "title": "Cables, Accessories & More",
             "text": "Stay visible and safe with Strobes N’ More LED lightbars—built for unmatched brightness, reliability, and performance in any situation.",
             "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/lightbars",
