@@ -503,18 +503,11 @@
     "dynamic_logo_list_K49fPx": {
       "type": "dynamic-logo-list",
       "blocks": {
-        "logo_widrQW": {
+        "logo_NQ7qYm": {
           "type": "logo",
           "settings": {
             "image": "shopify://shop_images/ATEC_logo.png",
             "link": ""
-          }
-        },
-        "logo_f3ryAt": {
-          "type": "logo",
-          "settings": {
-            "image": "shopify://shop_images/carson-logo-small.webp",
-            "link": "shopify://collections/carson"
           }
         },
         "logo_P9dNyQ": {
@@ -571,6 +564,13 @@
           "settings": {
             "image": "shopify://shop_images/Setina-Logo_crop.jpg",
             "link": "shopify://collections/setina"
+          }
+        },
+        "logo_widrQW": {
+          "type": "logo",
+          "settings": {
+            "image": "shopify://shop_images/Sho-me_logo.jpg",
+            "link": "shopify://collections/able-2-sho-me"
           }
         },
         "logo_jcMazA": {
@@ -631,8 +631,7 @@
         }
       },
       "block_order": [
-        "logo_widrQW",
-        "logo_f3ryAt",
+        "logo_NQ7qYm",
         "logo_P9dNyQ",
         "logo_hEREwt",
         "logo_TCE3h4",
@@ -641,6 +640,7 @@
         "logo_j3KerA",
         "logo_HYrNkh",
         "logo_eEy8GY",
+        "logo_widrQW",
         "logo_jcMazA",
         "logo_QdjCEq",
         "logo_qJdnPp",
