@@ -48,7 +48,7 @@
         "overlay_background": "#000000",
         "overlay_opacity": 0,
         "link": "",
-        "button_text": "Button"
+        "button_text": ""
       }
     },
     "dynamic_custom_liquid_q4tCT9": {
@@ -184,7 +184,7 @@
         "{background-color: #21225b; margin-top: 60px; padding-bottom: 10px;}",
         "span {color: white;}",
         "h2 {padding-top: 25px; color: white;}",
-        "{margin-top: -50px;}"
+        " {margin-top: -50px;}"
       ],
       "settings": {
         "title": "Shop By Category",
