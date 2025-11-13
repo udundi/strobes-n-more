@@ -185,13 +185,13 @@
             "image": "shopify://shop_images/Untitled-2_18_1.png",
             "title": "LED Lights",
             "text": "When responding to emergencies, visibility is everything. Strobes N’ More offers high-performance LED lights engineered for maximum brightness, durability, and efficiency—keeping your vehicle seen and your team safe in any condition.",
-            "color": "#1d1d1d",
+            "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/led-lights",
             "button_text": "View Collection",
             "button_style": "primary",
-            "show_overlay": false,
-            "background": "#949494",
-            "opacity": 29
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 35
           }
         },
         "promotion_tnGigk": {
@@ -219,8 +219,8 @@
             "block_link": "https://strobesnmore.com/collections/switches-controllers",
             "button_text": "View Collection",
             "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
+            "show_overlay": true,
+            "background": "#1d1d1d",
             "opacity": 50
           }
         },
