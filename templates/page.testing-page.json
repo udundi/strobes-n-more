@@ -298,7 +298,7 @@
             "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/flasher-modules",
             "button_text": "View Collection",
-            "button_style": "secondary",
+            "button_style": "primary",
             "show_overlay": false,
             "background": "",
             "opacity": 50
