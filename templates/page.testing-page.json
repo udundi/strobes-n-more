@@ -227,7 +227,7 @@
         "promotion_Erd6QK": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/website_graphics-1_1.png",
+            "image": "shopify://shop_images/Untitled-2.png",
             "title": "Siren and Speakers",
             "text": "Strobes N’ More offers high-performance sirens and speakers built for clarity, durability, and reliability—ensuring your emergency vehicle is heard when it matters most.",
             "color": "#ffffff",
@@ -277,13 +277,13 @@
         "promotion_LiBWDT": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/website_graphics-2_2.png",
+            "image": "shopify://shop_images/Untitled-6.png",
             "title": "Vehicle Consoles",
             "text": "Upgrade your ride with Strobes N More's custom-fit vehicle consoles-built for durability, seamless integration, and professional functionality.",
             "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/vehicle-specific-consoles",
             "button_text": "View Collection",
-            "button_style": "primary",
+            "button_style": "secondary",
             "show_overlay": false,
             "background": "#949494",
             "opacity": 29
@@ -322,7 +322,7 @@
         "promotion_9UnTYE": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/website_graphics-1_1.png",
+            "image": "shopify://shop_images/Untitled-5.png",
             "title": "Arrow & Traffic LED Lightbars",
             "text": "Stay visible and in control with Strobes N More’s durable, high-performance traffic advisor lights and arrow bars built for clear, reliable signaling.",
             "color": "#ffffff",
