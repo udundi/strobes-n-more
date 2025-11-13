@@ -298,7 +298,7 @@
             "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/flasher-modules",
             "button_text": "View Collection",
-            "button_style": "primary",
+            "button_style": "secondary",
             "show_overlay": false,
             "background": "",
             "opacity": 50
@@ -313,7 +313,7 @@
             "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/replacement-bulbs-lenses",
             "button_text": "View Collection",
-            "button_style": "primary",
+            "button_style": "secondary",
             "show_overlay": false,
             "background": "",
             "opacity": 50
