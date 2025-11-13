@@ -227,15 +227,15 @@
         "promotion_Erd6QK": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/website_graphics-1_1.png",
+            "image": "shopify://shop_images/Untitled-2_19_1.png",
             "title": "Siren and Speakers",
             "text": "Strobes N’ More offers high-performance sirens and speakers built for clarity, durability, and reliability—ensuring your emergency vehicle is heard when it matters most.",
             "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/sirens-speakers",
             "button_text": "View Collection",
             "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
+            "show_overlay": true,
+            "background": "#1d1d1d",
             "opacity": 50
           }
         },
