@@ -120,11 +120,20 @@
       "settings": {
         "enable_recently_viewed_products": true
       }
+    },
+    "dynamic_html_hMejmK": {
+      "type": "dynamic-html",
+      "name": "t:sections.custom_html.presets.custom_html.name",
+      "settings": {
+        "title": "",
+        "custom_html": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What are the top-rated Whelen Engineering emergency lighting products?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Top-rated Whelen products include the Liberty\\u2122 II Lightbar, Justice\\u2122 Lightbar, ION\\u2122 Series surface mounts, Pioneer\\u2122 work lights, and Vertex\\u2122 hideaways. These lights are known for durability, brightness, and wide adoption by law enforcement, fire, and utility fleets. The Whelen CenCom Core\\u2122 system is also highly rated for integrated control of lights, sirens, and traffic functions.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How does Whelen\\u2019s CenCom Core system work with their lights and sirens?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"CenCom Core\\u2122 is Whelen\\u2019s advanced control system that centralizes all vehicle lighting, sirens, and input/output functions into one programmable platform. It uses a network-based architecture for fast communication between devices, allowing complex flash patterns, scene lighting, and siren tones to be triggered by vehicle events or manual controls. It also supports remote diagnostics and over-the-air updates.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are Whelen LED lights DOT-approved for road use?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes, many of Whelen\\u2019s LED lights are DOT, SAE, and CA Title 13 compliant, depending on the product and application. Their warning lights, brake/tail/turn lights, and marker lights meet or exceed federal and state visibility standards for road use. Always check individual product specs for certifications.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What warranty does Whelen Engineering Co. offer on its lighting products?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Whelen offers a 5-year warranty on most LED lighting products, and some models come with 7- or 10-year warranties, especially for lightbars and high-end systems. The warranty covers defects in materials and workmanship under normal use. Control systems like CenCom Core are typically covered under a 2-year warranty. Always confirm terms when purchasing.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can Whelen products be customized for specific vehicle applications?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes, Whelen offers a high level of customization. Lightbars, control systems, and mounting hardware can be configured for different vehicle types and operational needs. Many products come with modular components, custom color options, programmable flash patterns, and vehicle-specific brackets. Whelen also works with upfitters and fleet managers to deliver purpose-built setups.\"\n      }\n    }\n  ]\n}\n</script>"
+      }
     }
   },
   "order": [
     "main",
     "dynamic_faq_kyjq9r",
-    "static-recently-viewed"
+    "static-recently-viewed",
+    "dynamic_html_hMejmK"
   ]
 }
