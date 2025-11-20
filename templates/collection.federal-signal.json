@@ -44,6 +44,17 @@
         "image_crop": "original"
       }
     },
+    "dynamic_rich_text_FRmRb8": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "full-width",
+        "title": "Federal Signal Lights & Sirens for Police, Fire, EMS & Work Trucks",
+        "text": "<p>Federal Signal gear is built to give every type of response vehicle the visibility and authority it needs. Police departments rely on interior bar systems, dash lights, and powerful siren speakers to push through congested intersections. Fire and EMS fleets turn to full-size and interior lightbars, scene lighting, and robust siren systems to protect crews and patients when every second matters.</p><p>Tow operators, utility companies, and public works agencies benefit from the same technology—high-output LED warning lights, low-profile bars like Allegiant, and specialized intersection-clearing tools such as the Rumbler system, which uses low-frequency vibrations to grab attention when traditional tones get lost in traffic noise.</p><p>Within this Federal Signal collection at Strobes N’ More, you’ll find options for almost any mounting location: body and grille, dash and window, rocker panel, 360° beacons, tow lightbars, and more. Many products support shared flash patterns and synchronized operation, allowing you to create unified warning coverage around the entire vehicle.</p><p>Need help choosing the right mix of lights, sirens, and controllers? Strobes N’ More backs these Federal Signal products with install guides, instructional videos, and knowledgeable support so you can spec with confidence and get your vehicles back in service faster.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
     "dynamic_faq_kyjq9r": {
       "type": "dynamic-faq",
       "blocks": {
@@ -57,80 +68,64 @@
         "question_7tUK8A": {
           "type": "question",
           "settings": {
-            "question": "What is a Federal Signal lightbar?",
-            "answer": "<p>A Federal Signal lightbar is a high-performance emergency lighting system commonly used by police, fire, EMS, and other public safety vehicles. These lightbars feature cutting-edge LED technology, customizable flash patterns, and durable construction for optimal visibility in critical situations.</p>",
+            "question": "What is Federal Signal, and why should I choose it for my vehicle?",
+            "answer": "<p>Federal Signal is a leading manufacturer of emergency and work-truck warning equipment, including lights, sirens, and speakers for police, fire, EMS, tow, and utility fleets. Their products are known for durability, performance, and purpose-built engineering for public safety applications.</p>",
             "icon": "none"
           }
         },
         "question_C6iYpN": {
           "type": "question",
           "settings": {
-            "question": "Does Strobes N' More carry Federal Signal lightbars?",
-            "answer": "<p>Yes, Strobes N' More proudly offers a selection of Federal Signal lightbars, including the popular Integrity®, Legend®, and Valor® series. These models are known for their brightness, reliability, and advanced features tailored for emergency and utility use.</p>",
+            "question": "Which vehicles can use Federal Signal lights and sirens?",
+            "answer": "<p>Federal Signal equipment is designed for a wide range of platforms—police cars and SUVs, fire apparatus, ambulances, command vehicles, tow trucks, utility trucks, construction vehicles, and more. If your vehicle needs to be seen and heard, there is likely a Federal Signal solution for it.</p>",
             "icon": "none"
           }
         },
         "question_ffyGcn": {
           "type": "question",
           "settings": {
-            "question": "What are the key features of Federal Signal lightbars?",
-            "answer": "<p>Federal Signal lightbars include features like 360° light coverage, multicolor modules, low-profile design, integrated signal control, and programmable flash patterns. Many models also support vehicle synchronization and control system integration.</p>",
+            "question": "Are Federal Signal lightbars and sirens compatible with my existing setup?",
+            "answer": "<p>In many cases, yes. Federal Signal lightbars, sirens, and controllers are designed to integrate into common 12 Vdc vehicle electrical systems. Some features—like flash pattern sync or advanced control functions—may require compatible Federal Signal controllers or wiring. For mixed-brand setups, check the specs or contact Strobes N’ More for guidance.</p>",
             "icon": "none"
           }
         },
         "question_Khrmfz": {
           "type": "question",
           "settings": {
-            "question": "Can I install a Federal Signal lightbar on my personal or fleet vehicle?",
-            "answer": "<p>Yes, many Federal Signal lightbars are compatible with a wide range of vehicle types. Strobes N' More provides universal mounting kits and installation support for individuals, fleets, and emergency service agencies.</p>",
+            "question": "Do I need a professional installer for Federal Signal products?",
+            "answer": "<p>Because these products tie into vehicle electrical, control, and in some cases radio systems, professional installation is strongly recommended—especially for sirens, speakers, and full-size lightbars. Strobes N’ More provides install guides and resources to support professional upfitters and experienced DIY users.</p>",
             "icon": "none"
           }
         },
         "question_r49x6L": {
           "type": "question",
           "settings": {
-            "question": "What is the Federal Signal Corporation siren?",
-            "answer": "<p>The Federal Signal Corporation siren is a powerful and reliable auditory warning device used on emergency vehicles. These sirens provide distinct tones, including wail, yelp, and air horn, to alert nearby drivers and pedestrians during response operations.</p>",
+            "question": "Are Federal Signal lights and sirens legal on personal or volunteer vehicles?",
+            "answer": "<p>Regulations vary by state, province, and municipality. Some areas restrict certain colors, flash patterns, and siren use to authorized emergency vehicles only. Before installing Federal Signal equipment on a POV or volunteer rig, review your local laws and department policies to ensure compliance.</p>",
             "icon": "none"
           }
         },
         "question_AKhFTx": {
           "type": "question",
           "settings": {
-            "question": "Do you sell sirens made by Federal Signal Corporation?",
-            "answer": "<p>Absolutely. Strobes N' More carries a wide range of Federal Signal Corporation sirens, including popular models like the Smart Siren® Platinum and Touchmaster Delta®. These units are engineered for performance, reliability, and integration with lighting systems.</p>",
+            "question": "How do I choose between different Federal Signal lightbars or dash light options?",
+            "answer": "<p>Consider your vehicle type, primary use (response vs. work zone), required colors, mounting locations, and whether you need features such as multi-color capability, take-downs, alley lights, or traffic advisor functions. Comparing product descriptions and specs within the Federal Signal collection at Strobes N’ More will help narrow down the best options for your build.</p>",
             "icon": "none"
           }
         },
         "question_aNQ9bY": {
           "type": "question",
           "settings": {
-            "question": "What makes Federal Signal sirens a top choice for emergency vehicles?",
-            "answer": "<p>Federal Signal Corporation sirens are renowned for their high output, durable design, and advanced features such as dual-tone capability, programmable tones, and compatibility with lighting controllers. They're trusted by first responders across the U.S.</p>",
+            "question": "Does Strobes N’ More support Federal Signal warranties?",
+            "answer": "<p>The manufacturer’s warranty backs Federal Signal products, and Strobes N’ More can assist with product information, troubleshooting guidance, and next steps if you experience an issue. Keep your order details and product information handy when reaching out for support.</p>",
             "icon": "none"
           }
         },
         "question_gFgjkE": {
           "type": "question",
           "settings": {
-            "question": "Are Federal Signal lightbars and sirens easy to install?",
-            "answer": "<p>Many Federal Signal products are designed for easy integration with existing vehicle systems. While DIY installation is possible for experienced users, professional installation is recommended for fleet vehicles or systems requiring complex wiring and synchronization.</p>",
-            "icon": "none"
-          }
-        },
-        "question_iTbndg": {
-          "type": "question",
-          "settings": {
-            "question": "Can Federal Signal sirens be controlled remotely or through a console?",
-            "answer": "<p>Yes. Most Federal Signal Corporation sirens are compatible with external control consoles and offer remote operation features. Strobes N' More also provides compatible control systems for seamless integration and in-cab access.</p>",
-            "icon": "none"
-          }
-        },
-        "question_MMFQak": {
-          "type": "question",
-          "settings": {
-            "question": "Why choose Federal Signal products from Strobes N' More?",
-            "answer": "<p>Strobes N' More offers competitive pricing, fast shipping, and knowledgeable support for all Federal Signal lightbars and siren systems. We are an authorized distributor and provide expert guidance to ensure you choose the right setup for your emergency or utility vehicle.</p>",
+            "question": "Can Federal Signal products be synchronized with each other or other brands?",
+            "answer": "<p>Many Federal Signal LED products share flash patterns and can be synchronized using their FSLink technology and common wiring, allowing multiple lights to flash together or alternately. Cross-brand synchronization depends on matching voltage, pattern options, and wiring capabilities, so it should be evaluated on a case-by-case basis.</p>",
             "icon": "none"
           }
         }
@@ -144,9 +139,7 @@
         "question_r49x6L",
         "question_AKhFTx",
         "question_aNQ9bY",
-        "question_gFgjkE",
-        "question_iTbndg",
-        "question_MMFQak"
+        "question_gFgjkE"
       ],
       "custom_css": [
         "h3 {display: none;}"
@@ -165,11 +158,21 @@
       "settings": {
         "enable_recently_viewed_products": true
       }
+    },
+    "dynamic_html_DjctPh": {
+      "type": "dynamic-html",
+      "name": "t:sections.custom_html.presets.custom_html.name",
+      "settings": {
+        "title": "",
+        "custom_html": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What is Federal Signal, and why should I choose it for my vehicle?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Federal Signal is a leading manufacturer of emergency and work-truck warning equipment, including lights, sirens, and speakers for police, fire, EMS, tow, and utility fleets. Their products are known for durability, performance, and purpose-built engineering for public safety and work-vehicle applications.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Which vehicles can use Federal Signal lights and sirens?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Federal Signal equipment is designed for a wide range of vehicles, including police cars and SUVs, fire apparatus, ambulances, command vehicles, tow trucks, utility trucks, construction vehicles, and other work or response vehicles. If your vehicle needs to be seen and heard, there is likely a Federal Signal solution for it.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are Federal Signal lightbars and sirens compatible with my existing setup?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"In many cases, yes. Federal Signal lightbars, sirens, and controllers are designed to integrate into common 12 Vdc vehicle electrical systems. Some advanced features, such as flash pattern synchronization or multi-function control, may require compatible Federal Signal controllers or wiring. For mixed-brand setups, review the product specifications or contact Strobes N\\u2019 More for guidance.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do I need a professional installer for Federal Signal products?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Because Federal Signal products connect to vehicle electrical, control, and sometimes radio systems, professional installation is strongly recommended, especially for sirens, speakers, and full-size lightbars. Strobes N\\u2019 More provides install guides and resources to support professional upfitters and experienced DIY users.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are Federal Signal lights and sirens legal on personal or volunteer vehicles?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Regulations for lights and sirens vary by state, province, and municipality. Some areas restrict certain colors, flash patterns, and siren use to authorized emergency vehicles only. Before installing Federal Signal equipment on a personal or volunteer vehicle, review your local laws and department policies to ensure compliance.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How do I choose between different Federal Signal lightbars or dash light options?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Consider your vehicle type, primary use (response vs. work zone), required colors, mounting locations, and whether you need features such as multi-color capability, take-downs, alley lights, or traffic advisor functions. Comparing product descriptions and specs within the Federal Signal collection at Strobes N’ More will help narrow down the best options for your build.\n\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Does Strobes N\\u2019 More support Federal Signal warranties?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"The manufacturer’s warranty backs Federal Signal products. Strobes N’ More can assist with product information, basic troubleshooting guidance, and next steps if you experience an issue. Keep your order details and product information available when contacting support.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can Federal Signal products be synchronized with each other or other brands?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Many Federal Signal LED products share compatible flash patterns and can be synchronized using FSLink technology and common wiring, allowing multiple lights to flash together or alternately. Cross-brand synchronization depends on matching voltage, pattern options, and wiring capabilities, so it should be evaluated on a case-by-case basis.\"\n      }\n    }\n  ]\n}\n</script>"
+      }
     }
   },
   "order": [
     "main",
+    "dynamic_rich_text_FRmRb8",
     "dynamic_faq_kyjq9r",
-    "static-recently-viewed"
+    "static-recently-viewed",
+    "dynamic_html_DjctPh"
   ]
 }
