@@ -48,9 +48,9 @@
       "type": "dynamic-rich-text",
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
-        "width": "wide",
-        "title": "",
-        "text": "<p>Still have questions about choosing the right tow light bar for your wrecker or recovery vehicle? Explore our most frequently asked questions below to learn more about compatibility, installation, legal requirements, and more.</p>",
+        "width": "full-width",
+        "title": "Need Help Choosing the Right Tow Truck Light Bar?",
+        "text": "<p>Still have questions about choosing the right <strong>tow truck light bar</strong> for your wrecker, rollback, or heavy-duty recovery vehicle? You’re not alone. Factors like bar length, mounting style, voltage, flash patterns, and color configurations can all affect which tow light bar is best for your operation.</p><p>Explore our most frequently asked questions below to learn more about:</p><ul><li>Compatibility with different tow truck bodies and racks</li><li>Basic wiring and installation best practices</li><li>Controller and switch panel options</li><li>Legal considerations for colors and flash patterns in your area<br/></li></ul><p>Whether you’re outfitting a single truck or standardizing an entire fleet, our FAQs and product descriptions will help you narrow down your choices and understand the features that matter most. And if you still need guidance, the Strobes N’ More team is ready to help you select a <strong>tow truck light bar</strong> and supporting LED lights that keep your drivers visible, compliant, and confident on every call.</p>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
@@ -177,12 +177,21 @@
       "settings": {
         "enable_recently_viewed_products": true
       }
+    },
+    "dynamic_html_N7bATB": {
+      "type": "dynamic-html",
+      "name": "t:sections.custom_html.presets.custom_html.name",
+      "settings": {
+        "title": "",
+        "custom_html": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What is the best light bar for a tow truck?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"The best tow truck light bar offers high visibility, a durable housing, multiple warning flash patterns, and strong weather resistance. Our tow light bar collection highlights models that deliver all of these features.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are your tow light bars compatible with all tow trucks?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes. Our tow light bars are designed for universal mounting and are suitable for most light-duty, medium-duty, and heavy-duty tow and recovery trucks.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do I need a special permit to install a tow truck light bar?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Regulations vary by state and jurisdiction. Some areas require amber-only lighting, while others restrict strobe or red and blue colors. Always verify local laws before installing your tow light bar.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How do I install a light bar on my wrecker?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Most tow light bars include mounting hardware and wiring. Installation typically involves securing the bar to the roof or headache rack, then connecting the power and control wiring to a switch or controller.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are the tow truck light bars waterproof?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes. Most tow truck light bars in this collection carry IP67 or IP68 ratings, offering strong protection against dust and water for reliable use in harsh weather conditions.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can I use a tow light bar for roadside assistance vehicles?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Absolutely. These tow light bars are commonly used on roadside assistance and service vehicles, including units for tire changes, jump starts, and other breakdown services.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What flash patterns are available on your tow light bars?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Most models include multiple programmable flash patterns such as alternating, sequential, and directional flashes, allowing you to choose the most effective pattern for roadside visibility.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do your light bars support plug-and-play installation?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Select tow light bars offer plug-and-play connectors for quicker setup, while others may require hardwiring into your vehicle’s power and control system.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Is there a warranty on tow truck light bars?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes. Tow light bars typically include manufacturer warranties that range from one to five years, depending on the specific brand and model you choose.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can I connect a tow light bar to my existing emergency lighting system?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"In most cases, yes. Many tow light bars can be integrated with auxiliary lighting systems and are compatible with popular controllers from brands like Feniex, SoundOff Signal, and Whelen.\"\n      }\n    }\n  ]\n}\n</script>"
+      }
     }
   },
   "order": [
     "main",
     "dynamic_rich_text_Kn9KpT",
     "dynamic_faq_AaGepT",
-    "static-recently-viewed"
+    "static-recently-viewed",
+    "dynamic_html_N7bATB"
   ]
 }
