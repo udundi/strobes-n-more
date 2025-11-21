@@ -28,23 +28,6 @@
         "text_alignment": "left"
       }
     },
-    "dynamic_image_with_text_iyPga4": {
-      "type": "dynamic-image-with-text",
-      "name": "t:sections.image_with_text.presets.image_with_text.name",
-      "settings": {
-        "section_heading": "Image with text",
-        "image": "shopify://shop_images/shutterstock_2519977653.jpg",
-        "desktop_height": "natural",
-        "mobile_height": "natural",
-        "desktop_image_alignment": "left",
-        "mobile_image_alignment": "top",
-        "heading": "Image with text",
-        "subheading": "<p>Pair large text with an image to give focus to your chosen product, collection, or blog post. Add details on availability, style, or even provide a review.</p>",
-        "text_alignment": "left",
-        "button_label": "Button",
-        "button_link": ""
-      }
-    },
     "dynamic_rich_text_azmHe9": {
       "type": "dynamic-rich-text",
       "name": "t:sections.rich_text.presets.rich_text.name",
@@ -169,7 +152,6 @@
   "order": [
     "main",
     "dynamic_rich_text_8A8k64",
-    "dynamic_image_with_text_iyPga4",
     "dynamic_rich_text_azmHe9",
     "dynamic_custom_liquid_7AWjbd",
     "dynamic_faq_bM7nfd",
