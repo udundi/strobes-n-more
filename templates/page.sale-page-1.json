@@ -28,6 +28,53 @@
         "text_alignment": "left"
       }
     },
+    "dynamic_promo_mosaic_knfKGM": {
+      "type": "dynamic-promo-mosaic",
+      "blocks": {
+        "promotion_NYPG7w": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/shutterstock_2519977657.jpg",
+            "title": "",
+            "text": "",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_LEjE6F": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/installs.jpg",
+            "title": "",
+            "text": "",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion_NYPG7w",
+        "promotion_LEjE6F"
+      ],
+      "name": "t:sections.mosaic.presets.mosaic.name",
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "text_alignment": "top-left",
+        "maintain_aspect_ratio": false,
+        "compress_blocks": false
+      }
+    },
     "dynamic_rich_text_azmHe9": {
       "type": "dynamic-rich-text",
       "name": "t:sections.rich_text.presets.rich_text.name",
@@ -152,6 +199,7 @@
   "order": [
     "main",
     "dynamic_rich_text_8A8k64",
+    "dynamic_promo_mosaic_knfKGM",
     "dynamic_rich_text_azmHe9",
     "dynamic_custom_liquid_7AWjbd",
     "dynamic_faq_bM7nfd",
