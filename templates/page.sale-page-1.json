@@ -183,7 +183,7 @@
           "type": "question",
           "settings": {
             "question": "When do Black Friday deals start?",
-            "answer": "<p>Discounts launch Thanksgiving day and run through Black Friday weekend.</p>",
+            "answer": "<p>Discounts launch Thanksgiving Day and run until midnight on Monday December 1st.</p>",
             "icon": "none"
           }
         },
