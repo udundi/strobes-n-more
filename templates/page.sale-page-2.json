@@ -37,6 +37,15 @@
     "dynamic_highlights_banner_HTBcML": {
       "type": "dynamic-highlights-banner",
       "blocks": {
+        "highlight_NV6wCQ": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-thumbs-up",
+            "title": "15WHELEN25",
+            "text": "<p>15% off on all Whelen products</p>",
+            "link": ""
+          }
+        },
         "highlight_TBg3F9": {
           "type": "highlight",
           "settings": {
@@ -54,21 +63,12 @@
             "text": "<p>20% off on all brands except Whelen</p>",
             "link": ""
           }
-        },
-        "highlight_NV6wCQ": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-thumbs-up",
-            "title": "15WHELEN25",
-            "text": "<p>15% off on all Whelen products</p>",
-            "link": ""
-          }
         }
       },
       "block_order": [
+        "highlight_NV6wCQ",
         "highlight_TBg3F9",
-        "highlight_8NHiVW",
-        "highlight_NV6wCQ"
+        "highlight_8NHiVW"
       ],
       "name": "t:sections.highlights_banner.presets.highlights_banner.name",
       "settings": {
@@ -93,13 +93,20 @@
         "text_alignment": "left"
       }
     },
+    "dynamic_custom_liquid_TBgwVp": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .black-friday-hero {\n    padding: 0px 0px;\n    max-width: 870px;\n    margin: 0 auto;\n  }\n  \n  .black-friday-hero h1 {\n    font-family: 'Montserrat', sans-serif;\n    font-weight: 800;\n    color: #000000;\n    font-size: 24px;\n    line-height: 1.3;\n    margin: 0 0 0px 0;\n    text-align: left;\n  }\n  \n  .black-friday-hero p {\n    font-family: 'Nunito Sans', sans-serif;\n    font-weight: 400;\n    color: #21225b;\n    font-size: 16px;\n    line-height: 1.6;\n    margin: 0;\n    text-align: left;\n  }\n  \n  /* Tablet */\n  @media (min-width: 768px) {\n    .black-friday-hero {\n      padding: 50px 30px;\n    }\n    \n    .black-friday-hero h1 {\n      font-size: 28px;\n      margin-bottom: 24px;\n    }\n    \n    .black-friday-hero p {\n      font-size: 16px;\n      line-height: 1.65;\n    }\n  }\n  \n  /* Desktop */\n  @media (min-width: 1024px) {\n    .black-friday-hero {\n      padding: 0px 30px;\n    }\n    \n    .black-friday-hero h1 {\n      font-size: 32px;\n      margin-bottom: 0px;\n    }\n    \n    .black-friday-hero p {\n      font-size: 16px;\n      line-height: 1.7;\n    }\n  }\n</style>\n\n<div class=\"black-friday-hero\">\n  <h1>Cyber Monday Savings on Emergency Vehicle Lights</h1>\n</div>"
+      }
+    },
     "dynamic_rich_text_azmHe9": {
       "type": "dynamic-rich-text",
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "width": "wide",
-        "title": "Cyber Monday Savings on Emergency Vehicle Lighting",
-        "text": "<p>The Strobes N’ More Cyber Monday event is your one chance this year to save on the industry’s top emergency lighting — including an exclusive <strong>Whelen discount that only happens once a year</strong>. For 24 hours only, you can upgrade your vehicle or fleet with professional-grade products trusted by police, fire, EMS, towing, construction, and security professionals nationwide.</p><p>Cyber Monday features unbeatable savings on emergency vehicle lights, LED warning lights, mini bars, visor lights, wireless solutions, surface-mount lights, and full-size light bars built for maximum performance and reliability. Whether you need compact lighting for a personal vehicle or heavy-duty solutions for your entire fleet, this is the best day to buy.</p><p>Accessories are also part of the event — save on siren speakers, wiring kits, controllers, and everything you need to complete or upgrade your setup.</p><h3><strong>Cyber Monday Deals (24 Hours Only):</strong></h3><ul><li>⭐ <strong>15% off Whelen products</strong> — Code: <strong>15WHELEN25 <br/></strong><em>The only day of the entire year that Whelen goes on sale.</em><br/><br/></li><li><strong>20% off site-wide products (except Whelen)</strong> — Code: <strong>20STROBES25</strong><br/></li><li><strong>30% off SNM products on November 27</strong> — Code: <strong>SNMROCKS2025</strong><br/></li></ul><p>Cyber Monday is your moment — once these deals expire, they’re gone until next year. Gear up while the window is open and secure the best lighting at the best prices of the season.</p>",
+        "title": "",
+        "text": "<p>The Strobes N’ More Cyber Monday event is your one chance this year to save on the industry’s top emergency lighting — including an exclusive <strong>Whelen discount that only happens once a year</strong>. For 24 hours only, you can upgrade your vehicle or fleet with professional-grade products trusted by police, fire, EMS, towing, construction, and security professionals nationwide.</p><p>Cyber Monday features unbeatable savings on emergency vehicle lights, LED warning lights, mini bars, visor lights, wireless solutions, surface-mount lights, and full-size light bars built for maximum performance and reliability. Whether you need compact lighting for a personal vehicle or heavy-duty solutions for your entire fleet, this is the best day to buy.</p><p>Accessories are also part of the event — save on siren speakers, wiring kits, controllers, and everything you need to complete or upgrade your setup.</p><h2><strong>Cyber Monday Deals (24 Hours Only):</strong></h2><ul><li>⭐ <strong>15% off Whelen products</strong> — Code: <strong>15WHELEN25 <br/></strong><em>The only day of the entire year that Whelen goes on sale.</em><br/><br/></li><li><strong>20% off site-wide products (except Whelen)</strong> — Code: <strong>20STROBES25</strong><br/></li><li><strong>30% off SNM products on November 27</strong> — Code: <strong>SNMROCKS2025</strong><br/></li></ul><p>Cyber Monday is your moment — once these deals expire, they’re gone until next year. Gear up while the window is open and secure the best lighting at the best prices of the season.</p>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
@@ -223,7 +230,7 @@
             "image": "shopify://shop_images/Staff_Picks6.png",
             "text_alignment": "center-center",
             "pre_heading": "",
-            "heading": "",
+            "heading": "Whelen Products",
             "text_color": "#ffffff",
             "show_on_mobile": false,
             "horizontal_size": "2",
@@ -243,7 +250,7 @@
         "title": "",
         "layout": "slideshow",
         "mobile_layout": "slideshow",
-        "collection": "strobes-n-more",
+        "collection": "whelen-products",
         "product_count": 5,
         "cta_label": "",
         "cta_button_style": "primary"
@@ -255,6 +262,7 @@
     "pxs_image_with_text_overlay_pKRczr",
     "dynamic_highlights_banner_HTBcML",
     "dynamic_rich_text_PztRUN",
+    "dynamic_custom_liquid_TBgwVp",
     "dynamic_rich_text_azmHe9",
     "dynamic_promo_mosaic_3C98Wr",
     "dynamic_faq_bM7nfd",
