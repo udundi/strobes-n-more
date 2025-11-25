@@ -17,6 +17,22 @@
       ],
       "settings": {}
     },
+    "pxs_image_with_text_overlay_Mb6W9D": {
+      "type": "pxs-image-with-text-overlay",
+      "name": "t:sections.image_with_text_overlay.presets.name",
+      "settings": {
+        "section_height": "original",
+        "image": "shopify://shop_images/BFsale.jpg",
+        "title": "",
+        "text": "",
+        "content_position": "center-center",
+        "color": "#ffffff",
+        "overlay_background": "#000000",
+        "overlay_opacity": 0,
+        "link": "",
+        "button_text": ""
+      }
+    },
     "dynamic_highlights_banner_TLe7TH": {
       "type": "dynamic-highlights-banner",
       "blocks": {
@@ -245,6 +261,7 @@
   },
   "order": [
     "main",
+    "pxs_image_with_text_overlay_Mb6W9D",
     "dynamic_highlights_banner_TLe7TH",
     "dynamic_rich_text_8A8k64",
     "dynamic_promo_mosaic_knfKGM",
