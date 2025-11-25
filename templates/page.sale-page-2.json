@@ -37,6 +37,15 @@
     "dynamic_highlights_banner_HTBcML": {
       "type": "dynamic-highlights-banner",
       "blocks": {
+        "highlight_NV6wCQ": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-thumbs-up",
+            "title": "15WHELEN25",
+            "text": "<p>15% off on all Whelen products</p>",
+            "link": ""
+          }
+        },
         "highlight_TBg3F9": {
           "type": "highlight",
           "settings": {
@@ -54,21 +63,12 @@
             "text": "<p>20% off on all brands except Whelen</p>",
             "link": ""
           }
-        },
-        "highlight_NV6wCQ": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-thumbs-up",
-            "title": "15WHELEN25",
-            "text": "<p>15% off on all Whelen products</p>",
-            "link": ""
-          }
         }
       },
       "block_order": [
+        "highlight_NV6wCQ",
         "highlight_TBg3F9",
-        "highlight_8NHiVW",
-        "highlight_NV6wCQ"
+        "highlight_8NHiVW"
       ],
       "name": "t:sections.highlights_banner.presets.highlights_banner.name",
       "settings": {
