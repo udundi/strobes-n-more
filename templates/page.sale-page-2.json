@@ -264,6 +264,13 @@
         "cta_label": "",
         "cta_button_style": "primary"
       }
+    },
+    "dynamic_custom_liquid_erTwxk": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .strobes-button-section {\n    text-align: center;\n    padding: 0px 40px 20px 20px;\n    margin-top: -50px;\n  }\n  \n  @media (max-width: 768px) {\n    .strobes-button-section {\n      margin-top: -20px;\n      padding: 0px 10px 15px;\n    }\n  }\n</style>\n\n<div class=\"strobes-button-section\">\n  <a href=\"https://strobesnmore.com/\" style=\"background-color: #21225b; color: white; padding: 0.75rem 1.125rem; border-radius: 3px; text-decoration: none; display: inline-block; font-size: 16px; font-weight: bold; transition: background-color 0.3s ease;\" onmouseover=\"this.style.backgroundColor='#1a1b4a'\" onmouseout=\"this.style.backgroundColor='#21225b'\">\n    Shop Now\n  </a>\n</div>"
+      }
     }
   },
   "order": [
@@ -273,6 +280,7 @@
     "dynamic_rich_text_PztRUN",
     "dynamic_custom_liquid_TBgwVp",
     "dynamic_rich_text_azmHe9",
+    "dynamic_custom_liquid_erTwxk",
     "dynamic_promo_mosaic_3C98Wr",
     "dynamic_faq_bM7nfd",
     "dynamic_featured_collection_rYiY7G"
