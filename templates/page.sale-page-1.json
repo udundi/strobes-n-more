@@ -102,6 +102,7 @@
     },
     "dynamic_rich_text_azmHe9": {
       "type": "dynamic-rich-text",
+      "custom_css": [],
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "width": "wide",
@@ -109,6 +110,13 @@
         "text": "<p>The Strobes N’ More Black Friday event delivers unbeatable online-only savings on the professional-grade lighting you trust. This year’s collection includes steep discounts on emergency vehicle lights, LED emergency lights, and strobe lights built to keep you visible and safe in any condition. Need something compact? Shop our mini light bars, visor lights, and wireless emergency lights — perfect for quick installs and everyday reliability.</p><p>For fleets and heavy-duty operations, Black Friday brings major savings on full-size light bars, surface-mount lights, and specialized solutions built for tow trucks, ambulances, police vehicles, construction rigs, and fire apparatus. These products are trusted by professionals nationwide — now available at prices that only come once a year.</p><p>Accessories are part of the savings, too. Score deals on siren speakers, wiring harness kits, and emergency light controllers to complete your entire setup. Whether you’re outfitting one vehicle or your whole fleet, Black Friday is the best time to invest in performance without overspending.</p><p><strong>Black Friday Deals:</strong></p><ul><li><strong>20% off site-wide products (except Whelen)</strong> — Code: <strong>20STROBES25</strong><br/></li><li><strong>30% off all SNM products on November 27</strong> — Code: <strong>SNMROCKS2025</strong><br/></li></ul><p>These deals won’t last long — once Black Friday ends, so do the savings. And if you like what you see, keep an eye out… something even bigger is right around the corner.</p>",
         "heading_size": "medium",
         "text_alignment": "left"
+      }
+    },
+    "dynamic_custom_liquid_GRFALa": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .strobes-section {\n    padding: 10px 20px 40px 20px;\n    max-width: 1200px;\n    margin: -50px 0px 0px 0px;\n    text-align: center;\n  }\n  \n  .strobes-button {\n    background-color: #21225b !important;\n    color: white !important;\n    padding: 0.75rem 1.125rem;\n    border: none;\n    border-radius: 3px;\n    cursor: pointer;\n    text-decoration: none !important;\n    display: inline-block;\n    transition: background-color 0.3s ease;\n    font-size: 16px;\n    font-weight: bold;\n    line-height: 1.2;\n  }\n  \n  .strobes-button:hover {\n    background-color: #1a1b4a !important;\n    color: white !important;\n    text-decoration: none !important;\n  }\n  \n  .strobes-button:visited {\n    color: white !important;\n  }\n  \n  .strobes-button:active {\n    color: white !important;\n  }\n  \n  @media (max-width: 768px) {\n    .strobes-section {\n      padding: 10px 15px 50px 15px;\n    }\n  }\n</style>\n\n<div class=\"strobes-section\">  \n  <a href=\"/collections/all\" class=\"strobes-button\">\n    Shop Now\n  </a>\n</div>"
       }
     },
     "dynamic_promo_mosaic_knfKGM": {
@@ -284,6 +292,7 @@
     "dynamic_rich_text_8A8k64",
     "dynamic_custom_liquid_C87YNp",
     "dynamic_rich_text_azmHe9",
+    "dynamic_custom_liquid_GRFALa",
     "dynamic_promo_mosaic_knfKGM",
     "dynamic_custom_liquid_7AWjbd",
     "dynamic_faq_bM7nfd",
