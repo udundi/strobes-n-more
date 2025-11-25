@@ -17,6 +17,53 @@
       ],
       "settings": {}
     },
+    "dynamic_highlights_banner_TLe7TH": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_FCWeQ7": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-rating-five-star",
+            "title": "SNMROCKS2025",
+            "text": "<p>30% off on all SNM products</p>",
+            "link": ""
+          }
+        },
+        "highlight_GHwHey": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-store",
+            "title": "20STROBES25",
+            "text": "<p>20% off on all brands except Whelen</p>",
+            "link": ""
+          }
+        },
+        "highlight_4tCyJp": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-thumbs-up",
+            "title": "15WHELEN25",
+            "text": "<p>15% off on all Whelen products</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_FCWeQ7",
+        "highlight_GHwHey",
+        "highlight_4tCyJp"
+      ],
+      "name": "t:sections.highlights_banner.presets.highlights_banner.name",
+      "settings": {
+        "section_spacing": true,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#ffe614",
+        "icon_color": "#ffe614",
+        "background_color": "#21225b",
+        "mobile_layout": "slider"
+      }
+    },
     "dynamic_rich_text_8A8k64": {
       "type": "dynamic-rich-text",
       "name": "t:sections.rich_text.presets.rich_text.name",
@@ -198,6 +245,7 @@
   },
   "order": [
     "main",
+    "dynamic_highlights_banner_TLe7TH",
     "dynamic_rich_text_8A8k64",
     "dynamic_promo_mosaic_knfKGM",
     "dynamic_rich_text_azmHe9",
