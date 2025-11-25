@@ -168,6 +168,14 @@
             "show_category_card": true
           }
         },
+        "question_g8B8Lq": {
+          "type": "question",
+          "settings": {
+            "question": "Can I Stack Discount Codes?",
+            "answer": "<p>Yes! You can stack all three discount codes to maximize on savings for our Black Friday & Cyber Monday Sales!</p>",
+            "icon": "none"
+          }
+        },
         "question_UhVecV": {
           "type": "question",
           "settings": {
@@ -203,6 +211,7 @@
       },
       "block_order": [
         "category_hXrDWH",
+        "question_g8B8Lq",
         "question_UhVecV",
         "question_MqiApe",
         "question_JrFLEy",
