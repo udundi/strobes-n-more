@@ -17,6 +17,22 @@
       ],
       "settings": {}
     },
+    "pxs_image_with_text_overlay_pKRczr": {
+      "type": "pxs-image-with-text-overlay",
+      "name": "t:sections.image_with_text_overlay.presets.name",
+      "settings": {
+        "section_height": "original",
+        "image": "shopify://shop_images/CM.jpg",
+        "title": "",
+        "text": "",
+        "content_position": "center-center",
+        "color": "#ffffff",
+        "overlay_background": "#000000",
+        "overlay_opacity": 0,
+        "link": "",
+        "button_text": ""
+      }
+    },
     "dynamic_highlights_banner_HTBcML": {
       "type": "dynamic-highlights-banner",
       "blocks": {
@@ -234,6 +250,7 @@
   },
   "order": [
     "main",
+    "pxs_image_with_text_overlay_pKRczr",
     "dynamic_highlights_banner_HTBcML",
     "dynamic_rich_text_PztRUN",
     "dynamic_promo_mosaic_3C98Wr",
