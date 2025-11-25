@@ -37,15 +37,6 @@
     "dynamic_highlights_banner_HTBcML": {
       "type": "dynamic-highlights-banner",
       "blocks": {
-        "highlight_NV6wCQ": {
-          "type": "highlight",
-          "settings": {
-            "icon": "icon-thumbs-up",
-            "title": "15WHELEN25",
-            "text": "<p>15% off on all Whelen products</p>",
-            "link": ""
-          }
-        },
         "highlight_TBg3F9": {
           "type": "highlight",
           "settings": {
@@ -63,12 +54,21 @@
             "text": "<p>20% off on all brands except Whelen</p>",
             "link": ""
           }
+        },
+        "highlight_NV6wCQ": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-thumbs-up",
+            "title": "15WHELEN25",
+            "text": "<p>15% off on all Whelen products</p>",
+            "link": ""
+          }
         }
       },
       "block_order": [
-        "highlight_NV6wCQ",
         "highlight_TBg3F9",
-        "highlight_8NHiVW"
+        "highlight_8NHiVW",
+        "highlight_NV6wCQ"
       ],
       "name": "t:sections.highlights_banner.presets.highlights_banner.name",
       "settings": {
@@ -83,11 +83,23 @@
     },
     "dynamic_rich_text_PztRUN": {
       "type": "dynamic-rich-text",
+      "disabled": true,
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "width": "wide",
         "title": "",
-        "text": "<p>The <strong>Strobes N More Cyber Monday Sale</strong> is your final chance of the year to score incredible online-only savings on <strong>emergency vehicle lights</strong> and accessories. After Black Friday wraps up, Cyber Monday brings you one last opportunity to shop discounted <strong>LED emergency lights</strong>, <a href=\"https://strobesnmore.com/collections/public-works-construction\"><span style=\"text-decoration:underline\"><strong>light bars for trucks</strong></span></a>, and more — all from the comfort of your home. Whether you’re a first responder, contractor, or volunteer, this sale ensures you can upgrade your equipment at unbeatable prices.</p><p>Browse our full range of products, including <strong>mini light bars</strong>, <strong>visor lights</strong>, and <a href=\"https://strobesnmore.com/collections/full-size-lightbars\"><span style=\"text-decoration:underline\"><strong>full-size light bars</strong></span></a>, each built to deliver the visibility you need when it matters most. Cyber Monday is also the time to secure must-have accessories, such as <a href=\"https://strobesnmore.com/collections/sirens-speakers\"><span style=\"text-decoration:underline\"><strong>siren speakers</strong></span></a>, <strong>emergency light controllers</strong>, and <strong>wiring harness kits</strong>, all available at special prices. We’ve even included deals for specialty needs, like <strong>police car lights</strong>, <strong>ambulance lights</strong>, <strong>firefighter lights</strong>, and <strong>volunteer firefighter lights</strong>.</p><p>If your fleet includes <strong>tow trucks, construction vehicles, or utility trucks</strong>, you’ll find discounted <strong>surface-mount lights</strong> and <strong>wireless emergency lights</strong> that keep you prepared and visible. Cyber Monday deals don’t last — once they’re gone, you’ll have to wait another year. Don’t miss out on this final chance to upgrade your gear at prices designed for professionals who need reliable lighting they can count on.</p>",
+        "text": "<p>The <strong>Strobes N More Cyber Monday Sale</strong> brings you one last opportunity to shop discounted <strong>LED emergency lights</strong>, <a href=\"https://strobesnmore.com/collections/public-works-construction\"><span style=\"text-decoration:underline\"><strong>light bars for trucks</strong></span></a>, and more — all from the comfort of your home. Whether you’re a first responder, contractor, or volunteer, this sale ensures you can upgrade your equipment at unbeatable prices.</p><p>Browse our full range of products, including <strong>mini light bars</strong>, <strong>visor lights</strong>, and <a href=\"https://strobesnmore.com/collections/full-size-lightbars\"><span style=\"text-decoration:underline\"><strong>full-size light bars</strong></span></a>, each built to deliver the visibility you need when it matters most. Cyber Monday is also the time to secure must-have accessories, such as <a href=\"https://strobesnmore.com/collections/sirens-speakers\"><span style=\"text-decoration:underline\"><strong>siren speakers</strong></span></a>, <strong>emergency light controllers</strong>, and <strong>wiring harness kits</strong>, all available at special prices. We’ve even included deals for specialty needs, like <strong>police car lights</strong>, <strong>ambulance lights</strong>, <strong>firefighter lights</strong>, and <strong>volunteer firefighter lights</strong>.</p><p>If your fleet includes <strong>tow trucks, construction vehicles, or utility trucks</strong>, you’ll find discounted <strong>surface-mount lights</strong> and <strong>wireless emergency lights</strong> that keep you prepared and visible. Cyber Monday deals don’t last — once they’re gone, you’ll have to wait another year. Don’t miss out on this final chance to upgrade your gear at prices designed for professionals who need reliable lighting they can count on.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_azmHe9": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "wide",
+        "title": "Cyber Monday Savings on Emergency Vehicle Lighting",
+        "text": "<p>The <strong>Strobes N More Cyber Monday event</strong> is all about online-only savings that bring professional-grade lighting within reach. This year, our Cyber Monday collection includes steep discounts on <strong>emergency vehicle lights</strong>, <strong>LED emergency lights</strong>, and <strong>strobe lights for vehicles</strong>, all designed to keep you visible and safe in any condition. Need something compact? Shop our <strong>mini light bars</strong>, <strong>visor lights</strong>, and <strong>wireless emergency lights</strong> — perfect for quick installs and everyday reliability.</p><p>For fleets and heavy-duty needs, Cyber Monday features savings on <strong>full size light bars</strong>, <strong>surface mount lights</strong>, and specialty solutions for <strong>tow trucks, ambulances, police cars, construction vehicles, and fire trucks</strong>. These are trusted by professionals nationwide and now available at prices you won’t see again until next year.</p><p>Accessories are also a major part of this event. Save on <strong>siren speakers</strong>, <strong>wiring harness kits</strong>, and <strong>emergency light controllers</strong> that ensure your system is complete and dependable. Whether you’re upgrading one vehicle or an entire fleet, Cyber Monday is the perfect time to invest in performance without overspending.</p><p>Our Cyber Monday sale is designed with urgency in mind — it lasts just 24 hours, and once the deals are gone, they’re gone for good. Don’t wait until the last minute; secure your gear now and enjoy peace of mind knowing your emergency lighting is top-quality and budget-friendly.</p>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
@@ -137,17 +149,6 @@
         "text_alignment": "top-left",
         "maintain_aspect_ratio": false,
         "compress_blocks": false
-      }
-    },
-    "dynamic_rich_text_azmHe9": {
-      "type": "dynamic-rich-text",
-      "name": "t:sections.rich_text.presets.rich_text.name",
-      "settings": {
-        "width": "wide",
-        "title": "Cyber Monday Savings on Emergency Vehicle Lighting",
-        "text": "<p>The <strong>Strobes N More Cyber Monday event</strong> is all about online-only savings that bring professional-grade lighting within reach. This year, our Cyber Monday collection includes steep discounts on <strong>emergency vehicle lights</strong>, <strong>LED emergency lights</strong>, and <strong>strobe lights for vehicles</strong>, all designed to keep you visible and safe in any condition. Need something compact? Shop our <strong>mini light bars</strong>, <strong>visor lights</strong>, and <strong>wireless emergency lights</strong> — perfect for quick installs and everyday reliability.</p><p>For fleets and heavy-duty needs, Cyber Monday features savings on <strong>full size light bars</strong>, <strong>surface mount lights</strong>, and specialty solutions for <strong>tow trucks, ambulances, police cars, construction vehicles, and fire trucks</strong>. These are trusted by professionals nationwide and now available at prices you won’t see again until next year.</p><p>Accessories are also a major part of this event. Save on <strong>siren speakers</strong>, <strong>wiring harness kits</strong>, and <strong>emergency light controllers</strong> that ensure your system is complete and dependable. Whether you’re upgrading one vehicle or an entire fleet, Cyber Monday is the perfect time to invest in performance without overspending.</p><p>Our Cyber Monday sale is designed with urgency in mind — it lasts just 24 hours, and once the deals are gone, they’re gone for good. Don’t wait until the last minute; secure your gear now and enjoy peace of mind knowing your emergency lighting is top-quality and budget-friendly.</p>",
-        "heading_size": "medium",
-        "text_alignment": "left"
       }
     },
     "dynamic_faq_bM7nfd": {
@@ -254,8 +255,8 @@
     "pxs_image_with_text_overlay_pKRczr",
     "dynamic_highlights_banner_HTBcML",
     "dynamic_rich_text_PztRUN",
-    "dynamic_promo_mosaic_3C98Wr",
     "dynamic_rich_text_azmHe9",
+    "dynamic_promo_mosaic_3C98Wr",
     "dynamic_faq_bM7nfd",
     "dynamic_featured_collection_rYiY7G"
   ]
