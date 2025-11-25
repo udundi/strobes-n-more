@@ -93,12 +93,19 @@
         "text_alignment": "left"
       }
     },
+    "dynamic_custom_liquid_C87YNp": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "<style>\n  .black-friday-hero {\n    padding: 0px 0px;\n    max-width: 870px;\n    margin: 0 auto;\n  }\n  \n  .black-friday-hero h1 {\n    font-family: 'Montserrat', sans-serif;\n    font-weight: 800;\n    color: #000000;\n    font-size: 24px;\n    line-height: 1.3;\n    margin: 0 0 0px 0;\n    text-align: left;\n  }\n  \n  .black-friday-hero p {\n    font-family: 'Nunito Sans', sans-serif;\n    font-weight: 400;\n    color: #21225b;\n    font-size: 16px;\n    line-height: 1.6;\n    margin: 0;\n    text-align: left;\n  }\n  \n  /* Tablet */\n  @media (min-width: 768px) {\n    .black-friday-hero {\n      padding: 50px 30px;\n    }\n    \n    .black-friday-hero h1 {\n      font-size: 28px;\n      margin-bottom: 24px;\n    }\n    \n    .black-friday-hero p {\n      font-size: 16px;\n      line-height: 1.65;\n    }\n  }\n  \n  /* Desktop */\n  @media (min-width: 1024px) {\n    .black-friday-hero {\n      padding: 0px 30px;\n    }\n    \n    .black-friday-hero h1 {\n      font-size: 32px;\n      margin-bottom: 0px;\n    }\n    \n    .black-friday-hero p {\n      font-size: 16px;\n      line-height: 1.7;\n    }\n  }\n</style>\n\n<div class=\"black-friday-hero\">\n  <h1>Black Friday Deals on Emergency Vehicle Lights & Light Bars</h1>\n</div>"
+      }
+    },
     "dynamic_rich_text_azmHe9": {
       "type": "dynamic-rich-text",
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "width": "wide",
-        "title": "Black Friday Deals on Emergency Vehicle Lighting",
+        "title": "",
         "text": "<p>The Strobes N’ More Black Friday event delivers unbeatable online-only savings on the professional-grade lighting you trust. This year’s collection includes steep discounts on emergency vehicle lights, LED emergency lights, and strobe lights built to keep you visible and safe in any condition. Need something compact? Shop our mini light bars, visor lights, and wireless emergency lights — perfect for quick installs and everyday reliability.</p><p>For fleets and heavy-duty operations, Black Friday brings major savings on full-size light bars, surface-mount lights, and specialized solutions built for tow trucks, ambulances, police vehicles, construction rigs, and fire apparatus. These products are trusted by professionals nationwide — now available at prices that only come once a year.</p><p>Accessories are part of the savings, too. Score deals on siren speakers, wiring harness kits, and emergency light controllers to complete your entire setup. Whether you’re outfitting one vehicle or your whole fleet, Black Friday is the best time to invest in performance without overspending.</p><p><strong>Black Friday Deals:</strong></p><ul><li><strong>20% off site-wide products (except Whelen)</strong> — Code: <strong>20STROBES25</strong><br/></li><li><strong>30% off all SNM products on November 27</strong> — Code: <strong>SNMROCKS2025</strong><br/></li></ul><p>These deals won’t last long — once Black Friday ends, so do the savings. And if you like what you see, keep an eye out… something even bigger is right around the corner.</p>",
         "heading_size": "medium",
         "text_alignment": "left"
@@ -266,6 +273,7 @@
     "pxs_image_with_text_overlay_Mb6W9D",
     "dynamic_highlights_banner_TLe7TH",
     "dynamic_rich_text_8A8k64",
+    "dynamic_custom_liquid_C87YNp",
     "dynamic_rich_text_azmHe9",
     "dynamic_promo_mosaic_knfKGM",
     "dynamic_custom_liquid_7AWjbd",
