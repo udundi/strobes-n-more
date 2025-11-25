@@ -83,11 +83,23 @@
     },
     "dynamic_rich_text_8A8k64": {
       "type": "dynamic-rich-text",
+      "disabled": true,
       "name": "t:sections.rich_text.presets.rich_text.name",
       "settings": {
         "width": "wide",
         "title": "",
         "text": "<p>The <strong>Strobes N More Black Friday Sale</strong> is here, and it’s your once-a-year opportunity to save big on the <strong>best emergency vehicle lights</strong> and accessories. We understand the importance of reliable lighting for professionals, volunteers, and contractors who need dependable performance under pressure — and this is the ideal time to upgrade. Whether you’re looking for <strong>LED emergency lights</strong>, <strong>strobe lights for vehicles</strong>, or <strong>light bars for trucks</strong>, you’ll find them all at unbeatable prices. Our Black Friday event features a comprehensive range of gear, including <strong>mini light bars,</strong> <strong>visor lights,</strong> <strong>full-size light bars,</strong> and <strong>surface mount lights, all</strong> designed for maximum visibility.</p><p>This is also the time to stock up on accessories that make a difference in day-to-day use. Shop <strong>siren speakers</strong>, <strong>wiring harness kits</strong>, and <strong>emergency light controllers</strong>, all available at limited-time discounts. We haven’t forgotten our first responder community either — you’ll also find savings on <strong>police car lights</strong>, <strong>ambulance lights</strong>, <strong>firefighter lights</strong>, and <strong>volunteer firefighter lights</strong>. No matter what you drive — a <strong>tow truck</strong>, <strong>construction vehicle</strong>, or <strong>utility truck</strong> — our Black Friday sale delivers professional-grade equipment at the lowest prices of the year. Don’t wait — once these deals are gone, they won’t return until next year.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_azmHe9": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "wide",
+        "title": "Black Friday Deals on Emergency Vehicle Lighting",
+        "text": "<p>This year’s <strong>Black Friday deals on emergency vehicle lighting</strong> are bigger than ever. At Strobes N More, we’re offering exclusive discounts on the lights and accessories that keep professionals safe and visible on the road. Start with our popular <strong>LED emergency lights</strong> and <strong>strobe lights for vehicles</strong>, built for high intensity and long-lasting performance. Need compact solutions? Our <strong>mini light bars</strong> and <strong>visor lights</strong> are perfect for volunteer responders or personal vehicles, while our <strong>full-size light bars</strong> and <strong>surface-mount lights</strong> provide maximum coverage for fleets, tow operators, and construction teams.</p><p>We’re also making sure accessories are included in the savings. Black Friday is the best time to grab <strong>emergency light controllers</strong>, <strong>siren speakers</strong>, and <strong>wiring harness kits</strong> to complete your setup. These small but essential pieces ensure your lighting system works flawlessly when you need it most. If you’re upgrading your <strong>tow truck, police cruiser, ambulance, fire truck, construction vehicle, or utility truck</strong>, this is the chance to do it for less.</p><p>What makes our Black Friday event stand out is not just the discounts but the variety. From <strong>volunteer firefighter lights</strong> to <strong>wireless emergency lights</strong>, everything you need is included. You won’t find prices like this again for another year, so take advantage now. Black Friday is about getting prepared for the season ahead, and there’s no better way than equipping your vehicle with reliable lighting at a fraction of the cost.</p>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
@@ -137,17 +149,6 @@
         "text_alignment": "top-left",
         "maintain_aspect_ratio": false,
         "compress_blocks": false
-      }
-    },
-    "dynamic_rich_text_azmHe9": {
-      "type": "dynamic-rich-text",
-      "name": "t:sections.rich_text.presets.rich_text.name",
-      "settings": {
-        "width": "wide",
-        "title": "Black Friday Deals on Emergency Vehicle Lighting",
-        "text": "<p>This year’s <strong>Black Friday deals on emergency vehicle lighting</strong> are bigger than ever. At Strobes N More, we’re offering exclusive discounts on the lights and accessories that keep professionals safe and visible on the road. Start with our popular <strong>LED emergency lights</strong> and <strong>strobe lights for vehicles</strong>, built for high intensity and long-lasting performance. Need compact solutions? Our <strong>mini light bars</strong> and <strong>visor lights</strong> are perfect for volunteer responders or personal vehicles, while our <strong>full-size light bars</strong> and <strong>surface-mount lights</strong> provide maximum coverage for fleets, tow operators, and construction teams.</p><p>We’re also making sure accessories are included in the savings. Black Friday is the best time to grab <strong>emergency light controllers</strong>, <strong>siren speakers</strong>, and <strong>wiring harness kits</strong> to complete your setup. These small but essential pieces ensure your lighting system works flawlessly when you need it most. If you’re upgrading your <strong>tow truck, police cruiser, ambulance, fire truck, construction vehicle, or utility truck</strong>, this is the chance to do it for less.</p><p>What makes our Black Friday event stand out is not just the discounts but the variety. From <strong>volunteer firefighter lights</strong> to <strong>wireless emergency lights</strong>, everything you need is included. You won’t find prices like this again for another year, so take advantage now. Black Friday is about getting prepared for the season ahead, and there’s no better way than equipping your vehicle with reliable lighting at a fraction of the cost.</p>",
-        "heading_size": "medium",
-        "text_alignment": "left"
       }
     },
     "dynamic_custom_liquid_7AWjbd": {
@@ -265,8 +266,8 @@
     "pxs_image_with_text_overlay_Mb6W9D",
     "dynamic_highlights_banner_TLe7TH",
     "dynamic_rich_text_8A8k64",
-    "dynamic_promo_mosaic_knfKGM",
     "dynamic_rich_text_azmHe9",
+    "dynamic_promo_mosaic_knfKGM",
     "dynamic_custom_liquid_7AWjbd",
     "dynamic_faq_bM7nfd",
     "dynamic_featured_collection_rYiY7G"
