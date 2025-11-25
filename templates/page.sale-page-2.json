@@ -28,6 +28,53 @@
         "text_alignment": "left"
       }
     },
+    "dynamic_promo_mosaic_3C98Wr": {
+      "type": "dynamic-promo-mosaic",
+      "blocks": {
+        "promotion_z74pxT": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/06182025_Chevy_Tahoe-7_1.jpg",
+            "title": "",
+            "text": "",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        },
+        "promotion_ArqYUg": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/shutterstock_2519977657.jpg",
+            "title": "",
+            "text": "",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion_z74pxT",
+        "promotion_ArqYUg"
+      ],
+      "name": "t:sections.mosaic.presets.mosaic.name",
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "text_alignment": "top-left",
+        "maintain_aspect_ratio": false,
+        "compress_blocks": false
+      }
+    },
     "dynamic_rich_text_azmHe9": {
       "type": "dynamic-rich-text",
       "name": "t:sections.rich_text.presets.rich_text.name",
@@ -141,6 +188,7 @@
   "order": [
     "main",
     "dynamic_rich_text_PztRUN",
+    "dynamic_promo_mosaic_3C98Wr",
     "dynamic_rich_text_azmHe9",
     "dynamic_faq_bM7nfd",
     "dynamic_featured_collection_rYiY7G"
