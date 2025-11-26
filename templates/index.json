@@ -11,14 +11,13 @@
   "sections": {
     "dynamic_html_fKYXXm": {
       "type": "dynamic-html",
-      "disabled": true,
       "custom_css": [
         "{margin-top: -70px;}"
       ],
       "name": "t:sections.custom_html.presets.custom_html.name",
       "settings": {
         "title": "",
-        "custom_html": "<div class=\"ticker\" role=\"status\" aria-live=\"polite\">\n  <div class=\"ticker__track\">\n    Our sales team will be at a meeting from 10:45am until 12:15pm eastern time today. Our phones will be off during that time, but we'll get back to you when we return. Please reach out to sales@strobesnmore.com if you need assistance.\n  </div>\n</div>\n\n<style>\n.ticker {\n  position: relative;\n  left: 50%;\n  right: 50%;\n  margin-left: -50vw;\n  margin-right: -50vw;\n  width: 100vw;\n\n  background: #c00;\n  color: #fff;\n  font-weight: 700;\n  padding: 6px 0;\n  overflow: hidden;\n  white-space: nowrap;\n  z-index: 9999;\n  text-align: center;\n}\n\n.ticker__track {\n  display: inline-block;\n  padding-left: 100%;\n  animation: ticker 25s linear infinite;\n}\n\n@keyframes ticker {\n  0%   { transform: translateX(0); }\n  100% { transform: translateX(-100%); }\n}\n\n/* Respect users who prefer reduced motion */\n@media (prefers-reduced-motion: reduce) {\n  .ticker__track { animation: none; padding-left: 0; }\n}\n</style>"
+        "custom_html": "<div class=\"ticker\" role=\"status\" aria-live=\"polite\">\n  <div class=\"ticker__track\">\n    Our sales team will be off at 2:00pm eastern time for Thanksgiving.    Our biggest sales of the year start tomorrow so check back soon! Please reach out to sales@strobesnmore.com if you need assistance. Thank you!\n  </div>\n</div>\n\n<style>\n.ticker {\n  position: relative;\n  left: 50%;\n  right: 50%;\n  margin-left: -50vw;\n  margin-right: -50vw;\n  width: 100vw;\n\n  background: #c00;\n  color: #fff;\n  font-weight: 700;\n  padding: 6px 0;\n  overflow: hidden;\n  white-space: nowrap;\n  z-index: 9999;\n  text-align: center;\n}\n\n.ticker__track {\n  display: inline-block;\n  padding-left: 100%;\n  animation: ticker 25s linear infinite;\n}\n\n@keyframes ticker {\n  0%   { transform: translateX(0); }\n  100% { transform: translateX(-100%); }\n}\n\n/* Respect users who prefer reduced motion */\n@media (prefers-reduced-motion: reduce) {\n  .ticker__track { animation: none; padding-left: 0; }\n}\n</style>"
       }
     },
     "dynamic_custom_liquid_C9HdJ3": {
