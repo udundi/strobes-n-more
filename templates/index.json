@@ -21,8 +21,25 @@
         "custom_html": "<div class=\"ticker\" role=\"status\" aria-live=\"polite\">\n  <div class=\"ticker__track\">\n    Our sales team will be off at 2:00pm eastern time for Thanksgiving.    Our biggest sales of the year start tomorrow so check back soon! Please reach out to sales@strobesnmore.com if you need assistance. Thank you!\n  </div>\n</div>\n\n<style>\n.ticker {\n  position: relative;\n  left: 50%;\n  right: 50%;\n  margin-left: -50vw;\n  margin-right: -50vw;\n  width: 100vw;\n\n  background: #c00;\n  color: #fff;\n  font-weight: 700;\n  padding: 6px 0;\n  overflow: hidden;\n  white-space: nowrap;\n  z-index: 9999;\n  text-align: center;\n}\n\n.ticker__track {\n  display: inline-block;\n  padding-left: 100%;\n  animation: ticker 25s linear infinite;\n}\n\n@keyframes ticker {\n  0%   { transform: translateX(0); }\n  100% { transform: translateX(-100%); }\n}\n\n/* Respect users who prefer reduced motion */\n@media (prefers-reduced-motion: reduce) {\n  .ticker__track { animation: none; padding-left: 0; }\n}\n</style>"
       }
     },
+    "pxs_image_with_text_overlay_aAKKLE": {
+      "type": "pxs-image-with-text-overlay",
+      "name": "t:sections.image_with_text_overlay.presets.name",
+      "settings": {
+        "section_height": "original",
+        "image": "shopify://shop_images/BFsale.jpg",
+        "title": "",
+        "text": "",
+        "content_position": "center-center",
+        "color": "#ffffff",
+        "overlay_background": "#000000",
+        "overlay_opacity": 0,
+        "link": "shopify://pages/black-friday",
+        "button_text": ""
+      }
+    },
     "dynamic_custom_liquid_C9HdJ3": {
       "type": "dynamic-custom-liquid",
+      "disabled": true,
       "custom_css": [
         "{margin-top: -70px;}"
       ],
@@ -33,6 +50,7 @@
     },
     "dynamic_custom_liquid_q4tCT9": {
       "type": "dynamic-custom-liquid",
+      "disabled": true,
       "name": "Custom Liquid - Video Mobile",
       "settings": {
         "custom_liquid": "{% comment %}\n  Custom Video Player for Mobile Devices Only\n{% endcomment %}\n\n<div class=\"mobile-video-container\">\n  <video \n    id=\"mobile-video-player\"\n    class=\"mobile-video\"\n    src=\"https://cdn.shopify.com/videos/c/o/v/75ffa50b6d204f1fb1b9c4a17589f94f.mp4\"\n    autoplay\n    muted\n    playsinline\n    loop>\n    Your browser does not support the video tag.\n  </video>\n</div>\n\n<style>\n  /* Mobile Video Container Styles - Full Width */\n  .mobile-video-container {\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    overflow: hidden;\n    display: none; /* Hidden by default */\n  }\n  \n  /* Base Video Styles */\n  .mobile-video {\n    width: 100%;\n    display: block;\n    object-fit: cover;\n  }\n  \n  /* Media Queries for Responsive Design */\n  @media screen and (max-width: 767px) {\n    /* Small screens (mobile) - Video visible */\n    .mobile-video-container {\n      display: block;\n    }\n    \n    .mobile-video {\n      height: 200px; /* Height for mobile */\n    }\n  }\n  \n  @media screen and (min-width: 768px) and (max-width: 1023px) {\n    /* Medium screens (tablet) - Video visible */\n    .mobile-video-container {\n      display: block;\n    }\n    \n    .mobile-video {\n      height: 300px; /* Height for tablet */\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    /* Large screens (desktop) - Video hidden */\n    .mobile-video-container {\n      display: none;\n    }\n  }\n</style>"
@@ -40,6 +58,7 @@
     },
     "dynamic_custom_liquid_nXfma8": {
       "type": "dynamic-custom-liquid",
+      "disabled": true,
       "custom_css": [],
       "name": "Custom Liquid - Yellow Divider",
       "settings": {
@@ -892,111 +911,11 @@
         "maintain_aspect_ratio": false,
         "compress_blocks": false
       }
-    },
-    "dynamic_promo_mosaic_NUger6": {
-      "type": "dynamic-promo-mosaic",
-      "blocks": {
-        "promotion_TrXtXi": {
-          "type": "promotion",
-          "name": "Vehicle Consoles",
-          "settings": {
-            "image": "shopify://shop_images/website_graphics-2_2.png",
-            "title": "Vehicle Consoles",
-            "text": "Upgrade your ride with Strobes N More's custom-fit vehicle consoles-built for durability, seamless integration, and professional functionality.",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/vehicle-specific-consoles",
-            "button_text": "View Collection",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_fw69mJ": {
-          "type": "promotion",
-          "name": "Flasher Modules",
-          "settings": {
-            "image": "shopify://shop_images/website_graphics-2_2.png",
-            "title": "Flasher Modules",
-            "text": "Boost your vehicle’s visibility with Strobes N’ More LED flasher lights—bright, reliable, and easy to install.",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/flasher-modules",
-            "button_text": "View Collection",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_WfN8Rt": {
-          "type": "promotion",
-          "name": "Replacement Lenses & Bulbs",
-          "settings": {
-            "image": "shopify://shop_images/website_graphics-1_1.png",
-            "title": "Replacement Lenses & Bulbs",
-            "text": "Keep your lights shining bright with durable replacement lenses and bulbs from Strobes N More -built for performance, safety, and reliability",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/replacement-bulbs-lenses",
-            "button_text": "View Collection",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_ghDcAV": {
-          "type": "promotion",
-          "name": "Arrow & Traffic LED Lightbars",
-          "settings": {
-            "image": "shopify://shop_images/website_graphics-1_1.png",
-            "title": "Arrow & Traffic LED Lightbars",
-            "text": "Stay visible and in control with Strobes N More’s durable, high-performance traffic advisor lights and arrow bars built for clear, reliable signaling.",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/arrow-traffic-advisor-bars-1",
-            "button_text": "View Collection",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_bHiHUf": {
-          "type": "promotion",
-          "name": "Cables, Accessories & More",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-09-04_132108.png",
-            "title": "Cables, Accessories & More",
-            "text": "Upgrade your ride with premium car accessories from Strobes N More-where safety, performance, and reliability come standard.",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/cables-accessories",
-            "button_text": "View Collection",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        }
-      },
-      "block_order": [
-        "promotion_TrXtXi",
-        "promotion_fw69mJ",
-        "promotion_WfN8Rt",
-        "promotion_ghDcAV",
-        "promotion_bHiHUf"
-      ],
-      "disabled": true,
-      "name": "t:sections.mosaic.presets.mosaic.name",
-      "settings": {
-        "title": "",
-        "section_height": "small",
-        "text_alignment": "top-left",
-        "maintain_aspect_ratio": false,
-        "compress_blocks": false
-      }
     }
   },
   "order": [
     "dynamic_html_fKYXXm",
+    "pxs_image_with_text_overlay_aAKKLE",
     "dynamic_custom_liquid_C9HdJ3",
     "dynamic_custom_liquid_q4tCT9",
     "dynamic_custom_liquid_nXfma8",
@@ -1018,7 +937,6 @@
     "dynamic_rich_text_87LzTE",
     "dynamic_faq_Fczewz",
     "dynamic_custom_liquid_jCcFeA",
-    "dynamic_promo_mosaic_8tfXTh",
-    "dynamic_promo_mosaic_NUger6"
+    "dynamic_promo_mosaic_8tfXTh"
   ]
 }
