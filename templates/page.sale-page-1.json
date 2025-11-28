@@ -82,9 +82,7 @@
         "highlight_GHwHey",
         "highlight_4tCyJp"
       ],
-      "custom_css": [
-        "{margin-top: -70px;}"
-      ],
+      "custom_css": [],
       "name": "t:sections.highlights_banner.presets.highlights_banner.name",
       "settings": {
         "section_spacing": true,
@@ -93,7 +91,7 @@
         "color": "#ffe614",
         "icon_color": "#ffe614",
         "background_color": "#21225b",
-        "mobile_layout": "slider"
+        "mobile_layout": "grid"
       }
     },
     "dynamic_rich_text_8A8k64": {
