@@ -57,6 +57,7 @@
         },
         "highlight_4tCyJp": {
           "type": "highlight",
+          "disabled": true,
           "settings": {
             "icon": "icon-thumbs-up",
             "title": "15WHELEN25",
