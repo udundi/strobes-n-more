@@ -9,24 +9,9 @@
  */
 {
   "sections": {
-    "pxs_image_with_text_overlay_aAKKLE": {
-      "type": "pxs-image-with-text-overlay",
-      "name": "t:sections.image_with_text_overlay.presets.name",
-      "settings": {
-        "section_height": "original",
-        "image": "shopify://shop_images/CM.jpg",
-        "title": "",
-        "text": "",
-        "content_position": "center-center",
-        "color": "#ffffff",
-        "overlay_background": "#000000",
-        "overlay_opacity": 0,
-        "link": "shopify://pages/cyber-monday",
-        "button_text": ""
-      }
-    },
     "dynamic_html_fKYXXm": {
       "type": "dynamic-html",
+      "disabled": true,
       "custom_css": [
         "{margin-top: -70px;}"
       ],
@@ -38,7 +23,6 @@
     },
     "dynamic_custom_liquid_C9HdJ3": {
       "type": "dynamic-custom-liquid",
-      "disabled": true,
       "custom_css": [
         "{margin-top: -70px;}"
       ],
@@ -49,7 +33,6 @@
     },
     "dynamic_custom_liquid_q4tCT9": {
       "type": "dynamic-custom-liquid",
-      "disabled": true,
       "name": "Custom Liquid - Video Mobile",
       "settings": {
         "custom_liquid": "{% comment %}\n  Custom Video Player for Mobile Devices Only\n{% endcomment %}\n\n<div class=\"mobile-video-container\">\n  <video \n    id=\"mobile-video-player\"\n    class=\"mobile-video\"\n    src=\"https://cdn.shopify.com/videos/c/o/v/75ffa50b6d204f1fb1b9c4a17589f94f.mp4\"\n    autoplay\n    muted\n    playsinline\n    loop>\n    Your browser does not support the video tag.\n  </video>\n</div>\n\n<style>\n  /* Mobile Video Container Styles - Full Width */\n  .mobile-video-container {\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    overflow: hidden;\n    display: none; /* Hidden by default */\n  }\n  \n  /* Base Video Styles */\n  .mobile-video {\n    width: 100%;\n    display: block;\n    object-fit: cover;\n  }\n  \n  /* Media Queries for Responsive Design */\n  @media screen and (max-width: 767px) {\n    /* Small screens (mobile) - Video visible */\n    .mobile-video-container {\n      display: block;\n    }\n    \n    .mobile-video {\n      height: 200px; /* Height for mobile */\n    }\n  }\n  \n  @media screen and (min-width: 768px) and (max-width: 1023px) {\n    /* Medium screens (tablet) - Video visible */\n    .mobile-video-container {\n      display: block;\n    }\n    \n    .mobile-video {\n      height: 300px; /* Height for tablet */\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    /* Large screens (desktop) - Video hidden */\n    .mobile-video-container {\n      display: none;\n    }\n  }\n</style>"
@@ -57,7 +40,6 @@
     },
     "dynamic_custom_liquid_nXfma8": {
       "type": "dynamic-custom-liquid",
-      "disabled": true,
       "custom_css": [],
       "name": "Custom Liquid - Yellow Divider",
       "settings": {
@@ -181,8 +163,7 @@
       "custom_css": [
         "{background-color: #21225b; margin-top: 60px; padding-bottom: 10px;}",
         "span {color: white;}",
-        "h2 {padding-top: 25px; color: white;}",
-        " {margin-top: -70px;}"
+        "h2 {padding-top: 25px; color: white;}"
       ],
       "settings": {
         "title": "EMERGENCY VEHICLE LIGHTING & ACCESSORIES",
@@ -914,7 +895,6 @@
     }
   },
   "order": [
-    "pxs_image_with_text_overlay_aAKKLE",
     "dynamic_html_fKYXXm",
     "dynamic_custom_liquid_C9HdJ3",
     "dynamic_custom_liquid_q4tCT9",
