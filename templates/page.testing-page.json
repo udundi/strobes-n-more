@@ -192,7 +192,7 @@
         "promotion_Jpezdz": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/web_photos-7.png",
+            "image": "shopify://shop_images/web_photos-2_b5161222-282a-428f-87c5-64f88c6083bb.png",
             "title": "LED Lights",
             "text": "When responding to emergencies, visibility is everything. Strobes N’ More offers high-performance LED lights engineered for maximum brightness, durability, and efficiency—keeping your vehicle seen and your team safe in any condition.",
             "color": "#ffffff",
@@ -207,61 +207,61 @@
         "promotion_tnGigk": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/web_photos-3.png",
+            "image": "shopify://shop_images/web_photos-3_38431bc8-6a9f-4154-a39e-86e2e99091f5.png",
             "title": "Lightbars",
             "text": "Stay visible and safe with Strobes N’ More LED lightbars—built for unmatched brightness, reliability, and performance in any situation.",
             "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/lightbars",
             "button_text": "View Collection",
             "button_style": "secondary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 24
           }
         },
         "promotion_pDJaQd": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/web_photos-11.png",
+            "image": "shopify://shop_images/web_photos-11_665cb2ac-d87a-487c-b543-9998abd7add2.png",
             "title": "Switches & Controllers",
             "text": "Control your vehicle’s lighting with Strobes N’ More durable, high-performance switches and controllers built for reliability and ease.",
             "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/switches-controllers",
             "button_text": "View Collection",
             "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 24
           }
         },
         "promotion_Erd6QK": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/web_photos-12_07817206-1927-436e-8d01-7ab471d6c20e.png",
+            "image": "shopify://shop_images/web_photos-12_cb8ebdd4-079a-4cda-b110-4e0b37ac224f.png",
             "title": "Siren and Speakers",
             "text": "Strobes N’ More offers high-performance sirens and speakers built for clarity, durability, and reliability—ensuring your emergency vehicle is heard when it matters most.",
             "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/sirens-speakers",
             "button_text": "View Collection",
             "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 24
           }
         },
         "promotion_gGVWcD": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/web_photos-4_5615df38-5dab-4040-abc1-1c6ef44a5ee8.png",
+            "image": "shopify://shop_images/web_photos-4_71f926fc-cc12-4b9f-a376-80cb599ab0c1.png",
             "title": "360 Beacons",
             "text": "Light the way with Strobes N More's high-performance LED beacon lights-engineered for unmatched brightness, durability, and safety on every job.",
             "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/360-beacons",
             "button_text": "View Collection",
             "button_style": "secondary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 24
           }
         }
       },
@@ -287,76 +287,76 @@
         "promotion_LiBWDT": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/web_photos-9.png",
+            "image": "shopify://shop_images/web_photos-9_be1f3497-0c28-4e14-9e5f-a67636a073a9.png",
             "title": "Vehicle Consoles",
             "text": "Upgrade your ride with Strobes N More's custom-fit vehicle consoles-built for durability, seamless integration, and professional functionality.",
             "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/vehicle-specific-consoles",
             "button_text": "View Collection",
             "button_style": "secondary",
-            "show_overlay": false,
-            "background": "#949494",
+            "show_overlay": true,
+            "background": "#1d1d1d",
             "opacity": 29
           }
         },
         "promotion_Hk7DDK": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/web_photos-1_6aa4f12a-3995-4bb4-84a3-32de0a64bedd.png",
+            "image": "shopify://shop_images/web_photos-8_369fd130-bbc4-43d8-9e76-9af381467403.png",
             "title": "Flasher Modules",
             "text": "Boost your vehicle’s visibility with Strobes N’ More LED flasher lights—bright, reliable, and easy to install.",
             "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/flasher-modules",
             "button_text": "View Collection",
             "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 24
           }
         },
         "promotion_8dTDfb": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/web_photos-7.png",
+            "image": "shopify://shop_images/web_photos-6_f5eeb529-651a-47fc-b2bb-10813195d67f.png",
             "title": "Replacement Lenses & Bulbs",
             "text": "Keep your lights shining bright with durable replacement lenses and bulbs from Strobes N More -built for performance, safety, and reliability",
             "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/replacement-bulbs-lenses",
             "button_text": "View Collection",
             "button_style": "secondary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 23
           }
         },
         "promotion_9UnTYE": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/web_photos-13_1.png",
+            "image": "shopify://shop_images/web_photos-13.png",
             "title": "Arrow & Traffic LED Lightbars",
             "text": "Stay visible and in control with Strobes N More’s durable, high-performance traffic advisor lights and arrow bars built for clear, reliable signaling.",
             "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/arrow-traffic-advisor-bars-1",
             "button_text": "View Collection",
             "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 24
           }
         },
         "promotion_EnHrXR": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/web_photos-5_3767844a-f17f-40fe-91c1-4a87d2ba0cd2.png",
+            "image": "shopify://shop_images/web_photos-1_d0839f9c-e42d-40fd-b0ae-a7e1ebea4d89.png",
             "title": "Cables, Accessories & More",
             "text": "Upgrade your ride with premium car accessories from Strobes N More-where safety, performance, and reliability come standard.",
             "color": "#ffffff",
             "block_link": "https://strobesnmore.com/collections/cables-accessories",
             "button_text": "View Collection",
             "button_style": "primary",
-            "show_overlay": false,
+            "show_overlay": true,
             "background": "",
-            "opacity": 50
+            "opacity": 24
           }
         }
       },
