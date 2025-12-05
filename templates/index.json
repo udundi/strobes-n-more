@@ -39,6 +39,42 @@
         "custom_liquid": "{% comment %}\n  Universal Divider Section with Custom Margins\n{% endcomment %}\n\n<div class=\"mobile-divider-section\"></div>\n\n<style>\n  .mobile-divider-section {\n    background-color: #ffe614;\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    height: 5px;\n    display: block; /* Visible on all screens */\n  }\n  \n  /* Responsive margin settings */\n  @media screen and (max-width: 1023px) {\n    .mobile-divider-section {\n      margin-top: -50px; /* Top margin for small screens */\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    .mobile-divider-section {\n      margin-top: -70px; /* Top margin for large screens */\n    }\n  }\n</style>"
       }
     },
+    "dynamic_featured_collection-2": {
+      "type": "dynamic-featured-collection",
+      "blocks": {
+        "title-card": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify://shop_images/website_graphics-1_1.png",
+            "text_alignment": "center-center",
+            "pre_heading": "",
+            "heading": "Switches & Controllers",
+            "text_color": "#ffffff",
+            "show_on_mobile": true,
+            "horizontal_size": "3",
+            "vertical_size": "2",
+            "enable_full_width_on_mobile": false,
+            "cta_label": "See more",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "title-card"
+      ],
+      "custom_css": [],
+      "name": "Collection - Staff Picks",
+      "settings": {
+        "title": "",
+        "layout": "slideshow",
+        "mobile_layout": "slideshow",
+        "collection": "switches-controllers",
+        "product_count": 7,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
+    },
     "dynamic_promo_mosaic_8tfXTh": {
       "type": "dynamic-promo-mosaic",
       "blocks": {
@@ -368,44 +404,6 @@
         "image-crop": "original",
         "cta_label": "",
         "cta_link": "",
-        "cta_button_style": "primary"
-      }
-    },
-    "dynamic_featured_collection-2": {
-      "type": "dynamic-featured-collection",
-      "blocks": {
-        "title-card": {
-          "type": "title_card",
-          "settings": {
-            "image": "shopify://shop_images/website_graphics-1_1.png",
-            "text_alignment": "center-center",
-            "pre_heading": "",
-            "heading": "Switches & Controllers",
-            "text_color": "#ffffff",
-            "show_on_mobile": true,
-            "horizontal_size": "3",
-            "vertical_size": "2",
-            "enable_full_width_on_mobile": false,
-            "cta_label": "See more",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "title-card"
-      ],
-      "custom_css": [
-        "{margin-top: 70px;}"
-      ],
-      "name": "Collection - Staff Picks",
-      "settings": {
-        "title": "",
-        "layout": "slideshow",
-        "mobile_layout": "slideshow",
-        "collection": "switches-controllers",
-        "product_count": 7,
-        "cta_label": "",
         "cta_button_style": "primary"
       }
     },
@@ -993,10 +991,10 @@
     "dynamic_html_fKYXXm",
     "dynamic_custom_liquid_C9HdJ3",
     "dynamic_custom_liquid_nXfma8",
+    "dynamic_featured_collection-2",
     "dynamic_promo_mosaic_8tfXTh",
     "dynamic_promo_mosaic_793pfQ",
     "dynamic_collection_list",
-    "dynamic_featured_collection-2",
     "dynamic_featured_collection_xVetnN",
     "dynamic_custom_liquid_8WJDtC",
     "dynamic_custom_liquid_C7bmL7",
