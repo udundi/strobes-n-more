@@ -165,7 +165,8 @@
         "{background-color: #21225b; margin-top: 60px; padding-bottom: 10px;}",
         "span {color: white;}",
         "h2 {padding-top: 25px; color: white;}",
-        " {margin-top: -70px;}"
+        " {margin-top: -70px;}",
+        "@media (max-width: 768px) {{margin-top: -50px; }}"
       ],
       "settings": {
         "title": "EMERGENCY VEHICLE LIGHTING & ACCESSORIES",
