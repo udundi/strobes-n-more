@@ -199,9 +199,9 @@
             "block_link": "https://strobesnmore.com/collections/led-lights",
             "button_text": "View Collection",
             "button_style": "secondary",
-            "show_overlay": false,
-            "background": "#949494",
-            "opacity": 29
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
           }
         },
         "promotion_tnGigk": {
@@ -215,8 +215,8 @@
             "button_text": "View Collection",
             "button_style": "secondary",
             "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 24
+            "background": "#000000",
+            "opacity": 55
           }
         },
         "promotion_pDJaQd": {
@@ -230,8 +230,8 @@
             "button_text": "View Collection",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 24
+            "background": "#000000",
+            "opacity": 55
           }
         },
         "promotion_Erd6QK": {
@@ -245,8 +245,8 @@
             "button_text": "View Collection",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 24
+            "background": "#000000",
+            "opacity": 55
           }
         },
         "promotion_gGVWcD": {
@@ -260,8 +260,8 @@
             "button_text": "View Collection",
             "button_style": "secondary",
             "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 24
+            "background": "#000000",
+            "opacity": 55
           }
         }
       },
@@ -295,8 +295,8 @@
             "button_text": "View Collection",
             "button_style": "secondary",
             "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 29
+            "background": "#000000",
+            "opacity": 55
           }
         },
         "promotion_Hk7DDK": {
@@ -310,8 +310,8 @@
             "button_text": "View Collection",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 24
+            "background": "#000000",
+            "opacity": 55
           }
         },
         "promotion_8dTDfb": {
@@ -325,8 +325,8 @@
             "button_text": "View Collection",
             "button_style": "secondary",
             "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 23
+            "background": "#000000",
+            "opacity": 55
           }
         },
         "promotion_9UnTYE": {
@@ -340,8 +340,8 @@
             "button_text": "View Collection",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 24
+            "background": "#000000",
+            "opacity": 55
           }
         },
         "promotion_EnHrXR": {
@@ -355,8 +355,8 @@
             "button_text": "View Collection",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "",
-            "opacity": 24
+            "background": "#000000",
+            "opacity": 55
           }
         }
       },
