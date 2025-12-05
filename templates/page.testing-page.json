@@ -376,6 +376,234 @@
         "maintain_aspect_ratio": true,
         "compress_blocks": true
       }
+    },
+    "dynamic_promo_grid_ULmYez": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion_TCETHP": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-9_be1f3497-0c28-4e14-9e5f-a67636a073a9.png",
+            "title": "Vehicle Consoles",
+            "text": "Upgrade your ride with Strobes N More's custom-fit vehicle consoles-built for durability, and seamless integration.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/speakers",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 50
+          }
+        },
+        "promotion_bgmjxQ": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-8_369fd130-bbc4-43d8-9e76-9af381467403.png",
+            "title": "Flasher Modules",
+            "text": "Boost your vehicle’s visibility with Strobes N’ More LED flasher lights—bright, reliable, and easy to install.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/flasher-modules",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 50
+          }
+        },
+        "promotion_GB4xBX": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-13.png",
+            "title": "Arrow & Traffic LED Lightbars",
+            "text": "Stay visible and in control with Strobes N More’s durable, high-performance traffic advisor lights and arrow bars built for clear.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/arrow-traffic-advisor-bars-1",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 50
+          }
+        },
+        "promotion_JpaMH7": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-12_cb8ebdd4-079a-4cda-b110-4e0b37ac224f.png",
+            "title": "Siren and Speakers",
+            "text": "high-performance sirens and speakers built for clarity, durability, and reliability—ensuring your emergency vehicle is heard when it matters most.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/speakers",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion_TCETHP",
+        "promotion_bgmjxQ",
+        "promotion_GB4xBX",
+        "promotion_JpaMH7"
+      ],
+      "custom_css": [
+        "{display: none;}",
+        "@media (min-width: 768px) {{display: block; }}",
+        "@media (min-width: 1024px) {{display: block; }}"
+      ],
+      "name": "t:sections.grid.presets.grid.name",
+      "settings": {
+        "title": "",
+        "text_outside": false,
+        "text_centered": false,
+        "section_height": "small",
+        "section_columns": 4,
+        "text_alignment": "top-left"
+      }
+    },
+    "dynamic_promo_grid_VJdk7Y": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion_rfFe7U": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-9_be1f3497-0c28-4e14-9e5f-a67636a073a9.png",
+            "title": "Vehicle Consoles",
+            "text": "Upgrade your ride with Strobes N More's custom-fit vehicle consoles-built for durability, and seamless integration.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/speakers",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 50
+          }
+        },
+        "promotion_bNkm6H": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-8_369fd130-bbc4-43d8-9e76-9af381467403.png",
+            "title": "Flasher Modules",
+            "text": "Boost your vehicle’s visibility with Strobes N’ More LED flasher lights—bright, reliable, and easy to install.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/flasher-modules",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 50
+          }
+        },
+        "promotion_VjqFw4": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-13.png",
+            "title": "Arrow & Traffic LED Lightbars",
+            "text": "Stay visible and in control with Strobes N More’s durable, high-performance traffic advisor lights and arrow bars built for clear.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/arrow-traffic-advisor-bars-1",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 50
+          }
+        },
+        "promotion_eHcWem": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-12_cb8ebdd4-079a-4cda-b110-4e0b37ac224f.png",
+            "title": "Siren and Speakers",
+            "text": "high-performance sirens and speakers built for clarity, durability, and reliability—ensuring your emergency vehicle is heard when it matters most.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/speakers",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion_rfFe7U",
+        "promotion_bNkm6H",
+        "promotion_VjqFw4",
+        "promotion_eHcWem"
+      ],
+      "custom_css": [
+        "{display: none;}",
+        "@media (min-width: 768px) {{display: block; }}",
+        "@media (min-width: 1024px) {{display: block; }}"
+      ],
+      "name": "t:sections.grid.presets.grid.name",
+      "settings": {
+        "title": "",
+        "text_outside": false,
+        "text_centered": false,
+        "section_height": "small",
+        "section_columns": 4,
+        "text_alignment": "top-left"
+      }
+    },
+    "dynamic_collection_list_amr86g": {
+      "type": "dynamic-collection-list",
+      "blocks": {
+        "collection_dPTg4Y": {
+          "type": "collection",
+          "settings": {
+            "collection": "speakers",
+            "image": "shopify://shop_images/web_photos-12_cb8ebdd4-079a-4cda-b110-4e0b37ac224f.png",
+            "title": ""
+          }
+        },
+        "collection_TKWbkj": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection_kefp7g": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection_n7rcPg": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        },
+        "collection_hKRgbW": {
+          "type": "collection",
+          "settings": {
+            "collection": "",
+            "title": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_dPTg4Y",
+        "collection_TKWbkj",
+        "collection_kefp7g",
+        "collection_n7rcPg",
+        "collection_hKRgbW"
+      ],
+      "name": "t:sections.collection_list.presets.collection_list.name",
+      "settings": {
+        "title": "Collection list",
+        "thumbnail_columns_desktop": 5,
+        "thumbnail_columns_mobile": 2,
+        "image-crop": "original",
+        "cta_label": "View All",
+        "cta_link": "",
+        "cta_button_style": "primary"
+      }
     }
   },
   "order": [
@@ -390,6 +618,9 @@
     "dynamic_shoppable_image_jWbWe8",
     "dynamic_rich_text_D9YXAi",
     "dynamic_promo_mosaic_xiTebh",
-    "dynamic_promo_mosaic_xkEzT4"
+    "dynamic_promo_mosaic_xkEzT4",
+    "dynamic_promo_grid_ULmYez",
+    "dynamic_promo_grid_VJdk7Y",
+    "dynamic_collection_list_amr86g"
   ]
 }
