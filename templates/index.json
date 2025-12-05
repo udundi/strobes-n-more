@@ -136,7 +136,7 @@
         "section_height": "small",
         "text_alignment": "top-left",
         "maintain_aspect_ratio": false,
-        "compress_blocks": false
+        "compress_blocks": true
       }
     },
     "dynamic_promo_mosaic_793pfQ": {
@@ -236,7 +236,7 @@
         "section_height": "small",
         "text_alignment": "top-left",
         "maintain_aspect_ratio": false,
-        "compress_blocks": false
+        "compress_blocks": true
       }
     },
     "dynamic_collection_list": {
