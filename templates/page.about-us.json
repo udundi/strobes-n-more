@@ -232,21 +232,6 @@
             "opacity": 49
           }
         },
-        "promotion_ea7jKy": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/Benny.jpg",
-            "title": "Benny",
-            "text": "Inbound Sales & Customer Support Specialist",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 49
-          }
-        },
         "promotion_Qx8VtE": {
           "type": "promotion",
           "settings": {
@@ -486,13 +471,27 @@
             "background": "",
             "opacity": 50
           }
+        },
+        "promotion_YwBJUy": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Savannah-1_1.jpg",
+            "title": "Savannah",
+            "text": "Warehouse Specialist",
+            "color": "#4d4d4d",
+            "block_link": "",
+            "button_text": "",
+            "button_style": "primary",
+            "show_overlay": false,
+            "background": "",
+            "opacity": 50
+          }
         }
       },
       "block_order": [
         "promotion_X4Eaqk",
         "promotion_MCi6qe",
         "promotion_MGkeYw",
-        "promotion_ea7jKy",
         "promotion_Qx8VtE",
         "promotion_qWPfMa",
         "promotion_PgMDcH",
@@ -508,7 +507,8 @@
         "promotion_xxUaKa",
         "promotion_7XmU94",
         "promotion_wFDQje",
-        "promotion_hHLgxm"
+        "promotion_hHLgxm",
+        "promotion_YwBJUy"
       ],
       "custom_css": [
         "a {text-decoration: none; color: #000;}"
@@ -525,36 +525,6 @@
     "dynamic_promo_grid_39P3Bh": {
       "type": "dynamic-promo-grid",
       "blocks": {
-        "promotion_iWmB8c": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/Matt_BW.jpg",
-            "title": "Matt R",
-            "text": "Inbound Sales & Technical Support",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_g6cJH6": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/Savannah-1_1.jpg",
-            "title": "Savannah",
-            "text": "Warehouse Specialist",
-            "color": "#4d4d4d",
-            "block_link": "",
-            "button_text": "",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
         "promotion_TaDPX4": {
           "type": "promotion",
           "settings": {
@@ -617,8 +587,6 @@
         }
       },
       "block_order": [
-        "promotion_iWmB8c",
-        "promotion_g6cJH6",
         "promotion_TaDPX4",
         "promotion_3RapKq",
         "promotion_Nzfwki",
