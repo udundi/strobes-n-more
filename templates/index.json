@@ -26,17 +26,9 @@
       "custom_css": [
         "{margin-top: -70px;}"
       ],
-      "name": "Custom Liquid - Video Desktop",
+      "name": "Custom Liquid - First Video",
       "settings": {
         "custom_liquid": "{% comment %}\n  Custom Video Player with Autoplay and Mute - Responsive All Devices\n{% endcomment %}\n<div class=\"custom-video-container\">\n  <video \n    id=\"custom-video-player\"\n    class=\"custom-video\"\n    src=\"https://cdn.shopify.com/videos/c/o/v/3b53ccbda7eb45fdabaf42904531dba8.mp4\"\n    autoplay\n    muted\n    playsinline\n    loop>\n    Your browser does not support the video tag.\n  </video>\n</div>\n<style>\n  /* Video Container Styles - Full Width */\n  .custom-video-container {\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    overflow: hidden;\n    display: block;\n  }\n  \n  /* Base Video Styles */\n  .custom-video {\n    width: 100%;\n    display: block;\n    object-fit: cover;\n  }\n  \n  /* Media Queries for Responsive Design */\n  @media screen and (max-width: 767px) {\n    /* Small screens (mobile) - Video visible */\n    .custom-video-container {\n      display: block;\n    }\n    \n    .custom-video {\n      height: 200px;\n    }\n  }\n  \n  @media screen and (min-width: 768px) and (max-width: 1023px) {\n    /* Medium screens (tablet) - Video visible */\n    .custom-video-container {\n      display: block;\n    }\n    \n    .custom-video {\n      height: 450px;\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    /* Large screens (laptop/desktop) - Video visible */\n    .custom-video-container {\n      display: block;\n    }\n    \n    .custom-video {\n      height: 500px;\n    }\n  }\n  \n\n</style>"
-      }
-    },
-    "dynamic_custom_liquid_q4tCT9": {
-      "type": "dynamic-custom-liquid",
-      "disabled": true,
-      "name": "Custom Liquid - Video Mobile",
-      "settings": {
-        "custom_liquid": "{% comment %}\n  Custom Video Player for Mobile Devices Only\n{% endcomment %}\n\n<div class=\"mobile-video-container\">\n  <video \n    id=\"mobile-video-player\"\n    class=\"mobile-video\"\n    src=\"https://cdn.shopify.com/videos/c/o/v/75ffa50b6d204f1fb1b9c4a17589f94f.mp4\"\n    autoplay\n    muted\n    playsinline\n    loop>\n    Your browser does not support the video tag.\n  </video>\n</div>\n\n<style>\n  /* Mobile Video Container Styles - Full Width */\n  .mobile-video-container {\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    overflow: hidden;\n    display: none; /* Hidden by default */\n  }\n  \n  /* Base Video Styles */\n  .mobile-video {\n    width: 100%;\n    display: block;\n    object-fit: cover;\n  }\n  \n  /* Media Queries for Responsive Design */\n  @media screen and (max-width: 767px) {\n    /* Small screens (mobile) - Video visible */\n    .mobile-video-container {\n      display: block;\n    }\n    \n    .mobile-video {\n      height: 200px; /* Height for mobile */\n    }\n  }\n  \n  @media screen and (min-width: 768px) and (max-width: 1023px) {\n    /* Medium screens (tablet) - Video visible */\n    .mobile-video-container {\n      display: block;\n    }\n    \n    .mobile-video {\n      height: 300px; /* Height for tablet */\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    /* Large screens (desktop) - Video hidden */\n    .mobile-video-container {\n      display: none;\n    }\n  }\n</style>"
       }
     },
     "dynamic_custom_liquid_nXfma8": {
@@ -45,6 +37,206 @@
       "name": "Custom Liquid - Yellow Divider",
       "settings": {
         "custom_liquid": "{% comment %}\n  Universal Divider Section with Custom Margins\n{% endcomment %}\n\n<div class=\"mobile-divider-section\"></div>\n\n<style>\n  .mobile-divider-section {\n    background-color: #ffe614;\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    height: 5px;\n    display: block; /* Visible on all screens */\n  }\n  \n  /* Responsive margin settings */\n  @media screen and (max-width: 1023px) {\n    .mobile-divider-section {\n      margin-top: -50px; /* Top margin for small screens */\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    .mobile-divider-section {\n      margin-top: -70px; /* Top margin for large screens */\n    }\n  }\n</style>"
+      }
+    },
+    "dynamic_promo_mosaic_8tfXTh": {
+      "type": "dynamic-promo-mosaic",
+      "blocks": {
+        "promotion_9Fwwh3": {
+          "type": "promotion",
+          "name": "LED Lights",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-2_b5161222-282a-428f-87c5-64f88c6083bb.png",
+            "title": "LED Lights",
+            "text": "When responding to emergencies, visibility is everything. Strobes N’ More offers high-performance LED lights engineered for maximum brightness, durability, and efficiency—keeping your vehicle seen and your team safe in any condition.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/led-lights",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        },
+        "promotion_YAmD4H": {
+          "type": "promotion",
+          "name": "Switches & Controllers",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-11_665cb2ac-d87a-487c-b543-9998abd7add2.png",
+            "title": "Switches & Controllers",
+            "text": "Control your vehicle’s lighting with Strobes N’ More durable, high-performance switches and controllers built for reliability and ease.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/switches-controllers",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        },
+        "promotion_te3XpC": {
+          "type": "promotion",
+          "name": "360 Beacons",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-4_71f926fc-cc12-4b9f-a376-80cb599ab0c1.png",
+            "title": "360 Beacons",
+            "text": "Light the way with Strobes N More's high-performance LED beacon lights-engineered for unmatched brightness, durability, and safety on every job.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/360-beacons",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        },
+        "promotion_pmyt9c": {
+          "type": "promotion",
+          "name": "Siren and Speakers",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-12_cb8ebdd4-079a-4cda-b110-4e0b37ac224f.png",
+            "title": "Siren and Speakers",
+            "text": "Strobes N’ More offers high-performance sirens and speakers built for clarity, durability, and reliability—ensuring your emergency vehicle is heard when it matters most.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/sirens-speakers",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        },
+        "promotion_cTi9Wm": {
+          "type": "promotion",
+          "name": "Lightbars",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-3_38431bc8-6a9f-4154-a39e-86e2e99091f5.png",
+            "title": "Lightbars",
+            "text": "Stay visible and safe with Strobes N’ More LED lightbars—built for unmatched brightness, reliability, and performance in any situation.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/lightbars",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        }
+      },
+      "block_order": [
+        "promotion_9Fwwh3",
+        "promotion_YAmD4H",
+        "promotion_te3XpC",
+        "promotion_pmyt9c",
+        "promotion_cTi9Wm"
+      ],
+      "name": "t:sections.mosaic.presets.mosaic.name",
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "text_alignment": "top-left",
+        "maintain_aspect_ratio": false,
+        "compress_blocks": false
+      }
+    },
+    "dynamic_promo_mosaic_793pfQ": {
+      "type": "dynamic-promo-mosaic",
+      "blocks": {
+        "promotion_7eXCQr": {
+          "type": "promotion",
+          "name": "LED Lights",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-9_be1f3497-0c28-4e14-9e5f-a67636a073a9.png",
+            "title": "Vehicle Consoles",
+            "text": "Upgrade your ride with Strobes N More's custom-fit vehicle consoles-built for durability, seamless integration, and professional functionality.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/vehicle-specific-consoles",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        },
+        "promotion_7md4eh": {
+          "type": "promotion",
+          "name": "Switches & Controllers",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-8_369fd130-bbc4-43d8-9e76-9af381467403.png",
+            "title": "Flasher Modules",
+            "text": "Boost your vehicle’s visibility with Strobes N’ More LED flasher lights—bright, reliable, and easy to install.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/flasher-modules",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        },
+        "promotion_ML9ByX": {
+          "type": "promotion",
+          "name": "360 Beacons",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-6_f5eeb529-651a-47fc-b2bb-10813195d67f.png",
+            "title": "Replacement Lenses & Bulbs",
+            "text": "Keep your lights shining bright with durable replacement lenses and bulbs from Strobes N More -built for performance, safety, and reliability",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/replacement-bulbs-lenses",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        },
+        "promotion_nfRXPY": {
+          "type": "promotion",
+          "name": "Siren and Speakers",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-13.png",
+            "title": "Arrow & Traffic LED Lightbars",
+            "text": "Stay visible and in control with Strobes N More’s durable, high-performance traffic advisor lights and arrow bars built for clear, reliable signaling.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/arrow-traffic-advisor-bars-1",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        },
+        "promotion_bqTyij": {
+          "type": "promotion",
+          "name": "Lightbars",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-1_d0839f9c-e42d-40fd-b0ae-a7e1ebea4d89.png",
+            "title": "Cables, Accessories & More",
+            "text": "Upgrade your ride with premium car accessories from Strobes N More-where safety, performance, and reliability come standard.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/cables-accessories",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        }
+      },
+      "block_order": [
+        "promotion_7eXCQr",
+        "promotion_7md4eh",
+        "promotion_ML9ByX",
+        "promotion_nfRXPY",
+        "promotion_bqTyij"
+      ],
+      "name": "t:sections.mosaic.presets.mosaic.name",
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "text_alignment": "top-left",
+        "maintain_aspect_ratio": false,
+        "compress_blocks": false
       }
     },
     "dynamic_collection_list": {
@@ -161,6 +353,7 @@
         "collection_qrbbAU",
         "collection_77NgWN"
       ],
+      "disabled": true,
       "custom_css": [
         "{background-color: #21225b; margin-top: 60px; padding-bottom: 10px;}",
         "span {color: white;}",
@@ -794,114 +987,14 @@
       "settings": {
         "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Strobes N' More\",\n  \"url\": \"https://strobesnmore.com/\",\n  \"logo\": \"https://strobesnmore.com/cdn/shop/files/logo_transparent2x_562x192.png\",\n  \"contactPoint\": {\n    \"@type\": \"ContactPoint\",\n    \"telephone\": \"+1-401-454-4487\",\n    \"contactType\": \"Customer Service\",\n    \"areaServed\": \"US\",\n    \"availableLanguage\": \"en\"\n  },\n  \"sameAs\": [\n    \"https://www.facebook.com/Strobesnmore/\",\n    \"https://www.instagram.com/strobesnmore/\",\n    \"https://youtube.com/user/StrobesnmoreUSA\"\n\n  ]\n}\n</script>"
       }
-    },
-    "dynamic_promo_mosaic_8tfXTh": {
-      "type": "dynamic-promo-mosaic",
-      "blocks": {
-        "promotion_9Fwwh3": {
-          "type": "promotion",
-          "name": "LED Lights",
-          "settings": {
-            "image": "shopify://shop_images/website_graphics-2_2.png",
-            "title": "LED Lights",
-            "text": "When responding to emergencies, visibility is everything. Strobes N’ More offers high-performance LED lights engineered for maximum brightness, durability, and efficiency—keeping your vehicle seen and your team safe in any condition.",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/led-lights",
-            "button_text": "View Collection",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_cTi9Wm": {
-          "type": "promotion",
-          "name": "Lightbars",
-          "settings": {
-            "image": "shopify://shop_images/website_graphics-2_2.png",
-            "title": "Lightbars",
-            "text": "Stay visible and safe with Strobes N’ More LED lightbars—built for unmatched brightness, reliability, and performance in any situation.",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/lightbars",
-            "button_text": "View Collection",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_YAmD4H": {
-          "type": "promotion",
-          "name": "Switches & Controllers",
-          "settings": {
-            "image": "shopify://shop_images/website_graphics-1_1.png",
-            "title": "Switches & Controllers",
-            "text": "Control your vehicle’s lighting with Strobes N’ More durable, high-performance switches and controllers built for reliability and ease.",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/switches-controllers",
-            "button_text": "View Collection",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_pmyt9c": {
-          "type": "promotion",
-          "name": "Siren and Speakers",
-          "settings": {
-            "image": "shopify://shop_images/website_graphics-1_1.png",
-            "title": "Siren and Speakers",
-            "text": "Strobes N’ More offers high-performance sirens and speakers built for clarity, durability, and reliability—ensuring your emergency vehicle is heard when it matters most.",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/sirens-speakers",
-            "button_text": "View Collection",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        },
-        "promotion_te3XpC": {
-          "type": "promotion",
-          "name": "360 Beacons",
-          "settings": {
-            "image": "shopify://shop_images/Screenshot_2025-09-04_132108.png",
-            "title": "360 Beacons",
-            "text": "Light the way with Strobes N More's high-performance LED beacon lights-engineered for unmatched brightness, durability, and safety on every job.",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/360-beacons",
-            "button_text": "View Collection",
-            "button_style": "primary",
-            "show_overlay": false,
-            "background": "",
-            "opacity": 50
-          }
-        }
-      },
-      "block_order": [
-        "promotion_9Fwwh3",
-        "promotion_cTi9Wm",
-        "promotion_YAmD4H",
-        "promotion_pmyt9c",
-        "promotion_te3XpC"
-      ],
-      "disabled": true,
-      "name": "t:sections.mosaic.presets.mosaic.name",
-      "settings": {
-        "title": "",
-        "section_height": "small",
-        "text_alignment": "top-left",
-        "maintain_aspect_ratio": false,
-        "compress_blocks": false
-      }
     }
   },
   "order": [
     "dynamic_html_fKYXXm",
     "dynamic_custom_liquid_C9HdJ3",
-    "dynamic_custom_liquid_q4tCT9",
     "dynamic_custom_liquid_nXfma8",
+    "dynamic_promo_mosaic_8tfXTh",
+    "dynamic_promo_mosaic_793pfQ",
     "dynamic_collection_list",
     "dynamic_featured_collection-2",
     "dynamic_featured_collection_xVetnN",
@@ -919,7 +1012,6 @@
     "dynamic_logo_list_K49fPx",
     "dynamic_rich_text_87LzTE",
     "dynamic_faq_Fczewz",
-    "dynamic_custom_liquid_jCcFeA",
-    "dynamic_promo_mosaic_8tfXTh"
+    "dynamic_custom_liquid_jCcFeA"
   ]
 }
