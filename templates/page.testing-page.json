@@ -251,6 +251,7 @@
         },
         "promotion_gGVWcD": {
           "type": "promotion",
+          "disabled": true,
           "settings": {
             "image": "shopify://shop_images/web_photos-4_71f926fc-cc12-4b9f-a376-80cb599ab0c1.png",
             "title": "360 Beacons",
