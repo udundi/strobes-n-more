@@ -168,7 +168,7 @@
         "{display: none;}",
         "@media (min-width: 768px) {{display: block; }}",
         "@media (min-width: 1024px) {{display: block; }}",
-        "h2 {font-size: 2.5rem;}"
+        "h2 {font-size: 2rem;}"
       ],
       "name": "t:sections.grid.presets.grid.name",
       "settings": {
