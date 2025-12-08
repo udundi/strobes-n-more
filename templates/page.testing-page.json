@@ -509,6 +509,21 @@
             "background": "#1d1d1d",
             "opacity": 50
           }
+        },
+        "promotion_LMx3pi": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-12_cb8ebdd4-079a-4cda-b110-4e0b37ac224f.png",
+            "title": "Siren and Speakers",
+            "text": "high-performance sirens and speakers built for clarity, durability, and reliability—ensuring your emergency vehicle is heard when it matters most.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/speakers",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#1d1d1d",
+            "opacity": 50
+          }
         }
       },
       "block_order": [
@@ -519,7 +534,8 @@
         "promotion_FW3eEg",
         "promotion_JpaMH7",
         "promotion_GB4xBX",
-        "promotion_d78737"
+        "promotion_d78737",
+        "promotion_LMx3pi"
       ],
       "custom_css": [
         "{display: none;}",
@@ -532,7 +548,7 @@
         "text_outside": false,
         "text_centered": false,
         "section_height": "small",
-        "section_columns": 4,
+        "section_columns": 3,
         "text_alignment": "top-left"
       }
     }
