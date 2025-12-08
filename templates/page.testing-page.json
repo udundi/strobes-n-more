@@ -330,6 +330,9 @@
         "promotion_rjyt8G",
         "promotion_Edw8nK"
       ],
+      "custom_css": [
+        "{margin-top: 170px;}"
+      ],
       "name": "t:sections.grid.presets.grid.name",
       "settings": {
         "title": "",
