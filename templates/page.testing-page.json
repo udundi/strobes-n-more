@@ -176,7 +176,7 @@
         "text_centered": false,
         "section_height": "small",
         "section_columns": 3,
-        "text_alignment": "top-left"
+        "text_alignment": "center-center"
       }
     },
     "dynamic_custom_liquid_rQHL6U": {
@@ -552,6 +552,64 @@
         "maintain_aspect_ratio": true,
         "compress_blocks": true
       }
+    },
+    "dynamic_highlights_banner_YdHEQ8": {
+      "type": "dynamic-highlights-banner",
+      "blocks": {
+        "highlight_zfHRXT": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-email",
+            "image": "shopify://shop_images/web_photos-4_71f926fc-cc12-4b9f-a376-80cb599ab0c1.png",
+            "title": "Free Shipping",
+            "text": "<p>When you spend $100+</p>",
+            "link": ""
+          }
+        },
+        "highlight_GqW7dk": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-cell-phone",
+            "title": "Give Us A Call",
+            "text": "<p>+1 (201) 555-5555</p>",
+            "link": ""
+          }
+        },
+        "highlight_cEDVxd": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-chat-alternate",
+            "title": "Chat With Us",
+            "text": "<p>We offer 24-hour chat support</p>",
+            "link": ""
+          }
+        },
+        "highlight_wi6YyP": {
+          "type": "highlight",
+          "settings": {
+            "icon": "icon-pin",
+            "title": "Locations",
+            "text": "<p>Find a store near you</p>",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "highlight_zfHRXT",
+        "highlight_GqW7dk",
+        "highlight_cEDVxd",
+        "highlight_wi6YyP"
+      ],
+      "name": "t:sections.highlights_banner.presets.highlights_banner.name",
+      "settings": {
+        "section_spacing": false,
+        "section_width": "full-width",
+        "icon_layout": "left",
+        "color": "#4d4d4d",
+        "icon_color": "#4d4d4d",
+        "background_color": "#f8f8f8",
+        "mobile_layout": "slider"
+      }
     }
   },
   "order": [
@@ -567,6 +625,7 @@
     "dynamic_shoppable_image_jWbWe8",
     "dynamic_rich_text_D9YXAi",
     "dynamic_promo_mosaic_xiTebh",
-    "dynamic_promo_mosaic_xkEzT4"
+    "dynamic_promo_mosaic_xkEzT4",
+    "dynamic_highlights_banner_YdHEQ8"
   ]
 }
