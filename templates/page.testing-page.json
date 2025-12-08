@@ -81,7 +81,7 @@
           "type": "promotion",
           "settings": {
             "image": "shopify://shop_images/web_photos-13.png",
-            "title": "Arrow & Traffic LED Lightbars",
+            "title": "Arrows & Traffic LEDs",
             "text": "Stay visible and in control with Strobes N More’s durable, high-performance traffic advisor lights and arrow bars built for clear.",
             "color": "#ffffff",
             "block_link": "shopify://collections/arrow-traffic-advisor-bars-1",
@@ -169,169 +169,6 @@
         "@media (min-width: 768px) {{display: block; }}",
         "@media (min-width: 1024px) {{display: block; }}",
         "h2 {font-size: 2rem;}"
-      ],
-      "name": "t:sections.grid.presets.grid.name",
-      "settings": {
-        "title": "",
-        "text_outside": false,
-        "text_centered": false,
-        "section_height": "small",
-        "section_columns": 3,
-        "text_alignment": "center-center"
-      }
-    },
-    "dynamic_promo_grid_iUeWxc": {
-      "type": "dynamic-promo-grid",
-      "blocks": {
-        "promotion_Etzj8B": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/web_photos-9_be1f3497-0c28-4e14-9e5f-a67636a073a9.png",
-            "title": "Vehicle Consoles",
-            "text": "",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/speakers",
-            "button_text": "View Collection",
-            "button_style": "secondary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
-          }
-        },
-        "promotion_jTiTdW": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/web_photos-8_369fd130-bbc4-43d8-9e76-9af381467403.png",
-            "title": "Flasher Modules",
-            "text": "",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/flasher-modules",
-            "button_text": "View Collection",
-            "button_style": "secondary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
-          }
-        },
-        "promotion_qNJW9q": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/web_photos-9_be1f3497-0c28-4e14-9e5f-a67636a073a9.png",
-            "title": "Vehicle Consoles",
-            "text": "",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/speakers",
-            "button_text": "View Collection",
-            "button_style": "secondary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
-          }
-        },
-        "promotion_z9qQeF": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/web_photos-8_369fd130-bbc4-43d8-9e76-9af381467403.png",
-            "title": "Flasher Modules",
-            "text": "",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/flasher-modules",
-            "button_text": "View Collection",
-            "button_style": "secondary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
-          }
-        },
-        "promotion_UDaP8c": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/web_photos-13.png",
-            "title": "Arrow & Traffic LED Lightbars",
-            "text": "",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/arrow-traffic-advisor-bars-1",
-            "button_text": "View Collection",
-            "button_style": "secondary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
-          }
-        },
-        "promotion_WXBdrw": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/web_photos-12_cb8ebdd4-079a-4cda-b110-4e0b37ac224f.png",
-            "title": "Siren and Speakers",
-            "text": "",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/speakers",
-            "button_text": "View Collection",
-            "button_style": "secondary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
-          }
-        },
-        "promotion_xAGfFp": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/web_photos-13.png",
-            "title": "Arrow & Traffic LED Lightbars",
-            "text": "",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/arrow-traffic-advisor-bars-1",
-            "button_text": "View Collection",
-            "button_style": "secondary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
-          }
-        },
-        "promotion_rjyt8G": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/web_photos-12_cb8ebdd4-079a-4cda-b110-4e0b37ac224f.png",
-            "title": "Siren and Speakers",
-            "text": "",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/speakers",
-            "button_text": "View Collection",
-            "button_style": "secondary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
-          }
-        },
-        "promotion_Edw8nK": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/web_photos-12_cb8ebdd4-079a-4cda-b110-4e0b37ac224f.png",
-            "title": "Siren and Speakers",
-            "text": "",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/speakers",
-            "button_text": "View Collection",
-            "button_style": "secondary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
-          }
-        }
-      },
-      "block_order": [
-        "promotion_Etzj8B",
-        "promotion_jTiTdW",
-        "promotion_qNJW9q",
-        "promotion_z9qQeF",
-        "promotion_UDaP8c",
-        "promotion_WXBdrw",
-        "promotion_xAGfFp",
-        "promotion_rjyt8G",
-        "promotion_Edw8nK"
-      ],
-      "custom_css": [
-        "{margin-top: 170px;}"
       ],
       "name": "t:sections.grid.presets.grid.name",
       "settings": {
@@ -779,7 +616,6 @@
   "order": [
     "main",
     "dynamic_promo_grid_ULmYez",
-    "dynamic_promo_grid_iUeWxc",
     "dynamic_custom_liquid_rQHL6U",
     "dynamic_rich_text_mB8WeC",
     "dynamic_custom_liquid_PtUwKe",
