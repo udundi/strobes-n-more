@@ -713,7 +713,7 @@
             "color": "#ffffff",
             "block_link": "shopify://pages/dealers",
             "button_text": "Learn More",
-            "button_style": "primary",
+            "button_style": "secondary",
             "show_overlay": true,
             "background": "#1d1d1d",
             "opacity": 65
