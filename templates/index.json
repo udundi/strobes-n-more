@@ -700,7 +700,7 @@
             "button_text": "Book Today",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#1d1d1d",
+            "background": "#000000",
             "opacity": 65
           }
         },
@@ -715,7 +715,7 @@
             "button_text": "Learn More",
             "button_style": "secondary",
             "show_overlay": true,
-            "background": "#1d1d1d",
+            "background": "#000000",
             "opacity": 65
           }
         }
