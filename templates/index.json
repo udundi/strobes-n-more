@@ -665,22 +665,6 @@
         "cta_button_style": "primary"
       }
     },
-    "dynamic_custom_liquid_8WJDtC": {
-      "type": "dynamic-custom-liquid",
-      "disabled": true,
-      "name": "Show us your build desktop",
-      "settings": {
-        "custom_liquid": "<style>\n  .desktop-tablet-image {\n    width: 100%;\n    max-width: 100%;\n    height: auto;\n    display: block;\n  }\n  \n  .desktop-tablet-section {\n    width: 100vw;\n    padding: 0;\n    margin: 0;\n    margin-left: calc(-50vw + 50%);\n    background-color: #21225b;\n    position: relative;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n  }\n  \n  .desktop-tablet-container {\n    width: 100%;\n    max-width: 1920px;\n    margin: 0 auto;\n  }\n  \n  /* Hide on mobile devices (768px and below) */\n  @media screen and (max-width: 768px) {\n    .desktop-tablet-section {\n      display: none !important;\n    }\n  }\n  \n  /* Show on tablet and desktop (769px and above) */\n  @media screen and (min-width: 769px) {\n    .desktop-tablet-section {\n      display: block;\n    }\n  }\n</style>\n\n<section class=\"desktop-tablet-section\">\n  <div class=\"desktop-tablet-container\">\n    <a href=\"https://strobesnmore.com/pages/show-us-your-build\" target=\"_blank\" rel=\"noopener noreferrer\">\n      <img \n        src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Show_us_your_build_desktop.png?v=1754066821\"\n        alt=\"Show us your build\"\n        class=\"desktop-tablet-image\"\n        loading=\"lazy\"\n      >\n    </a>\n  </div>\n</section>"
-      }
-    },
-    "dynamic_custom_liquid_C7bmL7": {
-      "type": "dynamic-custom-liquid",
-      "disabled": true,
-      "name": "Show us your build mobile",
-      "settings": {
-        "custom_liquid": "<style>\n  .mobile-image {\n    width: 100%;\n    max-width: 100%;\n    height: auto;\n    display: block;\n  }\n  \n  .mobile-section {\n    width: 100vw;\n    padding: 0;\n    margin: 0;\n    margin-left: calc(-50vw + 50%);\n    position: relative;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n  }\n  \n  .mobile-container {\n    width: 100%;\n    margin: 0 auto;\n  }\n  \n  /* Show only on mobile devices (768px and below) */\n  @media screen and (max-width: 768px) {\n    .mobile-section {\n      display: flex;\n    }\n  }\n  \n  /* Hide on tablet and desktop (769px and above) */\n  @media screen and (min-width: 769px) {\n    .mobile-section {\n      display: none !important;\n    }\n  }\n</style>\n\n<section class=\"mobile-section\">\n  <div class=\"mobile-container\">\n    <a href=\"https://strobesnmore.com/pages/show-us-your-build\" target=\"_blank\" rel=\"noopener noreferrer\">\n      <img \n        src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/show_us_your_build_mobile.jpg?v=1754067414\"\n        alt=\"Show us your build - Mobile\"\n        class=\"mobile-image\"\n        loading=\"lazy\"\n      >\n    </a>\n  </div>\n</section>"
-      }
-    },
     "dynamic_promo_mosaic": {
       "type": "dynamic-promo-mosaic",
       "blocks": {
@@ -1186,8 +1170,6 @@
     "dynamic_collection_list",
     "dynamic_featured_collection-2",
     "dynamic_featured_collection_xVetnN",
-    "dynamic_custom_liquid_8WJDtC",
-    "dynamic_custom_liquid_C7bmL7",
     "dynamic_promo_mosaic",
     "dynamic_rich_text_xBbwX6",
     "dynamic_rich_text_fHTnfJ",
