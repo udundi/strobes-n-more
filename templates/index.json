@@ -299,8 +299,8 @@
             "button_text": "View Collection",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
+            "background": "#000000",
+            "opacity": 70
           }
         },
         "promotion_MFpwTV": {
@@ -314,8 +314,8 @@
             "button_text": "View Collection",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
+            "background": "#000000",
+            "opacity": 70
           }
         },
         "promotion_KBqbhQ": {
@@ -329,8 +329,8 @@
             "button_text": "View Collection",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
+            "background": "#000000",
+            "opacity": 70
           }
         },
         "promotion_CE33UU": {
@@ -344,8 +344,8 @@
             "button_text": "View Collection",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
+            "background": "#000000",
+            "opacity": 70
           }
         },
         "promotion_CppxCF": {
@@ -359,8 +359,8 @@
             "button_text": "View Collection",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
+            "background": "#000000",
+            "opacity": 70
           }
         },
         "promotion_8Yt3BF": {
@@ -374,8 +374,8 @@
             "button_text": "View Collection",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
+            "background": "#000000",
+            "opacity": 70
           }
         },
         "promotion_zUU8i7": {
@@ -389,8 +389,8 @@
             "button_text": "View Collection",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
+            "background": "#000000",
+            "opacity": 70
           }
         },
         "promotion_MdeWMy": {
@@ -404,8 +404,8 @@
             "button_text": "View Collection",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
+            "background": "#000000",
+            "opacity": 70
           }
         },
         "promotion_f4b9zP": {
@@ -419,8 +419,8 @@
             "button_text": "View Collection",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 55
+            "background": "#000000",
+            "opacity": 70
           }
         }
       },
