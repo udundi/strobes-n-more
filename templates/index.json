@@ -698,7 +698,7 @@
             "color": "#ffffff",
             "block_link": "shopify://pages/installation-service",
             "button_text": "Book Today",
-            "button_style": "primary",
+            "button_style": "secondary",
             "show_overlay": true,
             "background": "#000000",
             "opacity": 65
