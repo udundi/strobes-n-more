@@ -703,7 +703,7 @@
         "promotion_kePLct": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/gifmaker_me_2.gif",
+            "image": "shopify://shop_images/A_000c165b-a945-4bf5-b546-5c4dd63db7b1.jpg",
             "title": "Installs",
             "text": "We not only ensure that your install builds - whether it is one DEM truck or ten state police vehicles - will look sharp, but most importantly perform well.",
             "color": "#ffffff",
@@ -712,13 +712,13 @@
             "button_style": "secondary",
             "show_overlay": true,
             "background": "#000000",
-            "opacity": 65
+            "opacity": 50
           }
         },
         "promotion-4": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/gifmaker_me_4.gif",
+            "image": "shopify://shop_images/B_a46244ac-3f99-4d7d-9759-7a1513807010.jpg",
             "title": "Dealer Program",
             "text": "The Strobes N’ More Dealer Program provides smaller upfitters & distributors w/ stronger discounts based on higher levels of spend.",
             "color": "#ffffff",
@@ -727,7 +727,7 @@
             "button_style": "secondary",
             "show_overlay": true,
             "background": "#000000",
-            "opacity": 65
+            "opacity": 50
           }
         }
       },
