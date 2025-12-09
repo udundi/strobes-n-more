@@ -297,7 +297,7 @@
             "color": "#ffffff",
             "block_link": "shopify://collections/led-lights",
             "button_text": "View Collection",
-            "button_style": "secondary",
+            "button_style": "primary",
             "show_overlay": true,
             "background": "#1d1d1d",
             "opacity": 50
@@ -312,7 +312,7 @@
             "color": "#ffffff",
             "block_link": "shopify://collections/speakers",
             "button_text": "View Collection",
-            "button_style": "secondary",
+            "button_style": "primary",
             "show_overlay": true,
             "background": "#1d1d1d",
             "opacity": 50
@@ -327,7 +327,7 @@
             "color": "#ffffff",
             "block_link": "shopify://collections/lightbars",
             "button_text": "View Collection",
-            "button_style": "secondary",
+            "button_style": "primary",
             "show_overlay": true,
             "background": "#1d1d1d",
             "opacity": 50
@@ -342,7 +342,7 @@
             "color": "#ffffff",
             "block_link": "shopify://collections/vehicle-specific-consoles",
             "button_text": "View Collection",
-            "button_style": "secondary",
+            "button_style": "primary",
             "show_overlay": true,
             "background": "#1d1d1d",
             "opacity": 50
@@ -357,7 +357,7 @@
             "color": "#ffffff",
             "block_link": "shopify://collections/360-beacons-accessories",
             "button_text": "View Collection",
-            "button_style": "secondary",
+            "button_style": "primary",
             "show_overlay": true,
             "background": "#1d1d1d",
             "opacity": 50
@@ -372,7 +372,7 @@
             "color": "#ffffff",
             "block_link": "shopify://collections/flasher-modules",
             "button_text": "View Collection",
-            "button_style": "secondary",
+            "button_style": "primary",
             "show_overlay": true,
             "background": "#1d1d1d",
             "opacity": 50
@@ -387,7 +387,7 @@
             "color": "#ffffff",
             "block_link": "shopify://collections/replacement-bulbs-lenses",
             "button_text": "View Collection",
-            "button_style": "secondary",
+            "button_style": "primary",
             "show_overlay": true,
             "background": "#1d1d1d",
             "opacity": 50
@@ -402,7 +402,7 @@
             "color": "#ffffff",
             "block_link": "shopify://collections/arrow-traffic-advisor-bars-1",
             "button_text": "View Collection",
-            "button_style": "secondary",
+            "button_style": "primary",
             "show_overlay": true,
             "background": "#1d1d1d",
             "opacity": 50
@@ -417,7 +417,7 @@
             "color": "#ffffff",
             "block_link": "shopify://collections/cables-accessories",
             "button_text": "View Collection",
-            "button_style": "secondary",
+            "button_style": "primary",
             "show_overlay": true,
             "background": "#1d1d1d",
             "opacity": 55
