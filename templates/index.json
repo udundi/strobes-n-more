@@ -31,48 +31,23 @@
         "custom_liquid": "{% comment %}\n  Custom Video Player with Autoplay and Mute - Responsive All Devices\n{% endcomment %}\n<div class=\"custom-video-container\">\n  <video \n    id=\"custom-video-player\"\n    class=\"custom-video\"\n    src=\"https://cdn.shopify.com/videos/c/o/v/3b53ccbda7eb45fdabaf42904531dba8.mp4\"\n    autoplay\n    muted\n    playsinline\n    loop>\n    Your browser does not support the video tag.\n  </video>\n</div>\n<style>\n  /* Video Container Styles - Full Width */\n  .custom-video-container {\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    overflow: hidden;\n    display: block;\n  }\n  \n  /* Base Video Styles */\n  .custom-video {\n    width: 100%;\n    display: block;\n    object-fit: cover;\n  }\n  \n  /* Media Queries for Responsive Design */\n  @media screen and (max-width: 767px) {\n    /* Small screens (mobile) - Video visible */\n    .custom-video-container {\n      display: block;\n    }\n    \n    .custom-video {\n      height: 200px;\n    }\n  }\n  \n  @media screen and (min-width: 768px) and (max-width: 1023px) {\n    /* Medium screens (tablet) - Video visible */\n    .custom-video-container {\n      display: block;\n    }\n    \n    .custom-video {\n      height: 450px;\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    /* Large screens (laptop/desktop) - Video visible */\n    .custom-video-container {\n      display: block;\n    }\n    \n    .custom-video {\n      height: 500px;\n    }\n  }\n  \n\n</style>"
       }
     },
+    "dynamic_html_W7kwn9": {
+      "type": "dynamic-html",
+      "custom_css": [
+        "{margin-top: -70px;}"
+      ],
+      "name": "t:sections.custom_html.presets.custom_html.name",
+      "settings": {
+        "title": "",
+        "custom_html": "<div class=\"ticker\" role=\"status\" aria-live=\"polite\">\n  <div class=\"ticker__track\">\n    Emergency Vehicle Lighting &amp; Upfitting for Police, Fire, EMS, Municipal &amp; Work-Truck Fleets.\n                        \nHuge In-Stock Inventory, Fast Shipping, &amp; Knowledgeable Sales Reps Ready to Help With Your Build.\n                        \nPlus, Our Dealer Program Delivers Major Savings for Departments, Installers, and Fleet Managers!\n  </div>\n</div>\n\n<style>\n.ticker {\n  position: relative;\n  left: 50%;\n  right: 50%;\n  margin-left: -50vw;\n  margin-right: -50vw;\n  width: 100vw;\n\n  background: #21225b;\n  color: #fff;\n  font-weight: 800;\n  padding: 8px 0;\n  overflow: hidden;\n  white-space: nowrap;\n  z-index: 9999;\n  text-align: center;\n}\n\n.ticker__track {\n  display: inline-block;\n  padding-left: 100%;\n  animation: ticker 30s linear infinite;\n}\n\n@keyframes ticker {\n  0%   { transform: translateX(0); }\n  100% { transform: translateX(-100%); }\n}\n\n/* Respect users who prefer reduced motion */\n@media (prefers-reduced-motion: reduce) {\n  .ticker__track { animation: none; padding-left: 0; }\n}\n</style>"
+      }
+    },
     "dynamic_custom_liquid_nXfma8": {
       "type": "dynamic-custom-liquid",
       "custom_css": [],
       "name": "Custom Liquid - Yellow Divider",
       "settings": {
-        "custom_liquid": "{% comment %}\n  Universal Divider Section with Custom Margins\n{% endcomment %}\n\n<div class=\"mobile-divider-section\"></div>\n\n<style>\n  .mobile-divider-section {\n    background-color: #ffe614;\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    height: 5px;\n    display: block; /* Visible on all screens */\n  }\n  \n  /* Responsive margin settings */\n  @media screen and (max-width: 1023px) {\n    .mobile-divider-section {\n      margin-top: -50px; /* Top margin for small screens */\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    .mobile-divider-section {\n      margin-top: -70px; /* Top margin for large screens */\n    }\n  }\n</style>"
-      }
-    },
-    "dynamic_featured_collection-2": {
-      "type": "dynamic-featured-collection",
-      "blocks": {
-        "title-card": {
-          "type": "title_card",
-          "settings": {
-            "image": "shopify://shop_images/website_graphics-1_1.png",
-            "text_alignment": "center-center",
-            "pre_heading": "",
-            "heading": "Switches & Controllers",
-            "text_color": "#ffffff",
-            "show_on_mobile": true,
-            "horizontal_size": "3",
-            "vertical_size": "2",
-            "enable_full_width_on_mobile": false,
-            "cta_label": "See more",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "title-card"
-      ],
-      "custom_css": [],
-      "name": "Collection - Staff Picks",
-      "settings": {
-        "title": "",
-        "layout": "slideshow",
-        "mobile_layout": "slideshow",
-        "collection": "switches-controllers",
-        "product_count": 7,
-        "cta_label": "",
-        "cta_button_style": "primary"
+        "custom_liquid": "{% comment %}\n  Universal Divider Section with Custom Margins\n{% endcomment %}\n\n<div class=\"mobile-divider-section\"></div>\n\n<style>\n  .mobile-divider-section {\n    background-color: #ffe614;\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    height: 8px;\n    display: block; /* Visible on all screens */\n  }\n  \n  /* Responsive margin settings */\n  @media screen and (max-width: 1023px) {\n    .mobile-divider-section {\n      margin-top: -50px; /* Top margin for small screens */\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    .mobile-divider-section {\n      margin-top: -70px; /* Top margin for large screens */\n    }\n  }\n</style>"
       }
     },
     "dynamic_promo_mosaic_8tfXTh": {
@@ -615,6 +590,42 @@
         "image-crop": "original",
         "cta_label": "",
         "cta_link": "",
+        "cta_button_style": "primary"
+      }
+    },
+    "dynamic_featured_collection-2": {
+      "type": "dynamic-featured-collection",
+      "blocks": {
+        "title-card": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify://shop_images/website_graphics-1_1.png",
+            "text_alignment": "center-center",
+            "pre_heading": "",
+            "heading": "Switches & Controllers",
+            "text_color": "#ffffff",
+            "show_on_mobile": true,
+            "horizontal_size": "3",
+            "vertical_size": "2",
+            "enable_full_width_on_mobile": false,
+            "cta_label": "See more",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "title-card"
+      ],
+      "custom_css": [],
+      "name": "Collection - Staff Picks",
+      "settings": {
+        "title": "",
+        "layout": "slideshow",
+        "mobile_layout": "slideshow",
+        "collection": "switches-controllers",
+        "product_count": 7,
+        "cta_label": "",
         "cta_button_style": "primary"
       }
     },
@@ -1166,6 +1177,7 @@
   "order": [
     "dynamic_html_fKYXXm",
     "dynamic_custom_liquid_C9HdJ3",
+    "dynamic_html_W7kwn9",
     "dynamic_custom_liquid_nXfma8",
     "dynamic_promo_mosaic_8tfXTh",
     "dynamic_promo_mosaic_793pfQ",
