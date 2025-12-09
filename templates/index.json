@@ -285,6 +285,41 @@
         "compress_blocks": true
       }
     },
+    "dynamic_featured_collection_M4FrNj": {
+      "type": "dynamic-featured-collection",
+      "blocks": {
+        "title_card_re6tdX": {
+          "type": "title_card",
+          "settings": {
+            "image": "shopify://shop_images/Lightbar_Packages2.png",
+            "text_alignment": "center-center",
+            "pre_heading": "",
+            "heading": "Lightbar Packages",
+            "text_color": "#ffffff",
+            "show_on_mobile": true,
+            "horizontal_size": "2",
+            "vertical_size": "2",
+            "enable_full_width_on_mobile": false,
+            "cta_label": "See more",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "title_card_re6tdX"
+      ],
+      "name": "Collection - Lighybar Packages",
+      "settings": {
+        "title": "",
+        "layout": "slideshow",
+        "mobile_layout": "slideshow",
+        "collection": "lightbar-packages",
+        "product_count": 8,
+        "cta_label": "",
+        "cta_button_style": "primary"
+      }
+    },
     "dynamic_promo_grid_BKC7RM": {
       "type": "dynamic-promo-grid",
       "blocks": {
@@ -633,41 +668,6 @@
       "name": "Show us your build mobile",
       "settings": {
         "custom_liquid": "<style>\n  .mobile-image {\n    width: 100%;\n    max-width: 100%;\n    height: auto;\n    display: block;\n  }\n  \n  .mobile-section {\n    width: 100vw;\n    padding: 0;\n    margin: 0;\n    margin-left: calc(-50vw + 50%);\n    position: relative;\n    display: flex;\n    justify-content: center;\n    align-items: center;\n  }\n  \n  .mobile-container {\n    width: 100%;\n    margin: 0 auto;\n  }\n  \n  /* Show only on mobile devices (768px and below) */\n  @media screen and (max-width: 768px) {\n    .mobile-section {\n      display: flex;\n    }\n  }\n  \n  /* Hide on tablet and desktop (769px and above) */\n  @media screen and (min-width: 769px) {\n    .mobile-section {\n      display: none !important;\n    }\n  }\n</style>\n\n<section class=\"mobile-section\">\n  <div class=\"mobile-container\">\n    <a href=\"https://strobesnmore.com/pages/show-us-your-build\" target=\"_blank\" rel=\"noopener noreferrer\">\n      <img \n        src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/show_us_your_build_mobile.jpg?v=1754067414\"\n        alt=\"Show us your build - Mobile\"\n        class=\"mobile-image\"\n        loading=\"lazy\"\n      >\n    </a>\n  </div>\n</section>"
-      }
-    },
-    "dynamic_featured_collection_M4FrNj": {
-      "type": "dynamic-featured-collection",
-      "blocks": {
-        "title_card_re6tdX": {
-          "type": "title_card",
-          "settings": {
-            "image": "shopify://shop_images/Lightbar_Packages2.png",
-            "text_alignment": "center-center",
-            "pre_heading": "",
-            "heading": "Lightbar Packages",
-            "text_color": "#ffffff",
-            "show_on_mobile": true,
-            "horizontal_size": "2",
-            "vertical_size": "2",
-            "enable_full_width_on_mobile": false,
-            "cta_label": "See more",
-            "overlay_color": "#000000",
-            "overlay_opacity": 0
-          }
-        }
-      },
-      "block_order": [
-        "title_card_re6tdX"
-      ],
-      "name": "Collection - Lighybar Packages",
-      "settings": {
-        "title": "",
-        "layout": "slideshow",
-        "mobile_layout": "slideshow",
-        "collection": "lightbar-packages",
-        "product_count": 8,
-        "cta_label": "",
-        "cta_button_style": "primary"
       }
     },
     "dynamic_promo_mosaic": {
@@ -1167,15 +1167,15 @@
     "dynamic_html_fKYXXm",
     "dynamic_custom_liquid_C9HdJ3",
     "dynamic_custom_liquid_nXfma8",
-    "dynamic_featured_collection-2",
     "dynamic_promo_mosaic_8tfXTh",
     "dynamic_promo_mosaic_793pfQ",
+    "dynamic_featured_collection_M4FrNj",
     "dynamic_promo_grid_BKC7RM",
     "dynamic_collection_list",
+    "dynamic_featured_collection-2",
     "dynamic_featured_collection_xVetnN",
     "dynamic_custom_liquid_8WJDtC",
     "dynamic_custom_liquid_C7bmL7",
-    "dynamic_featured_collection_M4FrNj",
     "dynamic_promo_mosaic",
     "dynamic_rich_text_xBbwX6",
     "dynamic_rich_text_fHTnfJ",
