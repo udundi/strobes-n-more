@@ -775,6 +775,17 @@
         "text_alignment": "center"
       }
     },
+    "dynamic_blog_posts_WbF3Tb": {
+      "type": "dynamic-blog-posts",
+      "custom_css": [],
+      "settings": {
+        "title": "",
+        "blog": "instructional-videos",
+        "show_date": false,
+        "show_author": false,
+        "show_excerpt": false
+      }
+    },
     "dynamic_blog_posts_Hp4zjq": {
       "type": "dynamic-blog-posts",
       "custom_css": [
@@ -843,17 +854,6 @@
         "icon_color": "#ffffff",
         "background_color": "#21225b",
         "mobile_layout": "grid"
-      }
-    },
-    "dynamic_blog_posts_WbF3Tb": {
-      "type": "dynamic-blog-posts",
-      "custom_css": [],
-      "settings": {
-        "title": "",
-        "blog": "instructional-videos",
-        "show_date": false,
-        "show_author": false,
-        "show_excerpt": false
       }
     },
     "dynamic_rich_text_tEzKJa": {
@@ -1181,9 +1181,9 @@
     "dynamic_rich_text_xBbwX6",
     "dynamic_rich_text_fHTnfJ",
     "dynamic_rich_text_G7jrXc",
-    "dynamic_blog_posts_Hp4zjq",
-    "dynamic_highlights_banner_UdyCk4",
     "dynamic_blog_posts_WbF3Tb",
+    "dynamic_highlights_banner_UdyCk4",
+    "dynamic_blog_posts_Hp4zjq",
     "dynamic_rich_text_tEzKJa",
     "dynamic_logo_list_K49fPx",
     "dynamic_rich_text_87LzTE",
