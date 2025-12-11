@@ -846,8 +846,9 @@
     },
     "dynamic_blog_posts_WbF3Tb": {
       "type": "dynamic-blog-posts",
+      "custom_css": [],
       "settings": {
-        "title": "Instructional Videos",
+        "title": "",
         "blog": "instructional-videos",
         "show_date": false,
         "show_author": false,
@@ -858,7 +859,8 @@
       "type": "dynamic-rich-text",
       "custom_css": [
         "{background-color: #21225b;}",
-        "h2 {color: #fff; padding: 12px;}"
+        "h2 {color: #fff; padding: 12px;}",
+        " {margin-top: -30px;}"
       ],
       "settings": {
         "width": "full-width",
@@ -1027,7 +1029,8 @@
       "type": "dynamic-rich-text",
       "custom_css": [
         "{background-color: #21225b;}",
-        "h2 {color: white; padding: 12px;}"
+        "h2 {color: white; padding: 12px;}",
+        " {margin-top: -30px;}"
       ],
       "settings": {
         "width": "full-width",
