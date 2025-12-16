@@ -132,18 +132,58 @@
             "title": ""
           }
         },
+        "collection_p668wj": {
+          "type": "collection",
+          "settings": {
+            "collection": "lightbar-packages",
+            "image": "shopify://shop_images/Whelen_CORE_Package_c92101bf-c05b-4ccf-be31-c16b127b3f0b.jpg",
+            "title": "Lightbar Packages"
+          }
+        },
+        "collection_Uihjed": {
+          "type": "collection",
+          "settings": {
+            "collection": "flashlights",
+            "image": "shopify://shop_images/streamlight-strion-ds-hl-flashlight3_b34c205e-bad3-44c5-99ec-bcf4f70bf068.jpg",
+            "title": "FlashLlights"
+          }
+        },
+        "collection_JNyUXF": {
+          "type": "collection",
+          "settings": {
+            "collection": "feniex-quad",
+            "image": "shopify://shop_images/quad-converter_10fb9c46-9d5b-412c-8540-df6160a3fc23.jpg",
+            "title": ""
+          }
+        },
         "collection_P3Jy6z": {
           "type": "collection",
           "settings": {
             "collection": "garage-sale",
+            "image": "shopify://shop_images/CCSRN4DA.jpg",
             "title": "Garage Sale"
+          }
+        },
+        "collection_hGDmhy": {
+          "type": "collection",
+          "settings": {
+            "collection": "motorcycle-equipment",
+            "title": ""
           }
         },
         "collection_gqiK7E": {
           "type": "collection",
           "settings": {
             "collection": "open-box-sale",
+            "image": "shopify://shop_images/ILB_Dual_Color_Driver_and_Passenger_-3.jpg",
             "title": "Open Box Sale"
+          }
+        },
+        "collection_A3n7eC": {
+          "type": "collection",
+          "settings": {
+            "collection": "strobe-equipment",
+            "title": ""
           }
         }
       },
@@ -160,8 +200,13 @@
         "collection_AFENJq",
         "collection_qmie6M",
         "collection_mKRcJ7",
+        "collection_p668wj",
+        "collection_Uihjed",
+        "collection_JNyUXF",
         "collection_P3Jy6z",
-        "collection_gqiK7E"
+        "collection_hGDmhy",
+        "collection_gqiK7E",
+        "collection_A3n7eC"
       ],
       "settings": {
         "title": "",
