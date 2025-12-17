@@ -776,6 +776,23 @@
         "text_alignment": "center-center"
       }
     },
+    "dynamic_image_with_text_H374Ep": {
+      "type": "dynamic-image-with-text",
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify://shop_images/Strobes_N_More_Installs_7977ad22-1747-4f7a-982e-ab8e87bbb8f2.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Dealer Program",
+        "subheading": "<p><em>Our nationwide Dealer Program provides other distributors and upfitters who are buying in volume with </em><em><strong>better discounts</strong></em><em> on our emergency vehicle equipment stock. </em></p>",
+        "text_alignment": "center",
+        "button_label": "Strobes N More Dealer Program",
+        "button_link": "https://strobesnmore.com/pages/dealers"
+      }
+    },
     "dynamic_promo_grid_NjtrWB": {
       "type": "dynamic-promo-grid",
       "blocks": {
@@ -953,6 +970,7 @@
     "dynamic_promo_mosaic_a3JCQw",
     "dynamic_promo_mosaic_H9W4Eh",
     "dynamic_promo_grid_PCmFJF",
+    "dynamic_image_with_text_H374Ep",
     "dynamic_promo_grid_NjtrWB"
   ]
 }
