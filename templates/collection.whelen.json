@@ -44,6 +44,17 @@
         "image_crop": "original"
       }
     },
+    "dynamic_rich_text_nUW4DP": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2>Who is Whelen Engineering?</h2><p><a href=\"https://www.whelen.com/about-us\"><span style=\"text-decoration:underline\">Whelen Engineering</span></a> has been designing and manufacturing emergency warning equipment in the United States since 1952. What started in a Connecticut garage has grown into a pair of large facilities in Connecticut and New Hampshire, with over a million square feet of manufacturing space and a team of roughly 1,500 employees.</p><p>Their mission is simple: protect the people who protect everyone else. To do that, Whelen designs, sources, and builds its warning lights, scene lighting, sirens, and controllers in-house, rigorously testing each product to demanding industry standards. That American-made, first-responder–focused approach is a key reason fleets stay loyal to Whelen decade after decade.</p><h2>What Whelen Products You’ll Find in This Collection</h2><p>Strobes N’ More’s Whelen collection brings together a wide range of categories: 360° beacons, LED lightheads, lightbars, traffic advisors, sirens, speakers, and Core control hardware, plus mounting hardware and strap kits.</p><h3>LED Lightheads & Perimeter Lighting</h3><p>You’ll find popular surface-mounted and hide-away solutions such as:</p><ul><li><strong>Micron™ and ION™ series</strong> – ultra-compact, rugged Super-LED® lightheads designed to survive harsh environments while delivering intense warning output in tight mounting spaces.</li><li><strong>M Series® and Hundred Series</strong> lightheads – larger housings with patented Linear-LED® optics, wide viewing angles, and multiple flash patterns suitable for fire, EMS, DOT, and utility fleets.</li></ul><p>These lightheads give you flexible mounting on grilles, bumpers, mirrors, fenders, rocker panels, rear hatch areas, and more, so you can build full 360° coverage around the vehicle.</p><h3>Full-Size & Mini Lightbars</h3><p>For maximum visibility, the collection includes full-size and mini Whelen lightbars in both single-color and DUO® configurations. Examples include Century™, Liberty II®, Legacy®, and Justice® packages featuring:</p><ul><li>High-intensity corner modules and long-range warning</li><li>Options for takedowns, alleys, and traffic advisor functions</li><li>WeCanX®-ready designs for advanced control and syncing</li><li>SAE Class 1 performance on many models for professional duty</li></ul><p>Mini bars offer similar technology in smaller footprints for POVs, command vehicles, and lighter-duty applications.</p><h3>Rear, Spoiler, and Edge Systems</h3><p>Products like Whelen Outer Edge® rear-facing systems mount above the rear window or spoiler, using multiple ION® lightheads in a single housing. They provide strong rear warning and can operate as a traffic advisor, while hard-coated lenses and sealed electronics resist moisture, chemicals, and vibration.</p><h3>Sirens, Speakers & Whelen Core® Control</h3><p>Beyond lighting, Strobes N’ More stocks Whelen sirens, speakers, and Core® control systems (like Core-C™) that act as the “brain” of a modern warning package. These controllers tie your lightbars, lightheads, and sirens into one programmable system, support advanced features like synchronized patterns and low-power modes, and integrate cleanly with today’s work trucks and patrol vehicles.<a href=\"https://www.whelen.com/\"> </a></p><h3>Mounts, Strap Kits & Replacement Parts</h3><p>Because a good install is as important as the gear itself, the collection also includes:</p><ul><li>Vehicle-specific strap kits and universal mounts</li><li>Lightbar mounts, brackets, and hardware</li><li>Replacement lenses and other service parts</li></ul><p>That means you can spec, mount, and maintain Whelen equipment from a single source.</p><h2>Key Features & Technology of Whelen Vehicle Lights</h2><p>Across lightheads, lightbars, and accessories, Whelen technology focuses on performance and survivability in real-world conditions:</p><ul><li><strong>Super-LED® & Linear-LED® optics</strong> – proprietary LED and optic designs that push more usable light where it’s needed, with excellent off-axis visibility.</li><li><strong>Multiple flash patterns & DVI™ options</strong> – built-in pattern libraries (often 20+ patterns) let you tailor warning behavior to pursuit, blocking, directing, or scene work, with newer products using Dynamic Variable Intensity™ for more intuitive signaling.</li><li><strong>E Block™ and advanced thermal design</strong> – efficient electronics and thermal management protect LEDs during extended dwell times, supporting long-term reliability.</li><li><strong>WeCanX® network compatibility</strong> – many bars and heads are ready for Whelen’s networked control environment, enabling precise programming, syncing, and expansion as vehicles evolve.</li><li><strong>Rugged, weather-sealed builds</strong> – polycarbonate lenses, encapsulated electronics, and sealed housings are designed to withstand vibration, moisture, UV exposure, and de-icing chemicals.</li></ul><p>For fleets, this means fewer failures, simpler programming across vehicles, and lighting that still performs years into service.</p><h2>How to Choose the Right Whelen Setup</h2><p>When you browse the Whelen collection at Strobes N’ More, it helps to think in layers:</p><p><strong>1. Primary warning</strong></p><ul><li>Patrol/response: full-size lightbar + perimeter lightheads (grille, mirrors, rocker panels, hatch).</li><li>Public works/utility: mini bar or beacons + a few key perimeter lights.</li></ul><p><strong>2. Directional & rear protection</strong></p><ul><li>Add traffic advisor bars or rear spoiler systems to guide traffic around scenes and improve rear-end visibility.</li></ul><p><strong>3. Scene and work lighting</strong></p><ul><li>Use Pioneer™ or other scene lights, flood/spot modules, and compartment lighting where personnel load gear or work outside the vehicle.</li></ul><p><strong>4. Control & future-proofing</strong></p><ul><li>Consider a Whelen Core® controller when you want one “brain” to manage lights and sirens, simplify driver training, and keep future add-ons organized.</li></ul><p>If you’re building or standardizing a fleet, you can choose a core set of Whelen products from this collection and apply the same logic across sedans, SUVs, pickups, and heavy trucks.</p><h2>Why Buy Whelen from Strobes N’ More?</h2><p><a href=\"https://strobesnmore.com/\" title=\"LED Emergency Vehicle Lights & Accessories | Strobes N’ More\">Strobes N’ More</a> is a specialized emergency-vehicle outfitting retailer, not a generic auto parts site. They focus on trusted brands—Whelen included—and stock a broad mix of lightbars, lightheads, sirens, mounts, and Core control hardware, with plenty of model-specific options and package deals.</p><p>You also get practical perks: clear product descriptions and specs, reviews from other first responders and fleet users, install resources and videos, and a support team familiar with Whelen’s product line. That combination makes this Whelen collection a strong starting point, whether you’re upgrading a single rig or planning a department-wide refresh.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
     "dynamic_faq_kyjq9r": {
       "type": "dynamic-faq",
       "blocks": {
@@ -57,40 +68,72 @@
         "question_7tUK8A": {
           "type": "question",
           "settings": {
-            "question": "What are the top-rated Whelen Engineering emergency lighting products?",
-            "answer": "<p>Top-rated Whelen products include the Liberty™ II Lightbar, Justice™ Lightbar, ION™ Series surface mounts, Pioneer™ work lights, and Vertex™ hideaways. These lights are known for durability, brightness, and wide adoption by law enforcement, fire, and utility fleets. The Whelen CenCom Core™ system is also highly rated for integrated control of lights, sirens, and traffic functions.</p>",
+            "question": "1. Are Whelen lights really “made in the USA”?",
+            "answer": "<p>Yes. Whelen designs, sources, and manufactures its products in facilities in Connecticut and New Hampshire, and has been building in the U.S. for over 70 years.</p>",
             "icon": "none"
           }
         },
         "question_C6iYpN": {
           "type": "question",
           "settings": {
-            "question": "How does Whelen’s CenCom Core system work with their lights and sirens?",
-            "answer": "<p>CenCom Core™ is Whelen’s advanced control system that centralizes all vehicle lighting, sirens, and input/output functions into one programmable platform. It uses a network-based architecture for fast communication between devices, allowing complex flash patterns, scene lighting, and siren tones to be triggered by vehicle events or manual controls. It also supports remote diagnostics and over-the-air updates.</p>",
+            "question": "2. What’s the advantage of Whelen Super-LED and Linear-LED technology?",
+            "answer": "<p>These optic systems are engineered to maximize usable light output and visibility while keeping power draw low. They provide bright, wide-angle warning that holds up in day or night conditions.</p>",
             "icon": "none"
           }
         },
         "question_ffyGcn": {
           "type": "question",
           "settings": {
-            "question": "Are Whelen LED lights DOT-approved for road use?",
-            "answer": "<p>Yes, many of Whelen’s LED lights are DOT, SAE, and CA Title 13 compliant, depending on the product and application. Their warning lights, brake/tail/turn lights, and marker lights meet or exceed federal and state visibility standards for road use. Always check individual product specs for certifications.</p>",
+            "question": "3. How do Whelen lightbars integrate with controllers like Core-C?",
+            "answer": "<p>Many bars in this collection are WeCanX-ready and plug directly into Whelen Core® control systems, allowing you to program patterns, sync multiple devices, and manage siren and lighting from one interface.</p>",
             "icon": "none"
           }
         },
         "question_Khrmfz": {
           "type": "question",
           "settings": {
-            "question": "What warranty does Whelen Engineering Co. offer on its lighting products?",
-            "answer": "<p>Whelen offers a 5-year warranty on most LED lighting products, and some models come with 7- or 10-year warranties, especially for lightbars and high-end systems. The warranty covers defects in materials and workmanship under normal use. Control systems like CenCom Core are typically covered under a 2-year warranty. Always confirm terms when purchasing.</p>",
+            "question": "4. What’s the difference between a full-size and a mini Whelen lightbar?",
+            "answer": "<p>Full-size bars span most of the roof and are designed for maximum 360° visibility, often with takedowns, alleys, and traffic advisor functions. Mini bars use similar technology in a shorter housing, ideal for POVs, small trucks, and lower-profile builds.</p>",
             "icon": "none"
           }
         },
         "question_r49x6L": {
           "type": "question",
           "settings": {
-            "question": "Can Whelen products be customized for specific vehicle applications?",
-            "answer": "<p>Yes, Whelen offers a high level of customization. Lightbars, control systems, and mounting hardware can be configured for different vehicle types and operational needs. Many products come with modular components, custom color options, programmable flash patterns, and vehicle-specific brackets. Whelen also works with upfitters and fleet managers to deliver purpose-built setups.</p>",
+            "question": "5. Are Whelen lightheads and lightbars SAE Class 1 certified?",
+            "answer": "<p>Many of the warning products in this collection are tested and certified to SAE Class 1, as well as other standards like SAE J845/J595 and certain medical or state specs. Always check the individual product page for exact certifications.</p>",
+            "icon": "none"
+          }
+        },
+        "question_QetPkH": {
+          "type": "question",
+          "settings": {
+            "question": "6. Can Whelen lights from Strobes N’ More sync with each other?",
+            "answer": "<p>Yes. Numerous Whelen lightheads and systems support built-in sync functions or networked WeCanX control, so you can coordinate patterns between lightheads, bars, and rear systems for a cohesive warning package.</p>",
+            "icon": "none"
+          }
+        },
+        "question_BfGjgf": {
+          "type": "question",
+          "settings": {
+            "question": "7. Do I need a professional to install Whelen lighting?",
+            "answer": "<p>Simple single-head installs and some mini bars can be handled by experienced DIYers, but full lightbar systems, Core® controllers, and complex multi-head setups are usually best wired and programmed by a professional or authorized upfitter.</p>",
+            "icon": "none"
+          }
+        },
+        "question_9iBmnT": {
+          "type": "question",
+          "settings": {
+            "question": "8. Are Whelen products suitable for non-emergency fleets?",
+            "answer": "<p>Absolutely. Whelen equipment is widely used on utility, DOT, tow, and commercial vehicles where visibility and durability matter just as much as in emergency response work. The same technology helps keep work crews seen and safe.</p>",
+            "icon": "none"
+          }
+        },
+        "question_mFNpAV": {
+          "type": "question",
+          "settings": {
+            "question": "9. What if I only need replacement parts or mounts for an existing Whelen bar?",
+            "answer": "<p>The Whelen collection at Strobes N’ More includes lightbar mounts, strap kits, and replacement parts so you can service existing bars and keep them performing instead of replacing the entire system. </p>",
             "icon": "none"
           }
         }
@@ -101,14 +144,18 @@
         "question_C6iYpN",
         "question_ffyGcn",
         "question_Khrmfz",
-        "question_r49x6L"
+        "question_r49x6L",
+        "question_QetPkH",
+        "question_BfGjgf",
+        "question_9iBmnT",
+        "question_mFNpAV"
       ],
       "custom_css": [
         "h3 {display: none;}"
       ],
       "settings": {
         "section_width": "wide",
-        "heading": "Frequently Asked Questions",
+        "heading": "Whelen Lights & Lightbars – FAQs",
         "enable_category_cards": false,
         "category_card_image_crop": "original",
         "category_heading_size": "medium",
@@ -126,12 +173,13 @@
       "name": "t:sections.custom_html.presets.custom_html.name",
       "settings": {
         "title": "",
-        "custom_html": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What are the top-rated Whelen Engineering emergency lighting products?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Top-rated Whelen products include the Liberty\\u2122 II Lightbar, Justice\\u2122 Lightbar, ION\\u2122 Series surface mounts, Pioneer\\u2122 work lights, and Vertex\\u2122 hideaways. These lights are known for durability, brightness, and wide adoption by law enforcement, fire, and utility fleets. The Whelen CenCom Core\\u2122 system is also highly rated for integrated control of lights, sirens, and traffic functions.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How does Whelen\\u2019s CenCom Core system work with their lights and sirens?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"CenCom Core\\u2122 is Whelen\\u2019s advanced control system that centralizes all vehicle lighting, sirens, and input/output functions into one programmable platform. It uses a network-based architecture for fast communication between devices, allowing complex flash patterns, scene lighting, and siren tones to be triggered by vehicle events or manual controls. It also supports remote diagnostics and over-the-air updates.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are Whelen LED lights DOT-approved for road use?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes, many of Whelen\\u2019s LED lights are DOT, SAE, and CA Title 13 compliant, depending on the product and application. Their warning lights, brake/tail/turn lights, and marker lights meet or exceed federal and state visibility standards for road use. Always check individual product specs for certifications.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What warranty does Whelen Engineering Co. offer on its lighting products?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Whelen offers a 5-year warranty on most LED lighting products, and some models come with 7- or 10-year warranties, especially for lightbars and high-end systems. The warranty covers defects in materials and workmanship under normal use. Control systems like CenCom Core are typically covered under a 2-year warranty. Always confirm terms when purchasing.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can Whelen products be customized for specific vehicle applications?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes, Whelen offers a high level of customization. Lightbars, control systems, and mounting hardware can be configured for different vehicle types and operational needs. Many products come with modular components, custom color options, programmable flash patterns, and vehicle-specific brackets. Whelen also works with upfitters and fleet managers to deliver purpose-built setups.\"\n      }\n    }\n  ]\n}\n</script>"
+        "custom_html": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are Whelen lights really \\u201cmade in the USA\\u201d?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes. Whelen designs, sources, and manufactures its products in facilities in Connecticut and New Hampshire, and has been building in the United States for over 70 years.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What\\u2019s the advantage of Whelen Super-LED and Linear-LED technology?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"These optic systems are engineered to maximize usable light output and visibility while keeping power draw low. They provide bright, wide-angle warning that holds up in day or night conditions.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How do Whelen lightbars integrate with controllers like Core-C?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Many bars in this collection are WeCanX-ready and plug directly into Whelen Core control systems, allowing you to program patterns, sync multiple devices, and manage siren and lighting from one interface.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What’s the difference between a full-size and a mini Whelen lightbar?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Full-size bars span most of the roof and are designed for maximum 360-degree visibility, often with takedowns, alleys, and traffic advisor functions. Mini bars use similar technology in a shorter housing, ideal for POVs, small trucks, and lower-profile builds.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are Whelen lightheads and lightbars SAE Class 1 certified?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Many of the warning products in this collection are tested and certified to SAE Class 1 and other standards. Always check the individual product page for exact certifications before you buy.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can Whelen lights from Strobes N\\u2019 More sync with each other?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes. Numerous Whelen lightheads and systems support built-in sync functions or networked WeCanX control, so you can coordinate patterns between lightheads, bars, and rear systems for a cohesive warning package.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do I need a professional to install Whelen lighting?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Simple single-head installs and some mini bars can be handled by experienced DIYers, but full lightbar systems, Core controllers, and complex multi-head setups are usually best wired and programmed by a professional installer or authorised upfitter.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are Whelen products suitable for non-emergency fleets?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes. Whelen equipment is widely used on utility, DOT, tow, and commercial vehicles where visibility and durability are critical, not just on traditional emergency response vehicles.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What if I only need replacement parts or mounts for an existing Whelen bar?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"The Whelen collection at Strobes N\\u2019 More includes lightbar mounts, strap kits, and replacement parts so you can service existing bars and keep them performing instead of replacing the entire system.\"\n      }\n    }\n  ]\n}\n</script>"
       }
     }
   },
   "order": [
     "main",
+    "dynamic_rich_text_nUW4DP",
     "dynamic_faq_kyjq9r",
     "static-recently-viewed",
     "dynamic_html_hMejmK"
