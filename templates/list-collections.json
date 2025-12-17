@@ -771,14 +771,14 @@
         "promotion_TPRe4A": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/1_ce17ff42-dbe5-46a7-9156-1f941dc993bd.jpg",
+            "image": "shopify://shop_images/1_4d43cdf0-4293-4aac-9ef4-3df7782459e5.jpg",
             "title": "Switches & Controllers",
             "text": "Durable car light switches and controllers built for reliable, easy control of vehicle lighting systems in work and emergency applications.",
             "color": "#ffffff",
             "block_link": "shopify://collections/switches-controllers",
             "button_text": "View Collection",
             "button_style": "primary",
-            "show_overlay": true,
+            "show_overlay": false,
             "background": "#000000",
             "opacity": 50
           }
@@ -786,14 +786,14 @@
         "promotion_EX8iYx": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/2_ae099e90-d11e-4150-90e7-e446b63e0b95.jpg",
+            "image": "shopify://shop_images/2_096670d0-e34d-4806-8b61-dac657b2f055.jpg",
             "title": "New Products",
             "text": "Discover the latest vehicle electronics, accessories, and safety upgrades—new arrivals built for performance, reliability, and modern vehicle needs.",
             "color": "#ffffff",
             "block_link": "shopify://collections/new-products",
             "button_text": "View Collection",
             "button_style": "primary",
-            "show_overlay": true,
+            "show_overlay": false,
             "background": "#000000",
             "opacity": 50
           }
@@ -801,14 +801,14 @@
         "promotion_VtQ44R": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/3_e74425e0-85f3-4019-83de-a97ca8edaf3b.jpg",
+            "image": "shopify://shop_images/3_aa081b09-803e-47a5-8b15-25ef5edc4279.jpg",
             "title": "Lightbar Packages",
             "text": "Custom LED lightbar packages built for emergency and utility vehicles, delivering powerful output, durability, and flexible configuration options.",
             "color": "#ffffff",
             "block_link": "shopify://collections/lightbar-packages",
             "button_text": "View Collection",
             "button_style": "primary",
-            "show_overlay": true,
+            "show_overlay": false,
             "background": "#000000",
             "opacity": 50
           }
@@ -816,14 +816,14 @@
         "promotion_xLmtpb": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/4_7e75b92d-b266-4978-8e25-2bc52fcaa029.jpg",
+            "image": "shopify://shop_images/4_4ca565d7-e02a-4624-a223-c1b905004ced.jpg",
             "title": "Flashlights",
             "text": "High-performance flashlights built for reliability, durability, and powerful illumination in emergency and everyday use.",
             "color": "#ffffff",
             "block_link": "shopify://collections/flashlights",
             "button_text": "View Collection",
             "button_style": "primary",
-            "show_overlay": true,
+            "show_overlay": false,
             "background": "#000000",
             "opacity": 50
           }
@@ -831,14 +831,14 @@
         "promotion_q4LGR7": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/5_cc1dd000-b287-419a-8c0f-59d61eea9cad.jpg",
+            "image": "shopify://shop_images/5_d9416144-28a9-4614-bd3f-7c361454428e.jpg",
             "title": "Feniex Quad & Q Series",
             "text": "High-performance Feniex emergency lights and lightbars built for maximum visibility, durability, and dependable on-road performance.",
             "color": "#ffffff",
             "block_link": "shopify://collections/feniex-quad",
             "button_text": "View Collection",
             "button_style": "primary",
-            "show_overlay": true,
+            "show_overlay": false,
             "background": "#000000",
             "opacity": 50
           }
@@ -846,29 +846,29 @@
         "promotion_cwhKze": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/6_62a33900-bf80-4e42-b0aa-38c507567da5.jpg",
+            "image": "shopify://shop_images/6_0c8f288d-7ba2-4058-8a0b-29f790bc1847.jpg",
             "title": "Garage Sale",
             "text": "Discounted emergency lighting and vehicle accessories delivering the same trusted performance, durability, and reliability professionals depend on.",
             "color": "#ffffff",
             "block_link": "shopify://collections/garage-sale",
             "button_text": "View Collection",
             "button_style": "primary",
-            "show_overlay": true,
+            "show_overlay": false,
             "background": "#000000",
-            "opacity": 50
+            "opacity": 1
           }
         },
         "promotion_MYm6yi": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/7_c38b91ce-ffbf-437d-84c9-335f9e933dcb.jpg",
+            "image": "shopify://shop_images/7_d64cf08c-2b7d-4ece-942d-5e0c484fe08f.jpg",
             "title": "Motorcycle Equipment",
             "text": "Equip your motorcycle with powerful LED lights and sirens, ensuring maximum visibility and clear audio alerts for police and emergency riders.",
             "color": "#ffffff",
             "block_link": "shopify://collections/motorcycle-equipment",
             "button_text": "View Collection",
             "button_style": "primary",
-            "show_overlay": true,
+            "show_overlay": false,
             "background": "#000000",
             "opacity": 50
           }
@@ -876,14 +876,14 @@
         "promotion_Cx8w8W": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/8_fcd2a7c7-8134-4ac5-b788-6aa89121aca5.jpg",
+            "image": "shopify://shop_images/8_8c6fb72c-5796-4cc9-98b6-b2e4b58fc4c9.jpg",
             "title": "Nova Equipment",
             "text": "Dependable Nova strobe lights and equipment for emergency, industrial, and commercial use, built to perform in critical situations.",
             "color": "#ffffff",
             "block_link": "shopify://collections/strobe-equipment",
             "button_text": "View Collection",
             "button_style": "primary",
-            "show_overlay": true,
+            "show_overlay": false,
             "background": "#000000",
             "opacity": 50
           }
@@ -891,14 +891,14 @@
         "promotion_Wtzjae": {
           "type": "promotion",
           "settings": {
-            "image": "shopify://shop_images/9.jpg",
+            "image": "shopify://shop_images/9_01c2511d-2a37-4e29-a4be-54e8172d6567.jpg",
             "title": "More",
             "text": "Discover the latest car electronics, high-performance accessories, and innovative upgrades at Strobes N’ More, built for quality and reliability.",
             "color": "#ffffff",
             "block_link": "shopify://collections/more",
             "button_text": "View Collection",
             "button_style": "primary",
-            "show_overlay": true,
+            "show_overlay": false,
             "background": "#000000",
             "opacity": 50
           }
