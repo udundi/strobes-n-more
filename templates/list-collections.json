@@ -33,6 +33,17 @@
         "button_text": ""
       }
     },
+    "dynamic_html_Pcx6yY": {
+      "type": "dynamic-html",
+      "custom_css": [
+        "{margin-top: -40px;}"
+      ],
+      "name": "t:sections.custom_html.presets.custom_html.name",
+      "settings": {
+        "title": "",
+        "custom_html": "<a href=\"https://strobesnmore.com/pages/installation-service\" class=\"ticker-link\" aria-label=\"Learn more about Strobes N' More installation services\">\n  <div class=\"ticker\" role=\"status\" aria-live=\"polite\">\n    <div class=\"ticker__track\">\n      Did you know Strobes N' More offers world-class custom upfitting?!                   \n      We provide top-tier installs for many local agencies, municipalities, and fleets.                   \n      We stand behind our product as well as our service.                   \n      Click here to learn more!\n    </div>\n  </div>\n</a>\n\n<style>\n  .ticker-link {\n    display: block;\n    text-decoration: none;\n    color: inherit;\n  }\n\n  .ticker {\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    width: 100vw;\n    background: #21225b;\n    color: #fff;\n    font-weight: 1000;\n    padding: 8px 0;\n    overflow: hidden;\n    white-space: nowrap;\n    z-index: 10;\n    text-align: center;\n    font-size: 1.3em;\n    cursor: pointer;\n  }\n\n  .ticker:hover {\n    text-decoration: underline;\n  }\n\n  .ticker__track {\n    display: inline-block;\n    padding-left: 100%;\n    animation: ticker 24s linear infinite;\n  }\n\n  @keyframes ticker {\n    0%   { transform: translateX(0); }\n    100% { transform: translateX(-100%); }\n  }\n\n  @media (prefers-reduced-motion: reduce) {\n    .ticker__track {\n      animation: none;\n      padding-left: 0;\n    }\n  }\n</style>"
+      }
+    },
     "dynamic_collection_list_9qkArp": {
       "type": "dynamic-collection-list",
       "blocks": {
@@ -935,6 +946,7 @@
   "order": [
     "main",
     "pxs_image_with_text_overlay_mcH4PC",
+    "dynamic_html_Pcx6yY",
     "dynamic_collection_list_9qkArp",
     "dynamic_promo_mosaic_PDKqga",
     "dynamic_promo_mosaic_qkfC7H",
