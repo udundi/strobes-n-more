@@ -21,7 +21,7 @@
     "pxs_image_with_text_overlay_mcH4PC": {
       "type": "pxs-image-with-text-overlay",
       "settings": {
-        "section_height": "medium",
+        "section_height": "original",
         "image": "shopify://shop_images/Shop_By_Category.png",
         "title": "",
         "text": "",
@@ -38,6 +38,7 @@
       "blocks": {
         "collection_x74m8b": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "led-lights",
             "image": "shopify://shop_images/Frame_1.jpg",
@@ -46,6 +47,7 @@
         },
         "collection_HB66EA": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "sirens-speakers",
             "image": "shopify://shop_images/Frame_2.jpg",
@@ -54,6 +56,7 @@
         },
         "collection_U4kDQH": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "lightbars",
             "image": "shopify://shop_images/Frame_3.jpg",
@@ -62,6 +65,7 @@
         },
         "collection_MrX4x4": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "360-beacons",
             "image": "shopify://shop_images/Frame_4.jpg",
@@ -70,6 +74,7 @@
         },
         "collection_MWt4Ar": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "switches-controllers",
             "image": "shopify://shop_images/Frame_5.jpg",
@@ -78,6 +83,7 @@
         },
         "collection_cGpAgw": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "flasher-modules",
             "image": "shopify://shop_images/Frame_6.jpg",
@@ -86,6 +92,7 @@
         },
         "collection_BYgcEU": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "vehicle-specific-consoles",
             "image": "shopify://shop_images/Frame_7.jpg",
@@ -94,6 +101,7 @@
         },
         "collection_CzRHjy": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "cables-accessories",
             "image": "shopify://shop_images/Frame_8.jpg",
@@ -102,6 +110,7 @@
         },
         "collection_VaRhnb": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "arrow-traffic-advisor-bars-1",
             "image": "shopify://shop_images/Arrow_Traffic_Advisor_LED_Lightbars.jpg",
@@ -110,6 +119,7 @@
         },
         "collection_AFENJq": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "replacement-bulbs-lenses",
             "image": "shopify://shop_images/Replacement_Lenses_Bulbs.jpg",
@@ -118,6 +128,7 @@
         },
         "collection_qmie6M": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "new-products",
             "image": "shopify://shop_images/New_Products.jpg",
@@ -173,6 +184,7 @@
         },
         "collection_gqiK7E": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "open-box-sale",
             "image": "shopify://shop_images/ILB_Dual_Color_Driver_and_Passenger_-3.jpg",
@@ -208,6 +220,7 @@
         "collection_gqiK7E",
         "collection_A3n7eC"
       ],
+      "disabled": true,
       "settings": {
         "title": "",
         "thumbnail_columns_desktop": 4,
@@ -217,11 +230,717 @@
         "cta_link": "",
         "cta_button_style": "primary"
       }
+    },
+    "dynamic_promo_mosaic_PDKqga": {
+      "type": "dynamic-promo-mosaic",
+      "blocks": {
+        "promotion_icXcz4": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/6_62a33900-bf80-4e42-b0aa-38c507567da5.jpg",
+            "title": "LED Lights",
+            "text": "When responding to emergencies, visibility is everything. Strobes N’ More offers high-performance LED lights engineered for maximum brightness, durability, and efficiency—keeping your vehicle seen and your team safe in any condition.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/led-lights",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        },
+        "promotion_NRBzMH": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-11_665cb2ac-d87a-487c-b543-9998abd7add2.png",
+            "title": "Switches & Controllers",
+            "text": "Control your vehicle’s lighting with Strobes N’ More durable, high-performance switches and controllers built for reliability and ease.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/switches-controllers",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        },
+        "promotion_tLWMeV": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-4_71f926fc-cc12-4b9f-a376-80cb599ab0c1.png",
+            "title": "360 Beacons",
+            "text": "Light the way with Strobes N More's high-performance LED beacon lights-engineered for unmatched brightness, durability, and safety on every job.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/360-beacons",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        },
+        "promotion_fFdppg": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-12_cb8ebdd4-079a-4cda-b110-4e0b37ac224f.png",
+            "title": "Siren and Speakers",
+            "text": "Strobes N’ More offers high-performance sirens and speakers built for clarity, durability, and reliability—ensuring your emergency vehicle is heard when it matters most.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/speakers",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        }
+      },
+      "block_order": [
+        "promotion_icXcz4",
+        "promotion_NRBzMH",
+        "promotion_tLWMeV",
+        "promotion_fFdppg"
+      ],
+      "custom_css": [
+        "{display: block;}",
+        "@media (min-width: 768px) {{display: none; }}",
+        "@media (min-width: 1024px) {{display: none; }}"
+      ],
+      "name": "t:sections.mosaic.presets.mosaic.name",
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "text_alignment": "top-left",
+        "maintain_aspect_ratio": false,
+        "compress_blocks": true
+      }
+    },
+    "dynamic_promo_mosaic_qkfC7H": {
+      "type": "dynamic-promo-mosaic",
+      "blocks": {
+        "promotion_Fxw6qB": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/2_ae099e90-d11e-4150-90e7-e446b63e0b95.jpg",
+            "title": "Lightbars",
+            "text": "Stay visible and safe with Strobes N’ More LED lightbars—built for unmatched brightness, reliability, and performance in any situation.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/lightbars",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        },
+        "promotion_HKKDdR": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-9_be1f3497-0c28-4e14-9e5f-a67636a073a9.png",
+            "title": "Vehicle Consoles",
+            "text": "Upgrade your ride with Strobes N More's custom-fit vehicle consoles-built for durability, seamless integration, and professional functionality.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/vehicle-specific-consoles",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        },
+        "promotion_KB6RLp": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/4_7e75b92d-b266-4978-8e25-2bc52fcaa029.jpg",
+            "title": "Flasher Modules",
+            "text": "Boost your vehicle’s visibility with Strobes N’ More LED flasher lights—bright, reliable, and easy to install.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/flasher-modules",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        },
+        "promotion_qDXBxD": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/5_cc1dd000-b287-419a-8c0f-59d61eea9cad.jpg",
+            "title": "Replacement Lenses & Bulbs",
+            "text": "Keep your lights shining bright with durable replacement lenses and bulbs from Strobes N More -built for performance, safety, and reliability",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/replacement-bulbs-lenses",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        }
+      },
+      "block_order": [
+        "promotion_Fxw6qB",
+        "promotion_HKKDdR",
+        "promotion_KB6RLp",
+        "promotion_qDXBxD"
+      ],
+      "custom_css": [
+        "{display: block;}",
+        "@media (min-width: 768px) {{display: none; }}",
+        "@media (min-width: 1024px) {{display: none; }}"
+      ],
+      "name": "t:sections.mosaic.presets.mosaic.name",
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "text_alignment": "top-left",
+        "maintain_aspect_ratio": false,
+        "compress_blocks": true
+      }
+    },
+    "dynamic_promo_mosaic_a3JCQw": {
+      "type": "dynamic-promo-mosaic",
+      "blocks": {
+        "promotion_TqmTq3": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/ArrowBoards.jpg",
+            "title": "Arrow & Traffic LED Lightbars",
+            "text": "Stay visible and in control with Strobes N More’s durable, high-performance traffic advisor lights and arrow bars built for clear, reliable signaling.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/arrow-traffic-advisor-bars-1",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        },
+        "promotion_adkfma": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-1_d0839f9c-e42d-40fd-b0ae-a7e1ebea4d89.png",
+            "title": "Cables & Accessories",
+            "text": "Upgrade your ride with premium car accessories from Strobes N More-where safety, performance, and reliability come standard.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/cables-accessories",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        },
+        "promotion_8kqU37": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-8_369fd130-bbc4-43d8-9e76-9af381467403.png",
+            "title": "New Products",
+            "text": "Discover the latest vehicle electronics, accessories, and safety upgrades—new arrivals built for performance, reliability, and modern vehicle needs.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/new-products",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        },
+        "promotion_eyweGY": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Lightbar_Packages4.jpg",
+            "title": "Lightbar Packages",
+            "text": "Custom LED lightbar packages built for emergency and utility vehicles, delivering powerful output, durability, and flexible configuration options.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/lightbar-packages",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        },
+        "promotion_e3dp3L": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/4_7e75b92d-b266-4978-8e25-2bc52fcaa029.jpg",
+            "title": "Flashlights",
+            "text": "High-performance flashlights built for reliability, durability, and powerful illumination in emergency and everyday use.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/flashlights",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        }
+      },
+      "block_order": [
+        "promotion_TqmTq3",
+        "promotion_adkfma",
+        "promotion_8kqU37",
+        "promotion_eyweGY",
+        "promotion_e3dp3L"
+      ],
+      "custom_css": [
+        "{display: block;}",
+        "@media (min-width: 768px) {{display: none; }}",
+        "@media (min-width: 1024px) {{display: none; }}"
+      ],
+      "name": "t:sections.mosaic.presets.mosaic.name",
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "text_alignment": "top-left",
+        "maintain_aspect_ratio": false,
+        "compress_blocks": true
+      }
+    },
+    "dynamic_promo_mosaic_H9W4Eh": {
+      "type": "dynamic-promo-mosaic",
+      "blocks": {
+        "promotion_ycWfjJ": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/Flash_Patterns2.jpg",
+            "title": "Feniex Quad & Q Series",
+            "text": "High-performance Feniex emergency lights and lightbars built for maximum visibility, durability, and dependable on-road performance.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/feniex-quad",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        },
+        "promotion_6J7DKF": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/LEDs.jpg",
+            "title": "Garage Sale",
+            "text": "Discounted emergency lighting and vehicle accessories delivering the same trusted performance, durability, and reliability professionals depend on.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/garage-sale",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        },
+        "promotion_hA7kRN": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/SNM_EFlood_5050_4.jpg",
+            "title": "Motorcycle Equipment",
+            "text": "Equip your motorcycle with powerful LED lights and sirens, ensuring maximum visibility and clear audio alerts for police and emergency riders.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/motorcycle-equipment",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        },
+        "promotion_7LTFAn": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/A_000c165b-a945-4bf5-b546-5c4dd63db7b1.jpg",
+            "title": "Nova Equipment",
+            "text": "Dependable Nova strobe lights and equipment for emergency, industrial, and commercial use, built to perform in critical situations.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/strobe-equipment",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        },
+        "promotion_jgqkt9": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/web_photos-1_d0839f9c-e42d-40fd-b0ae-a7e1ebea4d89.png",
+            "title": "More",
+            "text": "Discover the latest car electronics, high-performance accessories, and innovative upgrades at Strobes N’ More, built for quality and reliability.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/more",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 55
+          }
+        }
+      },
+      "block_order": [
+        "promotion_ycWfjJ",
+        "promotion_6J7DKF",
+        "promotion_hA7kRN",
+        "promotion_7LTFAn",
+        "promotion_jgqkt9"
+      ],
+      "custom_css": [
+        "{display: block;}",
+        "@media (min-width: 768px) {{display: none; }}",
+        "@media (min-width: 1024px) {{display: none; }}"
+      ],
+      "name": "t:sections.mosaic.presets.mosaic.name",
+      "settings": {
+        "title": "",
+        "section_height": "small",
+        "text_alignment": "top-left",
+        "maintain_aspect_ratio": false,
+        "compress_blocks": true
+      }
+    },
+    "dynamic_promo_grid_PCmFJF": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion_9m9Ja4": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/1_ce17ff42-dbe5-46a7-9156-1f941dc993bd.jpg",
+            "title": "LED Lights",
+            "text": "High-output LED lights engineered for maximum brightness, durability, and reliability—built to keep emergency, work, and fleet vehicles visible in any condition.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/led-lights",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "promotion_tRn8R9": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/2_ae099e90-d11e-4150-90e7-e446b63e0b95.jpg",
+            "title": "Siren and Speakers",
+            "text": "High-performance sirens and speakers built for clarity, durability, and reliability—ensuring your emergency vehicle is heard when it matters most.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/speakers",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "promotion_FWenHn": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/3_e74425e0-85f3-4019-83de-a97ca8edaf3b.jpg",
+            "title": "Lightbars",
+            "text": "Stay visible and safe with Strobes N’ More LED lightbars—built for unmatched brightness, reliability, and performance in any situation.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/lightbars",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "promotion_mn3mYa": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/4_7e75b92d-b266-4978-8e25-2bc52fcaa029.jpg",
+            "title": "Vehicle Consoles",
+            "text": "Upgrade your ride with Strobes N More's custom-fit vehicle consoles-built for durability, seamless integration, and professional functionality.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/vehicle-specific-consoles",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "promotion_fVVVme": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/5_cc1dd000-b287-419a-8c0f-59d61eea9cad.jpg",
+            "title": "360 Beacons",
+            "text": "Light the way with Strobes N More's high-performance LED beacon lights-engineered for unmatched brightness, durability, and safety on every job.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/360-beacons-accessories",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "promotion_aKFHX6": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/6_62a33900-bf80-4e42-b0aa-38c507567da5.jpg",
+            "title": "Flasher Modules",
+            "text": "Boost your vehicle’s visibility with Strobes N’ More LED flasher lights—bright, reliable, and easy to install.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/flasher-modules",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "promotion_wLh9Xb": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/7_c38b91ce-ffbf-437d-84c9-335f9e933dcb.jpg",
+            "title": "Replacement Lenses & Bulbs",
+            "text": "Keep your lights shining bright with durable replacement lenses and bulbs from Strobes N More -built for performance, safety, and reliability",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/replacement-bulbs-lenses",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "promotion_WztQte": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/8_fcd2a7c7-8134-4ac5-b788-6aa89121aca5.jpg",
+            "title": "Arrow & Traffic LED Lightbars",
+            "text": "Stay visible and in control with Strobes N More’s durable, high-performance traffic advisor lights and arrow bars built for clear, reliable signaling.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/arrow-traffic-advisor-bars-1",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "promotion_tBDqKz": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/9.jpg",
+            "title": "Accessories & Cables",
+            "text": "Upgrade your ride with premium car accessories from Strobes N More-where safety, performance, and reliability come standard.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/cables-accessories",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion_9m9Ja4",
+        "promotion_tRn8R9",
+        "promotion_FWenHn",
+        "promotion_mn3mYa",
+        "promotion_fVVVme",
+        "promotion_aKFHX6",
+        "promotion_wLh9Xb",
+        "promotion_WztQte",
+        "promotion_tBDqKz"
+      ],
+      "custom_css": [
+        "{display: none;}",
+        "@media (min-width: 768px) {{display: block; }}",
+        "@media (min-width: 1024px) {{display: block; }}",
+        "h2 {font-size: 2rem;}"
+      ],
+      "name": "t:sections.grid.presets.grid.name",
+      "settings": {
+        "title": "",
+        "text_outside": false,
+        "text_centered": false,
+        "section_height": "small",
+        "section_columns": 3,
+        "text_alignment": "center-center"
+      }
+    },
+    "dynamic_promo_grid_NjtrWB": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion_TPRe4A": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/1_ce17ff42-dbe5-46a7-9156-1f941dc993bd.jpg",
+            "title": "Switches & Controllers",
+            "text": "Durable car light switches and controllers built for reliable, easy control of vehicle lighting systems in work and emergency applications.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/switches-controllers",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "promotion_EX8iYx": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/2_ae099e90-d11e-4150-90e7-e446b63e0b95.jpg",
+            "title": "New Products",
+            "text": "Discover the latest vehicle electronics, accessories, and safety upgrades—new arrivals built for performance, reliability, and modern vehicle needs.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/new-products",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "promotion_VtQ44R": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/3_e74425e0-85f3-4019-83de-a97ca8edaf3b.jpg",
+            "title": "Lightbar Packages",
+            "text": "Custom LED lightbar packages built for emergency and utility vehicles, delivering powerful output, durability, and flexible configuration options.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/lightbar-packages",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "promotion_xLmtpb": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/4_7e75b92d-b266-4978-8e25-2bc52fcaa029.jpg",
+            "title": "Flashlights",
+            "text": "High-performance flashlights built for reliability, durability, and powerful illumination in emergency and everyday use.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/flashlights",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "promotion_q4LGR7": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/5_cc1dd000-b287-419a-8c0f-59d61eea9cad.jpg",
+            "title": "Feniex Quad & Q Series",
+            "text": "High-performance Feniex emergency lights and lightbars built for maximum visibility, durability, and dependable on-road performance.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/feniex-quad",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "promotion_cwhKze": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/6_62a33900-bf80-4e42-b0aa-38c507567da5.jpg",
+            "title": "Garage Sale",
+            "text": "Discounted emergency lighting and vehicle accessories delivering the same trusted performance, durability, and reliability professionals depend on.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/garage-sale",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "promotion_MYm6yi": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/7_c38b91ce-ffbf-437d-84c9-335f9e933dcb.jpg",
+            "title": "Motorcycle Equipment",
+            "text": "Equip your motorcycle with powerful LED lights and sirens, ensuring maximum visibility and clear audio alerts for police and emergency riders.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/motorcycle-equipment",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "promotion_Cx8w8W": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/8_fcd2a7c7-8134-4ac5-b788-6aa89121aca5.jpg",
+            "title": "Nova Equipment",
+            "text": "Dependable Nova strobe lights and equipment for emergency, industrial, and commercial use, built to perform in critical situations.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/strobe-equipment",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "promotion_Wtzjae": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/9.jpg",
+            "title": "More",
+            "text": "Discover the latest car electronics, high-performance accessories, and innovative upgrades at Strobes N’ More, built for quality and reliability.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/more",
+            "button_text": "View Collection",
+            "button_style": "primary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion_TPRe4A",
+        "promotion_EX8iYx",
+        "promotion_VtQ44R",
+        "promotion_xLmtpb",
+        "promotion_q4LGR7",
+        "promotion_cwhKze",
+        "promotion_MYm6yi",
+        "promotion_Cx8w8W",
+        "promotion_Wtzjae"
+      ],
+      "custom_css": [
+        "{display: none;}",
+        "@media (min-width: 768px) {{display: block; }}",
+        "@media (min-width: 1024px) {{display: block; }}",
+        "h2 {font-size: 2rem;}"
+      ],
+      "name": "t:sections.grid.presets.grid.name",
+      "settings": {
+        "title": "",
+        "text_outside": false,
+        "text_centered": false,
+        "section_height": "small",
+        "section_columns": 3,
+        "text_alignment": "center-center"
+      }
     }
   },
   "order": [
     "main",
     "pxs_image_with_text_overlay_mcH4PC",
-    "dynamic_collection_list_9qkArp"
+    "dynamic_collection_list_9qkArp",
+    "dynamic_promo_mosaic_PDKqga",
+    "dynamic_promo_mosaic_qkfC7H",
+    "dynamic_promo_mosaic_a3JCQw",
+    "dynamic_promo_mosaic_H9W4Eh",
+    "dynamic_promo_grid_PCmFJF",
+    "dynamic_promo_grid_NjtrWB"
   ]
 }
