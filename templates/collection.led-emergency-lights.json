@@ -1,0 +1,196 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-collection",
+      "blocks": {
+        "filter-1": {
+          "type": "filter",
+          "settings": {
+            "filter_option": "faceted",
+            "filter_groups": "collapse_all",
+            "show_filter_product_count": false,
+            "filter_style": "tags",
+            "filter_limit": "20",
+            "grid_categories": "",
+            "custom_ordered_categories": "",
+            "custom_ordered_tags": "",
+            "excluded_tags": "B6LED, B6MM, L10, L51, Class 1, SoundOff Signal Class 1 LED Beacon, exterior, Whelen L41 Class 1 LED Beacon,",
+            "excluded_groups": ""
+          }
+        }
+      },
+      "block_order": [
+        "filter-1"
+      ],
+      "settings": {
+        "show_collection_image": false,
+        "products_per_page_range": 48,
+        "products_per_row": "4",
+        "sort_by": true,
+        "grid_list": true,
+        "default_view": "grid-view",
+        "enable_subcollection": true,
+        "show_product_count": false,
+        "thumbnail_image": "collection-image",
+        "image_crop": "original"
+      }
+    },
+    "dynamic_rich_text_XQFH8H": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2>Diverse Options for Beacon Lighting</h2><p>Your warning light should fit your work—not the other way around. Our <strong>360 beacon and accessories</strong> lineup gives you true choice across mounts, power, and protection so you can build the right solution for every vehicle.</p><ul><li><strong>Mounting styles:</strong> Magnetic and other temporary options for shared pool vehicles; permanent stud mounts for dedicated rigs; and pipe/NPT bases for plows, salters, and heavy equipment.<br/></li><li><strong>Power & control:</strong> Many models support 12–24V systems, feature sealed electronics for season‑after‑season reliability, and offer selectable flash patterns to match site policies or fleet standards.<br/></li><li><strong>Essential add‑ons:</strong> Extension leads, quick‑connect pigtails, inline fuses, plug‑in switches with pattern control, and protective guards help you route power cleanly and shield the beacon from impacts.<br/></li><li><strong>Service parts:</strong> Replacement lenses and domes extend product life without a full swap, while gaskets and hardware kits make field repairs faster.<br/></li></ul><p>Working in harsh environments—dust, rain, vibration? Prioritize higher ingress ratings and reinforced housings on the product pages. For visibility requirements, choose beacons with higher output classes where specified, and always verify color permissions in your jurisdiction before ordering. With thoughtful planning—and the right 360 beacon and accessories—you’ll reduce install time, simplify future maintenance, and keep vehicles compliant and visible wherever duty calls.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_faq_kyjq9r": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_Ln4r3T": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_7tUK8A": {
+          "type": "question",
+          "settings": {
+            "question": "What is a 360 beacon?",
+            "answer": "<p>A 360 beacon is a warning light that emits illumination in all directions for maximum visibility. It’s commonly used on work trucks, utility and construction equipment, forklifts, and escort or service vehicles to alert others to your presence.</p>",
+            "icon": "none"
+          }
+        },
+        "question_C6iYpN": {
+          "type": "question",
+          "settings": {
+            "question": "Which vehicles can use a 360 beacon?",
+            "answer": "<p>Typical applications include construction fleets, tow and recovery, snow and ice control, utilities, agriculture, security, and warehouse vehicles. Always confirm local regulations on where and how a 360‑degree beacon may be used.</p>",
+            "icon": "none"
+          }
+        },
+        "question_ffyGcn": {
+          "type": "question",
+          "settings": {
+            "question": "How do I choose between magnetic, permanent, or pipe mounts?",
+            "answer": "<p>Magnetic mounts are fast and tool‑free for temporary use on clean steel roofs. Permanent mounts are the most secure for dedicated vehicles. Pipe mounts (often 1\" or 3/4\" NPT) are common on plows and heavy equipment and elevate the beacon above obstructions.</p>",
+            "icon": "none"
+          }
+        },
+        "question_Khrmfz": {
+          "type": "question",
+          "settings": {
+            "question": "Do these beacons work with 12V and 24V systems?",
+            "answer": "<p>Many modern LED beacons are multi‑voltage (12–24V). Check each product page for exact ranges and current draw, and choose accessories—pigtails, adapters, or harnesses—that match your vehicle’s power.</p>",
+            "icon": "none"
+          }
+        },
+        "question_r49x6L": {
+          "type": "question",
+          "settings": {
+            "question": "What brightness or certification should I look for?",
+            "answer": "<p>Select applications call for specific output classes (e.g., SAE Class 1 for maximum intensity). Review the listed certifications on each product and match them to your job site or fleet requirements.</p>",
+            "icon": "none"
+          }
+        },
+        "question_R47abB": {
+          "type": "question",
+          "settings": {
+            "question": "Which colors are available, and are there restrictions?",
+            "answer": "<p>Amber is the most broadly accepted for service and construction. Red and blue are often restricted to emergency responders; green, white/clear, or purple may have niche uses. Verify local laws before ordering.</p>",
+            "icon": "none"
+          }
+        },
+        "question_RXk83V": {
+          "type": "question",
+          "settings": {
+            "question": "Are 360 beacons weatherproof?",
+            "answer": "<p>Many models feature sealed electronics and rated ingress protection (e.g., IP65–IP67). If you work in heavy rain, wash‑down, or dust, choose higher IP ratings and add guards or gaskets as needed.</p>",
+            "icon": "none"
+          }
+        },
+        "question_medk3Y": {
+          "type": "question",
+          "settings": {
+            "question": "What accessories should I consider?",
+            "answer": "<p>Common <strong>360 beacon and accessories</strong> bundles include replacement domes/lenses, mounting bases or pipe adapters, wire pigtails, extension leads, inline fuses, lens guards, and plug‑in switches with pattern control.</p>",
+            "icon": "none"
+          }
+        },
+        "question_EqD8ex": {
+          "type": "question",
+          "settings": {
+            "question": "Can I synchronize multiple beacons or other lights?",
+            "answer": "<p>Some beacons include sync wires or controller compatibility so multiple units flash together or alternate. Check the wiring diagram and accessory recommendations for your specific model.</p>",
+            "icon": "none"
+          }
+        },
+        "question_F3EFN3": {
+          "type": "question",
+          "settings": {
+            "question": "Any installation tips for first‑timers?",
+            "answer": "<p>Plan the mounting location, verify roof thickness or bracket strength, route wiring away from sharp edges and heat, and use a properly fused circuit as specified in the manual. If you’re unsure, a professional install ensures a reliable, code‑compliant setup.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_Ln4r3T",
+        "question_7tUK8A",
+        "question_C6iYpN",
+        "question_ffyGcn",
+        "question_Khrmfz",
+        "question_r49x6L",
+        "question_R47abB",
+        "question_RXk83V",
+        "question_medk3Y",
+        "question_EqD8ex",
+        "question_F3EFN3"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "settings": {
+        "section_width": "wide",
+        "heading": "FAQs: 360 Beacons & Accessories",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
+    "static-recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "dynamic_html_EJrNbM": {
+      "type": "dynamic-html",
+      "name": "t:sections.custom_html.presets.custom_html.name",
+      "settings": {
+        "title": "",
+        "custom_html": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [{\n    \"@type\": \"Question\",\n    \"name\": \"What is a 360 beacon?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"A 360 beacon is a warning light that emits illumination in all directions for maximum visibility. It’s commonly used on work trucks, utility and construction equipment, forklifts, and escort or service vehicles to alert others to your presence.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Which vehicles can use a 360 beacon?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Typical applications include construction fleets, tow and recovery, snow and ice control, utilities, agriculture, security, and warehouse vehicles. Always confirm local regulations on where and how a 360‑degree beacon may be used.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"How do I choose between magnetic, permanent, or pipe mounts?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Magnetic mounts are fast and tool‑free for temporary use on clean steel roofs. Permanent mounts are the most secure for dedicated vehicles. Pipe mounts (often 1\\\" or 3/4\\\" NPT) are common on plows and heavy equipment and elevate the beacon above obstructions.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Do these beacons work with 12V and 24V systems?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Many modern LED beacons are multi‑voltage (12–24V). Check each product page for exact ranges and current draw, and choose accessories—pigtails, adapters, or harnesses—that match your vehicle’s power.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"What brightness or certification should I look for?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Select applications call for specific output classes (e.g., SAE Class 1 for maximum intensity). Review the listed certifications on each product and match them to your job site or fleet requirements.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Which colors are available, and are there restrictions?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Amber is the most broadly accepted for service and construction. Red and blue are often restricted to emergency responders; green, white/clear, or purple may have niche uses. Verify local laws before ordering.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Are 360 beacons weatherproof?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Many models feature sealed electronics and rated ingress protection (e.g., IP65–IP67). If you work in heavy rain, wash‑down, or dust, choose higher IP ratings and add guards or gaskets as needed.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"What accessories should I consider?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Common 360 beacon and accessories bundles include replacement domes/lenses, mounting bases or pipe adapters, wire pigtails, extension leads, inline fuses, lens guards, and plug‑in switches with pattern control.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Can I synchronize multiple beacons or other lights?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Some beacons include sync wires or controller compatibility so multiple units flash together or alternate. Check the wiring diagram and accessory recommendations for your specific model.\"\n    }\n  },{\n    \"@type\": \"Question\",\n    \"name\": \"Any installation tips for first‑timers?\",\n    \"acceptedAnswer\": {\n      \"@type\": \"Answer\",\n      \"text\": \"Plan the mounting location, verify roof thickness or bracket strength, route wiring away from sharp edges and heat, and use a properly fused circuit as specified in the manual. If you’re unsure, a professional install ensures a reliable, code‑compliant setup.\"\n    }\n  }]\n}\n</script>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_rich_text_XQFH8H",
+    "dynamic_faq_kyjq9r",
+    "static-recently-viewed",
+    "dynamic_html_EJrNbM"
+  ]
+}
