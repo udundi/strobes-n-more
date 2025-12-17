@@ -44,6 +44,17 @@
         "image_crop": "original"
       }
     },
+    "dynamic_rich_text_XQFH8H": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2>Diverse Options for Beacon Lighting</h2><p>Your warning light should fit your work—not the other way around. Our <strong>360 beacon and accessories</strong> lineup gives you true choice across mounts, power, and protection so you can build the right solution for every vehicle.</p><ul><li><strong>Mounting styles:</strong> Magnetic and other temporary options for shared pool vehicles; permanent stud mounts for dedicated rigs; and pipe/NPT bases for plows, salters, and heavy equipment.<br/></li><li><strong>Power & control:</strong> Many models support 12–24V systems, feature sealed electronics for season‑after‑season reliability, and offer selectable flash patterns to match site policies or fleet standards.<br/></li><li><strong>Essential add‑ons:</strong> Extension leads, quick‑connect pigtails, inline fuses, plug‑in switches with pattern control, and protective guards help you route power cleanly and shield the beacon from impacts.<br/></li><li><strong>Service parts:</strong> Replacement lenses and domes extend product life without a full swap, while gaskets and hardware kits make field repairs faster.<br/></li></ul><p>Working in harsh environments—dust, rain, vibration? Prioritize higher ingress ratings and reinforced housings on the product pages. For visibility requirements, choose beacons with higher output classes where specified, and always verify color permissions in your jurisdiction before ordering. With thoughtful planning—and the right 360 beacon and accessories—you’ll reduce install time, simplify future maintenance, and keep vehicles compliant and visible wherever duty calls.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
     "dynamic_faq_kyjq9r": {
       "type": "dynamic-faq",
       "blocks": {
@@ -177,6 +188,7 @@
   },
   "order": [
     "main",
+    "dynamic_rich_text_XQFH8H",
     "dynamic_faq_kyjq9r",
     "static-recently-viewed",
     "dynamic_html_EJrNbM"
