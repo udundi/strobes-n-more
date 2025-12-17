@@ -593,6 +593,17 @@
         "cta_button_style": "primary"
       }
     },
+    "dynamic_html_AprpAt": {
+      "type": "dynamic-html",
+      "custom_css": [
+        "{margin-top: -40px;}"
+      ],
+      "name": "t:sections.custom_html.presets.custom_html.name",
+      "settings": {
+        "title": "",
+        "custom_html": "<a class=\"fullbar-link\" href=\"https://strobesnmore.com/collections\" aria-label=\"Shop All Categories\">\n  <div class=\"fullbar\" role=\"link\">\n    Shop All Categories\n  </div>\n</a>\n\n<style>\n  .fullbar-link {\n    display: block;\n    text-decoration: none;\n  }\n\n  .fullbar {\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    width: 100vw;\n\n    background: #21225b;\n    color: #fff;\n    font-weight: 1000;\n    padding: 10px 0;\n    text-align: center;\n\n    font-size: 1.3em;\n    z-index: 10;\n    cursor: pointer;\n  }\n\n  .fullbar:hover,\n  .fullbar:focus-visible {\n    text-decoration: underline;\n  }\n\n  .fullbar-link:focus-visible {\n    outline: none;\n  }\n</style>"
+      }
+    },
     "dynamic_featured_collection-2": {
       "type": "dynamic-featured-collection",
       "blocks": {
@@ -1028,6 +1039,7 @@
     "dynamic_promo_mosaic_793pfQ",
     "dynamic_promo_grid_BKC7RM",
     "dynamic_collection_list",
+    "dynamic_html_AprpAt",
     "dynamic_featured_collection-2",
     "dynamic_featured_collection_xVetnN",
     "dynamic_promo_mosaic",
