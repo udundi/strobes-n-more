@@ -98,7 +98,7 @@
         "promotion_xYXRj6",
         "promotion_9P9JRX"
       ],
-      "name": "Applications - All screens",
+      "name": "t:sections.grid.presets.grid.name",
       "settings": {
         "title": "",
         "text_outside": false,
@@ -106,6 +106,23 @@
         "section_height": "small",
         "section_columns": 3,
         "text_alignment": "center-center"
+      }
+    },
+    "dynamic_image_with_text_H374Ep": {
+      "type": "dynamic-image-with-text",
+      "name": "t:sections.image_with_text.presets.image_with_text.name",
+      "settings": {
+        "section_heading": "",
+        "image": "shopify://shop_images/Strobes_N_More_Installs_7977ad22-1747-4f7a-982e-ab8e87bbb8f2.jpg",
+        "desktop_height": "natural",
+        "mobile_height": "natural",
+        "desktop_image_alignment": "left",
+        "mobile_image_alignment": "top",
+        "heading": "Dealer Program",
+        "subheading": "<p><em>Our nationwide Dealer Program provides other distributors and upfitters who are buying in volume with </em><em><strong>better discounts</strong></em><em> on our emergency vehicle equipment stock. </em></p>",
+        "text_alignment": "center",
+        "button_label": "Strobes N More Dealer Program",
+        "button_link": "https://strobesnmore.com/pages/dealers"
       }
     },
     "dynamic_collection_list_9qkArp": {
@@ -381,7 +398,7 @@
         "@media (min-width: 768px) {{display: none; }}",
         "@media (min-width: 1024px) {{display: none; }}"
       ],
-      "name": "Mosaic - Mobile Only",
+      "name": "t:sections.mosaic.presets.mosaic.name",
       "settings": {
         "title": "",
         "section_height": "small",
@@ -465,7 +482,7 @@
         "@media (min-width: 768px) {{display: none; }}",
         "@media (min-width: 1024px) {{display: none; }}"
       ],
-      "name": "Mosaic - Mobile Only",
+      "name": "t:sections.mosaic.presets.mosaic.name",
       "settings": {
         "title": "",
         "section_height": "small",
@@ -565,7 +582,7 @@
         "@media (min-width: 768px) {{display: none; }}",
         "@media (min-width: 1024px) {{display: none; }}"
       ],
-      "name": "Mosaic - Mobile Only",
+      "name": "t:sections.mosaic.presets.mosaic.name",
       "settings": {
         "title": "",
         "section_height": "small",
@@ -665,7 +682,7 @@
         "@media (min-width: 768px) {{display: none; }}",
         "@media (min-width: 1024px) {{display: none; }}"
       ],
-      "name": "Mosaic - Mobile Only",
+      "name": "t:sections.mosaic.presets.mosaic.name",
       "settings": {
         "title": "",
         "section_height": "small",
@@ -830,7 +847,7 @@
         "@media (min-width: 1024px) {{display: block; }}",
         "h2 {font-size: 2rem;}"
       ],
-      "name": "Grid - Desktop Only",
+      "name": "t:sections.grid.presets.grid.name",
       "settings": {
         "title": "",
         "text_outside": false,
@@ -840,20 +857,20 @@
         "text_alignment": "center-center"
       }
     },
-    "dynamic_image_with_text_H374Ep": {
+    "dynamic_image_with_text_DiJn7k": {
       "type": "dynamic-image-with-text",
       "name": "t:sections.image_with_text.presets.image_with_text.name",
       "settings": {
         "section_heading": "",
-        "image": "shopify://shop_images/Strobes_N_More_Installs_7977ad22-1747-4f7a-982e-ab8e87bbb8f2.jpg",
+        "image": "shopify://shop_images/10312025_Lyme_Police_Cruisers-2.jpg",
         "desktop_height": "natural",
         "mobile_height": "natural",
         "desktop_image_alignment": "left",
         "mobile_image_alignment": "top",
-        "heading": "Dealer Program",
-        "subheading": "<p><em>Our nationwide Dealer Program provides other distributors and upfitters who are buying in volume with </em><em><strong>better discounts</strong></em><em> on our emergency vehicle equipment stock. </em></p>",
+        "heading": "Expert Upfitting",
+        "subheading": "<p>Our team of expert designers, quoters, and technicians has decades of experience in emergency vehicle upfitting. We specialize in installing products like lights, push bumpers, and vehicle consoles for agencies in Rhode Island and Connecticut.<br/><br/></p>",
         "text_alignment": "center",
-        "button_label": "Strobes N More Dealer Program",
+        "button_label": "Installation Services",
         "button_link": "https://strobesnmore.com/pages/dealers"
       }
     },
@@ -1013,7 +1030,7 @@
         "@media (min-width: 1024px) {{display: block; }}",
         "h2 {font-size: 2rem;}"
       ],
-      "name": "Grid - Desktop Only",
+      "name": "t:sections.grid.presets.grid.name",
       "settings": {
         "title": "",
         "text_outside": false,
@@ -1029,13 +1046,14 @@
     "pxs_image_with_text_overlay_mcH4PC",
     "dynamic_html_Pcx6yY",
     "dynamic_promo_grid_F9cdDj",
+    "dynamic_image_with_text_H374Ep",
     "dynamic_collection_list_9qkArp",
     "dynamic_promo_mosaic_PDKqga",
     "dynamic_promo_mosaic_qkfC7H",
     "dynamic_promo_mosaic_a3JCQw",
     "dynamic_promo_mosaic_H9W4Eh",
     "dynamic_promo_grid_PCmFJF",
-    "dynamic_image_with_text_H374Ep",
+    "dynamic_image_with_text_DiJn7k",
     "dynamic_promo_grid_NjtrWB"
   ]
 }
