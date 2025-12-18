@@ -381,7 +381,7 @@
         "@media (min-width: 768px) {{display: none; }}",
         "@media (min-width: 1024px) {{display: none; }}"
       ],
-      "name": "t:sections.mosaic.presets.mosaic.name",
+      "name": "Mosaic - Mobile Only",
       "settings": {
         "title": "",
         "section_height": "small",
@@ -465,7 +465,7 @@
         "@media (min-width: 768px) {{display: none; }}",
         "@media (min-width: 1024px) {{display: none; }}"
       ],
-      "name": "t:sections.mosaic.presets.mosaic.name",
+      "name": "Mosaic - Mobile Only",
       "settings": {
         "title": "",
         "section_height": "small",
@@ -565,7 +565,7 @@
         "@media (min-width: 768px) {{display: none; }}",
         "@media (min-width: 1024px) {{display: none; }}"
       ],
-      "name": "t:sections.mosaic.presets.mosaic.name",
+      "name": "Mosaic - Mobile Only",
       "settings": {
         "title": "",
         "section_height": "small",
@@ -665,7 +665,7 @@
         "@media (min-width: 768px) {{display: none; }}",
         "@media (min-width: 1024px) {{display: none; }}"
       ],
-      "name": "t:sections.mosaic.presets.mosaic.name",
+      "name": "Mosaic - Mobile Only",
       "settings": {
         "title": "",
         "section_height": "small",
@@ -830,7 +830,7 @@
         "@media (min-width: 1024px) {{display: block; }}",
         "h2 {font-size: 2rem;}"
       ],
-      "name": "t:sections.grid.presets.grid.name",
+      "name": "Grid - Desktop Only",
       "settings": {
         "title": "",
         "text_outside": false,
@@ -1013,7 +1013,7 @@
         "@media (min-width: 1024px) {{display: block; }}",
         "h2 {font-size: 2rem;}"
       ],
-      "name": "t:sections.grid.presets.grid.name",
+      "name": "Grid - Desktop Only",
       "settings": {
         "title": "",
         "text_outside": false,
