@@ -309,7 +309,7 @@
             "button_text": "LED Lights",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#000000",
+            "background": "#21225b",
             "opacity": 50
           }
         },
@@ -324,7 +324,7 @@
             "button_text": "Sirens & Speakers",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#000000",
+            "background": "#21225b",
             "opacity": 50
           }
         },
@@ -339,7 +339,7 @@
             "button_text": "Lightbars",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#000000",
+            "background": "#21225b",
             "opacity": 50
           }
         },
@@ -354,7 +354,7 @@
             "button_text": "Vehicle Consoles",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#000000",
+            "background": "#21225b",
             "opacity": 50
           }
         },
@@ -369,7 +369,7 @@
             "button_text": "360° Beacons",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#000000",
+            "background": "#21225b",
             "opacity": 50
           }
         },
@@ -384,7 +384,7 @@
             "button_text": "Flasher Modules",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#000000",
+            "background": "#21225b",
             "opacity": 50
           }
         },
@@ -399,7 +399,7 @@
             "button_text": "Lenses & Bulbs",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#000000",
+            "background": "#21225b",
             "opacity": 50
           }
         },
@@ -414,7 +414,7 @@
             "button_text": "Arrows & Traffic",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#000000",
+            "background": "#21225b",
             "opacity": 50
           }
         },
@@ -429,7 +429,7 @@
             "button_text": "Cables & Accessories",
             "button_style": "primary",
             "show_overlay": true,
-            "background": "#000000",
+            "background": "#21225b",
             "opacity": 50
           }
         }
