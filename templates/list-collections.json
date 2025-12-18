@@ -44,6 +44,70 @@
         "custom_html": "<a href=\"https://strobesnmore.com/pages/installation-service\" class=\"ticker-link\" aria-label=\"Learn more about Strobes N' More installation services\">\n  <div class=\"ticker\" role=\"status\" aria-live=\"polite\">\n    <div class=\"ticker__track\">\n      Did you know Strobes N' More offers world-class custom upfitting?!                   \n      We provide top-tier installs for many local agencies, municipalities, and fleets in Southern New England.                   \n      We stand behind our product as well as our service.                   \n      CLICK HERE TO LEARN MORE!\n    </div>\n  </div>\n</a>\n\n<style>\n  .ticker-link {\n    display: block;\n    text-decoration: none;\n    color: inherit;\n  }\n\n  .ticker {\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    width: 100vw;\n    background: #21225b;\n    color: #fff;\n    font-weight: 1000;\n    padding: 8px 0;\n    overflow: hidden;\n    white-space: nowrap;\n    z-index: 10;\n    text-align: center;\n    font-size: 1.3em;\n    cursor: pointer;\n  }\n\n  .ticker:hover {\n    text-decoration: underline;\n  }\n\n  .ticker__track {\n    display: inline-block;\n    padding-left: 100%;\n    animation: ticker 24s linear infinite;\n  }\n\n  @keyframes ticker {\n    0%   { transform: translateX(0); }\n    100% { transform: translateX(-100%); }\n  }\n\n  @media (prefers-reduced-motion: reduce) {\n    .ticker__track {\n      animation: none;\n      padding-left: 0;\n    }\n  }\n</style>"
       }
     },
+    "dynamic_promo_grid_F9cdDj": {
+      "type": "dynamic-promo-grid",
+      "blocks": {
+        "promotion_nWkzNm": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/truckkkk-1.jpg",
+            "title": "Fire/EMS",
+            "text": "Equip your truck with reliable emergency lights, sirens, and firefighter lighting solutions designed for maximum visibility and on-road safety.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/fire-ems",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "promotion_xYXRj6": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/08012025_Volunteer_Truck-9.jpg",
+            "title": "Public Works",
+            "text": "From LED warning lights to snow plow and construction truck lights, find durable lighting built for demanding work environments.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/public-works-construction",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        },
+        "promotion_9P9JRX": {
+          "type": "promotion",
+          "settings": {
+            "image": "shopify://shop_images/12042025_Stonington_Admin-2.jpg",
+            "title": "Law Enforcement",
+            "text": "Shop professional-grade law enforcement lights, sirens, and police strobes built for maximum visibility, durability, and officer safety.",
+            "color": "#ffffff",
+            "block_link": "shopify://collections/law-enforcement",
+            "button_text": "View Collection",
+            "button_style": "secondary",
+            "show_overlay": true,
+            "background": "#000000",
+            "opacity": 50
+          }
+        }
+      },
+      "block_order": [
+        "promotion_nWkzNm",
+        "promotion_xYXRj6",
+        "promotion_9P9JRX"
+      ],
+      "name": "t:sections.grid.presets.grid.name",
+      "settings": {
+        "title": "",
+        "text_outside": false,
+        "text_centered": false,
+        "section_height": "small",
+        "section_columns": 3,
+        "text_alignment": "center-center"
+      }
+    },
     "dynamic_collection_list_9qkArp": {
       "type": "dynamic-collection-list",
       "blocks": {
@@ -964,6 +1028,7 @@
     "main",
     "pxs_image_with_text_overlay_mcH4PC",
     "dynamic_html_Pcx6yY",
+    "dynamic_promo_grid_F9cdDj",
     "dynamic_collection_list_9qkArp",
     "dynamic_promo_mosaic_PDKqga",
     "dynamic_promo_mosaic_qkfC7H",
