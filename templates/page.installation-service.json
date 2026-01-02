@@ -127,7 +127,7 @@
           "type": "question",
           "settings": {
             "question": "Services & Rates",
-            "answer": "<p>Labor rates are $125 per hour, plus an additional 7.5% shop supply fee which covers all cables, fuses and connectors.  Other items may cost extra.  Generally, we will only install products from brands we know well & choose to support.</p>",
+            "answer": "<p>Labor rates are $150 per hour, plus an additional 7.5% shop supply fee which covers all cables, fuses and connectors.  Other items may cost extra.  Generally, we will only install products from brands we know well & choose to support.</p>",
             "icon": "icon-discount"
           }
         },
