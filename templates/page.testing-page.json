@@ -14,170 +14,28 @@
       "disabled": true,
       "settings": {}
     },
-    "dynamic_promo_grid_ULmYez": {
-      "type": "dynamic-promo-grid",
+    "17677252639242d2ff": {
+      "type": "apps",
       "blocks": {
-        "promotion_TCETHP": {
-          "type": "promotion",
+        "powerful_form_builder_app_block_teYJPw": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
           "settings": {
-            "image": "shopify://shop_images/web_photos-9_be1f3497-0c28-4e14-9e5f-a67636a073a9.png",
-            "title": "Vehicle Consoles",
-            "text": "Upgrade your ride with Strobes N More's custom-fit vehicle consoles-built for durability, and seamless integration.",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/speakers",
-            "button_text": "View Collection",
-            "button_style": "secondary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
-          }
-        },
-        "promotion_bgmjxQ": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/web_photos-8_369fd130-bbc4-43d8-9e76-9af381467403.png",
-            "title": "Flasher Modules",
-            "text": "Boost your vehicle’s visibility with Strobes N’ More LED flasher lights—bright, reliable, and easy to install.",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/flasher-modules",
-            "button_text": "View Collection",
-            "button_style": "secondary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
-          }
-        },
-        "promotion_R4Niyw": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/web_photos-9_be1f3497-0c28-4e14-9e5f-a67636a073a9.png",
-            "title": "Vehicle Consoles",
-            "text": "Upgrade your ride with Strobes N More's custom-fit vehicle consoles-built for durability, and seamless integration.",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/speakers",
-            "button_text": "View Collection",
-            "button_style": "secondary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
-          }
-        },
-        "promotion_ryyBfi": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/web_photos-8_369fd130-bbc4-43d8-9e76-9af381467403.png",
-            "title": "Flasher Modules",
-            "text": "Boost your vehicle’s visibility with Strobes N’ More LED flasher lights—bright, reliable, and easy to install.",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/flasher-modules",
-            "button_text": "View Collection",
-            "button_style": "secondary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
-          }
-        },
-        "promotion_FW3eEg": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/web_photos-13.png",
-            "title": "Arrows & Traffic LEDs",
-            "text": "Stay visible and in control with Strobes N More’s durable, high-performance traffic advisor lights and arrow bars built for clear.",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/arrow-traffic-advisor-bars-1",
-            "button_text": "View Collection",
-            "button_style": "secondary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
-          }
-        },
-        "promotion_JpaMH7": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/web_photos-12_cb8ebdd4-079a-4cda-b110-4e0b37ac224f.png",
-            "title": "Siren and Speakers",
-            "text": "high-performance sirens and speakers built for clarity, durability, and reliability—ensuring your emergency vehicle is heard when it matters most.",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/speakers",
-            "button_text": "View Collection",
-            "button_style": "secondary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
-          }
-        },
-        "promotion_GB4xBX": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/web_photos-13.png",
-            "title": "Arrow & Traffic LED Lightbars",
-            "text": "Stay visible and in control with Strobes N More’s durable, high-performance traffic advisor lights and arrow bars built for clear.",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/arrow-traffic-advisor-bars-1",
-            "button_text": "View Collection",
-            "button_style": "secondary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
-          }
-        },
-        "promotion_d78737": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/web_photos-12_cb8ebdd4-079a-4cda-b110-4e0b37ac224f.png",
-            "title": "Siren and Speakers",
-            "text": "high-performance sirens and speakers built for clarity, durability, and reliability—ensuring your emergency vehicle is heard when it matters most.",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/speakers",
-            "button_text": "View Collection",
-            "button_style": "secondary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
-          }
-        },
-        "promotion_LMx3pi": {
-          "type": "promotion",
-          "settings": {
-            "image": "shopify://shop_images/web_photos-12_cb8ebdd4-079a-4cda-b110-4e0b37ac224f.png",
-            "title": "Siren and Speakers",
-            "text": "high-performance sirens and speakers built for clarity, durability, and reliability—ensuring your emergency vehicle is heard when it matters most.",
-            "color": "#ffffff",
-            "block_link": "shopify://collections/speakers",
-            "button_text": "View Collection",
-            "button_style": "secondary",
-            "show_overlay": true,
-            "background": "#1d1d1d",
-            "opacity": 50
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTI2MDY3\"></div>"
           }
         }
       },
       "block_order": [
-        "promotion_TCETHP",
-        "promotion_bgmjxQ",
-        "promotion_R4Niyw",
-        "promotion_ryyBfi",
-        "promotion_FW3eEg",
-        "promotion_JpaMH7",
-        "promotion_GB4xBX",
-        "promotion_d78737",
-        "promotion_LMx3pi"
+        "powerful_form_builder_app_block_teYJPw"
       ],
-      "custom_css": [
-        "{display: none;}",
-        "@media (min-width: 768px) {{display: block; }}",
-        "@media (min-width: 1024px) {{display: block; }}",
-        "h2 {font-size: 2rem;}"
-      ],
-      "name": "t:sections.grid.presets.grid.name",
       "settings": {
-        "title": "",
-        "text_outside": false,
-        "text_centered": false,
-        "section_height": "small",
-        "section_columns": 3,
-        "text_alignment": "center-center"
+        "include_padding": true
+      }
+    },
+    "dynamic_custom_liquid_9iKjG9": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "<div class=\"logo-ticker\" role=\"region\" aria-label=\"Trusted brands\">\n  <div class=\"logo-ticker__track\">\n    <!-- SET 1 -->\n    <div class=\"logo-ticker__set\" aria-hidden=\"true\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/ATEC_logo-removebg-preview.png?v=1765548396\" alt=\"ATEC logo\" loading=\"lazy\">\n      <a href=\"https://strobesnmore.com/collections/diode-dynamics\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Diode_dynamics_logo-removebg-preview_4ce2db1a-cb48-49b9-a56c-4a863eaafb56.png?v=1765548397\" alt=\"Diode Dynamics logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/federal-signal\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/fedsig-logo-small-removebg-preview.png?v=1765548397\" alt=\"Federal Signal logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/feniex\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Feniex_logo.png?v=1730807318\" alt=\"Feniex logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/havis\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/havis-logo-small-removebg-preview.png?v=1765548397\" alt=\"Havis logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/nova\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Nova_logo-removebg-preview.png?v=1765548396\" alt=\"Nova logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/prioritystart\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Priority_start_logo-removebg-preview.png?v=1765548396\" alt=\"Priority Start logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/pro-gard\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Pro-gard_logo-removebg-preview.png?v=1765548397\" alt=\"Pro-Gard logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/setina\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Setina-Logo_crop-removebg-preview.png?v=1765548397\" alt=\"Setina logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/able-2-sho-me\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Sho-me_logo-removebg-preview.png?v=1765548397\" alt=\"Sho-Me logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/soundoff-signal\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Sound_off_signal_logo-removebg-preview.png?v=1765548397\" alt=\"SoundOff Signal logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/speed-turtle\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Speed_turtle_logo-removebg-preview.png?v=1765548397\" alt=\"Speed Turtle logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/star-svp\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Star-svp-copy-removebg-preview.png?v=1765548397\" alt=\"Star SVP logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/streamlight\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Streamlight_logo.png?v=1730808212\" alt=\"Streamlight logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/strobes-n-more\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/SNM_Social_Logo-removebg-preview.png?v=1765548397\" alt=\"Strobes N More logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/tomar\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Tomar_logo.png?v=1730808265\" alt=\"Tomar logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/towmate\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/TowMate_logo.png?v=1756493282\" alt=\"TowMate logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/whelen-products\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Whelen_logo.png?v=1730808341\" alt=\"Whelen logo\" loading=\"lazy\">\n      </a>\n    </div>\n\n    <!-- SET 2 (duplicate for seamless loop) -->\n    <div class=\"logo-ticker__set\" aria-hidden=\"true\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/ATEC_logo-removebg-preview.png?v=1765548396\" alt=\"\" loading=\"lazy\">\n      <a href=\"https://strobesnmore.com/collections/diode-dynamics\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Diode_dynamics_logo-removebg-preview_4ce2db1a-cb48-49b9-a56c-4a863eaafb56.png?v=1765548397\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/federal-signal\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/fedsig-logo-small-removebg-preview.png?v=1765548397\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/feniex\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Feniex_logo.png?v=1730807318\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/havis\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/havis-logo-small-removebg-preview.png?v=1765548397\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/nova\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Nova_logo-removebg-preview.png?v=1765548396\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/prioritystart\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Priority_start_logo-removebg-preview.png?v=1765548396\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/pro-gard\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Pro-gard_logo-removebg-preview.png?v=1765548397\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/setina\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Setina-Logo_crop-removebg-preview.png?v=1765548397\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/able-2-sho-me\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Sho-me_logo-removebg-preview.png?v=1765548397\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/soundoff-signal\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Sound_off_signal_logo-removebg-preview.png?v=1765548397\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/speed-turtle\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Speed_turtle_logo-removebg-preview.png?v=1765548397\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/star-svp\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Star-svp-copy-removebg-preview.png?v=1765548397\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/streamlight\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Streamlight_logo.png?v=1730808212\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/strobes-n-more\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/SNM_Social_Logo-removebg-preview.png?v=1765548397\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/tomar\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Tomar_logo.png?v=1730808265\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/towmate\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/TowMate_logo.png?v=1756493282\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/whelen-products\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Whelen_logo.png?v=1730808341\" alt=\"\" loading=\"lazy\">\n      </a>\n    </div>\n  </div>\n</div>\n\n<style>\n  .logo-ticker {\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    width: 100vw;\n    background: #21225b;\n    padding: 10px 0;\n    overflow: hidden;\n    z-index: 10;\n  }\n\n  .logo-ticker__track {\n    display: flex;\n    width: max-content;\n    animation: logoTicker 28s linear infinite;\n    will-change: transform;\n  }\n\n  .logo-ticker__set {\n    display: flex;\n    align-items: center;\n    gap: 36px;\n    padding-right: 36px;\n  }\n\n  .logo-link {\n    display: flex;\n    align-items: center;\n    text-decoration: none;\n    transition: opacity 0.3s ease;\n  }\n\n  .logo-link:hover {\n    opacity: 0.8;\n  }\n\n  .logo-ticker__set img {\n    height: 48px;\n    width: auto;\n    max-width: 200px;\n    object-fit: contain;\n    filter: brightness(0) invert(1);\n    opacity: 0.95;\n  }\n\n  /* Extra large logos */\n  .logo-ticker__set img[alt=\"Streamlight logo\"] {\n    height: 60px;\n    max-width: 220px;\n  }\n\n  /* Extra extra large for Strobes N More, Federal Signal, and Priority Start */\n  .logo-ticker__set img[alt=\"Strobes N More logo\"],\n  .logo-ticker__set img[alt=\"Federal Signal logo\"],\n  .logo-ticker__set img[alt=\"Priority Start logo\"] {\n    height: 80px;\n    max-width: 280px;\n  }\n\n  /* Smaller logos */\n  .logo-ticker__set img[alt=\"Whelen logo\"],\n  .logo-ticker__set img[alt=\"TowMate logo\"] {\n    height: 32px;\n    max-width: 140px;\n  }\n\n  @keyframes logoTicker {\n    0% {\n      transform: translateX(0);\n    }\n    100% {\n      transform: translateX(-50%);\n    }\n  }\n\n  @media (max-width: 768px) {\n    .logo-ticker__track {\n      animation-duration: 36s;\n    }\n    .logo-ticker__set {\n      gap: 26px;\n      padding-right: 26px;\n    }\n    .logo-ticker__set img {\n      height: 40px;\n      max-width: 170px;\n    }\n    .logo-ticker__set img[alt=\"Streamlight logo\"] {\n      height: 48px;\n      max-width: 190px;\n    }\n    .logo-ticker__set img[alt=\"Strobes N More logo\"],\n    .logo-ticker__set img[alt=\"Federal Signal logo\"],\n    .logo-ticker__set img[alt=\"Priority Start logo\"] {\n      height: 60px;\n      max-width: 240px;\n    }\n    .logo-ticker__set img[alt=\"Whelen logo\"],\n    .logo-ticker__set img[alt=\"TowMate logo\"] {\n      height: 26px;\n      max-width: 120px;\n    }\n  }\n\n  @media (prefers-reduced-motion: reduce) {\n    .logo-ticker__track {\n      animation: none;\n    }\n  }\n</style>"
       }
     },
     "dynamic_custom_liquid_rQHL6U": {
@@ -611,19 +469,12 @@
         "background_color": "#f8f8f8",
         "mobile_layout": "slider"
       }
-    },
-    "dynamic_custom_liquid_9iKjG9": {
-      "type": "dynamic-custom-liquid",
-      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
-      "settings": {
-        "custom_liquid": "<div class=\"logo-ticker\" role=\"region\" aria-label=\"Trusted brands\">\n  <div class=\"logo-ticker__track\">\n    <!-- SET 1 -->\n    <div class=\"logo-ticker__set\" aria-hidden=\"true\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/ATEC_logo-removebg-preview.png?v=1765548396\" alt=\"ATEC logo\" loading=\"lazy\">\n      <a href=\"https://strobesnmore.com/collections/diode-dynamics\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Diode_dynamics_logo-removebg-preview_4ce2db1a-cb48-49b9-a56c-4a863eaafb56.png?v=1765548397\" alt=\"Diode Dynamics logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/federal-signal\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/fedsig-logo-small-removebg-preview.png?v=1765548397\" alt=\"Federal Signal logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/feniex\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Feniex_logo.png?v=1730807318\" alt=\"Feniex logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/havis\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/havis-logo-small-removebg-preview.png?v=1765548397\" alt=\"Havis logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/nova\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Nova_logo-removebg-preview.png?v=1765548396\" alt=\"Nova logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/prioritystart\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Priority_start_logo-removebg-preview.png?v=1765548396\" alt=\"Priority Start logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/pro-gard\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Pro-gard_logo-removebg-preview.png?v=1765548397\" alt=\"Pro-Gard logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/setina\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Setina-Logo_crop-removebg-preview.png?v=1765548397\" alt=\"Setina logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/able-2-sho-me\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Sho-me_logo-removebg-preview.png?v=1765548397\" alt=\"Sho-Me logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/soundoff-signal\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Sound_off_signal_logo-removebg-preview.png?v=1765548397\" alt=\"SoundOff Signal logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/speed-turtle\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Speed_turtle_logo-removebg-preview.png?v=1765548397\" alt=\"Speed Turtle logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/star-svp\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Star-svp-copy-removebg-preview.png?v=1765548397\" alt=\"Star SVP logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/streamlight\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Streamlight_logo.png?v=1730808212\" alt=\"Streamlight logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/strobes-n-more\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/SNM_Social_Logo-removebg-preview.png?v=1765548397\" alt=\"Strobes N More logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/tomar\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Tomar_logo.png?v=1730808265\" alt=\"Tomar logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/towmate\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/TowMate_logo.png?v=1756493282\" alt=\"TowMate logo\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/whelen-products\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Whelen_logo.png?v=1730808341\" alt=\"Whelen logo\" loading=\"lazy\">\n      </a>\n    </div>\n\n    <!-- SET 2 (duplicate for seamless loop) -->\n    <div class=\"logo-ticker__set\" aria-hidden=\"true\">\n      <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/ATEC_logo-removebg-preview.png?v=1765548396\" alt=\"\" loading=\"lazy\">\n      <a href=\"https://strobesnmore.com/collections/diode-dynamics\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Diode_dynamics_logo-removebg-preview_4ce2db1a-cb48-49b9-a56c-4a863eaafb56.png?v=1765548397\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/federal-signal\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/fedsig-logo-small-removebg-preview.png?v=1765548397\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/feniex\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Feniex_logo.png?v=1730807318\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/havis\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/havis-logo-small-removebg-preview.png?v=1765548397\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/nova\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Nova_logo-removebg-preview.png?v=1765548396\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/prioritystart\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Priority_start_logo-removebg-preview.png?v=1765548396\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/pro-gard\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Pro-gard_logo-removebg-preview.png?v=1765548397\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/setina\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Setina-Logo_crop-removebg-preview.png?v=1765548397\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/able-2-sho-me\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Sho-me_logo-removebg-preview.png?v=1765548397\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/soundoff-signal\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Sound_off_signal_logo-removebg-preview.png?v=1765548397\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/speed-turtle\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Speed_turtle_logo-removebg-preview.png?v=1765548397\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/star-svp\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Star-svp-copy-removebg-preview.png?v=1765548397\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/streamlight\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Streamlight_logo.png?v=1730808212\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/strobes-n-more\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/SNM_Social_Logo-removebg-preview.png?v=1765548397\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/tomar\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Tomar_logo.png?v=1730808265\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/towmate\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/TowMate_logo.png?v=1756493282\" alt=\"\" loading=\"lazy\">\n      </a>\n      <a href=\"https://strobesnmore.com/collections/whelen-products\" class=\"logo-link\">\n        <img src=\"https://cdn.shopify.com/s/files/1/0873/1243/3432/files/Whelen_logo.png?v=1730808341\" alt=\"\" loading=\"lazy\">\n      </a>\n    </div>\n  </div>\n</div>\n\n<style>\n  .logo-ticker {\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    width: 100vw;\n    background: #21225b;\n    padding: 10px 0;\n    overflow: hidden;\n    z-index: 10;\n  }\n\n  .logo-ticker__track {\n    display: flex;\n    width: max-content;\n    animation: logoTicker 28s linear infinite;\n    will-change: transform;\n  }\n\n  .logo-ticker__set {\n    display: flex;\n    align-items: center;\n    gap: 36px;\n    padding-right: 36px;\n  }\n\n  .logo-link {\n    display: flex;\n    align-items: center;\n    text-decoration: none;\n    transition: opacity 0.3s ease;\n  }\n\n  .logo-link:hover {\n    opacity: 0.8;\n  }\n\n  .logo-ticker__set img {\n    height: 48px;\n    width: auto;\n    max-width: 200px;\n    object-fit: contain;\n    filter: brightness(0) invert(1);\n    opacity: 0.95;\n  }\n\n  /* Extra large logos */\n  .logo-ticker__set img[alt=\"Streamlight logo\"] {\n    height: 60px;\n    max-width: 220px;\n  }\n\n  /* Extra extra large for Strobes N More, Federal Signal, and Priority Start */\n  .logo-ticker__set img[alt=\"Strobes N More logo\"],\n  .logo-ticker__set img[alt=\"Federal Signal logo\"],\n  .logo-ticker__set img[alt=\"Priority Start logo\"] {\n    height: 80px;\n    max-width: 280px;\n  }\n\n  /* Smaller logos */\n  .logo-ticker__set img[alt=\"Whelen logo\"],\n  .logo-ticker__set img[alt=\"TowMate logo\"] {\n    height: 32px;\n    max-width: 140px;\n  }\n\n  @keyframes logoTicker {\n    0% {\n      transform: translateX(0);\n    }\n    100% {\n      transform: translateX(-50%);\n    }\n  }\n\n  @media (max-width: 768px) {\n    .logo-ticker__track {\n      animation-duration: 36s;\n    }\n    .logo-ticker__set {\n      gap: 26px;\n      padding-right: 26px;\n    }\n    .logo-ticker__set img {\n      height: 40px;\n      max-width: 170px;\n    }\n    .logo-ticker__set img[alt=\"Streamlight logo\"] {\n      height: 48px;\n      max-width: 190px;\n    }\n    .logo-ticker__set img[alt=\"Strobes N More logo\"],\n    .logo-ticker__set img[alt=\"Federal Signal logo\"],\n    .logo-ticker__set img[alt=\"Priority Start logo\"] {\n      height: 60px;\n      max-width: 240px;\n    }\n    .logo-ticker__set img[alt=\"Whelen logo\"],\n    .logo-ticker__set img[alt=\"TowMate logo\"] {\n      height: 26px;\n      max-width: 120px;\n    }\n  }\n\n  @media (prefers-reduced-motion: reduce) {\n    .logo-ticker__track {\n      animation: none;\n    }\n  }\n</style>"
-      }
     }
   },
   "order": [
     "main",
+    "17677252639242d2ff",
     "dynamic_custom_liquid_9iKjG9",
-    "dynamic_promo_grid_ULmYez",
     "dynamic_custom_liquid_rQHL6U",
     "dynamic_rich_text_mB8WeC",
     "dynamic_custom_liquid_PtUwKe",
