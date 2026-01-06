@@ -173,9 +173,26 @@
       "settings": {
         "width": "full-width",
         "title": "READY TO SAVE?",
-        "text": "<h4>Contact <a href=\"mailto:dealersales@strobesnmore.com\" title=\"mailto:dealersales@strobesnmore.com\"><strong>dealersales@strobesnmore.com</strong></a> today to learn more.</h4>",
+        "text": "<h4>Contact <a href=\"mailto:dealersales@strobesnmore.com\" title=\"mailto:dealersales@strobesnmore.com\"><strong>dealersales@strobesnmore.com</strong></a> today or fill the form below to learn more.</h4>",
         "heading_size": "medium",
         "text_alignment": "center"
+      }
+    },
+    "17677260314d439714": {
+      "type": "apps",
+      "blocks": {
+        "powerful_form_builder_app_block_HiNedn": {
+          "type": "shopify://apps/powerful-form-builder/blocks/app-block/e4bcb1eb-35b2-42e6-bc37-bfe0e1542c9d",
+          "settings": {
+            "shortcode": "<div class=\"globo-formbuilder\" data-id=\"MTI2MDY3\"></div>"
+          }
+        }
+      },
+      "block_order": [
+        "powerful_form_builder_app_block_HiNedn"
+      ],
+      "settings": {
+        "include_padding": true
       }
     }
   },
@@ -188,6 +205,7 @@
     "dynamic_logo_list_AD3Bpj",
     "dynamic_rich_text_ymM69z",
     "dynamic_rich_text_TD69V9",
-    "dynamic_rich_text_VUgjBg"
+    "dynamic_rich_text_VUgjBg",
+    "17677260314d439714"
   ]
 }
