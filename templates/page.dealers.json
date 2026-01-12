@@ -40,7 +40,7 @@
       ],
       "settings": {
         "width": "wide",
-        "title": "WHY SHOULD YOU JOIN OUR DEALER PROGRAM?",
+        "title": "DEALER PROGRAM BENEFITS",
         "text": "",
         "heading_size": "medium",
         "text_alignment": "center"
@@ -55,7 +55,7 @@
       "settings": {
         "width": "wide",
         "title": "",
-        "text": "<p>Headquartered in RI, Strobes N’ More distributes, installs & services emergency vehicle equipment on <br/>behalf of the industry’s leading manufacturers for government and commercial customers—including <br/>law enforcement, fire, EMS, amber, and other safety & emergency vehicle suppliers.</p><p><span style=\"text-decoration:underline\"><em>Our nationwide Dealer Program provides other distributors and upfitters who are buying in volume with <br/>better discounts on our emergency vehicle equipment stock</em></span></p><h4>Dealer Program benefits include:</h4><ul><li>Strong fulfillment times nation-wide</li></ul><p></p><ul><li>Wide inventory selection consisting of product on behalf of 40+ OEMs</li></ul><p></p><ul><li>Dedicated customer support team with decades of industry expertise</li></ul><p></p><ul><li>Competitive pricing across the board</li></ul><p></p><ul><li>Single invoice & secure payment processing</li></ul><p></p><ul><li>Products designed & tested in the USA</li></ul>",
+        "text": "<p><span style=\"text-decoration:underline\"><em>Our nationwide Dealer Program provides other distributors and upfitters who are buying in volume with <br/>better discounts on our emergency vehicle equipment stock</em></span></p><h4>Benefits Include:</h4><ul><li>Strong fulfillment times nation-wide</li></ul><p></p><ul><li>Wide inventory selection consisting of product on behalf of 40+ OEMs</li></ul><p></p><ul><li>Dedicated customer support team with decades of industry expertise</li></ul><p></p><ul><li>Competitive pricing across the board</li></ul><p></p><ul><li>Single invoice & secure payment processing</li></ul><p></p><ul><li>Products designed & tested in the USA</li></ul>",
         "heading_size": "medium",
         "text_alignment": "left"
       }
@@ -145,7 +145,7 @@
       ],
       "settings": {
         "width": "wide",
-        "title": "HERE’S HOW TO QUALIFY",
+        "title": "IT'S EASY TO QUALIFY",
         "text": "",
         "heading_size": "medium",
         "text_alignment": "center"
