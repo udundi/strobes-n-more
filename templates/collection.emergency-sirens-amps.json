@@ -14,6 +14,7 @@
       "blocks": {
         "filter-1": {
           "type": "filter",
+          "disabled": true,
           "settings": {
             "filter_option": "faceted",
             "filter_groups": "collapse_all",
