@@ -56,132 +56,10 @@
         "text_alignment": "left"
       }
     },
-    "dynamic_faq_kyjq9r": {
-      "type": "dynamic-faq",
-      "blocks": {
-        "category_Ln4r3T": {
-          "type": "category",
-          "settings": {
-            "heading": "Category",
-            "show_category_card": true
-          }
-        },
-        "question_7tUK8A": {
-          "type": "question",
-          "settings": {
-            "question": "1. Are these LED lights compatible with electric vehicles?",
-            "answer": "<p>Yes. Most EVs still use a standard 12V auxiliary system for lighting and accessories, and the LED products in this collection are designed to run on that system. Always confirm voltage and wiring on the product page and with your upfitter before installation.</p>",
-            "icon": "none"
-          }
-        },
-        "question_C6iYpN": {
-          "type": "question",
-          "settings": {
-            "question": "2. Will adding LED lights reduce my EV’s driving range?",
-            "answer": "<p>Any accessory that draws power can have a small impact on range, but LEDs are extremely efficient. Compared to older halogen or strobe systems, modern LED warning and scene lights use far less power for the same or greater output, keeping range impact minimal.</p>",
-            "icon": "none"
-          }
-        },
-        "question_ffyGcn": {
-          "type": "question",
-          "settings": {
-            "question": "3. Can I install these LED lights on my EV myself?",
-            "answer": "<p>If you’re comfortable with 12V wiring and follow the instructions, many dash lights, window lights, and surface mounts can be installed by a DIYer. However, hide-away LEDs, integrated brake/tail/turn lighting, and multi-module EV packages are often best handled by a professional installer or upfitter.</p>",
-            "icon": "none"
-          }
-        },
-        "question_Khrmfz": {
-          "type": "question",
-          "settings": {
-            "question": "4. Do I need special brackets for EVs?",
-            "answer": "<p>Some EVs have unique rooflines, bumpers, and body materials, so proper brackets and mounting hardware are important. This collection includes mounting brackets and accessories designed to adapt LED lights to a wide range of vehicles, including electric platforms.</p>",
-            "icon": "none"
-          }
-        },
-        "question_r49x6L": {
-          "type": "question",
-          "settings": {
-            "question": "5. Are these LED lights legal for road use on my EV?",
-            "answer": "<p>Legality depends on your jurisdiction, your role (emergency, utility, security, etc.), and the colors and patterns you use. Check your local regulations and agency or company policies before choosing colors or running warning patterns on public roads.</p>",
-            "icon": "none"
-          }
-        },
-        "question_R47abB": {
-          "type": "question",
-          "settings": {
-            "question": "6. Can I integrate these LEDs with my EV’s factory controls?",
-            "answer": "<p>Many fleets run standalone controllers and switch panels to keep LED systems separate and easy to manage. In some cases, lights can be integrated with EV upfitter circuits or control modules—your upfitter or installer can advise on the safest, most reliable approach.<a href=\"https://strobesnmore.com/collections/led-lights\"> </a></p>",
-            "icon": "none"
-          }
-        },
-        "question_RXk83V": {
-          "type": "question",
-          "settings": {
-            "question": "7. What’s the difference between surface-mount lights and hide-away LEDs on an EV?",
-            "answer": "<p>Surface-mount lights are visible fixtures you attach to the vehicle’s exterior or interior surfaces. Hide-away LEDs mount inside existing lamp housings for a more covert look. Surface mounts are ideal when you want a bold visual presence, while hideaways are great for unmarked or minimalist EV builds.</p>",
-            "icon": "none"
-          }
-        },
-        "question_medk3Y": {
-          "type": "question",
-          "settings": {
-            "question": "8. Are these LED lights weather-resistant enough for year-round EV use?",
-            "answer": "<p>Yes. The LED lights and brands in this collection are designed for professional emergency and fleet use, with sealed housings and durable materials that stand up to rain, snow, road salt, and car washes. Check each product listing for specific IP or SAE ratings if needed.</p>",
-            "icon": "none"
-          }
-        },
-        "question_EqD8ex": {
-          "type": "question",
-          "settings": {
-            "question": "9. Do you offer both warning and work lighting for EVs?",
-            "answer": "<p>Absolutely. Within this collection, you’ll find warning lights (surface mounts, hide-aways, dash and stick lights) as well as work and scene lighting (floods, spots, rocker panels, and brake/tail/turn solutions), allowing you to build a complete EV package from a single source.</p>",
-            "icon": "none"
-          }
-        }
-      },
-      "block_order": [
-        "category_Ln4r3T",
-        "question_7tUK8A",
-        "question_C6iYpN",
-        "question_ffyGcn",
-        "question_Khrmfz",
-        "question_r49x6L",
-        "question_R47abB",
-        "question_RXk83V",
-        "question_medk3Y",
-        "question_EqD8ex"
-      ],
-      "custom_css": [
-        "h3 {display: none;}"
-      ],
-      "settings": {
-        "section_width": "wide",
-        "heading": "LED Lights for Emergency & First Response Vehicles - FAQs",
-        "enable_category_cards": false,
-        "category_card_image_crop": "original",
-        "category_heading_size": "medium",
-        "icon_color": "rgba(0,0,0,0)"
-      }
-    },
     "static-recently-viewed": {
       "type": "static-recently-viewed",
       "settings": {
         "enable_recently_viewed_products": true
-      }
-    },
-    "dynamic_html_EJrNbM": {
-      "type": "dynamic-html",
-      "name": "t:sections.custom_html.presets.custom_html.name",
-      "settings": {
-        "title": "",
-        "custom_html": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are these LED lights compatible with electric vehicles?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes. Most EVs still use a standard 12V auxiliary system for lighting and accessories, and the LED products in this collection are designed to run on that system. Always confirm voltage and wiring on the product page and with your upfitter before installation.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Will adding LED lights reduce my EV\\u2019s driving range?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Any accessory that draws power can have a small impact on range, but LEDs are extremely efficient. Compared to older halogen or strobe systems, modern LED warning and scene lights use far less power for the same or greater output, keeping range impact minimal.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can I install these LED lights on my EV myself?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"If you\\u2019re comfortable with 12V wiring and follow the instructions, many dash lights, window lights, and surface mounts can be installed by a DIYer. However, hide-away LEDs, integrated brake/tail/turn lighting, and multi-module EV packages are often best handled by a professional installer or upfitter.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do I need special brackets for EVs?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Some EVs have unique rooflines, bumpers, and body materials, so proper brackets and mounting hardware are important. This collection includes mounting brackets and accessories designed to adapt LED lights to a wide range of vehicles, including electric platforms.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are these LED lights legal for road use on my EV?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Legality depends on your jurisdiction, your role (emergency, utility, security, etc.), and the colors and patterns you use. Check your local regulations and agency or company policies before choosing colors or running warning patterns on public roads.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can I integrate these LEDs with my EV’s factory controls?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Many fleets run standalone controllers and switch panels to keep LED systems separate and easy to manage. In some cases, lights can be integrated with EV upfitter circuits or control modules\\u2014your upfitter or installer can advise on the safest, most reliable approach.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What\\u2019s the difference between surface mount lights and hide-away LEDs on an EV?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Surface mount lights are visible fixtures you attach to the vehicle\\u2019s exterior or interior surfaces. Hide-away LEDs mount inside existing lamp housings for a more covert look. Surface mounts are ideal when you want a bold visual presence, while hide-aways are great for unmarked or minimalist EV builds.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are these LED lights weather-resistant enough for year-round EV use?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes. The LED lights and brands in this collection are designed for professional emergency and fleet use, with sealed housings and durable materials that stand up to rain, snow, road salt, and car washes. Check each product listing for specific IP or SAE ratings if needed.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do you offer both warning and work lighting for EVs?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Yes. Within this collection, you\\u2019ll find warning lights (surface mounts, hide-aways, dash and stick lights) as well as work and scene lighting (floods, spots, rocker panels, and brake/tail/turn solutions), allowing you to build a complete EV package from a single source.\"\n      }\n    }\n  ]\n}\n</script>"
-      }
-    },
-    "dynamic_custom_liquid_m8rNeA": {
-      "type": "dynamic-custom-liquid",
-      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
-      "settings": {
-        "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"ItemList\",\n  \"name\": \"LED Emergency Lights for Vehicles\",\n  \"url\": \"https://strobesnmore.com/collections/led-lights\",\n  \"numberOfItems\": 35,\n  \"itemListOrder\": \"https://schema.org/ItemListOrderAscending\",\n  \"itemListElement\": [\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 1,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/strobes-n-more-s-series-led\",\n        \"name\": \"Strobes N' More S Series Next Gen LED\",\n        \"url\": \"https://strobesnmore.com/products/strobes-n-more-s-series-led\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 2,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/feniex-quad-t3-surface-mount\",\n        \"name\": \"Feniex QUAD T3 Surface Mount\",\n        \"url\": \"https://strobesnmore.com/products/feniex-quad-t3-surface-mount\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 3,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/ion-duo%E2%84%A2-series-linear-led%C2%AE-universal-light-includes-universal-mount-scan-lock%E2%84%A2-flash-patterns-and-a-5-wire-pigtail\",\n        \"name\": \"Whelen ION DUO™ Series Linear-LED® Universal Light\",\n        \"url\": \"https://strobesnmore.com/products/ion-duo%E2%84%A2-series-linear-led%C2%AE-universal-light-includes-universal-mount-scan-lock%E2%84%A2-flash-patterns-and-a-5-wire-pigtail\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 4,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/t-ion-duo-with-smoked-lens\",\n        \"name\": \"T-ION DUO with Smoked Lens\",\n        \"url\": \"https://strobesnmore.com/products/t-ion-duo-with-smoked-lens\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 5,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/strobes-n-more-tailgator-15-promo\",\n        \"name\": \"Strobes N' More TailGator 15 Promo\",\n        \"url\": \"https://strobesnmore.com/products/strobes-n-more-tailgator-15-promo\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 6,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/federal-signal-police-and-fire-micropulse%C2%AE-ultra-6-warning-lights\",\n        \"name\": \"Federal Signal Police and Fire MicroPulse® Ultra 6 Warning Lights\",\n        \"url\": \"https://strobesnmore.com/products/federal-signal-police-and-fire-micropulse%C2%AE-ultra-6-warning-lights\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 7,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/federal-signal-416300-series-perimeter-light\",\n        \"name\": \"Federal Signal 416300 Series Perimeter Light\",\n        \"url\": \"https://strobesnmore.com/products/federal-signal-416300-series-perimeter-light\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 8,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/feniex-brake-tail-turn-lux-9x7-led-strobes-n-more_p_6995\",\n        \"name\": \"Feniex Brake, Tail & Turn Lux 9x7\\\" LED\",\n        \"url\": \"https://strobesnmore.com/products/feniex-brake-tail-turn-lux-9x7-led-strobes-n-more_p_6995\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 9,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/feniex-brake-tail-turn-lux-6x4-led-strobes-n-more_p_6997\",\n        \"name\": \"Feniex Brake, Tail & Turn Lux 6x4\\\" LED\",\n        \"url\": \"https://strobesnmore.com/products/feniex-brake-tail-turn-lux-6x4-led-strobes-n-more_p_6997\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 10,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/mpower%C2%AE-fascia-4x2-light-w-stud-mount\",\n        \"name\": \"Mpower® Fascia 4x2 Light w/ Stud Mount\",\n        \"url\": \"https://strobesnmore.com/products/mpower%C2%AE-fascia-4x2-light-w-stud-mount\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 11,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/soundoff-signal-sl-running-light\",\n        \"name\": \"Soundoff Signal SL Running Light\",\n        \"url\": \"https://strobesnmore.com/products/soundoff-signal-sl-running-light\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 12,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/feniex-brake-tail-turn-lux-7x3-led-strobes-n-more_p_6996\",\n        \"name\": \"Feniex Brake, Tail & Turn Lux 7x3\\\" LED\",\n        \"url\": \"https://strobesnmore.com/products/feniex-brake-tail-turn-lux-7x3-led-strobes-n-more_p_6996\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 13,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/federal-signal-police-and-fire-micropulse%C2%AE-ultra-12-warning-lights\",\n        \"name\": \"Federal Signal Police and Fire MicroPulse® Ultra 12 Warning Lights\",\n        \"url\": \"https://strobesnmore.com/products/federal-signal-police-and-fire-micropulse%C2%AE-ultra-12-warning-lights\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 14,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/federal-signal-416900-series-corner-led-lights-for-police-and-fire-vehicles\",\n        \"name\": \"Federal Signal 416900 Series Corner LED Lights For Police and Fire Vehicles\",\n        \"url\": \"https://strobesnmore.com/products/federal-signal-416900-series-corner-led-lights-for-police-and-fire-vehicles\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 15,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/federal-signal-police-and-fire-micropulse%C2%AE-ultra-3-warning-lights\",\n        \"name\": \"Federal Signal Police and Fire MicroPulse® Ultra 3 Warning Lights\",\n        \"url\": \"https://strobesnmore.com/products/federal-signal-police-and-fire-micropulse%C2%AE-ultra-3-warning-lights\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 16,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/universal-undercover-screw-in-led-insert-single-light-kit\",\n        \"name\": \"Universal UnderCover Screw-In LED Insert Single Light Kit\",\n        \"url\": \"https://strobesnmore.com/products/universal-undercover-screw-in-led-insert-single-light-kit\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 17,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/feniex-backup-brake-tail-turn-reverse-lux-led\",\n        \"name\": \"Feniex Backup/Brake/Tail Turn/Reverse LUX LED\",\n        \"url\": \"https://strobesnmore.com/products/feniex-backup-brake-tail-turn-reverse-lux-led\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 18,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/dash-windshield-light-dual-led-strobe-assembly\",\n        \"name\": \"TowMate Dash/Windshield Light DUAL LED Strobe Assembly\",\n        \"url\": \"https://strobesnmore.com/products/dash-windshield-light-dual-led-strobe-assembly\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 19,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/towmate-15-75-surface-mount-led-arrow-strobe-marker-light-strip\",\n        \"name\": \"TowMate 15.75\\\" Surface Mount LED Arrow/Strobe/Marker Light Strip\",\n        \"url\": \"https://strobesnmore.com/products/towmate-15-75-surface-mount-led-arrow-strobe-marker-light-strip\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 20,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/dash-windshield-light-single-led-strobe-assembly\",\n        \"name\": \"TowMate Dash/Windshield Light Single LED Strobe Assembly\",\n        \"url\": \"https://strobesnmore.com/products/dash-windshield-light-single-led-strobe-assembly\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 21,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/side-push-bumper-45-90-led-strobe-assembly\",\n        \"name\": \"TowMate Side Push Bumper 45°/90° LED Strobe Assembly\",\n        \"url\": \"https://strobesnmore.com/products/side-push-bumper-45-90-led-strobe-assembly\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 22,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/whelen-warning-par36-fairing-light\",\n        \"name\": \"Whelen Warning Par36 Fairing Light\",\n        \"url\": \"https://strobesnmore.com/products/whelen-warning-par36-fairing-light\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 23,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/towmate-7-high-intensity-fixed-mount-light-bar-pod\",\n        \"name\": \"TowMate 7\\\" High-Intensity Fixed Mount Light Bar Pod\",\n        \"url\": \"https://strobesnmore.com/products/towmate-7-high-intensity-fixed-mount-light-bar-pod\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 24,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/towmate-200-series-surface-mount-compact-led-strobe-black-bazel\",\n        \"name\": \"TowMate 200 Series Surface Mount Compact LED Strobe (Black Bazel)\",\n        \"url\": \"https://strobesnmore.com/products/towmate-200-series-surface-mount-compact-led-strobe-black-bazel\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 25,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/towmate-life-saver-cone-post-mounted-warning-light\",\n        \"name\": \"TowMate 'Slim Series' Surface Mount LED Strobe\",\n        \"url\": \"https://strobesnmore.com/products/towmate-life-saver-cone-post-mounted-warning-light\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 26,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/towmate-16-portable-rechargeable-led-arrow-strobe-w-lithium-power\",\n        \"name\": \"TowMate 16\\\" Portable/Rechargeable LED Arrow/Strobe w/Lithium Power\",\n        \"url\": \"https://strobesnmore.com/products/towmate-16-portable-rechargeable-led-arrow-strobe-w-lithium-power\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 27,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/towmate-36-surface-mount-led-arrow-strobe-work-light-strip\",\n        \"name\": \"TowMate 36\\\" Surface Mount LED Arrow/Strobe/Work Light Strip\",\n        \"url\": \"https://strobesnmore.com/products/towmate-36-surface-mount-led-arrow-strobe-work-light-strip\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 28,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/towmate-36-portable-rechargeable-led-arrow-strobe-work-light-system\",\n        \"name\": \"TowMate 36\\\" Portable/Rechargeable LED Arrow/Strobe/Work Light System\",\n        \"url\": \"https://strobesnmore.com/products/towmate-36-portable-rechargeable-led-arrow-strobe-work-light-system\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 29,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/7-portable-magnetic-mini-light-bar-pod\",\n        \"name\": \"TowMate 7\\\" Portable Magnetic Mini Light Bar Pod\",\n        \"url\": \"https://strobesnmore.com/products/7-portable-magnetic-mini-light-bar-pod\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 30,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/dual-front-push-bumper-led-strobe-assembly\",\n        \"name\": \"TowMate DUAL Front Push Bumper LED Strobe Assembly\",\n        \"url\": \"https://strobesnmore.com/products/dual-front-push-bumper-led-strobe-assembly\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 31,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/towmate-dual-400-series-surface-mount-led-strobe\",\n        \"name\": \"TowMate DUAL 400 Series Surface Mount LED Strobe\",\n        \"url\": \"https://strobesnmore.com/products/towmate-dual-400-series-surface-mount-led-strobe\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 32,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/towmate-dual-200-series-surface-mount-led-strobe\",\n        \"name\": \"TowMate DUAL 200 Series Surface Mount LED Strobe\",\n        \"url\": \"https://strobesnmore.com/products/towmate-dual-200-series-surface-mount-led-strobe\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 33,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/towmate-200-series-surface-mount-compact-led-strobe-chrome-bazel\",\n        \"name\": \"TowMate 200 Series Surface Mount Compact LED Strobe (Chrome Bazel)\",\n        \"url\": \"https://strobesnmore.com/products/towmate-200-series-surface-mount-compact-led-strobe-chrome-bazel\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 34,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/towmate-dual-slim-series-surface-mount-led-strobe-assembly\",\n        \"name\": \"TowMate DUAL 'Slim Series' Surface Mount LED Strobe Assembly\",\n        \"url\": \"https://strobesnmore.com/products/towmate-dual-slim-series-surface-mount-led-strobe-assembly\"\n      }\n    },\n    {\n      \"@type\": \"ListItem\",\n      \"position\": 35,\n      \"item\": {\n        \"@type\": \"Product\",\n        \"@id\": \"https://strobesnmore.com/products/whelen-strip-lite-plus-pstank-branch-guard\",\n        \"name\": \"Whelen Strip-Lite™ Plus Branch Guard\",\n        \"url\": \"https://strobesnmore.com/products/whelen-strip-lite-plus-pstank-branch-guard\"\n      }\n    }\n  ]\n}\n</script>"
       }
     },
     "dynamic_custom_liquid_rmHL8m": {
@@ -195,10 +73,7 @@
   "order": [
     "main",
     "dynamic_rich_text_XQFH8H",
-    "dynamic_faq_kyjq9r",
     "static-recently-viewed",
-    "dynamic_html_EJrNbM",
-    "dynamic_custom_liquid_m8rNeA",
     "dynamic_custom_liquid_rmHL8m"
   ]
 }
