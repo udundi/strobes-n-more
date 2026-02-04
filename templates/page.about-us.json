@@ -172,6 +172,7 @@
     },
     "dynamic_rich_text_fYUcBa": {
       "type": "dynamic-rich-text",
+      "disabled": true,
       "custom_css": [
         "{background-color: #21225b;}",
         "h2 {color: #fff; padding: 12px;}"
@@ -510,6 +511,7 @@
         "promotion_hHLgxm",
         "promotion_YwBJUy"
       ],
+      "disabled": true,
       "custom_css": [
         "a {text-decoration: none; color: #000;}"
       ],
@@ -592,6 +594,7 @@
         "promotion_Nzfwki",
         "promotion_cd3JR8"
       ],
+      "disabled": true,
       "custom_css": [
         "a {text-decoration: none; color: #000;}"
       ],
