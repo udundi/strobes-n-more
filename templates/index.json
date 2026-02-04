@@ -51,16 +51,6 @@
         "custom_liquid": "{% comment %}\n  Universal Divider Section with Custom Margins\n{% endcomment %}\n\n<div class=\"mobile-divider-section\"></div>\n\n<style>\n  .mobile-divider-section {\n    background-color: #ffe614;\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    height: 5px;\n    display: block; /* Visible on all screens */\n  }\n  \n  /* Responsive margin settings */\n  @media screen and (max-width: 1023px) {\n    .mobile-divider-section {\n      margin-top: -50px; /* Top margin for small screens */\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    .mobile-divider-section {\n      margin-top: -70px; /* Top margin for large screens */\n    }\n  }\n</style>"
       }
     },
-    "dynamic_custom_liquid_7ULWhA": {
-      "type": "dynamic-custom-liquid",
-      "custom_css": [
-        "{margin-top: -70px;}"
-      ],
-      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
-      "settings": {
-        "custom_liquid": "<div class=\"video-text-wrapper\" style=\"background-color: #ffffff; padding: 40px 20px;\">\n  <div class=\"video-text-container\" style=\"display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; max-width: 1200px; margin: 0 auto;\">\n    \n    <!-- Video Column -->\n    <div class=\"video-column\">\n      <video width=\"100%\" height=\"auto\" autoplay muted loop controls playsinline style=\"border-radius: 0px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); display: block;\">\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/cd203b5a202042eabf5ff64b4ba53e63.mp4\" type=\"video/mp4\">\n        Your browser does not support the video tag.\n      </video>\n    </div>\n\n    <!-- Text Column -->\n    <div class=\"text-column\">\n      <h2 style=\"font-size: 28px; font-weight: 800; margin: 0 0 20px 0; color: #000; line-height: 1.2; font-family: 'Montserrat', sans-serif; letter-spacing: -0.01em;\">\n        Ai-Driven Traffic Control\n      </h2>\n      <p style=\"font-size: 16px; line-height: 1.6; color: #555; margin: 0 0 20px 0;\">\n        This advanced arrow board system delivers high-visibility directional guidance to alert and direct traffic in work zones and emergency scenes. Powered by AI-driven Zone Command technology, it detects approaching vehicles and issues real-time visual and audible warnings to enhance on-site safety.\n      </p>\n      <a href=\"https://strobesnmore.com/products/zone-command-smart-arrow-board\" style=\"font-size: 16px; color: #000; text-decoration: underline; font-weight: 600;\">\n        Learn More\n      </a>\n    </div>\n  </div>\n</div>\n\n<style>\n  @media (max-width: 768px) {\n    .video-text-container {\n      grid-template-columns: 1fr !important;\n      gap: 30px !important;\n    }\n    \n    .video-text-container h2 {\n      font-size: 24px !important;\n    }\n    \n    .video-text-container p {\n      font-size: 14px !important;\n    }\n  }\n</style>"
-      }
-    },
     "dynamic_featured_collection_M4FrNj": {
       "type": "dynamic-featured-collection",
       "blocks": {
@@ -473,6 +463,16 @@
         "section_height": "small",
         "section_columns": 3,
         "text_alignment": "center-center"
+      }
+    },
+    "dynamic_custom_liquid_7ULWhA": {
+      "type": "dynamic-custom-liquid",
+      "custom_css": [
+        "{margin-top: -70px;}"
+      ],
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "<div class=\"video-text-wrapper\" style=\"background-color: #ffffff; padding: 40px 20px;\">\n  <div class=\"video-text-container\" style=\"display: grid; grid-template-columns: 1fr 1fr; gap: 40px; align-items: center; max-width: 1200px; margin: 20 0 0 0;\">\n    \n    <!-- Video Column -->\n    <div class=\"video-column\">\n      <video width=\"100%\" height=\"auto\" autoplay muted loop controls playsinline style=\"border-radius: 0px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); display: block;\">\n        <source src=\"https://cdn.shopify.com/videos/c/o/v/cd203b5a202042eabf5ff64b4ba53e63.mp4\" type=\"video/mp4\">\n        Your browser does not support the video tag.\n      </video>\n    </div>\n\n    <!-- Text Column -->\n    <div class=\"text-column\">\n      <h2 style=\"font-size: 28px; font-weight: 800; margin: 0 0 20px 0; color: #000; line-height: 1.2; font-family: 'Montserrat', sans-serif; letter-spacing: -0.01em;\">\n        Smart Arrow Board\n \n      </h2>\n      <p style=\"font-size: 16px; line-height: 1.6; color: #555; margin: 0 0 20px 0;\">\n        This advanced arrow board system delivers high-visibility directional guidance to alert and direct traffic in work zones and emergency scenes. Powered by AI-driven Zone Command technology, it detects approaching vehicles and issues real-time visual and audible warnings to enhance on-site safety.\n      </p>\n      <a href=\"https://strobesnmore.com/products/zone-command-smart-arrow-board\" style=\"font-size: 16px; color: #000; text-decoration: underline; font-weight: 600;\">\n        Learn More\n      </a>\n    </div>\n  </div>\n</div>\n\n<style>\n  @media (max-width: 768px) {\n    .video-text-container {\n      grid-template-columns: 1fr !important;\n      gap: 30px !important;\n    }\n    \n    .video-text-container h2 {\n      font-size: 24px !important;\n    }\n    \n    .video-text-container p {\n      font-size: 14px !important;\n    }\n  }\n</style>"
       }
     },
     "dynamic_collection_list": {
@@ -1048,11 +1048,11 @@
     "dynamic_custom_liquid_C9HdJ3",
     "dynamic_html_W7kwn9",
     "dynamic_custom_liquid_nXfma8",
-    "dynamic_custom_liquid_7ULWhA",
     "dynamic_featured_collection_M4FrNj",
     "dynamic_promo_mosaic_8tfXTh",
     "dynamic_promo_mosaic_793pfQ",
     "dynamic_promo_grid_BKC7RM",
+    "dynamic_custom_liquid_7ULWhA",
     "dynamic_collection_list",
     "dynamic_html_AprpAt",
     "dynamic_featured_collection-2",
