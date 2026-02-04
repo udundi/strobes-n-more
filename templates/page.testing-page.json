@@ -499,6 +499,7 @@
         "price_CYrdeF",
         "view_product_link_Nh6Yer"
       ],
+      "custom_css": [],
       "name": "t:sections.featured_product.presets.featured_product.name",
       "settings": {
         "product": "zone-command-smart-arrow-board",
