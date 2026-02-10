@@ -657,5 +657,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </script>
 
           {% render 'mws_apo_helper' %}
+
+    <script>
+      if (window.location.pathname === '/collections/vendors' && window.location.search) {
+        var params = new URLSearchParams(window.location.search);
+        var vendor = params.get('q');
+        if (vendor) {
+          window.location.replace('/collections/' + vendor.toLowerCase());
+        }
+      }
+    </script>
+
   </body>
 </html>
