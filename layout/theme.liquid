@@ -662,11 +662,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       if (window.location.pathname === '/collections/vendors' && window.location.search) {
         var params = new URLSearchParams(window.location.search);
         var vendor = params.get('q');
+    
+        // Map vendor query values to collection handles
+        var vendorMap = {
+          'pro-gard': 'pro-gard',
+          'soundoff+signal': 'soundoff-signal',
+          'soundoff signal': 'soundoff-signal',
+          'whelen': 'whelen-products',
+          'star': 'star-svp',
+          'acari': 'acari',
+          'havis': 'havis'
+          // Add more mappings as needed
+        };
+    
         if (vendor) {
-          window.location.replace('/collections/' + vendor.toLowerCase());
+          var collectionHandle = vendorMap[vendor.toLowerCase()] || vendor.toLowerCase().replace(/\s+/g, '-').replace(/\+/g, '-');
+          window.location.replace('/collections/' + collectionHandle);
         }
       }
     </script>
+
 
   </body>
 </html>
