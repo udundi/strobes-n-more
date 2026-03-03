@@ -56,12 +56,6 @@
         "text_alignment": "left"
       }
     },
-    "static-recently-viewed": {
-      "type": "static-recently-viewed",
-      "settings": {
-        "enable_recently_viewed_products": true
-      }
-    },
     "dynamic_faq_dDmkV8": {
       "type": "dynamic-faq",
       "blocks": {
@@ -134,6 +128,12 @@
         "icon_color": "rgba(0,0,0,0)"
       }
     },
+    "static-recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
     "dynamic_custom_liquid_rmHL8m": {
       "type": "dynamic-custom-liquid",
       "name": "t:sections.custom_liquid.presets.custom_liquid.name",
@@ -145,8 +145,8 @@
   "order": [
     "main",
     "dynamic_rich_text_XQFH8H",
-    "static-recently-viewed",
     "dynamic_faq_dDmkV8",
+    "static-recently-viewed",
     "dynamic_custom_liquid_rmHL8m"
   ]
 }
