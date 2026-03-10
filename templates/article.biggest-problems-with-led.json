@@ -1,0 +1,36 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-article",
+      "custom_css": [
+        "@media (min-width: 767px) {.article-image--content-width {background-color: white; background-size: contain !important; background-repeat: no-repeat; background-position: center center; height: auto !important; aspect-ratio: auto; min-height: 800px; }}"
+      ],
+      "settings": {
+        "featured_image_width": "content-width",
+        "show_date": true,
+        "show_author": true,
+        "use_share_buttons": true
+      }
+    },
+    "dynamic_custom_liquid_bwXUzd": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are LED fog lights better than halogen?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"In most cases, yes. LED fog lights usually provide better brightness, longer lifespan, and greater energy efficiency than halogen bulbs, making them the better overall choice for most drivers.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do halogen fog lights work better in fog?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Not always. Some drivers prefer the warmer color of halogen bulbs in fog, rain, or snow, but beam pattern, proper aiming, and housing design usually matter more than bulb type alone.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are LED fog lights worth the extra cost?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"For many drivers, yes. LED fog lights cost more upfront, but they typically last much longer, use less power, and deliver better performance, which can make them a better long-term value.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can I replace halogen fog lights with LED bulbs?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Sometimes, but compatibility is important. Your vehicle's fog light housing should be designed for LED use or properly support an LED upgrade to get the best beam pattern and performance.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Which fog light color is best for bad weather?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Many drivers prefer selective yellow fog lights in rain, fog, and snow because the color can appear less harsh in poor visibility. White fog lights are also popular and offer a bright, modern look.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"How long do LED fog lights last compared to halogen?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"LED fog lights generally last much longer than halogen bulbs, which makes them a strong option for drivers who use their fog lights regularly and want fewer replacements over time.\"\n      }\n    }\n  ]\n}\n</script>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_custom_liquid_bwXUzd"
+  ]
+}
