@@ -72,20 +72,12 @@
       "settings": {
         "enable_recently_viewed_products": true
       }
-    },
-    "dynamic_custom_liquid_rmHL8m": {
-      "type": "dynamic-custom-liquid",
-      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
-      "settings": {
-        "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"CollectionPage\",\n  \"name\": \"Amber Lights\",\n  \"description\": \"Shop amber lights and amber lighting for work, service, and emergency support vehicles. Explore light bars, beacons, grille and surface mounts, hideaways, and work lights designed for high visibility and durability.\",\n  \"mainEntity\": {\n    \"@type\": \"ItemList\",\n    \"name\": \"Amber Lights Collection\",\n    \"itemListOrder\": \"https://schema.org/ItemListOrderAscending\",\n    \"numberOfItems\": 0\n  }\n}\n\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"FAQPage\",\n  \"mainEntity\": [\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What are amber lights used for?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Amber lights are commonly used for warning and visibility on work and service vehicles such as tow trucks, utility fleets, construction vehicles, snowplows, and roadside assistance units.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Are amber lights legal to use on the road?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"In many areas, amber warning lighting is permitted for work, service, or hazard use, but rules vary by state/province and by vehicle type. Always verify local regulations for when and how amber lighting can be displayed.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"What’s the difference between amber light and amber lighting?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"“Amber light” often refers to a single light or module, while “amber lighting” can describe a complete vehicle setup or system with multiple lights, coverage zones, and flash patterns.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Do I need a light bar, or will smaller amber lights work?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"It depends on your vehicle and visibility needs. Light bars offer broader coverage and stronger presence, while smaller amber lights (grille, surface mount, hideaway) can be ideal for targeted warning or low-profile installs.\"\n      }\n    },\n    {\n      \"@type\": \"Question\",\n      \"name\": \"Can amber lights also function as work lights?\",\n      \"acceptedAnswer\": {\n        \"@type\": \"Answer\",\n        \"text\": \"Some products are warning-only, while others are designed for scene/work illumination. If you need both, look for solutions that combine warning output with dedicated work lighting.\"\n      }\n    }\n  ]\n}\n</script>"
-      }
     }
   },
   "order": [
     "main",
     "dynamic_rich_text_XQFH8H",
     "dynamic_rich_text_kp7fCG",
-    "static-recently-viewed",
-    "dynamic_custom_liquid_rmHL8m"
+    "static-recently-viewed"
   ]
 }
