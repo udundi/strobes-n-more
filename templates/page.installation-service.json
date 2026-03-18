@@ -32,7 +32,7 @@
       ],
       "name": "t:sections.custom_liquid.presets.custom_liquid.name",
       "settings": {
-        "custom_liquid": "<div class=\"universal-video-container\">\n  <video \n    id=\"universal-video-player\"\n    class=\"universal-video\"\n    src=\"https://cdn.shopify.com/videos/c/o/v/08da6b3bc785445abdadd6f9acea1976.mp4\"\n    autoplay\n    muted\n    playsinline\n    loop>\n    Your browser does not support the video tag.\n  </video>\n</div>\n\n<style>\n  /* Universal Video Container Styles - Full Width */\n  .universal-video-container {\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    overflow: hidden;\n  }\n  \n  /* Base Video Styles */\n  .universal-video {\n    width: 100%;\n    display: block;\n    object-fit: cover;\n  }\n  \n  /* Media Queries for Responsive Design */\n  @media screen and (max-width: 767px) {\n    /* Small screens (mobile) */\n    .universal-video {\n      height: 200px; /* Height for mobile */\n    }\n  }\n  \n  @media screen and (min-width: 768px) and (max-width: 1023px) {\n    /* Medium screens (tablet) */\n    .universal-video {\n      height: 300px; /* Height for tablet */\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    /* Large screens (desktop) */\n    .universal-video {\n      height: 600px; /* Height for desktop */\n    }\n  }\n</style>"
+        "custom_liquid": "{% comment %}\n  Custom Video Player with Autoplay and Mute - Responsive All Devices\n{% endcomment %}\n<div class=\"custom-video-container\">\n  <video \n    id=\"custom-video-player\"\n    class=\"custom-video\"\n    src=\"https://cdn.shopify.com/videos/c/o/v/bd6077aa12b649c0a55d7215c46d9bff.mp4\"\n    autoplay\n    muted\n    playsinline\n    loop>\n    Your browser does not support the video tag.\n  </video>\n</div>\n<style>\n  /* Video Container Styles - Full Width */\n  .custom-video-container {\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    overflow: hidden;\n    display: block;\n  }\n  \n  /* Base Video Styles */\n  .custom-video {\n    width: 100%;\n    display: block;\n    object-fit: cover;\n  }\n  \n  /* Media Queries for Responsive Design */\n  @media screen and (max-width: 767px) {\n    /* Small screens (mobile) - Video visible */\n    .custom-video-container {\n      display: block;\n    }\n    \n    .custom-video {\n      height: 200px;\n    }\n  }\n  \n  @media screen and (min-width: 768px) and (max-width: 1023px) {\n    /* Medium screens (tablet) - Video visible */\n    .custom-video-container {\n      display: block;\n    }\n    \n    .custom-video {\n      height: 450px;\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    /* Large screens (laptop/desktop) - Video visible */\n    .custom-video-container {\n      display: block;\n    }\n    \n    .custom-video {\n      height: 400px;\n    }\n  }\n  \n\n</style>"
       }
     },
     "dynamic_image_with_text_Dq9LtW": {
@@ -260,11 +260,19 @@
       "type": "page",
       "disabled": true,
       "settings": {}
+    },
+    "dynamic_custom_liquid_E46UNY": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "{% comment %}\n  Universal Divider Section with Custom Margins\n{% endcomment %}\n\n<div class=\"mobile-divider-section\"></div>\n\n<style>\n  .mobile-divider-section {\n    background-color: #ffe614;\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    height: 5px;\n    display: block; /* Visible on all screens */\n  }\n  \n  /* Responsive margin settings */\n  @media screen and (max-width: 1023px) {\n    .mobile-divider-section {\n      margin-top: -50px; /* Top margin for small screens */\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    .mobile-divider-section {\n      margin-top: -70px; /* Top margin for large screens */\n    }\n  }\n</style>"
+      }
     }
   },
   "order": [
     "pxs_image_with_text_overlay_LQRWFX",
     "dynamic_custom_liquid_H73Vbf",
+    "dynamic_custom_liquid_E46UNY",
     "dynamic_image_with_text_Dq9LtW",
     "dynamic_image_with_text_Ata8NR",
     "dynamic_highlights_banner_RJeHjd",
