@@ -146,6 +146,26 @@
         value="{{ product.variants.first.id }}"
         data-variants
       >
+
+        {{- '<!-- B2B Stock Display (no variants) -->' }}
+        {% if customer and customer.tags contains 'b2b' %}
+          {% assign variant = product.variants.first %}
+          <p class="stock-level" id="stock-level-display" style="color: #949494;">
+            {% if variant.inventory_management == 'shopify' %}
+              {% if variant.inventory_quantity > 0 %}
+                <strong>In stock:</strong> {{ variant.inventory_quantity }} available
+              {% else %}
+                <strong>Out of stock</strong>
+              {% endif %}
+            {% elsif product.available %}
+              <strong>In stock</strong>
+            {% else %}
+              <strong>Out of stock</strong>
+            {% endif %}
+          </p>
+          <script>window.productVariants = {{ product.variants | json }};</script>
+        {% endif %}
+        
     {% else %}
       <noscript>
         <style>
@@ -220,6 +240,25 @@
           })()
         </script>
       
+        {{- '<!-- B2B Stock Display -->' }}
+          {% if customer and customer.tags contains 'b2b' %}
+            {% assign variant = product.selected_or_first_available_variant %}
+            <p class="stock-level" id="stock-level-display" style="color: #949494;">
+              {% if variant.inventory_management == 'shopify' %}
+                {% if variant.inventory_quantity > 0 %}
+                  <strong>In stock:</strong> {{ variant.inventory_quantity }} available
+                {% else %}
+                  <strong>Out of stock</strong>
+                {% endif %}
+              {% elsif product.available %}
+                <strong>In stock</strong>
+              {% else %}
+                <strong>Out of stock</strong>
+              {% endif %}
+            </p>
+            <script>window.productVariants = {{ product.variants | json }};</script>
+          {% endif %}
+
         {% for option in product.options_with_values %}
           {% assign option_index = forloop.index0 %}
           {% assign show_swatches = false %}
@@ -565,21 +604,6 @@
     </details>
   {%- endif -%}
   {% comment %}Inject @pixelunion/pxs-gift-card-recipient-form/recipient-form end{% endcomment %}
-
-        {{- '<!-- B2B Stock Display -->' }}
-      {% if customer and customer.tags contains 'Dealer' %}
-        {% assign variant = product.selected_or_first_available_variant %}
-        {% if variant.inventory_management == 'shopify' %}
-          <p class="stock-level" id="stock-level-display">
-            {% if variant.inventory_quantity > 0 %}
-              <strong>In stock: {{ variant.inventory_quantity }} available </strong>
-            {% else %}
-              <strong>Out of stock</strong>
-            {% endif %}
-          </p>
-        {% endif %}
-        <script>window.productVariants = {{ product.variants | json }};</script>
-      {% endif %}
 
   <div id="infiniteoptions-container"></div>
   <div class="product-form--atc">
