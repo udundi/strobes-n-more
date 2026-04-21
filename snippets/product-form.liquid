@@ -151,13 +151,18 @@
         {% if customer and customer.tags contains 'Dealer' %}
           {% assign variant = product.variants.first %}
           <p class="stock-level" id="stock-level-display" style="color: #949494;">
-            {% if variant.available %}
+            {% if variant.inventory_management == 'shopify' %}
+              {% if variant.inventory_quantity > 0 %}
+                <strong>In stock: {{ variant.inventory_quantity }} available</strong>
+              {% else %}
+                <strong>Out of stock</strong>
+              {% endif %}
+            {% elsif product.available %}
               <strong>In stock</strong>
             {% else %}
               <strong>Out of stock</strong>
             {% endif %}
           </p>
-
           <script>window.productVariants = {{ product.variants | json }};</script>
         {% endif %}
 
@@ -238,14 +243,19 @@
         {{- '<!-- B2B Stock Display -->' }}
           {% if customer and customer.tags contains 'Dealer' %}
             {% assign variant = product.selected_or_first_available_variant %}
-              <p class="stock-level" id="stock-level-display" style="color: #949494;">
-                {% if variant.available %}
-                  <strong>In stock</strong>
+            <p class="stock-level" id="stock-level-display" style="color: #949494;">
+              {% if variant.inventory_management == 'shopify' %}
+                {% if variant.inventory_quantity > 0 %}
+                  <strong>In stock: {{ variant.inventory_quantity }} available</strong>
                 {% else %}
                   <strong>Out of stock</strong>
                 {% endif %}
-              </p>
-
+              {% elsif product.available %}
+                <strong>In stock</strong>
+              {% else %}
+                <strong>Out of stock</strong>
+              {% endif %}
+            </p>
             <script>window.productVariants = {{ product.variants | json }};</script>
           {% endif %}
 
@@ -662,20 +672,30 @@
     const stockDisplay = document.getElementById('stock-level-display');
     if (!stockDisplay) return;
 
+    // Fetch full product data including inventory quantities
+    fetch(window.location.pathname.split('?')[0].replace(/\/$/, '') + '.js')
+      .then(r => r.json())
+      .then(product => {
+        window.productVariantsWithStock = product.variants;
+      });
+
     function updateStock(variantId) {
       const id = parseInt(variantId, 10);
+      const variants = window.productVariantsWithStock || [];
+      const variant = variants.find(v => v.id === id);
 
-      fetch(`/variants/${id}.js`)
-        .then(r => r.json())
-        .then(variant => {
-          stockDisplay.innerHTML = variant.available
-            ? '<strong>In stock</strong>'
-            : '<strong>Out of stock</strong>';
-          stockDisplay.style.color = '#949494';
-        })
-        .catch(() => {
-          stockDisplay.innerHTML = '';
-        });
+      if (!variant) return;
+
+      if (variant.inventory_management !== 'shopify') {
+        stockDisplay.innerHTML = variant.available
+          ? '<strong>In stock</strong>'
+          : '<strong>Out of stock</strong>';
+      } else {
+        stockDisplay.innerHTML = variant.inventory_quantity > 0
+          ? `<strong>In stock:</strong> ${variant.inventory_quantity} available`
+          : '<strong>Out of stock</strong>';
+      }
+      stockDisplay.style.color = '#949494';
     }
 
     document.addEventListener('change', function (e) {
