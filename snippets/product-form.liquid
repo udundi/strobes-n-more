@@ -148,23 +148,27 @@
       >
 
         {{- '<!-- B2B Stock Display (no variants) -->' }}
-        {% if customer and customer.tags contains 'Dealer' %}
-          {% assign variant = product.variants.first %}
+        {% if customer and customer.tags contains 'b2b' %}
+          {% assign variant = product.selected_or_first_available_variant %}
           <p class="stock-level" id="stock-level-display" style="color: #949494;">
-            {% if variant.inventory_management == 'shopify' %}
-              {% if variant.inventory_quantity > 0 %}
-                <strong>In stock: {{ variant.inventory_quantity }} available</strong>
-              {% else %}
-                <strong>Out of stock</strong>
-              {% endif %}
-            {% elsif product.available %}
-              <strong>In stock</strong>
+            {% if variant.available %}
+              <strong>In stock:</strong> {{ variant.inventory_quantity }} available
             {% else %}
               <strong>Out of stock</strong>
             {% endif %}
           </p>
-          <script>window.productVariants = {{ product.variants | json }};</script>
+          <div id="b2b-variant-data" style="display:none;">
+            {% for v in product.variants %}
+              <span 
+                data-variant-id="{{ v.id }}" 
+                data-available="{{ v.available }}" 
+                data-qty="{{ v.inventory_quantity }}"
+                data-managed="{{ v.inventory_management }}"
+              ></span>
+            {% endfor %}
+          </div>
         {% endif %}
+
 
     {% else %}
       <noscript>
@@ -241,23 +245,27 @@
         </script>
       
         {{- '<!-- B2B Stock Display -->' }}
-          {% if customer and customer.tags contains 'Dealer' %}
+          {% if customer and customer.tags contains 'b2b' %}
             {% assign variant = product.selected_or_first_available_variant %}
             <p class="stock-level" id="stock-level-display" style="color: #949494;">
-              {% if variant.inventory_management == 'shopify' %}
-                {% if variant.inventory_quantity > 0 %}
-                  <strong>In stock: {{ variant.inventory_quantity }} available</strong>
-                {% else %}
-                  <strong>Out of stock</strong>
-                {% endif %}
-              {% elsif product.available %}
-                <strong>In stock</strong>
+              {% if variant.available %}
+                <strong>In stock:</strong> {{ variant.inventory_quantity }} available
               {% else %}
                 <strong>Out of stock</strong>
               {% endif %}
             </p>
-            <script>window.productVariants = {{ product.variants | json }};</script>
+            <div id="b2b-variant-data" style="display:none;">
+              {% for v in product.variants %}
+                <span 
+                  data-variant-id="{{ v.id }}" 
+                  data-available="{{ v.available }}" 
+                  data-qty="{{ v.inventory_quantity }}"
+                  data-managed="{{ v.inventory_management }}"
+                ></span>
+              {% endfor %}
+            </div>
           {% endif %}
+
 
         {% for option in product.options_with_values %}
           {% assign option_index = forloop.index0 %}
@@ -672,27 +680,22 @@
     const stockDisplay = document.getElementById('stock-level-display');
     if (!stockDisplay) return;
 
-    // Fetch full product data including inventory quantities
-    fetch(window.location.pathname.split('?')[0].replace(/\/$/, '') + '.js')
-      .then(r => r.json())
-      .then(product => {
-        window.productVariantsWithStock = product.variants;
-      });
-
     function updateStock(variantId) {
       const id = parseInt(variantId, 10);
-      const variants = window.productVariantsWithStock || [];
-      const variant = variants.find(v => v.id === id);
+      const el = document.querySelector(`#b2b-variant-data [data-variant-id="${id}"]`);
+      if (!el) return;
 
-      if (!variant) return;
+      const available = el.dataset.available === 'true';
+      const qty = parseInt(el.dataset.qty, 10);
+      const managed = el.dataset.managed;
 
-      if (variant.inventory_management !== 'shopify') {
-        stockDisplay.innerHTML = variant.available
-          ? '<strong>In stock</strong>'
+      if (managed === 'shopify') {
+        stockDisplay.innerHTML = qty > 0
+          ? `<strong>In stock:</strong> ${qty} available`
           : '<strong>Out of stock</strong>';
       } else {
-        stockDisplay.innerHTML = variant.inventory_quantity > 0
-          ? `<strong>In stock:</strong> ${variant.inventory_quantity} available`
+        stockDisplay.innerHTML = available
+          ? '<strong>In stock</strong>'
           : '<strong>Out of stock</strong>';
       }
       stockDisplay.style.color = '#949494';
