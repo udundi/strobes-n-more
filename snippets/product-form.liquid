@@ -668,37 +668,49 @@
 
 <script>
 (function () {
-  const stockDisplay = document.getElementById('stock-level-display');
-  if (!stockDisplay) return;
+  function initStockDisplay() {
+    const stockDisplay = document.getElementById('stock-level-display');
+    if (!stockDisplay) return;
 
-  const variants = window.productVariants || [];
+    const variants = window.productVariants || [];
 
-  function updateStock(variantId) {
-    const variant = variants.find(v => v.id === variantId);
-    if (!variant) return;
-    if (variant.inventory_management !== 'shopify') {
-      stockDisplay.textContent = '';
-      return;
+    function updateStock(variantId) {
+      const id = parseInt(variantId, 10);
+      const variant = variants.find(v => v.id === id);
+
+      if (!variant) return;
+
+      if (variant.inventory_management !== 'shopify') {
+        stockDisplay.innerHTML = variant.available
+          ? '<strong>In stock</strong>'
+          : '<strong>Out of stock</strong>';
+        stockDisplay.style.color = '#949494';
+        return;
+      }
+
+      stockDisplay.innerHTML = variant.inventory_quantity > 0
+        ? `<strong>In stock:</strong> ${variant.inventory_quantity} available`
+        : '<strong>Out of stock</strong>';
+      stockDisplay.style.color = '#949494';
     }
-    stockDisplay.innerHTML = variant.inventory_quantity > 0
-      ? `<strong>In stock: ${variant.inventory_quantity} available</strong>`
-      : '<strong>Out of stock</strong>';
-    stockDisplay.style.color = '#949494'; 
 
+    document.addEventListener('change', function (e) {
+      if (e.target.matches('[name="id"]')) {
+        updateStock(e.target.value);
+      }
+    });
 
-
+    document.addEventListener('variant:changed', function (e) {
+      if (e.detail && e.detail.variant) {
+        updateStock(e.detail.variant.id);
+      }
+    });
   }
 
-  document.addEventListener('change', function (e) {
-    if (e.target.matches('[name="id"]')) {
-      updateStock(parseInt(e.target.value));
-    }
-  });
-
-  document.addEventListener('variant:changed', function (e) {
-    if (e.detail && e.detail.variant) {
-      updateStock(e.detail.variant.id);
-    }
-  });
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initStockDisplay);
+  } else {
+    initStockDisplay();
+  }
 })();
 </script>
