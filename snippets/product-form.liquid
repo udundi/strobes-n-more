@@ -148,11 +148,11 @@
       >
 
         {{- '<!-- B2B Stock Display (no variants) -->' }}
-        {% if customer and customer.tags contains 'b2b' %}
+        {% if customer and customer.tags contains 'Dealer' %}
           {% assign variant = product.selected_or_first_available_variant %}
           <p class="stock-level" id="stock-level-display" style="color: #949494;">
             {% if variant.available %}
-              <strong>In stock:</strong> {{ variant.inventory_quantity }} available
+              <strong>In stock: {{ variant.inventory_quantity }} available</strong>
             {% else %}
               <strong>Out of stock</strong>
             {% endif %}
@@ -245,11 +245,11 @@
         </script>
       
         {{- '<!-- B2B Stock Display -->' }}
-          {% if customer and customer.tags contains 'b2b' %}
+          {% if customer and customer.tags contains 'Dealer' %}
             {% assign variant = product.selected_or_first_available_variant %}
             <p class="stock-level" id="stock-level-display" style="color: #949494;">
               {% if variant.available %}
-                <strong>In stock:</strong> {{ variant.inventory_quantity }} available
+                <strong>In stock: {{ variant.inventory_quantity }} available</strong>
               {% else %}
                 <strong>Out of stock</strong>
               {% endif %}
