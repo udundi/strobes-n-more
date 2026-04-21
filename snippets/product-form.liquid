@@ -153,7 +153,7 @@
           <p class="stock-level" id="stock-level-display" style="color: #949494;">
             {% if variant.inventory_management == 'shopify' %}
               {% if variant.inventory_quantity > 0 %}
-                <strong>In stock:</strong> {{ variant.inventory_quantity }} available
+                <strong>In stock: {{ variant.inventory_quantity }} available</strong>
               {% else %}
                 <strong>Out of stock</strong>
               {% endif %}
@@ -246,7 +246,7 @@
             <p class="stock-level" id="stock-level-display" style="color: #949494;">
               {% if variant.inventory_management == 'shopify' %}
                 {% if variant.inventory_quantity > 0 %}
-                  <strong>In stock:</strong> {{ variant.inventory_quantity }} available
+                  <strong>In stock: {{ variant.inventory_quantity }} available</strong>
                 {% else %}
                   <strong>Out of stock</strong>
                 {% endif %}
