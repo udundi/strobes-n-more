@@ -566,7 +566,22 @@
   {%- endif -%}
   {% comment %}Inject @pixelunion/pxs-gift-card-recipient-form/recipient-form end{% endcomment %}
 
-<div id="infiniteoptions-container"></div>
+        {{- '<!-- B2B Stock Display -->' }}
+      {% if customer and customer.tags contains 'Dealer' %}
+        {% assign variant = product.selected_or_first_available_variant %}
+        {% if variant.inventory_management == 'shopify' %}
+          <p class="stock-level" id="stock-level-display">
+            {% if variant.inventory_quantity > 0 %}
+              <strong>In stock: {{ variant.inventory_quantity }} available </strong>
+            {% else %}
+              <strong>Out of stock</strong>
+            {% endif %}
+          </p>
+        {% endif %}
+        <script>window.productVariants = {{ product.variants | json }};</script>
+      {% endif %}
+
+  <div id="infiniteoptions-container"></div>
   <div class="product-form--atc">
     <div class="product-form__action-wrapper">
       {%
@@ -626,3 +641,39 @@
     <div class="surface-pick-up" data-surface-pick-up></div>
   {% endif %}
 {% endform %}
+
+<script>
+(function () {
+  const stockDisplay = document.getElementById('stock-level-display');
+  if (!stockDisplay) return;
+
+  const variants = window.productVariants || [];
+
+  function updateStock(variantId) {
+    const variant = variants.find(v => v.id === variantId);
+    if (!variant) return;
+    if (variant.inventory_management !== 'shopify') {
+      stockDisplay.textContent = '';
+      return;
+    }
+    stockDisplay.innerHTML = variant.inventory_quantity > 0
+      ? `<strong>In stock: ${variant.inventory_quantity} available</strong>`
+      : '<strong>Out of stock</strong>';
+
+
+
+  }
+
+  document.addEventListener('change', function (e) {
+    if (e.target.matches('[name="id"]')) {
+      updateStock(parseInt(e.target.value));
+    }
+  });
+
+  document.addEventListener('variant:changed', function (e) {
+    if (e.detail && e.detail.variant) {
+      updateStock(e.detail.variant.id);
+    }
+  });
+})();
+</script>
