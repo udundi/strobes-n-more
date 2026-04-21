@@ -151,18 +151,13 @@
         {% if customer and customer.tags contains 'Dealer' %}
           {% assign variant = product.variants.first %}
           <p class="stock-level" id="stock-level-display" style="color: #949494;">
-            {% if variant.inventory_management == 'shopify' %}
-              {% if variant.inventory_quantity > 0 %}
-                <strong>In stock: {{ variant.inventory_quantity }} available</strong>
-              {% else %}
-                <strong>Out of stock</strong>
-              {% endif %}
-            {% elsif product.available %}
+            {% if variant.available %}
               <strong>In stock</strong>
             {% else %}
               <strong>Out of stock</strong>
             {% endif %}
           </p>
+
           <script>window.productVariants = {{ product.variants | json }};</script>
         {% endif %}
 
@@ -243,19 +238,14 @@
         {{- '<!-- B2B Stock Display -->' }}
           {% if customer and customer.tags contains 'Dealer' %}
             {% assign variant = product.selected_or_first_available_variant %}
-            <p class="stock-level" id="stock-level-display" style="color: #949494;">
-              {% if variant.inventory_management == 'shopify' %}
-                {% if variant.inventory_quantity > 0 %}
-                  <strong>In stock: {{ variant.inventory_quantity }} available</strong>
+              <p class="stock-level" id="stock-level-display" style="color: #949494;">
+                {% if variant.available %}
+                  <strong>In stock</strong>
                 {% else %}
                   <strong>Out of stock</strong>
                 {% endif %}
-              {% elsif product.available %}
-                <strong>In stock</strong>
-              {% else %}
-                <strong>Out of stock</strong>
-              {% endif %}
-            </p>
+              </p>
+
             <script>window.productVariants = {{ product.variants | json }};</script>
           {% endif %}
 
