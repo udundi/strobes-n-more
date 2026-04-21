@@ -672,26 +672,26 @@
     const stockDisplay = document.getElementById('stock-level-display');
     if (!stockDisplay) return;
 
-    const variants = window.productVariants || [];
-
     function updateStock(variantId) {
       const id = parseInt(variantId, 10);
-      const variant = variants.find(v => v.id === id);
-
-      if (!variant) return;
-
-      if (variant.inventory_management !== 'shopify') {
-        stockDisplay.innerHTML = variant.available
-          ? '<strong>In stock</strong>'
-          : '<strong>Out of stock</strong>';
-        stockDisplay.style.color = '#949494';
-        return;
-      }
-
-      stockDisplay.innerHTML = variant.inventory_quantity > 0
-        ? `<strong>In stock:</strong> ${variant.inventory_quantity} available`
-        : '<strong>Out of stock</strong>';
-      stockDisplay.style.color = '#949494';
+      
+      fetch(`/variants/${id}.js`)
+        .then(r => r.json())
+        .then(variant => {
+          if (variant.inventory_management !== 'shopify') {
+            stockDisplay.innerHTML = variant.available
+              ? '<strong>In stock</strong>'
+              : '<strong>Out of stock</strong>';
+          } else {
+            stockDisplay.innerHTML = variant.inventory_quantity > 0
+              ? `<strong>In stock:</strong> ${variant.inventory_quantity} available`
+              : '<strong>Out of stock</strong>';
+          }
+          stockDisplay.style.color = '#949494';
+        })
+        .catch(() => {
+          stockDisplay.innerHTML = '';
+        });
     }
 
     document.addEventListener('change', function (e) {
