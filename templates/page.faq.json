@@ -66,7 +66,7 @@
           "type": "question",
           "settings": {
             "question": "When will my order ship?",
-            "answer": "<p>We try to ship all orders as fast as possible. Please allow 5-10 business days for all in stock items to ship. Special order/made to order items could have a longer lead time. If you have any questions about lead times please email <strong>sales@strobesnmore.com</strong></p>",
+            "answer": "<p>We try to ship all orders as fast as possible. Please allow 1-2 business days for all in stock items to ship. Special order/made to order items could have a longer lead time. If you have any questions about lead times please email <strong>sales@strobesnmore.com</strong></p>",
             "icon": "none"
           }
         },
