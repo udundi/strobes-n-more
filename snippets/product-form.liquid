@@ -674,28 +674,44 @@
   const variants = window.productVariants || [];
 
   function updateStock(variantId) {
-    const variant = variants.find(v => v.id === variantId);
-    if (!variant) return;
-    if (variant.inventory_management !== 'shopify') {
-      stockDisplay.textContent = '';
+    const id = parseInt(variantId, 10); // force integer
+    const variant = variants.find(v => v.id === id);
+
+    if (!variant) {
+      stockDisplay.innerHTML = '';
       return;
     }
+
+    if (variant.inventory_management !== 'shopify') {
+      stockDisplay.innerHTML = variant.available
+        ? '<strong>In stock</strong>'
+        : '<strong>Out of stock</strong>';
+      stockDisplay.style.color = '#949494';
+      return;
+    }
+
     stockDisplay.innerHTML = variant.inventory_quantity > 0
-      ? `<strong>In stock: ${variant.inventory_quantity} available</strong>`
+      ? `<strong>In stock:</strong> ${variant.inventory_quantity} available`
       : '<strong>Out of stock</strong>';
-    stockDisplay.style.color = '#949494'; 
-
-
-
+    stockDisplay.style.color = '#949494';
   }
 
+  // Standard select/radio change
   document.addEventListener('change', function (e) {
     if (e.target.matches('[name="id"]')) {
-      updateStock(parseInt(e.target.value));
+      updateStock(e.target.value);
     }
   });
 
+  // Custom theme event
   document.addEventListener('variant:changed', function (e) {
+    if (e.detail && e.detail.variant) {
+      updateStock(e.detail.variant.id);
+    }
+  });
+
+  // Also handle variant-selection custom element changes
+  document.addEventListener('variantSelectionChange', function (e) {
     if (e.detail && e.detail.variant) {
       updateStock(e.detail.variant.id);
     }
