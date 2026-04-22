@@ -152,7 +152,7 @@
           {% assign variant = product.selected_or_first_available_variant %}
           <p class="stock-level" id="stock-level-display" style="color: #949494;">
             {% if variant.available %}
-              <strong>In stock: {{ variant.inventory_quantity }} available</strong>
+              <strong style="color: green;">In stock:</strong> {{ variant.inventory_quantity }} available
             {% else %}
               <strong>Out of stock</strong>
             {% endif %}
@@ -249,7 +249,7 @@
             {% assign variant = product.selected_or_first_available_variant %}
             <p class="stock-level" id="stock-level-display" style="color: #949494;">
               {% if variant.available %}
-                <strong>In stock: {{ variant.inventory_quantity }} available</strong>
+                <strong style="color: green;">In stock:</strong> {{ variant.inventory_quantity }} available
               {% else %}
                 <strong>Out of stock</strong>
               {% endif %}
@@ -691,11 +691,11 @@
 
       if (managed === 'shopify') {
         stockDisplay.innerHTML = qty > 0
-          ? `<strong>In stock: ${qty} available</strong>`
+          ? `<strong style="color: green;">In stock:</strong> ${qty} available`
           : '<strong>Out of stock</strong>';
       } else {
         stockDisplay.innerHTML = available
-          ? '<strong>In stock</strong>'
+          ? '<strong style="color: green;">In stock</strong>'
           : '<strong>Out of stock</strong>';
       }
       stockDisplay.style.color = '#949494';
