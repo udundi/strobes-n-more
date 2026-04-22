@@ -151,12 +151,8 @@
         {% if customer and customer.tags contains 'Dealer' %}
           {% assign variant = product.selected_or_first_available_variant %}
           <p class="stock-level" id="stock-level-display" style="color: #949494;">
-            {% if variant.inventory_management == 'shopify' %}
-              {% if variant.inventory_quantity > 0 %}
-                <strong style="color: green;">In stock:</strong> {{ variant.inventory_quantity }} available
-              {% else %}
-                <strong>Out of stock</strong>
-              {% endif %}
+            {% if variant.available and variant.inventory_quantity > 0 %}
+              <strong style="color: green;">In stock:</strong> {{ variant.inventory_quantity }} available
             {% elsif variant.available %}
               <strong style="color: green;">In stock</strong>
             {% else %}
