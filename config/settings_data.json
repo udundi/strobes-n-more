@@ -114,11 +114,6 @@
         "disabled": false,
         "settings": {}
       },
-      "10864971697205422121": {
-        "type": "shopify://apps/gorgias-live-chat-helpdesk/blocks/gorgias/a66db725-7b96-4e3f-916e-6c8e6f87aaaa",
-        "disabled": false,
-        "settings": {}
-      },
       "6361996004949321110": {
         "type": "shopify://apps/oneloyalty/blocks/widget/6119b281-36ce-42b5-93ab-6aaf5fb224ce",
         "disabled": false,
@@ -185,8 +180,8 @@
         "disabled": false,
         "settings": {}
       },
-      "6143736321357441667": {
-        "type": "shopify://apps/tidio-live-chat-chatbots/blocks/app-embed/1002274d-fb18-4939-98f6-5f05a8deeadc",
+      "1513253815146976218": {
+        "type": "shopify://apps/omnisend-email-marketing-sms/blocks/app-embed/44704aa2-794f-4c5d-8c8e-039c841158e9",
         "disabled": false,
         "settings": {}
       }
