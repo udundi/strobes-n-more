@@ -1,0 +1,91 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-collection",
+      "blocks": {
+        "filter-1": {
+          "type": "filter",
+          "disabled": true,
+          "settings": {
+            "filter_option": "faceted",
+            "filter_groups": "collapse_all",
+            "show_filter_product_count": false,
+            "filter_style": "tags",
+            "filter_limit": "20",
+            "grid_categories": "",
+            "custom_ordered_categories": "",
+            "custom_ordered_tags": "",
+            "excluded_tags": "B6LED, B6MM, L10, L51, Class 1, SoundOff Signal Class 1 LED Beacon, exterior, Whelen L41 Class 1 LED Beacon,",
+            "excluded_groups": ""
+          }
+        }
+      },
+      "block_order": [
+        "filter-1"
+      ],
+      "settings": {
+        "show_collection_image": false,
+        "products_per_page_range": 48,
+        "products_per_row": "4",
+        "sort_by": true,
+        "grid_list": true,
+        "default_view": "grid-view",
+        "enable_subcollection": true,
+        "show_product_count": false,
+        "thumbnail_image": "collection-image",
+        "image_crop": "original"
+      }
+    },
+    "dynamic_rich_text_XQFH8H": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2>LED Beacons & Strobes for Surface & Underground Mining</h2><p>In a surface mine, a 400-ton haul truck doesn't swerve. It can't. At operating weight, its stopping distance at 30 mph is measured in hundreds of feet — and if a smaller vehicle gets into that path without enough warning, the geometry is irreversible. Warning lighting on mining equipment isn't about checking a compliance box. It's about giving other operators enough time and information to not be in the wrong place.</p><p>Strobes N' More carries heavy-duty LED warning lights, high-intensity amber beacons, and sealed strobe systems built for the conditions that mining environments impose: extreme dust, road salt and chemical exposure, constant high-amplitude vibration, impact from material in the air, and the brutal reality that maintenance opportunities in an active mine are rare and expensive. This equipment needs to work the first time and keep working through a full production cycle without attention.</p><h2>Warning Lighting for Every Mining Vehicle Class</h2><h3>Haul Trucks & Heavy Loaders — SAE Class I Amber Beacons</h3><p>The amber 360° rotating beacon or LED beacon is the primary vehicle identification system in an open-pit mine. At the scale of a large surface operation, where haul roads cover miles and visibility can stretch hundreds of yards, your beacon needs to be seen from as far as the site geometry allows. Our<a href=\"https://strobesnmore.com/collections/ecco\"> <span style=\"text-decoration:underline\">360° LED beacons from ECCO</span></a> are among the most widely deployed industrial warning beacons in North America — specified by mine operators precisely because their SAE Class I output, heavy-duty die-cast aluminum housings, and extreme IP ratings hold up in environments that destroy standard vehicle lighting. They're also available in 12V and 24V wide-input variants, which matters because large haul trucks and articulated mining equipment commonly run 24V electrical systems where standard vehicle beacon options don't apply.</p><h3>Personnel Carriers & Service Vehicles — Compact LED Solutions</h3><p>Smaller vehicles — blast crew carriers, mine inspection trucks, fuel and lube service units, and survey vehicles — circulate the same haul roads as the big equipment. Their warning systems need to be present and prominent enough that haul truck operators in an elevated cab can see them clearly. Compact<a href=\"https://strobesnmore.com/collections/surface-mount-and-grille-led-lights\"> <span style=\"text-decoration:underline\">surface-mount LED lightheads</span></a> positioned on cab corners and roof perimeters provide the coverage needed from multiple sight angles.<a href=\"https://strobesnmore.com/collections/mini-lightbars\"> <span style=\"text-decoration:underline\">Mini lightbars</span></a> offer rooftop presence on vehicles where a full-size beacon isn't practical or where height clearance is a constraint.</p><h3>Underground Vehicles — Sealed Strobe Systems for Confined Spaces</h3><p>Underground mining creates a different warning light problem. Haul drifts and tunnels are narrow, visibility is limited to tunnel sight-lines, and the environment combines extremely high humidity, diesel particulate, and active water spray — all of which are hostile to standard vehicle lighting. Our<a href=\"https://strobesnmore.com/collections/strobe-equipment\"> <span style=\"text-decoration:underline\">strobe equipment</span></a> includes sealed industrial units designed for exactly these conditions. For underground vehicles, the priority is maximum output relative to power draw, complete sealed construction with no points of water ingress, and resistance to the vibration produced by diesel equipment running on uneven tunnel floor surfaces.</p><h3>Night Operations — Work & Flood Lighting for Active Sites</h3><p>Mines that run 24-hour shifts need quality work illumination at every operational point: the active face, dump points, maintenance bays, and haul roads themselves. Our<a href=\"https://strobesnmore.com/collections/flood-scene-spotlights\"> <span style=\"text-decoration:underline\">flood and scene lights</span></a> deliver the wide-area, high-lumen output needed to illuminate a working face or equipment staging area. LED work lights at this quality level produce minimal maintenance overhead — no bulbs to replace mid-shift, no warm-up time, no sensitivity to the shock and vibration that destroys halogen work lights within a fraction of their rated service life.</p><h3>Cables, Connectors, and Wiring for Extreme Environments</h3><p>Mining vehicles are hard on everything, and wiring is no exception. Abrasion from rock and metal debris, chemical exposure from haul road dust suppressants, and constant mechanical vibration at the cable routing points degrade standard automotive wiring far faster than in normal use. Our<a href=\"https://strobesnmore.com/collections/cables-accessories\"> <span style=\"text-decoration:underline\">cables and accessories collection</span></a> includes heavy-duty leads, weatherproof connectors, and mounting hardware with the durability specifications to survive a mining environment without constant re-termination.</p><h2>Mining Environment Specification Requirements</h2><ul><li>MSHA compliance per 30 CFR Part 56 (surface) and 57 (underground) — warning lights are required on specific vehicle classes</li><li>IP67 minimum / IP69K preferred — dust at a mining site is not ordinary road dust; it's fine rock particulate that infiltrates any unsealed housing</li><li>Die-cast aluminum or high-impact polycarbonate housing — not ABS plastic, which fractures in impact events common to mine sites</li><li>High-amplitude vibration rating — mining equipment vibration profiles are far beyond what standard vehicle testing covers</li><li>12–80V DC wide-input voltage compatibility — haul trucks and mining equipment commonly run 24V or 48V systems</li><li>Serviceable in the field with minimal tools — downtime in an active mine has a direct, measurable cost per hour</li></ul><p>Fleet procurement for mining operations should reference our<a href=\"https://strobesnmore.com/pages/dealers\"> <span style=\"text-decoration:underline\">Dealer Program</span></a> for volume pricing on<a href=\"https://strobesnmore.com/collections/ecco\"> <span style=\"text-decoration:underline\">ECCO beacons</span></a> and other industrial-grade warning equipment. Our team can help specify products across an entire fleet by vehicle class — contact us at (401) 454-4487 with your equipment list.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_rich_text_kp7fCG": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2>Frequently Asked Questions </h2><h3>What MSHA regulations apply to warning lights on mining vehicles?</h3><p>Under 30 CFR Parts 56 and 57, mobile equipment operating at surface and underground mines must be equipped with equipment-specific warning systems. Part 56.14101 requires that self-propelled mobile equipment used in surface mining operations be equipped with audible warning devices. Warning lights are addressed under visibility requirements and site-specific traffic management plans. Specific lighting requirements — including beacon type, color, and placement — are often defined in the mine's own traffic management plan rather than at the CFR level. Consult your mine's safety officer and your MSHA district office for the specific requirements applicable to each vehicle class in your operation.</p><h3>Why do mining operations specify ECCO beacons specifically?</h3><p>ECCO Safety Group has been the dominant supplier of industrial-grade amber warning equipment to the mining, construction, and heavy equipment industries for decades. Their beacons are designed from the ground up for heavy industrial use — not adapted from standard vehicle parts — which means their housing construction, gasket materials, mounting systems, and internal electronics are specified for the vibration, temperature range, and ingress conditions of genuine off-highway use. Strobes N' More carries<a href=\"https://strobesnmore.com/collections/ecco\"> <span style=\"text-decoration:underline\">ECCO's full product range</span></a> including both rotating and LED beacon styles in multiple mounting configurations.</p><h3>What voltage do I need for haul truck warning lights?</h3><p>Standard North American passenger vehicles and light trucks operate on 12V DC systems. Large haul trucks, articulated dump trucks, and most heavy mining equipment operate on 24V DC systems. Some larger equipment uses 48V or higher. When specifying warning lights for haul trucks, confirm the vehicle's electrical system voltage and select products rated for that voltage — or choose a wide-input 10–80V DC product that covers both 12V and 24V without a separate voltage version. Our team can help confirm compatibility for specific equipment models.</p><h3>How do you mount warning lights on non-standard mining equipment bodies?</h3><p>Mining equipment body structures don't follow automotive mounting conventions. Round ROPS tubes, flat steel plate surfaces, and recessed mounting locations require dedicated solutions. Our<a href=\"https://strobesnmore.com/collections/mounting-brackets-accessories\"> <span style=\"text-decoration:underline\">mounting brackets and accessories</span></a> include tube clamp mounts, universal weld-on brackets, and adjustable stanchion systems compatible with most heavy equipment configurations. For truly non-standard situations, ECCO and several other industrial lighting manufacturers offer custom mounting kits for their most commonly specified beacon models — contact us to discuss your specific equipment.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "static-recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "dynamic_custom_liquid_rmHL8m": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"CollectionPage\",\n      \"name\": \"Mining Equipment Warning Lights\",\n      \"description\": \"SAE Class I amber LED beacons, sealed strobe systems, work lights, and heavy-duty wiring for surface mining, underground mining, and quarry vehicles. MSHA-compliant solutions from ECCO and more.\",\n      \"url\": \"https://strobesnmore.com/collections/application/mining-equipment-lights\"\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What MSHA regulations apply to warning lights on mining vehicles?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Under 30 CFR Parts 56 and 57, mining equipment must have equipment-specific warning systems. Specific lighting requirements are often defined in the mine's traffic management plan. Consult your mine safety officer and MSHA district office for applicable requirements.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Why do mining operations specify ECCO beacons?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"ECCO designs beacons for heavy industrial use from the ground up — not adapted from standard vehicle parts. Their housings, gaskets, and electronics are specified for the vibration, temperature, and ingress conditions of genuine off-highway mining environments.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What voltage do I need for haul truck warning lights?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Light trucks run on 12V DC. Large haul trucks and most heavy mining equipment run on 24V DC. Confirm your vehicle's system voltage or choose a wide-input 10-80V DC product that covers both voltages.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How do you mount warning lights on non-standard mining equipment bodies?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Tube clamp mounts, universal weld-on brackets, and adjustable stanchion systems cover most heavy equipment configurations. ECCO also offers custom mounting kits for their most commonly specified beacon models.\"\n          }\n        }\n      ]\n    }\n  ]\n}\n</script>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_rich_text_XQFH8H",
+    "dynamic_rich_text_kp7fCG",
+    "static-recently-viewed",
+    "dynamic_custom_liquid_rmHL8m"
+  ]
+}
