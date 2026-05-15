@@ -11,6 +11,7 @@
   "sections": {
     "dynamic_html_fKYXXm": {
       "type": "dynamic-html",
+      "disabled": true,
       "custom_css": [
         "{margin-top: -70px;}",
         "@media (max-width: 768px) {{margin-top: -50px; }}"
