@@ -30463,11 +30463,15 @@ class AddToCartFlyout {
           name for: <strong>Option name:</strong> Option
       */
 
-      if (response.variant_options[0] !== 'Title' && response.variant_options[0] !== 'Default Title') {
-        const productOptions = flyOut.querySelector('[data-atc-banner-product-options]');
-        productOptions.innerHTML = response.variant_options.join(', ');
-      }
+  const cleanedVariantOptions = response.variant_options
+  .filter(option => option !== 'Title' && option !== 'Default Title')
+  .map(option => option.split('#MWS')[0].trim())
+  .filter(Boolean);
 
+if (cleanedVariantOptions.length) {
+  const productOptions = flyOut.querySelector('[data-atc-banner-product-options]');
+  productOptions.innerHTML = cleanedVariantOptions.join(', ');
+}
       if (response.selling_plan_allocation) {
         const productSubscriptionTitle = flyOut.querySelector('[data-atc-banner-product-subscription-title]');
         productSubscriptionTitle.innerHTML = response.selling_plan_allocation.selling_plan.name;
