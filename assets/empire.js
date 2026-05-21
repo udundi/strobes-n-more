@@ -30463,15 +30463,33 @@ class AddToCartFlyout {
           name for: <strong>Option name:</strong> Option
       */
 
-  const cleanedVariantOptions = response.variant_options
-  .filter(option => option !== 'Title' && option !== 'Default Title')
-  .map(option => option.split('#MWS')[0].trim())
+      // if (response.variant_options[0] !== 'Title' && response.variant_options[0] !== 'Default Title') {
+      //   const productOptions = flyOut.querySelector('[data-atc-banner-product-options]');
+      //   productOptions.innerHTML = response.variant_options.join(', ');
+      // }
+
+      const productOptions = flyOut.querySelector('[data-atc-banner-product-options]');
+
+const cleanedVariantOptions = response.variant_options
+  .map(option => {
+    const cleanOption = option.split('#MWS')[0].trim();
+
+    if (cleanOption === 'Title' || cleanOption === 'Default Title') {
+      return '';
+    }
+
+    return cleanOption;
+  })
   .filter(Boolean);
 
 if (cleanedVariantOptions.length) {
-  const productOptions = flyOut.querySelector('[data-atc-banner-product-options]');
   productOptions.innerHTML = cleanedVariantOptions.join(', ');
+  productOptions.style.display = '';
+} else {
+  productOptions.innerHTML = '';
+  productOptions.style.display = 'none';
 }
+
       if (response.selling_plan_allocation) {
         const productSubscriptionTitle = flyOut.querySelector('[data-atc-banner-product-subscription-title]');
         productSubscriptionTitle.innerHTML = response.selling_plan_allocation.selling_plan.name;
