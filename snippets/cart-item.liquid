@@ -69,7 +69,7 @@
                   {{ words[0] }}
                 {% endunless %}
                 {% for p in item.properties %}
-                  {% if p.first contains '_io_' %}
+                  {% if p.first contains '_' %}
                     {% continue %}
                   {% endif %}
                   {% unless p.last == blank %}
