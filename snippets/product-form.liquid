@@ -149,21 +149,32 @@
 
       {{- '<!-- Stock Display (no variants) -->' }}
       {% assign variant = product.selected_or_first_available_variant %}
-      {% assign is_special_order = false %}
+      {% assign is_special_inventory = false %}
       {% if product.tags contains 'special inventory' %}
-        {% assign is_special_order = true %}
+        {% assign is_special_inventory = true %}
       {% endif %}
+
       <p class="stock-level" id="stock-level-display">
-        {% if is_special_order %}
+        {% if is_special_inventory %}
           <span style="color: #21225b;"><strong>Availability:</strong></span> <span style="color: red;">Special Order</span>
         {% elsif variant.inventory_management == 'shopify' %}
           {% if variant.inventory_quantity > 0 %}
-            <span style="color: #21225b;"><strong>Availability:</strong></span> <span style="color: green;">In stock</span>
+            <span style="color: #21225b;"><strong>Availability:</strong></span>
+            {% if customer and customer.tags contains 'Dealer' %}
+              <span style="color: green;">In stock: {{ variant.inventory_quantity }} available</span>
+            {% else %}
+              <span style="color: green;">In stock</span>
+            {% endif %}
           {% else %}
             <span style="color: #21225b;"><strong>Availability:</strong></span> <span style="color: #949494;">On Order</span>
           {% endif %}
         {% elsif variant.available %}
-          <span style="color: #21225b;"><strong>Availability:</strong></span> <span style="color: green;">In stock</span>
+          <span style="color: #21225b;"><strong>Availability:</strong></span>
+          {% if customer and customer.tags contains 'Dealer' %}
+            <span style="color: green;">In stock</span>
+          {% else %}
+            <span style="color: green;">In stock</span>
+          {% endif %}
         {% else %}
           <span style="color: #21225b;"><strong>Availability:</strong></span> <span style="color: #949494;">On Order</span>
         {% endif %}
@@ -247,16 +258,22 @@
       
         {{- '<!-- Stock Display (variants) -->' }}
         {% assign variant = product.selected_or_first_available_variant %}
-        {% assign is_special_order = false %}
+        {% assign is_special_inventory = false %}
         {% if product.tags contains 'special inventory' %}
-          {% assign is_special_order = true %}
+          {% assign is_special_inventory = true %}
         {% endif %}
+
         <p class="stock-level" id="stock-level-display">
-          {% if is_special_order %}
+          {% if is_special_inventory %}
             <span style="color: #21225b;"><strong>Availability:</strong></span> <span style="color: red;">Special Order</span>
           {% elsif variant.inventory_management == 'shopify' %}
             {% if variant.inventory_quantity > 0 %}
-              <span style="color: #21225b;"><strong>Availability:</strong></span> <span style="color: green;">In stock</span>
+              <span style="color: #21225b;"><strong>Availability:</strong></span>
+              {% if customer and customer.tags contains 'Dealer' %}
+                <span style="color: green;">In stock: {{ variant.inventory_quantity }} available</span>
+              {% else %}
+                <span style="color: green;">In stock</span>
+              {% endif %}
             {% else %}
               <span style="color: #21225b;"><strong>Availability:</strong></span> <span style="color: #949494;">On Order</span>
             {% endif %}
@@ -266,14 +283,18 @@
             <span style="color: #21225b;"><strong>Availability:</strong></span> <span style="color: #949494;">On Order</span>
           {% endif %}
         </p>
-        <div id="b2b-variant-data" style="display:none;">
+        {% assign is_dealer = false %}
+        {% if customer and customer.tags contains 'Dealer' %}
+          {% assign is_dealer = true %}
+        {% endif %}
+        <div id="b2b-variant-data" style="display:none;" data-is-dealer="{{ is_dealer }}">
           {% for v in product.variants %}
             <span 
               data-variant-id="{{ v.id }}" 
               data-available="{{ v.available }}" 
               data-qty="{{ v.inventory_quantity }}"
               data-managed="{{ v.inventory_management }}"
-              data-special-order="{{ is_special_order }}"
+              data-special-order="{{ is_special_inventory }}"
             ></span>
           {% endfor %}
         </div>
@@ -694,6 +715,8 @@
     if (!stockDisplay) return;
 
     const label = `<span style="color: #21225b;"><strong>Availability:</strong></span>`;
+    const variantDataEl = document.getElementById('b2b-variant-data');
+    const isDealer = variantDataEl ? variantDataEl.dataset.isDealer === 'true' : false;
 
     function updateStock(variantId) {
       const id = parseInt(variantId, 10);
@@ -705,14 +728,15 @@
       const managed = el.dataset.managed;
       const specialOrder = el.dataset.specialOrder === 'true';
 
-      const label = `<span style="color: #21225b;"><strong>Availability:</strong></span>`;
-
       if (specialOrder) {
         stockDisplay.innerHTML = `${label} <span style="color: red;">Special Order</span>`;
       } else if (managed === 'shopify') {
-        stockDisplay.innerHTML = qty > 0
-          ? `${label} <span style="color: green;">In stock</span>`
-          : `${label} <span style="color: #949494;">On Order</span>`;
+        if (qty > 0) {
+          const stockText = isDealer ? `In stock: ${qty} available` : `In stock`;
+          stockDisplay.innerHTML = `${label} <span style="color: green;">${stockText}</span>`;
+        } else {
+          stockDisplay.innerHTML = `${label} <span style="color: #949494;">On Order</span>`;
+        }
       } else {
         stockDisplay.innerHTML = available
           ? `${label} <span style="color: green;">In stock</span>`
