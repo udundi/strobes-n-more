@@ -1,0 +1,197 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "static-collection",
+      "blocks": {
+        "filter-1": {
+          "type": "filter",
+          "disabled": true,
+          "settings": {
+            "filter_option": "faceted",
+            "filter_groups": "collapse_all",
+            "show_filter_product_count": false,
+            "filter_style": "tags",
+            "filter_limit": "20",
+            "grid_categories": "",
+            "custom_ordered_categories": "",
+            "custom_ordered_tags": "",
+            "excluded_tags": "B6LED, B6MM, L10, L51, Class 1, SoundOff Signal Class 1 LED Beacon, exterior, Whelen L41 Class 1 LED Beacon,",
+            "excluded_groups": ""
+          }
+        }
+      },
+      "block_order": [
+        "filter-1"
+      ],
+      "settings": {
+        "show_collection_image": false,
+        "products_per_page_range": 48,
+        "products_per_row": "4",
+        "sort_by": true,
+        "grid_list": true,
+        "default_view": "grid-view",
+        "enable_subcollection": true,
+        "show_product_count": false,
+        "thumbnail_image": "collection-image",
+        "image_crop": "original"
+      }
+    },
+    "dynamic_rich_text_bNRBkf": {
+      "type": "dynamic-rich-text",
+      "name": "t:sections.rich_text.presets.rich_text.name",
+      "settings": {
+        "width": "full-width",
+        "title": "",
+        "text": "<h2>Green LED Lights for Command, Security & Utility Vehicles</h2><p>Green LED lights are the go-to for command vehicles, EMS supervisors, private security patrols, and utility fleets. On an active scene, a green marker signals who is in charge without extra radio traffic, and volunteer firefighters and environmental services run green wherever local code permits it. Because green separates so cleanly from primary red and blue, it stays visible in a crowded field of warning lights.</p><p>For forward warning, the<a href=\"https://strobesnmore.com/products/whelen-green-500-series-linear-super-led-lighthead\"> <span style=\"text-decoration:underline\">Whelen Green 500 Series</span></a> and<a href=\"https://strobesnmore.com/products/whelen-green-700-series-super-led-lighthead\"> <span style=\"text-decoration:underline\">Whelen Green 700 Series</span></a> linear lightheads throw wide-angle output from grille and surface positions, while the compact<a href=\"https://strobesnmore.com/products/whelen-green-micron-series-super-led-lighthead\"> <span style=\"text-decoration:underline\">Green Micron Series</span></a> and<a href=\"https://strobesnmore.com/products/whelen-green-ion-series-super-led-universal-light\"> <span style=\"text-decoration:underline\">Green ION Series</span></a> pack serious light into tight spaces. Crews that want an interior unit reach for the<a href=\"https://strobesnmore.com/products/whelen-green-avenger-ii-solo-single-combination-linear-tir-super-led-dash-light\"> <span style=\"text-decoration:underline\">Green Avenger II SOLO dash light</span></a>, and fleets that need 360-degree coverage step up to the<a href=\"https://strobesnmore.com/products/whelen-green-l32-super-led-beacon\"> <span style=\"text-decoration:underline\">Green L32 Super LED Beacon</span></a>. Need rear presence and traffic direction? The<a href=\"https://strobesnmore.com/products/feniex-fusion-s-200-green-lightstick\"> <span style=\"text-decoration:underline\">Feniex Fusion S green lightsticks</span></a> scale from short interior runs to full-size rear sticks.</p><p>Green shows up across every duty we equip, whether you are building out<a href=\"https://strobesnmore.com/collections/law-enforcement-police-lights\"> <span style=\"text-decoration:underline\">police and law enforcement lighting</span></a>, outfitting an<a href=\"https://strobesnmore.com/collections/fire-ems\"> <span style=\"text-decoration:underline\">ambulance or EMS rig</span></a>, or marking a<a href=\"https://strobesnmore.com/collections/public-works-construction\"> <span style=\"text-decoration:underline\">public works and construction</span></a> vehicle. Pick the color for your role, confirm your local code, and build.</p><h2>Purple LED Lights for Funeral Escort & Ceremonial Duty</h2><p>Purple LED lights own a smaller but critical niche. Across much of the country, they are tied to funeral processions, escort vehicles, and ceremonial duty, where a solemn, uncommon color tells other drivers the vehicles ahead are moving together and should not be split apart. Because purple is so rarely seen on the road, it commands attention and respect, which makes it the standard choice for both dedicated escort units and the POVs that volunteer drivers bring to the job.</p><p>Strobes N' More manufactures a dedicated purple line for exactly this work. The<a href=\"https://strobesnmore.com/products/strobes-n-more-purple-e-series-led\"> <span style=\"text-decoration:underline\">Purple E Series grille LED</span></a> and its<a href=\"https://strobesnmore.com/products/strobes-n-more-dual-purple-e-series-led\"> <span style=\"text-decoration:underline\">dual-head version</span></a> mount behind the grille for a clean look with strong forward output, and for the windshield the<a href=\"https://strobesnmore.com/products/strobes-n-more-purple-dash-led\"> <span style=\"text-decoration:underline\">Purple Dash LED</span></a>,<a href=\"https://strobesnmore.com/products/strobes-n-more-purple-dual-dash-led\"> <span style=\"text-decoration:underline\">Purple Dual Dash LED</span></a>, and<a href=\"https://strobesnmore.com/products/strobes-n-more-purple-dual-linear-dash-led\"> <span style=\"text-decoration:underline\">Purple Dual Linear Dash LED</span></a> give escort drivers warning-grade brightness that transfers between vehicles in minutes. That is the reason these dash units are a favorite on POVs run by off-duty personnel and volunteer escort drivers who need purple without a permanent install.</p><h2>Match the Light to Your Mount</h2><p>Color gets you noticed, but the mount decides how the light fits your vehicle, so it pays to choose the form factor first. Front-facing<a href=\"https://strobesnmore.com/collections/surface-mount-and-grille-led-lights\"> <span style=\"text-decoration:underline\">grille and surface mounts</span></a> install on the front of the vehicle for direct forward warning, while<a href=\"https://strobesnmore.com/collections/dash-window-mount\"> <span style=\"text-decoration:underline\">dash and window lights</span></a> sit inside the cab and swap between vehicles in seconds, which is why they dominate POV setups. For a stealth build,<a href=\"https://strobesnmore.com/collections/hide-away-leds\"> <span style=\"text-decoration:underline\">hideaway strobes</span></a> tuck into existing housings and disappear until they flash. Add length and pattern control at the rear with<a href=\"https://strobesnmore.com/collections/led-stick-lights\"> <span style=\"text-decoration:underline\">LED stick lights</span></a> or a<a href=\"https://strobesnmore.com/collections/mini-lightbars\"> <span style=\"text-decoration:underline\">mini lightbar</span></a>, or get full roof coverage from a<a href=\"https://strobesnmore.com/collections/360-beacons\"> <span style=\"text-decoration:underline\">360-degree beacon</span></a> for slow-moving and stationary work.</p><p>Running a dual-purpose vehicle? Pair your green or purple lightheads with<a href=\"https://strobesnmore.com/collections/amber-lights\"> <span style=\"text-decoration:underline\">amber warning lights</span></a> to cover construction and utility duty in the same build, wherever your code allows the combination.</p><h2>Know the Rules Before You Install</h2><p>Color laws vary widely by state and by vehicle type, and what an EV can run is often different from what a POV can run. Some states restrict green or purple to specific vehicle classes, permit them only for certain duties, or require a permit, while others allow color combinations for command and specialty vehicles. Always confirm your state and local regulations before you install and operate purple or green warning lights, and check each product listing for SAE and NFPA certifications when compliance is on the line.</p><p>Not sure how to wire or position a light? Our<a href=\"https://strobesnmore.com/pages/install-guides\"> <span style=\"text-decoration:underline\">install guides</span></a> and<a href=\"https://strobesnmore.com/blogs/instructional-videos\"> <span style=\"text-decoration:underline\">instructional videos</span></a> walk through the common setups; our<a href=\"https://strobesnmore.com/pages/installation-service\"> <span style=\"text-decoration:underline\">installation team</span></a> can handle the full build for you, and the<a href=\"https://strobesnmore.com/blogs/informative\"> <span style=\"text-decoration:underline\">informative blog</span></a> digs deeper into vehicle lighting and color use. Buying for a fleet? The<a href=\"https://strobesnmore.com/pages/dealers\"> <span style=\"text-decoration:underline\">dealer program</span></a> covers volume pricing, or you can<a href=\"https://strobesnmore.com/pages/contact\"> <span style=\"text-decoration:underline\">reach out with a specific vehicle question</span></a> any time.</p><h2>Built With Trusted Warning-Light Brands</h2><p>This collection pulls from the brands responders trust, including<a href=\"https://strobesnmore.com/collections/whelen-products\"> <span style=\"text-decoration:underline\">Whelen</span></a> for premium linear and beacon output,<a href=\"https://strobesnmore.com/collections/feniex\"> <span style=\"text-decoration:underline\">Feniex</span></a> for versatile lightsticks,<a href=\"https://strobesnmore.com/collections/federal-signal\"> <span style=\"text-decoration:underline\">Federal Signal</span></a> for interior dash lighting,<a href=\"https://strobesnmore.com/collections/soundoff-signal\"> <span style=\"text-decoration:underline\">SoundOff Signal</span></a> for hideaway systems, and<a href=\"https://strobesnmore.com/collections/ecco\"> <span style=\"text-decoration:underline\">ECCO</span></a> for jobsite-focused warning lights. The purple grille and dash options here come straight from the<a href=\"https://strobesnmore.com/collections/strobes-n-more\"> <span style=\"text-decoration:underline\">Strobes N' More E Series</span></a>, which we design and build in-house.</p>",
+        "heading_size": "medium",
+        "text_alignment": "left"
+      }
+    },
+    "dynamic_faq_jGyEYj": {
+      "type": "dynamic-faq",
+      "blocks": {
+        "category_aQeVj4": {
+          "type": "category",
+          "settings": {
+            "heading": "Category",
+            "show_category_card": true
+          }
+        },
+        "question_ByrxNq": {
+          "type": "question",
+          "settings": {
+            "question": "Why use green LED lights on work trucks or first responder vehicles?",
+            "answer": "<p>Green LEDs are often used by command vehicles, EMS supervisors, or security details to indicate leadership presence and ensure visibility.</p>",
+            "icon": "none"
+          }
+        },
+        "question_fKDKJr": {
+          "type": "question",
+          "settings": {
+            "question": "Are purple LED lights legal on emergency vehicles?",
+            "answer": "<p>In some jurisdictions, purple LEDs are allowed for ceremonial use such as funeral escorts or special duty vehicles—always check your local laws.</p>",
+            "icon": "none"
+          }
+        },
+        "question_xe8giT": {
+          "type": "question",
+          "settings": {
+            "question": "What makes green and purple LED lights effective for safety?",
+            "answer": "<p>Their unique color makes them stand out from standard vehicle lighting, increasing visibility and reducing risk in busy or low-light environments.</p>",
+            "icon": "none"
+          }
+        },
+        "question_DBxmTd": {
+          "type": "question",
+          "settings": {
+            "question": "Can these LEDs handle tough work environments?",
+            "answer": "<p>Yes. Our lights are weather-sealed, vibration-resistant, and built for the demanding needs of emergency responders and fleet operators.</p>",
+            "icon": "none"
+          }
+        },
+        "question_8Czc9j": {
+          "type": "question",
+          "settings": {
+            "question": "Do your LEDs meet industry safety standards?",
+            "answer": "<p>Many of our lights are SAE and NFPA compliant or built to meet local emergency lighting codes—check individual product listings for certifications.</p>",
+            "icon": "none"
+          }
+        },
+        "question_kjjqFM": {
+          "type": "question",
+          "settings": {
+            "question": "How are purple LED lights used in funeral or escort services?",
+            "answer": "<p>Purple lighting is often used to signify solemn or ceremonial processions, helping guide and protect the group in transit.</p>",
+            "icon": "none"
+          }
+        },
+        "question_4zk4M7": {
+          "type": "question",
+          "settings": {
+            "question": "Can I install green or purple LEDs on my vehicle without rewiring?",
+            "answer": "<p>Most of our products are plug-and-play or require minimal wiring—ideal for both fleet managers and individual installers.</p>",
+            "icon": "none"
+          }
+        },
+        "question_LKxnWR": {
+          "type": "question",
+          "settings": {
+            "question": "Are your LEDs bright enough for daylight visibility?",
+            "answer": "<p>Absolutely. Our LEDs are daylight-visible with high-lumen output, ensuring your vehicle is seen in any conditions.</p>",
+            "icon": "none"
+          }
+        },
+        "question_4XLLWp": {
+          "type": "question",
+          "settings": {
+            "question": "Is it legal to mix green or purple lights with other emergency colors?",
+            "answer": "<p>This varies by state. Mixing colors is often permitted for command or specialized vehicles—always consult local regulations.</p>",
+            "icon": "none"
+          }
+        },
+        "question_jMFr3V": {
+          "type": "question",
+          "settings": {
+            "question": "Do you offer surface mounts, dash lights, or lightbars in these colors?",
+            "answer": "<p>Yes—we carry a full range of green and purple LED lights in all form factors, from discreet interior lights to full-size lightbars.</p>",
+            "icon": "none"
+          }
+        }
+      },
+      "block_order": [
+        "category_aQeVj4",
+        "question_ByrxNq",
+        "question_fKDKJr",
+        "question_xe8giT",
+        "question_DBxmTd",
+        "question_8Czc9j",
+        "question_kjjqFM",
+        "question_4zk4M7",
+        "question_LKxnWR",
+        "question_4XLLWp",
+        "question_jMFr3V"
+      ],
+      "custom_css": [
+        "h3 {display: none;}"
+      ],
+      "name": "t:sections.faq.presets.name",
+      "settings": {
+        "section_width": "wide",
+        "heading": "Frequently Asked Questions",
+        "enable_category_cards": false,
+        "category_card_image_crop": "original",
+        "category_heading_size": "medium",
+        "icon_color": "rgba(0,0,0,0)"
+      }
+    },
+    "static-recently-viewed": {
+      "type": "static-recently-viewed",
+      "settings": {
+        "enable_recently_viewed_products": true
+      }
+    },
+    "dynamic_custom_liquid_Fc4qmi": {
+      "type": "dynamic-custom-liquid",
+      "name": "t:sections.custom_liquid.presets.custom_liquid.name",
+      "settings": {
+        "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@graph\": [\n    {\n      \"@type\": \"WebSite\",\n      \"@id\": \"https://strobesnmore.com/#website\",\n      \"name\": \"Strobes N' More\",\n      \"url\": \"https://strobesnmore.com/\"\n    },\n    {\n      \"@type\": \"BreadcrumbList\",\n      \"@id\": \"https://strobesnmore.com/collections/green-purple-leds#breadcrumb\",\n      \"itemListElement\": [\n        { \"@type\": \"ListItem\", \"position\": 1, \"name\": \"Home\", \"item\": \"https://strobesnmore.com/\" },\n        { \"@type\": \"ListItem\", \"position\": 2, \"name\": \"LED Lights\", \"item\": \"https://strobesnmore.com/collections/led-lights\" },\n        { \"@type\": \"ListItem\", \"position\": 3, \"name\": \"Green & Purple LED Lights\", \"item\": \"https://strobesnmore.com/collections/green-purple-leds\" }\n      ]\n    },\n    {\n      \"@type\": \"CollectionPage\",\n      \"@id\": \"https://strobesnmore.com/collections/green-purple-leds#webpage\",\n      \"name\": \"Green & Purple LED Lights\",\n      \"url\": \"https://strobesnmore.com/collections/green-purple-leds\",\n      \"description\": \"Explore vibrant green LED lights, purple LED lights, and premium emergency strobe lighting at Strobes N' More. Perfect for custom vehicle lighting and safety.\",\n      \"image\": \"https://strobesnmore.com/cdn/shop/collections/SUBCAT_GREEN_PURPLE_LED_LIGHTS_1200x750.png?v=1718222461\",\n      \"isPartOf\": { \"@id\": \"https://strobesnmore.com/#website\" },\n      \"breadcrumb\": { \"@id\": \"https://strobesnmore.com/collections/green-purple-leds#breadcrumb\" },\n      \"mainEntity\": {\n        \"@type\": \"ItemList\",\n        \"numberOfItems\": 32,\n        \"itemListElement\": [\n          { \"@type\": \"ListItem\", \"position\": 1, \"name\": \"Strobes N' More E92 Dual Head Hide Away Kit\", \"url\": \"https://strobesnmore.com/products/strobes-n-more-e92-dual-head-hide-away-kit\" },\n          { \"@type\": \"ListItem\", \"position\": 2, \"name\": \"Strobes N' More E3 LED Lighthead NEW OPTICS! Vertical Mt. Available\", \"url\": \"https://strobesnmore.com/products/strobes-n-more-e3-led-lighthead-new-optics-vertical-mt-available\" },\n          { \"@type\": \"ListItem\", \"position\": 3, \"name\": \"Strobes N' More Surface Star Single Head Hide Away\", \"url\": \"https://strobesnmore.com/products/strobes-n-more-surface-star-single-head-hide-away\" },\n          { \"@type\": \"ListItem\", \"position\": 4, \"name\": \"Strobes N' More Surface Star Dual Head Hide Away Kit\", \"url\": \"https://strobesnmore.com/products/strobes-n-more-surface-star-dual-head-hide-away-kit\" },\n          { \"@type\": \"ListItem\", \"position\": 5, \"name\": \"Federal Signal XStream Dual-Head, Tri Color Dash Light\", \"url\": \"https://strobesnmore.com/products/federal-signal-xstream-dual-head-tri-color-dash-light\" },\n          { \"@type\": \"ListItem\", \"position\": 6, \"name\": \"Strobes N' More Purple E Series LED\", \"url\": \"https://strobesnmore.com/products/strobes-n-more-purple-e-series-led\" },\n          { \"@type\": \"ListItem\", \"position\": 7, \"name\": \"Strobes N' More Dual Purple E Series LED\", \"url\": \"https://strobesnmore.com/products/strobes-n-more-dual-purple-e-series-led\" },\n          { \"@type\": \"ListItem\", \"position\": 8, \"name\": \"Strobes N' More Purple Dual Linear Dash LED\", \"url\": \"https://strobesnmore.com/products/strobes-n-more-purple-dual-linear-dash-led\" },\n          { \"@type\": \"ListItem\", \"position\": 9, \"name\": \"Whelen U-Series DUO Lightheads\", \"url\": \"https://strobesnmore.com/products/whelen-u-series-duo-lightheads\" },\n          { \"@type\": \"ListItem\", \"position\": 10, \"name\": \"Strobes N' More Purple Dual Dash LED\", \"url\": \"https://strobesnmore.com/products/strobes-n-more-purple-dual-dash-led\" },\n          { \"@type\": \"ListItem\", \"position\": 11, \"name\": \"Strobes N' More Purple Dash LED\", \"url\": \"https://strobesnmore.com/products/strobes-n-more-purple-dash-led\" },\n          { \"@type\": \"ListItem\", \"position\": 12, \"name\": \"Whelen LINZ6 Super LED\", \"url\": \"https://strobesnmore.com/products/whelen-linz6-super-led\" },\n          { \"@type\": \"ListItem\", \"position\": 13, \"name\": \"Whelen Green 500 Series Linear Super LED Lighthead\", \"url\": \"https://strobesnmore.com/products/whelen-green-500-series-linear-super-led-lighthead\" },\n          { \"@type\": \"ListItem\", \"position\": 14, \"name\": \"Whelen Green Avenger II SOLO Single Combination Linear/TIR Super LED Dash Light\", \"url\": \"https://strobesnmore.com/products/whelen-green-avenger-ii-solo-single-combination-linear-tir-super-led-dash-light\" },\n          { \"@type\": \"ListItem\", \"position\": 15, \"name\": \"Whelen Green M6 Series Linear Super LED Surface Mount\", \"url\": \"https://strobesnmore.com/products/whelen-green-m6-series-linear-super-led-surface-mount\" },\n          { \"@type\": \"ListItem\", \"position\": 16, \"name\": \"Whelen Green L32 Super LED Beacon\", \"url\": \"https://strobesnmore.com/products/whelen-green-l32-super-led-beacon\" },\n          { \"@type\": \"ListItem\", \"position\": 17, \"name\": \"Whelen Green Micron Series Super LED Lighthead\", \"url\": \"https://strobesnmore.com/products/whelen-green-micron-series-super-led-lighthead\" },\n          { \"@type\": \"ListItem\", \"position\": 18, \"name\": \"Whelen U-Series TRIO Lightheads\", \"url\": \"https://strobesnmore.com/products/whelen-u-series-trio-lightheads\" },\n          { \"@type\": \"ListItem\", \"position\": 19, \"name\": \"Whelen Green Marker/Clearance Light with Clear Lens\", \"url\": \"https://strobesnmore.com/products/whelen-green-marker-clearance-light-with-clear-lens\" },\n          { \"@type\": \"ListItem\", \"position\": 20, \"name\": \"Federal Signal XStream Single-Head, Tri Color Dash Light\", \"url\": \"https://strobesnmore.com/products/federal-signal-xstream-single-head-tri-color-dash-light\" },\n          { \"@type\": \"ListItem\", \"position\": 21, \"name\": \"Whelen Green L31 Flat Mount Super LED Beacon\", \"url\": \"https://strobesnmore.com/products/whelen-green-l31-flat-mount-super-led-beacon\" },\n          { \"@type\": \"ListItem\", \"position\": 22, \"name\": \"Feniex Fusion S 200 Green Lightstick\", \"url\": \"https://strobesnmore.com/products/feniex-fusion-s-200-green-lightstick\" },\n          { \"@type\": \"ListItem\", \"position\": 23, \"name\": \"Whelen Green ION Series Super LED Universal Light\", \"url\": \"https://strobesnmore.com/products/whelen-green-ion-series-super-led-universal-light\" },\n          { \"@type\": \"ListItem\", \"position\": 24, \"name\": \"Universal UnderCover Screw-In LED Insert Single Light Kit\", \"url\": \"https://strobesnmore.com/products/universal-undercover-screw-in-led-insert-single-light-kit\" },\n          { \"@type\": \"ListItem\", \"position\": 25, \"name\": \"ECCO ED3800 Viz™ Series Dual and Tri Color\", \"url\": \"https://strobesnmore.com/products/ecco-ed3800-viz%E2%84%A2-series-dual-and-tri-color\" },\n          { \"@type\": \"ListItem\", \"position\": 26, \"name\": \"Whelen Green ION Surface Mount Series Super LED\", \"url\": \"https://strobesnmore.com/products/whelen-green-ion-surface-mount-series-super-led\" },\n          { \"@type\": \"ListItem\", \"position\": 27, \"name\": \"Whelen Green 600 Series Super LED Lighthead\", \"url\": \"https://strobesnmore.com/products/whelen-green-600-series-super-led-lighthead\" },\n          { \"@type\": \"ListItem\", \"position\": 28, \"name\": \"Whelen Green 700 Series Super LED Lighthead\", \"url\": \"https://strobesnmore.com/products/whelen-green-700-series-super-led-lighthead\" },\n          { \"@type\": \"ListItem\", \"position\": 29, \"name\": \"M2 Linear Series Super-LED® SOLO Surface Mount\", \"url\": \"https://strobesnmore.com/products/m2-linear-series-super-led-solo-surface-mount\" },\n          { \"@type\": \"ListItem\", \"position\": 30, \"name\": \"Feniex Fusion S 800 Green Lightstick\", \"url\": \"https://strobesnmore.com/products/feniex-fusion-s-800-green-lightstick\" },\n          { \"@type\": \"ListItem\", \"position\": 31, \"name\": \"Feniex Fusion S 400 Green Lightstick\", \"url\": \"https://strobesnmore.com/products/feniex-fusion-s-400-green-lightstick\" },\n          { \"@type\": \"ListItem\", \"position\": 32, \"name\": \"Feniex Fusion S 100 Green Lightstick\", \"url\": \"https://strobesnmore.com/products/feniex-fusion-s-100-green-lightstick\" }\n        ]\n      }\n    },\n    {\n      \"@type\": \"FAQPage\",\n      \"@id\": \"https://strobesnmore.com/collections/green-purple-leds#faq\",\n      \"url\": \"https://strobesnmore.com/collections/green-purple-leds\",\n      \"mainEntity\": [\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Why use green LED lights on work trucks or first responder vehicles?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Green LED lights are commonly run on command vehicles, EMS supervisors, private security details, and utility fleets to signal leadership presence and keep the vehicle visible on an active scene. Because green sits outside the standard red and blue palette, it separates cleanly from surrounding warning lights and helps crews identify the person in charge without extra radio traffic. On both emergency vehicles and privately owned support trucks, that added distinction improves recognition in traffic and low-light conditions.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Are purple LED lights legal on emergency vehicles?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"It depends on your state and vehicle type. In many jurisdictions purple LED lights are permitted for ceremonial roles such as funeral escorts or special-duty vehicles, and some states require a permit or restrict them to specific vehicle classes. Rules for emergency vehicles often differ from the rules for privately owned vehicles, so always confirm your local laws before you install and operate purple warning lights.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"What makes green and purple LED lights effective for safety?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Green and purple are uncommon on the road, so they stand out from typical red, blue, and amber vehicle lighting and draw driver attention faster. That distinction increases the odds other drivers notice the vehicle early and react, which matters most in busy traffic, at roadside scenes, and in low-light or nighttime conditions. Paired with high-intensity output, the color contrast helps both emergency vehicles and POVs stay seen when it counts.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Can these LEDs handle tough work environments?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Our green and purple warning lights are weather-sealed and vibration-resistant, with rugged housings built for the demands emergency responders, escort drivers, and fleet operators put on their equipment. Many carry an IP-rated waterproof seal so they hold up to rain, dust, snow, and road shock. Check each product listing for its specific rating and construction details.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Do your LEDs meet industry safety standards?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Many of our green and purple LED lights are SAE-rated or built to meet NFPA and local emergency-lighting codes, including SAE J595 class ratings on select lightheads. Certifications vary by product, so review each listing for the exact SAE class, compliance details, and beam specifications before you buy to make sure the light fits your role and jurisdiction.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"How are purple LED lights used in funeral or escort services?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Purple LED lights are widely used to mark funeral processions and escort vehicles, where the solemn, uncommon color tells other drivers the group is moving together and should not be split apart. Escort drivers and volunteers often mount purple dash or grille lights on both dedicated units and privately owned vehicles, since the distinct color helps guide and protect the procession in transit while commanding respect on the road.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Can I install green or purple LEDs on my vehicle without rewiring?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Most of our green and purple lights are plug-and-play or need only minimal wiring, which makes them practical for fleet managers and individual installers alike. Dash and window units are especially quick to set up and transfer between vehicles without drilling, so they are a popular choice for POVs. Our install guides and instructional videos walk through the common setups, and our team can handle a full build when you prefer.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Are your LEDs bright enough for daylight visibility?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. Our green and purple LED lights use high-lumen output engineered for daylight visibility, so the vehicle stays seen in direct sun as well as at night. Many lightheads add multiple flash patterns to increase conspicuity in bright conditions. Output varies by model, so check each listing for brightness and pattern specifications to match the light to your visibility needs.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Is it legal to mix green or purple lights with other emergency colors?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"This varies by state and vehicle type. Mixing colors is often permitted for command or specialty vehicles, and combinations like purple with amber or white are common on escort and utility setups. Because the rules differ by jurisdiction and by whether the vehicle is an emergency vehicle or a POV, always consult your local regulations before running a multi-color configuration.\"\n          }\n        },\n        {\n          \"@type\": \"Question\",\n          \"name\": \"Do you offer surface mounts, dash lights, or lightbars in these colors?\",\n          \"acceptedAnswer\": {\n            \"@type\": \"Answer\",\n            \"text\": \"Yes. We carry green and purple LED lights in every major form factor, from discreet hideaway strobes and interior dash and window lights to grille and surface mounts, LED sticks, mini lightbars, and 360-degree beacons. That range lets you outfit an emergency vehicle or a privately owned vehicle with the exact mount your build calls for, in the color your role requires.\"\n          }\n        }\n      ]\n    }\n  ]\n}\n</script>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_rich_text_bNRBkf",
+    "dynamic_faq_jGyEYj",
+    "static-recently-viewed",
+    "dynamic_custom_liquid_Fc4qmi"
+  ]
+}
