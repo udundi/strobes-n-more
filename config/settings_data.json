@@ -119,11 +119,6 @@
         "disabled": false,
         "settings": {}
       },
-      "14656832010101544780": {
-        "type": "shopify://apps/apo-product-options/blocks/app-embed-block/a1199153-7462-4b5b-8a80-f0eefba85e99",
-        "disabled": false,
-        "settings": {}
-      },
       "14280642947000332093": {
         "type": "shopify://apps/warnify-pro-warnings/blocks/main/b82106ea-6172-4ab0-814f-17df1cb2b18a",
         "disabled": false,
@@ -170,9 +165,7 @@
           "customProductTemplateLoader": "{%- capture productTemplate -%}{% render 'globo.filter.product', themeTranslation: shop.metafields.globoFilter.themeTranslation.value[request.locale.iso_code] %}{%- endcapture -%}{%- unless productTemplate contains 'Liquid error' -%}<script id=\"gspfProduct\" type=\"template/html\">{{- productTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}",
           "customTreeTemplateLoader": "{%- capture treeTemplate -%}{% render 'globo.filter.tree' %}{%- endcapture -%}{%- unless treeTemplate contains 'Liquid error' -%}<script id=\"gspfFilterTree\" type=\"template/html\">{{- treeTemplate | replace: \"script>\", \"scripttag>\" -}}</script>{%- endunless -%}",
           "customSortTemplateLoader": "",
-          "customSearchTemplateLoader": "",
-          "customPaginationTemplateLoader": "",
-          "customYMMTemplateLoader": ""
+          "customSearchTemplateLoader": ""
         }
       },
       "5017882195547572635": {
@@ -185,15 +178,17 @@
         "disabled": false,
         "settings": {}
       },
-      "12739210202647819536": {
-        "type": "shopify://apps/hotjar-install/blocks/global-api-events/2903e4ea-7615-463e-8b60-582f487dac4f",
-        "disabled": false,
-        "settings": {}
-      },
       "8669066016853369741": {
         "type": "shopify://apps/hotjar-install/blocks/global/2903e4ea-7615-463e-8b60-582f487dac4f",
         "disabled": false,
         "settings": {}
+      },
+      "14656832010101544780": {
+        "type": "shopify://apps/apo-product-options/blocks/app-embed-block/a1199153-7462-4b5b-8a80-f0eefba85e99",
+        "disabled": false,
+        "settings": {
+          "load_on_product_only": true
+        }
       }
     }
   },
