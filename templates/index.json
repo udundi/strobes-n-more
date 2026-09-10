@@ -475,138 +475,6 @@
         "text_alignment": "center-center"
       }
     },
-    "dynamic_collection_list": {
-      "type": "dynamic-collection-list",
-      "blocks": {
-        "collection-1": {
-          "type": "collection",
-          "settings": {
-            "collection": "led-lights",
-            "image": "shopify://shop_images/Frame_1.jpg",
-            "title": "LED Lights"
-          }
-        },
-        "collection-2": {
-          "type": "collection",
-          "settings": {
-            "collection": "sirens-speakers",
-            "image": "shopify://shop_images/Frame_2.jpg",
-            "title": "Sirens & Speakers"
-          }
-        },
-        "collection-3": {
-          "type": "collection",
-          "settings": {
-            "collection": "lightbars",
-            "image": "shopify://shop_images/Frame_3.jpg",
-            "title": "Lightbars"
-          }
-        },
-        "collection-4": {
-          "type": "collection",
-          "settings": {
-            "collection": "360-beacons",
-            "image": "shopify://shop_images/Frame_4.jpg",
-            "title": "360 Beacons"
-          }
-        },
-        "collection-5": {
-          "type": "collection",
-          "settings": {
-            "collection": "switches-controllers",
-            "image": "shopify://shop_images/Frame_5.jpg",
-            "title": "Switches & Controllers"
-          }
-        },
-        "collection-6": {
-          "type": "collection",
-          "settings": {
-            "collection": "flasher-modules",
-            "image": "shopify://shop_images/Frame_6.jpg",
-            "title": "Flasher Modules"
-          }
-        },
-        "collection_hkEPqM": {
-          "type": "collection",
-          "settings": {
-            "collection": "vehicle-specific-consoles",
-            "image": "shopify://shop_images/Frame_7.jpg",
-            "title": "Vehicle Consoles"
-          }
-        },
-        "collection_VFfdKL": {
-          "type": "collection",
-          "settings": {
-            "collection": "cables-accessories",
-            "image": "shopify://shop_images/Frame_8.jpg",
-            "title": "Cables & Accessories"
-          }
-        },
-        "collection_iaqcma": {
-          "type": "collection",
-          "settings": {
-            "collection": "arrow-traffic-advisor-bars-1",
-            "image": "shopify://shop_images/Arrow_Traffic_Advisor_LED_Lightbars.jpg",
-            "title": "Arrow & Traffic LED Lightbars"
-          }
-        },
-        "collection_NVxyXU": {
-          "type": "collection",
-          "settings": {
-            "collection": "replacement-bulbs-lenses",
-            "image": "shopify://shop_images/Replacement_Lenses_Bulbs.jpg",
-            "title": "Replacement Lenses & Bulbs"
-          }
-        },
-        "collection_qrbbAU": {
-          "type": "collection",
-          "settings": {
-            "collection": "new-products",
-            "image": "shopify://shop_images/New_Products.jpg",
-            "title": "New Products"
-          }
-        },
-        "collection_77NgWN": {
-          "type": "collection",
-          "settings": {
-            "collection": "more",
-            "image": "shopify://shop_images/More2_8d85b24d-f18f-4ac9-9fc9-218d2235dd9b.jpg",
-            "title": "More"
-          }
-        }
-      },
-      "block_order": [
-        "collection-1",
-        "collection-2",
-        "collection-3",
-        "collection-4",
-        "collection-5",
-        "collection-6",
-        "collection_hkEPqM",
-        "collection_VFfdKL",
-        "collection_iaqcma",
-        "collection_NVxyXU",
-        "collection_qrbbAU",
-        "collection_77NgWN"
-      ],
-      "disabled": true,
-      "custom_css": [
-        "{background-color: #21225b; margin-top: 60px; padding-bottom: 10px;}",
-        "span {color: white;}",
-        "h2 {padding-top: 25px; color: white;}",
-        " {margin-top: -70px;}",
-        "@media (max-width: 768px) {{margin-top: -50px; }}"
-      ],
-      "settings": {
-        "title": "EMERGENCY VEHICLE LIGHTING & ACCESSORIES",
-        "thumbnail_columns_desktop": 4,
-        "thumbnail_columns_mobile": 2,
-        "image-crop": "original",
-        "cta_label": "",
-        "cta_link": "",
-        "cta_button_style": "primary"
-      }
-    },
     "dynamic_featured_collection_xVetnN": {
       "type": "dynamic-featured-collection",
       "blocks": {
@@ -1042,6 +910,22 @@
       "settings": {
         "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Strobes N' More\",\n  \"url\": \"https://strobesnmore.com/\",\n  \"logo\": \"https://strobesnmore.com/cdn/shop/files/logo_transparent2x_562x192.png\",\n  \"contactPoint\": {\n    \"@type\": \"ContactPoint\",\n    \"telephone\": \"+1-401-454-4487\",\n    \"contactType\": \"Customer Service\",\n    \"areaServed\": \"US\",\n    \"availableLanguage\": \"en\"\n  },\n  \"sameAs\": [\n    \"https://www.facebook.com/Strobesnmore/\",\n    \"https://www.instagram.com/strobesnmore/\",\n    \"https://youtube.com/user/StrobesnmoreUSA\"\n\n  ]\n}\n</script>"
       }
+    },
+    "pxs_image_with_text_overlay_AFRj9R": {
+      "type": "pxs-image-with-text-overlay",
+      "name": "t:sections.image_with_text_overlay.presets.name",
+      "settings": {
+        "section_height": "original",
+        "image": "shopify://shop_images/Untitled_-_September_09_2026_at_11.43.00-1_1.png",
+        "title": "",
+        "text": "",
+        "content_position": "center-center",
+        "color": "#ffffff",
+        "overlay_background": "#000000",
+        "overlay_opacity": 0,
+        "link": "",
+        "button_text": ""
+      }
     }
   },
   "order": [
@@ -1049,12 +933,12 @@
     "dynamic_custom_liquid_C9HdJ3",
     "dynamic_html_W7kwn9",
     "dynamic_custom_liquid_nXfma8",
+    "pxs_image_with_text_overlay_AFRj9R",
     "dynamic_promo_mosaic_8tfXTh",
     "dynamic_promo_mosaic_793pfQ",
     "dynamic_html_AprpAt",
     "dynamic_featured_collection-2",
     "dynamic_promo_grid_BKC7RM",
-    "dynamic_collection_list",
     "dynamic_featured_collection_xVetnN",
     "dynamic_featured_collection_M4FrNj",
     "dynamic_promo_mosaic",
