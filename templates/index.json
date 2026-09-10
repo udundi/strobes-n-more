@@ -52,6 +52,22 @@
         "custom_liquid": "{% comment %}\n  Universal Divider Section with Custom Margins\n{% endcomment %}\n\n<div class=\"mobile-divider-section\"></div>\n\n<style>\n  .mobile-divider-section {\n    background-color: #ffe614;\n    width: 100vw;\n    position: relative;\n    left: 50%;\n    right: 50%;\n    margin-left: -50vw;\n    margin-right: -50vw;\n    height: 5px;\n    display: block; /* Visible on all screens */\n  }\n  \n  /* Responsive margin settings */\n  @media screen and (max-width: 1023px) {\n    .mobile-divider-section {\n      margin-top: -50px; /* Top margin for small screens */\n    }\n  }\n  \n  @media screen and (min-width: 1024px) {\n    .mobile-divider-section {\n      margin-top: -70px; /* Top margin for large screens */\n    }\n  }\n</style>"
       }
     },
+    "pxs_image_with_text_overlay_AFRj9R": {
+      "type": "pxs-image-with-text-overlay",
+      "name": "t:sections.image_with_text_overlay.presets.name",
+      "settings": {
+        "section_height": "original",
+        "image": "shopify://shop_images/Untitled_-_September_09_2026_at_11.43.00-1_1.png",
+        "title": "",
+        "text": "",
+        "content_position": "center-center",
+        "color": "#ffffff",
+        "overlay_background": "#000000",
+        "overlay_opacity": 0,
+        "link": "https://strobesnmore.com/collections/garage-sale",
+        "button_text": ""
+      }
+    },
     "dynamic_promo_mosaic_8tfXTh": {
       "type": "dynamic-promo-mosaic",
       "blocks": {
@@ -909,22 +925,6 @@
       "name": "t:sections.custom_liquid.presets.custom_liquid.name",
       "settings": {
         "custom_liquid": "<script type=\"application/ld+json\">\n{\n  \"@context\": \"https://schema.org\",\n  \"@type\": \"Organization\",\n  \"name\": \"Strobes N' More\",\n  \"url\": \"https://strobesnmore.com/\",\n  \"logo\": \"https://strobesnmore.com/cdn/shop/files/logo_transparent2x_562x192.png\",\n  \"contactPoint\": {\n    \"@type\": \"ContactPoint\",\n    \"telephone\": \"+1-401-454-4487\",\n    \"contactType\": \"Customer Service\",\n    \"areaServed\": \"US\",\n    \"availableLanguage\": \"en\"\n  },\n  \"sameAs\": [\n    \"https://www.facebook.com/Strobesnmore/\",\n    \"https://www.instagram.com/strobesnmore/\",\n    \"https://youtube.com/user/StrobesnmoreUSA\"\n\n  ]\n}\n</script>"
-      }
-    },
-    "pxs_image_with_text_overlay_AFRj9R": {
-      "type": "pxs-image-with-text-overlay",
-      "name": "t:sections.image_with_text_overlay.presets.name",
-      "settings": {
-        "section_height": "original",
-        "image": "shopify://shop_images/Untitled_-_September_09_2026_at_11.43.00-1_1.png",
-        "title": "",
-        "text": "",
-        "content_position": "center-center",
-        "color": "#ffffff",
-        "overlay_background": "#000000",
-        "overlay_opacity": 0,
-        "link": "",
-        "button_text": ""
       }
     }
   },
