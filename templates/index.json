@@ -54,6 +54,9 @@
     },
     "pxs_image_with_text_overlay_AFRj9R": {
       "type": "pxs-image-with-text-overlay",
+      "custom_css": [
+        "{margin-top: 20px;}"
+      ],
       "name": "t:sections.image_with_text_overlay.presets.name",
       "settings": {
         "section_height": "original",
